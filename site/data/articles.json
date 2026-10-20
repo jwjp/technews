@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:04:53Z",
+  "generatedAt": "2026-10-20T01:08:57Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -153,19 +153,10 @@
       "id": "4edf3552cd701064f127",
       "title": "빠른 기기가 왜 기다려야 하지?",
       "url": "https://techblog.musinsa.com/%EB%B9%A0%EB%A5%B8-%EA%B8%B0%EA%B8%B0%EA%B0%80-%EC%99%9C-%EA%B8%B0%EB%8B%A4%EB%A0%A4%EC%95%BC-%ED%95%98%EC%A7%80-a0533ee53dd2",
-      "summary": "",
-      "publishedAt": "2026-10-19T22:01:02Z",
-      "sourceIds": [
-        "techblogposts"
-      ]
-    },
-    {
-      "id": "936d6a6daf92a1c72274",
-      "title": "빠른 기기가 왜 기다려야 하지?",
-      "url": "https://indieblog.net/go/623835",
       "summary": "테스트 자동화 Framework 3.0 전환기 안녕하세요. MUSINSA Automation QE팀 정다정입니다. 저희는 앱 빌드나 웹 프론트엔드(FE) 배포가 끝날 때마다 실기기에서 BVT(Build Verification Test, 새 빌드의 핵심 기능이 정상 동작하는지 확인하는 테스트)를 자동으로 수행합니다. 결과는 Slack과 TMS(Test Man…",
       "publishedAt": "2026-10-19T22:01:02Z",
       "sourceIds": [
+        "techblogposts",
         "indieblog"
       ]
     },
@@ -635,29 +626,11 @@
       "id": "be1dcc4466d8f055cbea",
       "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
       "url": "https://techblog.samsung.com/blog/article/101",
-      "summary": "",
-      "publishedAt": "2026-10-19T05:45:03Z",
-      "sourceIds": [
-        "techblogposts"
-      ]
-    },
-    {
-      "id": "c632261da045fb846424",
-      "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
-      "url": "https://velopers.kr/post/9485",
       "summary": "JEV의 질문·답 계약을 LLM Gateway 판정 API로 구현해 사내 소형 LLM에 적용했습니다. 출력 간소화로 지연 시간을 줄이고 라벨 오류 항목만 재판정했습니다.",
       "publishedAt": "2026-10-19T05:45:03Z",
       "sourceIds": [
-        "velopers"
-      ]
-    },
-    {
-      "id": "2e8006ff9817aad021b3",
-      "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
-      "url": "https://indieblog.net/go/620581",
-      "summary": "분류와 등급 산정까지 채팅 모델에 텍스트로 요청하면 파싱과 재시도 같은 추가 작업이 발생합니다. 본 글에서는 이러한 문제를 해결하고자 JEV의 질문과 답 형식을 LLM Gateway의 판정 API로 구현하여 사내 소형 LLM에 짧은 결정을 맡긴 경험을 공유합니다. 출력 간소화 실험을 통해 항목당 지연 시간을 1,534ms에서 804ms로 단축한 과정과, C…",
-      "publishedAt": "2026-10-19T05:45:03Z",
-      "sourceIds": [
+        "techblogposts",
+        "velopers",
         "indieblog"
       ]
     },
@@ -789,46 +762,19 @@
       "summary": "모바일 앱 QA에서 실기기로 Safe Area, 키보드, 터치, 화면 전환을 검증해야 하는 이유를 설명했습니다. 출시 전후 목적에 맞춘 이슈 기록과 재검수 운영 원칙을 제안합니다.",
       "publishedAt": "2026-10-19T03:25:02Z",
       "sourceIds": [
-        "velopers"
-      ]
-    },
-    {
-      "id": "8f4deb9dbdd354ffb8f0",
-      "title": "모바일 앱 QA, 어디서 어떻게 검증해야 할까",
-      "url": "https://indieblog.net/go/620567",
-      "summary": "",
-      "publishedAt": "2026-10-19T03:25:02Z",
-      "sourceIds": [
+        "velopers",
         "indieblog"
       ]
     },
     {
       "id": "37ad05c35b5d58ac8817",
       "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
-      "url": "https://velopers.kr/post/9482",
+      "url": "https://toss.tech/article/nic-interrupt-bottleneck",
       "summary": "평균 지표에 가려진 Oracle 커밋 지연을 CPU별 NIC 인터럽트와 LGWR 경합으로 분석했습니다. NIC 슬롯과 본딩 방식을 바꿔 인터럽트를 분산하고 CPU·SQL 성능을 개선했습니다.",
       "publishedAt": "2026-10-19T03:07:00Z",
       "sourceIds": [
-        "velopers"
-      ]
-    },
-    {
-      "id": "00ae2530bf175f35b0e6",
-      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
-      "url": "https://indieblog.net/go/620358",
-      "summary": "NIC 인터럽트에서 찾은 병목",
-      "publishedAt": "2026-10-19T03:07:00Z",
-      "sourceIds": [
-        "indieblog"
-      ]
-    },
-    {
-      "id": "c46c624fd55cad383dc8",
-      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
-      "url": "https://toss.tech/article/nic-interrupt-bottleneck",
-      "summary": "NIC 인터럽트에서 찾은 병목",
-      "publishedAt": "2026-10-19T03:07:00Z",
-      "sourceIds": [
+        "velopers",
+        "indieblog",
         "awesome"
       ]
     },
@@ -1291,7 +1237,7 @@
     {
       "id": "227d6cc72f3f5af36ccd",
       "title": "회의실을 벗어나 잔디밭으로! 여기어때 전사 가을 운동회 현장",
-      "url": "https://indieblog.net/go/601196",
+      "url": "https://techblog.gccompany.co.kr/%ED%9A%8C%EC%9D%98%EC%8B%A4%EC%9D%84-%EB%B2%97%EC%96%B4%EB%82%98-%EC%9E%94%EB%94%94%EB%B0%AD%EC%9C%BC%EB%A1%9C-%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C-%EC%A0%84%EC%82%AC-%EA%B0%80%EC%9D%84-%EC%9A%B4%EB%8F%99%ED%9A%8C-%ED%98%84%EC%9E%A5-7d072429c14a",
       "summary": "여기어때가 9월 말 진행한 전사 가을 운동회 현장을 소개했습니다. 사내 구성원의 교류를 위한 문화 행사 소식입니다.",
       "publishedAt": "2026-10-16T07:21:49Z",
       "sourceIds": [
@@ -1335,20 +1281,11 @@
     {
       "id": "6273a86e9a43ff02b27f",
       "title": "실행은 도메인별로, 문맥은 한 레포에",
-      "url": "https://indieblog.net/go/601126",
-      "summary": "중앙 DW Airflow를 멈추지 않고 도메인별 DW로 나눈 9개월",
-      "publishedAt": "2026-10-16T06:15:00Z",
-      "sourceIds": [
-        "indieblog"
-      ]
-    },
-    {
-      "id": "a0ffe9da4bda811e6fa6",
-      "title": "실행은 도메인별로, 문맥은 한 레포에",
       "url": "https://toss.tech/article/dw-airflow-migration",
       "summary": "중앙 DW Airflow를 멈추지 않고 도메인별 DW로 나눈 9개월",
       "publishedAt": "2026-10-16T06:15:00Z",
       "sourceIds": [
+        "indieblog",
         "awesome"
       ]
     },
@@ -1405,7 +1342,7 @@
     {
       "id": "8ab59a51af08169892e0",
       "title": "AI로 E2E 회귀 테스트 자동화하기: ‘딸깍’을 파이프라인으로 바꾸기까지",
-      "url": "https://indieblog.net/go/599627",
+      "url": "https://techblog.lycorp.co.jp/ko/ai-e2e-test-automation",
       "summary": "들어가며안녕하세요. LINE Plus에서 대만 Giftshop 서비스 QA를 담당하고 있는 김혜영입니다.최근 AI를 테스트 자동화에 활용하려는 다양한 시도와 실제 적용 사례를 접하...",
       "publishedAt": "2026-10-16T02:00:00Z",
       "sourceIds": [

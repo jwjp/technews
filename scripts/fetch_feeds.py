@@ -26,7 +26,7 @@ OUTPUT = ROOT / "site" / "data" / "articles.json"
 ATOM = "{http://www.w3.org/2005/Atom}"
 DC = "{http://purl.org/dc/elements/1.1/}"
 TRACKING_KEYS = {"fbclid", "gclid", "igshid", "mc_cid", "mc_eid", "source"}
-AGGREGATOR_HOSTS = {"velopers.kr", "www.velopers.kr", "news.hada.io"}
+AGGREGATOR_HOSTS = {"velopers.kr", "www.velopers.kr", "news.hada.io", "indieblog.net", "www.indieblog.net"}
 MAX_FEED_BYTES = 5_000_000
 MAX_ARTICLES = 2000
 MAX_AGE_DAYS = 180
@@ -180,7 +180,7 @@ def merge_articles(old: list[dict], incoming: list[dict], source_order: list[str
     for article in valid:
         key = title_key(article)
         match = by_url.get(article["url"])
-        if not match and len(key) >= 20:
+        if not match and len(key) >= 8:
             for candidate in by_title.get(key, []):
                 left = datetime.fromisoformat(candidate["publishedAt"].replace("Z", "+00:00"))
                 right = datetime.fromisoformat(article["publishedAt"].replace("Z", "+00:00"))
