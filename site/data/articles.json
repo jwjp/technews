@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:41:29Z",
+  "generatedAt": "2026-10-20T02:48:12Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -40,7 +40,7 @@
     {
       "id": "etnews-it",
       "name": "전자신문 · IT",
-      "url": "https://rss.etnews.com/03.xml",
+      "url": "https://www.etnews.com/rss/03.xml",
       "group": "국내 IT 뉴스",
       "type": "news",
       "topics": [
@@ -50,7 +50,7 @@
     {
       "id": "etnews-sw",
       "name": "전자신문 · SW",
-      "url": "https://rss.etnews.com/04.xml",
+      "url": "https://www.etnews.com/rss/04.xml",
       "group": "국내 IT 뉴스",
       "type": "news",
       "topics": [
@@ -60,7 +60,7 @@
     {
       "id": "etnews-security",
       "name": "전자신문 · 보안",
-      "url": "https://rss.etnews.com/04045.xml",
+      "url": "https://www.etnews.com/rss/04045.xml",
       "group": "국내 IT 뉴스",
       "type": "news",
       "topics": [
@@ -70,7 +70,7 @@
     {
       "id": "etnews-ai",
       "name": "전자신문 · AI",
-      "url": "https://rss.etnews.com/04046.xml",
+      "url": "https://www.etnews.com/rss/04046.xml",
       "group": "국내 IT 뉴스",
       "type": "news",
       "topics": [
@@ -80,7 +80,7 @@
     {
       "id": "etnews-mobility",
       "name": "전자신문 · 모빌리티",
-      "url": "https://rss.etnews.com/17.xml",
+      "url": "https://www.etnews.com/rss/17.xml",
       "group": "국내 IT 뉴스",
       "type": "news",
       "topics": [
