@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
-    <script type="module" src="./app.js?v=20261020-economy-blogs"></script>
+    <script type="module" src="./app.js?v=20261020-weekly-discovery"></script>
   </head>
   <body>
     <div class="site-shell">
@@ -51,6 +51,7 @@
               <button class="nav-item" data-view="all" type="button"><span class="nav-icon">◈</span><span>전체 글</span><span class="nav-count" id="count-all">0</span></button>
               <button class="nav-item" data-view="unread" type="button"><span class="nav-icon">◌</span><span>읽지 않은 글</span><span class="nav-count" id="count-unread">0</span></button>
               <button class="nav-item" data-view="saved" type="button"><span class="nav-icon">☆</span><span>저장한 글</span><span class="nav-count" id="count-saved">0</span></button>
+              <button class="nav-item" data-view="discover" type="button"><span class="nav-icon">✳</span><span>새 소스 발견</span><span class="nav-count" id="count-discover">0</span></button>
             </nav>
           </div>
 
@@ -78,7 +79,7 @@
         <main class="main-content" id="main-content">
           <div class="content-topline"><span class="topline-label">THE READING LIST</span><span class="topline-line"></span><span id="today-date"></span></div>
           <div class="content-title-row"><div><h2 id="view-title">기술 글</h2><p id="view-description">새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요.</p></div><span class="result-count" id="result-count">—</span></div>
-          <div class="toolbar">
+          <div class="toolbar" id="article-toolbar">
             <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="제목, 출처, 내용 검색" aria-label="글 검색" /></label>
             <div class="toolbar-actions">
               <label class="interest-toggle"><input id="interest-only" type="checkbox" /><span>관심 글만</span></label>
@@ -116,6 +117,18 @@
           <div class="filter-summary" id="filter-summary" hidden></div>
           <div id="articles" class="articles" aria-live="polite"><div class="loading-state"><span class="loading-spinner"></span><p>오늘의 글을 모으는 중...</p></div></div>
           <button id="load-more" class="load-more" type="button" hidden>글 더 보기 <span>↓</span></button>
+          <section id="discover-panel" class="discover-panel" aria-label="주간 새 소스 후보" hidden>
+            <div class="discover-toolbar">
+              <div class="discover-tabs" role="group" aria-label="후보 분야">
+                <button class="discover-tab active" type="button" data-discover-section="tech" aria-pressed="true">기술</button>
+                <button class="discover-tab" type="button" data-discover-section="economy" aria-pressed="false">경제</button>
+                <button class="discover-tab" type="button" data-discover-section="saved" aria-pressed="false">저장한 후보</button>
+              </div>
+              <span class="discover-week" id="discover-week">후보 확인 중</span>
+            </div>
+            <p class="discover-intro">최근 글과 주제를 확인한 RSS 소스입니다. 후보 저장은 구독 추가와 별개이며 이 브라우저에 저장됩니다.</p>
+            <div id="discover-list" class="discover-list" aria-live="polite"></div>
+          </section>
         </main>
       </div>
 

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "비즈워치 · 증권",
+    "siteUrl": "https://news.bizwatch.co.kr/category/market",
+    "feedUrl": "https://news.bizwatch.co.kr/rss/service/market",
+    "section": "economy",
+    "kind": "news",
+    "topics": ["주식"],
+    "foundVia": "비즈워치 RSS 안내"
+  },
+  {
+    "name": "비즈워치 · 부동산",
+    "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
+    "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
+    "section": "economy",
+    "kind": "news",
+    "topics": ["부동산"],
+    "foundVia": "비즈워치 RSS 안내"
+  },
+  {
+    "name": "비즈워치 · 경제",
+    "siteUrl": "https://news.bizwatch.co.kr/category/finance",
+    "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
+    "section": "economy",
+    "kind": "news",
+    "topics": ["금융"],
+    "foundVia": "비즈워치 RSS 안내"
+  },
+  {
+    "name": "비즈워치 · 데이터·정책",
+    "siteUrl": "https://news.bizwatch.co.kr/category/policy",
+    "feedUrl": "https://news.bizwatch.co.kr/rss/service/policy",
+    "section": "economy",
+    "kind": "news",
+    "topics": ["정책"],
+    "foundVia": "비즈워치 RSS 안내"
+  },
+  {
+    "name": "비즈워치 · IT바이오",
+    "siteUrl": "https://news.bizwatch.co.kr/category/mobile",
+    "feedUrl": "https://news.bizwatch.co.kr/rss/service/mobile",
+    "section": "tech",
+    "kind": "news",
+    "topics": ["기술"],
+    "foundVia": "비즈워치 RSS 안내"
+  },
+  {
+    "name": "뱅크샐러드 기술 블로그",
+    "siteUrl": "https://blog.banksalad.com/tech/",
+    "section": "tech",
+    "kind": "blog",
+    "foundVia": "RSS 자동 발견"
+  },
+  {
+    "name": "청년개미의 경제 이야기",
+    "siteUrl": "https://blog.naver.com/ya_nt",
+    "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+    "section": "economy",
+    "kind": "blog",
+    "foundVia": "경제 블로그 후보"
+  },
+  {
+    "name": "한대디의 미국주식 이야기",
+    "siteUrl": "https://blog.naver.com/gjwlh",
+    "feedUrl": "https://rss.blog.naver.com/gjwlh.xml",
+    "section": "economy",
+    "kind": "blog",
+    "foundVia": "경제 블로그 후보"
+  }
+]

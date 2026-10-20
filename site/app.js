@@ -6,6 +6,14 @@ const state = {
   articles: [],
   sources: [],
   generatedAt: null,
+  candidates: [],
+  candidateArchive: [],
+  candidateWeek: "",
+  discoveryError: "",
+  discoverySection: "tech",
+  savedCandidateIds: [],
+  savedCandidates: [],
+  hiddenCandidateIds: [],
   view: "reading",
   disabledSources: [],
   favoriteKeywords: "",
@@ -25,8 +33,11 @@ const state = {
 function restoreState() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    for (const key of ["disabledSources", "readIds", "savedIds"]) {
+    for (const key of ["disabledSources", "readIds", "savedIds", "savedCandidateIds", "hiddenCandidateIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
+    }
+    if (Array.isArray(saved.savedCandidates)) {
+      state.savedCandidates = saved.savedCandidates.filter((item) => item && typeof item.id === "string" && typeof item.name === "string" && Array.isArray(item.samples)).slice(-100);
     }
     for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyBlogTopic", "economyTopic"]) {
       if (typeof saved[key] === "string") state[key] = saved[key];
@@ -47,6 +58,9 @@ function saveState() {
       hiddenKeywords: state.hiddenKeywords,
       readIds: state.readIds,
       savedIds: state.savedIds,
+      savedCandidateIds: state.savedCandidateIds,
+      savedCandidates: state.savedCandidates,
+      hiddenCandidateIds: state.hiddenCandidateIds,
       theme: state.theme,
       newsTopic: state.newsTopic,
       economyBlogTopic: state.economyBlogTopic,
@@ -211,6 +225,97 @@ function articleCard(article, index) {
   return card;
 }
 
+function candidateInterest(candidate) {
+  const words = keywords(state.favoriteKeywords);
+  if (!words.length) return 0;
+  const text = `${candidate.name} ${(candidate.topics || []).join(" ")} ${(candidate.samples || []).map((item) => item.title).join(" ")}`.toLocaleLowerCase("ko");
+  return words.filter((word) => text.includes(word)).length;
+}
+
+function candidateCard(candidate) {
+  const card = make("article", "candidate-card");
+  const meta = make("div", "candidate-meta");
+  meta.append(make("span", "candidate-kind", candidate.kind === "blog" ? "블로그" : candidate.kind === "policy" ? "정책 원문" : "뉴스"));
+  for (const topic of (candidate.topics || []).slice(0, 4)) meta.append(make("span", "candidate-topic", topic));
+  meta.append(make("time", "candidate-date", `최근 발행 ${formatDate(candidate.latestAt)}`));
+  const title = make("h3", "candidate-title");
+  const siteLink = make("a", "", candidate.name);
+  siteLink.href = candidate.siteUrl;
+  siteLink.target = "_blank";
+  siteLink.rel = "noopener noreferrer";
+  title.append(siteLink);
+  const detail = make("p", "candidate-detail", `최근 120일 ${candidate.recentCount}개 글 · ${candidate.foundVia}에서 발견`);
+  const sampleLabel = make("div", "candidate-sample-label", "최근 글 미리보기");
+  const samples = make("ul", "candidate-samples");
+  for (const sample of candidate.samples || []) {
+    const item = make("li");
+    const link = make("a", "", sample.title);
+    link.href = sample.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    item.append(link);
+    samples.append(item);
+  }
+  const actions = make("div", "candidate-actions");
+  const saved = state.savedCandidateIds.includes(candidate.id);
+  const save = make("button", `candidate-action${saved ? " is-saved" : ""}`, saved ? "★ 후보 저장됨" : "☆ 후보 저장");
+  save.type = "button";
+  save.addEventListener("click", () => {
+    state.savedCandidateIds = saved ? state.savedCandidateIds.filter((id) => id !== candidate.id) : [...state.savedCandidateIds, candidate.id];
+    state.savedCandidates = saved ? state.savedCandidates.filter((item) => item.id !== candidate.id) : [...state.savedCandidates.filter((item) => item.id !== candidate.id), candidate].slice(-100);
+    saveState();
+    render();
+  });
+  const hidden = state.hiddenCandidateIds.includes(candidate.id);
+  const hide = make("button", "candidate-action", hidden ? "숨김 취소" : "후보 숨기기");
+  hide.type = "button";
+  hide.addEventListener("click", () => {
+    state.hiddenCandidateIds = hidden ? state.hiddenCandidateIds.filter((id) => id !== candidate.id) : [...state.hiddenCandidateIds, candidate.id];
+    saveState();
+    render();
+  });
+  const rss = make("a", "candidate-rss-link", "RSS 보기 ↗");
+  rss.href = candidate.feedUrl;
+  rss.target = "_blank";
+  rss.rel = "noopener noreferrer";
+  actions.append(save, hide, rss);
+  card.append(meta, title, detail, sampleLabel, samples, actions);
+  return card;
+}
+
+function renderDiscovery() {
+  document.querySelectorAll(".discover-tab").forEach((button) => {
+    const active = button.dataset.discoverSection === state.discoverySection;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+  const week = state.candidateWeek.match(/^(\d{4})-W(\d{2})$/);
+  $("#discover-week").textContent = week ? `${week[1]}년 ${Number(week[2])}주차 추천` : "주간 후보";
+  const list = $("#discover-list");
+  list.replaceChildren();
+  if (state.discoveryError) {
+    list.append(make("p", "discover-empty", state.discoveryError));
+    $("#result-count").textContent = "—";
+    return;
+  }
+  const all = [...state.savedCandidates, ...state.candidateArchive, ...state.candidates];
+  const unique = [...new Map(all.map((candidate) => [candidate.id, candidate])).values()];
+  const candidates = state.discoverySection === "saved"
+    ? unique.filter((candidate) => state.savedCandidateIds.includes(candidate.id))
+    : state.candidates.filter((candidate) => candidate.section === state.discoverySection && !state.hiddenCandidateIds.includes(candidate.id));
+  candidates.sort((a, b) => {
+    const savedDifference = Number(state.savedCandidateIds.includes(b.id)) - Number(state.savedCandidateIds.includes(a.id));
+    return savedDifference || candidateInterest(b) - candidateInterest(a) || b.score - a.score;
+  });
+  $("#result-count").textContent = `${candidates.length}개 소스`;
+  if (!candidates.length) {
+    const message = state.discoverySection === "saved" ? "저장한 후보가 아직 없습니다." : "이번 주에 조건을 통과한 새 후보가 없습니다.";
+    list.append(make("p", "discover-empty", message));
+    return;
+  }
+  candidates.forEach((candidate) => list.append(candidateCard(candidate)));
+}
+
 function render() {
   const titles = {
     reading: ["기술 글", "새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요."],
@@ -220,6 +325,7 @@ function render() {
     all: ["전체 글", "기술·경제 블로그와 뉴스를 시간순으로 모았어요."],
     unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."],
     saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."],
+    discover: ["새 소스 발견", "기술·경제 RSS를 매주 살펴보고 새 구독 후보를 추천해요."],
   };
   $("#view-title").textContent = titles[state.view][0];
   $("#view-description").textContent = titles[state.view][1];
@@ -227,6 +333,10 @@ function render() {
   $("#news-topics").hidden = state.view !== "news";
   $("#economy-blog-topics").hidden = state.view !== "economy-blog";
   $("#economy-topics").hidden = state.view !== "economy";
+  const discovering = state.view === "discover";
+  $("#article-toolbar").hidden = discovering;
+  $("#discover-panel").hidden = !discovering;
+  $("#articles").hidden = discovering;
   for (const [selector, selected] of [["#news-topics", state.newsTopic], ["#economy-blog-topics", state.economyBlogTopic], ["#economy-topics", state.economyTopic]]) {
     document.querySelectorAll(`${selector} .topic-button`).forEach((button) => {
       const active = button.dataset.topic === selected;
@@ -242,6 +352,13 @@ function render() {
   $("#count-all").textContent = available.length.toLocaleString("ko-KR");
   $("#count-unread").textContent = available.filter((item) => !state.readIds.includes(item.id)).length.toLocaleString("ko-KR");
   $("#count-saved").textContent = available.filter((item) => state.savedIds.includes(item.id)).length.toLocaleString("ko-KR");
+  $("#count-discover").textContent = state.candidates.filter((item) => !state.hiddenCandidateIds.includes(item.id)).length.toLocaleString("ko-KR");
+  if (discovering) {
+    $("#filter-summary").hidden = true;
+    $("#load-more").hidden = true;
+    renderDiscovery();
+    return;
+  }
   const articles = filteredArticles();
   $("#result-count").textContent = `${articles.length.toLocaleString("ko-KR")}개의 글`;
   const summary = $("#filter-summary");
@@ -279,6 +396,10 @@ function bindEvents() {
     state.visibleCount = PAGE_SIZE;
     saveState();
     render();
+  }));
+  document.querySelectorAll(".discover-tab").forEach((button) => button.addEventListener("click", () => {
+    state.discoverySection = button.dataset.discoverSection;
+    renderDiscovery();
   }));
   $("#search-input").addEventListener("input", (event) => { state.query = event.target.value; state.visibleCount = PAGE_SIZE; render(); });
   $("#sort-order").addEventListener("change", (event) => { state.sort = event.target.value; render(); });
@@ -351,6 +472,19 @@ async function init() {
     $("#updated-at").textContent = "";
     console.error(error);
   }
+  try {
+    const response = await fetch("./data/candidates.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    if (!Array.isArray(data.candidates) || !Array.isArray(data.archive)) throw new Error("후보 형식이 올바르지 않습니다.");
+    state.candidates = data.candidates;
+    state.candidateArchive = data.archive;
+    state.candidateWeek = data.week || "";
+  } catch (error) {
+    state.discoveryError = "추천 후보를 불러오지 못했습니다. 잠시 후 다시 열어 주세요.";
+    console.error(error);
+  }
+  render();
 }
 
 init();

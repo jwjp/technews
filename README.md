@@ -13,6 +13,7 @@
 - 출처 구독·숨김, 제목·소개 검색, 관심/제외 키워드
 - 읽음 표시, 북마크, 다크 모드
 - 브라우저에 설정 저장, JSON 내보내기·가져오기
+- 매주 기술·경제 RSS 후보 추천, 최근 글 미리보기, 후보 저장·숨김
 - 3시간마다 피드 갱신 및 GitHub Pages 자동 배포
 
 ## 로컬 실행
@@ -21,10 +22,17 @@ Python 3.10 이상이면 추가 패키지 없이 실행할 수 있습니다.
 
 ```sh
 python scripts/fetch_feeds.py
+python scripts/discover_sources.py
 python -m http.server 8000 --directory site
 ```
 
 브라우저에서 `http://localhost:8000`을 엽니다. 수집기 실행 시 `site/data/articles.json`이 갱신됩니다.
+
+## 주간 새 소스 후보
+
+`Recommend weekly sources` 작업은 매주 월요일 오전 8시 31분(한국 시간)에 실행되어 `site/data/candidates.json`을 갱신합니다. 기술 후보는 [Awesome Devblog](https://github.com/awesome-devblog/awesome-devblog)의 공개 RSS 목록과 `discovery_seeds.json`에서, 경제 후보는 [블라이의 경제 블로그 공개 목록](https://blai.co.kr/blog-stats/ranking)과 `discovery_seeds.json`에서 찾습니다. 후보의 RSS를 실제로 읽어 최근 120일에 글이 2개 이상이고 주제 관련 제목이 있는 소스만 추천합니다. 후보 목록이 바뀌면 기존 Pages 작업이 배포합니다.
+
+사이트의 ‘후보 저장’과 ‘후보 숨기기’는 브라우저별 설정입니다. 후보 저장은 정식 구독 추가와 별개입니다. 검토를 마친 소스는 `sources.json`에 추가해야 기존 글 목록으로 수집됩니다. 특정 공개 목록에 접속할 수 없어도 다른 후보 입력은 계속 확인합니다. 같은 주에 수동으로 다시 검사하려면 `python scripts/discover_sources.py --force`를 실행합니다.
 
 ## 소스 추가
 

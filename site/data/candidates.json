@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-10-20T06:32:40Z",
+  "week": "2026-W43",
+  "candidates": [
+    {
+      "id": "e86f858b3a4d21a8",
+      "name": "코딩팩토리",
+      "siteUrl": "https://coding-factory.tistory.com/",
+      "feedUrl": "https://coding-factory.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-10-07T12:20:27Z",
+      "checkedAt": "2026-10-20T06:31:21Z",
+      "recentCount": 29,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "[Spring] 스프링 전역 예외 처리 - @ExceptionHandler와 @RestControllerAdvice 사용법",
+          "url": "https://coding-factory.tistory.com/1282",
+          "publishedAt": "2026-10-07T12:20:27Z"
+        },
+        {
+          "title": "[Spring] 스프링 Argument Resolver란 무엇인가?",
+          "url": "https://coding-factory.tistory.com/1281",
+          "publishedAt": "2026-10-06T12:48:18Z"
+        },
+        {
+          "title": "[Spring] 스프링 필터(Filter) vs 인터셉터(Interceptor) 차이점과 선택 기준 총정리",
+          "url": "https://coding-factory.tistory.com/1280",
+          "publishedAt": "2026-10-03T17:22:32Z"
+        }
+      ],
+      "score": 69
+    },
+    {
+      "id": "546c3c3ae0d2c8fb",
+      "name": "고지안",
+      "siteUrl": "https://jakpentest.tistory.com/",
+      "feedUrl": "https://jakpentest.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "기술"
+      ],
+      "latestAt": "2026-10-09T10:28:22Z",
+      "recentCount": 6,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Apache를 웹 서버로 쓰는 WSGI의 Python Sub Intepreter 이슈",
+          "url": "https://jakpentest.tistory.com/498",
+          "publishedAt": "2026-10-09T10:28:22Z"
+        },
+        {
+          "title": "한빛미디어 - 나는리뷰어다2026, AI 시대의 엔지니어링 전략",
+          "url": "https://jakpentest.tistory.com/496",
+          "publishedAt": "2026-08-27T13:37:06Z"
+        },
+        {
+          "title": "3. AI 가지고 놀기 - PoorMan의 AI Remote Control",
+          "url": "https://jakpentest.tistory.com/494",
+          "publishedAt": "2026-08-12T05:50:48Z"
+        }
+      ],
+      "score": 36
+    },
+    {
+      "id": "fa3b20684a772fd4",
+      "name": "김은호",
+      "siteUrl": "https://djkeh.github.io/",
+      "feedUrl": "https://djkeh.github.io/atom.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "보안"
+      ],
+      "latestAt": "2026-10-18T16:43:01Z",
+      "recentCount": 4,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "2026 구글 딥마인드 AI 해커톤 참석 후기",
+          "url": "https://djkeh.github.io/articles/Google-DeepMind-AI-hackathon-2026-review-kor",
+          "publishedAt": "2026-10-18T16:43:01Z"
+        },
+        {
+          "title": "ADE? 새로운 개발도구 Kepler를 소개합니다",
+          "url": "https://djkeh.github.io/articles/What-is-ADE-introducing-Kepler-kor",
+          "publishedAt": "2026-09-01T01:00:00Z"
+        },
+        {
+          "title": "Gitkraken Desktop 12.4 업데이트",
+          "url": "https://djkeh.github.io/articles/Gitkraken-desktop-12-4-0-release-kor",
+          "publishedAt": "2026-08-17T01:00:00Z"
+        }
+      ],
+      "score": 21
+    },
+    {
+      "id": "81c407aee213ade9",
+      "name": "이성훈",
+      "siteUrl": "https://brunch.co.kr/@jamess",
+      "feedUrl": "https://brunch.co.kr/rss/@@2Jp",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "개발"
+      ],
+      "latestAt": "2026-10-13T08:52:26Z",
+      "recentCount": 4,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "수파베이스 무료로 시작해 월 1천만 원이 된 이유 - 청구서를 키우는 항목과 사용량 화면 읽는 법",
+          "url": "https://brunch.co.kr/@@2Jp/118",
+          "publishedAt": "2026-10-13T08:52:26Z"
+        },
+        {
+          "title": "20년 적자 팔란티어는 어떻게 580조 원이 됐나 - 고객 현장에서 배운 것을 제품으로 옮긴 회사",
+          "url": "https://brunch.co.kr/@@2Jp/117",
+          "publishedAt": "2026-10-13T08:51:00Z"
+        },
+        {
+          "title": "23년차 개발자가 1인 기업이 되기까지 - 연세대 컴공 나와서 대기업 대신 창업한 이유",
+          "url": "https://brunch.co.kr/@@2Jp/116",
+          "publishedAt": "2026-10-13T08:49:28Z"
+        }
+      ],
+      "score": 20
+    },
+    {
+      "id": "3e39567f43f5c71b",
+      "name": "김현기",
+      "siteUrl": "https://eclipse4j.tistory.com/",
+      "feedUrl": "https://eclipse4j.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-10-18T05:40:08Z",
+      "recentCount": 3,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "끄적끄적. AI 협업 이야기.",
+          "url": "https://eclipse4j.tistory.com/427",
+          "publishedAt": "2026-10-18T05:40:08Z"
+        },
+        {
+          "title": "클로드 API 무료 제시 - MAX 사용자.",
+          "url": "https://eclipse4j.tistory.com/426",
+          "publishedAt": "2026-10-09T03:15:21Z"
+        },
+        {
+          "title": "업무용 관리자 사이트에 MCP 를 적용하고 좋아서.",
+          "url": "https://eclipse4j.tistory.com/425",
+          "publishedAt": "2026-10-09T03:00:19Z"
+        }
+      ],
+      "score": 19
+    },
+    {
+      "id": "721e41841cea0145",
+      "name": "mytory 웹개발",
+      "siteUrl": "https://mytory.net/",
+      "feedUrl": "https://mytory.net/feed",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-10-09T07:08:12Z",
+      "recentCount": 3,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "AI 시대 주니어 개발자의 역할은 무엇이 돼야 할까요?",
+          "url": "https://mytory.net/archives/18787",
+          "publishedAt": "2026-10-09T07:08:12Z"
+        },
+        {
+          "title": "Codex CLI 사용량 끝났을 때 한도가 리셋되면 자동으로 계속하게 하기",
+          "url": "https://mytory.net/archives/18757",
+          "publishedAt": "2026-10-05T15:44:25Z"
+        },
+        {
+          "title": "LLM 이해하기",
+          "url": "https://mytory.net/archives/18723",
+          "publishedAt": "2026-10-04T08:45:39Z"
+        }
+      ],
+      "score": 18
+    },
+    {
+      "id": "a74dd0667343bdce",
+      "name": "비즈워치 · 경제",
+      "siteUrl": "https://news.bizwatch.co.kr/category/finance",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "금융"
+      ],
+      "latestAt": "2026-10-20T02:09:03Z",
+      "checkedAt": "2026-10-20T06:32:40Z",
+      "recentCount": 48,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "해킹 여파 내부통제부터 성과급까지…신한은행장 집중 질타",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/20/0013",
+          "publishedAt": "2026-10-20T02:09:03Z"
+        },
+        {
+          "title": "[1조 베팅, 승자는]신한금융, 전통 보험 인수…앞날은 험난",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/15/0033",
+          "publishedAt": "2026-10-20T00:14:02Z"
+        },
+        {
+          "title": "[1조 베팅, 승자는]하나금융, '두나무' 선점…아무도 가보지 않은 길",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/19/0017",
+          "publishedAt": "2026-10-20T00:10:02Z"
+        }
+      ],
+      "score": 56
+    },
+    {
+      "id": "f4e53755c27db3d7",
+      "name": "한대디의 미국주식 이야기",
+      "siteUrl": "https://blog.naver.com/gjwlh",
+      "feedUrl": "https://rss.blog.naver.com/gjwlh.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "금융",
+        "부동산",
+        "주식"
+      ],
+      "latestAt": "2026-10-20T05:09:09Z",
+      "checkedAt": "2026-10-20T06:32:40Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "\"2년 만에 최저\" 원달러환율 전망, 미국 ETF 투자방법",
+          "url": "https://blog.naver.com/gjwlh/224447709377?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T05:09:09Z"
+        },
+        {
+          "title": "스페이스X 주가 실적 전망, 테슬라 합병설까지",
+          "url": "https://blog.naver.com/gjwlh/224447621673?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T04:00:00Z"
+        },
+        {
+          "title": "미국금리 채권금리, 내려가면 뭐가 먼저 움직이나",
+          "url": "https://blog.naver.com/gjwlh/224447592229?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T03:14:58Z"
+        }
+      ],
+      "score": 52
+    },
+    {
+      "id": "2fd206ab3e8ea9b0",
+      "name": "비즈워치 · 부동산",
+      "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "부동산",
+        "정책"
+      ],
+      "latestAt": "2026-10-20T05:44:03Z",
+      "checkedAt": "2026-10-20T06:32:40Z",
+      "recentCount": 58,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "[영상]자취생 울리는 월세 \"이렇게 줄일 수 있어요\"",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/19/0023",
+          "publishedAt": "2026-10-20T05:44:03Z"
+        },
+        {
+          "title": "'맞춤 K하우스' 내세운 극동건설, 금천 시흥 가로주택 수주",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/20/0016",
+          "publishedAt": "2026-10-20T02:32:03Z"
+        },
+        {
+          "title": "\"안 팔리는데 가격도 못 내린다\"…'진퇴양난' 지방 분양시장",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/15/0036",
+          "publishedAt": "2026-10-19T21:36:03Z"
+        }
+      ],
+      "score": 48
+    },
+    {
+      "id": "edb8cbee16ae8bd4",
+      "name": "비즈워치 · 증권",
+      "siteUrl": "https://news.bizwatch.co.kr/category/market",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/market",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "금융",
+        "정책",
+        "주식"
+      ],
+      "latestAt": "2026-10-20T06:24:03Z",
+      "checkedAt": "2026-10-20T06:32:40Z",
+      "recentCount": 69,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "닷새간 3000억 강제청산...증시조정에 거세진 빚투 '후폭풍'",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/10/20/0021",
+          "publishedAt": "2026-10-20T06:24:03Z"
+        },
+        {
+          "title": "따상은 커녕 공모가 붕괴...코스닥 대어 '엘리스' 혹독한 신고식",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/10/20/0017",
+          "publishedAt": "2026-10-20T05:19:02Z"
+        },
+        {
+          "title": "스페이스X 평가손에 발목 잡힌 미래에셋…오히려 '매수' 나온 이유",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/10/20/0009",
+          "publishedAt": "2026-10-20T01:22:03Z"
+        }
+      ],
+      "score": 48
+    },
+    {
+      "id": "99a6f09bb9878069",
+      "name": "청년개미의 경제 이야기",
+      "siteUrl": "https://blog.naver.com/ya_nt",
+      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "금융",
+        "주식"
+      ],
+      "latestAt": "2026-10-20T06:30:00Z",
+      "checkedAt": "2026-10-20T06:32:40Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "빅텍 대신 방산 ETF 사면 될까? PLUS K방산·KODEX 방산TOP10 비교",
+          "url": "https://blog.naver.com/ya_nt/224447728575?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T06:30:00Z"
+        },
+        {
+          "title": "엔화 환율 100엔당 10원 차이, 일본 여행 10만엔 환전하면 얼마 달라질까?",
+          "url": "https://blog.naver.com/ya_nt/224447771053?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T06:20:00Z"
+        },
+        {
+          "title": "SK하이닉스 자사주 매입 94.52%, 40조 매수 끝나면 주가는 어떻게 될까?",
+          "url": "https://blog.naver.com/ya_nt/224447741146?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T05:50:00Z"
+        }
+      ],
+      "score": 40
+    }
+  ],
+  "archive": [
+    {
+      "id": "e64c434ac2fa41c5",
+      "name": "Channy's Blog",
+      "siteUrl": "https://channy.creation.net/",
+      "feedUrl": "https://feeds.feedburner.com/channy",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-09-20T19:04:59Z",
+      "checkedAt": "2026-10-20T06:31:21Z",
+      "recentCount": 2,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Back to the Basic: AI 시대에도 기본에 충실한 클라우드 컴퓨팅",
+          "url": "https://channy.creation.net/blog/1990",
+          "publishedAt": "2026-09-20T19:04:59Z"
+        },
+        {
+          "title": "AI 에이전트 시대, 개발자는 어떻게 일해야 하는가? – 프론티어 엔지니어링의 10가지 원칙",
+          "url": "https://channy.creation.net/blog/1989",
+          "publishedAt": "2026-09-13T16:04:37Z"
+        }
+      ],
+      "score": 12
+    }
+  ]
+}

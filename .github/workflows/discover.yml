@@ -1,0 +1,32 @@
+name: Recommend weekly sources
+
+on:
+  schedule:
+    - cron: "31 23 * * 0"
+  workflow_dispatch:
+
+concurrency:
+  group: technews-pages
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check and rank candidate feeds
+        run: python scripts/discover_sources.py
+      - name: Save weekly candidates
+        run: |
+          if ! git diff --quiet -- site/data/candidates.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/data/candidates.json
+            git commit -m "Update weekly source candidates"
+            git push
+          fi
