@@ -156,6 +156,38 @@
     "topics": ["기술"]
   },
   {
+    "id": "mer-blog",
+    "name": "메르의 블로그",
+    "url": "https://rss.blog.naver.com/ranto28.xml",
+    "group": "경제 블로그",
+    "type": "economy-blog",
+    "topics": ["경제"]
+  },
+  {
+    "id": "babybear-blog",
+    "name": "아기곰의 부동산 산책",
+    "url": "https://rss.blog.naver.com/a-cute-bear.xml",
+    "group": "경제 블로그",
+    "type": "economy-blog",
+    "topics": ["부동산"]
+  },
+  {
+    "id": "richnote-blog",
+    "name": "오윤섭의 부자노트",
+    "url": "https://rss.blog.naver.com/rpartners01.xml",
+    "group": "경제 블로그",
+    "type": "economy-blog",
+    "topics": ["부동산"]
+  },
+  {
+    "id": "jackpasi-blog",
+    "name": "잭파시 갭투자 연구소",
+    "url": "https://rss.blog.naver.com/jackpasi.xml",
+    "group": "경제 블로그",
+    "type": "economy-blog",
+    "topics": ["부동산"]
+  },
+  {
     "id": "hankyung-finance",
     "name": "한국경제 · 증권",
     "url": "https://www.hankyung.com/feed/finance",

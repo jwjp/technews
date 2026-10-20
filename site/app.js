@@ -18,6 +18,7 @@ const state = {
   query: "",
   sort: "newest",
   newsTopic: "",
+  economyBlogTopic: "",
   economyTopic: "",
 };
 
@@ -27,7 +28,7 @@ function restoreState() {
     for (const key of ["disabledSources", "readIds", "savedIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
     }
-    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyTopic"]) {
+    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyBlogTopic", "economyTopic"]) {
       if (typeof saved[key] === "string") state[key] = saved[key];
     }
   } catch {
@@ -48,6 +49,7 @@ function saveState() {
       savedIds: state.savedIds,
       theme: state.theme,
       newsTopic: state.newsTopic,
+      economyBlogTopic: state.economyBlogTopic,
       economyTopic: state.economyTopic,
     }));
   } catch {
@@ -79,12 +81,20 @@ function hasSourceType(article, type) {
   return article.sourceIds.some((id) => !state.disabledSources.includes(id) && state.sources.find((source) => source.id === id)?.type === type);
 }
 
+function isTechBlog(article) {
+  return article.sourceIds.some((id) => !state.disabledSources.includes(id) && !state.sources.find((source) => source.id === id)?.type);
+}
+
 function isNews(article) {
   return hasSourceType(article, "news");
 }
 
 function isEconomy(article) {
   return hasSourceType(article, "economy");
+}
+
+function isEconomyBlog(article) {
+  return hasSourceType(article, "economy-blog");
 }
 
 function searchText(article) {
@@ -98,9 +108,11 @@ function filteredArticles() {
   const query = state.query.trim().toLocaleLowerCase("ko");
   return state.articles.filter((article) => {
     if (!hasSource(article)) return false;
-    if (state.view === "reading" && (isNews(article) || isEconomy(article))) return false;
+    if (state.view === "reading" && !isTechBlog(article)) return false;
     if (state.view === "news" && !isNews(article)) return false;
     if (state.view === "news" && state.newsTopic && !(article.topics || []).includes(state.newsTopic)) return false;
+    if (state.view === "economy-blog" && !isEconomyBlog(article)) return false;
+    if (state.view === "economy-blog" && state.economyBlogTopic && !(article.topics || []).includes(state.economyBlogTopic)) return false;
     if (state.view === "economy" && !isEconomy(article)) return false;
     if (state.view === "economy" && state.economyTopic && !(article.topics || []).includes(state.economyTopic)) return false;
     if (state.view === "unread" && state.readIds.includes(article.id)) return false;
@@ -165,7 +177,7 @@ function articleCard(article, index) {
     const source = state.sources.find((item) => item.id === id);
     if (source) sources.append(make("span", "source-pill", source.name));
   }
-  if (isNews(article) || isEconomy(article)) {
+  if (isNews(article) || isEconomy(article) || isEconomyBlog(article)) {
     for (const topic of article.topics || []) sources.append(make("span", "topic-pill", topic));
   }
   top.append(sources, make("time", "article-date", formatDate(article.publishedAt)));
@@ -203,8 +215,9 @@ function render() {
   const titles = {
     reading: ["기술 글", "새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요."],
     news: ["기술 뉴스", "기술·개발·소프트웨어·보안·AI·자동차 뉴스를 골라 보세요."],
+    "economy-blog": ["경제 글", "주식·경제·부동산을 다루는 블로그 글을 모았어요."],
     economy: ["경제 뉴스", "주식·금융·부동산·경제·정책 소식을 골라 보세요."],
-    all: ["전체 글", "기술 글과 기술·경제 뉴스를 시간순으로 모았어요."],
+    all: ["전체 글", "기술·경제 블로그와 뉴스를 시간순으로 모았어요."],
     unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."],
     saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."],
   };
@@ -212,8 +225,9 @@ function render() {
   $("#view-description").textContent = titles[state.view][1];
   document.querySelectorAll(".nav-item").forEach((item) => item.classList.toggle("active", item.dataset.view === state.view));
   $("#news-topics").hidden = state.view !== "news";
+  $("#economy-blog-topics").hidden = state.view !== "economy-blog";
   $("#economy-topics").hidden = state.view !== "economy";
-  for (const [selector, selected] of [["#news-topics", state.newsTopic], ["#economy-topics", state.economyTopic]]) {
+  for (const [selector, selected] of [["#news-topics", state.newsTopic], ["#economy-blog-topics", state.economyBlogTopic], ["#economy-topics", state.economyTopic]]) {
     document.querySelectorAll(`${selector} .topic-button`).forEach((button) => {
       const active = button.dataset.topic === selected;
       button.classList.toggle("active", active);
@@ -221,8 +235,9 @@ function render() {
     });
   }
   const available = state.articles.filter(hasSource);
-  $("#count-reading").textContent = available.filter((item) => !isNews(item) && !isEconomy(item)).length.toLocaleString("ko-KR");
+  $("#count-reading").textContent = available.filter(isTechBlog).length.toLocaleString("ko-KR");
   $("#count-news").textContent = available.filter(isNews).length.toLocaleString("ko-KR");
+  $("#count-economy-blog").textContent = available.filter(isEconomyBlog).length.toLocaleString("ko-KR");
   $("#count-economy").textContent = available.filter(isEconomy).length.toLocaleString("ko-KR");
   $("#count-all").textContent = available.length.toLocaleString("ko-KR");
   $("#count-unread").textContent = available.filter((item) => !state.readIds.includes(item.id)).length.toLocaleString("ko-KR");
@@ -233,6 +248,7 @@ function render() {
   const filters = [];
   if (state.query.trim()) filters.push(`검색: ${state.query.trim()}`);
   if (state.view === "news" && state.newsTopic) filters.push(`분야: ${state.newsTopic}`);
+  if (state.view === "economy-blog" && state.economyBlogTopic) filters.push(`분야: ${state.economyBlogTopic}`);
   if (state.view === "economy" && state.economyTopic) filters.push(`분야: ${state.economyTopic}`);
   if (state.interestOnly && keywords(state.favoriteKeywords).length) filters.push("관심 키워드");
   if (keywords(state.hiddenKeywords).length) filters.push("숨길 키워드 적용 중");
@@ -258,7 +274,8 @@ function bindEvents() {
     $("#main-content").scrollIntoView({ behavior: "smooth", block: "start" });
   }));
   document.querySelectorAll(".topic-button").forEach((button) => button.addEventListener("click", () => {
-    state[button.closest("#economy-topics") ? "economyTopic" : "newsTopic"] = button.dataset.topic;
+    const topicKey = button.closest("#economy-blog-topics") ? "economyBlogTopic" : button.closest("#economy-topics") ? "economyTopic" : "newsTopic";
+    state[topicKey] = button.dataset.topic;
     state.visibleCount = PAGE_SIZE;
     saveState();
     render();

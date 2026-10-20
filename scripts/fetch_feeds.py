@@ -29,7 +29,7 @@ TRACKING_KEYS = {"fbclid", "gclid", "igshid", "mc_cid", "mc_eid", "source"}
 AGGREGATOR_HOSTS = {"velopers.kr", "www.velopers.kr", "news.hada.io", "indieblog.net", "www.indieblog.net"}
 MAX_FEED_BYTES = 5_000_000
 MAX_AGE_DAYS = 180
-SECTION_LIMITS = {"reading": 1000, "news": 1800, "economy": 1800}
+SECTION_LIMITS = {"reading": 1000, "news": 1800, "economy-blog": 1000, "economy": 1800}
 NEWS_TOPICS = ("기술", "개발", "소프트웨어", "보안", "AI", "자동차")
 ECONOMY_TOPICS = ("주식", "금융", "부동산", "경제", "정책")
 TITLE_TOPICS = {
@@ -175,7 +175,7 @@ def entries_from(root: ET.Element, source: dict) -> list[dict]:
         topics = set(source.get("topics", []))
         if source.get("type") == "news":
             topics.update(classify_news(title))
-        elif source.get("type") == "economy":
+        elif source.get("type") in {"economy", "economy-blog"}:
             topics.update(classify_economy(title))
         if source.get("classify") and not topics:
             continue
@@ -209,6 +209,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
     source_topics = {source["id"]: source.get("topics", []) for source in sources}
     news_sources = {source["id"] for source in sources if source.get("type") == "news"}
     economy_sources = {source["id"] for source in sources if source.get("type") == "economy"}
+    economy_blogs = {source["id"] for source in sources if source.get("type") == "economy-blog"}
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     valid = []
     for article in old + incoming:
@@ -220,7 +221,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
                     topics.update(source_topics[source_id])
                 if any(source_id in news_sources for source_id in known_sources):
                     topics.update(classify_news(article["title"]))
-                if any(source_id in economy_sources for source_id in known_sources):
+                if any(source_id in economy_sources | economy_blogs for source_id in known_sources):
                     topics.update(classify_economy(article["title"]))
                 if any(source_id in news_sources | economy_sources for source_id in known_sources) and not topics:
                     continue
@@ -259,7 +260,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
     kept = []
     for article in merged:
         ids = set(article["sourceIds"])
-        section = "economy" if ids & economy_sources else "news" if ids & news_sources else "reading"
+        section = "economy-blog" if ids & economy_blogs else "economy" if ids & economy_sources else "news" if ids & news_sources else "reading"
         if section_counts[section] < SECTION_LIMITS[section]:
             kept.append(article)
             section_counts[section] += 1

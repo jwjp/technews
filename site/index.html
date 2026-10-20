@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f7f6f2" />
-    <meta name="description" content="광고 없이 읽는 기술 글과 경제 뉴스. 관심 있는 글을 골라 읽고 저장하세요." />
-    <title>모아읽기 — 기술 글과 경제 뉴스</title>
+    <meta name="description" content="광고 없이 읽는 기술·경제 블로그와 뉴스. 관심 있는 글을 골라 읽고 저장하세요." />
+    <title>모아읽기 — 기술·경제 글과 뉴스</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -29,7 +29,7 @@
         <div class="hero-copy">
           <div class="eyebrow"><span class="live-dot"></span> YOUR DAILY READING SPACE</div>
           <h1 id="hero-title">읽고 싶은 글만<br /><em>한곳에 모았어요.</em></h1>
-          <p>기술 블로그와 국내 IT·경제 뉴스를 한눈에. 취향에 맞게 고르고, 마음에 드는 글은 저장해 두세요.</p>
+          <p>기술·경제 블로그와 국내 IT·경제 뉴스를 한눈에. 취향에 맞게 고르고, 마음에 드는 글은 저장해 두세요.</p>
           <div class="hero-meta"><span id="article-count">글을 불러오는 중</span><span class="meta-divider"></span><span id="updated-at">피드 확인 중</span></div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -46,6 +46,7 @@
             <nav class="feed-nav" aria-label="읽기 목록">
               <button class="nav-item active" data-view="reading" type="button"><span class="nav-icon">▦</span><span>기술 글</span><span class="nav-count" id="count-reading">0</span></button>
               <button class="nav-item" data-view="news" type="button"><span class="nav-icon">◫</span><span>기술 뉴스</span><span class="nav-count" id="count-news">0</span></button>
+              <button class="nav-item" data-view="economy-blog" type="button"><span class="nav-icon">▤</span><span>경제 글</span><span class="nav-count" id="count-economy-blog">0</span></button>
               <button class="nav-item" data-view="economy" type="button"><span class="nav-icon">▥</span><span>경제 뉴스</span><span class="nav-count" id="count-economy">0</span></button>
               <button class="nav-item" data-view="all" type="button"><span class="nav-icon">◈</span><span>전체 글</span><span class="nav-count" id="count-all">0</span></button>
               <button class="nav-item" data-view="unread" type="button"><span class="nav-icon">◌</span><span>읽지 않은 글</span><span class="nav-count" id="count-unread">0</span></button>
@@ -93,6 +94,15 @@
             <button class="topic-button" data-topic="보안" type="button" aria-pressed="false">보안</button>
             <button class="topic-button" data-topic="AI" type="button" aria-pressed="false">AI</button>
             <button class="topic-button" data-topic="자동차" type="button" aria-pressed="false">자동차</button>
+          </div>
+          <div id="economy-blog-topics" class="news-topics" aria-label="경제 글 분야" hidden>
+            <span class="news-topics-label">분야별 보기</span>
+            <button class="topic-button active" data-topic="" type="button" aria-pressed="true">전체</button>
+            <button class="topic-button" data-topic="주식" type="button" aria-pressed="false">주식</button>
+            <button class="topic-button" data-topic="금융" type="button" aria-pressed="false">금융</button>
+            <button class="topic-button" data-topic="부동산" type="button" aria-pressed="false">부동산</button>
+            <button class="topic-button" data-topic="경제" type="button" aria-pressed="false">경제</button>
+            <button class="topic-button" data-topic="정책" type="button" aria-pressed="false">정책</button>
           </div>
           <div id="economy-topics" class="news-topics" aria-label="경제 뉴스 분야" hidden>
             <span class="news-topics-label">분야별 보기</span>
