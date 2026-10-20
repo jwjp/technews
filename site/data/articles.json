@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:25:20Z",
+  "generatedAt": "2026-10-20T02:41:29Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -38,28 +38,88 @@
       "group": "커뮤니티"
     },
     {
+      "id": "etnews-it",
+      "name": "전자신문 · IT",
+      "url": "https://rss.etnews.com/03.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "etnews-sw",
       "name": "전자신문 · SW",
       "url": "https://rss.etnews.com/04.xml",
       "group": "국내 IT 뉴스",
-      "type": "news"
+      "type": "news",
+      "topics": [
+        "소프트웨어"
+      ]
     },
     {
       "id": "etnews-security",
       "name": "전자신문 · 보안",
       "url": "https://rss.etnews.com/04045.xml",
       "group": "국내 IT 뉴스",
-      "type": "news"
+      "type": "news",
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "etnews-ai",
+      "name": "전자신문 · AI",
+      "url": "https://rss.etnews.com/04046.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "etnews-mobility",
+      "name": "전자신문 · 모빌리티",
+      "url": "https://rss.etnews.com/17.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "zdnet",
+      "name": "ZDNet Korea",
+      "url": "https://feeds.feedburner.com/zdkorea",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "classify": true
     },
     {
       "id": "aitimes",
       "name": "AI타임스",
       "url": "https://www.aitimes.com/rss/allArticle.xml",
       "group": "국내 IT 뉴스",
-      "type": "news"
+      "type": "news",
+      "topics": [
+        "AI"
+      ]
     }
   ],
   "articles": [
+    {
+      "id": "27e158b693d7db138d68",
+      "title": "앤트로픽, ‘숨은 의도 읽는’ 새 모델 준비...구글·오픈AI도 후속 출시 예고",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216424",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:39:33Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
     {
       "id": "b1d22f91e2c8a9356a97",
       "title": "[AI리더의 서가] 다중 에이전트 시스템을 위한 컨텍스트 엔지니어링",
@@ -68,6 +128,9 @@
       "publishedAt": "2026-10-20T09:00:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -78,6 +141,9 @@
       "publishedAt": "2026-10-20T07:00:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -88,6 +154,9 @@
       "publishedAt": "2026-10-20T06:41:29Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -98,6 +167,46 @@
       "publishedAt": "2026-10-20T05:29:07Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "8f7c964f0d83f3138dd5",
+      "title": "우크라이나, 드론으로 부상병을 처음 후송했다고 밝혀",
+      "url": "https://news.hada.io/topic?id=35683",
+      "summary": "우크라이나 제92독립강습여단 이 전선의 부상병을 공중 드론으로 후송하는 영상을 공개하고, 세계 최초 사례 라고 밝힘 여단에 따르면 적 드론의 집중적인 활동과 지뢰 때문에 기존 무인 지상 차량으로는 부상병을 후송할 수 없었음 사용 ...",
+      "publishedAt": "2026-10-20T02:36:32Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "4ecaf9f2f9d4261f6ed2",
+      "title": "룰라 지지자들, Meta의 ‘선거 개입’을 규탄하며 시위",
+      "url": "https://news.hada.io/topic?id=35682",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:33:31Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "d6e6a16fbf08239edd89",
+      "title": "성남시, AI로 야간·휴일 민원 접수…긴급 상황은 당직 근무자 연결",
+      "url": "https://www.etnews.com/20261020000152",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:16:32Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -108,6 +217,20 @@
       "publishedAt": "2026-10-20T02:03:05Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "a408ad732503a5230b8f",
+      "title": "중국 스마트폰, 칩플레이션 직격탄",
+      "url": "https://www.etnews.com/20261020000050",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -117,7 +240,12 @@
       "summary": "",
       "publishedAt": "2026-10-20T01:43:52Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -127,7 +255,12 @@
       "summary": "",
       "publishedAt": "2026-10-20T01:29:36Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -138,6 +271,33 @@
       "publishedAt": "2026-10-20T01:28:32Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "3d61381d93d2fcd03730",
+      "title": "유럽 공략하는 KG모빌리티…탄소 배출량 관리 체계 구축",
+      "url": "https://zdnet.co.kr/view?no=20261020102655",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:26:55Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "cedb306e50a45620b76e",
+      "title": "NC AI, 콘텐츠 제작 문턱 낮춘다…구독료 50% 할인",
+      "url": "https://zdnet.co.kr/view?no=20261020102540",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:25:40Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -149,6 +309,10 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
       ]
     },
     {
@@ -159,7 +323,40 @@
       "publishedAt": "2026-10-20T01:19:00Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "adf0c853ab56eb027fb7",
+      "title": "SK머티리얼즈JNC-SN디스플레이, 페로브스카이트 양산 협력",
+      "url": "https://zdnet.co.kr/view?no=20261020094857",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:15:41Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "acc469adced584dc3505",
+      "title": "에버스핀, ‘에버세이프 웹’으로 금융·공공 등 AI 해킹위협 IP 21만여 개 탐지",
+      "url": "https://zdnet.co.kr/view?no=20261020101424",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:14:24Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -170,7 +367,13 @@
       "publishedAt": "2026-10-20T01:12:17Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -180,7 +383,12 @@
       "summary": "",
       "publishedAt": "2026-10-20T01:11:09Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -191,6 +399,33 @@
       "publishedAt": "2026-10-20T01:10:28Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "1b0d00059dc2d6f18807",
+      "title": "AI 답변 1만 5663회 분석했더니…지디넷코리아, 국내 언론 중 인용 1위",
+      "url": "https://zdnet.co.kr/view?no=20261018130759",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:07:17Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "7c50b4233b829fde4cf0",
+      "title": "[써보고서] 챗GPT와 첫 마라톤 훈련…전문가 조언 더해 안전히 기록 단축",
+      "url": "https://zdnet.co.kr/view?no=20261019111911",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:06:12Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -200,7 +435,12 @@
       "summary": "",
       "publishedAt": "2026-10-20T01:04:42Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -210,7 +450,25 @@
       "summary": "",
       "publishedAt": "2026-10-20T01:03:11Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "13438e8cb2fb6b04ecf6",
+      "title": "SNS 금지당한 호주 청소년, 스마트폰과 멀어졌을까",
+      "url": "https://zdnet.co.kr/view?no=20261020100248",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:02:48Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -221,6 +479,72 @@
       "publishedAt": "2026-10-20T01:02:01Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "152c82ea5fe7cc94426f",
+      "title": "폭스바겐코리아, 100대 한정 '골프 GTI 다크 모스 에디션' 사전계약",
+      "url": "https://www.etnews.com/20261020000081",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:59:37Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "7f74500186b869c93c23",
+      "title": "\"워터마크, 지우면 그만\"…AI기본법 책임·표시 의무 손질해야",
+      "url": "https://zdnet.co.kr/view?no=20261020095628",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:57:44Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "d901eafe2ff9479e973c",
+      "title": "\"출시도 전에 베낄라\"…게임 업계, 'AI 복제' 우려에 비상",
+      "url": "https://zdnet.co.kr/view?no=20261020093050",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:56:19Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "40998e048aa1d0cbda07",
+      "title": "[ICT시사용어] 메모리 병목",
+      "url": "https://www.etnews.com/20261020000076",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:55:15Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "369b6b5f1d7311f8f732",
+      "title": "KT, 아크릴과 의료 AX 협력...병원 맞춤 AI 서비스 확산",
+      "url": "https://zdnet.co.kr/view?no=20261020094721",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:50:18Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -231,6 +555,73 @@
       "publishedAt": "2026-10-20T00:49:14Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "4c2c11c5d65ef9dfee9d",
+      "title": "GM “ 2028년 '아이즈 오프' 상용화”",
+      "url": "https://www.etnews.com/20261020000070",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:49:13Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "85d481dcf7bf29c36fa2",
+      "title": "美 패트릭 J. 맥거번 재단 \"AI 안전, 기업 약속만으론 부족…정부가 검증해야\"",
+      "url": "https://zdnet.co.kr/view?no=20261018201554",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:47:54Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "2e5666aeb345ae8a2291",
+      "title": "AI는 '더러운 데이터'보다 '쓸 수 없는 데이터'에서 실패한다",
+      "url": "https://zdnet.co.kr/view?no=20261020093811",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:47:44Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "1f3c1b2790ebe5dd2d2a",
+      "title": "현대차·기아, 레벨4 자율주행 대형트럭 실증 추진",
+      "url": "https://www.etnews.com/20261020000060",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:40:42Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1c752e8b16024c82ddb2",
+      "title": "아우모비오, 강릉 ITS 세계총회서 휴머노이드 로봇 위한 전장 기술 선봬",
+      "url": "https://www.etnews.com/20261020000057",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:38:41Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
       ]
     },
     {
@@ -241,7 +632,8 @@
       "publishedAt": "2026-10-20T00:32:17Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "0def2535e973d8211a0f",
@@ -251,6 +643,20 @@
       "publishedAt": "2026-10-20T00:30:02Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "6c72156144d77f1d8c6c",
+      "title": "중앙일보 매각, 우선협상대상자에 다우·CJ 컨소시엄 선정",
+      "url": "https://www.etnews.com/20261020000046",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:18:04Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -261,7 +667,26 @@
       "publishedAt": "2026-10-20T00:11:57Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "a605a45eb7e9266c4148",
+      "title": "KT, 아크릴과 의료 AX 공동사업 추진",
+      "url": "https://www.etnews.com/20261020000037",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:11:33Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -272,6 +697,9 @@
       "publishedAt": "2026-10-20T00:04:11Z",
       "sourceIds": [
         "etnews-sw"
+      ],
+      "topics": [
+        "소프트웨어"
       ]
     },
     {
@@ -282,7 +710,8 @@
       "publishedAt": "2026-10-20T00:03:37Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "ff109c1ff247a3254ccf",
@@ -291,7 +720,12 @@
       "summary": "",
       "publishedAt": "2026-10-20T00:01:52Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -303,7 +737,8 @@
       "sourceIds": [
         "indieblog",
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "fc3599f167b09ada13f3",
@@ -313,7 +748,8 @@
       "publishedAt": "2026-10-20T00:00:49Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "54a2ba67fcd0dacae111",
@@ -323,7 +759,13 @@
       "publishedAt": "2026-10-19T23:55:59Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -334,7 +776,14 @@
       "publishedAt": "2026-10-19T23:50:30Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "개발",
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -344,7 +793,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T23:49:00Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -355,7 +809,8 @@
       "publishedAt": "2026-10-19T23:40:15Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "72d79637cf132651d352",
@@ -365,7 +820,8 @@
       "publishedAt": "2026-10-19T23:32:58Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "756307ed0397bc03eaff",
@@ -375,7 +831,13 @@
       "publishedAt": "2026-10-19T23:30:00Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -386,7 +848,8 @@
       "publishedAt": "2026-10-19T22:33:01Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "84a7e02b61ac728bda3a",
@@ -396,7 +859,8 @@
       "publishedAt": "2026-10-19T22:24:12Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6951bc71de925b54b052",
@@ -406,7 +870,8 @@
       "publishedAt": "2026-10-19T22:20:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f251fa2a66d0de5ddc86",
@@ -415,7 +880,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T22:17:26Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -427,7 +897,8 @@
       "sourceIds": [
         "techblogposts",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6f9baf4b4f296bc77526",
@@ -437,7 +908,8 @@
       "publishedAt": "2026-10-19T21:38:02Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b26e54861539689cbd04",
@@ -447,7 +919,8 @@
       "publishedAt": "2026-10-19T21:33:18Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e9f92482846f8838164e",
@@ -457,7 +930,8 @@
       "publishedAt": "2026-10-19T21:11:45Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "94b00070d9730e6c1637",
@@ -467,7 +941,8 @@
       "publishedAt": "2026-10-19T21:08:18Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "ae3bbb73b2566c40afd5",
@@ -477,7 +952,8 @@
       "publishedAt": "2026-10-19T20:50:08Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "7aa0f2321f9e271a9adc",
@@ -487,7 +963,8 @@
       "publishedAt": "2026-10-19T20:39:07Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e83086fe8158d81fb2c7",
@@ -497,7 +974,8 @@
       "publishedAt": "2026-10-19T20:36:07Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "3f855de2203c8224b2e8",
@@ -507,7 +985,8 @@
       "publishedAt": "2026-10-19T20:33:07Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "94c859547674dab55ea1",
@@ -517,7 +996,8 @@
       "publishedAt": "2026-10-19T19:36:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "93427562692d3385c858",
@@ -527,7 +1007,8 @@
       "publishedAt": "2026-10-19T19:33:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "48fb117dc32841a57eb0",
@@ -537,7 +1018,8 @@
       "publishedAt": "2026-10-19T19:19:33Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e497cf5d69cff97b24f9",
@@ -547,7 +1029,8 @@
       "publishedAt": "2026-10-19T18:55:06Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b1581eb10a681d166a7b",
@@ -557,7 +1040,8 @@
       "publishedAt": "2026-10-19T18:52:06Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e69ecbcfbe13a42cdd05",
@@ -567,7 +1051,8 @@
       "publishedAt": "2026-10-19T18:49:06Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "fa19321e966394f2cc4e",
@@ -577,7 +1062,8 @@
       "publishedAt": "2026-10-19T18:46:06Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "9d9da2e7f0fdcefdb7a3",
@@ -587,7 +1073,8 @@
       "publishedAt": "2026-10-19T18:43:06Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b29ff22d850d0480b794",
@@ -597,6 +1084,9 @@
       "publishedAt": "2026-10-19T18:01:15Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -607,6 +1097,9 @@
       "publishedAt": "2026-10-19T17:54:24Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -617,7 +1110,8 @@
       "publishedAt": "2026-10-19T17:44:11Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "c605888f4ae5e6aeabfe",
@@ -627,7 +1121,8 @@
       "publishedAt": "2026-10-19T17:41:11Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "5b32e38928db003bbd1f",
@@ -637,7 +1132,8 @@
       "publishedAt": "2026-10-19T17:38:11Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "c082eed8c241b0588fda",
@@ -647,6 +1143,9 @@
       "publishedAt": "2026-10-19T17:35:58Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -657,6 +1156,9 @@
       "publishedAt": "2026-10-19T17:26:50Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -667,6 +1169,9 @@
       "publishedAt": "2026-10-19T17:07:09Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -677,6 +1182,9 @@
       "publishedAt": "2026-10-19T17:04:44Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -687,6 +1195,9 @@
       "publishedAt": "2026-10-19T16:32:46Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -697,7 +1208,8 @@
       "publishedAt": "2026-10-19T16:18:56Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "acaffa53199208d684a6",
@@ -707,6 +1219,9 @@
       "publishedAt": "2026-10-19T16:12:35Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -717,6 +1232,9 @@
       "publishedAt": "2026-10-19T16:01:21Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -727,7 +1245,8 @@
       "publishedAt": "2026-10-19T15:49:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "726ad3b8b1659e553f52",
@@ -737,7 +1256,8 @@
       "publishedAt": "2026-10-19T15:46:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "c2e34b9a39e88505ccd3",
@@ -747,7 +1267,8 @@
       "publishedAt": "2026-10-19T15:43:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "d2701aa5e911f5260376",
@@ -757,7 +1278,8 @@
       "publishedAt": "2026-10-19T15:40:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "7eefd025589f99f8cb2a",
@@ -767,6 +1289,9 @@
       "publishedAt": "2026-10-19T15:39:20Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -777,6 +1302,9 @@
       "publishedAt": "2026-10-19T15:38:31Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -787,6 +1315,9 @@
       "publishedAt": "2026-10-19T15:37:46Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -797,7 +1328,8 @@
       "publishedAt": "2026-10-19T15:31:34Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "4ad6484d109bc574df95",
@@ -807,6 +1339,9 @@
       "publishedAt": "2026-10-19T15:31:02Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -817,7 +1352,8 @@
       "publishedAt": "2026-10-19T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "39ab5842cbfe79537c39",
@@ -827,7 +1363,8 @@
       "publishedAt": "2026-10-19T15:09:20Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "88b5537c8caf6d2d1931",
@@ -837,7 +1374,8 @@
       "publishedAt": "2026-10-19T14:52:04Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b02f149704ce57320f45",
@@ -847,6 +1385,9 @@
       "publishedAt": "2026-10-19T14:46:44Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -857,7 +1398,8 @@
       "publishedAt": "2026-10-19T14:40:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "50a54e1b949e1d366164",
@@ -867,6 +1409,9 @@
       "publishedAt": "2026-10-19T14:29:39Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -877,6 +1422,10 @@
       "publishedAt": "2026-10-19T14:19:27Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "개발",
+        "AI"
       ]
     },
     {
@@ -887,6 +1436,9 @@
       "publishedAt": "2026-10-19T14:11:51Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -897,6 +1449,9 @@
       "publishedAt": "2026-10-19T14:10:11Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -907,7 +1462,8 @@
       "publishedAt": "2026-10-19T14:09:01Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "8878a3cf86331b5b891f",
@@ -917,6 +1473,9 @@
       "publishedAt": "2026-10-19T13:43:52Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -927,6 +1486,9 @@
       "publishedAt": "2026-10-19T13:43:17Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -937,7 +1499,8 @@
       "publishedAt": "2026-10-19T13:38:17Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "127d7a34d1a8d00cc6c4",
@@ -947,7 +1510,8 @@
       "publishedAt": "2026-10-19T13:35:17Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "32d0b345fbf2c7ab8e59",
@@ -957,6 +1521,10 @@
       "publishedAt": "2026-10-19T13:23:45Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -967,6 +1535,9 @@
       "publishedAt": "2026-10-19T13:06:42Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -977,7 +1548,8 @@
       "publishedAt": "2026-10-19T13:06:21Z",
       "sourceIds": [
         "hnko"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "2e9a389e94c20d739e89",
@@ -987,6 +1559,9 @@
       "publishedAt": "2026-10-19T12:39:09Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -997,7 +1572,8 @@
       "publishedAt": "2026-10-19T12:38:56Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "ffb49f8acb8a190be799",
@@ -1007,7 +1583,8 @@
       "publishedAt": "2026-10-19T12:35:56Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f3f290dc3b11163fdedf",
@@ -1017,6 +1594,9 @@
       "publishedAt": "2026-10-19T12:33:20Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1027,6 +1607,9 @@
       "publishedAt": "2026-10-19T11:35:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1037,7 +1620,8 @@
       "publishedAt": "2026-10-19T11:30:00Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "2f086dce060e2ab3198e",
@@ -1047,6 +1631,9 @@
       "publishedAt": "2026-10-19T11:20:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1057,6 +1644,9 @@
       "publishedAt": "2026-10-19T11:10:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1067,7 +1657,8 @@
       "publishedAt": "2026-10-19T09:31:52Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "732e648a33e85b9ccc45",
@@ -1077,7 +1668,8 @@
       "publishedAt": "2026-10-19T09:12:07Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "2d10121469ef382ac1d6",
@@ -1087,6 +1679,9 @@
       "publishedAt": "2026-10-19T09:00:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1096,7 +1691,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T08:49:50Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1106,7 +1706,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T08:47:04Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1117,7 +1722,8 @@
       "publishedAt": "2026-10-19T08:33:27Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6ce1ef99279f98662f1b",
@@ -1126,7 +1732,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T08:31:17Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1138,7 +1749,8 @@
       "sourceIds": [
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f1ed85f1423bb177f068",
@@ -1147,7 +1759,13 @@
       "summary": "",
       "publishedAt": "2026-10-19T08:26:09Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI",
+        "자동차"
       ]
     },
     {
@@ -1157,7 +1775,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T08:19:40Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1168,6 +1791,20 @@
       "publishedAt": "2026-10-19T08:02:47Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "7637f62c25b6817fa464",
+      "title": "벤츠, 차세대 전기차 'CLA·GLC' 국내 출시…전동화 반격 시동",
+      "url": "https://www.etnews.com/20261019000253",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1177,7 +1814,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T07:46:10Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1188,7 +1830,8 @@
       "publishedAt": "2026-10-19T07:32:09Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "47d644ff38f79162301b",
@@ -1199,6 +1842,10 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
       ]
     },
     {
@@ -1208,7 +1855,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T07:09:32Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1220,6 +1872,20 @@
       "sourceIds": [
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "d27ea3bc865fe7eb9c8e",
+      "title": "융기원, 판교에서 원격운전 차량공유 실증…올해 연말까지 안전성 검증",
+      "url": "https://www.etnews.com/20261019000348",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:04:40Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1230,7 +1896,8 @@
       "publishedAt": "2026-10-19T07:03:38Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "c4670cd4c3ad51253b0f",
@@ -1239,7 +1906,51 @@
       "summary": "",
       "publishedAt": "2026-10-19T07:00:00Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "1245285d4c1f051a39b8",
+      "title": "[전파칼럼] 전자기전 경쟁력, 안테나에서 시작된다",
+      "url": "https://www.etnews.com/20261019000187",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "f388608c996b713237a8",
+      "title": "피아니스트 정석주, 가을밤을 수놓는'쇼팽 피아노 리사이틀' 개최",
+      "url": "https://www.etnews.com/20261019000346",
+      "summary": "",
+      "publishedAt": "2026-10-19T06:57:04Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "db6425691eb9ca92ca1d",
+      "title": "[포토] 미래 교통기술 한자리에…강릉 ITS 세계총회 개막",
+      "url": "https://www.etnews.com/20261019000343",
+      "summary": "",
+      "publishedAt": "2026-10-19T06:50:14Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1249,7 +1960,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T06:46:48Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1260,7 +1976,8 @@
       "publishedAt": "2026-10-19T06:41:12Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "15953d3ac1a094389b61",
@@ -1270,7 +1987,8 @@
       "publishedAt": "2026-10-19T06:13:10Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6feba54f03d7129f6c53",
@@ -1279,7 +1997,13 @@
       "summary": "",
       "publishedAt": "2026-10-19T06:11:14Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI",
+        "자동차"
       ]
     },
     {
@@ -1290,7 +2014,26 @@
       "publishedAt": "2026-10-19T05:55:35Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "0a989b32941d354a95bd",
+      "title": "통신 유통점 '종사자 등록제' 전면 확대…규제 과도 우려도",
+      "url": "https://www.etnews.com/20261019000300",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:55:11Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1300,7 +2043,25 @@
       "summary": "",
       "publishedAt": "2026-10-19T05:48:39Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "ccdae906521cbe58d824",
+      "title": "K콘텐츠 흥행, 데이터는 해외에…티빙 “웨이브 통합으로 K-OTT 규모 키워야”",
+      "url": "https://www.etnews.com/20261019000294",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:47:34Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1313,7 +2074,8 @@
         "techblogposts",
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f517ad9bbb69fba4fd4c",
@@ -1324,6 +2086,10 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
       ]
     },
     {
@@ -1334,7 +2100,8 @@
       "publishedAt": "2026-10-19T05:42:00Z",
       "sourceIds": [
         "velopers"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "0801e08339a76f6b90a5",
@@ -1343,7 +2110,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T05:41:58Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1354,7 +2126,14 @@
       "publishedAt": "2026-10-19T05:37:34Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "개발",
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -1364,7 +2143,38 @@
       "summary": "",
       "publishedAt": "2026-10-19T05:36:53Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "7687d84f7b2969146203",
+      "title": "한국이 전장이 된 '모던워페어4(사)'... 익숙한 골목에서 마주한 전쟁의 얼굴",
+      "url": "https://www.etnews.com/20261019000272",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:36:43Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "a41d143e2da76bf04c64",
+      "title": "콘진원, 지스타서 '2026 게임문화축제' 개최... 게임·국악·e스포츠 한자리에",
+      "url": "https://www.etnews.com/20261019000271",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:32:38Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1376,6 +2186,11 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-security"
+      ],
+      "topics": [
+        "개발",
+        "소프트웨어",
+        "보안"
       ]
     },
     {
@@ -1386,6 +2201,33 @@
       "publishedAt": "2026-10-19T05:31:46Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "6a6aff0c3f868edcdacc",
+      "title": "엔씨, 캐주얼 RPG '행성파괴 냥냐냥' 출시... 亞 6개 지역 서비스",
+      "url": "https://www.etnews.com/20261019000262",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:29:11Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c44db14262058a1f7089",
+      "title": "샤오미 18 프로맥스 내달 韓 상륙…프리미엄 시장 도전",
+      "url": "https://www.etnews.com/20261016000275",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:25:54Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1396,7 +2238,13 @@
       "publishedAt": "2026-10-19T05:24:36Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -1407,7 +2255,8 @@
       "publishedAt": "2026-10-19T05:22:43Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "063415c54f4b8b72afe7",
@@ -1416,7 +2265,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T05:22:39Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1427,6 +2281,11 @@
       "publishedAt": "2026-10-19T05:06:59Z",
       "sourceIds": [
         "etnews-sw"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -1436,7 +2295,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T05:02:56Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1447,7 +2311,8 @@
       "publishedAt": "2026-10-19T05:00:54Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "22ac345e070718ac1c8b",
@@ -1456,7 +2321,80 @@
       "summary": "",
       "publishedAt": "2026-10-19T05:00:00Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "2e45dbb9016e169498a1",
+      "title": "[포토] 현대위아의 주차로봇 시연",
+      "url": "https://www.etnews.com/20261019000237",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:59:26Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "bb9a1503492ece82be71",
+      "title": "[포토] 스마트 교통기술의 향연",
+      "url": "https://www.etnews.com/20261019000235",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:59:15Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "08054de85c5bb7e866bb",
+      "title": "[포토] AI·자율주행이 바꾸는 미래…강릉서 교통 올림픽",
+      "url": "https://www.etnews.com/20261019000234",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:59:06Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "5303fef0dc9b6a9d3f1a",
+      "title": "[포토] 자율주행부터 AI 교통관리까지…교통 올림픽 개막",
+      "url": "https://www.etnews.com/20261019000233",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:58:58Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "6adab141cc4863c8bfbe",
+      "title": "[포토] 자율주행부터 UAM까지…미래 이동기술 한눈에",
+      "url": "https://www.etnews.com/20261019000232",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:58:42Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1467,7 +2405,8 @@
       "publishedAt": "2026-10-19T04:35:52Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "2e1cc94a24e3f01b95cf",
@@ -1477,7 +2416,8 @@
       "publishedAt": "2026-10-19T04:32:52Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "7c32efa1bea15b998d41",
@@ -1487,7 +2427,8 @@
       "publishedAt": "2026-10-19T04:31:52Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "7aae93ef988886eac281",
@@ -1496,7 +2437,12 @@
       "summary": "",
       "publishedAt": "2026-10-19T04:28:52Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1507,7 +2453,8 @@
       "publishedAt": "2026-10-19T04:10:01Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f05d304511343d4073b4",
@@ -1517,7 +2464,8 @@
       "publishedAt": "2026-10-19T04:02:37Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "51a0921f39256845295c",
@@ -1528,7 +2476,8 @@
       "sourceIds": [
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "01ce577d87f78e3c1b7f",
@@ -1538,7 +2487,8 @@
       "publishedAt": "2026-10-19T03:51:34Z",
       "sourceIds": [
         "techblogposts"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "5ca2d5620abf092d257d",
@@ -1548,7 +2498,8 @@
       "publishedAt": "2026-10-19T03:35:35Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b42b2836d4a245359346",
@@ -1559,7 +2510,8 @@
       "sourceIds": [
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "37ad05c35b5d58ac8817",
@@ -1571,7 +2523,8 @@
         "velopers",
         "indieblog",
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "0a8b5be741e6bc32620f",
@@ -1581,7 +2534,8 @@
       "publishedAt": "2026-10-19T03:01:07Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "06a064347af56207aac7",
@@ -1591,7 +2545,8 @@
       "publishedAt": "2026-10-19T02:51:32Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "54d39ef56f2f9efc91a8",
@@ -1603,7 +2558,8 @@
         "techblogposts",
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f8534b942f07641ed4d2",
@@ -1612,7 +2568,25 @@
       "summary": "",
       "publishedAt": "2026-10-19T02:33:04Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "af82df061404674f62d6",
+      "title": "현대위아, 특수사업부 현대로템에 3584억원 양도",
+      "url": "https://www.etnews.com/20261019000176",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:29:22Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1625,6 +2599,33 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "beeabab19dab9affeca3",
+      "title": "현대차·기아, '2026 아이디어 페스티벌' 개최…사내 모빌리티 혁신 기술 경연",
+      "url": "https://www.etnews.com/20261019000167",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:10:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "cb10fbc5ae9f0ba93e5e",
+      "title": "현대차, 절제된 고성능 '아반떼 N 모노크롬' 공개…29일 출시",
+      "url": "https://www.etnews.com/20261019000165",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:08:19Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1634,7 +2635,25 @@
       "summary": "",
       "publishedAt": "2026-10-19T02:00:29Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "8c8d784fc84aea1ee401",
+      "title": "아이오닉9, 2200만원 싸게 산다",
+      "url": "https://www.etnews.com/20261018000079",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1646,6 +2665,10 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
       ]
     },
     {
@@ -1655,7 +2678,51 @@
       "summary": "",
       "publishedAt": "2026-10-19T01:44:29Z",
       "sourceIds": [
-        "etnews-sw"
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "be2460b21dd95f0911ec",
+      "title": "사전예약만 3억5000만원, 차값이 아니다?…테슬라 '로드스터' 미스터리",
+      "url": "https://www.etnews.com/20261019000135",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:36:55Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "21bc77b9e8c2ef009f81",
+      "title": "BMW코리아, 미스지콜렉션 2027 S/S 패션쇼에 'X7' 의전 차량 지원",
+      "url": "https://www.etnews.com/20261019000130",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:35:15Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "90f3f7ee316553679ef5",
+      "title": "폴스타, '2026 통영그란폰도' 공식 차량 지원…폴스타 3·4 투입",
+      "url": "https://www.etnews.com/20261019000129",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:34:27Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1666,6 +2733,20 @@
       "publishedAt": "2026-10-19T01:31:57Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "1f8fc9afa673509eadd5",
+      "title": "음저협 “애플뮤직 미정산 음악 저작권료 협의 막바지”",
+      "url": "https://www.etnews.com/20261019000097",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:17:15Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1677,6 +2758,11 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -1687,7 +2773,13 @@
       "publishedAt": "2026-10-19T01:15:25Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -1698,7 +2790,8 @@
       "publishedAt": "2026-10-19T01:12:30Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "fcafda5e32e5b7fba4da",
@@ -1708,7 +2801,13 @@
       "publishedAt": "2026-10-19T01:02:24Z",
       "sourceIds": [
         "etnews-sw",
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -1719,6 +2818,22 @@
       "publishedAt": "2026-10-19T01:00:00Z",
       "sourceIds": [
         "etnews-sw"
+      ],
+      "topics": [
+        "소프트웨어"
+      ]
+    },
+    {
+      "id": "83b55d0628d5d0648c14",
+      "title": "SKB, 트립 인 코리아 시즌8 등 가을 신작 예능 공개",
+      "url": "https://www.etnews.com/20261019000079",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:53:24Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1729,7 +2844,8 @@
       "publishedAt": "2026-10-19T00:46:57Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "87a472d57597e5677c94",
@@ -1739,7 +2855,8 @@
       "publishedAt": "2026-10-19T00:40:02Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "80c4b900c6fc793d6999",
@@ -1749,6 +2866,20 @@
       "publishedAt": "2026-10-19T00:39:04Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "8d6d2c74bb2badc18544",
+      "title": "코오롱베니트, '상생형 AX 선도모델 사업' 도입사 확정…제조 AX 본격 실행",
+      "url": "https://www.etnews.com/20261019000059",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:37:38Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1759,7 +2890,8 @@
       "publishedAt": "2026-10-19T00:36:44Z",
       "sourceIds": [
         "geeknews"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "cfe4c5fad06d0a3d8d47",
@@ -1768,7 +2900,66 @@
       "summary": "",
       "publishedAt": "2026-10-19T00:28:55Z",
       "sourceIds": [
-        "etnews-security"
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "69cfb86f2c733936ecdd",
+      "title": "더존비즈온, 전 임직원 대상 'AX 어워즈' 개최…상금 최대 1000만원",
+      "url": "https://www.etnews.com/20261019000036",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:19:17Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "dd20224e8c2a5e0d6277",
+      "title": "현대차·기아, '소프티어 부트캠프' 9기 모집…AI 실무 인재 육성",
+      "url": "https://www.etnews.com/20261019000029",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:15:17Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "78411599bc6ede44afd0",
+      "title": "포르쉐코리아, 유소년 축구 인재 육성…11명 독일 연수",
+      "url": "https://www.etnews.com/20261019000024",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:13:14Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "16c327822c69b672ac2f",
+      "title": "밀리웨이브, 강릉 ITS 세계총회서 '터널 통신 음영 해소 로봇' 첫 공개",
+      "url": "https://www.etnews.com/20261019000018",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:08:49Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
       ]
     },
     {
@@ -1779,7 +2970,8 @@
       "publishedAt": "2026-10-19T00:00:00Z",
       "sourceIds": [
         "velopers"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e983ea59f219b1530d36",
@@ -1789,6 +2981,47 @@
       "publishedAt": "2026-10-19T00:00:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "f2f3039af9321e7be7c9",
+      "title": "현대차, '2026 모빌리티 플레이그라운드 시즌 2' 성료…750명 참가",
+      "url": "https://www.etnews.com/20261019000011",
+      "summary": "",
+      "publishedAt": "2026-10-18T23:54:35Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "64c1b2dccbf19237591a",
+      "title": "콘진원, '2026 콘솔게임 개발자 컨퍼런스' 개최... 위쳐·사이버펑크·림월드 개발진 만난다",
+      "url": "https://www.etnews.com/20261019000008",
+      "summary": "",
+      "publishedAt": "2026-10-18T23:49:29Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "개발"
+      ]
+    },
+    {
+      "id": "c899edde8c92cddde32b",
+      "title": "뉴엔AI, 'K-뷰티엑스포'서 인종·피부별 'AI 페르소나 정밀 분석' 솔루션 공개",
+      "url": "https://www.etnews.com/20261016000345",
+      "summary": "",
+      "publishedAt": "2026-10-18T22:01:00Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1799,7 +3032,8 @@
       "publishedAt": "2026-10-18T22:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "44bb0432551c7b73632b",
@@ -1809,6 +3043,20 @@
       "publishedAt": "2026-10-18T21:38:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "14280261cc7d747190ea",
+      "title": "인터엑스, IPO 상장 예심 통과…대한민국 AX 자율제조 시장 확산 선도",
+      "url": "https://www.etnews.com/20261016000280",
+      "summary": "",
+      "publishedAt": "2026-10-18T20:05:00Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1819,6 +3067,9 @@
       "publishedAt": "2026-10-18T19:10:14Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1829,6 +3080,9 @@
       "publishedAt": "2026-10-18T18:30:30Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1839,6 +3093,9 @@
       "publishedAt": "2026-10-18T17:51:14Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1849,6 +3106,9 @@
       "publishedAt": "2026-10-18T17:13:21Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1859,6 +3119,9 @@
       "publishedAt": "2026-10-18T16:50:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1869,6 +3132,9 @@
       "publishedAt": "2026-10-18T16:40:31Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1879,6 +3145,9 @@
       "publishedAt": "2026-10-18T16:05:27Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1889,6 +3158,9 @@
       "publishedAt": "2026-10-18T15:34:38Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1899,7 +3171,8 @@
       "publishedAt": "2026-10-18T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e9b5a369eeaafd7febd7",
@@ -1909,6 +3182,33 @@
       "publishedAt": "2026-10-18T14:40:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "103177e13cce2a1ca801",
+      "title": "제품은 준비 끝, 해외 홍보는?…화성산업진흥원, 해외 수출 비용 지원",
+      "url": "https://www.etnews.com/20261018000087",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:38:10Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "c66703033e1923f5b1c0",
+      "title": "“AI, 기술을 넘어 일상이 되다”…역대 최대 규모 'FIX 2026' 대구서 개막",
+      "url": "https://www.etnews.com/20261016000013",
+      "summary": "",
+      "publishedAt": "2026-10-18T13:00:00Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1919,7 +3219,8 @@
       "publishedAt": "2026-10-18T12:20:13Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "272b18db93ed60867f1e",
@@ -1929,7 +3230,8 @@
       "publishedAt": "2026-10-18T11:55:55Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "7983191ffd89d8856d20",
@@ -1939,6 +3241,10 @@
       "publishedAt": "2026-10-18T11:42:17Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -1949,6 +3255,9 @@
       "publishedAt": "2026-10-18T11:11:42Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1959,7 +3268,8 @@
       "publishedAt": "2026-10-18T11:04:29Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "1efd62e9ee2a8c907895",
@@ -1969,6 +3279,9 @@
       "publishedAt": "2026-10-18T09:50:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1979,6 +3292,9 @@
       "publishedAt": "2026-10-18T09:45:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1989,6 +3305,9 @@
       "publishedAt": "2026-10-18T09:41:18Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -1999,7 +3318,8 @@
       "publishedAt": "2026-10-18T09:18:11Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e772c6b2a1c4ef245885",
@@ -2009,6 +3329,10 @@
       "publishedAt": "2026-10-18T09:03:13Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "개발",
+        "AI"
       ]
     },
     {
@@ -2019,6 +3343,9 @@
       "publishedAt": "2026-10-18T08:55:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -2029,6 +3356,9 @@
       "publishedAt": "2026-10-18T08:50:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -2039,6 +3369,9 @@
       "publishedAt": "2026-10-18T08:35:00Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -2049,6 +3382,21 @@
       "publishedAt": "2026-10-18T08:32:32Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "86b42292881e62c86ce2",
+      "title": "경기남부 반도체 잇는 수원시 역할은?…경제자유구역 특화 방안을 논의",
+      "url": "https://www.etnews.com/20261018000078",
+      "summary": "",
+      "publishedAt": "2026-10-18T08:13:49Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -2059,6 +3407,49 @@
       "publishedAt": "2026-10-18T07:00:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "38120c4103d7cfca6290",
+      "title": "[ET시론] 'K'의 지속 기반, 콘텐츠 진흥의 문법을 다시 짜려면",
+      "url": "https://www.etnews.com/20261016000062",
+      "summary": "",
+      "publishedAt": "2026-10-18T07:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "631abb5d936a37ffadfd",
+      "title": "[이내찬교수의 광고로 보는 통신역사]〈68〉초고속인터넷 K모델의 성공 요인, 낮은 진입장벽과 대체망",
+      "url": "https://www.etnews.com/20261016000158",
+      "summary": "",
+      "publishedAt": "2026-10-18T07:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1a5112b82f2c18043be7",
+      "title": "[부음]구도형(넷마블에프앤씨 대표)씨 부친상",
+      "url": "https://www.etnews.com/20261018000073",
+      "summary": "",
+      "publishedAt": "2026-10-18T06:42:24Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2069,7 +3460,8 @@
       "publishedAt": "2026-10-18T06:17:11Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e80b0cf9e0889ffdff72",
@@ -2079,6 +3471,10 @@
       "publishedAt": "2026-10-18T05:09:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2089,6 +3485,23 @@
       "publishedAt": "2026-10-18T04:56:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "970a2e5e7399e9f126f5",
+      "title": "LGU+, 순직 소방관 추모 '메모리얼 2026' 러닝 행사 개최",
+      "url": "https://www.etnews.com/20261018000052",
+      "summary": "",
+      "publishedAt": "2026-10-18T03:34:17Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2101,7 +3514,8 @@
         "techblogposts",
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "a437494ae379166e14f0",
@@ -2113,7 +3527,8 @@
         "techblogposts",
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "756f74645b16618e6511",
@@ -2125,6 +3540,60 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "d8f962d0db51e31f2b3c",
+      "title": "LIG아큐버, 위성신호 안 닿는 터널서도 'V2X 통신'…세계 첫 실도로 시연",
+      "url": "https://www.etnews.com/20261016000200",
+      "summary": "",
+      "publishedAt": "2026-10-18T02:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "e9039b928a3cf8b6b819",
+      "title": "비시니에프스키 주한폴란드 대사 “게임으로 韓 젊은층과 소통”... 지스타에 폴란드관 마련",
+      "url": "https://www.etnews.com/20261016000230",
+      "summary": "",
+      "publishedAt": "2026-10-18T01:30:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "8b999f6a114cb5efb6c1",
+      "title": "공공기관, 2027년 지능형 네트워크 전환…AX 마중물",
+      "url": "https://www.etnews.com/20261016000224",
+      "summary": "",
+      "publishedAt": "2026-10-18T00:30:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "5a136f0ecdde92229898",
+      "title": "현대차·기아, 울산 EV 신공장 이달 양산 돌입…제조 AI '폴라리스' 공개",
+      "url": "https://www.etnews.com/20261016000208",
+      "summary": "",
+      "publishedAt": "2026-10-18T00:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
       ]
     },
     {
@@ -2135,7 +3604,8 @@
       "publishedAt": "2026-10-17T22:34:19Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "d45c9bba80ba975fd683",
@@ -2145,6 +3615,9 @@
       "publishedAt": "2026-10-17T19:47:45Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -2155,7 +3628,8 @@
       "publishedAt": "2026-10-17T15:55:48Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "33d0247ec82de19f30a9",
@@ -2165,7 +3639,8 @@
       "publishedAt": "2026-10-17T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "d35fa887e01d97198944",
@@ -2175,7 +3650,8 @@
       "publishedAt": "2026-10-17T15:00:00Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "d539e6cbd15803e99ca6",
@@ -2185,7 +3661,8 @@
       "publishedAt": "2026-10-17T14:40:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b25f4b39ba704384536a",
@@ -2195,7 +3672,8 @@
       "publishedAt": "2026-10-17T10:44:21Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "25bc6d87a7c50a779aae",
@@ -2205,7 +3683,8 @@
       "publishedAt": "2026-10-17T09:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "901592dc169b40f6f207",
@@ -2215,6 +3694,20 @@
       "publishedAt": "2026-10-17T08:26:28Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "4f3a31de4c6a98363972",
+      "title": "하만 커넥티비티 안전 솔루션 '레디 어웨어', 오토테크 어워즈 수상",
+      "url": "https://www.etnews.com/20261017000014",
+      "summary": "",
+      "publishedAt": "2026-10-17T08:02:33Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2225,6 +3718,36 @@
       "publishedAt": "2026-10-17T08:00:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "d3a609a23a60a4ac6818",
+      "title": "트럼프 “현대자동차그룹, 美 조지아주에 5억6000만달러 투자”",
+      "url": "https://www.etnews.com/20261017000013",
+      "summary": "",
+      "publishedAt": "2026-10-17T07:53:22Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "fd98f5d9ccd9b684eac6",
+      "title": "방발기금 조성액 4년 새 44% 급감…학계 “부과체계 전면 개편해야”",
+      "url": "https://www.etnews.com/20261017000012",
+      "summary": "",
+      "publishedAt": "2026-10-17T06:55:17Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2235,7 +3758,8 @@
       "publishedAt": "2026-10-17T00:34:49Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b2b8c0ed40d9021ac060",
@@ -2245,7 +3769,8 @@
       "publishedAt": "2026-10-17T00:00:00Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b239ae7ff8d57d984747",
@@ -2255,7 +3780,8 @@
       "publishedAt": "2026-10-17T00:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "bbdf327eba887bcd0183",
@@ -2265,7 +3791,8 @@
       "publishedAt": "2026-10-16T22:30:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "a4bc8806b4f0a3e564f5",
@@ -2275,7 +3802,8 @@
       "publishedAt": "2026-10-16T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6213041ebf388527754b",
@@ -2285,7 +3813,8 @@
       "publishedAt": "2026-10-16T14:40:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "0aca941b73bd0eb0fda3",
@@ -2297,6 +3826,20 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "50940e9730f56e403c89",
+      "title": "“트럭 뛰어넘어 공중회전” 테슬라, 하늘을 나는 차 '로드스터' 공개",
+      "url": "https://www.etnews.com/20261016000346",
+      "summary": "",
+      "publishedAt": "2026-10-16T12:54:45Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2307,6 +3850,10 @@
       "publishedAt": "2026-10-16T12:10:42Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2320,7 +3867,8 @@
         "velopers",
         "indieblog",
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "678f2230c36c4b26035f",
@@ -2330,7 +3878,8 @@
       "publishedAt": "2026-10-16T10:00:00Z",
       "sourceIds": [
         "velopers"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e9a13e36582323df069d",
@@ -2340,7 +3889,8 @@
       "publishedAt": "2026-10-16T09:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "9ca82c0fb6ef477ba0a8",
@@ -2351,6 +3901,33 @@
       "sourceIds": [
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "b5db297454bc7ad2f75e",
+      "title": "GTA6 국내 심의 통과... '청소년이용불가'로 11월 19일 출시 가능",
+      "url": "https://www.etnews.com/20261016000308",
+      "summary": "",
+      "publishedAt": "2026-10-16T08:16:53Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "9fd7072dc2099813c76f",
+      "title": "[테크 차이나] 포르쉐, 中 시장 부진에 전동화 전략 수정…내연기관으로 돌파구 찾는다",
+      "url": "https://www.etnews.com/20261016000114",
+      "summary": "",
+      "publishedAt": "2026-10-16T08:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2361,6 +3938,10 @@
       "publishedAt": "2026-10-16T07:23:44Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2373,7 +3954,8 @@
         "velopers",
         "indieblog",
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "a1ba62c6a0aa97650844",
@@ -2384,7 +3966,8 @@
       "sourceIds": [
         "velopers",
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "c0e7624cdc47fa8a6e5a",
@@ -2395,6 +3978,20 @@
       "sourceIds": [
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "6eef2e87769876378910",
+      "title": "아우디 Q7, 유로 NCAP '충돌 후 안전성' 100%…양산차 최초",
+      "url": "https://www.etnews.com/20261016000274",
+      "summary": "",
+      "publishedAt": "2026-10-16T06:37:31Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2405,7 +4002,8 @@
       "publishedAt": "2026-10-16T06:30:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6273a86e9a43ff02b27f",
@@ -2416,6 +4014,33 @@
       "sourceIds": [
         "indieblog",
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "1cf937941e284efdfdda",
+      "title": "삼성 '갤S26 울트라' 등 3개 제품, 美 타임 '올해 최고의 발명품' 선정",
+      "url": "https://www.etnews.com/20261016000203",
+      "summary": "",
+      "publishedAt": "2026-10-16T05:02:51Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "bce13f94f7c2805967bd",
+      "title": "둠둠, 베트남 드론 기업 CT UAV와 전략적 업무협약 체결… 현지 수질관리 시장 진출 기반 마련",
+      "url": "https://www.etnews.com/20261016000190",
+      "summary": "",
+      "publishedAt": "2026-10-16T04:46:42Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2426,6 +4051,9 @@
       "publishedAt": "2026-10-16T04:44:28Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2436,6 +4064,9 @@
       "publishedAt": "2026-10-16T04:38:57Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2446,6 +4077,100 @@
       "publishedAt": "2026-10-16T04:30:00Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "f1a5ae655b9f3411ea20",
+      "title": "넥슨 '메이플스토리M' 10주년 업데이트... 신규 스킬·지역 추가",
+      "url": "https://www.etnews.com/20261016000156",
+      "summary": "",
+      "publishedAt": "2026-10-16T03:00:22Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "b16d9d71df5f1ba54344",
+      "title": "오렌지플래닛, 하반기 스타트업 12개팀 선발... 헬스케어·피지컬 AI 포진",
+      "url": "https://www.etnews.com/20261016000155",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:58:51Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "a70fd6122c767f9318f0",
+      "title": "라이엇 게임즈 '발로란트 챔피언스 투어' 올해 첫 마스터스, 서울서 개최",
+      "url": "https://www.etnews.com/20261016000152",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:55:12Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "2d084f927f311dc041e2",
+      "title": "업종따라 AI가 매장 음악 선곡, KT '래디오비즈' 부가서비스 출시",
+      "url": "https://www.etnews.com/20261016000151",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:54:47Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "7e6eb65402f963b3e4a6",
+      "title": "넥슨 'N커넥트' 시즌1 시작... 치지직·SOOP 통합 운영",
+      "url": "https://www.etnews.com/20261016000150",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:53:34Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "2a416491630cfb184c4a",
+      "title": "메이저나인 '아우터플레인', 일본 구글 플레이 인기 1위... 사전예약 20만명 돌파",
+      "url": "https://www.etnews.com/20261016000149",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:52:16Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "d1b63949321545933eaf",
+      "title": "배틀그라운드 모바일 'PMPS 2026 시즌2' 결승, 17~18일 대전서 개최",
+      "url": "https://www.etnews.com/20261016000147",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:50:42Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2456,6 +4181,20 @@
       "publishedAt": "2026-10-16T02:44:53Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "63367042f0e7d99941d5",
+      "title": "라인게임즈 '엠버 앤 블레이드', 내년 1월 8일 얼리 액세스",
+      "url": "https://www.etnews.com/20261016000143",
+      "summary": "",
+      "publishedAt": "2026-10-16T02:42:35Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2466,7 +4205,8 @@
       "publishedAt": "2026-10-16T02:40:13Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f024a2ec1ab14dfe734d",
@@ -2476,7 +4216,8 @@
       "publishedAt": "2026-10-16T02:37:38Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e0c2e2ae9b90ea017faf",
@@ -2486,7 +4227,8 @@
       "publishedAt": "2026-10-16T02:19:57Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "8ab59a51af08169892e0",
@@ -2497,7 +4239,8 @@
       "sourceIds": [
         "indieblog",
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "6dbec2cb4ee878c6f76a",
@@ -2507,6 +4250,20 @@
       "publishedAt": "2026-10-16T01:35:54Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "ce94f68b291d8c1dda82",
+      "title": "BMW코리아, '더 뉴 BMW 7시리즈' 사전 예약 실시",
+      "url": "https://www.etnews.com/20261016000075",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:28:08Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2517,7 +4274,8 @@
       "publishedAt": "2026-10-16T01:13:39Z",
       "sourceIds": [
         "indieblog"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "2785b7d931eb6f8b9a46",
@@ -2527,6 +4285,34 @@
       "publishedAt": "2026-10-16T01:12:27Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "3930c87a1b60e5d11d32",
+      "title": "기아, 판교서 PV5 원격운전 카셰어링 시범 서비스…2027년 상용화",
+      "url": "https://www.etnews.com/20261016000066",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:12:13Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "030413a2c2ad24b1ba1d",
+      "title": "HL로보틱스, 강릉 ITS 세계총회서 실외 자율주행 주차로봇 '스탠' 첫선",
+      "url": "https://www.etnews.com/20261016000064",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:09:07Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
       ]
     },
     {
@@ -2537,6 +4323,10 @@
       "publishedAt": "2026-10-16T01:04:31Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2547,7 +4337,8 @@
       "publishedAt": "2026-10-16T01:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "fb81b442df2fad5ba5d2",
@@ -2557,6 +4348,20 @@
       "publishedAt": "2026-10-16T01:00:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "841ce904a16a95d2eeda",
+      "title": "이통3사, 아이폰 듀오 사전예약 돌입…할인·중고폰 보상 경쟁",
+      "url": "https://www.etnews.com/20261016000050",
+      "summary": "",
+      "publishedAt": "2026-10-16T00:46:18Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2567,6 +4372,24 @@
       "publishedAt": "2026-10-16T00:44:29Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "자동차"
+      ]
+    },
+    {
+      "id": "675e7c922cb330433733",
+      "title": "LGU+, AI로 와이파이 품질 분석…유럽 전시회서 공개",
+      "url": "https://www.etnews.com/20261016000024",
+      "summary": "",
+      "publishedAt": "2026-10-16T00:12:47Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -2577,7 +4400,8 @@
       "publishedAt": "2026-10-15T22:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "bd053782a71f119d6316",
@@ -2587,7 +4411,8 @@
       "publishedAt": "2026-10-15T17:24:12Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "807f954e2798bc4c4c06",
@@ -2597,6 +4422,10 @@
       "publishedAt": "2026-10-15T15:27:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2607,6 +4436,9 @@
       "publishedAt": "2026-10-15T15:21:50Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2617,6 +4449,20 @@
       "publishedAt": "2026-10-15T15:10:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "c9b8c9f9f0a0b0a46f04",
+      "title": "화성시, 한국전자전 공동관에 소공인 10개사 지원…판로 개척 뒷받침",
+      "url": "https://www.etnews.com/20261015000478",
+      "summary": "",
+      "publishedAt": "2026-10-15T14:51:59Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2627,6 +4473,34 @@
       "publishedAt": "2026-10-15T14:40:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "f073e29a0606986b83b6",
+      "title": "게임 속 도전이 사업으로…김태형 도의원, 도내 개발자 시장 진출 지원 약속",
+      "url": "https://www.etnews.com/20261015000476",
+      "summary": "",
+      "publishedAt": "2026-10-15T14:31:12Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "개발"
+      ]
+    },
+    {
+      "id": "ac1ff06736e62056bbd7",
+      "title": "화성 기업 다음 무대는 우주?…시, 내년 우주항공 특화산업 육성계획 수립",
+      "url": "https://www.etnews.com/20261015000475",
+      "summary": "",
+      "publishedAt": "2026-10-15T14:25:31Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2637,6 +4511,10 @@
       "publishedAt": "2026-10-15T10:59:03Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2647,6 +4525,9 @@
       "publishedAt": "2026-10-15T10:01:59Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2657,6 +4538,34 @@
       "publishedAt": "2026-10-15T09:23:00Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "16e29e678fd277204934",
+      "title": "플랜티넷 '모아진', KT 초이스 혜택 합류 후 7만 가입자 돌파",
+      "url": "https://www.etnews.com/20261015000430",
+      "summary": "",
+      "publishedAt": "2026-10-15T09:02:06Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "48bc3613a2465a17d0c8",
+      "title": "음저협 회장실 고가 노트북 구매 논란…음저협 “로컬 AI 운영용”",
+      "url": "https://www.etnews.com/20261015000428",
+      "summary": "",
+      "publishedAt": "2026-10-15T08:58:24Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -2667,6 +4576,20 @@
       "publishedAt": "2026-10-15T08:55:17Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "fe2c69184825b248c544",
+      "title": "대한항공, 3분기 매출 역대 최대…영업익 12%↑",
+      "url": "https://www.etnews.com/20261015000422",
+      "summary": "",
+      "publishedAt": "2026-10-15T08:33:03Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2677,6 +4600,179 @@
       "publishedAt": "2026-10-15T07:00:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "83cc496a8feec06fc0c6",
+      "title": "콘텐츠 R&D도 '현장 주문형'으로…190개 기관 문화기술 동맹 출범",
+      "url": "https://www.etnews.com/20261015000321",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "54fba3293a4596066663",
+      "title": "한국GM, 부평 트레이닝 센터 첫 공개…“전동화 車 AS 인력 키우고 거점 마련”",
+      "url": "https://www.etnews.com/20261015000160",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "b20c64634fc49dc77fb1",
+      "title": "[신차 드라이브] 세단 주행 감성에 안락함 더했다…볼보 플래그십 전기 세단 ES90",
+      "url": "https://www.etnews.com/20261015000010",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "0708c93dc4c9d040a2a3",
+      "title": "[정구민의 테크읽기] '파리모터쇼'로 보는 중국의 공세, 유럽의 위기와 우리의 과제",
+      "url": "https://www.etnews.com/20261015000153",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:00:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "8f5d89c431005024ea6a",
+      "title": "[2026 국감] 韓 인터넷 속도 22위 지적에···과기정통부 “측정기준 불명확, 투자 확대 독려”",
+      "url": "https://www.etnews.com/20261015000383",
+      "summary": "",
+      "publishedAt": "2026-10-15T06:49:36Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "24e40f5a419c33c7934b",
+      "title": "벤틀리, 브랜드 첫 전기차 '토르칼' 아시아 최초 서울에서 공개",
+      "url": "https://www.etnews.com/20261015000336",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:54:36Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "d67e3e5ff27e65208720",
+      "title": "LG유플러스, 아이폰 듀오 승부수…6개월 만에 반납해도 70% 보상",
+      "url": "https://www.etnews.com/20261015000328",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:41:36Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "57c73a2a8a15021d4ac5",
+      "title": "국내 IPv6 이용률 세계 평균 밑돌아…차세대 인터넷망 '반쪽 전락'",
+      "url": "https://www.etnews.com/20261015000322",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:36:27Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "998e0c8a9808caaf13bd",
+      "title": "[특별좌담회]글로벌 6G 경쟁 격화…“표준 선점·수익화 모델 확보 우선 해야”",
+      "url": "https://www.etnews.com/20261015000318",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:29:58Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "57fcf15585b2dd3d175b",
+      "title": "BMW코리아 미래재단, '체험형 교통안전 캠페인' 운영",
+      "url": "https://www.etnews.com/20261015000305",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:19:56Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "e38cc7347813990f50d2",
+      "title": "현대모비스, 中 첫 '모빌리티 데이' 개최…“로보틱스·피지컬 AI 협력사 발굴”",
+      "url": "https://www.etnews.com/20261015000302",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:18:23Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "8659d4ade30c94b02fef",
+      "title": "“로컬라이제이션은 제2의 제작”…콘진원·넷플릭스, K콘텐츠 글로벌 확장 뒷받침",
+      "url": "https://www.etnews.com/20261015000301",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:18:16Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c4663e79d43eda56e086",
+      "title": "지스타 한 달 앞으로... 캡콤 합류에 한중일 글로벌 신작 총집결",
+      "url": "https://www.etnews.com/20261015000299",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:17:05Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2687,6 +4783,77 @@
       "publishedAt": "2026-10-15T05:16:09Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "446b4d4bf6a6867166a6",
+      "title": "정부·통신업계 “우클라 속도측정 객관성 결여”…인터넷속도 22위 반박",
+      "url": "https://www.etnews.com/20261015000295",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:11:53Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1f426ad08acaee460185",
+      "title": "CJ ENM 피프스시즌, '에덴의 동쪽'·'짐승들' OTT 1위 성과",
+      "url": "https://www.etnews.com/20261015000292",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:07:08Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "77295e9e9698647bb742",
+      "title": "현대차, AI·로봇산업협회 부회장사 합류…로봇 생태계 힘 싣는다",
+      "url": "https://www.etnews.com/20261015000291",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:05:53Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "63c15347a7a2de3fcdf0",
+      "title": "코나미, '캐슬바니아: 벨몬트의 저주' 정식 출시",
+      "url": "https://www.etnews.com/20261015000287",
+      "summary": "",
+      "publishedAt": "2026-10-15T04:56:42Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "add53c100a2acea19c33",
+      "title": "한국정보통신법학회, 20일 AI 윤리법제포럼 개최…에이전틱 AI 윤리 논의",
+      "url": "https://www.etnews.com/20261015000271",
+      "summary": "",
+      "publishedAt": "2026-10-15T04:35:54Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -2697,6 +4864,22 @@
       "publishedAt": "2026-10-15T04:31:04Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "0c82fd87d15d82fe93ec",
+      "title": "로봇 학습·AI글라스 차량정비…KT그룹, 현업 AX 사례 40여개 공유",
+      "url": "https://www.etnews.com/20261015000254",
+      "summary": "",
+      "publishedAt": "2026-10-15T04:17:40Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "AI",
+        "자동차"
       ]
     },
     {
@@ -2707,7 +4890,8 @@
       "publishedAt": "2026-10-15T02:44:43Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "4575d831f486cb05247d",
@@ -2717,6 +4901,33 @@
       "publishedAt": "2026-10-15T02:19:04Z",
       "sourceIds": [
         "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "03d8a2dd0ac35feb0621",
+      "title": "현대차 팰리세이드 하이브리드, 美 워즈오토 10대 엔진 선정",
+      "url": "https://www.etnews.com/20261015000202",
+      "summary": "",
+      "publishedAt": "2026-10-15T02:04:29Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "ac833bf5a47613ba1c30",
+      "title": "현대차, 서울디자인어워드 'ESG 임팩트상' 수상",
+      "url": "https://www.etnews.com/20261015000199",
+      "summary": "",
+      "publishedAt": "2026-10-15T02:01:59Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2727,6 +4938,11 @@
       "publishedAt": "2026-10-15T02:01:38Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2737,6 +4953,10 @@
       "publishedAt": "2026-10-15T02:01:17Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2747,6 +4967,10 @@
       "publishedAt": "2026-10-15T01:53:19Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2757,6 +4981,37 @@
       "publishedAt": "2026-10-15T01:44:10Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "개발",
+        "보안"
+      ]
+    },
+    {
+      "id": "5579e44c31ebdef19845",
+      "title": "[클릭! 이차] 포르쉐코리아 '카이엔 쿠페 일렉트릭'",
+      "url": "https://www.etnews.com/20261015000138",
+      "summary": "",
+      "publishedAt": "2026-10-15T01:24:41Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "0f4f91858faf1a9414d1",
+      "title": "에스더블유엠 김남곤 이사, 자율주행 기술개발 공로 국무총리 표창",
+      "url": "https://www.etnews.com/20261015000124",
+      "summary": "",
+      "publishedAt": "2026-10-15T01:19:27Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
       ]
     },
     {
@@ -2767,6 +5022,10 @@
       "publishedAt": "2026-10-15T01:05:12Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2777,6 +5036,11 @@
       "publishedAt": "2026-10-15T01:03:00Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2787,7 +5051,8 @@
       "publishedAt": "2026-10-15T01:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "a3754d25574ab74ce2be",
@@ -2797,6 +5062,9 @@
       "publishedAt": "2026-10-15T00:46:47Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2807,7 +5075,8 @@
       "publishedAt": "2026-10-15T00:15:36Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "a3b215e7680a7c04a241",
@@ -2817,7 +5086,8 @@
       "publishedAt": "2026-10-15T00:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "509211983888a30b9ef6",
@@ -2827,6 +5097,10 @@
       "publishedAt": "2026-10-14T22:29:08Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2837,7 +5111,8 @@
       "publishedAt": "2026-10-14T22:20:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "3f9ab65bdcb51c47c775",
@@ -2847,7 +5122,8 @@
       "publishedAt": "2026-10-14T21:23:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "27921971efb7bc6feaec",
@@ -2857,7 +5133,8 @@
       "publishedAt": "2026-10-14T20:00:43Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "0ae4d1ba954a1824b1f8",
@@ -2867,7 +5144,8 @@
       "publishedAt": "2026-10-14T15:22:17Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "7f81f62f5c717e4cf774",
@@ -2877,7 +5155,8 @@
       "publishedAt": "2026-10-14T15:08:49Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "5b8bcfe230cece0a153a",
@@ -2887,7 +5166,8 @@
       "publishedAt": "2026-10-14T14:52:59Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "75020d883c331295cd1d",
@@ -2897,7 +5177,8 @@
       "publishedAt": "2026-10-14T11:12:36Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "98e0f7358556a0c7dfa8",
@@ -2907,6 +5188,35 @@
       "publishedAt": "2026-10-14T11:02:47Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "eb2e342c9ba8d04cc040",
+      "title": "정의선 현대차그룹 회장, 모디 인도 총리와 투자 계획 논의",
+      "url": "https://www.etnews.com/20261014000470",
+      "summary": "",
+      "publishedAt": "2026-10-14T10:41:19Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "799492abd0c45f68c934",
+      "title": "[사설] 현대차 인도 도전, 이제부턴 결실로",
+      "url": "https://www.etnews.com/20261014000374",
+      "summary": "",
+      "publishedAt": "2026-10-14T09:30:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -2917,7 +5227,8 @@
       "publishedAt": "2026-10-14T08:54:37Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "39b75846d5bc357cdf0d",
@@ -2927,7 +5238,8 @@
       "publishedAt": "2026-10-14T08:12:52Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "c61519bd95fd4edcb41d",
@@ -2937,6 +5249,10 @@
       "publishedAt": "2026-10-14T08:03:19Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
       ]
     },
     {
@@ -2947,6 +5263,9 @@
       "publishedAt": "2026-10-14T07:46:08Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2957,6 +5276,10 @@
       "publishedAt": "2026-10-14T07:23:23Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2967,6 +5290,10 @@
       "publishedAt": "2026-10-14T07:08:54Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -2977,6 +5304,9 @@
       "publishedAt": "2026-10-14T06:41:12Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -2987,6 +5317,10 @@
       "publishedAt": "2026-10-14T06:35:07Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "기술",
+        "보안"
       ]
     },
     {
@@ -2997,6 +5331,9 @@
       "publishedAt": "2026-10-14T06:24:53Z",
       "sourceIds": [
         "etnews-security"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -3007,7 +5344,8 @@
       "publishedAt": "2026-10-14T06:08:29Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "2e7f5b177740710cd92b",
@@ -3017,7 +5355,8 @@
       "publishedAt": "2026-10-14T05:06:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "927faaeb47d8c06dd6ec",
@@ -3027,7 +5366,8 @@
       "publishedAt": "2026-10-14T00:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "bca9efb09631fc4fcd92",
@@ -3037,7 +5377,8 @@
       "publishedAt": "2026-10-13T22:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "4ce4429fab7bfc6b36d7",
@@ -3047,7 +5388,8 @@
       "publishedAt": "2026-10-13T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "d39600db0c25ee2dcb63",
@@ -3057,7 +5399,8 @@
       "publishedAt": "2026-10-13T13:40:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "bb4442634053b3713dc4",
@@ -3067,7 +5410,8 @@
       "publishedAt": "2026-10-13T13:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "5d470f98318d544ca828",
@@ -3077,7 +5421,8 @@
       "publishedAt": "2026-10-13T08:50:01Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "8bbae0e98d1bac7e45d6",
@@ -3087,7 +5432,8 @@
       "publishedAt": "2026-10-13T05:02:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "038abdb224604c1e8848",
@@ -3097,7 +5443,8 @@
       "publishedAt": "2026-10-13T01:34:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "f4fccb855c66fa9b0fb2",
@@ -3107,7 +5454,8 @@
       "publishedAt": "2026-10-13T01:28:29Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "3afeab8140f2c7fe805c",
@@ -3117,7 +5465,8 @@
       "publishedAt": "2026-10-13T00:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "256730ff4bd78a00728d",
@@ -3127,7 +5476,8 @@
       "publishedAt": "2026-10-12T22:01:10Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "ec4a386e486da871c11c",
@@ -3137,7 +5487,8 @@
       "publishedAt": "2026-10-12T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "a734a3449d8d81227156",
@@ -3147,7 +5498,8 @@
       "publishedAt": "2026-10-12T14:40:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "05693a466915ed7169ac",
@@ -3157,7 +5509,8 @@
       "publishedAt": "2026-10-12T13:44:21Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "dc5f7e306f8ef08e2228",
@@ -3167,7 +5520,8 @@
       "publishedAt": "2026-10-12T08:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "1968713c6757742c6f67",
@@ -3177,7 +5531,8 @@
       "publishedAt": "2026-10-12T08:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "8ac356f5bba1e7f200a4",
@@ -3187,7 +5542,8 @@
       "publishedAt": "2026-10-12T07:51:14Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "26d5dcff59c65273159f",
@@ -3197,7 +5553,8 @@
       "publishedAt": "2026-10-12T02:53:02Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "42faf4355acc5ebfb428",
@@ -3207,7 +5564,8 @@
       "publishedAt": "2026-10-12T01:00:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "eddc17633ab704673a5f",
@@ -3217,7 +5575,8 @@
       "publishedAt": "2026-10-12T00:13:50Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "565a0537df5c053dfb02",
@@ -3227,7 +5586,8 @@
       "publishedAt": "2026-10-11T23:00:11Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "5ff86c8dc1b2c2b60fc0",
@@ -3237,7 +5597,8 @@
       "publishedAt": "2026-10-11T22:20:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "d4df7714744bba463de6",
@@ -3247,7 +5608,8 @@
       "publishedAt": "2026-10-11T22:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "bfaf0e95c4bd8fc11655",
@@ -3257,7 +5619,8 @@
       "publishedAt": "2026-10-11T21:40:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "b9cd292964f30f1a1c86",
@@ -3267,7 +5630,8 @@
       "publishedAt": "2026-10-11T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "8a4ee6714683bc8ebf21",
@@ -3277,7 +5641,8 @@
       "publishedAt": "2026-10-11T13:35:14Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "9a375c181642fec123be",
@@ -3287,7 +5652,8 @@
       "publishedAt": "2026-10-11T13:23:52Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "70b32b7520ce5153f592",
@@ -3297,7 +5663,8 @@
       "publishedAt": "2026-10-11T12:23:12Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "da1fac3a567a22f7b810",
@@ -3307,7 +5674,8 @@
       "publishedAt": "2026-10-10T23:45:51Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "e3a3cfee3671aa2803e1",
@@ -3317,7 +5685,8 @@
       "publishedAt": "2026-10-10T23:31:39Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "ae90eaa21abfeb970ef8",
@@ -3327,7 +5696,8 @@
       "publishedAt": "2026-10-10T19:55:34Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     },
     {
       "id": "8975e0a0a8055490bbee",
@@ -3337,7 +5707,8 @@
       "publishedAt": "2026-10-10T15:10:00Z",
       "sourceIds": [
         "awesome"
-      ]
+      ],
+      "topics": []
     }
   ]
 }

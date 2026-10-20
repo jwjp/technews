@@ -17,6 +17,7 @@ const state = {
   visibleCount: PAGE_SIZE,
   query: "",
   sort: "newest",
+  newsTopic: "",
 };
 
 function restoreState() {
@@ -25,7 +26,7 @@ function restoreState() {
     for (const key of ["disabledSources", "readIds", "savedIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
     }
-    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme"]) {
+    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic"]) {
       if (typeof saved[key] === "string") state[key] = saved[key];
     }
   } catch {
@@ -45,6 +46,7 @@ function saveState() {
       readIds: state.readIds,
       savedIds: state.savedIds,
       theme: state.theme,
+      newsTopic: state.newsTopic,
     }));
   } catch {
     showToast("브라우저 저장 공간을 사용할 수 없습니다.");
@@ -77,7 +79,7 @@ function isNews(article) {
 
 function searchText(article) {
   const sourceNames = article.sourceIds.map((id) => state.sources.find((source) => source.id === id)?.name || "").join(" ");
-  return `${article.title} ${article.summary} ${sourceNames}`.toLocaleLowerCase("ko");
+  return `${article.title} ${article.summary} ${sourceNames} ${(article.topics || []).join(" ")}`.toLocaleLowerCase("ko");
 }
 
 function filteredArticles() {
@@ -88,6 +90,7 @@ function filteredArticles() {
     if (!hasSource(article)) return false;
     if (state.view === "reading" && isNews(article)) return false;
     if (state.view === "news" && !isNews(article)) return false;
+    if (state.view === "news" && state.newsTopic && !(article.topics || []).includes(state.newsTopic)) return false;
     if (state.view === "unread" && state.readIds.includes(article.id)) return false;
     if (state.view === "saved" && !state.savedIds.includes(article.id)) return false;
     const searchable = searchText(article);
@@ -150,6 +153,9 @@ function articleCard(article, index) {
     const source = state.sources.find((item) => item.id === id);
     if (source) sources.append(make("span", "source-pill", source.name));
   }
+  if (isNews(article)) {
+    for (const topic of article.topics || []) sources.append(make("span", "topic-pill", topic));
+  }
   top.append(sources, make("time", "article-date", formatDate(article.publishedAt)));
   const title = make("h3", "article-title");
   const link = make("a", "", article.title);
@@ -184,7 +190,7 @@ function articleCard(article, index) {
 function render() {
   const titles = {
     reading: ["기술 글", "새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요."],
-    news: ["국내 뉴스", "국내 IT·개발 뉴스를 따로 모았어요."],
+    news: ["국내 뉴스", "기술·개발·소프트웨어·보안·AI·자동차 뉴스를 골라 보세요."],
     all: ["전체 글", "기술 글과 뉴스를 시간순으로 모았어요."],
     unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."],
     saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."],
@@ -192,6 +198,12 @@ function render() {
   $("#view-title").textContent = titles[state.view][0];
   $("#view-description").textContent = titles[state.view][1];
   document.querySelectorAll(".nav-item").forEach((item) => item.classList.toggle("active", item.dataset.view === state.view));
+  $("#news-topics").hidden = state.view !== "news";
+  document.querySelectorAll(".topic-button").forEach((button) => {
+    const active = button.dataset.topic === state.newsTopic;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
   const available = state.articles.filter(hasSource);
   $("#count-reading").textContent = available.filter((item) => !isNews(item)).length.toLocaleString("ko-KR");
   $("#count-news").textContent = available.filter(isNews).length.toLocaleString("ko-KR");
@@ -203,6 +215,7 @@ function render() {
   const summary = $("#filter-summary");
   const filters = [];
   if (state.query.trim()) filters.push(`검색: ${state.query.trim()}`);
+  if (state.view === "news" && state.newsTopic) filters.push(`분야: ${state.newsTopic}`);
   if (state.interestOnly && keywords(state.favoriteKeywords).length) filters.push("관심 키워드");
   if (keywords(state.hiddenKeywords).length) filters.push("숨길 키워드 적용 중");
   summary.hidden = !filters.length;
@@ -225,6 +238,12 @@ function bindEvents() {
     state.visibleCount = PAGE_SIZE;
     render();
     $("#main-content").scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  document.querySelectorAll(".topic-button").forEach((button) => button.addEventListener("click", () => {
+    state.newsTopic = button.dataset.topic;
+    state.visibleCount = PAGE_SIZE;
+    saveState();
+    render();
   }));
   $("#search-input").addEventListener("input", (event) => { state.query = event.target.value; state.visibleCount = PAGE_SIZE; render(); });
   $("#sort-order").addEventListener("change", (event) => { state.sort = event.target.value; render(); });

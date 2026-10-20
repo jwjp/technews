@@ -30,6 +30,15 @@ AGGREGATOR_HOSTS = {"velopers.kr", "www.velopers.kr", "news.hada.io", "indieblog
 MAX_FEED_BYTES = 5_000_000
 MAX_ARTICLES = 2000
 MAX_AGE_DAYS = 180
+NEWS_TOPICS = ("기술", "개발", "소프트웨어", "보안", "AI", "자동차")
+TITLE_TOPICS = {
+    "개발": r"개발자|개발도구|개발환경|프로그래밍|코딩|오픈소스|깃허브|GitHub|DevOps|API\b|SDK\b",
+    "소프트웨어": r"소프트웨어|\bSW\b|\bSaaS\b|클라우드|데이터베이스|운영체제|\bOS\b|애플리케이션|\b앱\b",
+    "보안": r"보안|해킹|해커|랜섬웨어|악성코드|사이버공격|취약점|정보보호|개인정보|피싱",
+    "AI": r"(?<![A-Za-z])AI(?![A-Za-z])|인공지능|생성형|LLM|챗봇|챗GPT|ChatGPT|머신러닝|딥러닝",
+    "자동차": r"자동차|전기차|자율주행|모빌리티|완성차|현대차|기아차|테슬라|차량|배터리|충전소|로보택시|커넥티드카",
+    "기술": r"반도체|디스플레이|스마트폰|컴퓨팅|통신망|네트워크|데이터센터|서버|로봇|양자컴퓨팅|기술개발",
+}
 
 
 class PlainText(HTMLParser):
@@ -121,7 +130,16 @@ def fetch_xml(url: str) -> ET.Element:
     raise RuntimeError(str(error))
 
 
-def entries_from(root: ET.Element, source: dict[str, str]) -> list[dict]:
+def ordered_topics(topics: set[str]) -> list[str]:
+    return [topic for topic in NEWS_TOPICS if topic in topics]
+
+
+def classify_news(title: str) -> list[str]:
+    topics = {topic for topic, pattern in TITLE_TOPICS.items() if re.search(pattern, title, re.IGNORECASE)}
+    return ordered_topics(topics)
+
+
+def entries_from(root: ET.Element, source: dict) -> list[dict]:
     entries = root.findall(".//item") if root.tag != f"{ATOM}feed" else root.findall(f"{ATOM}entry")
     result = []
     for entry in entries[:150]:
@@ -139,6 +157,11 @@ def entries_from(root: ET.Element, source: dict[str, str]) -> list[dict]:
         published = parse_date(child_text(entry, "pubDate", f"{ATOM}published", f"{ATOM}updated", f"{DC}date"))
         if not published:
             continue
+        topics = set(source.get("topics", []))
+        if source.get("type") == "news":
+            topics.update(classify_news(title))
+            if source.get("classify") and not topics:
+                continue
         description = child_text(entry, "description", f"{ATOM}summary", f"{ATOM}content")
         summary = "" if source.get("type") == "news" else clean_text(description, 280)
         if summary.casefold() == title.casefold():
@@ -150,6 +173,7 @@ def entries_from(root: ET.Element, source: dict[str, str]) -> list[dict]:
             "summary": summary,
             "publishedAt": published,
             "sourceIds": [source["id"]],
+            "topics": ordered_topics(topics),
         })
     return result
 
@@ -163,14 +187,24 @@ def link_quality(url: str) -> int:
     return 0 if host in AGGREGATOR_HOSTS else 1
 
 
-def merge_articles(old: list[dict], incoming: list[dict], source_order: list[str]) -> list[dict]:
+def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -> list[dict]:
+    source_order = [source["id"] for source in sources]
+    source_topics = {source["id"]: source.get("topics", []) for source in sources}
+    news_sources = {source["id"] for source in sources if source.get("type") == "news"}
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     valid = []
     for article in old + incoming:
         try:
             known_sources = [source_id for source_id in article["sourceIds"] if source_id in source_order]
             if known_sources and datetime.fromisoformat(article["publishedAt"].replace("Z", "+00:00")) >= cutoff:
-                valid.append({**article, "sourceIds": known_sources})
+                topics: set[str] = set()
+                for source_id in known_sources:
+                    topics.update(source_topics[source_id])
+                if any(source_id in news_sources for source_id in known_sources):
+                    topics.update(classify_news(article["title"]))
+                    if not topics:
+                        continue
+                valid.append({**article, "sourceIds": known_sources, "topics": ordered_topics(topics)})
         except (KeyError, ValueError):
             continue
     valid.sort(key=lambda item: item["publishedAt"], reverse=True)
@@ -189,13 +223,14 @@ def merge_articles(old: list[dict], incoming: list[dict], source_order: list[str
                     break
         if match:
             match["sourceIds"] = sorted(set(match["sourceIds"] + article["sourceIds"]), key=source_order.index)
+            match["topics"] = ordered_topics(set(match["topics"] + article["topics"]))
             if link_quality(article["url"]) > link_quality(match["url"]):
                 match["url"] = article["url"]
             if not match.get("summary") and article.get("summary"):
                 match["summary"] = article["summary"]
             by_url[article["url"]] = match
         else:
-            copied = {key: article[key] for key in ("id", "title", "url", "summary", "publishedAt", "sourceIds")}
+            copied = {key: article[key] for key in ("id", "title", "url", "summary", "publishedAt", "sourceIds", "topics")}
             copied["sourceIds"] = [source_id for source_id in source_order if source_id in copied["sourceIds"]]
             merged.append(copied)
             by_url[copied["url"]] = copied
@@ -223,7 +258,7 @@ def main() -> int:
             print(f"{source['name']}: {exc}", file=sys.stderr)
     if not incoming or (args.require_all and failures):
         return 1
-    merged = merge_articles(old_doc.get("articles", []), incoming, [source["id"] for source in sources])
+    merged = merge_articles(old_doc.get("articles", []), incoming, sources)
     if merged != old_doc.get("articles", []) or old_doc.get("sources") != sources:
         document = {
             "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),

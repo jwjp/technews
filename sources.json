@@ -36,24 +36,59 @@
     "group": "커뮤니티"
   },
   {
+    "id": "etnews-it",
+    "name": "전자신문 · IT",
+    "url": "https://rss.etnews.com/03.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["기술"]
+  },
+  {
     "id": "etnews-sw",
     "name": "전자신문 · SW",
     "url": "https://rss.etnews.com/04.xml",
     "group": "국내 IT 뉴스",
-    "type": "news"
+    "type": "news",
+    "topics": ["소프트웨어"]
   },
   {
     "id": "etnews-security",
     "name": "전자신문 · 보안",
     "url": "https://rss.etnews.com/04045.xml",
     "group": "국내 IT 뉴스",
-    "type": "news"
+    "type": "news",
+    "topics": ["보안"]
+  },
+  {
+    "id": "etnews-ai",
+    "name": "전자신문 · AI",
+    "url": "https://rss.etnews.com/04046.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["AI"]
+  },
+  {
+    "id": "etnews-mobility",
+    "name": "전자신문 · 모빌리티",
+    "url": "https://rss.etnews.com/17.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["자동차"]
+  },
+  {
+    "id": "zdnet",
+    "name": "ZDNet Korea",
+    "url": "https://feeds.feedburner.com/zdkorea",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "classify": true
   },
   {
     "id": "aitimes",
     "name": "AI타임스",
     "url": "https://www.aitimes.com/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
-    "type": "news"
+    "type": "news",
+    "topics": ["AI"]
   }
 ]

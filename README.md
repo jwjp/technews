@@ -5,12 +5,13 @@
 ## 기능
 
 - Velopers, TechBlogPosts, Indieblog, 어썸블로그, GeekNews, Hacker News 한국어 피드 수집
-- 전자신문 SW·보안, AI타임스 뉴스를 별도 목록으로 제공
+- 전자신문 IT·SW·보안·AI·모빌리티, ZDNet Korea, AI타임스 뉴스를 별도 목록으로 제공
+- 국내 뉴스를 기술·개발·소프트웨어·보안·AI·자동차 분야별로 필터링
 - 원문 URL과 제목 기반 중복 정리
 - 출처 구독·숨김, 제목·소개 검색, 관심/제외 키워드
 - 읽음 표시, 북마크, 다크 모드
 - 브라우저에 설정 저장, JSON 내보내기·가져오기
-- 6시간마다 피드 갱신 및 GitHub Pages 자동 배포
+- 3시간마다 피드 갱신 및 GitHub Pages 자동 배포
 
 ## 로컬 실행
 
@@ -25,13 +26,13 @@ python -m http.server 8000 --directory site
 
 ## 소스 추가
 
-`sources.json`에 `id`, `name`, `url`, `group`을 가진 객체를 추가한 뒤 수집기를 실행합니다. 뉴스 피드에는 `"type": "news"`를 추가하면 국내 뉴스 목록에 나타나고 소개 문구는 저장하지 않습니다. 피드는 RSS 2.0 또는 Atom 형식이어야 합니다. 일부 피드가 실패하면 이전에 수집된 글은 유지하며, 모든 피드가 실패하면 작업이 실패합니다.
+`sources.json`에 `id`, `name`, `url`, `group`을 가진 객체를 추가한 뒤 수집기를 실행합니다. 뉴스 피드에는 `"type": "news"`와 해당 분야의 `"topics"`를 추가하면 국내 뉴스 목록에 나타나고 소개 문구는 저장하지 않습니다. 여러 분야가 섞인 피드는 `"classify": true`로 설정하면 제목을 바탕으로 관련 기사만 수집합니다. 분야 분류는 자동이므로 일부 기사가 다르게 분류될 수 있습니다. 피드는 RSS 2.0 또는 Atom 형식이어야 합니다. 일부 피드가 실패하면 이전에 수집된 글은 유지하며, 모든 피드가 실패하면 작업이 실패합니다.
 
 ## GitHub Pages 배포
 
 1. 저장소를 GitHub에 푸시합니다.
 2. **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택합니다.
-3. **Actions**의 `Refresh feeds and publish Pages` 작업을 확인합니다. `main` 브랜치에 푸시할 때와 6시간마다 실행됩니다. `workflow_dispatch`로 수동 실행도 가능합니다.
+3. **Actions**의 `Refresh feeds and publish Pages` 작업을 확인합니다. `main` 브랜치에 푸시할 때와 3시간마다 실행됩니다. `workflow_dispatch`로 수동 실행도 가능합니다.
 
 사이트는 프로젝트 저장소의 Pages 경로에서도 상대 URL로 동작합니다. 읽음·북마크·취향 설정은 방문한 브라우저에만 저장되므로 다른 기기와 자동 동기화되지는 않습니다. `설정 내보내기/가져오기`로 옮길 수 있습니다.
 

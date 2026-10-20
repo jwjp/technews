@@ -83,6 +83,16 @@
               <select id="sort-order" class="sort-select" aria-label="정렬 순서"><option value="newest">최신순</option><option value="oldest">오래된순</option></select>
             </div>
           </div>
+          <div id="news-topics" class="news-topics" aria-label="뉴스 분야" hidden>
+            <span class="news-topics-label">분야별 보기</span>
+            <button class="topic-button active" data-topic="" type="button" aria-pressed="true">전체</button>
+            <button class="topic-button" data-topic="기술" type="button" aria-pressed="false">기술</button>
+            <button class="topic-button" data-topic="개발" type="button" aria-pressed="false">개발</button>
+            <button class="topic-button" data-topic="소프트웨어" type="button" aria-pressed="false">소프트웨어</button>
+            <button class="topic-button" data-topic="보안" type="button" aria-pressed="false">보안</button>
+            <button class="topic-button" data-topic="AI" type="button" aria-pressed="false">AI</button>
+            <button class="topic-button" data-topic="자동차" type="button" aria-pressed="false">자동차</button>
+          </div>
           <div class="filter-summary" id="filter-summary" hidden></div>
           <div id="articles" class="articles" aria-live="polite"><div class="loading-state"><span class="loading-spinner"></span><p>오늘의 글을 모으는 중...</p></div></div>
           <button id="load-more" class="load-more" type="button" hidden>글 더 보기 <span>↓</span></button>
