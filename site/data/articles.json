@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:54:51Z",
+  "generatedAt": "2026-10-20T05:57:00Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,36 @@
   ],
   "articles": [
     {
+      "id": "9353db6def96d246a850",
+      "title": "나루씨큐리티, AI 웹 방어 서비스 '제로티카 라이트 웹' 출시",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156297",
+      "summary": "",
+      "publishedAt": "2026-10-20T14:54:19Z",
+      "sourceIds": [
+        "techm",
+        "dailysecu"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "eff154537883004ab64b",
+      "title": "삼성전기, 'AI 사업·AI 전환' 두 마리 토끼 잡는다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156298",
+      "summary": "",
+      "publishedAt": "2026-10-20T14:53:57Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "47517d2c7d2ac6724b2a",
       "title": "슈퍼카 F80 앞세우고 F1 머신까지 총출동... 뉴델리 뒤흔든 페라리 월드",
       "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61948",
@@ -417,6 +447,20 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "7f480ce9e6ca0d40a3f7",
+      "title": "세일포인트, 자율형 아이덴티티 보안 솔루션 공개...AI 에이전트 보호 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208951",
+      "summary": "",
+      "publishedAt": "2026-10-20T14:51:34Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
       ]
     },
     {
@@ -546,20 +590,6 @@
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=208946",
       "summary": "",
       "publishedAt": "2026-10-20T14:13:38Z",
-      "sourceIds": [
-        "dailysecu"
-      ],
-      "topics": [
-        "보안",
-        "AI"
-      ]
-    },
-    {
-      "id": "6b6ddfe762b3227fcc8d",
-      "title": "나루씨큐리티, AI 웹 방어 서비스 '제로티카 라이트 웹' 출시",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208945",
-      "summary": "",
-      "publishedAt": "2026-10-20T14:08:23Z",
       "sourceIds": [
         "dailysecu"
       ],
@@ -2068,6 +2098,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "efa670c6852173ec85a6",
+      "title": "디즈니, 파산한 AI챗봇 직원 절반 넘게 품는다…60명에 연 6000만달러 제시",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833360",
+      "summary": "",
+      "publishedAt": "2026-10-20T05:53:20Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
