@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T06:37:23Z",
+  "generatedAt": "2026-10-20T06:44:04Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -406,6 +406,32 @@
     }
   ],
   "articles": [
+    {
+      "id": "f037bb6f1e834ca4a4b4",
+      "title": "씨큐비스타, 중앙부처 및 공공기관에 NDR 보안 솔루션 '패킷사이버' 공급",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208954",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:42:29Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "88f56b9905553a2a89fc",
+      "title": "일에이엔, 시스코 공식 파트너 등재...아시아 3개국 잇는 SI·NI 통합 솔루션 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208953",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:35:18Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
     {
       "id": "12e5a577a1157ae60f59",
       "title": "신한투자증권, 은퇴 후 현금흐름 관리 위한 ‘신한마음편한RIF’ 판매",
@@ -2260,6 +2286,20 @@
       ]
     },
     {
+      "id": "c22c6e45e708124f4f80",
+      "title": "예·적금부터 세금까지…신한은행, 금융 콘텐츠 플랫폼 '솔깃' 개설",
+      "url": "https://www.ajunews.com/view/20261020154053956",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:42:20Z",
+      "sourceIds": [
+        "ajunews-investment"
+      ],
+      "topics": [
+        "금융",
+        "정책"
+      ]
+    },
+    {
       "id": "c867bd6b5327047f3236",
       "title": "머스크 “미국 모든 어린이에게 스페이스X 주식 1주씩”…14조원 규모",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216418",
@@ -2273,6 +2313,48 @@
       ]
     },
     {
+      "id": "2aded95213b5eb527ce5",
+      "title": "국토부 항공정책실에 '공항안전관리단' 신설…ICAO 평가 대비",
+      "url": "https://www.newsis.com/view/NISX20261020_0003832744",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:40:03Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제",
+        "정책"
+      ]
+    },
+    {
+      "id": "94f7e9c12c26afcd9284",
+      "title": "[올댓차이나] 인민은행, 익일물 금리를 핵심 정책금리로 전환 추진",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833632",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:37:25Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제",
+        "정책"
+      ]
+    },
+    {
+      "id": "c707c5db68d416a1d339",
+      "title": "원·달러 환율, 또 2년 만에 최저…2.2원 내린 1328.1원 마감",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833627",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:36:42Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "9974211fd0d1a6300523",
       "title": "\"삼전·SK하닉株 청산가치 수준…11월 대반등 온다\"는 전문가, 확신한 근거는",
       "url": "https://www.fnnews.com/news/202610201439141710",
@@ -2283,6 +2365,19 @@
       ],
       "topics": [
         "주식"
+      ]
+    },
+    {
+      "id": "35dc4898ea02c3c6c8f4",
+      "title": "CXMT “D램 핵심 기술 이미 세계 선진 수준…초미세 공정 선도하겠다”",
+      "url": "https://www.hankyung.com/article/202610203353i",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:35:11Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -2511,6 +2606,19 @@
       ]
     },
     {
+      "id": "949f3d7434c21174cc66",
+      "title": "[단독] LG엔솔의 아픈 손가락 폴란드 공장 4분기 흑자 눈앞",
+      "url": "https://www.hankyung.com/article/202610203566i",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:29:12Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
       "id": "662e64e7a7c2a4916d8a",
       "title": "IBK기업은행, 모바일 신분증 서비스 출시",
       "url": "https://www.newsis.com/view/NISX20261020_0003833561",
@@ -2521,6 +2629,19 @@
       ],
       "topics": [
         "금융"
+      ]
+    },
+    {
+      "id": "f32803a791f699b06811",
+      "title": "홈앤쇼핑, 시장 골목서 전국 안방으로…전통시장에 새 판로 열어준다",
+      "url": "https://www.hankyung.com/article/2026102024901",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:28:24Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -2548,6 +2669,60 @@
       ],
       "topics": [
         "금융"
+      ]
+    },
+    {
+      "id": "1e7168e76b2105617259",
+      "title": "홈앤쇼핑, 고객 목소리 모아 제도 바꾸고 경영에 반영…협력사엔 노하우 나눠",
+      "url": "https://www.hankyung.com/article/2026102024871",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:26:44Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "931affb9a54e9f70fa42",
+      "title": "동양생명, 보험 가입·지급까지 AI 도입…보장성 상품 확대",
+      "url": "https://www.hankyung.com/article/2026102024861",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:25:59Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "0c9433cb57a336a5d1d5",
+      "title": "ABL생명, 생전 질병에도 보험금 선지급…사망 보장은 그대로",
+      "url": "https://www.hankyung.com/article/2026102024851",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:24:52Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "c6d94b821d733e0717c1",
+      "title": "\"필요한 곳만 빠르고 따뜻하게 데워요\"…신일 공간맞춤 난방가전으로 겨울 준비",
+      "url": "https://www.hankyung.com/article/2026102024941",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:23:33Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -2587,6 +2762,32 @@
       "publishedAt": "2026-10-20T06:23:00Z",
       "sourceIds": [
         "etoday-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "90bf3ad0e21b1ec9af09",
+      "title": "정수기 넘어 수면·홈케어까지…교원 웰스 '웰니스 기업' 발돋움",
+      "url": "https://www.hankyung.com/article/2026102024951",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:22:47Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "2767c3d293e3b8d924d9",
+      "title": "비씨카드 '콘다'로 외국인 결제시장 공략",
+      "url": "https://www.hankyung.com/article/2026102024961",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:22:39Z",
+      "sourceIds": [
+        "hankyung-economy"
       ],
       "topics": [
         "경제"
@@ -3070,6 +3271,32 @@
       ]
     },
     {
+      "id": "560993cd62feaa1b754b",
+      "title": "\"이병철 창간정신 이어간다\"…'범삼성家' CJ·신세계 손잡고 중앙일보 인수 참여 [종합]",
+      "url": "https://www.hankyung.com/article/202610203267g",
+      "summary": "",
+      "publishedAt": "2026-10-20T05:56:18Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "a6776b9ecc3b1ae2ce4a",
+      "title": "韓관광객 이마에 파스 붙이고 먹는 '中현지 맛집'…\"하이디라오 다음은 여기\" [C-프랜차이즈가 온다]",
+      "url": "https://www.hankyung.com/article/202610202664g",
+      "summary": "",
+      "publishedAt": "2026-10-20T05:54:00Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
       "id": "efa670c6852173ec85a6",
       "title": "디즈니, 파산한 AI챗봇 직원 절반 넘게 품는다…60명에 연 6000만달러 제시",
       "url": "https://www.newsis.com/view/NISX20261020_0003833360",
@@ -3422,6 +3649,19 @@
       ],
       "topics": [
         "정책"
+      ]
+    },
+    {
+      "id": "2893d5dbd3f4c69e2692",
+      "title": "\"작년 실적 벌써 두 배 넘겼다\"…외국인 관광객 10만명 몰린 이곳",
+      "url": "https://www.hankyung.com/article/202610203354g",
+      "summary": "",
+      "publishedAt": "2026-10-20T05:38:59Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
