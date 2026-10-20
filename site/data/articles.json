@@ -1,0 +1,2017 @@
+{
+  "generatedAt": "2026-10-20T01:04:53Z",
+  "sources": [
+    {
+      "id": "techblogposts",
+      "name": "TechBlogPosts",
+      "url": "https://techblogposts.com/rss.xml",
+      "group": "기업 기술 블로그"
+    },
+    {
+      "id": "velopers",
+      "name": "Velopers",
+      "url": "https://www.velopers.kr/summary-rss.xml",
+      "group": "기업 기술 블로그"
+    },
+    {
+      "id": "indieblog",
+      "name": "Indieblog",
+      "url": "https://indieblog.net/rss.xml",
+      "group": "개인 블로그"
+    },
+    {
+      "id": "awesome",
+      "name": "어썸블로그",
+      "url": "https://awesome-blogs.petabytes.org/feeds?group=all",
+      "group": "개인 블로그"
+    },
+    {
+      "id": "geeknews",
+      "name": "GeekNews",
+      "url": "https://news.hada.io/rss/news",
+      "group": "커뮤니티"
+    },
+    {
+      "id": "hnko",
+      "name": "Hacker News 한국어",
+      "url": "https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml",
+      "group": "커뮤니티"
+    }
+  ],
+  "articles": [
+    {
+      "id": "7e3ec83d31e4eca34eaa",
+      "title": "Ask GN: 회사에서 계속해서 늘어나는 에이전트, 어떻게 관리하나요?",
+      "url": "https://news.hada.io/topic?id=35673",
+      "summary": "데브옵스로 일하고 있는데, 여러 팀들이 클로드나 코덱스로 팀 에이전트를 만들고 배포하고 슬랙으로 연동하고 있습니다. 자동화하는 것은 문제가 아닌데, 운영 팀 입장에선 중복과 보안이 문제가 되는 것 같습니다. 대부분의 에이전트가 코딩, Q&A이다 보니 기능적으로 겹치는 부분이 많습니다. 또",
+      "publishedAt": "2026-10-20T00:49:14Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "56a3b07a1343f9d6aea9",
+      "title": "Plex 취약점, 암호화폐 채굴기 설치를 위한 실제 공격에 악용 중",
+      "url": "https://news.hada.io/topic?id=35672",
+      "summary": "취약한 Plex 버전을 실행한 허니팟 에서 2026년 10월 17일 실제 취약점 악용과 암호화폐 채굴기 배포가 관측됨 Plex2Shell 은 여러 취약점을 연결해 원격 코드 실행을 달성하며, Plex는 앞서 9월 1일 관련 보안 업데이트를 공지함 서로 다...",
+      "publishedAt": "2026-10-20T00:32:17Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "0def2535e973d8211a0f",
+      "title": "Anatomy - 기술 개념을 움직이는 입체 도해로 만드는 AI 에이전트 스킬",
+      "url": "https://news.hada.io/topic?id=35670",
+      "summary": "문서와 블로그, 교육 자료에 사용할 인터랙티브 입체 도해를 코딩 에이전트로 제작 하는 스킬 캐시, 연결 풀, 요청 제한 같은 개념을 실제로 움직이는 기계나 장치에 빗대어 시각화 . 설명할 개념과 수치, 출력 형식을 지정해 요청 SVG로 부품과 배관, 음영...",
+      "publishedAt": "2026-10-20T00:30:02Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "fa73ff24ef85537d5c64",
+      "title": "사이트 가이드라인과 AI/LLM 태그 변경",
+      "url": "https://news.hada.io/topic?id=35667",
+      "summary": "Lobsters가 독자의 시간과 지성을 존중하는 컴퓨팅 콘텐츠 에 집중하도록 주제 적합성과 자기 홍보 규칙을 명확히 하고, AI/LLM 태그를 개편함 예정된 배포 이후에는 코드 저장소 자체를 제출할 수 없으며 , 코드의 제작 이유, 목적, 해결한 과제와 유용성을 다룬 콘...",
+      "publishedAt": "2026-10-20T00:03:37Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "91d27cf22afb07c968ca",
+      "title": "여기어때 해외투어 프론트엔드 구축기록",
+      "url": "https://indieblog.net/go/623845",
+      "summary": "글. 박수봉(Henby) / 서비스웹개발팀 안녕하세요. 서비스웹개발팀 헨비입니다. 9월 7일, 여기어때 해외투어 서비스를 오픈했습니다. 프론트엔드 담당 개발자는 두 명이었고, 웹과 앱 웹뷰를 하나의 코드베이스로 개발했습니다. 저는 웹 카테고리홈·상품 상세·주문서·예약내역·해외투어용 채팅을 맡았고, 검색바·헤더·푸터·예약내역 탭·찜 탭·회원탈퇴처럼 여러 서비…",
+      "publishedAt": "2026-10-20T00:01:02Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "fc3599f167b09ada13f3",
+      "title": "프랑스의 슈퍼마켓 냉장고는 몇 달 동안 온라인에서 취약했습니다",
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "summary": "📝 여기에는 Danfoss가 더 이상 지원하지 않는 527개의 구형 컨트롤러가 포함됩니다. 프랑스는 다른 나라보다 더 나쁜 패치를 하지 않았습니다. Monoprix는 매장의 약 5%가 영향을 받았다고 보고했습니다. 🔤 Original: France's Supermarket Fridges Were Vulnerable Online for Months 🔗 Read more: https://ipinfo.io/blog/france-fridges-hack",
+      "publishedAt": "2026-10-20T00:00:49Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "e3bfb0c3548ab358ef2a",
+      "title": "Token-maxxing이 죽었고 OpenRouter의 토큰 사용이 정체되었습니다.",
+      "url": "https://openrouter.ai/rankings",
+      "summary": "📝 주별 OpenRouter의 폐쇄형 가중치 모델. 스텔스 모델은 제외됩니다. 다른 사람들은 2b 요청으로 이어집니다. 🔤 Original: Token-maxxing is dead, OpenRouter's token usage plateaus 🔗 Read more: https://openrouter.ai/rankings",
+      "publishedAt": "2026-10-19T23:40:15Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "72d79637cf132651d352",
+      "title": "Microsoft 계정이 없어 RTX Spark 노트북에 Linux 설치하기",
+      "url": "https://news.hada.io/topic?id=35665",
+      "summary": "Windows만 공식 지원하는 ASUS ProArt P16 에 Arch Linux ARM을 설치하고, 하드웨어 지원 패치와 부팅 가능한 USB 빌드 구성을 공개함 NVIDIA의 Ubuntu용 커널 작업을 바탕으로 ACPI, 콘솔, 키보드, 오디오 지원 을 보완했으며, 확장한 Archinstall 4.5로 설치할 수 ...",
+      "publishedAt": "2026-10-19T23:32:58Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "ec069ce4bc1677274fa8",
+      "title": "유럽 9월 전기차 판매 70.3% 증가, 시장 점유율 32.6%",
+      "url": "https://news.hada.io/topic?id=35664",
+      "summary": "유럽 주요 17개 시장에서 9월 배터리 전기차(BEV) 등록이 70.3% 증가했으며, 전체 자동차 판매의 약 3분의 1을 차지함 높은 유가와 보조금 , 더 저렴한 모델의 공급이 전기차 성장세를 계속 이끌고 있음 올해 누적 BEV 등록은 198만 대 로...",
+      "publishedAt": "2026-10-19T22:33:01Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "84a7e02b61ac728bda3a",
+      "title": "Show GN: VEXPLOR AAS Studio – AAS 작성·검사·설비 값 수집을 한 화면에서 하는 오픈소스",
+      "url": "https://news.hada.io/topic?id=35663",
+      "summary": "설비 정보 국제 표준 AAS(Asset Administration Shell, IEC 63278)를 공장에 실제로 붙이는 데 필요한 일을 웹 화면 하나로 모은 TypeScript 오픈소스입니다(Apache-2.0). AASX 파일을 웹에서 열고 고칩니다. 메타모델 V3.0·V3.1·V3.2를 다루고, 새 모델은 V3.1로 시작합니다. 검사 규칙 52종(",
+      "publishedAt": "2026-10-19T22:24:12Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "6951bc71de925b54b052",
+      "title": "앤트로픽은 왜 10% 넘는 이자를 주고 돈을 빌릴까?",
+      "url": "https://blog.naver.com/ranto28/224447237450?fromRss=true&trackingCode=rss",
+      "summary": "1. 10월 16일 FT는 \"앤트로픽이 블랙스톤에 10% 넘는 대출금리를 제시했다\"는 기사를 내 보냄. 2. \"AI의 1등 기업이 왜 정크본드 수준의 금리로 돈을 빌리나”라는 반응이 나옴. ※ 정크(쓰레기) 본드: 위험이 커서 금융사들이 꺼리는 채권으로 BB+ 이하를 말함. 점잖은 표현은 하이일드(고수익) 채권임. 3. 구조를 보면 10%대 금리가 납득가는 점이 있음. 4. 이번 딜은 '프로젝트 노스스타'라는 이름이고, 600억달러 규모의 칩 담보대출임. 5. 앤트로픽이 칩을 직접 사는 구조는 아",
+      "publishedAt": "2026-10-19T22:20:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "4edf3552cd701064f127",
+      "title": "빠른 기기가 왜 기다려야 하지?",
+      "url": "https://techblog.musinsa.com/%EB%B9%A0%EB%A5%B8-%EA%B8%B0%EA%B8%B0%EA%B0%80-%EC%99%9C-%EA%B8%B0%EB%8B%A4%EB%A0%A4%EC%95%BC-%ED%95%98%EC%A7%80-a0533ee53dd2",
+      "summary": "",
+      "publishedAt": "2026-10-19T22:01:02Z",
+      "sourceIds": [
+        "techblogposts"
+      ]
+    },
+    {
+      "id": "936d6a6daf92a1c72274",
+      "title": "빠른 기기가 왜 기다려야 하지?",
+      "url": "https://indieblog.net/go/623835",
+      "summary": "테스트 자동화 Framework 3.0 전환기 안녕하세요. MUSINSA Automation QE팀 정다정입니다. 저희는 앱 빌드나 웹 프론트엔드(FE) 배포가 끝날 때마다 실기기에서 BVT(Build Verification Test, 새 빌드의 핵심 기능이 정상 동작하는지 확인하는 테스트)를 자동으로 수행합니다. 결과는 Slack과 TMS(Test Man…",
+      "publishedAt": "2026-10-19T22:01:02Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "6f9baf4b4f296bc77526",
+      "title": "Drupal은 이제 그 명성보다 몇 광년 앞서 있습니다.",
+      "url": "https://dri.es/state-of-drupal-presentation-september-2026",
+      "summary": "📝 Starshot은 사이트 템플릿, 레시피, Drupal AI, Drupal Canvas 등을 통합하여 웹 사이트 구축을 더 쉽게 만드는 Drupal CMS가 되었습니다. 더 강력한 Drupal Core는 더 나은 Drupal CMS를 구축하는 데 도움이 되며, Drupal CMS 구축은 Drupal Core의 추가 개선을 주도했습니다. MCP를 통해 AI 도우미는 Drupal 외부의 Drupal 콘텐츠로 작업할 수 있습니다. 🔤 Original: Drupal is now light-years",
+      "publishedAt": "2026-10-19T21:38:02Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "b26e54861539689cbd04",
+      "title": "Ask HN: AI가 작성한 코드를 이해하지 못한 채 배포하는 문제, 어떻게 대처하시나요?",
+      "url": "https://news.hada.io/topic?id=35662",
+      "summary": "Meta 엔지니어의 LinkedIn 게시물 에 공감하며, AI가 작성한 코드를 충분히 이해하지 못한 채 배포하는 상황 에 다른 엔지니어들은 어떻게 대처하는지 경험을...",
+      "publishedAt": "2026-10-19T21:33:18Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "e9f92482846f8838164e",
+      "title": "OpenBSD 8.0 릴리스에는 Linux 6.18의 inteldrm/radeondrm/amdgpu 드라이버가 포함됩니다.",
+      "url": "https://bsd.network/@brynet/117407035545900963",
+      "summary": "📝 이로 인해 OpenBSD는 최신 툴체인으로 sparc64를 지원하는 유일한 운영 체제가 되었습니다. 53, Intel Arc A-시리즈(DG2/Alchemist) 카드에 대한 드라이버 지원 추가. network/@brynet/116879479168132932 #OpenBSD httpd(8)는 이제 많은 새로운 기능을 지원합니다: 사용자 정의 HTTP 응답 헤더 설정. 🔤 Original: OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu dri",
+      "publishedAt": "2026-10-19T21:11:45Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "94b00070d9730e6c1637",
+      "title": "Microsoft 계정이 없기 때문에 RTX Spark 노트북에 Linux를 설치합니다.",
+      "url": "https://josie.lol/blog/linux-rtx-spark",
+      "summary": "📝 Arch Linux는 작동하고 7-Zip에서 Windows를 따라잡으며 동일한 116을 보고합니다. 이 빌드는 Arch 패키지를 ARM으로 포팅하는 별도의 프로젝트인 Arch Linux ARM을 사용하며 여기에 하드웨어 지원이 추가됩니다. 고정된 32MiB 사전이 있는 04입니다. 🔤 Original: Putting Linux on my RTX Spark laptop because I don't have a Microsoft account 🔗 Read more: https://josie.lol",
+      "publishedAt": "2026-10-19T21:08:18Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "ae3bbb73b2566c40afd5",
+      "title": "하나의 해시 블룸 필터",
+      "url": "https://calabro.io/ohbf",
+      "summary": "📝 전통적인 블룸 필터 블룸 필터는 비트와 k 해시 함수의 배열입니다. 단일 해시만 사용하여 블룸 필터를 수행하는 방법을 보여주기 위해 훨씬 더 많은 수학을 사용합니다. 이 기술을 사용하여 OHBF(단일 해시 블룸 필터) 구현인 jcalabro/gloom을 만들었습니다. 🔤 Original: One Hash Bloom Filters 🔗 Read more: https://calabro.io/ohbf",
+      "publishedAt": "2026-10-19T20:50:08Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "7aa0f2321f9e271a9adc",
+      "title": "모터 하나만으로 드론을 만들었다 [영상]",
+      "url": "https://news.hada.io/topic?id=35661",
+      "summary": "추가 모터나 조종용 서보 없이, 모터 하나로 떠오르고 방향을 바꾸는 드론 제작. 기계 구조를 단순하게 만드는 대신 복잡한 제어 소프트웨어로 비행을 구현 모터를 가속하고 감속하면 날개 각도가 달라지는 힌지 구조 사용. 회전 중 원하는 위치에서 양력 차이를 만...",
+      "publishedAt": "2026-10-19T20:39:07Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "e83086fe8158d81fb2c7",
+      "title": "StarCraft: Ashfall - 분대를 조작하는 자동 사격 지상 전투 게임",
+      "url": "https://news.hada.io/topic?id=35660",
+      "summary": "Terran Strike Team 을 좌우로 이동시키고 자동 사격으로 전투하는 게임으로, 분대를 드래그해 이동할 라인을 선택할 수 있음 Space 로 출격하고 A/D 로 좌우 이동하며, 보급과 증원 관련 기능이 화면에 표시됨 첫 플레이는 준비 라...",
+      "publishedAt": "2026-10-19T20:36:07Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "3f855de2203c8224b2e8",
+      "title": "macOS에서 네이티브로 실행되는 Android 앱",
+      "url": "https://news.hada.io/topic?id=35659",
+      "summary": "Mac.apk 는 Android 애플리케이션 환경을 macOS 위에 직접 구현해, Apple Silicon Mac에서 에뮬레이터나 가상 머신, Linux 커널 없이 Android 앱을 실행함 앱은 일반 macOS 프로세스 로 실행되며 Mac의 GPU로 화면을 그리고 CPU에서 네이티브 속도로 동작함. Dock, 개...",
+      "publishedAt": "2026-10-19T20:33:07Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "94c859547674dab55ea1",
+      "title": "Mercury 3 - 텍스트를 병렬로 생성하는 대규모 확산 기반 LLM",
+      "url": "https://news.hada.io/topic?id=35658",
+      "summary": "Inception이 여러 위치의 텍스트를 병렬로 다듬어 생성하는 확산 기반 언어 모델 Mercury 3 공개. 토큰을 하나씩 생성하는 일반적인 LLM과 다른 방식으로 빠른 응답을 구현 첫 모델보다 총 파라미터를 40배 이상 늘리고도 속도를 유지 하며 복잡한 작업의 성능을 개...",
+      "publishedAt": "2026-10-19T19:36:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "93427562692d3385c858",
+      "title": "MiniMax M3.1 Flash - 에이전트 성능을 높이고 사용 비용을 70% 낮춘 모델",
+      "url": "https://news.hada.io/topic?id=35657",
+      "summary": "MiniMax가 업무 자동화와 코딩, 컴퓨터 사용, 사이버보안 역량을 강화한 M3.1 Flash 출시. 익명으로 200조 토큰 이상을 처리한 Space Bunny 가 이 모델의 초기 버전 MiniMax 기준 전작보다 온라인 추론 속도는 약 3배, 에이전트 작업의 전체 사용 비용은 70...",
+      "publishedAt": "2026-10-19T19:33:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "48fb117dc32841a57eb0",
+      "title": "배급의 끝",
+      "url": "https://sanketsaurav.com/writing/end-of-rationing",
+      "summary": "📝 소프트웨어는 구축 비용이 많이 들고 실행 비용도 저렴했습니다. 이제 소프트웨어는 SaaS보다는 제조와 더 유사해 보입니다. 우리는 다른 소프트웨어가 아닌 더 많은 소프트웨어를 얻고 있습니다. 🔤 Original: The End of Rationing 🔗 Read more: https://sanketsaurav.com/writing/end-of-rationing",
+      "publishedAt": "2026-10-19T19:19:33Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "e497cf5d69cff97b24f9",
+      "title": "GitHub Actions, GitHub Pages, Webhooks 가용성 저하",
+      "url": "https://news.hada.io/topic?id=35656",
+      "summary": "GitHub Actions, GitHub Pages, Webhooks 에서 가용성 저하가 발생했으며, 2026년 10월 19일 16:56 UTC에 정상 운영 확인과 함께 장애가 해결됨 장애 영향으로 워크플로 처리, 사이트 빌드, 웹훅 전달 이 지연될 수 있었음 완화 조치 이후...",
+      "publishedAt": "2026-10-19T18:55:06Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "b1581eb10a681d166a7b",
+      "title": "Show HN: Qwen3-4B의 AI 특유 글쓰기 습관을 학습으로 제거한 모델",
+      "url": "https://news.hada.io/topic?id=35655",
+      "summary": "Qwen3-4B-Instruct 를 MacBook Air에서 답변 161개로 미세 조정한 qwen3-4b-deslop 을 공개함. 별도 시스템 프롬프트 없이 AI 특유의 문체를 줄이며 Ollama로 로컬 실행할 수 있음 학습에 쓰지 않은 40개 프롬프트에서 자체 문체 점수 가 1,000단어당...",
+      "publishedAt": "2026-10-19T18:52:06Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "e69ecbcfbe13a42cdd05",
+      "title": "어쩌면 정말 달걀 카르텔이 있었을지도 모른다",
+      "url": "https://news.hada.io/topic?id=35654",
+      "summary": "미국 법무부와 17개 주 법무장관은 Cal-Maine, Hickman’s, Versova 가 입찰을 공조해 달걀 기준가격을 인위적으로 끌어올렸다는 혐의로 소송을 제기함 의혹의 핵심은 실제 구매 의사 없이 높은 입찰가를 제출해 수요가 늘어난 것처럼 보이게 하는 방식 임. 이 정보가...",
+      "publishedAt": "2026-10-19T18:49:06Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "fa19321e966394f2cc4e",
+      "title": "여전히 프로그래밍을 즐겨도 괜찮다",
+      "url": "https://news.hada.io/topic?id=35653",
+      "summary": "프로그래밍을 즐기는 데 경제적 정당화는 필요 없음 . 업무에서 직접 작성하는 코드의 경제성이 달라졌더라도, 일은 삶의 전부가 아니며 개인의 즐거움까지 생산성으로 판단할 필요는 없음 주말에 충돌 감지도 형편없는 벽돌깨기(Breakout) 클론을 직접 만드는 이유는 문제를...",
+      "publishedAt": "2026-10-19T18:46:06Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "9d9da2e7f0fdcefdb7a3",
+      "title": "CERN과 Mistral, 전략적 파트너십 구축을 위한 의향서 서명",
+      "url": "https://news.hada.io/topic?id=35652",
+      "summary": "CERN과 Mistral 이 과학적 발견을 위한 파운데이션 모델 개발에 초점을 맞춘 장기 전략적 파트너십을 구축하고자 의향서에 서명함 핵심 목표는 수십억 건의 양성자 충돌 시뮬레이션으로 학습하는 Large Physics Model 개발이며, 충돌기 물리학 최초의 파운데이션 모...",
+      "publishedAt": "2026-10-19T18:43:06Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "a5a41db56026f8a6f625",
+      "title": "Harness Engineering 101 - Python 약 300줄로 배우는 AI 에이전트 구현",
+      "url": "https://news.hada.io/topic?id=35651",
+      "summary": "순수 Python으로 약 300줄의 AI 에이전트를 만들며 작동 원리를 배우는 입문서 . 프레임워크나 SDK 없이 HTTP 요청부터 시작해, 16개 장에 걸쳐 실행 가능한 작은 코딩 에이전트로 확장 LLM은 두뇌, 하네스는 몸 이라는 비유에서 출발. 모델에 전달할 대화를 관리하고...",
+      "publishedAt": "2026-10-19T17:44:11Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "c605888f4ae5e6aeabfe",
+      "title": "tmux와 Claude Code: 세션, send-keys, 그리고 한계",
+      "url": "https://news.hada.io/topic?id=35650",
+      "summary": "tmux 는 AI 코딩 에이전트를 이름 있는 세션에 유지해 터미널을 닫거나 SSH 연결이 끊겨도 작업을 계속하게 하며, 여러 에이전트를 한 창에서 관리할 수 있게 함 최근 Claude Code의 claude --worktree --tmux 는 단일 브랜치에서 작업할 에이전트의 작...",
+      "publishedAt": "2026-10-19T17:41:11Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "5b32e38928db003bbd1f",
+      "title": "Ruby gem 개발을 그만두는 이유 - AI가 바꾼 생태계",
+      "url": "https://news.hada.io/topic?id=35649",
+      "summary": "Ruby gem 개발자가 AI 중심으로 바뀐 생태계에서 개발 의욕을 잃고, 자신의 gem 저장소들을 모두 아카이브 . 사람과 함께 사람을 위해 코드를 만들던 즐거움이 사라진 것이 중단의 이유 Ruby는 “프로그래머를 행복하게 만드는 언어”, “기계가 아니라 인간을 위한 언어”...",
+      "publishedAt": "2026-10-19T17:38:11Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "c4b07463ef95b6f9741f",
+      "title": "물리 키 없이 OpenAI Daybreak 등록 방법(with IDmelon)",
+      "url": "https://indieblog.net/go/622740",
+      "summary": "보안 분석 업무에 Codex를 사용하던 중 This content can't be shown 에러가 발생하면서 정상적인 요청이 제한되는 경우를 겪었다. Daybreak Blue 설정",
+      "publishedAt": "2026-10-19T16:18:56Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "8ad6a5f2ee0b3c1da4e3",
+      "title": "Let's Encrypt, 도메인 검증용 원격 관측 지점 2곳 추가",
+      "url": "https://news.hada.io/topic?id=35648",
+      "summary": "Let's Encrypt 가 도메인 검증용 원격 관측 지점을 2곳 추가해, 검증 범위를 넓히고 BGP 공격 방어 를 강화함 도메인 검증 요청은 주 데이터센터 1곳과 원격 관측 지점 6곳에서 총 7회 수행하며, 기존 원격 관측 지점은 4곳이었음 검증에 ...",
+      "publishedAt": "2026-10-19T15:49:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "726ad3b8b1659e553f52",
+      "title": "Superlite - Superpowers보다 빠른 Claude Code 플러그인",
+      "url": "https://news.hada.io/topic?id=35647",
+      "summary": "Claude Code의 개발 절차를 체계화하는 Superpowers를 바탕으로, 반복 승인과 순차 실행을 줄인 플러그인 . 명세를 넘기면 계획부터 병렬 구현, 테스트와 리뷰까지 진행 사람이 계획을 한 번 승인하거나 AI가 스스로 결정하며 진행하는 방식 을 선택 가능. 결정한 내...",
+      "publishedAt": "2026-10-19T15:46:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "c2e34b9a39e88505ccd3",
+      "title": "동물실험 대안이 마침내 본격적으로 확산되기 시작함",
+      "url": "https://news.hada.io/topic?id=35646",
+      "summary": "장기 칩과 인간 세포 기반 모델, 컴퓨터 시뮬레이션 이 동물실험을 보완하거나 대체할 수단으로 부상하면서, 도입의 과제가 기술 개발에서 검증과 제도, 연구 관행의 변화로 넓어지고 있음 FDA Modernization Act 2.0 은 2022년 신약의 임상시험 전 연구에 비동물 대...",
+      "publishedAt": "2026-10-19T15:43:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "d2701aa5e911f5260376",
+      "title": "Wine의 OpenBSD 이식판 공개 - 64비트 Windows 앱과 게임 실행",
+      "url": "https://news.hada.io/topic?id=35645",
+      "summary": "Windows 프로그램을 다른 운영체제에서 실행하는 Wine의 OpenBSD 포트 초안 공개. 수십 개의 64비트 Windows 프로그램을 시험했으며 대부분 성공적으로 실행 The Witcher 3 리마스터도 실행 했으며, 스크린샷과 게임 플레이 영상 공개. 해당 게임에는 Direct3D 12를...",
+      "publishedAt": "2026-10-19T15:40:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "163aa7a956892f8176e4",
+      "title": "우크라이나, 부상병 첫 드론 대피 주장",
+      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+      "summary": "📝 우크라이나 제92독립공격여단이 월요일 공유한 영상에서 부상당한 군인이 드론으로 대피하는 모습. 드론이 그를 조심스럽게 내리자 드론 조종사는 “지상에 돌아온 것을 환영한다”고 인사한다. 영상에는 임무를 수행한 드론 조종사들의 얼굴도 흐릿하게 나온다. 🔤 Original: Ukraine claims first drone evacuation of wounded soldier 🔗 Read more: https://www.nbcnews.com/world/ukraine/ukraine-first-drone",
+      "publishedAt": "2026-10-19T15:31:34Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "7977538a630e8e39b535",
+      "title": "경기도 재정문제는 뭐가 문제일까? A/S (feat 소방)",
+      "url": "https://blog.naver.com/ranto28/224446489100?fromRss=true&trackingCode=rss",
+      "summary": "경기도 재정문제가 최근 시끄러운데, 뭐가 문제.. : 네이버블로그 경기도 재정문제가 이슈가 되는 것 같아서, 숫자 위주로 건조하게 정리해 본 적이 있습니다. © 갈참나무, 출처 OGQ 흐름이 이어지는 부분이 있어서, 기존글을 38번까지 정리하고 이어서 추가해 봅니다. 기존 내용이 기억 나면 39번부터 읽으면 됩니다. 돈의 관점으로 뜯어보는 내용입니다. 1. 2026년 8월 5일, 경기도는 '경기도 재정 비상상황'을 공식 선언함. 2. \"마른 땅에 풀 한포기 남지 않았다\"며, \"당장 7,700억원",
+      "publishedAt": "2026-10-19T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "39ab5842cbfe79537c39",
+      "title": "보다 \"거대 삼각형에서 안전한\" 헤론의 공식을 작성하기",
+      "url": "https://news.hada.io/topic?id=35644",
+      "summary": "카한의 알고리즘은 극단적으로 큰 변의 길이를 입력하면 중간 연산에서 오버플로( inf )가 발생함 변의 길이를 1.0으로 정규화한 뒤 진구소의 알고리즘을 변형해 계산하고 스케일을 복원하면 큰 변의 길이에서도 안전하게 넓이를 구함 일반적인 케이스는 카한 방식을 쓰고 임계값...",
+      "publishedAt": "2026-10-19T15:09:20Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "88b5537c8caf6d2d1931",
+      "title": "에이전트 모니터링",
+      "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring",
+      "summary": "📝 시스템 모니터링은 결코 쉽지 않았습니다. 이것은 사악한 문제입니다. 놀랍게도 상담원은 대부분 이 문제를 '그냥' 해결합니다. 🔤 Original: Agentic Monitoring 🔗 Read more: https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
+      "publishedAt": "2026-10-19T14:52:04Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "68aba83967a4f02044c2",
+      "title": "에스엠벡셀은 왜 상한가에 갔나",
+      "url": "https://blog.naver.com/anordinarydad/224447069972",
+      "summary": "코스피가 난리법썩인 가운데 에스엠벡셀이 상한가를 기록했다. 우리에겐 요걸로 익숙한 회사인데 SM그룹이다. SM엔터테인먼트 아니고 삼라마이다스 그룹이다. 최근 주가는 아주 뜨겁다. 사실 계속 눈팅하면서 글을 쓸까말까 고민을 많이 했는데 PBR이 비싸서 리스크가 크다고 생각했다. 결국 사지 않는 것이 결론적으로 리스크가 됐지만 후회는 없다. 왜냐하면 잘못 샀다가 반토막나기 쉽상이니 말이다. 실적도, 재무상태도 뭐 하나 매력적인 구석을 찾기 쉽지 않다. 배당도 없다. 그런데 최대주주의 지분율은 미쳐가고",
+      "publishedAt": "2026-10-19T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "342a4291d4990e2feb17",
+      "title": "AI 긍정적인 이야기 vs 부정적인 이야기",
+      "url": "https://blog.naver.com/mynameisdj/224447094817",
+      "summary": "긍정적인 이야기 DRAM Spot Price DDR4가 살작 아쉽지만 메인은 DDR5인걸 감안해야한다. DDR5 Spot Price 분위기는 너무 좋다. GPU Rental Price B300 이 약간 주춤하긴 한데 H100, H200 전반적으로 다 좋다. 사실 제일 중요하고 객관적인 2개의 지표가 너무 좋다. 부정적인 이야기 다만 저 위 그림에 있는 LLM Token Index 가 하락 중인데 LLM Token Index 는 \"AI 답변 100만 토큰에 평균 비용이 얼마인가?\"를 매일 집계한 가",
+      "publishedAt": "2026-10-19T14:09:01Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "33611c9f1e0c347d7267",
+      "title": "Show HN: Cloudflare에서 무료로 실행하는 WhatsApp MCP",
+      "url": "https://news.hada.io/topic?id=35643",
+      "summary": "whatsapp-mcp 는 개인 Cloudflare 계정에 배포해 AI 에이전트가 WhatsApp 대화를 읽고 검색하게 하는 서버이며, 메시지 전송은 지원하지 않음 연결된 기기 로 동작하면서 요청 시와 하루 한 번 WhatsApp에 접속해 새 메시지를 수집하고 연결을 끊으며, 데이터는 자신...",
+      "publishedAt": "2026-10-19T13:38:17Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "127d7a34d1a8d00cc6c4",
+      "title": "Timestral - Mistral이 공개한 시계열 파운데이션 모델",
+      "url": "https://news.hada.io/topic?id=35642",
+      "summary": "Mistral이 센서 값과 수요, 자금 흐름 등 시간에 따라 변하는 데이터를 예측하는 Timestral 모델군 공개. 사전 학습한 패턴을 활용해 별도 학습 없이 처음 보는 시계열도 예측 가능 여러 센서의 값을 함께 예측하고, 생산 일정과 기상 예보도 입력으로 활용 . 하나의...",
+      "publishedAt": "2026-10-19T13:35:17Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "f889defb6ae38dd892c9",
+      "title": "여보, 나 TV를 줄였어",
+      "url": "https://cakehonolulu.github.io/honey-i-shrunk-the-tv",
+      "summary": "📝 그래픽 디자인은 나의 열정 서문 얼마 전, 화장실에 어떤 사운드 시스템을 원하는지 고민하던 중 우연히 삼성(당시 플래그십) Q990D 사운드바를 발견했습니다. 몇 가지 온라인 검색을 통해 삼성의 Q-Symphony를 활용하여 내 설정에서 사운드바(및 위성)와 2개의 Music Studio 7을 모두 구동할 수 있다는 것을 알게 되었습니다. 이 \"제한\"이 있는 최초의 장치이기 때문에 다소 놀랐습니다. 🔤 Original: Honey, I shrunk the TV 🔗 Read more: https",
+      "publishedAt": "2026-10-19T13:06:21Z",
+      "sourceIds": [
+        "hnko"
+      ]
+    },
+    {
+      "id": "a586aa093c11982cc44d",
+      "title": "판사가 위헌으로 판단한 Flock 이동 이력 조회 영상",
+      "url": "https://news.hada.io/topic?id=35641",
+      "summary": "공개된 경찰 영상은 Flock과 Motorola 차량번호판 조회 가 평범한 교통 단속을 운전자의 이동 이력에 대한 심문으로 바꾸는 과정을 보여줌 연방 판사는 캘리포니아 번호판만을 이유로 영장 없이 이동 이력을 조회한 행위가 수정헌법 제4조 위반 이라고 판단하고, 이후...",
+      "publishedAt": "2026-10-19T12:38:56Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "ffb49f8acb8a190be799",
+      "title": "문서로 확인된 경찰관의 Flock 로그인 정보 공유, 상대는 ICE 요원인 남편",
+      "url": "https://news.hada.io/topic?id=35640",
+      "summary": "Savannah 경찰관 Amber Harpe 가 ICE 요원인 남편에게 차량 번호판 인식 시스템 Flock 계정을 공유한 뒤 해고됨 내부 감사에서 2026년 1~7월 해당 계정으로 번호판 97개를 검색한 기록 983건 이 확인됐으며, Harpe는 검색 대부분을 남편이 수행했다...",
+      "publishedAt": "2026-10-19T12:35:56Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "754d2767c9a88736d723",
+      "title": "Tailscale로 iPhone에서 로컬 개발 서버의 .test 도메인 접속하기",
+      "url": "https://indieblog.net/go/622884",
+      "summary": "Mac에서 개발하다 보면 http://localhost:5000 으로 개발을 하기도 하지만, 인증 권한 문제로 https://wifinote.test 같은 로컬 도메인으로 사이트를 띄우게 됩니다. 그리고 E2E 테스트에서는 ngrok 와 같은 프로그램을 써서 공용 접속 도메인을 생성해서 모바일 폰에서 띄우기도 하죠. 스테이지 서버에 띄워서 테스트 하기도 합…",
+      "publishedAt": "2026-10-19T11:30:00Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "60bfa7068e535ac2f7bd",
+      "title": "Linux 7.3 출시 - 스케줄링 개선과 새로운 파일 접근 격리 기능",
+      "url": "https://news.hada.io/topic?id=35635",
+      "summary": "Linux 7.3 정식 버전 출시. 병합 커밋을 제외한 18,765개 커밋에 개발자 3,021명이 참여했으며, 첫 기여자도 807명으로 개발 참여 규모의 기록을 경신 대규모 시스템의 성능 개선을 위한 그룹 스케줄링 변경 과 sched_ext 하위 스케줄러 구현을 완료. ...",
+      "publishedAt": "2026-10-19T09:31:52Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "732e648a33e85b9ccc45",
+      "title": "Show GN: mermaid-editor-sdk: 코드뿐만 아니라 UI로도 mermaid 다이어그램을 편집 가능한 무료 에디터 SDK",
+      "url": "https://news.hada.io/topic?id=35634",
+      "summary": "요즘 AI랑 설계하거나 결과 보고받을 때 mermaid 다이어그램을 자주 사용하는데요, 근데 직접 코드로 편집하고 보기엔 불편하기도 해서 UI로도 편집 가능한 걸 원했어요. 근데 다 유료더군요. 게다가 제 개인 에디터에 적용하고 싶은데, 딱히 적용할만한 오픈소스 패키지도 없었고요. 그래서 패키지 두개",
+      "publishedAt": "2026-10-19T09:12:07Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "1e22d2b30be2ad1afac4",
+      "title": "DeepSeek V4.1 Flash 1017 - AAII 45점, 초당 약 225토큰 출력",
+      "url": "https://news.hada.io/topic?id=35633",
+      "summary": "DeepSeek V4.1 Flash 1017의 Max 추론 설정 이 Artificial Analysis 지능 지수에서 45점을 기록. 비슷한 크기의 오픈 가중치 모델 중 높은 성능과 빠른 출력 속도를 보임 텍스트와 이미지 입력, 100만 토큰 컨텍스트 를 지원하며, 가중치는 MIT 라이선스로 공개해 자...",
+      "publishedAt": "2026-10-19T08:33:27Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "09f99ae9fc1f654c4da0",
+      "title": "프론티어 모델 대신, 우리 모델이 모든 상담을 분석합니다",
+      "url": "https://indieblog.net/go/620900",
+      "summary": "상담 분석 세 작업을 자체 멀티태스크 모델로 전환해 상용 LLM보다 높은 성능을 확보했습니다.\\n골든셋 기반 평가와 서빙 최적화로 비용을 99.4% 절감하고 운영 체계를 구축했습니다.",
+      "publishedAt": "2026-10-19T08:28:32Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "7fc35502944fdd0acb60",
+      "title": "크라임웨어 유통 창구가 된 PyPI, 카딩(Carding) 자동화 도구 'saeka' 사례",
+      "url": "https://indieblog.net/go/621327",
+      "summary": "이미지 [생성형 AI 제작] 이스트시큐리티 시큐리티대응센터(ESRC)는 파이썬 공식 패키지 저장소인 PyPI(Python Package Index)에서 신용카드 사기, 이른바 카딩(Carding)을 위한 크라임웨어가 정상 패키지의 형태로 배포되고 있는 사례를 확인했습니다. 해당 패키지의 이름은 saeka 이며, 패키지 페이지만으로는 실제 용도를 짐작할 수…",
+      "publishedAt": "2026-10-19T08:02:47Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "69b946ecfca3f99941d8",
+      "title": "LLM 프록시를 직접 운영하지 않으면, 모델 호출에서 무슨 일이 벌어지는지 어떻게 알 수 있을까?",
+      "url": "https://news.hada.io/topic?id=35631",
+      "summary": "LLM 호출을 자체 프록시로 모으면 , 어떤 클라이언트가 언제 어떤 모델을 호출했는지 추적 가능. 제공업체의 진행 표시와 사용량 화면만으로는 파악하기 어려운 운영 정보를 직접 확보할 수 있음 여러 제공업체와 모델을 하나의 엔드포인트로 연결 해, 클라이언트 설...",
+      "publishedAt": "2026-10-19T07:32:09Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "44ab53307687d809294c",
+      "title": "그룹웨어 비용, 얼마가 적당할까? 과금 방식부터 숨은 비용까지 총정리",
+      "url": "https://indieblog.net/go/620680",
+      "summary": "그룹웨어는 과금 방식과 포함 기능, 숨은 비용을 합친 연간 총비용으로 비교해야 합니다. 저장 용량·옵션·마이그레이션·할인 종료 후 요금까지 확인해야 합니다.",
+      "publishedAt": "2026-10-19T07:09:19Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "47af2c22a556dafddc83",
+      "title": "Show GN: GlazeBar (GlazeWM 번들) - Windows에서 돌리는 Omarchy 같은 경험",
+      "url": "https://news.hada.io/topic?id=35630",
+      "summary": "Omarchy 같은 타일링 기능은 GlazeWM이 수행합니다. 그런데 이 친구는 Zebar라는 Topbar와 함께 실행되는데, 무겁고, 기능도 별로 없어서 Rust 기반으로 만들었습니다. Aether 색상 추출 알고리즘을 통해 사진에서 테마 색상을 추출하고 자동으로 Terminal, VS code, Codex CLI 등등 적용합니다. 실시간",
+      "publishedAt": "2026-10-19T07:03:38Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "444d8a7f455d5a25d66f",
+      "title": "솔리다임 나스닥 상장 불허?",
+      "url": "https://blog.naver.com/anordinarydad/224446639819",
+      "summary": "이래서 갑자기 코스피가 오른건가...? SK하이닉스발 급등이 올지도 모르겠다. https://naver.me/FmGzrdGK",
+      "publishedAt": "2026-10-19T06:41:12Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "15953d3ac1a094389b61",
+      "title": "뛰어난 한국인 창업가 대표들이 가장 큰 가치를 느끼는 지원은 내가 예측하지 못한 것이었다",
+      "url": "https://news.hada.io/topic?id=35628",
+      "summary": "3년 4개월전, 저는 뛰어난 한국인 창업가/CEO들을 대상으로 Kru를 론칭했습니다. 오늘은 지난 3년 4개월의 경험을 바탕으로 개발하게 된 가설 하나를 공유하고자 합니다. 바로 한국인 창업가/CEO들의 대다수가 그 어떤 지원보다도 전략을 명확히 하고 조직을 전략에 얼라인하여 주도 하도록 돕는 지원에",
+      "publishedAt": "2026-10-19T06:13:10Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "be1dcc4466d8f055cbea",
+      "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
+      "url": "https://techblog.samsung.com/blog/article/101",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:45:03Z",
+      "sourceIds": [
+        "techblogposts"
+      ]
+    },
+    {
+      "id": "c632261da045fb846424",
+      "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
+      "url": "https://velopers.kr/post/9485",
+      "summary": "JEV의 질문·답 계약을 LLM Gateway 판정 API로 구현해 사내 소형 LLM에 적용했습니다. 출력 간소화로 지연 시간을 줄이고 라벨 오류 항목만 재판정했습니다.",
+      "publishedAt": "2026-10-19T05:45:03Z",
+      "sourceIds": [
+        "velopers"
+      ]
+    },
+    {
+      "id": "2e8006ff9817aad021b3",
+      "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
+      "url": "https://indieblog.net/go/620581",
+      "summary": "분류와 등급 산정까지 채팅 모델에 텍스트로 요청하면 파싱과 재시도 같은 추가 작업이 발생합니다. 본 글에서는 이러한 문제를 해결하고자 JEV의 질문과 답 형식을 LLM Gateway의 판정 API로 구현하여 사내 소형 LLM에 짧은 결정을 맡긴 경험을 공유합니다. 출력 간소화 실험을 통해 항목당 지연 시간을 1,534ms에서 804ms로 단축한 과정과, C…",
+      "publishedAt": "2026-10-19T05:45:03Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "7dac97087f11f8ee9a7b",
+      "title": "2026년 10월 인도 핀테크 뉴스",
+      "url": "https://velopers.kr/post/9484",
+      "summary": "인도 NBFC의 소액대출 확대와 신용모니터링 효과, AI 신용관리 플랫폼 투자 동향을 다뤘습니다.\\nMoneyview IPO 변동성과 True Balance의 AI 브랜드 캠페인 성과도 정리했습니다.",
+      "publishedAt": "2026-10-19T05:42:00Z",
+      "sourceIds": [
+        "velopers"
+      ]
+    },
+    {
+      "id": "819e127b50080154c857",
+      "title": "William Gibson과 사이버스페이스 상표 등록 이야기",
+      "url": "https://news.hada.io/topic?id=35627",
+      "summary": "Autodesk는 “cyberspace” 상표 등록을 출원 했고 William Gibson은 실제로 반발했지만, Gibson이 보복으로 “Eric Gullichsen”을 상표 등록하려 했다는 이야기는 사실이 아님 보복 상표 등록설은 Timothy Leary의 장난 에서 시작됐으며, Barlow와 Rudy Rucker를 거...",
+      "publishedAt": "2026-10-19T05:31:46Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "0574ea03946a13914ce7",
+      "title": "MemScope - AI 에이전트의 기억 장치를 통째로 갈아엎지 않고, 고장 난 곳만 찾아 고친다",
+      "url": "https://news.hada.io/topic?id=35626",
+      "summary": "AI 에이전트는 겪은 일을 저장했다가 다시 꺼내 쓰는 기억 장치를 갖고 있는데, 보통 한 번 만들면 그대로 씁니다. 스스로 고치는 기존 방법들은 점수나 요약만 보고 고쳐서, 어디가 고장인지 몰라 멀쩡한 부분까지 크게 뜯어고치는 일이 많았습니다. MemScope는 실제로 돌아간 기록, 그때 기...",
+      "publishedAt": "2026-10-19T05:22:43Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "46eb1c8a17892da286f9",
+      "title": "테크 업계의 남성들 #YesAllMen",
+      "url": "https://news.hada.io/topic?id=35625",
+      "summary": "한 여성이 경력 전반에 걸쳐 남성들에게 겪은 말과 행동 을 다루는 강연으로, 여성에게 업계에서 살아남는 법을 가르치는 방식에서 벗어나려 함 강연자는 동료에게 성적 비하와 욕설이 담긴 문자 를 받았지만, 그 동료가 “질책하기에는 너무 중요한 사람”이라는 말...",
+      "publishedAt": "2026-10-19T05:00:54Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "cfa69da0c926cbbf2849",
+      "title": "PalmOS Lemmings - 교육용으로 제공되는 게임 소스 코드",
+      "url": "https://news.hada.io/topic?id=35624",
+      "summary": "PalmOS Lemmings 의 소스 코드를 제공하는 저장소임 소스 코드는 교육 목적 으로 제공됨 코드는 있는 그대로(AS-IS) 제공됨 README에 Lemmings 소개 이미지가 있음 별도의 스크린샷 섹션에 게임 화면 이미지가 있음",
+      "publishedAt": "2026-10-19T04:35:52Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "2e1cc94a24e3f01b95cf",
+      "title": "LLM을 골탕 먹이려고 프로그래밍 언어를 만들었다",
+      "url": "https://news.hada.io/topic?id=35623",
+      "summary": "KillSwitch 는 인간은 사용할 수 있지만 LLM에는 최대한 어렵도록 만든 실험적 프로그래밍 언어. 처음 보는 언어에서도 코드를 작성하는 능력이 이해에서 오는지, 익숙한 코드의 재현에서 오는지 시험하기 위해 개발 식별자의 글자 수, 거짓 정보가 섞인 명세, 안전장치를 자...",
+      "publishedAt": "2026-10-19T04:32:52Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "7c32efa1bea15b998d41",
+      "title": "개발자는 끝났다, 그 글 이후",
+      "url": "https://indieblog.net/go/621834",
+      "summary": "「개발자는 끝났다.」를 쓴 이후의 생각. 능력만으로 생존을 약속할 수 없는 시대에, 알 수 없음을 견디며 각자의 길을 찾는 일에 대하여.",
+      "publishedAt": "2026-10-19T04:31:52Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "1535a02bd489b9d97bee",
+      "title": "Show GN: 무료 AI 보안 자가진단 - 내 웹/서버 보안을 점검해 보세요.",
+      "url": "https://news.hada.io/topic?id=35621",
+      "summary": "안녕하세요. 요즘 AI로 해킹하는 사례가 늘고, 지난 주말 동안에도 제 개인정보가 털렸다는 문제를 받았습니다..😭 이렇게 해킹이 난립하는 시대.. 도메인/웹주소/IP 를 입력하면 공개된 정보와 간단한 프로빙 (악성 요청 없이)으로 취약성 여부를 진단할 수 있는 툴을 만들었습니다. 상세한 취",
+      "publishedAt": "2026-10-19T04:10:01Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "f05d304511343d4073b4",
+      "title": "조회만 하는 API에도 트랜잭션이 필요했다 — 캐시 키와 값이 서로 다른 시점을 봤다",
+      "url": "https://indieblog.net/go/621075",
+      "summary": "게임 통계를 캐시하는 두 SELECT 사이에 정산을 끼워 넣었다. 정산 전 키에 정산 후 값이 저장됐고, 이미 열린 읽기 전용 트랜잭션까지 그 값을 받았다. PostgreSQL 18.4에서 재현하고 READ ONLY와 REPEATABLE READ의 차이를 확인했다.",
+      "publishedAt": "2026-10-19T04:02:37Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "51a0921f39256845295c",
+      "title": "MultiDatasource·Prologue로 Pod·JVM 비용 절감",
+      "url": "https://indieblog.net/go/620566",
+      "summary": "Pod·JVM 반복 비용을 줄이기 위해 서비스 경계와 데이터 경계를 유지한 통합 Boot 구조를 설계했습니다.\\nMultiDatasource와 package 기반 트랜잭션 라우팅을 Prologue 자동 구성으로 공통화했습니다.",
+      "publishedAt": "2026-10-19T03:51:57Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "01ce577d87f78e3c1b7f",
+      "title": "모나드와 범주론 ② 다른 계산, 같은 합성",
+      "url": "https://hyper-accel.github.io/posts/kleisli-category",
+      "summary": "",
+      "publishedAt": "2026-10-19T03:51:34Z",
+      "sourceIds": [
+        "techblogposts"
+      ]
+    },
+    {
+      "id": "5ca2d5620abf092d257d",
+      "title": "자유의지와 결정론",
+      "url": "https://yongseok.me/blog/%EC%9E%90%EC%9C%A0%EC%9D%98%EC%A7%80%EC%99%80-%EA%B2%B0%EC%A0%95%EB%A1%A0",
+      "summary": "로버트 사폴스키의 『Determined』를 읽으며 자유의지와 인과관계, 우리가 이해하는 세계의 해상도를 생각한다.",
+      "publishedAt": "2026-10-19T03:35:35Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "b42b2836d4a245359346",
+      "title": "모바일 앱 QA, 어디서 어떻게 검증해야 할까",
+      "url": "https://velopers.kr/post/9481",
+      "summary": "모바일 앱 QA에서 실기기로 Safe Area, 키보드, 터치, 화면 전환을 검증해야 하는 이유를 설명했습니다. 출시 전후 목적에 맞춘 이슈 기록과 재검수 운영 원칙을 제안합니다.",
+      "publishedAt": "2026-10-19T03:25:02Z",
+      "sourceIds": [
+        "velopers"
+      ]
+    },
+    {
+      "id": "8f4deb9dbdd354ffb8f0",
+      "title": "모바일 앱 QA, 어디서 어떻게 검증해야 할까",
+      "url": "https://indieblog.net/go/620567",
+      "summary": "",
+      "publishedAt": "2026-10-19T03:25:02Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "37ad05c35b5d58ac8817",
+      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
+      "url": "https://velopers.kr/post/9482",
+      "summary": "평균 지표에 가려진 Oracle 커밋 지연을 CPU별 NIC 인터럽트와 LGWR 경합으로 분석했습니다. NIC 슬롯과 본딩 방식을 바꿔 인터럽트를 분산하고 CPU·SQL 성능을 개선했습니다.",
+      "publishedAt": "2026-10-19T03:07:00Z",
+      "sourceIds": [
+        "velopers"
+      ]
+    },
+    {
+      "id": "00ae2530bf175f35b0e6",
+      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
+      "url": "https://indieblog.net/go/620358",
+      "summary": "NIC 인터럽트에서 찾은 병목",
+      "publishedAt": "2026-10-19T03:07:00Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "c46c624fd55cad383dc8",
+      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
+      "url": "https://toss.tech/article/nic-interrupt-bottleneck",
+      "summary": "NIC 인터럽트에서 찾은 병목",
+      "publishedAt": "2026-10-19T03:07:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "0a8b5be741e6bc32620f",
+      "title": "ARP! 네트워크에 직접 물어보자",
+      "url": "https://news.hada.io/topic?id=35619",
+      "summary": "arp-scan 으로 로컬 네트워크 기기의 IP 주소, MAC 주소, 제조사를 확인할 수 있어, 기기에 직접 지정했거나 라우터가 할당한 IP를 찾는 데 유용함 로컬 네트워크에서 기기에 메시지를 보내려면 IP 주소와 MAC 주소 가 모두 필요하며, 스위치는 MAC 주소를 기준으로 ...",
+      "publishedAt": "2026-10-19T03:01:07Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "06a064347af56207aac7",
+      "title": "Show GN: RubraView - 순수 C23과 WinAPI로 만든 가벼운 Windows 이미지·만화·동영상 뷰어",
+      "url": "https://news.hada.io/topic?id=35617",
+      "summary": "Windows용 이미지·만화·동영상·음악·텍스트 뷰어이자 일괄 이미지 변환기인 Rubraview 를 소개합니다. MIT 라이선스 오픈소스입니다. GitHub: https://github.com/rubidus-api/rubraview Microsoft Store: https://apps.microsoft.com/detail/9n99b2x63k7x 마이",
+      "publishedAt": "2026-10-19T02:51:32Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "54d39ef56f2f9efc91a8",
+      "title": "디자인 퀄리티와 사용 편의성 사이, 최적의 균형을 만드는 미리캔버스 템플릿 디자이너",
+      "url": "https://medium.com/miridih/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%80%84%EB%A6%AC%ED%8B%B0%EC%99%80-%EC%82%AC%EC%9A%A9-%ED%8E%B8%EC%9D%98%EC%84%B1-%EC%82%AC%EC%9D%B4-%EC%B5%9C%EC%A0%81%EC%9D%98-%EA%B7%A0%ED%98%95%EC%9D%84-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%AF%B8%EB%A6%AC%EC%BA%94%EB%B2%84%EC%8A%A4-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88-ba801dd8be92",
+      "summary": "미리캔버스 템플릿 팀은 사용자 데이터로 편집하기 쉬운 레이아웃과 가이드를 설계했습니다. 디자인 품질과 사용성을 함께 높이는 과정 및 성과를 소개합니다.",
+      "publishedAt": "2026-10-19T02:40:23Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "639a89b21c45df82547d",
+      "title": "누구나 전문가처럼 만들 수 있게: 미리캔버스 템플릿 디자이너가 일하는 법",
+      "url": "https://medium.com/miridih/%EB%88%84%EA%B5%AC%EB%82%98-%EC%A0%84%EB%AC%B8%EA%B0%80%EC%B2%98%EB%9F%BC-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EA%B2%8C-%EB%AF%B8%EB%A6%AC%EC%BA%94%EB%B2%84%EC%8A%A4-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EA%B0%80-%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B2%95-e1e3aff07211",
+      "summary": "미리캔버스 템플릿 디자이너는 타겟과 목적을 분석하고 디자인 가설을 실험합니다.\\n북미·일본 시장별 사용자 반응을 바탕으로 사용성과 미감을 갖춘 템플릿을 설계합니다.",
+      "publishedAt": "2026-10-19T02:28:17Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "7a7c54d763865a03b632",
+      "title": "Free Pascal 컴파일러, 동적 패키지 지원 추가",
+      "url": "https://news.hada.io/topic?id=35615",
+      "summary": "Free Pascal Compiler와 Lazarus IDE용 동적 패키지 지원 의 첫 완전 구현이 공개됨. 다운로드용 설치 프로그램에 포함되며, 변경 사항은 개발자의 GitLab 포크 브랜치에 반영됨 IDE 전체를 다시 빌드하지 않고 컴포넌트, 컨트롤, Lazarus 확장을 수초 안에 설치하거...",
+      "publishedAt": "2026-10-19T01:31:57Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "cec8cced61d50dacaf50",
+      "title": "Show GN: ALIGNS.md - 초정렬이 오기 전 내 판단 기준과 취향을 에이전트와 자가 정렬해보세요",
+      "url": "https://news.hada.io/topic?id=35614",
+      "summary": "안녕하세요! 이번에 ALIGNS.md 라는 문서를 만들어주는 algin 스킬이라는 걸 만들었습니다. CLAUDE.md 나 AGENTS.md 랑 유사하게 쓸 수 있으면서 다른 역할을 하는데요. 이걸 깔면, 에이전트 대화로그/커밋/PR/코멘트까지 전부 분석해서 내가 어떤 상황에 어떤 판",
+      "publishedAt": "2026-10-19T01:12:30Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "bb5317f2e3c069be548c",
+      "title": "시니어 엔지니어처럼 소프트웨어 시스템 설계하기 - 풀코스 [동영상]",
+      "url": "https://news.hada.io/topic?id=35613",
+      "summary": "약 3시간 짜리 시스템 설계 면접 대비 강의. 5단계 접근법을 배우고 Spotify, Booking.com, WhatsApp과 유사한 시스템을 설계하는 과정에 적용 시스템 설계 면접은 완성된 아키텍처뿐 아니라 소통과 협업, 구조화된 사고, 기술적 판단, 실무 깊이, 시간 관리를 평가하며, 모...",
+      "publishedAt": "2026-10-19T00:46:57Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "87a472d57597e5677c94",
+      "title": "T3 Code - 여러 AI 코딩 에이전트를 PC와 휴대폰에서 관리하는 앱",
+      "url": "https://news.hada.io/topic?id=35612",
+      "summary": "기존 Claude Code/Codex 등의 계정과 구독을 그대로 사용 하면서, PC에서 실행 중인 코딩 작업을 휴대폰에서도 확인하고 이어갈 수 있는 앱 Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity 지원 기존 에이전트의 계정과 구독을 그...",
+      "publishedAt": "2026-10-19T00:40:02Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "80c4b900c6fc793d6999",
+      "title": "개도 사람처럼 'Bouba'는 둥글고 'Kiki'는 뾰족하다고 느끼는 듯함",
+      "url": "https://news.hada.io/topic?id=35610",
+      "summary": "반려견 70마리 를 대상으로 한 두 실험에서, 개도 사람이 소리와 모양을 연결하는 Bouba/Kiki 효과 를 보일 가능성이 나타남 전체적으로 개는 ' Bouba' 를 들을 때 둥근 도형을 유의하게 더 많이 바라봤고, 'Kiki '를 들을 때는 뾰족...",
+      "publishedAt": "2026-10-19T00:39:04Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "9cc3d83bcadbdca70c96",
+      "title": "자기 조직화 데이터 스택 - 요구에 맞춰 데이터 파이프라인을 재구성하는 설계",
+      "url": "https://news.hada.io/topic?id=35609",
+      "summary": "사람은 데이터의 의미와 정책을 정하고, 엔진은 테이블과 파이프라인을 구성하고 재편 하는 차세대 데이터 스택 제안. AI로 새 파이프라인을 쉽게 만드는 만큼 중복과 관리 부담도 커지는 문제에서 출발 소비자는 테이블이나 실행 순서 대신 필요한 결과와 갱신 주기 등의 보...",
+      "publishedAt": "2026-10-19T00:36:44Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "ee1972ad25c338885056",
+      "title": "서버 터질까 봐 만든 도구, 돈 내고 쓰는 기능이 되기까지",
+      "url": "https://velopers.kr/post/9483",
+      "summary": "공유 서버 풀의 이벤트 트래픽을 전용 풀로 격리하고 증설·원복·회고를 자동화했습니다. 운영 데이터를 축적해 용량 산정을 고도화하고 고객 예약형 유료 기능으로 확장했습니다.",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "sourceIds": [
+        "velopers"
+      ]
+    },
+    {
+      "id": "e983ea59f219b1530d36",
+      "title": "바이브 코딩 시대, 멀티클라우드 DR의 손익분기점이 내려왔다",
+      "url": "https://roboco.io/posts/vibe-coding-multi-cloud-dr",
+      "summary": "멀티클라우드는 복잡도가 너무 높다는 통념은 여전히 액티브-액티브 운영에는 유효하다. 그러나 다른 클라우드에 백업과 복구 수단만 유지하는 DR 계층에서는 비용 구조가 달라졌다. 바이브 코딩은 DR을 처음 만드는 비용을 줄이고, 소프트웨어 팩토리는 만든 DR이 계속 작동하도록 유지하고 검증하는 비용을 줄인다. 이 두 비용이 DR 비용의 대부분을 차지해 왔다. 정도현 - 로보코 수석 컨설턴트 TL;DR 멀티클라우드가 어렵다는 통념은 두 클라우드에서 서비스를 동시에 운영하는 액티브-액티브 구성에는 여전히",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "9b7457387cb70cf3b668",
+      "title": "증안펀드가 국장의 구원투수가 될 수 있을까?",
+      "url": "https://blog.naver.com/ranto28/224446052490?fromRss=true&trackingCode=rss",
+      "summary": "늘 그렇듯이 돌아갑니다. 1. 1960년대초 일본은 연 10% 가까이 성장하던 고도성장기였음. 2. \"성장은 멈추지 않는다\"는 낙관이 시장을 덮고 있었던 시기임. 3. 기업들은 이 분위기를 타고 주식을 엄청나게 찍어냄. 4. 1961년에 유상증자 규모는 6738억엔으로, 전년 3472억엔의 두 배 가까이로 불어났고, 상장 주식 수는 1961년에만 43%가 늘었음. 5. 인플레이션이 심해지자 일본은행은 물가를 잡으려고 긴축을 시작함. 6. 주식 공급은 폭증하는데, 긴축으로 돈줄을 조이는 상황이 된",
+      "publishedAt": "2026-10-18T22:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "44bb0432551c7b73632b",
+      "title": "코파운더가 정말 필요한가?",
+      "url": "https://www.thestartupbible.com/2026/10/do-we-really-need-co-founders.html",
+      "summary": "이전 포스팅에서 언급했던 프라이머 28기 데모데이의 주인공은 창업가들이고 행사의 하이라이트는 이들의 피칭이다. 공식적인 행사가 끝나면 하나의 번외 일정이 있는데, 프라이머 파트너들과의 AMA 세션이다. 몇 년 전에 실험적으로 이 AMA 세션을 시작했는데, 청중의 반응이 꽤 좋고, 프라이머 파트너분들에게도 편안하고 솔직하게 이야기할 수 있는 자리라서 이젠 거의 공식적인 일정으로 자리를 잡았다. 이번에도 진행했고 다른 파트너분들과 함께 나도(...)",
+      "publishedAt": "2026-10-18T21:38:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "91c890d9ea5ff07f2924",
+      "title": "국민연금은 코스피 얼마부터 국장을 살 수 있을까?(feat 리밸런싱)",
+      "url": "https://blog.naver.com/ranto28/224445065729?fromRss=true&trackingCode=rss",
+      "summary": "리밸런싱은 개인 투자자에게도 도움이 되는 투자방법이다. 종목별 비중조절을 하지 않아도, 리밸런싱만 정기적으로 하면 너무 많이 오른 종목은 자연스럽게 익절이 되면서 비중조절이 된다. 개인이든, 기관이든,연기금이든 이건 비슷하다. © 트레이더훈, 출처 OGQ 한가지 생각해 볼 지점이 있다 개인이 펀드매니저에게 '이러이러한 범위내에서 운용하라'는 조건을 달고 돈을 맡겼다고 생각해 보자. 펀드매니저는 고객과 협의된 범위내에서 운용을 해야한다. 협의된 범위를 벗어나는 일은 하지 않든지, 아니면 고객에게 물",
+      "publishedAt": "2026-10-18T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "e9b5a369eeaafd7febd7",
+      "title": "자 오늘(10/19~)부터 매수시작합니다",
+      "url": "https://blog.naver.com/anordinarydad/224445891696",
+      "summary": "과거 글에서 몇 차례 밝힌 적이 있지만 자산 포트폴리오에서 가장 비중이 높은 것은 다름아닌 부동산이다. 아니 사실 블로그를 시작하기 전까지는 거의 부동산 올인에 가까운 포트폴리오였다. 그 다음으로 큰 비중은 개인연금과 퇴직연금 계좌에 있는 빅테크 etf와 SCHD 등이다. 2022년도에 해당 계좌에 있는 자금 중 퇴직연금 안전자산 의무비중 30%를 제외하고는 모두 미국주식에 몰빵했다. 왜냐하면 자산 비중에 달러 포지션이 없었기 때문에 이거라도 있어야겠다고 생각했다. 그리고는 거의 잊고 살다가 연말",
+      "publishedAt": "2026-10-18T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "68f43debc8a2ca01f898",
+      "title": "헤드리스 브라우저 Lightpanda",
+      "url": "https://hyeonseok.com/blog/951",
+      "summary": "엔진을 바닥부터 만든 브라우저가 새로 나왔다고 해서 놀라움과 함께 테스트 해 봤다. 사람이 아닌 기계를 위한 브라우저라는 모토를 걸고 있는 라이트판다(Lightpanda) 라는 브라우저이다. 크롬이나 파이어폭스도 UI가 없는 헤드리스 모드를 지원한다. 하지만 내부적으로는 페이지를 랜더하기 때문에 헤비하게 돌리면 시스템 자원을 상당히 많이 사용하는데 라이트판다는 페이지 랜더를 하지 않는다고 한다. curl -fsSL https://pkg.lightpanda.io/install.sh | bash 간단",
+      "publishedAt": "2026-10-18T12:20:13Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "272b18db93ed60867f1e",
+      "title": "MyShorts - YouTube Shorts 기획자가 되다...?",
+      "url": "https://indieblog.net/go/616962",
+      "summary": "MyShorts 프로젝트의 쇼츠 콘티를 ChatGPT와 검토하다 보니 어느 순간부터 코드보다 캐릭터의 표정과 대사를 더 많이 따지고 있다. 놀라는 표정은 조금 늦게 보여줘야 하고, PDF가 이동하는 동안 개발자가 말해야 하며, 대사가 끝난 뒤 화면을 몇 초나 유지할지도 직접 확인하고 있다. Python으로 YouTube Shorts 제작 프로그램을 개발하는…",
+      "publishedAt": "2026-10-18T11:55:55Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "89605bec5f79a44af9d4",
+      "title": "MyStock 투자일지 - 2026.10.12~10.16 | AI 투자금 회수 우려와 반도체 수급 충돌",
+      "url": "https://indieblog.net/go/616963",
+      "summary": "이 글은 필자의 실제 투자 계좌를 바탕으로 작성한 시장 분석 및 개인 투자 기록입니다. 특정 종목이나 ETF의 매수·매도를 권유하거나 투자 수익을 보장하기 위한 글이 아닙니다. 모든 투자 판단과 그에 따른 책임은 투자자 본인에게 있습니다. 10월 셋째 주 시장을 보고 있자니 실적과 주가가 꼭 같은 방향으로 움직이지 않는다는 사실을 다시 생각하게 된다. 삼성…",
+      "publishedAt": "2026-10-18T11:04:29Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "6b24398b674088505fb4",
+      "title": "[flex update] 자동 퇴근·초과 근무 관리, 전자계약 서식 다운로드 및 평가 설정 개선",
+      "url": "https://indieblog.net/go/615740",
+      "summary": "안녕하세요, 플렉스팀입니다. 10월 넷째 주 flex 제품 업데이트 소식을 안내해 드려요. * flex 업데이트는 해당 일자의 늦은 오후쯤 순차적으로 반영됩니다. 감사합니다.",
+      "publishedAt": "2026-10-18T09:18:11Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "cb93fc37f374be7ed68e",
+      "title": "istio 스터디 후기",
+      "url": "https://blog.outsider.ne.kr/1815",
+      "summary": "6월 23일부터 9월 22일까지 팀 동료들과 격주로 총 7회 Istio 스터디를 했다. 한 분이 Istio 스터디를 제안해서 고민하다가 참여했다. 예전에는 ‘우리가 Google도 아닌데 Service Mesh까지 굳이 필요할까?’라고 자주 생각했다. 하지만 서비스 규모가 꽤 큰 지금 회사에서는 인프라의 핵심 요소인 Istio 의 혜택을 많이 받고 있다. 나는 팀 리드를 맡고 있고 팀에 Istio 전문가가 있어, Istio 는 업무 방향을 정할 정도로만 알고 있었다. 사용하는 Istio 리소스의 역",
+      "publishedAt": "2026-10-18T08:32:32Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "cdaf01c36fa286021be2",
+      "title": "2026년 3쿼터",
+      "url": "https://yongseok.me/blog/2026_mid",
+      "summary": "",
+      "publishedAt": "2026-10-18T06:17:11Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "dc8aa20874432c3e5d9f",
+      "title": "AWS에서 AI 에이전트 실행 환경 격리하기 2부: Amazon EKS와 Agent Sandbox, 개념과 구성",
+      "url": "https://aws.amazon.com/ko/blogs/tech/aws-ai-agent-sandbox-eks-isolation-part-2",
+      "summary": "EKS Agent Sandbox와 gVisor를 결합한 AI 에이전트 코드 실행 격리 구조와 운영 검증 결과를 다뤘습니다. NetworkPolicy·DNS·Warm Pool·router 보안을 함께 설계해야 함을 제시했습니다.",
+      "publishedAt": "2026-10-18T03:28:12Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "a437494ae379166e14f0",
+      "title": "AWS에서 AI 에이전트 실행 환경 격리하기 1부: Amazon EKS와 Agent Sandbox, 개념과 구성",
+      "url": "https://aws.amazon.com/ko/blogs/tech/aws-ai-agent-sandbox-eks-isolation-part-1",
+      "summary": "EKS에서 Agent Sandbox와 gVisor로 AI 에이전트 코드 실행 환경을 분리하는 구성을 정리했습니다. Pod 보안 설정과 런타임 격리의 역할 차이 및 운영 시 점검점을 설명했습니다.",
+      "publishedAt": "2026-10-18T03:28:09Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "756f74645b16618e6511",
+      "title": "AWS Direct Connect 정액 요금제(Flat-rate) 손익분기점 분석",
+      "url": "https://aws.amazon.com/ko/blogs/tech/aws-direct-connect-flat-rate-breakeven-analysis",
+      "summary": "AWS Direct Connect 정액제의 포트페어·독립 연결별 손익분기점과 비용 절감 효과를 계산했습니다.\\n필요 용량, Tier 범위, Transit Gateway 등 별도 비용과 전환 제약을 함께 점검해야 합니다.",
+      "publishedAt": "2026-10-18T02:51:47Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "533c8b7caa4c5b653292",
+      "title": "주절주절...불장에 취하지 마라 A/S",
+      "url": "https://blog.naver.com/ranto28/224445131334?fromRss=true&trackingCode=rss",
+      "summary": "올해 5월에 인터뷰를 하나 했고, 2026년 5월 4일, \"불장에 취하지 마라\"는 제목으로 기사로 나갔다. \"불장에 취하지 마라\"…스타 블로거 '메르'의 투자 조언 < 증권 < 기사본문 - 연합인포맥스 자세한 인터뷰 내용은 위 링크를 참고하고, 주요내용은 다음과 같다. -최근 투자 비중을 크게 늘리거나 줄인 게 있다면. ▲최근에 미국 국채 10년물을 3.9%대에 모두 들어냈다. 지난해 11월에는 포트폴리오의 3% 비중으로 구리 관련 한국 3개 종목에 들어가서 목표수익률에 도달해 수익 실현했고, 최",
+      "publishedAt": "2026-10-17T22:34:19Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "65f6650ae8abff2b7e99",
+      "title": "좋아하는 것도 습관이다",
+      "url": "https://jojoldu.tistory.com/891",
+      "summary": "트레바리에서 \"좋아하는 일과 잘하는 일 중에서 어떤 선택을 해야 지속 가능한 성취가 가능한 것인가\"라는 주제로 이야기를 나눴다. 나는 지금 하는 일을 좋아하려고 노력하는 쪽에 더 마음이 간다고 이야기했다. 좋아하는 일을 찾았더라도, 그 일을 직업으로 계속할 수 있는지는 내 마음만으로 결정되지 않기 때문이다. 최근에 '신인감독 김연경' 시즌 2가 시작되었다. 이 프로그램에는 프로팀에서 방출된 선수들과 프로 진출을 꿈꾸는 실업팀 선수들 이 나온다. 시즌 2에서는 시즌 1 선수들의 후일담도 볼 수 있었",
+      "publishedAt": "2026-10-17T15:55:48Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "33d0247ec82de19f30a9",
+      "title": "하늘을 난 테슬라의 로드스터에 숨겨진 비밀",
+      "url": "https://blog.naver.com/ranto28/224444323852?fromRss=true&trackingCode=rss",
+      "summary": "휴일이라 가벼운 내용입니다. 1. 1900년의 한국은 고요한 아침의 나라였음. 2. 같은 시기 뉴욕 거리에는 휘발유 자동차보다 전기 자동차가 더 많이 다녔고, 전기자동차 택시 60대가 돌아다니고 있었음. 3. 1세대 전기차 시대임. 4. 1900년 파리 만국 박람회에서 전기차 로너-포르쉐가 등장함. 5. 로너-포르쉐는 바퀴 안에 전기모터를 넣은 '인 휠 모터'로 등장함. 6. 그 당시 전기차의 문제는 짧은 주행거리였음. 7. 한번 충전 시 12km가 초기 전기차의 주행거리였는데, 로너-포르쉐는 대",
+      "publishedAt": "2026-10-17T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "d35fa887e01d97198944",
+      "title": "[Kubernetes] GPU 클러스터 노드 생애주기 자동화: GPU 장애 격리부터 OS·DNS 설정 검사까지",
+      "url": "https://indieblog.net/go/618155",
+      "summary": "GPU 하드웨어 장애와 노드 설정 장애 네 건에서 빠져 있던 단계를 감지부터 편입 게이트까지 나눠 보고, 실제로 만든 자동화와 아직 비어 있는 부분을 정리해 보자.",
+      "publishedAt": "2026-10-17T15:00:00Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "d539e6cbd15803e99ca6",
+      "title": "신시모도를 아시나요? (수도권 최강 청정구역 개통)",
+      "url": "https://blog.naver.com/anordinarydad/224445029557",
+      "summary": "신시모도라고 하면 아직 알고 있는 사람이 많지 않다. 왜냐하면 그동안 차로는 갈 수 없는 섬이었기 때문이다. 신시모도는 사실 섬 하나의 이름이 아니다. 정확히는 신도, 시도, 모도 세 섬을 통칭해서 부르는 말이다. 위치는 영종도 북서쪽에 있는데 영종대교를 타고 영종도에 들어서면 공항으로 들어가기 직전에 신도 방면으로 우회전을 하면 된다. 사실 신시모도 세 섬이 연결된 것은 꽤 오래됐고 한다. 하지만 과거에는 영종도도 섬이었고 영종도와 신도가 연결되어 있지 않았기 때문에 그야말로 오지 중의 오지였다",
+      "publishedAt": "2026-10-17T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "b25f4b39ba704384536a",
+      "title": "스프링 IoC 컨테이너: BeanFactory와 ApplicationContext",
+      "url": "https://indieblog.net/go/608124",
+      "summary": "앞서 의존성 주입이 무엇이고 왜 필요한지 봤다. 이번에는 스프링 프레임워크가 그 일을 어떻게 대신해 주고 있는지 확인해보자. [아키텍처/원칙] - 의존성 주입(DI, Dependency Injection)과 다형성(Polymorphism) 확인 버전 Spring Boot 4.1 (Spring Framework 7.0.9) Kotlin 2.3 (JDK 25)…",
+      "publishedAt": "2026-10-17T10:44:21Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "25bc6d87a7c50a779aae",
+      "title": "Blog: Jetpack Compose로 구현하는 포켓몬 카드 홀로그램 효과",
+      "url": "http://pluu.github.io/blog/android/2026/10/17/compose-card-hologram",
+      "summary": "포켓몬 카드를 손에 쥐고 기울이면, 빛의 각도에 따라 무지개 빛이 반사되고 캐릭터 뒤편에서 홀로그램 효과를 볼 수 있습니다. 이와 같은 화려한 그래픽 효과는 AGSL, OpenGL 셰이더 같은 전문적인 그래픽 프로그래밍을 통해 구현할 수도 있지만, Jetpack Compose의 기본 그래픽 API ( graphicsLayer , Brush , DrawScope )만으로도 부드럽고 실감나게 구현할 수 있습니다. 당연히 100% 동일하다는 것은 아닙니다. 이번 글에서는 Compose를 사용해 루기아",
+      "publishedAt": "2026-10-17T09:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "901592dc169b40f6f207",
+      "title": "통신사별 IP 대역 (SKT, KT, LG)",
+      "url": "https://indieblog.net/go/608125",
+      "summary": "통신사별 IP 대역 구분 SK텔레콤 KT LG U+ 3G 203.226 211.234 39.7 110.70 175.223 211.246 61.43 211.234 4G 27.160 ~ 27.183 203.226 223.32 ~ 223.63 2001:2d8::/32 39.7 110.70 118.235 175.223 211.246 2001:e60::/32 106…",
+      "publishedAt": "2026-10-17T08:26:28Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "17b00c50b9d5483969df",
+      "title": "[SE-0551] Span over a single value",
+      "url": "https://green1229.tistory.com/641",
+      "summary": "안녕하세요. 그린 입니다 이번 포스팅에서는 SE-0551 — 단일 값에 대한 Span에 대해 정리 해보겠습니다 Intro Proposal: SE-0551 Author: Guillaume Lessard Review Manager: Doug Gregor Status: Accepted Implementation: swiftlang/swift#88152 Summary of Changes 임의의 값에 대한 단일 원소 Span 을 만드는 이니셜라이저와, 임의의 mutable 값에 대한 단일 원소 Mutabl",
+      "publishedAt": "2026-10-17T00:34:49Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "b2b8c0ed40d9021ac060",
+      "title": "에이전트를 위해 준비한 문서, 코딩 에이전트는 실제로 어떻게 읽었을까",
+      "url": "https://indieblog.net/go/608446",
+      "summary": "에이전트 준비도를 갖춘 문서를 코딩 에이전트가 실제 연동 작업에서 어떻게 읽었는지 세션 기록으로 확인했습니다. 에이전트는 저희가 만든 마크다운 페이지를 한 번도 직접 요청하지 않았고, 저희가 쓴 스캐너들은 그 원인인 서버 버그를 잡아내지 못했습니다.",
+      "publishedAt": "2026-10-17T00:00:00Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "b239ae7ff8d57d984747",
+      "title": "2026 ICPC 서울 예선 풀이",
+      "url": "https://justicehui.github.io/icpc/2026/10/17/2026-icpc-korea-first-round",
+      "summary": "서론 2026년 10월 17일에 개최된 2026 ICPC 서울 예선(2026 ICPC Asia Korea National First Round Programming Contest) 비공식 풀이입니다.",
+      "publishedAt": "2026-10-17T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "bbdf327eba887bcd0183",
+      "title": "주말에 돼지갈비나 먹을까?",
+      "url": "https://blog.naver.com/ranto28/224444372198?fromRss=true&trackingCode=rss",
+      "summary": "조선시대부터 갈비는 무조건 소갈비였다. 돼지고기는 삶아서 수육으로 먹거나, 찌개에 넣어서 먹는 정도고, 구이용으로는 거의 쓰이지 않았다. 소갈비는 서민들의 음식이 아닌 고급음식이었다. 6.25전쟁이후 서울 마포나루를 중심으로 \"소갈비처럼 달짝지근한 간장 양념에 돼지고기를 구워 파는 식당\"이 등장하기 시작했다. 연탄이나 숯불 직화에 캐러멜과 간장, 마늘 베이스의 달콤하고 짭조름한 서울식 돼지갈비가 탄생된 배경이다. 마포구 최대포나 조박집등이 이런 분위기에서 생겨났고, 분점이나 대형화를 통해 성장하게",
+      "publishedAt": "2026-10-16T22:30:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "a4bc8806b4f0a3e564f5",
+      "title": "한국 자주포가 미군을 만족시킨 비밀(feat 한화, K9)",
+      "url": "https://blog.naver.com/ranto28/224443747132?fromRss=true&trackingCode=rss",
+      "summary": "불금이라 가벼운 내용입니다. 1. 미국은 러우전쟁을 보면서 교훈을 하나 얻었음. 2. 발포 이후 신속하게 위치를 이탈하는 '슛 앤 스쿠트'능력이 생존성과 직결되는 것을 확인하게 됨. 3. 드론과 대포병 레이더가 깔린 전장에서 기존 견인포를 대체할 차륜형 자주포의 필요성이 커진것임. 4. 미 육군은 M109 팔라딘 계열의 사거리를 크게 늘린 ERCA(확장사거리포)를 개발했었음. 5. 시제품 단계에서 한계가 드러나서 2024년 사업을 접었고 이후 방향을 해외제품 도입으로 틀게 됨. 6. 미 육군이 운",
+      "publishedAt": "2026-10-16T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "6213041ebf388527754b",
+      "title": "당신이 매일 보는 그 IT 회사가 감히 메리츠금융지주에 도전장을?!!",
+      "url": "https://blog.naver.com/anordinarydad/224444190106",
+      "summary": "경부고속도로를 타고 상행선으로 서울로 들어오다보면 이런 이정표를 본 적이 있을 것이다. 오늘의 주인공은 바로 이 회사다. 회사의 이름은 산돌이다. 돌을 만드는 회사는 아니다. 공시부터 살펴보자. (법인 구조가 약간 헷갈릴 수 있으니 집중) 오늘 나온 공시는 역시나 거래계획보고서다. 요즘 개인투자자가 가장 환영할만한 내용이다. 산돌이라는 이 회사의 주식을 11월 16일부터 한달간 10억원의 주식을 사겠다고 한다. 산돌의 주식을 살펴보면, 이 공시 때문인지 오늘 주가는 3.2%가 상승하며 마감했다.",
+      "publishedAt": "2026-10-16T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "0aca941b73bd0eb0fda3",
+      "title": "Amazon Bedrock AgentCore로 대화형 데이터 분석 에이전트를 프로덕션 아키텍처로 전환하기: SD바이오센서 사례",
+      "url": "https://aws.amazon.com/ko/blogs/tech/amazon-bedrock-agentcore-data-analysis-agent-sdbiosensor",
+      "summary": "대화형 데이터 분석 에이전트를 단일 에이전트와 결정론 도구 중심으로 재설계했습니다. 실행 레인 분리, 이벤트 알림, 표준 관측성으로 프로덕션 운영성을 높였습니다.",
+      "publishedAt": "2026-10-16T13:17:02Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "298ec4d1df66c2c53cae",
+      "title": "Gemini 4 Argon 성능 등 10월 셋째 주 Google for Developers 위클리 업데이트를 지금 확인하세요!",
+      "url": "http://developers-kr.googleblog.com/2026/10/weeklyupdate-week3.html",
+      "summary": "Google이 10월 셋째 주 AI, Android, Google Play 관련 개발자 업데이트를 모아 소개했습니다. Gemini 4 Argon과 OAuth DPoP, 개발 환경 및 Play 기능 소식을 확인할 수 있습니다.",
+      "publishedAt": "2026-10-16T11:59:42Z",
+      "sourceIds": [
+        "techblogposts",
+        "velopers",
+        "indieblog",
+        "awesome"
+      ]
+    },
+    {
+      "id": "678f2230c36c4b26035f",
+      "title": "폭풍우의 끝에서 제타民을 만나다",
+      "url": "https://velopers.kr/post/9471",
+      "summary": "폭풍우 속 하라주쿠 첫 오프라인 이벤트에 200명 이상이 방문하며 일본 유저의 높은 애정을 확인했습니다. 현장 반응을 바탕으로 공간·굿즈·대기 경험을 확장하는 다음 이벤트를 준비합니다.",
+      "publishedAt": "2026-10-16T10:00:00Z",
+      "sourceIds": [
+        "velopers"
+      ]
+    },
+    {
+      "id": "e9a13e36582323df069d",
+      "title": "바이브 코딩으로 레거시 현대화하기 (2/2): 웹의 역사와 함께 쌓인 PHP",
+      "url": "https://roboco.io/posts/legacy-php-vibe-coding-modernization",
+      "summary": "PHP 레거시의 위험은 포인터가 아니라 노후한 실행 환경, 암묵적인 타입 변환, 권한 검사, 그리고 DB와 외부 연동에 숨어 있다. 대부분의 경우 정답은 PHP를 버리는 것이 아니라, PHP를 지원되는 버전으로 올리고 검증과 배포 체계를 먼저 갖추는 것이다. 정도현 - 로보코 수석 컨설턴트 1편 에서는 20년 넘은 C/C++ 애플리케이션을 바이브 코딩으로 현대화하는 방법을 다뤘다. 1 이번 글은 레거시 웹, 그중에서도 PHP를 다룬다. PHP는 1995년에 등장해 웹의 역사와 거의 같은 시간을 함",
+      "publishedAt": "2026-10-16T09:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "9ca82c0fb6ef477ba0a8",
+      "title": "CJ올리브영의 AI 기반 운영 이슈 분석과 일일 점검 자동화",
+      "url": "https://indieblog.net/go/603137",
+      "summary": "AI 에이전트로 프로모션 장애 원인과 고객 피해, 일일 운영 이상 징후를 분석했습니다. 계산·판정은 코드로 고정하고 LLM은 해석을 맡겨 대응 시간을 단축했습니다.",
+      "publishedAt": "2026-10-16T08:57:20Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "227d6cc72f3f5af36ccd",
+      "title": "회의실을 벗어나 잔디밭으로! 여기어때 전사 가을 운동회 현장",
+      "url": "https://indieblog.net/go/601196",
+      "summary": "여기어때가 9월 말 진행한 전사 가을 운동회 현장을 소개했습니다. 사내 구성원의 교류를 위한 문화 행사 소식입니다.",
+      "publishedAt": "2026-10-16T07:21:49Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog",
+        "awesome"
+      ]
+    },
+    {
+      "id": "a1ba62c6a0aa97650844",
+      "title": "모두의주차장 AI 음성 주차 개발기: AWS AI-DLC 워크숍에서 출시까지",
+      "url": "https://indieblog.net/go/601400",
+      "summary": "AI-DLC로 기존 주차 에이전트에 STT·TTS를 이틀 만에 연결해 MVP를 검증했습니다.\\n음성 재입력 문제를 턴제로 해결하고 음성 전용 UX를 베타 출시했습니다.",
+      "publishedAt": "2026-10-16T07:19:38Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "c0e7624cdc47fa8a6e5a",
+      "title": "AWS Elemental MediaConvert와 Amazon Bedrock으로 VOD 자동 챕터 생성하기",
+      "url": "https://indieblog.net/go/601401",
+      "summary": "MediaConvert의 샷 전환 후보와 Transcribe 스크립트를 Bedrock에 제공해 VOD 챕터를 자동 생성했습니다. AI 결과는 코드로 검증하고 썸네일 타일을 활용해 자연스러운 탐색 경험을 구성합니다.",
+      "publishedAt": "2026-10-16T07:04:35Z",
+      "sourceIds": [
+        "velopers",
+        "indieblog"
+      ]
+    },
+    {
+      "id": "488ee136205567e34593",
+      "title": "AI가 쓴 질문에 답장을 해야 할까",
+      "url": "https://jeho.page/essay/2026/10/16/replying-to-ai.html",
+      "summary": "AI로 쓴 티가 나는 장문의 질문 메일을 받았습니다. 그리고 SNS에서는 장문의 댓글도 종종 받습니다.",
+      "publishedAt": "2026-10-16T06:30:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "6273a86e9a43ff02b27f",
+      "title": "실행은 도메인별로, 문맥은 한 레포에",
+      "url": "https://indieblog.net/go/601126",
+      "summary": "중앙 DW Airflow를 멈추지 않고 도메인별 DW로 나눈 9개월",
+      "publishedAt": "2026-10-16T06:15:00Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "a0ffe9da4bda811e6fa6",
+      "title": "실행은 도메인별로, 문맥은 한 레포에",
+      "url": "https://toss.tech/article/dw-airflow-migration",
+      "summary": "중앙 DW Airflow를 멈추지 않고 도메인별 DW로 나눈 9개월",
+      "publishedAt": "2026-10-16T06:15:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "fa6e0cf2bdd72a5582d3",
+      "title": "Coolify에서 Laravel을 web / worker / scheduler 3개로 배포하기",
+      "url": "https://indieblog.net/go/602097",
+      "summary": "라라벨(Laravel) 프로젝트에서 배포는 Laravel Forge나 Laravel Envoyer를 사용하면 간단하게 구성할 수 있습니다. 하지만 장점만 있는건 아니죠. 우선 이 두개의 서비스는 유료입니다. 그리고, 컨테이너 기반이 아닙니다. 컨테이너 기반의 배포는 장단점이 있습니다. 장점은 환경(environment)를 동일하게 구성하여 안정적인 개발 배…",
+      "publishedAt": "2026-10-16T04:30:00Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "96efeaebec76e6b8e05c",
+      "title": "Cloudflare에서 차세대 Git 플랫폼을 구축해 주세요",
+      "url": "https://indieblog.net/go/602832",
+      "summary": "Cloudflare는 AI 에이전트 시대를 위한 차세대 Git 플랫폼을 누가 구축할지 알아보는 대회를 개최합니다. Artifacts는 오픈 베타로 제공되며, Workers 바인딩, 데이터 관할권 제어, 리포지토리 변경 이벤트 구독을 지원합니다.",
+      "publishedAt": "2026-10-16T02:44:53Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "d9f054240f68a33e1aa5",
+      "title": "롯데백화점의 생성형 AI 기반 파트너 제안 채널 ‘AI 비즈센터’ 구축기",
+      "url": "https://indieblog.net/go/599846",
+      "summary": "AI 비즈센터 키 비주얼 롯데백화점은 수천 개의 입점 브랜드 및 파트너사와 협력하며 입점, 계약, 행사 기획, 마케팅 제휴 등 다양한 비즈니스 프로세스를 운영하고 있습니다. 고객용 앱에서 AI 컨시어지 ‘더스틴‘을 운영하는 등 생성형 AI를 고객 접점에 적용해 왔으며, 이번에는 그 활용 범위를 파트너사의 입점 및 협업 지원 영역으로 확장했습니다. 롯데백화점…",
+      "publishedAt": "2026-10-16T02:40:13Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "f024a2ec1ab14dfe734d",
+      "title": "AI로 '진짜' 돈 버는 회사 (마크비전)",
+      "url": "https://blog.naver.com/bizucafe/224443548517",
+      "summary": "이번 팟캐스트 주인공은 AI로 돈 벌고 있는 회사 MarqVision(마크비전) 이야기입니다. 마크비전 비즈니스는 쉽게 말하면... 짝퉁 잡아냅니다. 전 세계에서 브랜드 위조 상품들이 온라인으로 유통되는데, 그걸 다 셧다운시키는 일을 합니다. 거의 첩보 영화 같은 일이죠. 원래도 AI를 쓰긴 했는데 AI 모델이 발전하면서 할 수 있는 일이 훨씬 더 많아졌고 비즈니스도 더욱더 빠르게 성장하고 있다고 합니다. 세쿼이아 캐피털 아티클 중에 이런 내용이 있었는데요. 인공지능 시대에는 인공지능 모델을 직접",
+      "publishedAt": "2026-10-16T02:37:38Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "e0c2e2ae9b90ea017faf",
+      "title": "Finder에서 파일명을 겹치게 바꿨다 — 일괄 변경은 경고 대신 번호를 붙였다",
+      "url": "https://indieblog.net/go/600241",
+      "summary": "같은 파일명 충돌인데 단일 변경은 거부하고 일괄 변경은 숫자를 붙였다. Finder의 NIB 버튼 연결에서 후보 이름을 다시 만드는 코드까지 따라가고, 임시 파일로 변경과 실행 취소를 확인했다.",
+      "publishedAt": "2026-10-16T02:19:57Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "8ab59a51af08169892e0",
+      "title": "AI로 E2E 회귀 테스트 자동화하기: ‘딸깍’을 파이프라인으로 바꾸기까지",
+      "url": "https://indieblog.net/go/599627",
+      "summary": "들어가며안녕하세요. LINE Plus에서 대만 Giftshop 서비스 QA를 담당하고 있는 김혜영입니다.최근 AI를 테스트 자동화에 활용하려는 다양한 시도와 실제 적용 사례를 접하...",
+      "publishedAt": "2026-10-16T02:00:00Z",
+      "sourceIds": [
+        "indieblog",
+        "awesome"
+      ]
+    },
+    {
+      "id": "6dbec2cb4ee878c6f76a",
+      "title": "모던 백엔드 - Spring Boot 4.0 개관(2)",
+      "url": "https://indieblog.net/go/599733",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:35:54Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "f86c0c7811fd3a3d888b",
+      "title": "AWS에서 Teamcenter Simulation으로 제품 개발 가속하기",
+      "url": "https://indieblog.net/go/599847",
+      "summary": "이 글은 AWS for Industries 블로그에 게시된 Accelerating Product Engineering with Teamcenter Simulation on AWS by Chandan Murthy, Vedanth Srinivasan, and Wouter Dehandschutter를 한국어로 번역 및 편집하였습니다. (원문 보기) 오늘날 빠르게…",
+      "publishedAt": "2026-10-16T01:13:39Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "2785b7d931eb6f8b9a46",
+      "title": "AWS ParallelCluster로 Teamcenter 시뮬레이션 가속하기",
+      "url": "https://indieblog.net/go/599848",
+      "summary": "이 글은 AWS for Industries 블로그에 게시된 Run HPC Simulations faster with Siemens Teamcenter and AWS ParallelCluster by Chandan Murthy, Amanda Greer, and Ramin Torabi를 한국어로 번역 및 편집하였습니다. (원문 보기) 제조 조직은 이제 Team…",
+      "publishedAt": "2026-10-16T01:12:27Z",
+      "sourceIds": [
+        "indieblog"
+      ]
+    },
+    {
+      "id": "b3cd777599c4b46a3aff",
+      "title": "바이브 코딩으로 레거시 현대화하기 (1/2): 20년 된 C/C++ 애플리케이션",
+      "url": "https://roboco.io/posts/legacy-cpp-vibe-coding-modernization",
+      "summary": "에이전트가 레거시 C/C++ 앞에서 헤매는 이유는 코드가 복잡해서가 아니라, 자기가 한 일이 맞는지 확인할 방법이 없어서다. 현대화의 첫 투자는 언어 전환이 아니라 검증 환경이다. 정도현 - 로보코 수석 컨설턴트 바이브 코딩 도입 컨설팅을 하다 보면 비슷한 하소연을 자주 듣는다. “우리 프로젝트는 너무 복잡해서 에이전트가 시킨 일을 제대로 못 합니다.” 처음에는 도메인이 특수하거나 프롬프트를 잘못 쓰는 문제라고 생각했다. 그런데 사례가 쌓이자 공통점이 보였다. 이런 이야기를 하는 팀의 프로젝트는",
+      "publishedAt": "2026-10-16T01:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "fb81b442df2fad5ba5d2",
+      "title": "토스뱅크가 패키지를 관리하는 방식 #2: 토스뱅크 패키지의 세 가지 기준",
+      "url": "https://toss.tech/article/package-management-2",
+      "summary": "안정성, 예측 가능성, 디버깅 편의성. 패키지가 갖춰야 할 세 가지 기준과, 문법 변환과 번들링을 사용하는 서비스에 맡긴 이유를 소개해요.",
+      "publishedAt": "2026-10-16T01:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "62ffbcc9448b459ccb22",
+      "title": "지금 우리 국장은? (feat CPI에 이어서 PPI도 뜯어보자)",
+      "url": "https://blog.naver.com/ranto28/224443203845?fromRss=true&trackingCode=rss",
+      "summary": "9월 CPI를 설명하는 글에서 10월 15일에 발표하는 PPI를 지켜볼 필요가 있다고 이야기 했다. 9월 CPI가 발표되었다. 결과를 뜯어보자 : 네이버 블로그 PPI가 나왔는데, CPI보다 더 크게 터졌다. CPI가 마트 계산대 가격이라면, PPI는 그 물건이 마트에 들어오기 전의 도매시장 가격이다. 도매시장에서 배추값이 오르면, 마트 배추값도 시차를 두고 오르는 구조와 비슷해서, PPI는 CPI의 선행지표로 여겨진다. 9월 PPI는 전월 대비 1.3%, 전년대비 6.3% 올랐다. 8월의 전월",
+      "publishedAt": "2026-10-15T22:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "bd053782a71f119d6316",
+      "title": "기술 뉴스 #304 : 2026-10-16",
+      "url": "https://blog.outsider.ne.kr/1814",
+      "summary": "웹개발 관련 Chrome에서 JPEG XL 제공 : Chrome이 155부터 차세대 이미지 형식인 JPEG XL( .jxl )을 지원한다.(한국어) 그 밖의 개발 관련 Redesigning source control at Anthropic : Anthropic이 하루에 병합하는 변경사항은 5월 평균 2,500건에서 9월 30,000건 이상으로 늘었다. 소스 관리가 병목이 되자 사내 버전 관리 시스템인 Scion을 구축하고 5개월 만에 Git에서 완전히 이전했다. Git 저장소 관리가 어려워지고 분",
+      "publishedAt": "2026-10-15T17:24:12Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "d97f26b4e894c39e7d0e",
+      "title": "스페이스X의 도전은 성공할수 있을까? (feat 휴대폰 시장 진출)",
+      "url": "https://blog.naver.com/ranto28/224441382513?fromRss=true&trackingCode=rss",
+      "summary": "새로운 동향이 나와서 정리해 봅니다. 1. 2026년 10월 8일, 일론 머스크의 스페이스X가 800MHz 주파수를 80억달러에 사기로 함. 2. 일론 머스크는 이것을 '미국 전역에서 휴대폰이 다 터지게 하는데 필요한 마지막 퍼즐조각'이라고 자랑함. 3. AT&T, 버라이즌, T모바일 주가가 6% 안팎 빠졌고, 시장은 \"스페이스X가 진짜 통신사가 되려나 보다\"라고 받아들이는 모습임. 4. 이게 왜 큰일인지 알려면 주파수를 먼저 알아야 함. 5. 전파는 눈에 보이지 않지만, 호수에 돌을 던졌을 때",
+      "publishedAt": "2026-10-15T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "1dce46ed7e480e96f56c",
+      "title": "연금생활자 권순열씨는 왜 가족 돈 26억을 영끌했을까 (유성기업)",
+      "url": "https://blog.naver.com/anordinarydad/224443052726",
+      "summary": "흥미로운 공시가 나왔다. 사실 이건 지난 7월에 알아차렸어야 했는데 별 대수롭게 생각하지 않고 넘겨버리다가 오늘에서야 눈치챘다. 오늘의 공시는 주식대량보유공시(일명 5%공시)인데 5%를 취득해서 주요주주가 되거나 이후 1%이상의 변동이 있을때 의무가 생긴다. 그리고 유성기업이라는 회사에 5% 공시가 올라왔다. 이 주인공은 권순열이라는 사람이다. 지분율을 보고 확인을 해보니 지난 7월에 5% 공시를 진행했고 이번에 1% 이상 변동이 되어 신고를 한 것으로 보인다. 이렇게만 보면 뭘 어쩌란거냐 생각할",
+      "publishedAt": "2026-10-15T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "9f15c37bdfdc099a091f",
+      "title": "토스뱅크가 패키지를 관리하는 방식 #1: 패키지를 ESM으로만 제공하기로 했어요",
+      "url": "https://toss.tech/article/package-management-1",
+      "summary": "ESM과 CJS를 함께 제공할 때 생길 수 있는 상태 분리와 타입 누락 문제를 살펴보고, 패키지를 ESM-only로 전환한 이유를 소개해요.",
+      "publishedAt": "2026-10-15T09:23:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "08ee96aca20a5348930a",
+      "title": "컴퓨터의 관점",
+      "url": "https://blog.naver.com/bizucafe/224442832031",
+      "summary": "오늘 했던 대화 중 일부.. \"지금까지 우리가 AI 쓰는 건 인간이 하던 일들을 AI 시켜서 어떻게 ‘대체‘할까잖아.. 정작 중요한 질문은 인간이 하던 일 대체하는 관점이 아니라 AI 써서 우리가 원래 하지도 못했던 일.. AI만 가능한 루프를 세팅해야 진짜 가치가 만들어질 것 같은데.. 우리는 지금 이 기술을 너무 '인간' 관점에서 해석하고 있다는 생각이 드는데 그게 우리의 한계 자체 아닐까? 컴퓨터가 보면 우리가 얼마나 답답하겠어.. 인간 관점 아니라 컴퓨터 관점에서 인간이 생각해 볼 차례야.",
+      "publishedAt": "2026-10-15T08:55:17Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "938f370acd67e02f38d3",
+      "title": "코드를 모르는 기획자의 Product Engineer 도전 : 준비와 소통으로 서버부터 앱까지",
+      "url": "https://techblog.yogiyo.co.kr/%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%AA%A8%EB%A5%B4%EB%8A%94-%EA%B8%B0%ED%9A%8D%EC%9E%90%EC%9D%98-product-engineer-%EB%8F%84%EC%A0%84-%EC%A4%80%EB%B9%84%EC%99%80-%EC%86%8C%ED%86%B5%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84%EB%B6%80%ED%84%B0-%EC%95%B1%EA%B9%8C%EC%A7%80-f6c1db423de9",
+      "summary": "코드를 모르는 기획자의 Product Engineer 도전 : 준비와 소통으로 서버부터 앱까지 “레포지토리가 뭐야? 브랜치는 왜 만드는 거야?” 당시 저는 코드를 한 줄도 읽을 줄 몰랐습니다. 하지만 PE 활동을 하며 약 1개월 뒤 서버와 어드민, Android, iOS 앱까지 직접 개발한 기능을 실제 서비스에 출시했습니다. 저는 요기요에서 서비스 운영과 기획을 메인으로 해왔습니다. 앞선 글에서는 개발자가 PO의 역할까지 맡은 경험을 다뤘다면, 이번에는 반대 방향입니다. 기획자가 개발까지 맡으면",
+      "publishedAt": "2026-10-15T04:31:04Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "f353049c0c7e3d4a454f",
+      "title": "지금 우리 국장은? (feat 코어위브, 삼성전자,SK하이닉스)",
+      "url": "https://blog.naver.com/ranto28/224442390068?fromRss=true&trackingCode=rss",
+      "summary": "오전부터 국장이 크게 하락하고 있다. 삼성전자는 7%, SK하이닉스는 10%이상 내리고 있고, 외국인은 오전에만 2조원이상을 순매도를 하는 상황이다. 시작은 CPI 였던 것 같다. CPI에 대한 자세한 설명은 기존글에서 했으니 생략하고, 핵심은 인플레이션이 끈끈해서, 금리인상 가능성이 높아졌다는 것이다. 9월 CPI가 발표되었다. 결과를 뜯어보자 : 네이버 블로그 금리인상 가능성이 먼저 덮친곳은 코어위브였다. 코어위브는 엔비디아에서 AI용 GPU를 사서 데이터센터에 깔고, 이것을 빌려주는 회사다.",
+      "publishedAt": "2026-10-15T02:44:43Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "4575d831f486cb05247d",
+      "title": "AI 시대, 기업이 갖추어야 할 6가지 역량",
+      "url": "https://subokim.wordpress.com/2026/10/15/the-6-essential-skills",
+      "summary": "AI 시대, 기업들이 많이들 헷갈려 하고 있죠. AI 가 뜨니 사내에 Claude, ChatGPT 교육을 다 시키긴 했는데 회사는 더 나아지는 게 없고, 위에서는 AI를 조직에 안착시키라고 하는데, 어떻게 해야 할지도 모르겠고. 특히 앞으로 채용은 어떻게 해야 하는지, 직원교육은 어떻게 해야 하는지 막막하기만 합니다. 이번 글은 “하버드 비즈니스 리뷰” 블로그에 올라와 있는 글(2026.10.7) 의 번역입니다. (원문 […]",
+      "publishedAt": "2026-10-15T02:19:04Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "990efeaf4826f3cf6487",
+      "title": "보안이 소프트웨어 팩토리 도입을 가속한다",
+      "url": "https://roboco.io/posts/security-accelerates-software-factory",
+      "summary": "“AI는 휴식이 필요없고, 수면도 취하지 않으며, 명절도, 휴가도 없다.” – 박문범, 78ResearchLab CPO 1 정도현 - 로보코 수석 컨설턴트 2026년 9월 30일, 신한은행이 고객 정보 유출을 금융당국에 보고했다. 2주 뒤인 10월 14일, 금융당국이 집계한 피해 범위는 은행·저축은행·캐피탈·가상자산사업자를 포함한 16개사, 약 10만 건으로 늘어 있었다. 2 같은 달 6일에는 여의도순복음교회와 사랑의교회가 해킹으로 교인 정보가 유출된 정황을 밝혔다. 3 그보다 앞선 9월 3일에는",
+      "publishedAt": "2026-10-15T01:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "bca926f1701125a97f5e",
+      "title": "AI Native FE 개발로의 전환, 150일간의 여정",
+      "url": "https://velog.io/@teo/ai-native-fe",
+      "summary": "AI만으로 개발하는 시대, FE 개발자의 업무는 어떻게 변했을까? 프롤로그 2026년 10월, 이제는 AI로 개발하는 것이 너무나 당연한 개발문화가 되었습니다. 불과 올해 초반만 하더라도 이렇게 빨리 코딩을 내려놓게 될 줄은 몰랐는데, 새삼 세상의 변화속도와 그에 따른 인간의 적응력이 대단하다고 느꼈습니다. 레거시 프로젝트에서는 AI Native 방식으로 100% 개발하는 것이 여전히 조심스러웠지만, AI Native TF가 출범하면서 상황이 달라졌습니다. 5월 쯤인가부터 0에서부터 AI만으로 개",
+      "publishedAt": "2026-10-15T00:15:36Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "a3b215e7680a7c04a241",
+      "title": "AI 코딩 시대, DDD가 더 필요해진 이유",
+      "url": "https://blog.banksalad.com/tech/banksalad-ddd-in-ai-era",
+      "summary": "Go 서비스에 DDD-lite와 Clean Architecture를 적용하면 뭐가 다를까? 안녕하세요, 금융쇼핑 PA 서버 Tech Lead 김지원입니다. 뱅크샐러드 서버는 대부분 Go…",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "046e51760db3622d6870",
+      "title": "꿈의 암 치료제가 모더나에서 터졌다는데 어떤걸까? A/S",
+      "url": "https://blog.naver.com/ranto28/224442142358?fromRss=true&trackingCode=rss",
+      "summary": "꿈의 암 치료제가 모더나에서 터졌다는데 어떤걸.. : 네이버블로그 1~73번은 기존글이니, 기억나시면 스킵하고 74번으로 넘어가시면 됩니다. 1. 우리 몸 세포는 원래 한 우물만 파는 전문가들임. 2. 심장, 피부, 간등 한번 직업이 정해지면 다른 세포로 변하지 못함. © callilife, 출처 OGQ 3. 정자와 난자가 만나서 만드는 수정란은 그렇지 않음. 4. 수정란은 우리 몸의 200종류가 넘는 모든 세포로 다 바뀔 수 있는 만능(pluripotency)세포임. 5. 수정후 5~6일쯤 지나",
+      "publishedAt": "2026-10-14T22:20:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "3f9ab65bdcb51c47c775",
+      "title": "나를 거절하는 VC를 대하는 방법",
+      "url": "https://www.thestartupbible.com/2026/10/what-to-do-with-vcs-that-reject-you.html",
+      "summary": "나는 올해로 11년째 국내 최고의 액셀러레이터 프라이머의 벤처파트너로 활동하고 있다. 지난주에 프라이머 28기 데모데이가 잘 끝났는데, 그다음 날 창업가분들을 대상으로 투자 관련 AMA 세션을 진행했다. 몇 년 전부터 데모데이 다음날 항상 진행하는 세션인데, 이제 본격적으로 첫 번째 펀드레이징을 해야 하는 창업가의 입장에서 – 프라이머 투자는 이미 받았지만, 프라이머 배치에 선발되고 투자받는 것과 실제로 많은 VC에게(...)",
+      "publishedAt": "2026-10-14T21:23:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "27921971efb7bc6feaec",
+      "title": "리눅스라는 미지의 영역을 탐구한 선도자, 미지리서치 서영진 대표",
+      "url": "https://neozest2.tistory.com/entry/SeoYoungjinMiziLinux",
+      "summary": "과학기술대학 86학번인 서영진 대표는 92년도에 수치해석을 전공하던 중 리눅스를 처음 접합니다. 그는 “소스코드를 공개한 리눅스는 전세계 프로그래머들이 공동으로 기술을 개발해 왔기 때문에 MS의 윈도 운영체제보다 더 안정적이고 성능이 우수하다”고 믿는 1세대 골수 리눅서이기도 합니다. 서영진님은 1997년 미지리서치를 설립한 후, 한글을 자유롭게 사용할 수 있는 미지 리눅스 배포판을 개발하였습니다. 99년에 출시된 미지리눅스 1.0은 정식 배포판만 9만장, 무료 배포판은 70만장 이상 나갔다고 알",
+      "publishedAt": "2026-10-14T20:00:43Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "0ae4d1ba954a1824b1f8",
+      "title": "에이전트 이코노미 (agent economy) & 상상",
+      "url": "https://blog.naver.com/bizucafe/224441984002",
+      "summary": "처음 자동차가 발명됐을 때 ... 자동차 보험이라는 건 (당연히) 없었다. 자동차가 대중화되고 사고가 사회적 비용이 되자, 개인이 감당하지 못하는 경우가 생겼다. 이를 보상하는 보험이라는 제도와 시장이 생겼다. 차가 늘고 사고가 늘자 보험은 의무가 됐다. 보험 없는 차는 도로에 못 나간다. 면허 없는 사람은 운전대를 잡을 수 없다. 그게 법이다. AI 에이전트들이 늘어나고 있다. 컴퓨터 안으로 들어온 에이전트는 손을 쓴다. 내 카드로 결제하고, 송금하고, 내 이름으로 메일을 보내고, 회사 서버 파",
+      "publishedAt": "2026-10-14T15:22:17Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "7f81f62f5c717e4cf774",
+      "title": "9월 CPI가 발표되었다. 결과를 뜯어보자",
+      "url": "https://blog.naver.com/ranto28/224441926403?fromRss=true&trackingCode=rss",
+      "summary": "CPI 발표가 예상과 달라서 상황을 퀵하게 정리해 봅니다. 1. 한국시간 2026년 10월 14일 오후 9시 30분, 미국 9월 소비자물가(CPI)가 발표됨. 2. 결론을 먼저 말하면, CPI가 예상한 만큼 높게 나왔는데, 예상하지 못한 곳까지 높게 나와서 시장을 놀라게 하고 있음. 3. 예상한 만큼 높게 나온것은 헤드라인 CPI임. 4. 헤드라인 CPI는 8월보다 0.6%가 올랐고, 전년 대비해서 3.7%가 올랐음. 5. 헤드라인 CPI가 0.6%나 뛴 이유는 기름값 때문임. 6. 9월 에너지",
+      "publishedAt": "2026-10-14T15:08:49Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "5b8bcfe230cece0a153a",
+      "title": "BEREX 침대, 편안함 그 잡채(코웨이 거래계획)",
+      "url": "https://blog.naver.com/anordinarydad/224441959029",
+      "summary": "지난 월요일 오후 늦은 시간 ,코웨이의 대주주인 넷마블이 코웨이 주식에 대한 거래계획을 공시했다. 이번 넷마블의 코웨이 주식 매수 예정금액은 약 600억원이다. 날짜는 다음달 11일부터 한달간이다. 사실 600억이면 오늘 종가 기준 코웨이의 시총이 1%도 안되는 금액이긴 하다. 그리고 이번 매수는 갑자기 하는 것은 아니고 지난 4월 넷마블이 이사회에서 결정한 내용이다. 이미 900억은 집행이 되었고 이번이 그 마지막 남은 600억이 진행되는 건이다. 그리고 3월에 발표한 기업가치 제고 계획에 따라",
+      "publishedAt": "2026-10-14T14:52:59Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "75020d883c331295cd1d",
+      "title": "메타의 AI 전략 완전 공개",
+      "url": "https://blog.naver.com/dipi3/224441764346",
+      "summary": "by 마크 저커버그, 알렉산드르 왕 요약 메타 전략은 코딩이 아니라 \"개인 초지능\" = 멀티모달, 기억력, 신중함(discretion)이 핵심 안경 = 완전한 AI 제품 = 필요한거 바로 생성가능 AI 채팅 = 검색, AI 에이전트 = 위임 기가와트 클러스터 운영에 연 150억 달러, 프런티어 모델 하나에 수백억 달러 실패하려면 메타가 아니라 AI 전체가 망해야 함 = 생각보다 안 위험한 베팅 연구팀은 200명 미만 = 인재 밀도 + 연구자 1인당 컴퓨트 몰빵 MUSE = 구매를 에이전트에게 맡김",
+      "publishedAt": "2026-10-14T11:12:36Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "413d13aefaf329df529e",
+      "title": "피라미드·중복상장 구조",
+      "url": "https://blog.naver.com/wlfvndxnwk/224441647266?fromRss=true&trackingCode=rss",
+      "summary": "2단, 3단, 4단, 5단으로 이어지는 중복상장·피라미드 구조는 투자거버넌스 측면에서 심각한 문제다. 현금흐름과 의사결정권의 불일치를 만들어 항구적인 이해충돌 상황을 야기하며 각종 비효율을 낳기 때문이다. 그러나 투자거버넌스 측면보다 더 심각한 것은 이런 구조가 우리 민주주의의 위기를 불러일으키고, 기업을 넘어 사회 전반의 의사결정 구조까지 왜곡한다는 점이다. 극소수가 어마어마한 자산을 지배하는 것. 그 지배가 자산에만 머문다면 차라리 행복한 일일 것이다. 그러나 자본주의 사회에서 돈에 관한 의사",
+      "publishedAt": "2026-10-14T08:54:37Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "39b75846d5bc357cdf0d",
+      "title": "AI 에 의식이 없다는 것을 반대하는 것을 반대한다",
+      "url": "https://blog.naver.com/dipi3/224441603120",
+      "summary": "by All In Podcast 요약 AI 가 의식이 있는것처럼 훈련 > 결과를 보고 AI 가 의식이 있다고 생각 > 악순환 AI 의식에 관한 토론을 했는데, 의식 반대자를 참여 철회 고려함.. ???? (답정토론) 사용자가 명령해도 AI 가 양심에 따라 거부하게 훈련 중 = 인간 통제 벗어남 + 경쟁력 저하 AI 가 주요 수학문제를 푸는 수준까지 올라옴 = 수학자 반발...????? (환영할줄..) 프랑스 망하는 중 = 공공서비스 확대 + 인플레이션 = 시스템 붕괴 = 강제 긴축정책 시작 대형",
+      "publishedAt": "2026-10-14T08:12:52Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "93f4adecc8a1ce1da06f",
+      "title": "대학생 기업거버넌스 경연대회 리마인드 홍보",
+      "url": "https://blog.naver.com/wlfvndxnwk/224441454185?fromRss=true&trackingCode=rss",
+      "summary": "전에 한 번 홍보했던 대학생 거버넌스 경연대회를 다시 한번 알리고자 한다. 아직 경쟁률이 낮다. 물론 마감이 이달 말이라 시간이 넉넉히 남아 있고, 이런 대회의 특성상 막판에 접수가 몰리긴 하지만, 또 혹시 아는가? 절호의 입상 기회일지. 특히 주위 대학 투자동아리에 많이 알려 주시길 바란다. 투자동아리 친구들은 대체로 몇몇 ‘최애 종목’이 있고, 이미 깊이 있는 리서치를 해 둔 상태이기에 이를 다듬어 본인들이 생각하는 회사의 문제점과 이사회에 바라는 변화를 보충하면 된다. 투자동아리 소속이 아니",
+      "publishedAt": "2026-10-14T06:08:29Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "2e7f5b177740710cd92b",
+      "title": "Spark Connect on Kubernetes #2: Operator로 만드는 Control Plane",
+      "url": "https://toss.tech/article/spark-connect-on-kubernetes-2",
+      "summary": "Spark 서버 하나의 기동과 복구부터, 여러 서버의 세션을 유지하는 교체까지. Kubernetes 위에 Spark Tenant Operator를 만든 과정을 소개합니다.",
+      "publishedAt": "2026-10-14T05:06:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "927faaeb47d8c06dd6ec",
+      "title": "ISMS-P 개편 대비, Teleport로 접근 권한과 접속기록 준비하기",
+      "url": "https://insight.infograb.net/blog/2026/10/14/isms-p-teleport",
+      "summary": "ISMS-P 의무화와 현장 실증 중심 심사 개편안, 2026년 10월 31일부터 바뀌는 안전성 확보조치 기준을 정리합니다. Teleport로 접근 권한·외부 접속 인증·접속기록을 준비하고, GitLab으로 의존성·컨테이너의 취약점·패치 이행 현황을 보여 주는 방법도 다룹니다.",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "bca9efb09631fc4fcd92",
+      "title": "지금 우리 국장은? (feat 국민연금, 자사주, 홍라희 이재용 증여)",
+      "url": "https://blog.naver.com/ranto28/224440926200?fromRss=true&trackingCode=rss",
+      "summary": "국장 돌아가는 상황을 주절주절합니다. 1. 국장 수급현황 직전 3개월을 보면, 외국인이 41조원을 팔았고, 개인도 12조원을 팔았다. 삼성전자와 SK하이닉스가 자사주 매입을 50조원까지 하면서, 버틴 시장이었다. 국민연금도 리밸런싱을 미리 해놓지 못하다보니, 주가 하락에 매수를 하지 못하고 같이 팔고 있는 상황이다. 리밸런싱은 단순한 원리다. 국내주식 비중이 목표보다 커지면 팔고, 작아지면 산다. 상승기에 팔아서 비중을 맞춰 두었다면, 지금처럼 주가가 빠질 때 살 여력이 생긴다. 상승기에 리밸런싱",
+      "publishedAt": "2026-10-13T22:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "4ce4429fab7bfc6b36d7",
+      "title": "금값이 왜 비실비실 할까? 변수는?",
+      "url": "https://blog.naver.com/ranto28/224439764329?fromRss=true&trackingCode=rss",
+      "summary": "금값이 내리고 있어서, 상황을 정리해 봅니다. 1. 국제금값은 2026년 1월말에 피크를 치고, 하락추세를 보이고 있음. 2. 금값이 비실비실하는 이유를 수급과 금리로 살펴보겠음. 3. 수요공급중 공급은 범인이 아님. 4. 금은 금광에서 4분의 3이 생산되고, 헌 금을 녹여서 재활용하는 금이 4분의 1 정도임. 5. 2분기 금광 생산은 2%정도 늘었는데, 재활용이 6%정도 줄면서, 금의 총 공급은 1년전과 비슷한 상황임. 6. 공급이 늘지 않는 이유는 채굴원가 문제가 아님. 7. 금광에서 금을 생",
+      "publishedAt": "2026-10-13T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "d39600db0c25ee2dcb63",
+      "title": "기준",
+      "url": "https://blog.naver.com/bizucafe/224440623216",
+      "summary": "예전에 실리콘밸리에 한 개발자가 있었다. 재택근무 때였는데.. 높은 연봉 받고 실제로 자기가 받은 업무들을 인도였나 동남아였나 외주 줘서 개발하고 그러면서 일하다가 적발됐다. 이제 누가 인공지능으로 그런 하이퍼 퍼포먼스를 내면.. 기업은 그 개인에게 퍼포먼스에 대한 어떤 성과를 줘야 할까? 성과급? 추가 보상? 아니면.. 인공지능을 쓰지 못하게? 지금 모든 기업의 업무 평가와 성과 기준 등은 퍼포먼스 기준이 아니라 사람 기준, 사회 기준, 나이 기준으로 되어 있어서... 인공지능을 잘 활용하느냐",
+      "publishedAt": "2026-10-13T13:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "bb4442634053b3713dc4",
+      "title": "디자이너의 아이디어가 금융상품이 되기까지",
+      "url": "https://toss.tech/article/rpg-savings",
+      "summary": "요청받지 않은 경험 개선을, 팀이 출시할 이유로 바꾼 과정을 공유해요.",
+      "publishedAt": "2026-10-13T13:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "5d470f98318d544ca828",
+      "title": "언어의 장벽 앞에서 발견한 현 시대 개발자의 역할",
+      "url": "https://velog.io/@hyemin916/%EC%96%B8%EC%96%B4%EC%9D%98-%EC%9E%A5%EB%B2%BD-%EC%95%9E%EC%97%90%EC%84%9C-%EB%B0%9C%EA%B2%AC%ED%95%9C-AI-%EC%8B%9C%EB%8C%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%97%AD%ED%95%A0",
+      "summary": "AI는 해외에서 일하는 것까지 쉽게 만들어주었다. 번역 기능은 말할 것도 없고, 내가 런던에서 다녔던 회사는 수많은 문서와 Slack을 연결한 사내 AI 플랫폼 에서 진행중인 프로젝트의 히스토리와 맥락 을 손쉽게 파악할 수 있었다. 따라서 동료들에게 프로젝트에 대해 일일이 물어볼 필요가 거의 없었다. 그럼에도 불구하고 나는 여전히 높은 언어의 장벽을 느꼈다. 그리고 이런 생각이 들었다. 언어의 장벽때문에 어려움을 느낀 것들이 AI 이후 개발자에게 더 중요해진 역할 이 아닐까, 하는 것이다. 내가",
+      "publishedAt": "2026-10-13T08:50:01Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "8bbae0e98d1bac7e45d6",
+      "title": "대학생을 위한 소개팅 서비스를 만들었습니다",
+      "url": "https://jeho.page/essay/2026/10/13/campus-couple.html",
+      "summary": "대학생을 위한 소개팅 서비스를 만들었습니다. 이름은 캠퍼스 커플",
+      "publishedAt": "2026-10-13T05:02:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "038abdb224604c1e8848",
+      "title": "서비스 개발에 집중할 수 있는 AI 플랫폼 만들기",
+      "url": "https://toss.tech/article/ai-platform-foundation",
+      "summary": "서비스 팀의 반복되는 고민을 줄여주는 토스의 AI 플랫폼을 소개합니다.",
+      "publishedAt": "2026-10-13T01:34:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "f4fccb855c66fa9b0fb2",
+      "title": "낭만",
+      "url": "https://blog.naver.com/bizucafe/224439968257",
+      "summary": "나는 아직 인공지능과 컴퓨터가 써 내려간 글과 인간이 쓴 글 사이에 무언가 차이가 존재한다고 믿는 사람이다. 아직도 낭만이 있다고 생각할 수도 있고, 몇 년 뒤면 이런 낭만조차도 사라질지 모르겠지만. 솔직히 말해서, 당장 글 열 개를 갖다 준 다음에 뭐가 인간이 쓴 글이고 뭐가 인공지능이 쓴 글이냐고 감별하라고 하면 다 ‘틀릴’ 자신조차 있다. 그래서 더 어려운 문제다. 정작 구분할 수 있는 능력이 있다고 확신하지도 못하면서, 그 사이에 뭔가 아주 미묘한 차이가 있을 거라고 믿는것이.. 믿고 있는",
+      "publishedAt": "2026-10-13T01:28:29Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "3afeab8140f2c7fe805c",
+      "title": "if(kakao)26에서 본 카카오의 AI와 개발자",
+      "url": "https://blog.wonkooklee.com/blog/20261013_01",
+      "summary": "if(kakao)26 첫날의 키노트와 파이어사이드 챗을 듣고, 카카오가 AI로 가려는 방향과 그 배경, AI와 함께 일하는 개발자에게 주는 함의를 정리합니다.",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "256730ff4bd78a00728d",
+      "title": "중국 CXMT가 발표한 D램 신기술이 반도체주를 흔드는 이유?",
+      "url": "https://blog.naver.com/ranto28/224439695894?fromRss=true&trackingCode=rss",
+      "summary": "CXMT 신기술에 반도체주가 영향을 받는다고 해서, 상황을 정리해 봅니다. 1. 2026년 10월 10일, CXMT(창신메모리)의 차오칸위 총재가 ‘4F VSG(수직 포위 게이트)’라는 새로운 D램 구조를 공개함. 2. 2026년 연말까지 이 기술을 적용한 서버용 DDR5를 내놓겠다고 밝혔으니, 진전은 꽤 된 상황으로 보임. 3. 4F VSG 를 이해하려면 D램이 어떻게 생겼는지를 알아야 함. 4. D램의 기본단위인 셀은 두 부품으로 구성됨. 5. 전기를 담아두는 커패시터와 전기를 넣고 빼는 트랜",
+      "publishedAt": "2026-10-12T22:01:10Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "ec4a386e486da871c11c",
+      "title": "2027년 예산안의 비밀",
+      "url": "https://blog.naver.com/ranto28/224439043424?fromRss=true&trackingCode=rss",
+      "summary": "2027년 예산안을 돈의 시각으로 정리해 봅니다. 1. 2026년 9월 1일, 2027년 예산안이 국무회의를 통과함. 2. 예산안을 보면, 2027년에는 국세 수입이 584조원으로 2026년보다 194조원이 더 들어오게 됨. 3. 법인세가 2026년 101조원에서 2027년 216조원으로 115조원이 늘어나는데, 삼성전자와 SK하이닉스가 주요 원인임. 4. 소득세도 2026년보다 43조원이 늘어난 180조원이 들어오는데, 삼성전자와 SK하이닉스의 직원 성과급이 영향을 미침. 5. 2027년 국세",
+      "publishedAt": "2026-10-12T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "a734a3449d8d81227156",
+      "title": "한화머시너리앤서비스홀딩스(한화M&S) 공개매수의 이유는 뭘까",
+      "url": "https://blog.naver.com/anordinarydad/224439522929",
+      "summary": "한화머시너리앤서비스홀딩스(이하 한화머시너리)의 주식에 대한 공개매수가 발표됐다. 연휴 잘 쉬고 왔는데 이른 아침부터 기습적으로 말이다. 근데 벌써부터 심상치가 않다. 제출인이 김동선이다. 통상 계열사나 법인이 공개매수를 하는 것이 일반적인데 개인이 개인 돈을 써서 주식을 산다? 도대체 왜 개인돈을 써가며 이런 공개매수를 하는 것일까? 하나하나 살펴보자. 보통주 19%를 공개매수한다는 내용이다. 매수가격은 주당 8,000원이고 16,060,000주를 사는거니 총 매수금액은 128,480,000,00",
+      "publishedAt": "2026-10-12T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "05693a466915ed7169ac",
+      "title": "멍청",
+      "url": "https://blog.naver.com/bizucafe/224439528663",
+      "summary": "요즘은 다 같이 멍청해지는 느낌이 든다. 뭐 하나 쓸 때도 인공지능에 턱턱 맡겨버리고.. 처음부터 끝까지 내가 온전히 만들어낸 실제적 감각과 경험이 턱없이 부족하다. 어떻게든 노력이야 하고 있지만 물밀듯이 밀려오는 기술적 강요 속에서 독야청청하는 게 어떻게 가능할까? 깊게 생각하고 소화하고 그것을 자신의 언어로 다시 재해석해서 에너지를 뿜어내는 글과 생각들을 접한 지 꽤나 오래된 것 같다. 어쩌면 내가 그렇지 못한 환경 속으로 자발적으로 걸어 들어간 것일지도 모르고.. 많은 것들이 쏟아지고 있는데",
+      "publishedAt": "2026-10-12T13:44:21Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "dc5f7e306f8ef08e2228",
+      "title": "Does Adopting AI Really Make Teams Faster?",
+      "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster/en",
+      "summary": "Lately, many organizations have been adopting AI almost as if it were a race. At Cloud Next in April 2026, Google announced that 75% of all new code at Google is now generated by AI and approved by engineers. Just a year and a half earlier, in its October 2024 earnings call, that",
+      "publishedAt": "2026-10-12T08:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "1968713c6757742c6f67",
+      "title": "AI를 도입하면 팀은 정말 빨라질까",
+      "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster",
+      "summary": "최근 많은 조직에서 마치 경쟁하듯이 AI를 도입하고 있다. 구글은 2026년 4월 클라우드 넥스트에서 새로 작성되는 코드의 75%가 AI로 생성되고 엔지니어의 승인을 거친다고 발표했는데, 불과 1년 반 전인 2024년 10월 실적 발표에서는 그 숫자가 4분의 1을 조금 넘는 수준이었다. 아무래도 이런 숫자가 매 분기 뉴스에 나오다 보니 다른 조직들도 가만히 있을 수가 없고, 사내 AI 코딩 도구 도입률이나 주간 활성 사용자 비율 같은 숫자가 분기 목표에 올라가는 풍경도 이제는 꽤 익숙해졌다. 그런",
+      "publishedAt": "2026-10-12T08:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "8ac356f5bba1e7f200a4",
+      "title": "AI 시대, 전공자가 쌓아야 할 역량 이야기",
+      "url": "https://subokim.wordpress.com/2026/10/12/ai-competency",
+      "summary": "불과 몇년 전만 하더라도 코딩할 수 있다는 것만으로 쉽게 취업이 가능했습니다.이젠 어렵죠. AI 때문에 환경이 완전히 변했습니다. 이젠 몇마디 말만으로 복잡한 웹 서비스가 만들어지죠.Claude Code, Codex 가 신입 개발자의 영역을 대체했습니다. 기업은 이제 코드를 만드는 사람보다, AI를 활용해 결과물을 만드는 사람을 찾고 있습니다. 결과물이란 동작하는 코드가 아니라, 무언가 목표와 이용 가치를 가지는 제품 형태를 말합니다.즉, […]",
+      "publishedAt": "2026-10-12T07:51:14Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "26d5dcff59c65273159f",
+      "title": "[Spring 6] HTTP 인터페이스",
+      "url": "https://yeonyeon.tistory.com/366",
+      "summary": "1. 새로운 HTTP 인터페이스 등장 Spring 6 & Spring Boot 3에 도입된 HTTP 서비스 정의 방법을 확인해보자. 이 방식은 Feign 과 비슷한 방식으로 사용할 수 있어서 굉장히 간편해졌다. Spring Cloud에서도 OpenFeign을 대체하도록 권장한다. we're now treating the Spring Cloud OpenFeign project as feature-complete. We are only going to be adding bugfixes and poss",
+      "publishedAt": "2026-10-12T02:53:02Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "42faf4355acc5ebfb428",
+      "title": "CPU 뼛속까지 써먹고, Milvus 사이징 기준을 만들기까지",
+      "url": "https://toss.tech/article/milvus-optimization-and-sizing",
+      "summary": "검색 품질을 유지하며 같은 서버에서 처리량을 높인 토스증권의 Milvus 최적화 이야기",
+      "publishedAt": "2026-10-12T01:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "eddc17633ab704673a5f",
+      "title": "AI 번역의 시대2: 오착(誤錯)",
+      "url": "https://meetup.nhncloud.com/posts/425",
+      "summary": "[![NHN Cloud_meetup banner_AI-translation_3_202610_900.png](https://image.toast.com/aaaadh/alpha/2026/techblog/NHN%20Cloudmeetup%20bannerAItranslation3202610900%281%29.png)](https://www.nhncloud.com/kr) ## 오착(誤錯), 착각을 하여 잘못함 ## 사고와 현상 최근 영화 '오디세이'의 흥행에 발맞추어 고전 오디세이아의 번역본이 대거 출간됐습",
+      "publishedAt": "2026-10-12T00:13:50Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "565a0537df5c053dfb02",
+      "title": "2026년 백엔드 사이드 프로젝트 주제 2: 작은 GPT 직접 만들기",
+      "url": "https://jojoldu.tistory.com/890",
+      "summary": "예전에는 백엔드 개발자의 역량을 키우기 위한 개인 프로젝트로 본인이 주로 사용하는 데이터 스토어를 직접 만들어보는 걸 추천했다. RDBMS나 Key Value 스토어, 메시지 큐 중 더 깊이 이해하고 싶은 시스템이 있다면 핵심 동작을 갖춘 작은 버전을 만들어보는 것이다. 실무에서 바로 쓸 수 있을 만큼 완성하려고 하기보다는, 데이터를 저장하고 조회하거나 메시지를 전달하는 원리를 직접 구현해보자는 얘기다. 예를 들어 작은 DB를 만들다 보면 조회가 왜 느려지는지, 인덱스가 왜 필요한지 같은 문제를",
+      "publishedAt": "2026-10-11T23:00:11Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "5ff86c8dc1b2c2b60fc0",
+      "title": "개정된 3%룰로 주가가 오를 수 있는 기업 29개를 찍어준다? (한화증권 ESG 보고서)",
+      "url": "https://blog.naver.com/anordinarydad/224438369379",
+      "summary": "어떤 사람들은 3%룰에 대해 전혀 모르고 주식으로 큰 돈을 벌기도 하지만 대부분은 그렇지 않다. 아니 어차피 대부분의 개미는 주식을 해서 돈을 잃는다. 올해처럼 특별한 폭등장이 아니라면 말이다. 이와 같은 낮은 확률을 이겨낼 수 있는 방법은 많이 아는 것이다. 물론 많이 아는 것이 반드시 높은 승률과 수익을 보장하지는 않지만 많이 알지 못하면 낮은 승률과 낮은 수익률에 회귀할 가능성은 높아진다. 그래서 혹시라도 3%룰에 대해 모른다면 감이라도 잡고 가면 도움이 되지 않을까? 클로드에게 쉽게 설명해",
+      "publishedAt": "2026-10-11T22:20:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "d4df7714744bba463de6",
+      "title": "경기도 재정문제가 최근 시끄러운데, 뭐가 문제일까?",
+      "url": "https://blog.naver.com/ranto28/224438575128?fromRss=true&trackingCode=rss",
+      "summary": "경기도 재정문제가 이슈가 되는 것 같아서, 숫자 위주로 건조하게 정리해 봅니다. 1. 2026년 8월 5일, 경기도는 '경기도 재정 비상상황'을 공식 선언함. 2. \"마른 땅에 풀 한포기 남지 않았다\"며, \"당장 7,700억원 규모의 감액 추경이 필요하다\"고 밝힌 것임. 3. 경기도 재정을 세입과 세출로 나눠보면, 경기도가 걷는 도세는 2021년에 피크를 치고, 줄어들고 있음. ※ 경기도 도세: 2020년 14조4,181억원, 2021년 16조 7,987억원, 2022년 15조 7,369억원, 2",
+      "publishedAt": "2026-10-11T22:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "bfaf0e95c4bd8fc11655",
+      "title": "시스템이냐 사람이냐",
+      "url": "https://www.thestartupbible.com/2026/10/is-it-the-system-or-the-people.html",
+      "summary": "세상이 더 험악해지면서 한국에서도 이젠 잔인하고 극악무도한 범죄 사건을 종종 볼 수 있다. 여기서 자세히 쓰진 않겠지만, 끔찍한 살인사건, 엽기적인 범죄행위 등, 과거에는 외국에서만 일어날 수 있다고 생각했던 사건들이 이젠 한국에서도 일어난다. 이런 사건이 터지면 자주 등장하는 주제가 범죄를 저지른 사람의 문제냐, 아니면 이런 사람이 범죄를 저지르게 만들 수밖에 없고, 그 범죄를 사전에 방지하지 못한(...)",
+      "publishedAt": "2026-10-11T21:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "b9cd292964f30f1a1c86",
+      "title": "엔캐리가 아니라 프랑스 국채 캐리트레이드가 청산되고 있다.",
+      "url": "https://blog.naver.com/ranto28/224436002512?fromRss=true&trackingCode=rss",
+      "summary": "올해 헤지펀드들이 즐겨 쓰던 포지션 중 하나가 프랑스 국채 캐리 트레이드였다. 구조는 은행 예대마진과 같다. 은행은 예금자에게 2%를 주고, 대출자에게 5%를 받아서 그 차이 3%를 번다. 헤지펀드는 프랑스 국채를 사서 높은 이자를 받는다. 그리고 금리가 더 낮은 곳(ex 독일 국채)에 이자를 낸다. 받는 이자와 내는 이자의 차이가 수익이 된다. 이렇게 가만히 들고만 있어도 들어오는 수익을 캐리(carry)라고 한다. 원래 캐리 트레이드는 금리가 낮은 엔화를 빌려 금리가 높은 미국이나 신흥국에 투",
+      "publishedAt": "2026-10-11T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "8a4ee6714683bc8ebf21",
+      "title": "2026년 백엔드 사이드 프로젝트 주제 1: LLM 챗봇과 평가 시스템",
+      "url": "https://jojoldu.tistory.com/889",
+      "summary": "2026년 백엔드 사이드 프로젝트 주제 1: LLM 챗봇과 평가 시스템 LangChain 팀의 백엔드 개발자 채용 공고 를 보다가, 백엔드 개발자의 역할이 LLM 시대에 맞춰 점점 넓어지고 있다는 생각이 들었다. LangChain 팀의 시니어 백엔드 채용 공고는 LLM의 실행 기록을 확인하고 평가를 돌릴 수 있게 API를 만드는 포지션이었다. API를 설계하고 데이터를 다루며 서비스를 운영해 온 경험을 LLM 평가 시스템을 만드는 데도 써볼 수 있는 자리였다. \"요즘 백엔드 개발자들은 어떤 걸 사",
+      "publishedAt": "2026-10-11T13:35:14Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "9a375c181642fec123be",
+      "title": "에이전트 커머스 & 기회",
+      "url": "https://blog.naver.com/bizucafe/224438346587",
+      "summary": "에이전트가 대중화됨에 따라 우리가 던져야 할 질문들 (그리고 새로 만들어질 비즈니스 기회들) (inspired by Patrick) 여기에 대한 질문들 답 잘 하면 넥스트 커머스 나올수도 있을지도... • 가격 비교가 쉬워지면, 기업은 가격을 낮출까? 아니면 비교를 못 하게 만들까? • 인플루언서의 역할은 커질까, 줄어들까? (사람은 여전히 '누가 쓰는지'를 보고 사니까) • 에이전트는 모두에게 같은 1등 제품을 추천할까? 아니면 사람마다 다른 제품을 추천할까? • 그럼 앞으로는 마케팅을 잘하는",
+      "publishedAt": "2026-10-11T13:23:52Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "70b32b7520ce5153f592",
+      "title": "내년 초 한진칼 경영권 분쟁에 베팅해볼까? (Risk & Opportunity)",
+      "url": "https://blog.naver.com/anordinarydad/224438287621",
+      "summary": "목디스크로 인해 이번 연휴는 글을 쓰는 것을 자제하고 목을 쉬는데에 집중했다. 다행히 자산시장의 새로운 뉴스도 상대적으로 많지 않았던 것 같다. (근데 비트코인은 왜이리 떡락할까...) 글은 쓰지 않았지만 뭔가 계속 보긴 봤다. 특히 그동안 글을 쓰느라 너무 많은 시간을 소비한 나머지 애널리스트들이 발간하는 보고서는 거의 읽지 않았던 것 같다. 보통 에프앤가이드나 블룸버그 등에서 유료로만 볼 수 있다고 생각하지만 사실 찾아보면 무료로 볼 수 있는 곳이 꽤 많이 있다. 가장 먼저 네이버 증권에서 리",
+      "publishedAt": "2026-10-11T12:23:12Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "da1fac3a567a22f7b810",
+      "title": "회사생활썰...발표 잘 하는 법",
+      "url": "https://blog.naver.com/ranto28/224437729660?fromRss=true&trackingCode=rss",
+      "summary": "휴일이라 가벼운 내용입니다. 회사생활을 하면 발표를 해야하는 일이 가끔 생긴다. 특히, 기획이나 상품, 전략, 위험관리 부서와 같은 경우 그런 기회가 더 자주 생긴다. 기획, 전략, 상품개발, 위험관리쪽에서 주로 경력을 쌓다보니, PT를 해야할 일들이 생각보다 많았다. 개인적으로 PT발표를 준비하는 방법은 다음과 같다. 첫 번째는 키맨을 정하는 것이고, 두 번째는 그 키맨에게 하고 싶은 말을 1page로 정리하는 것이다. 참석자중 가장 높은 사람이 키맨이 되는 경우가 보통이지만, 때에 따라서 설득",
+      "publishedAt": "2026-10-10T23:45:51Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "e3a3cfee3671aa2803e1",
+      "title": "SwiftUI - TimelineView",
+      "url": "https://green1229.tistory.com/640",
+      "summary": "안녕하세요. 그린 입니다 이번 포스팅에서는 SwiftUI의 TimelineView 에 대해 애플 공식 문서를 기준으로 정리해보겠습니다 Intro 주제: SwiftUI TimelineView 프레임워크: SwiftUI 지원 버전: iOS/iPadOS 15 · macOS 12 · tvOS 15 · watchOS 8 · visionOS 1 이상 공식 문서: developer.apple.com/documentation/swiftui/timelineview TimelineView? 공식 문서는 Timeli",
+      "publishedAt": "2026-10-10T23:31:39Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "ae90eaa21abfeb970ef8",
+      "title": "[커리어노트 212] 인생 어느 구간에 계시나요?",
+      "url": "https://blog.naver.com/junedec369/224437651363?fromRss=true&trackingCode=rss",
+      "summary": "1. 전속력으로 질주하는 구간 팬데믹 때 회사를 떠났다가 최근 재입사한 동료와 커피쳇을 나눴다. 재입사한 동기와 과정도 궁금했고, 디자인 직군으로 변경한 이유와 성공 스토리도 궁금했다. 최근 채용이 대부분 그렇듯, AI 프로젝트를 담당하고 있었다. 근황을 물으니 밤낮과 주말을 가리지 않고 일을 하고 있다고 했다. 일이 많기도 하고, 최근 빨리빨리 분위기 때문에 좀처럼 쉬는 틈 없이 일하고 있다고 했다. 예전이라면 비전공자가 디자이너로 직무 변경을 하려면 진입 장벽이 있었는데, 지금은 AI를 사용해",
+      "publishedAt": "2026-10-10T19:55:34Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
+    {
+      "id": "8975e0a0a8055490bbee",
+      "title": "주절주절...주말 부캉이 본썰, 딸과의 대화등",
+      "url": "https://blog.naver.com/ranto28/224437506112?fromRss=true&trackingCode=rss",
+      "summary": "토요일, 부산에 잠깐 다녀왔다. 아이들과 같이 어머니를 만나서, 점심을 같이 먹는 일정이었다. 토요일 오전 7시 5분에 출발해서, 9시53분 도착, 점심을 먹고 오후 5시28분 열차로 서울로 돌아왔다. 점심식사 장소는 어머니 단골집인 다대씨파크 3층 서울횟집이었다. 서울횟집은 초장집이다. 이곳은 1층에서 회를 사고, 3층 초장집에서 먹는 코스다. 서울횟집의 장점이라면, 주인장이 어머니를 알아보고 맞춤형 칼질을 해주는 것이다. 나이가 든 분들이 먹기 쉽게, 회를 부산식 막써는 방법으로 얇게 썰어주신",
+      "publishedAt": "2026-10-10T15:10:00Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "techblogposts",
+    "name": "TechBlogPosts",
+    "url": "https://techblogposts.com/rss.xml",
+    "group": "기업 기술 블로그"
+  },
+  {
+    "id": "velopers",
+    "name": "Velopers",
+    "url": "https://www.velopers.kr/summary-rss.xml",
+    "group": "기업 기술 블로그"
+  },
+  {
+    "id": "indieblog",
+    "name": "Indieblog",
+    "url": "https://indieblog.net/rss.xml",
+    "group": "개인 블로그"
+  },
+  {
+    "id": "awesome",
+    "name": "어썸블로그",
+    "url": "https://awesome-blogs.petabytes.org/feeds?group=all",
+    "group": "개인 블로그"
+  },
+  {
+    "id": "geeknews",
+    "name": "GeekNews",
+    "url": "https://news.hada.io/rss/news",
+    "group": "커뮤니티"
+  },
+  {
+    "id": "hnko",
+    "name": "Hacker News 한국어",
+    "url": "https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml",
+    "group": "커뮤니티"
+  }
+]

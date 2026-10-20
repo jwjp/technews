@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <meta name="description" content="광고 없이 읽는 나만의 기술 블로그 피드. 관심 있는 글을 골라 읽고 저장하세요." />
+    <title>모아읽기 — 나만의 기술 글 피드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="모아읽기 홈">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+          <span>모아읽기</span>
+        </a>
+        <div class="header-right">
+          <span class="header-note">좋아하는 기술 글만, 가볍게.</span>
+          <button class="icon-button theme-button" id="theme-toggle" type="button" aria-label="다크 모드 전환" title="화면 색상 전환">◐</button>
+        </div>
+      </header>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> YOUR DAILY READING SPACE</div>
+          <h1 id="hero-title">읽고 싶은 글만<br /><em>한곳에 모았어요.</em></h1>
+          <p>여러 기술 블로그와 커뮤니티의 새 글을 한눈에. 취향에 맞게 고르고, 마음에 드는 글은 저장해 두세요.</p>
+          <div class="hero-meta"><span id="article-count">글을 불러오는 중</span><span class="meta-divider"></span><span id="updated-at">피드 확인 중</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-sheet art-sheet-back"><div></div><div></div><div></div></div>
+          <div class="art-sheet art-sheet-front"><span class="art-symbol">✳</span><div class="art-line long"></div><div class="art-line"></div><div class="art-line short"></div><span class="art-asterisk">*</span></div>
+          <div class="art-orbit"></div>
+        </div>
+      </section>
+
+      <div class="workspace">
+        <aside class="sidebar" aria-label="피드 설정">
+          <div class="sidebar-section">
+            <div class="section-heading"><span>내 피드</span><span class="section-index">01</span></div>
+            <nav class="feed-nav" aria-label="읽기 목록">
+              <button class="nav-item active" data-view="all" type="button"><span class="nav-icon">▦</span><span>모든 글</span><span class="nav-count" id="count-all">0</span></button>
+              <button class="nav-item" data-view="unread" type="button"><span class="nav-icon">◌</span><span>읽지 않은 글</span><span class="nav-count" id="count-unread">0</span></button>
+              <button class="nav-item" data-view="saved" type="button"><span class="nav-icon">☆</span><span>저장한 글</span><span class="nav-count" id="count-saved">0</span></button>
+            </nav>
+          </div>
+
+          <div class="sidebar-section sources-section">
+            <div class="section-heading"><span>구독 소스</span><span class="section-index">02</span></div>
+            <div id="source-list" class="source-list"><p class="muted">구독 목록을 불러오는 중...</p></div>
+          </div>
+
+          <div class="sidebar-section preferences-section">
+            <div class="section-heading"><span>취향 설정</span><span class="section-index">03</span></div>
+            <label class="input-label" for="favorite-keywords">관심 키워드 <small>쉼표로 구분</small></label>
+            <input id="favorite-keywords" class="text-input" type="text" placeholder="예: AI, 프론트엔드, 보안" autocomplete="off" />
+            <label class="input-label second-label" for="hidden-keywords">숨길 키워드 <small>쉼표로 구분</small></label>
+            <input id="hidden-keywords" class="text-input" type="text" placeholder="예: 채용, 이벤트" autocomplete="off" />
+            <p class="field-help">설정과 읽음 상태는 이 브라우저에 저장됩니다.</p>
+          </div>
+
+          <div class="sidebar-section backup-section">
+            <button id="export-settings" class="text-action" type="button">설정 내보내기 <span>↗</span></button>
+            <label class="text-action import-action" for="import-settings">설정 가져오기 <span>↗</span></label>
+            <input id="import-settings" type="file" accept="application/json,.json" hidden />
+          </div>
+        </aside>
+
+        <main class="main-content" id="main-content">
+          <div class="content-topline"><span class="topline-label">THE READING LIST</span><span class="topline-line"></span><span id="today-date"></span></div>
+          <div class="content-title-row"><div><h2 id="view-title">모든 글</h2><p id="view-description">새로 올라온 기술 글을 둘러보세요.</p></div><span class="result-count" id="result-count">—</span></div>
+          <div class="toolbar">
+            <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="제목, 출처, 내용 검색" aria-label="글 검색" /></label>
+            <div class="toolbar-actions">
+              <label class="interest-toggle"><input id="interest-only" type="checkbox" /><span>관심 글만</span></label>
+              <select id="sort-order" class="sort-select" aria-label="정렬 순서"><option value="newest">최신순</option><option value="oldest">오래된순</option></select>
+            </div>
+          </div>
+          <div class="filter-summary" id="filter-summary" hidden></div>
+          <div id="articles" class="articles" aria-live="polite"><div class="loading-state"><span class="loading-spinner"></span><p>오늘의 글을 모으는 중...</p></div></div>
+          <button id="load-more" class="load-more" type="button" hidden>글 더 보기 <span>↓</span></button>
+        </main>
+      </div>
+
+      <footer class="site-footer"><span>모아읽기 <span class="footer-star">✳</span> 글은 각자의 블로그에, 발견은 여기서.</span><span>광고 없는 개인 기술 글 모음</span></footer>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
