@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "id": "2fd206ab3e8ea9b0",
+      "name": "비즈워치 · 부동산",
+      "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
+      "section": "economy",
+      "kind": "news"
+    },
+    {
+      "id": "3e39567f43f5c71b",
+      "name": "김현기",
+      "siteUrl": "https://eclipse4j.tistory.com/",
+      "feedUrl": "https://eclipse4j.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "546c3c3ae0d2c8fb",
+      "name": "고지안",
+      "siteUrl": "https://jakpentest.tistory.com/",
+      "feedUrl": "https://jakpentest.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "721e41841cea0145",
+      "name": "mytory 웹개발",
+      "siteUrl": "https://mytory.net/",
+      "feedUrl": "https://mytory.net/feed",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "81c407aee213ade9",
+      "name": "이성훈",
+      "siteUrl": "https://brunch.co.kr/@jamess",
+      "feedUrl": "https://brunch.co.kr/rss/@@2Jp",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "99a6f09bb9878069",
+      "name": "청년개미의 경제 이야기",
+      "siteUrl": "https://blog.naver.com/ya_nt",
+      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+      "section": "economy",
+      "kind": "blog"
+    },
+    {
+      "id": "a74dd0667343bdce",
+      "name": "비즈워치 · 경제",
+      "siteUrl": "https://news.bizwatch.co.kr/category/finance",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
+      "section": "economy",
+      "kind": "news"
+    },
+    {
+      "id": "e64c434ac2fa41c5",
+      "name": "Channy's Blog",
+      "siteUrl": "https://channy.creation.net/",
+      "feedUrl": "https://feeds.feedburner.com/channy",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "e86f858b3a4d21a8",
+      "name": "코딩팩토리",
+      "siteUrl": "https://coding-factory.tistory.com/",
+      "feedUrl": "https://coding-factory.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "edb8cbee16ae8bd4",
+      "name": "비즈워치 · 증권",
+      "siteUrl": "https://news.bizwatch.co.kr/category/market",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/market",
+      "section": "economy",
+      "kind": "news"
+    },
+    {
+      "id": "f4e53755c27db3d7",
+      "name": "한대디의 미국주식 이야기",
+      "siteUrl": "https://blog.naver.com/gjwlh",
+      "feedUrl": "https://rss.blog.naver.com/gjwlh.xml",
+      "section": "economy",
+      "kind": "blog"
+    },
+    {
+      "id": "fa3b20684a772fd4",
+      "name": "김은호",
+      "siteUrl": "https://djkeh.github.io/",
+      "feedUrl": "https://djkeh.github.io/atom.xml",
+      "section": "tech",
+      "kind": "blog"
+    }
+  ]
+}

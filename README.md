@@ -10,7 +10,7 @@
 - 한국경제·매일경제·이투데이·파이낸셜뉴스·뉴시스·아주경제의 경제 뉴스와 한국은행·중소벤처기업부 발표 원문을 경제 뉴스 목록으로 제공
 - 기술 뉴스는 기술·개발·소프트웨어·보안·AI·자동차, 경제 글과 뉴스는 주식·금융·부동산·경제·정책 분야별로 필터링
 - 원문 URL과 제목 기반 중복 정리
-- 출처 구독·숨김, 제목·소개 검색, 관심/제외 키워드
+- GitHub 이슈를 통한 공통 RSS 구독·해지, 브라우저별 출처 숨김, 제목·소개 검색, 관심/제외 키워드
 - 읽음 표시, 북마크, 다크 모드
 - 브라우저에 설정 저장, JSON 내보내기·가져오기
 - 매주 기술·경제 RSS 후보 추천, 최근 글 미리보기, 후보 저장·숨김
@@ -30,9 +30,15 @@ python -m http.server 8000 --directory site
 
 ## 주간 새 소스 후보
 
-`Recommend weekly sources` 작업은 매주 월요일 오전 8시 31분(한국 시간)에 실행되어 `site/data/candidates.json`을 갱신하고 Pages를 직접 배포합니다. 기술 후보는 [Awesome Devblog](https://github.com/awesome-devblog/awesome-devblog)의 공개 RSS 목록과 `discovery_seeds.json`에서, 경제 후보는 [블라이의 경제 블로그 공개 목록](https://blai.co.kr/blog-stats/ranking)과 `discovery_seeds.json`에서 찾습니다. 후보의 RSS를 실제로 읽어 최근 120일에 글이 2개 이상이고 주제 관련 제목이 있는 소스만 추천합니다.
+`Recommend weekly sources` 작업은 매주 월요일 오전 8시 31분(한국 시간)에 실행되어 `site/data/candidates.json`을 갱신하고 Pages를 직접 배포합니다. 기술 후보는 [Awesome Devblog](https://github.com/awesome-devblog/awesome-devblog)의 공개 RSS 목록과 `discovery_seeds.json`에서, 경제 후보는 [블라이의 경제 블로그 공개 목록](https://blai.co.kr/blog-stats/ranking)과 `discovery_seeds.json`에서 찾습니다. 후보의 RSS를 실제로 읽어 최근 120일에 글이 2개 이상이고 주제 관련 제목이 있는 소스만 추천합니다. 추천에서 빠진 후보도 나중에 구독할 수 있도록 검증된 소스 정보는 `site/data/source_catalog.json`에 유지합니다.
 
-사이트의 ‘후보 저장’과 ‘후보 숨기기’는 브라우저별 설정입니다. 후보 저장은 정식 구독 추가와 별개입니다. 검토를 마친 소스는 `sources.json`에 추가해야 기존 글 목록으로 수집됩니다. 특정 공개 목록에 접속할 수 없어도 다른 후보 입력은 계속 확인합니다. 같은 주에 수동으로 다시 검사하려면 `python scripts/discover_sources.py --force`를 실행합니다.
+사이트의 ‘후보 저장’과 ‘후보 숨기기’는 브라우저별 설정입니다. 후보 저장은 정식 구독 추가와 별개입니다. 특정 공개 목록에 접속할 수 없어도 다른 후보 입력은 계속 확인합니다. 같은 주에 수동으로 다시 검사하려면 `python scripts/discover_sources.py --force`를 실행합니다.
+
+## 공통 RSS 구독
+
+후보의 **공통 구독 신청**을 누르면 후보 ID가 입력된 GitHub 이슈 작성 화면이 열립니다. 저장소 소유자 `jwjp`가 로그인해 이슈를 제출하면 `Manage shared RSS subscriptions` 작업이 요청자와 후보 ID를 확인하고, RSS를 다시 검사해 `sources.json`에 추가합니다. 이어 글 목록을 갱신하고 Pages를 직접 배포한 뒤 이슈에 결과를 남기고 닫습니다. Actions가 만든 커밋은 다른 푸시 작업을 실행하지 않으므로 같은 작업 안에서 배포합니다. 기존 소스 옆 **공통 해지**도 같은 방식으로 처리합니다. 이슈가 실패하면 열린 상태로 남으므로 Actions 로그에서 이유를 확인할 수 있습니다.
+
+공통 구독 목록은 공개 저장소와 사이트의 모든 방문자에게 동일하게 보입니다. 소스 체크박스는 해당 브라우저에서만 글을 숨기며 공통 구독을 바꾸지 않습니다. 개인 읽음·북마크·취향 설정도 브라우저별로 유지됩니다. GitHub 이슈를 제출하는 단계가 필요하며, Pages의 자바스크립트에는 GitHub 토큰을 넣지 않습니다.
 
 ## 소스 추가
 

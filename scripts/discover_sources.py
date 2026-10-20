@@ -23,6 +23,7 @@ from fetch_feeds import ROOT, SOURCES, OUTPUT as ARTICLES, clean_text, entries_f
 
 SEEDS = ROOT / "discovery_seeds.json"
 OUTPUT = ROOT / "site" / "data" / "candidates.json"
+CATALOG = ROOT / "site" / "data" / "source_catalog.json"
 AWESOME_LIST = "https://raw.githubusercontent.com/awesome-devblog/awesome-devblog/main/db.yml"
 ECONOMY_RANKING = "https://blai.co.kr/blog-stats/ranking"
 MAX_CATALOG_BYTES = 1_000_000
@@ -120,6 +121,21 @@ def discover_feed(site_url: str) -> str | None:
 
 def candidate_id(feed_url: str) -> str:
     return hashlib.sha256(feed_url.encode("utf-8")).hexdigest()[:16]
+
+
+def update_catalog(items: list[dict]) -> None:
+    previous = json.loads(CATALOG.read_text(encoding="utf-8")) if CATALOG.exists() else {"sources": []}
+    sources = {item["id"]: item for item in previous.get("sources", []) if isinstance(item, dict) and "id" in item}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        feed_url = safe_http_url(item.get("feedUrl", ""))
+        if not feed_url or item.get("id") != candidate_id(feed_url):
+            continue
+        sources[item["id"]] = {key: item[key] for key in ("id", "name", "siteUrl", "feedUrl", "section", "kind") if key in item}
+    document = {"sources": sorted(sources.values(), key=lambda item: item["id"])}
+    if document != previous:
+        CATALOG.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def awesome_candidates() -> list[dict]:
@@ -230,6 +246,8 @@ def main() -> int:
     article_urls = {article["url"] for article in article_doc.get("articles", [])}
     previous = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {}
     if previous.get("week") == week and previous.get("candidates") and not args.force:
+        if not args.dry_run:
+            update_catalog(previous.get("archive", []) + previous["candidates"])
         print(f"Week {week} already published; use --force to refresh")
         return 0
     archive = previous.get("archive", []) + previous.get("candidates", [])
@@ -295,6 +313,7 @@ def main() -> int:
     if not args.dry_run:
         OUTPUT.parent.mkdir(parents=True, exist_ok=True)
         OUTPUT.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        update_catalog(archive + recommendations)
     return 0
 
 

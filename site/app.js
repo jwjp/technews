@@ -1,5 +1,6 @@
 const STORAGE_KEY = "moaread-state-v1";
 const PAGE_SIZE = 24;
+const REPOSITORY_URL = "https://github.com/jwjp/technews";
 
 const $ = (selector) => document.querySelector(selector);
 const state = {
@@ -83,6 +84,13 @@ function make(tag, className, text) {
   return node;
 }
 
+function subscriptionIssue(title, body) {
+  const url = new URL(`${REPOSITORY_URL}/issues/new`);
+  url.searchParams.set("title", title);
+  url.searchParams.set("body", body);
+  return url.href;
+}
+
 function keywords(value) {
   return value.split(",").map((word) => word.trim().toLocaleLowerCase("ko")).filter(Boolean);
 }
@@ -159,6 +167,7 @@ function renderSources() {
   for (const group of groups) {
     list.append(make("div", "source-group-title", group));
     for (const source of state.sources.filter((item) => item.group === group)) {
+      const row = make("div", "source-row");
       const label = make("label", "source-option");
       const input = make("input");
       input.type = "checkbox";
@@ -170,7 +179,13 @@ function renderSources() {
         render();
       });
       label.append(input, make("span", "custom-check"), make("span", "source-name", source.name));
-      list.append(label);
+      const unsubscribe = make("a", "source-unsubscribe", "공통 해지 ↗");
+      unsubscribe.href = subscriptionIssue(`[구독 해제] ${source.name}`, `source_id: ${source.id}`);
+      unsubscribe.target = "_blank";
+      unsubscribe.rel = "noopener noreferrer";
+      unsubscribe.title = `${source.name} 공통 구독 해지 요청을 GitHub에서 작성`;
+      row.append(label, unsubscribe);
+      list.append(row);
     }
   }
 }
@@ -233,6 +248,7 @@ function candidateInterest(candidate) {
 }
 
 function candidateCard(candidate) {
+  const current = state.candidates.some((item) => item.id === candidate.id);
   const card = make("article", "candidate-card");
   const meta = make("div", "candidate-meta");
   meta.append(make("span", "candidate-kind", candidate.kind === "blog" ? "블로그" : candidate.kind === "policy" ? "정책 원문" : "뉴스"));
@@ -244,8 +260,8 @@ function candidateCard(candidate) {
   siteLink.target = "_blank";
   siteLink.rel = "noopener noreferrer";
   title.append(siteLink);
-  const detail = make("p", "candidate-detail", `최근 120일 ${candidate.recentCount}개 글 · ${candidate.foundVia}에서 발견`);
-  const sampleLabel = make("div", "candidate-sample-label", "최근 글 미리보기");
+  const detail = make("p", "candidate-detail", `${current ? "최근" : "추천 당시 최근"} 120일 ${candidate.recentCount}개 글 · ${candidate.foundVia}에서 발견`);
+  const sampleLabel = make("div", "candidate-sample-label", current ? "최근 글 미리보기" : "추천 당시 글 미리보기");
   const samples = make("ul", "candidate-samples");
   for (const sample of candidate.samples || []) {
     const item = make("li");
@@ -274,11 +290,18 @@ function candidateCard(candidate) {
     saveState();
     render();
   });
+  const subscribed = state.sources.find((source) => source.id === `candidate-${candidate.id}` || source.url === candidate.feedUrl);
+  const subscribe = make("a", `candidate-action subscribe-action${subscribed ? " is-subscribed" : ""}`, subscribed ? "✓ 구독 중 · 공통 해지 ↗" : "＋ 공통 구독 신청 ↗");
+  subscribe.href = subscribed
+    ? subscriptionIssue(`[구독 해제] ${subscribed.name}`, `source_id: ${subscribed.id}`)
+    : subscriptionIssue(`[구독] ${candidate.name}`, `candidate_id: ${candidate.id}`);
+  subscribe.target = "_blank";
+  subscribe.rel = "noopener noreferrer";
   const rss = make("a", "candidate-rss-link", "RSS 보기 ↗");
   rss.href = candidate.feedUrl;
   rss.target = "_blank";
   rss.rel = "noopener noreferrer";
-  actions.append(save, hide, rss);
+  actions.append(subscribe, save, hide, rss);
   card.append(meta, title, detail, sampleLabel, samples, actions);
   return card;
 }
