@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:55:27Z",
+  "generatedAt": "2026-10-20T03:33:33Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -187,6 +187,85 @@
     }
   ],
   "articles": [
+    {
+      "id": "57cba30e8225dca5bfd0",
+      "title": "\"책 검색부터 추천까지 AI가 한번에\" 밀리의서재, 'AI 브리핑' 도입",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156290",
+      "summary": "",
+      "publishedAt": "2026-10-20T12:25:14Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "401115c52c3b662ee38b",
+      "title": "\"보고 싶은 소식 한눈에\" 카카오, '채널홈·소식' 개편...카카오톡 서비스 개선 '속도'",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156288",
+      "summary": "",
+      "publishedAt": "2026-10-20T12:22:54Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c6b2a447269733dfc789",
+      "title": "디즈니, 아태지역 새 수장에 '캐롤 초이' 선임...'디즈니플러스' 등 사업 총괄",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156285",
+      "summary": "",
+      "publishedAt": "2026-10-20T12:22:18Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1615420b669def122f4a",
+      "title": "세계 각국, 한국 사이버보안에 주목…아시아·아프리카·중남미 고위급 인사 KISA 방문",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208938",
+      "summary": "",
+      "publishedAt": "2026-10-20T12:05:58Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "90e28c0e0ee5af16dc50",
+      "title": "[시승기] 르노 트윙고 E-Tech \"작아서 더 경쾌…승차감은 가격만큼 현실적\"",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61947",
+      "summary": "",
+      "publishedAt": "2026-10-20T12:05:13Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "25497063000f8516325c",
+      "title": "오픈AI 회의실 도청 전 직원, 사우디 왕실과 취업 논의...보석 신청은 기각",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216430",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:56:23Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
     {
       "id": "27e158b693d7db138d68",
       "title": "앤트로픽, ‘숨은 의도 읽는’ 새 모델 준비...구글·오픈AI도 후속 출시 예고",
@@ -725,6 +804,62 @@
       ]
     },
     {
+      "id": "fd313dd70681f280433a",
+      "title": "[자동차와 法] 블랙박스가 ‘눈’이라면 진술은 ‘입’… 사과는 하되, 사실은 정확하게",
+      "url": "https://it.donga.com/109730",
+      "summary": "",
+      "publishedAt": "2026-10-20T03:05:12Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "9d73ce424ae7a054c363",
+      "title": "드림랩스, 1200억원 시드 투자 유치…범용 로봇 AI 모델 공개",
+      "url": "https://www.etnews.com/20261020000178",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:54:47Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "33f390878c44b7c53762",
+      "title": "[포토] 삼성전자, 갤럭시 최초 클립형 무선 이어폰 '갤럭시 비즈 온'",
+      "url": "https://www.etnews.com/20261020000174",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:51:34Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "e96f20dd6c086159f80b",
+      "title": "CATL·화웨이 '99초 배터리 교환' 동맹…中 전기차 생태계 확장",
+      "url": "https://www.etnews.com/20261020000169",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:49:30Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "a61cec7d8fc624440fcf",
       "title": "[AI 활용팁] 챗GPT 닷을 아이폰 위젯과 액션 버튼으로 호출하기",
       "url": "https://aimatters.co.kr/ai-tool/55934",
@@ -760,6 +895,38 @@
         "geeknews"
       ],
       "topics": []
+    },
+    {
+      "id": "2404c278a6b9ba9d3637",
+      "title": "CJ ONE, 이동의즐거움과 맞손…멤버십 혜택 모빌리티까지 확장",
+      "url": "https://www.etnews.com/20261020000164",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:36:02Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "a423c34c7e8a24013e55",
+      "title": "국방정보통신협회-엔에스엠, 국방용 마이크로데이터센터 협력",
+      "url": "https://www.etnews.com/20261020000163",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:35:56Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "보안"
+      ]
     },
     {
       "id": "4ecaf9f2f9d4261f6ed2",
@@ -933,6 +1100,17 @@
         "소프트웨어",
         "AI"
       ]
+    },
+    {
+      "id": "41f9df89759736c895a9",
+      "title": "미리캔버스의 SVG 필터 활용기: 브라우저에서 이미지 보정하기",
+      "url": "https://medium.com/miridih/%EB%AF%B8%EB%A6%AC%EC%BA%94%EB%B2%84%EC%8A%A4%EC%9D%98-svg-%ED%95%84%ED%84%B0-%ED%99%9C%EC%9A%A9%EA%B8%B0-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B3%B4%EC%A0%95%ED%95%98%EA%B8%B0-e8b4604ba996",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:36:19Z",
+      "sourceIds": [
+        "techblogposts"
+      ],
+      "topics": []
     },
     {
       "id": "98b4a69cfc3065bd32b5",
