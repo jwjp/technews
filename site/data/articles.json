@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T06:44:04Z",
+  "generatedAt": "2026-10-20T06:50:21Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,60 @@
   ],
   "articles": [
     {
+      "id": "393becad684e6028e064",
+      "title": "금융업권 새수장 누가 되나…26일 은행연 회추위 시동",
+      "url": "https://www.mk.co.kr/news/economy/12180613",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:49:34Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "175926dd8b75c52998a9",
+      "title": "[탄소중립과 혁신V] (1)지역 전략산업의 AI·탄소중립 전환과 블루이코노미",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156302",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:47:26Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "c8960a29c6e78787223c",
+      "title": "ERP 화면에서 금융 업무 본다...영림원소프트랩, KB국민은행과 '맞손'",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156300",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:46:58Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "4eaf93d6d4c87211477c",
+      "title": "세일즈포스, 파트너 FDE 국내 도입...2027년 100명 이상 국내 전문가 양성",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156299",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:44:35Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "f037bb6f1e834ca4a4b4",
       "title": "씨큐비스타, 중앙부처 및 공공기관에 NDR 보안 솔루션 '패킷사이버' 공급",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=208954",
@@ -430,6 +484,19 @@
       ],
       "topics": [
         "보안"
+      ]
+    },
+    {
+      "id": "d885592e8573419e62b3",
+      "title": "가상자산 과세 시행 앞두고...업계선 \"제도 시행 위한 실무적 준비 필요\" 한 목소리",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156305",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:33:12Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2286,6 +2353,72 @@
       ]
     },
     {
+      "id": "aa3e4b8949cbb5b23783",
+      "title": "伊 밀라노 시위, 폭력 사태로 확산…군 병력 500명 추가 배치",
+      "url": "https://www.ajunews.com/view/20261020153647936",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:49:55Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "85019e95b2b36187e7e2",
+      "title": "정부, 청년·초혁신경제 사업 집행 점검…\"연말까지 효과 내야\"",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833544",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:48:47Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제",
+        "정책"
+      ]
+    },
+    {
+      "id": "70b8807cec37208dad5b",
+      "title": "한미전략투자공사 사장 \"알래스카 LNG, 아직 검토 완료 안 돼\"",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833601",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:48:13Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "ba4c5642f0c52a3cd9aa",
+      "title": "금융위, 제6기 옴부즈만 출범…위원장에 문미란 소비자단체협의회장",
+      "url": "https://www.ajunews.com/view/20261020154340961",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:47:54Z",
+      "sourceIds": [
+        "ajunews-investment"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "7d65f9bfafacb8df4f66",
+      "title": "동아ST \"솔티드 'AI 보행분석 솔루션' 독점 판매\"",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833639",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:45:33Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "c22c6e45e708124f4f80",
       "title": "예·적금부터 세금까지…신한은행, 금융 콘텐츠 플랫폼 '솔깃' 개설",
       "url": "https://www.ajunews.com/view/20261020154053956",
@@ -3045,6 +3178,7 @@
       "summary": "[![NHN Cloud_meetup_banner_harness_202610_900.png](https://image.toast.com/aaaadh/real/2026/techblog/NHN%20Cloudmeetupbannerharness202610900.png)](https://www.nhncloud.com/kr) > 이 글은 작성자가 사내 게시판에 공유한 글을 가공한 것으로, 작성자의 의도와 맥락을 충실히 전달하기 위해 원문의 문장 스타일을 그대로 유지하였습니다. > 이 글은 김영우 님의 AI 하",
       "publishedAt": "2026-10-20T06:02:08Z",
       "sourceIds": [
+        "indieblog",
         "awesome"
       ],
       "topics": []
@@ -3334,6 +3468,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "52b90cfebd09970f7171",
+      "title": "2026년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
+      "url": "https://indieblog.net/go/625446",
+      "summary": "2016년부터 매년 이어 오던 \"JavaScript의 동향\" 연재는 2020년을 마지막으로 한동안 쉬었습니다. 그사이 6년이 지났고, 그 6년 동안 ECMAScript 명세는 여섯 번 개정되었습니다. 2020년 글을 쓸 때 Stage 2였던 Temporal은 9년에 걸친 논의 끝에 Stage 4에 올랐고, 이제 Chrome과 Firefox, Node.js에…",
+      "publishedAt": "2026-10-20T05:51:56Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
     },
     {
       "id": "41d9c15a5efb638ef806",
@@ -5200,7 +5345,8 @@
       "summary": "Spring Boot 4.0의 Jackson 3 전환과 JSpecify 기반 널 안전성 표준을 살펴봅니다. 직렬화 기본값과 엄격한 파싱으로 인한 런타임 API 호환성 위험을 점검합니다.",
       "publishedAt": "2026-10-20T04:08:53Z",
       "sourceIds": [
-        "velopers"
+        "velopers",
+        "indieblog"
       ],
       "topics": []
     },
@@ -5343,7 +5489,8 @@
       "summary": "Codex 기반 다섯 역할의 AI 에이전트로 한국어 학습 드라마를 제작한 운영 경험을 소개했습니다. 역할 분리만큼 버전·검토·최종 선택을 조율하는 사람의 책임이 중요했음을 설명합니다.",
       "publishedAt": "2026-10-20T03:47:30Z",
       "sourceIds": [
-        "velopers"
+        "velopers",
+        "indieblog"
       ],
       "topics": []
     },
@@ -5365,7 +5512,8 @@
       "summary": "React SPA에서 자주 발생하는 웹 접근성 결함과 JSX 마크업 규칙을 정리했습니다. 모달·아코디언·동적 알림의 ARIA 및 초점 제어 검증 방법을 제시합니다.",
       "publishedAt": "2026-10-20T03:33:09Z",
       "sourceIds": [
-        "velopers"
+        "velopers",
+        "indieblog"
       ],
       "topics": []
     },
