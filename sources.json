@@ -154,5 +154,149 @@
     "group": "국내 IT 뉴스",
     "type": "news",
     "topics": ["기술"]
+  },
+  {
+    "id": "hankyung-finance",
+    "name": "한국경제 · 증권",
+    "url": "https://www.hankyung.com/feed/finance",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["주식"]
+  },
+  {
+    "id": "hankyung-realestate",
+    "name": "한국경제 · 부동산",
+    "url": "https://www.hankyung.com/feed/realestate",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["부동산"]
+  },
+  {
+    "id": "hankyung-economy",
+    "name": "한국경제 · 경제",
+    "url": "https://www.hankyung.com/feed/economy",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["경제"]
+  },
+  {
+    "id": "mk-stock",
+    "name": "매일경제 · 증권",
+    "url": "https://www.mk.co.kr/rss/50200011/",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["주식"]
+  },
+  {
+    "id": "mk-realestate",
+    "name": "매일경제 · 부동산",
+    "url": "https://www.mk.co.kr/rss/50300009/",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["부동산"]
+  },
+  {
+    "id": "mk-economy",
+    "name": "매일경제 · 경제",
+    "url": "https://www.mk.co.kr/rss/30100041/",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["경제"]
+  },
+  {
+    "id": "etoday-market",
+    "name": "이투데이 · 마켓",
+    "url": "https://rss.etoday.co.kr/eto/market_news.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["주식"]
+  },
+  {
+    "id": "etoday-realestate",
+    "name": "이투데이 · 부동산",
+    "url": "https://rss.etoday.co.kr/eto/land_news.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["부동산"]
+  },
+  {
+    "id": "etoday-economy",
+    "name": "이투데이 · 경제",
+    "url": "https://rss.etoday.co.kr/eto/economy_news.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["경제"]
+  },
+  {
+    "id": "fnnews-stock",
+    "name": "파이낸셜뉴스 · 증권",
+    "url": "https://www.fnnews.com/rss/r20/fn_realnews_stock.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["주식"]
+  },
+  {
+    "id": "fnnews-realestate",
+    "name": "파이낸셜뉴스 · 부동산",
+    "url": "https://www.fnnews.com/rss/r20/fn_realnews_realestate.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["부동산"]
+  },
+  {
+    "id": "fnnews-economy",
+    "name": "파이낸셜뉴스 · 경제",
+    "url": "https://www.fnnews.com/rss/r20/fn_realnews_economy.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["경제"]
+  },
+  {
+    "id": "newsis-finance",
+    "name": "뉴시스 · 금융",
+    "url": "https://www.newsis.com/RSS/bank.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["금융"]
+  },
+  {
+    "id": "newsis-economy",
+    "name": "뉴시스 · 경제",
+    "url": "https://www.newsis.com/RSS/economy.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["경제"]
+  },
+  {
+    "id": "ajunews-investment",
+    "name": "아주경제 · 재테크",
+    "url": "https://www.ajunews.com/rss/investment.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "classify": true
+  },
+  {
+    "id": "ajunews-economy",
+    "name": "아주경제 · 경제",
+    "url": "https://www.ajunews.com/rss/economy.xml",
+    "group": "경제 뉴스",
+    "type": "economy",
+    "topics": ["경제"]
+  },
+  {
+    "id": "bok-market",
+    "name": "한국은행 · 금융시장 동향",
+    "url": "https://www.bok.or.kr/portal/bbs/P0002017/news.rss?menuNo=200365",
+    "group": "정책·지표 원문",
+    "type": "economy",
+    "topics": ["금융", "정책"]
+  },
+  {
+    "id": "mss-press",
+    "name": "중소벤처기업부 · 보도자료",
+    "url": "https://mss.go.kr/rss/smba/board/86.do",
+    "group": "정책·지표 원문",
+    "type": "economy",
+    "topics": ["정책"]
   }
 ]

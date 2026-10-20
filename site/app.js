@@ -18,6 +18,7 @@ const state = {
   query: "",
   sort: "newest",
   newsTopic: "",
+  economyTopic: "",
 };
 
 function restoreState() {
@@ -26,7 +27,7 @@ function restoreState() {
     for (const key of ["disabledSources", "readIds", "savedIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
     }
-    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic"]) {
+    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyTopic"]) {
       if (typeof saved[key] === "string") state[key] = saved[key];
     }
   } catch {
@@ -47,6 +48,7 @@ function saveState() {
       savedIds: state.savedIds,
       theme: state.theme,
       newsTopic: state.newsTopic,
+      economyTopic: state.economyTopic,
     }));
   } catch {
     showToast("브라우저 저장 공간을 사용할 수 없습니다.");
@@ -73,8 +75,16 @@ function hasSource(article) {
   return article.sourceIds.some((id) => !state.disabledSources.includes(id));
 }
 
+function hasSourceType(article, type) {
+  return article.sourceIds.some((id) => !state.disabledSources.includes(id) && state.sources.find((source) => source.id === id)?.type === type);
+}
+
 function isNews(article) {
-  return article.sourceIds.some((id) => state.sources.find((source) => source.id === id)?.type === "news");
+  return hasSourceType(article, "news");
+}
+
+function isEconomy(article) {
+  return hasSourceType(article, "economy");
 }
 
 function searchText(article) {
@@ -88,9 +98,11 @@ function filteredArticles() {
   const query = state.query.trim().toLocaleLowerCase("ko");
   return state.articles.filter((article) => {
     if (!hasSource(article)) return false;
-    if (state.view === "reading" && isNews(article)) return false;
+    if (state.view === "reading" && (isNews(article) || isEconomy(article))) return false;
     if (state.view === "news" && !isNews(article)) return false;
     if (state.view === "news" && state.newsTopic && !(article.topics || []).includes(state.newsTopic)) return false;
+    if (state.view === "economy" && !isEconomy(article)) return false;
+    if (state.view === "economy" && state.economyTopic && !(article.topics || []).includes(state.economyTopic)) return false;
     if (state.view === "unread" && state.readIds.includes(article.id)) return false;
     if (state.view === "saved" && !state.savedIds.includes(article.id)) return false;
     const searchable = searchText(article);
@@ -153,7 +165,7 @@ function articleCard(article, index) {
     const source = state.sources.find((item) => item.id === id);
     if (source) sources.append(make("span", "source-pill", source.name));
   }
-  if (isNews(article)) {
+  if (isNews(article) || isEconomy(article)) {
     for (const topic of article.topics || []) sources.append(make("span", "topic-pill", topic));
   }
   top.append(sources, make("time", "article-date", formatDate(article.publishedAt)));
@@ -190,8 +202,9 @@ function articleCard(article, index) {
 function render() {
   const titles = {
     reading: ["기술 글", "새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요."],
-    news: ["국내 뉴스", "기술·개발·소프트웨어·보안·AI·자동차 뉴스를 골라 보세요."],
-    all: ["전체 글", "기술 글과 뉴스를 시간순으로 모았어요."],
+    news: ["기술 뉴스", "기술·개발·소프트웨어·보안·AI·자동차 뉴스를 골라 보세요."],
+    economy: ["경제 뉴스", "주식·금융·부동산·경제·정책 소식을 골라 보세요."],
+    all: ["전체 글", "기술 글과 기술·경제 뉴스를 시간순으로 모았어요."],
     unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."],
     saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."],
   };
@@ -199,14 +212,18 @@ function render() {
   $("#view-description").textContent = titles[state.view][1];
   document.querySelectorAll(".nav-item").forEach((item) => item.classList.toggle("active", item.dataset.view === state.view));
   $("#news-topics").hidden = state.view !== "news";
-  document.querySelectorAll(".topic-button").forEach((button) => {
-    const active = button.dataset.topic === state.newsTopic;
-    button.classList.toggle("active", active);
-    button.setAttribute("aria-pressed", String(active));
-  });
+  $("#economy-topics").hidden = state.view !== "economy";
+  for (const [selector, selected] of [["#news-topics", state.newsTopic], ["#economy-topics", state.economyTopic]]) {
+    document.querySelectorAll(`${selector} .topic-button`).forEach((button) => {
+      const active = button.dataset.topic === selected;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+  }
   const available = state.articles.filter(hasSource);
-  $("#count-reading").textContent = available.filter((item) => !isNews(item)).length.toLocaleString("ko-KR");
+  $("#count-reading").textContent = available.filter((item) => !isNews(item) && !isEconomy(item)).length.toLocaleString("ko-KR");
   $("#count-news").textContent = available.filter(isNews).length.toLocaleString("ko-KR");
+  $("#count-economy").textContent = available.filter(isEconomy).length.toLocaleString("ko-KR");
   $("#count-all").textContent = available.length.toLocaleString("ko-KR");
   $("#count-unread").textContent = available.filter((item) => !state.readIds.includes(item.id)).length.toLocaleString("ko-KR");
   $("#count-saved").textContent = available.filter((item) => state.savedIds.includes(item.id)).length.toLocaleString("ko-KR");
@@ -216,6 +233,7 @@ function render() {
   const filters = [];
   if (state.query.trim()) filters.push(`검색: ${state.query.trim()}`);
   if (state.view === "news" && state.newsTopic) filters.push(`분야: ${state.newsTopic}`);
+  if (state.view === "economy" && state.economyTopic) filters.push(`분야: ${state.economyTopic}`);
   if (state.interestOnly && keywords(state.favoriteKeywords).length) filters.push("관심 키워드");
   if (keywords(state.hiddenKeywords).length) filters.push("숨길 키워드 적용 중");
   summary.hidden = !filters.length;
@@ -240,7 +258,7 @@ function bindEvents() {
     $("#main-content").scrollIntoView({ behavior: "smooth", block: "start" });
   }));
   document.querySelectorAll(".topic-button").forEach((button) => button.addEventListener("click", () => {
-    state.newsTopic = button.dataset.topic;
+    state[button.closest("#economy-topics") ? "economyTopic" : "newsTopic"] = button.dataset.topic;
     state.visibleCount = PAGE_SIZE;
     saveState();
     render();

@@ -28,9 +28,10 @@ DC = "{http://purl.org/dc/elements/1.1/}"
 TRACKING_KEYS = {"fbclid", "gclid", "igshid", "mc_cid", "mc_eid", "source"}
 AGGREGATOR_HOSTS = {"velopers.kr", "www.velopers.kr", "news.hada.io", "indieblog.net", "www.indieblog.net"}
 MAX_FEED_BYTES = 5_000_000
-MAX_ARTICLES = 2000
 MAX_AGE_DAYS = 180
+SECTION_LIMITS = {"reading": 1000, "news": 1800, "economy": 1800}
 NEWS_TOPICS = ("기술", "개발", "소프트웨어", "보안", "AI", "자동차")
+ECONOMY_TOPICS = ("주식", "금융", "부동산", "경제", "정책")
 TITLE_TOPICS = {
     "개발": r"개발자|개발도구|개발환경|프로그래밍|코딩|오픈소스|깃허브|GitHub|DevOps|API\b|SDK\b",
     "소프트웨어": r"소프트웨어|\bSW\b|\bSaaS\b|클라우드|데이터베이스|운영체제|\bOS\b|애플리케이션|\b앱\b",
@@ -38,6 +39,12 @@ TITLE_TOPICS = {
     "AI": r"(?<![A-Za-z])AI(?![A-Za-z])|인공지능|생성형|LLM|챗봇|챗GPT|ChatGPT|머신러닝|딥러닝",
     "자동차": r"자동차|전기차|자율주행|모빌리티|완성차|현대차|기아차|테슬라|차량|배터리|충전소|로보택시|커넥티드카",
     "기술": r"반도체|디스플레이|스마트폰|컴퓨팅|통신망|네트워크|데이터센터|서버|로봇|양자컴퓨팅|기술개발",
+}
+ECONOMY_TITLE_TOPICS = {
+    "주식": r"주식|증시|주가|코스피|코스닥|증권|상장|배당|ETF|IPO|공모주",
+    "금융": r"금융|은행|대출|금리|채권|환율|보험|가계부채",
+    "부동산": r"부동산|아파트|주택|집값|전세|월세|청약|분양|재건축|재개발|임대차|토지",
+    "정책": r"정부|정책|대책|규제|세제|세금|예산|법안|국회|지원책|보도자료",
 }
 
 
@@ -83,6 +90,9 @@ def child_text(element: ET.Element, *names: str) -> str:
 def parse_date(raw: str) -> str | None:
     if not raw:
         return None
+    if re.fullmatch(r"\d{14}", raw):
+        parsed = datetime.strptime(raw, "%Y%m%d%H%M%S").replace(tzinfo=timezone(timedelta(hours=9)))
+        return parsed.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     try:
         parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
     except ValueError:
@@ -131,11 +141,16 @@ def fetch_xml(url: str) -> ET.Element:
 
 
 def ordered_topics(topics: set[str]) -> list[str]:
-    return [topic for topic in NEWS_TOPICS if topic in topics]
+    return [topic for topic in NEWS_TOPICS + ECONOMY_TOPICS if topic in topics]
 
 
 def classify_news(title: str) -> list[str]:
     topics = {topic for topic, pattern in TITLE_TOPICS.items() if re.search(pattern, title, re.IGNORECASE)}
+    return ordered_topics(topics)
+
+
+def classify_economy(title: str) -> list[str]:
+    topics = {topic for topic, pattern in ECONOMY_TITLE_TOPICS.items() if re.search(pattern, title, re.IGNORECASE)}
     return ordered_topics(topics)
 
 
@@ -160,10 +175,12 @@ def entries_from(root: ET.Element, source: dict) -> list[dict]:
         topics = set(source.get("topics", []))
         if source.get("type") == "news":
             topics.update(classify_news(title))
-            if source.get("classify") and not topics:
-                continue
+        elif source.get("type") == "economy":
+            topics.update(classify_economy(title))
+        if source.get("classify") and not topics:
+            continue
         description = child_text(entry, "description", f"{ATOM}summary", f"{ATOM}content")
-        summary = "" if source.get("type") == "news" else clean_text(description, 280)
+        summary = "" if source.get("type") in {"news", "economy"} else clean_text(description, 280)
         if summary.casefold() == title.casefold():
             summary = ""
         result.append({
@@ -191,6 +208,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
     source_order = [source["id"] for source in sources]
     source_topics = {source["id"]: source.get("topics", []) for source in sources}
     news_sources = {source["id"] for source in sources if source.get("type") == "news"}
+    economy_sources = {source["id"] for source in sources if source.get("type") == "economy"}
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     valid = []
     for article in old + incoming:
@@ -202,8 +220,10 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
                     topics.update(source_topics[source_id])
                 if any(source_id in news_sources for source_id in known_sources):
                     topics.update(classify_news(article["title"]))
-                    if not topics:
-                        continue
+                if any(source_id in economy_sources for source_id in known_sources):
+                    topics.update(classify_economy(article["title"]))
+                if any(source_id in news_sources | economy_sources for source_id in known_sources) and not topics:
+                    continue
                 valid.append({**article, "sourceIds": known_sources, "topics": ordered_topics(topics)})
         except (KeyError, ValueError):
             continue
@@ -235,7 +255,15 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
             merged.append(copied)
             by_url[copied["url"]] = copied
             by_title.setdefault(key, []).append(copied)
-    return merged[:MAX_ARTICLES]
+    section_counts = {section: 0 for section in SECTION_LIMITS}
+    kept = []
+    for article in merged:
+        ids = set(article["sourceIds"])
+        section = "economy" if ids & economy_sources else "news" if ids & news_sources else "reading"
+        if section_counts[section] < SECTION_LIMITS[section]:
+            kept.append(article)
+            section_counts[section] += 1
+    return kept
 
 
 def main() -> int:
