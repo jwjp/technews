@@ -90,5 +90,69 @@
     "group": "국내 IT 뉴스",
     "type": "news",
     "topics": ["AI"]
+  },
+  {
+    "id": "itdonga",
+    "name": "IT동아",
+    "url": "https://it.donga.com/feeds/rss/news/",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["기술"]
+  },
+  {
+    "id": "itworld",
+    "name": "ITWorld Korea",
+    "url": "https://www.itworld.co.kr/feed/",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["기술"]
+  },
+  {
+    "id": "techm",
+    "name": "테크M",
+    "url": "https://www.techm.kr/rss/allArticle.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["기술"]
+  },
+  {
+    "id": "dailysecu",
+    "name": "데일리시큐",
+    "url": "https://www.dailysecu.com/rss/allArticle.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["보안"]
+  },
+  {
+    "id": "aimatters",
+    "name": "AI매터스",
+    "url": "https://aimatters.co.kr/feed/",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["AI"]
+  },
+  {
+    "id": "motorgraph",
+    "name": "모터그래프",
+    "url": "https://www.motorgraph.com/rss/allArticle.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["자동차"]
+  },
+  {
+    "id": "autoherald",
+    "name": "오토헤럴드",
+    "url": "https://www.autoherald.co.kr/rss/allArticle.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["자동차"]
+  },
+  {
+    "id": "irobotnews",
+    "name": "로봇신문",
+    "url": "https://www.irobotnews.com/rss/allArticle.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news",
+    "topics": ["기술"]
   }
 ]

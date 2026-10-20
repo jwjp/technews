@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T02:48:12Z",
+  "generatedAt": "2026-10-20T02:55:27Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -104,6 +104,86 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "itdonga",
+      "name": "IT동아",
+      "url": "https://it.donga.com/feeds/rss/news/",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "itworld",
+      "name": "ITWorld Korea",
+      "url": "https://www.itworld.co.kr/feed/",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "techm",
+      "name": "테크M",
+      "url": "https://www.techm.kr/rss/allArticle.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "dailysecu",
+      "name": "데일리시큐",
+      "url": "https://www.dailysecu.com/rss/allArticle.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "aimatters",
+      "name": "AI매터스",
+      "url": "https://aimatters.co.kr/feed/",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "motorgraph",
+      "name": "모터그래프",
+      "url": "https://www.motorgraph.com/rss/allArticle.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "autoherald",
+      "name": "오토헤럴드",
+      "url": "https://www.autoherald.co.kr/rss/allArticle.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "irobotnews",
+      "name": "로봇신문",
+      "url": "https://www.irobotnews.com/rss/allArticle.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news",
+      "topics": [
+        "기술"
+      ]
     }
   ],
   "articles": [
@@ -121,6 +201,439 @@
       ]
     },
     {
+      "id": "9fef562ef329a9ecdda1",
+      "title": "\"다음 질문 먼저 제시\" 네이버, '관련 질문' 서비스 확대...검색 편의성 '쑥'",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156287",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:38:03Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "6506707d630f808e3b5e",
+      "title": "금감원장 “금융권 외부 노출 시스템 전수 재점검 지시”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208937",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:34:26Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "54db70ad6999caed7e14",
+      "title": "삼성전자 \"클립형 이어폰도 갤럭시가 최고...'버즈 온' 27일 출시\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156283",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:30:00Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "e41bf224fbe7a5ab87d9",
+      "title": "할리스, 비밀번호 포함 멤버십 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208936",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:25:57Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "f642a8abd6ad9d59072b",
+      "title": "가상자산 과세 앞두고 정부·거래소 회동...2029년 시행론 힘 받을까",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156286",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:25:18Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "0ce5c5ce7098904afd1e",
+      "title": "플랫트랙 레이서로 무장한 'BMW R 12 nineT 트래커 에디션'10대 한정 출시",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61946",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:24:53Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "d0e1fdae519bc2f69b26",
+      "title": "\"中 전기차, 유럽 공장에서 직접 생산\" 스텔란티스·립모터 B10 양산 돌입",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61945",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:20:18Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "fda7a208c9cd95d261cd",
+      "title": "크래프톤 지스타 출품작 공개, 글로벌 기대 신작 라인업 국내 첫선",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156284",
+      "summary": "",
+      "publishedAt": "2026-10-20T11:18:40Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "68af68729bca8ab90e0b",
+      "title": "캡콤 합류로 마지막 퍼즐 맞춘 '지스타 26'...韓·中·日 글로벌 IP 격전장 예고",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156281",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:56:13Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "a4d9a6d6dbee32fab2d5",
+      "title": "KGM, 후시파트너스와 맞손... EU '탄소국경조정제도’ 선제 방어선 구축",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61944",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:24:25Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "109665fb0228edf2538e",
+      "title": "[테크M 리포트] '네이버는 지금이 바닥'…증권가, 17만원대 주가에 잇단 매수 신호",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156280",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:19:54Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "421346029e24cef9d81a",
+      "title": "현대홈쇼핑, 뮤지컬 '시카고' 티켓 40% 할인…최정원·아이비 라이브 무대도",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156279",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:14:57Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c22efc59ab27393a3a70",
+      "title": "엘리스, 코스닥 상장 첫날 30% 급락...시총 7000억으로↓",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156277",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:11:42Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c95c23a49b4c6cce60a4",
+      "title": "벤츠, 신형 전기 GLC 가격 인하에 선 \"저가형 모델 당장 검토 안 해\"",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61942",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:10:24Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "42da6e06f9cdb3af41da",
+      "title": "사이게임스 '섀도우버스' 한국 대회, '으에엥' 우승…세계대회 출전권 확보",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156278",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:06:02Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "319e4081843aa9307dc1",
+      "title": "폭스바겐, 핫해치의 전설 골프 GTI ‘다크 모스 리미티드 에디션’ 사전계약",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61943",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:04:15Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "e4c333b1eb08fc7db176",
+      "title": "코웨이, 정수기·공기청정기·비데 월 1만원 렌탈…최대 1년간 할인",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156276",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:03:27Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "5e5713184545bd91fa39",
+      "title": "야놀자, 아시아 호텔 디지털 전환 시장 공략…AI·글로벌 유통망 앞세운다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156275",
+      "summary": "",
+      "publishedAt": "2026-10-20T10:00:00Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "146b187ccfd91c152ee3",
+      "title": "일본 조조타운까지 품은 무신사…'10조 IPO' 청신호 켜졌다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156274",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:56:42Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "118870c3153b2eeb917a",
+      "title": "쿠팡이츠, 치킨·피자 최대 8000원 할인…와우회원 혜택 확대",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156273",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:54:24Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1796166cda29b2818fd9",
+      "title": "롯데백화점, 국가보훈부와 손잡고 보훈문화 확산 나선다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156272",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:53:03Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "f7a10ea08cb3ef401938",
+      "title": "갤럭시 8200만대에 '디지털 달러' 심는다…삼성전자, 스테이블코인 송금시장 출사표",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156271",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:49:25Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "b9a68d20951b33b39d8f",
+      "title": "빗썸 AI, 출시 47일 만에 50만명 돌파…고액 거래자 95% 이용",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156270",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:45:05Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "b025a2a4c1c6149b350a",
+      "title": "'단체관광보다 개별여행객'…신라면세점, 글로벌 명품 뷰티와 손잡고 고객 잡는다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156269",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:44:18Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "31fd52e3e73cdf555d58",
+      "title": "뚜레쥬르, '미피'와 수능 응원 나선다…케이크·찹쌀떡 등 신제품 출시",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156268",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:42:34Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "12729c00b2d3e8d21ac2",
+      "title": "삼양식품 '불닭', 프랑스 파리 달궜다…김정수 회장도 현장 출격",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156267",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:41:26Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "9582f6814cbea5563440",
+      "title": "[가봤다] LG유플러스 장기 고객은 좋겠네...가을 정취 '물씬' 화담숲에서의 하루",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156263",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:41:10Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "21c8e7e66e128ff18184",
+      "title": "하나은행, SK하이닉스와 손잡고 반도체 협력사에 7500억원 금융지원",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156266",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:39:39Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "00fddc850089e2618e7d",
+      "title": "JB금융, 업스테이지에 400억원 베팅…'금융 AI 혁신' 승부수",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156265",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:38:16Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "ffc9ca91d23aaca149bd",
+      "title": "[크립토 브리핑] 비트코인 1억1000만원선 약보합…美 기술주 반등에도 코인시장 '잠잠'",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156264",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:36:17Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "d4cb3e5b1e62fe48b682",
+      "title": "단풍 취해 창문 열었다가 '재채기 발작' 봄꽃보다 더 독한 가을 잡초의 습격",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61941",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:31:42Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "abf3f512b0adce40d185",
+      "title": "\"48만 대 팔고도 45억 달러 적자\" 테슬라, AI 투자 부담 수익성 악화 우려",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61940",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:25:22Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "b81e094f8853c5001445",
+      "title": "현대차·기아, 레벨 4 트럭 자율주행 실증 돌입... 내년 엑시언트 공급 MOU",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61939",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:00:39Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "b1d22f91e2c8a9356a97",
       "title": "[AI리더의 서가] 다중 에이전트 시스템을 위한 컨텍스트 엔지니어링",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216342",
@@ -131,6 +644,45 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "1dce3533303eb078cf3d",
+      "title": "폭스바겐, 전 세계 66만 직원 '2030년까지 임금 동결'...복지 혜택도 삭감",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61937",
+      "summary": "",
+      "publishedAt": "2026-10-20T08:46:12Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "c9625486faca8b9b5658",
+      "title": "토요타, 차세대 코롤라 EV 버전 중국서 생산 '멀티패스웨이 플랫폼 첫 적용'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61936",
+      "summary": "",
+      "publishedAt": "2026-10-20T08:46:06Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "433f0df955562987dcf7",
+      "title": "최고급 라운지는 어디?.... 부품 수급ㆍ정비 빨라졌지만 대기 장소 안내 소홀",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61935",
+      "summary": "",
+      "publishedAt": "2026-10-20T08:24:38Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -173,6 +725,32 @@
       ]
     },
     {
+      "id": "a61cec7d8fc624440fcf",
+      "title": "[AI 활용팁] 챗GPT 닷을 아이폰 위젯과 액션 버튼으로 호출하기",
+      "url": "https://aimatters.co.kr/ai-tool/55934",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:47:59Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "490401cb0f540c698380",
+      "title": "[AI 활용팁] 구글 딥 리뷰로 각종 서류 PDF 초고의 주장과 논리 검토하기",
+      "url": "https://aimatters.co.kr/ai-tool/55936",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:46:22Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
       "id": "8f7c964f0d83f3138dd5",
       "title": "우크라이나, 드론으로 부상병을 처음 후송했다고 밝혀",
       "url": "https://news.hada.io/topic?id=35683",
@@ -195,6 +773,87 @@
       "topics": []
     },
     {
+      "id": "c464caf9e9545eed4dd2",
+      "title": "옴니사, 승인 안 된 AI 찾아내 통제하는 ‘엘라라’ 국내 공개",
+      "url": "https://aimatters.co.kr/news-report/55912",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:28:48Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "0df1c3574a6760ff7823",
+      "title": "버즈니 AI 회의록 ‘노이’, 회계법인 창천에 공급",
+      "url": "https://aimatters.co.kr/news-report/55915",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:28:35Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "ec144a2cb1e092fd446b",
+      "title": "원티드랩 AI 해커톤에 3,170팀 신청…아이디어 1,392개 제출",
+      "url": "https://aimatters.co.kr/news-report/55922",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:28:11Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "c4e1be712ff080171cc5",
+      "title": "AMD “로봇 AI 성능, 연산 속도보다 반응 시간으로 평가해야”",
+      "url": "https://aimatters.co.kr/news-report/55913",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:27:19Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "2e1debd07d2835f21c9c",
+      "title": "엠클라우드브리지, MS ERP와 AI 에이전트 연결 전략 세미나 개최",
+      "url": "https://aimatters.co.kr/news-report/55919",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:27:02Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "48540b4bc977077d69fc",
+      "title": "세일즈포스, AI 에이전트 구축 전문 인력 ‘FDE’ 국내 첫 양성",
+      "url": "https://aimatters.co.kr/news-report/55909",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:26:44Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
       "id": "d6e6a16fbf08239edd89",
       "title": "성남시, AI로 야간·휴일 민원 접수…긴급 상황은 당직 근무자 연결",
       "url": "https://www.etnews.com/20261020000152",
@@ -203,6 +862,33 @@
       "sourceIds": [
         "etnews-sw",
         "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "fd33b29254cc7e4cb37f",
+      "title": "업무 비서 AI 타운, 출시 4개월 만에 기업가치 1조 원대",
+      "url": "https://aimatters.co.kr/news-report/55845",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:13:11Z",
+      "sourceIds": [
+        "aimatters"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "66c0f483781b93680f55",
+      "title": "레플리카 창업자의 AI 비서 앱 ‘와비 2.0’, 모든 이용자에 공개",
+      "url": "https://aimatters.co.kr/news-report/55850",
+      "summary": "",
+      "publishedAt": "2026-10-20T02:12:29Z",
+      "sourceIds": [
+        "aimatters"
       ],
       "topics": [
         "소프트웨어",
@@ -459,6 +1145,20 @@
       ]
     },
     {
+      "id": "b8e4297d8eae6b62d0e6",
+      "title": "서피스 랩톱 울트라 리뷰 : 몬스터급 AI 성능에 몬스터급 가격",
+      "url": "https://www.itworld.co.kr/article/4236871/%ec%84%9c%ed%94%bc%ec%8a%a4-%eb%9e%a9%ed%86%b1-%ec%9a%b8%ed%8a%b8%eb%9d%bc-%eb%a6%ac%eb%b7%b0-%eb%aa%ac%ec%8a%a4%ed%84%b0%ea%b8%89-ai-%ec%84%b1%eb%8a%a5%ec%97%90-%eb%aa%ac%ec%8a%a4%ed%84%b0%ea%b8%89.html",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:03:08Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "13438e8cb2fb6b04ecf6",
       "title": "SNS 금지당한 호주 청소년, 스마트폰과 멀어졌을까",
       "url": "https://zdnet.co.kr/view?no=20261020100248",
@@ -647,6 +1347,21 @@
       "topics": []
     },
     {
+      "id": "849cb28e7d78307b9c7f",
+      "title": "섀도 AI에 4중 방어선을 쳐라…기업 보안을 뚫는 것은 ‘미승인 AI’",
+      "url": "https://www.itworld.co.kr/article/4237372/%ec%84%80%eb%8f%84-ai%ec%97%90-4%ec%a4%91-%eb%b0%a9%ec%96%b4%ec%84%a0%ec%9d%84-%ec%b3%90%eb%9d%bc-%ea%b8%b0%ec%97%85-%eb%b3%b4%ec%95%88%ec%9d%84-%eb%9a%ab%eb%8a%94-%ea%b2%83%ec%9d%80-%eb%af%b8.html",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:29:42Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
       "id": "6c72156144d77f1d8c6c",
       "title": "중앙일보 매각, 우선협상대상자에 다우·CJ 컨소시엄 선정",
       "url": "https://www.etnews.com/20261020000046",
@@ -769,6 +1484,19 @@
       ]
     },
     {
+      "id": "cc31fb4e12369ce2f86c",
+      "title": "떠난 직원의 에이전트는 누구 몫인가…책임은 시스템에 있다",
+      "url": "https://www.itworld.co.kr/article/4237360/%eb%96%a0%eb%82%9c-%ec%a7%81%ec%9b%90%ec%9d%98-%ec%97%90%ec%9d%b4%ec%a0%84%ed%8a%b8%eb%8a%94-%eb%88%84%ea%b5%ac-%eb%aa%ab%ec%9d%b8%ea%b0%80%ec%b1%85%ec%9e%84%ec%9d%80-%ec%8b%9c%ec%8a%a4.html",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:54:22Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "56e61faa700ec4342010",
       "title": "클라우드플레어, 깃허브·노션 등과 협력…기업 AI 업무 자동화 확대",
       "url": "https://www.etnews.com/20261020000018",
@@ -798,6 +1526,20 @@
       ],
       "topics": [
         "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "e7a20fe4889dabad9704",
+      "title": "AI 웜이 우리 집 오븐까지 장악할까?…IoT 봇넷, 위협 수준 진단",
+      "url": "https://www.itworld.co.kr/article/4237349/ai-%ec%9b%9c%ec%9d%b4-%ec%9a%b0%eb%a6%ac-%ec%a7%91-%ec%98%a4%eb%b8%90%ea%b9%8c%ec%a7%80-%ec%9e%a5%ec%95%85%ed%95%a0%ea%b9%8c-iot-%eb%b4%87%eb%84%b7-%ec%9c%84%ed%98%91-%ec%88%98%ec%a4%80-%ec%a7%84.html",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:47:46Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
         "AI"
       ]
     },
@@ -989,6 +1731,19 @@
       "topics": []
     },
     {
+      "id": "816b805c33d9765eb622",
+      "title": "[국감 26] 4년 만에 국회 선 5대 은행장 '줄사과'…이찬진 \"CEO 내부통제 책임 묻겠다\"(종합)",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156262",
+      "summary": "",
+      "publishedAt": "2026-10-19T20:31:33Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "94c859547674dab55ea1",
       "title": "Mercury 3 - 텍스트를 병렬로 생성하는 대규모 확산 기반 LLM",
       "url": "https://news.hada.io/topic?id=35658",
@@ -1033,6 +1788,20 @@
       "topics": []
     },
     {
+      "id": "2f3f9599038c2cbcf63c",
+      "title": "78리서치랩, AI 자율 침투테스트 도구 ‘ARTEX’ 수정판 배포...설치·운영 편의성 개선",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208935",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:53:59Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
       "id": "b1581eb10a681d166a7b",
       "title": "Show HN: Qwen3-4B의 AI 특유 글쓰기 습관을 학습으로 제거한 모델",
       "url": "https://news.hada.io/topic?id=35655",
@@ -1066,6 +1835,19 @@
       "topics": []
     },
     {
+      "id": "73e5da22c13877967caa",
+      "title": "박상혁 의원, 예가람저축은행 등 태광그룹 계열사 전산 위탁 보안관리 지적",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208934",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:45:53Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
       "id": "9d9da2e7f0fdcefdb7a3",
       "title": "CERN과 Mistral, 전략적 파트너십 구축을 위한 의향서 서명",
       "url": "https://news.hada.io/topic?id=35652",
@@ -1075,6 +1857,58 @@
         "geeknews"
       ],
       "topics": []
+    },
+    {
+      "id": "4e11ebc57fb40a060acb",
+      "title": "손명수 의원, “은행 고객정보 건당 8,000원에 불법 판매 정황”…금융정보 유통 실태 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208933",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:38:23Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "5ec8865570806971dc8d",
+      "title": "한국가스기술공사, 관리자 다중인증 미적용에도 긴급 보안점검 ‘취약점 0건’",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208932",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:28:15Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "485f07d2dc77da904473",
+      "title": "파워오토로보틱스, 삼성전자 이동로봇 특허 이전…‘자율이동형 i-Series’ 개발 추진",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49080",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:06:25Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "7c78b759a658930211bd",
+      "title": "[국감 26] 정상혁 신한은행장, 2만5000명 정보유출에 집중포화…\"과실 여부 떠나 전액 보상\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156261",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:06:04Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
     },
     {
       "id": "b29ff22d850d0480b794",
@@ -1090,6 +1924,19 @@
       ]
     },
     {
+      "id": "40a143de205f81e1f14b",
+      "title": "10주년 맞은 ‘대구 글로벌 로봇 비즈니스 포럼’…21일부터 사흘간 열전",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49079",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:00:02Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "042bdb2c1a3af77d8372",
       "title": "텐센트, 챗봇마다 저장하던 AI 메모리 통합...클로드·챗GPT에서 공유",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216413",
@@ -1100,6 +1947,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "daf24f1f64898c8f8d21",
+      "title": "대구시, ‘FIX 2026 컨퍼런스’ 엑스코서 개최",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49078",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:49:12Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1125,6 +1985,20 @@
       "topics": []
     },
     {
+      "id": "b138592194d8c6a72497",
+      "title": "롯데이노베이트, '실증 도시' 강릉서 자율주행 기술 선보인다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156256",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:39:11Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
       "id": "5b32e38928db003bbd1f",
       "title": "Ruby gem 개발을 그만두는 이유 - AI가 바꾼 생태계",
       "url": "https://news.hada.io/topic?id=35649",
@@ -1134,6 +2008,19 @@
         "geeknews"
       ],
       "topics": []
+    },
+    {
+      "id": "87c3dddd84a35640a1c1",
+      "title": "퀄컴, 강릉 ITS 세계총회서 V2X 기반 교통 안전 기술 소개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49077",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:36:26Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
     },
     {
       "id": "c082eed8c241b0588fda",
@@ -1146,6 +2033,32 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "b97d5521103c891b1137",
+      "title": "나홀로 실적 자신한 신한 정상혁, 연임은 '가시밭길'…이찬진 \"내부통제 책임 따질 것\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156260",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:34:59Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "4454111f913928d27fd3",
+      "title": "[국감 26] \"가산금리 내리고 우대금리 더 깎았다\"…5대 은행장 질타한 정무위원장",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156259",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:28:14Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1162,6 +2075,46 @@
       ]
     },
     {
+      "id": "71c2d18cb57c66f3f201",
+      "title": "[국감 26] 이찬진 금감원장 '레버리지 ETF 논란'에 고개 숙여…\"투자자 피해 우려에 강한 경고\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156258",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:24:02Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "7e7abe81f4f1e5974452",
+      "title": "[국감 26] 이찬진 \"금융권 해킹, CEO 내부통제 책임 첫 적용 가능\"…은행장 제재 현실화하나",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156257",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:21:17Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "보안"
+      ]
+    },
+    {
+      "id": "f24d92b8e70f45158455",
+      "title": "[카드뉴스] '60팀 아티스트에 세계 음식까지' 공연장에 여행을 담았다...놀페스티벌의 특별한 변신",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156252",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:09:03Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "6f69c09c1b4694b0192b",
       "title": "센드버드, 업스테이지와 기업용 AI 에이전트 영역서 협력",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216412",
@@ -1175,6 +2128,47 @@
       ]
     },
     {
+      "id": "ef767468df502d7801e2",
+      "title": "설문으로 기업 보안 무료 확인...네이버클라우드, 자가진단 사이트 오픈",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156254",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:06:01Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "보안"
+      ]
+    },
+    {
+      "id": "ebdd411f93d8e8bbafb5",
+      "title": "[템터뷰] 불법 유통 콘텐츠와 5년간 사투...카카오엔터 피콕, 기술 고도화로 저작권 보호 '앞장'",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156248",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:05:28Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "a37798aff3825c3afa3c",
+      "title": "전동화의 새로운 이정표, 메르세데스-벤츠 디 올 뉴 일렉트릭 CLA, 디 올 뉴 일렉트릭 GLC",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44747",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:05:14Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "3fee45ffef3c14956379",
       "title": "중국 CXMT, AI 수요에 흑자 전환 전망…주가는 6%대 하락",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216415",
@@ -1185,6 +2179,176 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "5065174b6c27202e3e06",
+      "title": "눈속임 따위는 없다! 포르쉐 미션 S 세계 최초 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44745",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:04:41Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "d325bb1474a3ea79e504",
+      "title": "엔씨 캐주얼 확장일로, 신작 '행성파괴 냥냐냥' 글로벌 띄웠다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156251",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:04:08Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "646abd66e88b6702bfc6",
+      "title": "파이널 에디션? 현대 아반떼 N 모노크롬",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44749",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:03:34Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "6379726055714ffaacb6",
+      "title": "현대차 기아, 이포레스트 테크데이 2026",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44748",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:02:48Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1062609d6fa210310241",
+      "title": "골프 R 로드쇼 2026을 통해 미리 만나보는 궁극의 핫 해치",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44752",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:01:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "0437360ed47c9b9c1510",
+      "title": "한국타이어, 대형 카고 후륜용 타이어 스마트플렉스 DH51 신규 규격 출시",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44751",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:01:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "7315216583c6a6e9a0bd",
+      "title": "스타트럭코리아, 트럭 탄생 130주년 기념 겨울 할인 이벤",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44750",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:01:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "8f80b1ff30b6594140af",
+      "title": "케이카, ‘개인 간 중고차 직거래’ 이용 희망 플랫폼 1위",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44746",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:01:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "5b3a11b47a55a4911cf4",
+      "title": "하만 레디 어웨어, 오토테크 브레이크스루 어워즈 ‘올해의 운전자 안전 솔루션’ 수상",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44744",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:01:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "09c299eddfbff55ffb71",
+      "title": "벤츠, 차세대 전기차 CLA·GLC 동반 출격 '5290만 원부터…사전계약 3500건'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61927",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:00:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "39541c066d94260e12bc",
+      "title": "IPO 앞둔 래블업 \"해외 네오클라우드와 공급 협상...내년 200억대 매출 목표\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156241",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:58:10Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어"
+      ]
+    },
+    {
+      "id": "04d8fb0f39fe573bc175",
+      "title": "해긴 '2026 프로야구GO!' 구글 인기 1위, KBO 맞춤 운영 통했다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156245",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:57:36Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "6dbbb90592ffb701f96c",
+      "title": "[국감 26] \"은행장 연임 기준은 실적?\" 질문에 손 번쩍 든 정상혁 신한은행장…하나은행장은 '내부통제'",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156255",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:53:59Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1225,6 +2389,20 @@
       ]
     },
     {
+      "id": "c01a9d4bab9a8823a79f",
+      "title": "[국감 26] '해킹·점포 폐쇄' 질타에 고개 숙인 5대 은행장…\"보안 강화·금융 공공성 확대\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156253",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:08:42Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "보안"
+      ]
+    },
+    {
       "id": "3de6f91e507847a02226",
       "title": "AI 도입 가속에 앤트로픽 초급 기술직 채용 '3분의 1'로 급감",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216399",
@@ -1247,6 +2425,19 @@
         "geeknews"
       ],
       "topics": []
+    },
+    {
+      "id": "91b94dd2deb5514eb45e",
+      "title": "[르포] \"현대차도 결국 중국에 먹힐 것\"... 연구원들이 보여준 반전 '아이디어'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61934",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:46:51Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
     },
     {
       "id": "726ad3b8b1659e553f52",
@@ -1321,6 +2512,32 @@
       ]
     },
     {
+      "id": "e115f85aa60667be64ab",
+      "title": "소프트캠프, 일본 주요 도시 순회 파트너데이 개최...현지 영업력 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208931",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:36:07Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "eeb1d0155ceb3f0d9b51",
+      "title": "오늘의 로봇 기업 주식 시세(2026-10-19)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49076",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:34:48Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "163aa7a956892f8176e4",
       "title": "우크라이나, 부상병 첫 드론 대피 주장",
       "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
@@ -1342,6 +2559,20 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "098a48ab87c7edec00c4",
+      "title": "할리스, 해킹으로 고객정보 276만건 유출…비밀번호·주소까지 포함",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156250",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:29:05Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "보안"
       ]
     },
     {
@@ -1367,6 +2598,20 @@
       "topics": []
     },
     {
+      "id": "e615a555bd953be45ce2",
+      "title": "[글로벌] AI 에이전트 확산에 아마존·금융사 '접속 차단'...플랫폼 갈등 본격화",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156246",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:56:41Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "88b5537c8caf6d2d1931",
       "title": "에이전트 모니터링",
       "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring",
@@ -1376,6 +2621,19 @@
         "hnko"
       ],
       "topics": []
+    },
+    {
+      "id": "8eb2913d167cba88f117",
+      "title": "한국엡손, 'TEX+VISION 2026'서 텍스타일 프린터 7종 선보인다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156247",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:49:45Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
     },
     {
       "id": "b02f149704ce57320f45",
@@ -1388,6 +2646,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "de884606495f2ead8bcf",
+      "title": "[CISO 보안칼럼] 금융권 해킹공격 이후 우리는 제대로 대응하고 있을까?",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208929",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:44:14Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -1412,6 +2683,71 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "2b5ffff30790ccf39bff",
+      "title": "\"올가을 단풍 어디서 볼까?\"...카카오맵·티맵이 알려준다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156235",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:29:03Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "babd3d46305d7d76bc15",
+      "title": "코웨이, 日 굿 디자인 어워드 5관왕…세계 4대 디자인상 모두 석권",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156244",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:28:24Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "f78cbc08c2537097f23e",
+      "title": "'달리면 기부된다'…빗썸, 3000명 함께하는 한강 나눔 마라톤 개최",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156243",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:26:00Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "a7a0922866ea080d8080",
+      "title": "[테크M 이슈] 하반기 게임업계 키워드는 '착한과금'...라이트 MMORPG 전략 통했다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156240",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:23:15Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "e353f899d8a2e3f3b1ef",
+      "title": "[테크M 리포트] 'BTS 효과'에 다시 뛰는 하이브…실적 급증에 코르티스·캣츠아이까지",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156242",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:22:43Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1466,6 +2802,19 @@
       "topics": []
     },
     {
+      "id": "05aa5771ef24380976e8",
+      "title": "퀄컴, 강릉 ITS 세계총회서 V2X 교통안전 기술 선보인다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156239",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:56:20Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "8878a3cf86331b5b891f",
       "title": "여수서 열린 전남광주 평생학습박람회…이틀간 1만여명 참여",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216391",
@@ -1492,6 +2841,19 @@
       ]
     },
     {
+      "id": "6930333c6798c5770f83",
+      "title": "코오롱베니트, 중기부 상생형 AX 선도모델 구축 사업 도입기업 확정",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208927",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:42:14Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
       "id": "33611c9f1e0c347d7267",
       "title": "Show HN: Cloudflare에서 무료로 실행하는 WhatsApp MCP",
       "url": "https://news.hada.io/topic?id=35643",
@@ -1514,6 +2876,34 @@
       "topics": []
     },
     {
+      "id": "3c940b9afe8f261d717a",
+      "title": "솔트웨어, 글로벌 보안 기업 Wiz와 파트너십...클라우드·AI 보안 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208926",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:33:56Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "5c639d732206293807db",
+      "title": "‘아시모’ 상용화 실패 딛고 일어선 日 혼다…원격 조작형 아바타 로봇 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49074",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:30:34Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "32d0b345fbf2c7ab8e59",
       "title": "IPO 앞둔 엔스케일에 대형 악재…MS, 영국 데이터센터 계약 철수",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216401",
@@ -1524,6 +2914,20 @@
       ],
       "topics": [
         "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "89016ebc2746ba618ef6",
+      "title": "안랩, 싱가포르 보안 콘퍼런스 'GovWare 2026'서 AI 보안 역량 선봬",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208925",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:14:09Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
         "AI"
       ]
     },
@@ -1550,6 +2954,48 @@
         "hnko"
       ],
       "topics": []
+    },
+    {
+      "id": "7243d1471f9d75cdbbaf",
+      "title": "클라우드네트웍스, 국제 개인정보보호 심포지엄서 'AI 통합 거버넌스 프레임워크' 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208924",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:04:21Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "915c853b0f66a7551023",
+      "title": "\"아이디어가 양산차 기술로\"... 현대차·기아, 16년 이어온 R&D 혁신의 요람",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61933",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:58:36Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "c378d5dfaa32959d399c",
+      "title": "스패로우, 일본 ‘시큐리티 데이즈 폴 2026’에 참가...AI 코드 보안 어시스턴트 첫선",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208923",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:49:06Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
     },
     {
       "id": "2e9a389e94c20d739e89",
@@ -1600,6 +3046,127 @@
       ]
     },
     {
+      "id": "d71e9ff30298f73e16eb",
+      "title": "日 가와사키중공업-마쓰오연구소, 휴머노이드 강화학습 제어 기술 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49071",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:07:58Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "3c7ddcaf73f34ec67c16",
+      "title": "[국감 26] 이찬진 금감원장 \"SK하이닉스 솔리다임 美 상장, 중복상장 소지 있어…면밀히 검토\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156238",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:06:43Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "6446e53a376cf38adce1",
+      "title": "[국감 26] '출시 일정 맞추려 심사 서둘렀다'…이찬진, 단일종목 레버리지 ETF 국감서 인정",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156237",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:03:25Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "38668d9fcf756326ed41",
+      "title": "퀀텀에어로, ‘2026 하이서울기업’ 최종 선정…서울시 유망中企로 공식 지정",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49073",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:59:45Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "038dcb79a946f3020ae9",
+      "title": "[국감 26] '코인 사기부터 AI 해킹까지'…이찬진 금감원장 \"KISA 수준으로 보안 역량 강화할 것\"",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=156236",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:57:39Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "d945709d88aad87f8c43",
+      "title": "MIT 연구팀, 근육세포로 움직이는 초소형 수중 로봇 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49067",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:46:59Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "0cb9dc5c23314dfd92d7",
+      "title": "“뒤에서 접근하는 로봇이 더 빠르게 느껴진다”…특성 반영 로봇, 회피 동작 빨라",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49066",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:44:28Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "325aba93601a756d7a80",
+      "title": "시큐리티스코어카드, AI 기반 제3자 위험 관리 플랫폼 ‘타이탄 AI’ 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208922",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:39:18Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "76f5c246a3673a8e26e9",
+      "title": "디와이씨, ‘아마존향’ 전기 배송 차량 핵심부품 공급 순항",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49070",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:36:19Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
       "id": "ad2c1c8bca61e7625641",
       "title": "미국 \"인도·인도네시아·라오스 태양광 수입에 자국 산업 피해\"…반덤핑·상계관세 부과",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216385",
@@ -1624,6 +3191,32 @@
       "topics": []
     },
     {
+      "id": "59c2fe4ac4c89a68b754",
+      "title": "휴로틱스, KAIST 공학박사 출신 경영 전문가 최일범 COO 영입",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49069",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:27:25Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "286173628f42b226aed1",
+      "title": "벤츠 AMG, 1169마력 전기 SUV 공개 '제로백 2.7초·10분 충전 450km'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61932",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:20:15Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "2f086dce060e2ab3198e",
       "title": "중국, 페로브스카이트·탠덤 태양광 제조기술 수출금지 추진",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216384",
@@ -1633,6 +3226,34 @@
         "aitimes"
       ],
       "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "d8bc8d9453e61febfafc",
+      "title": "\"주유하듯 빠르게\"... BYD, 인도네시아서 초급속 ‘플래시 충전' 네트워크 구축",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61930",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:18:56Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "7309ff7b0d54a54126a1",
+      "title": "\"로봇이 스스로 자기 몸을 익힌다\"…로바이, 中 링커봇과 피지컬 AI 기술 검증",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49068",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:14:48Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
         "AI"
       ]
     },
@@ -1647,6 +3268,178 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "ea3b8f970f8fe9816f6b",
+      "title": "2035년 내연기관 규제 완화 합의, 프랑스·독일 '유럽산 우대 정책도 추진'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61929",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:02:46Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "2bfcaebd740e4e91ab2d",
+      "title": "모션 솔루션 기업 씨앤엠, 코스닥 상장 증권신고서 제출",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49065",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:41:41Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "fd5baa496b193f295227",
+      "title": "[투자를IT다] 2026년 10월 2주차 IT기업 주요 소식과 시장 전망",
+      "url": "https://it.donga.com/109728",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:37:46Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "d82d8d4aa9c82ac73594",
+      "title": "원프레딕트, 대구 ‘FIX 2026’ 참가…제조 AI 영남권 고객 접점 확대",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49064",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:25:25Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "d94ef521f98904e2d3c5",
+      "title": "현대차, 아반떼 N 모노크롬 전격 공개 '화려함 덜고 고성능 감성 강조'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61928",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:23:47Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "5462938129c1e0f15d15",
+      "title": "에스오에스랩, ‘강릉 ITS 세계총회’서 자율주행·스마트 인프라 신제품 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49063",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:11:25Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "aa619f9777da2b6fee1c",
+      "title": "로엔서지컬 '자메닉스', 印尼서 10년 난치성 신장결석 완전 제거해 학술지 등재",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49062",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:03:33Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "241388620c8c0d647cb1",
+      "title": "기아, 6세대 완전변경 스포티지 포착 'EV5 닮은 디자인에 사이즈 확대'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61924",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:01:27Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "bded2fa44fbfd675deeb",
+      "title": "겨울방학 8주 투자 현대차·기아 취업 노린다... ‘소프티어 부트캠프 9기’ 모집",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61925",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:50:58Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "5f81c7b1a851733d6cf1",
+      "title": "에이로봇, ‘FIX 2026’ 참가…‘앨리스 5’ 앞세워 영남권 제조현장 공략 나선다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49061",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:50:44Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "ee1e8277d27a2e02bc11",
+      "title": "테솔로, 25자유도 AI 로봇핸드 개발 주도…휴머노이드 정밀조작 기술 확보 나선다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49059",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:35:49Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "57786e9c781929f926d1",
+      "title": "르노, 1960년대 스포츠카 '8 고르디니' 복고풍 전기차로 부활 검토",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61921",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:34:49Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "346a771a52b0bc9a8fbd",
+      "title": "\"타고 즐기고 소통하고\"... 현대차 역대급 '모빌리티 플레이그라운드 시즌2'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61922",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:31:59Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1682,6 +3475,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "532e7074f65f7346e37a",
+      "title": "\"유럽에서 밀린 포드, 르노·지리 손잡았다\" 2028년 소형 전기차로 재도전",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61919",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:51:41Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -1808,6 +3614,19 @@
       ]
     },
     {
+      "id": "cd5649fea89fa7d2c693",
+      "title": "GM, 캐딜락 CT5 단독 생산 '랜싱 공장' 가동 중단 검토... 전동화 차질 여파",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61918",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:57:17Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "d004ff616e08b5b5edda",
       "title": "클레온, 삼성 사이니지 활용 서울역에 'AI 역무원' 시범 운영",
       "url": "https://www.etnews.com/20261019000374",
@@ -1846,6 +3665,34 @@
       "topics": [
         "소프트웨어",
         "보안"
+      ]
+    },
+    {
+      "id": "18867330bfd48184ce7d",
+      "title": "토요타, 바르셀로나 6시간 원투 피니시... 2026 WEC 제조사 챔피언 확정",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61917",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:16:36Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "e73d70ef3310c70fa6d9",
+      "title": "[스타트업-ing] 언제 어디서나 스스로, 똑똑하게···퓨잇, 위성·AI 결합한 eCall SaaS 개발",
+      "url": "https://it.donga.com/109721",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:10:53Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -1928,6 +3775,60 @@
       ]
     },
     {
+      "id": "cce5c84ba8c252fbd672",
+      "title": "[정보보안 연재소설-로그아웃되지 않는 밤] 제54화 '전 세계가 터진 날'",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208920",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:00Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "4a107114e254e24d8180",
+      "title": "[이혁중 CISO 칼럼] AI 시대에도 아무것도 믿지 말라",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208919",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:00Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "eb3f6156e3e343e2453f",
+      "title": "[김승주 교수 칼럼] ISMS 인증을 받았는데 왜 해킹을 당했을까?",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208918",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:00Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "f023685cc2ca084194e1",
+      "title": "레코디드 퓨처 \"국내 금융권 연쇄 해킹 배후 ‘TAG-217’ 8월부터 공격 준비…AI 활용해 공격 범위 확대\"",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208917",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:00Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
       "id": "f388608c996b713237a8",
       "title": "피아니스트 정석주, 가을밤을 수놓는'쇼팽 피아노 리사이틀' 개최",
       "url": "https://www.etnews.com/20261019000346",
@@ -1951,6 +3852,19 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "4d3b41472956152d7e34",
+      "title": "[스타트업-ing] 디지털 향기로 새 시장 개척···딥센트, 어떻게 후각 콘텐츠 풀어왔나",
+      "url": "https://it.donga.com/109720",
+      "summary": "",
+      "publishedAt": "2026-10-19T06:48:28Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -1978,6 +3892,19 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "b77237f6f8ed4c73882d",
+      "title": "온디맨드바이오 “합성생물학·정밀발효로 수요 맞춤형 바이오 소재 생산” [과기대 BI 우수기업]",
+      "url": "https://it.donga.com/109725",
+      "summary": "",
+      "publishedAt": "2026-10-19T06:33:09Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
     },
     {
       "id": "15953d3ac1a094389b61",
@@ -2093,6 +4020,19 @@
       ]
     },
     {
+      "id": "06434007a1923a468bd5",
+      "title": "서울과기대 창업지원단, ‘모두의 창업’ 도전자 아이디어 지킨다···멘토링부터 특허 출원까지 지원",
+      "url": "https://it.donga.com/109723",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:42:45Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "7dac97087f11f8ee9a7b",
       "title": "2026년 10월 인도 핀테크 뉴스",
       "url": "https://velopers.kr/post/9484",
@@ -2115,6 +4055,20 @@
       ],
       "topics": [
         "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "6bce0a990b47eb72a388",
+      "title": "세종창조경제혁신센터·SKT·세종시사회서비스원, AI 기술로 ‘예방적 돌봄’ 실증 추진",
+      "url": "https://it.donga.com/109724",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:41:29Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
         "AI"
       ]
     },
@@ -2811,6 +4765,20 @@
       ]
     },
     {
+      "id": "e28b168192b2fd942b5f",
+      "title": "“알면서도 훔쳤다” 저작권 위에 세워진 빅테크 AI",
+      "url": "https://www.itworld.co.kr/article/4236861/%eb%a7%88%ec%9d%b4%ed%81%ac%eb%a1%9c%ec%86%8c%ed%94%84%ed%8a%b8%eb%8a%94-ai-%ed%9b%88%eb%a0%a8%ec%9d%84-%ec%9c%84%ed%95%b4-%ea%b2%8c%ec%9e%84-%ea%b0%9c%eb%b0%9c%ec%82%ac%eb%93%a4%ec%9d%84-%ec%b0%a9.html",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:00:53Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "009c6336177bccaa6e47",
       "title": "LG CNS, IDC 글로벌 디지털 워크플레이스 서비스 평가 '메이저 플레이어' 선정",
       "url": "https://www.etnews.com/20261019000056",
@@ -2909,6 +4877,20 @@
       ]
     },
     {
+      "id": "92176dbd096705dce119",
+      "title": "AI 인프라 열풍의 역설, 투자금 회수는 멀었다",
+      "url": "https://www.itworld.co.kr/article/4236850/2030%eb%85%84%ea%b9%8c%ec%a7%80-ai-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0%ec%9d%98-%ec%9e%90%eb%b3%b8%ec%a7%80%ec%b6%9c%ec%9d%80-%ec%98%88%ec%83%81-%eb%a7%a4%ec%b6%9c%ec%9d%84-%ed%9b%a8.html",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:27:50Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "69cfb86f2c733936ecdd",
       "title": "더존비즈온, 전 임직원 대상 'AX 어워즈' 개최…상금 최대 1000만원",
       "url": "https://www.etnews.com/20261019000036",
@@ -2985,6 +4967,19 @@
       "topics": []
     },
     {
+      "id": "79189f0ef892bde93c29",
+      "title": "엔비디아 DLSS, 최고급 그래픽 카드의 존재 이유를 스스로 허물다",
+      "url": "https://www.itworld.co.kr/article/4236830/%ec%97%94%eb%b9%84%eb%94%94%ec%95%84-dlss-%ec%b5%9c%ea%b3%a0%ea%b8%89-%ea%b7%b8%eb%9e%98%ed%94%bd-%ec%b9%b4%eb%93%9c%ec%9d%98-%ec%a1%b4%ec%9e%ac-%ec%9d%b4%ec%9c%a0%eb%a5%bc-%ec%8a%a4%ec%8a%a4.html",
+      "summary": "",
+      "publishedAt": "2026-10-18T23:59:15Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "f2f3039af9321e7be7c9",
       "title": "현대차, '2026 모빌리티 플레이그라운드 시즌 2' 성료…750명 참가",
       "url": "https://www.etnews.com/20261019000011",
@@ -3009,6 +5004,59 @@
       "topics": [
         "기술",
         "개발"
+      ]
+    },
+    {
+      "id": "b2c0141f369ef98b79cf",
+      "title": "‘젊은 로봇 공학자’ (94) 한국기계연구원 백승혁 선임연구원",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49058",
+      "summary": "",
+      "publishedAt": "2026-10-18T23:27:49Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "386084a34b7aae87f88f",
+      "title": "[신차공개] 렉서스 ‘올 뉴 ES’ 출시·지커 ‘9X’ 파리 모터쇼서 공개",
+      "url": "https://it.donga.com/109719",
+      "summary": "",
+      "publishedAt": "2026-10-18T22:23:43Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "3f1e81075deeb599d941",
+      "title": "금주의 로봇 캘린더(2026. 10. 19 ~ 10. 25)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49057",
+      "summary": "",
+      "publishedAt": "2026-10-18T22:21:26Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "38a3fcc08bfab36536bf",
+      "title": "[Books] 포텐 폭발, AI 분신테크",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49056",
+      "summary": "",
+      "publishedAt": "2026-10-18T22:04:44Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -3057,6 +5105,259 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "528e0570445a4d5af01b",
+      "title": "中 협동로봇 기업 모잉로보틱스, 지멘스와 산업용 로봇 공동 개발한다",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49054",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:44:20Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "02ec06f4a355a1f3f262",
+      "title": "美 AWS, 로봇용 오픈소스 ‘피지컬 AI 툴체인’ 출시",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49050",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:44:09Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "개발",
+        "AI"
+      ]
+    },
+    {
+      "id": "4cf5b3ef818169104b9d",
+      "title": "中 두봇, 정밀성 높은 7축 힘 제어 로봇팔 '베가 7' 발표",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49047",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:43:53Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "4e98622262c57e0da83c",
+      "title": "\"배터리 없이 걷는다\"…스스로 전기를 만드는 로봇 스킨 기술 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=48997",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:43:27Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "826939fbd525a2bc50e9",
+      "title": "美 런웨이 AI, 인터넷 영상으로 로봇 학습하는 월드액션모델 ‘프랙시스-1’ 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=48998",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:43:13Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "f487e54887fbba13a7c9",
+      "title": "日 도요타 자동화 물류, 고객들에게 만능칼같은 다양한 창고기술 옵션",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49053",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:38:40Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "5bfd2a29d249282efb3f",
+      "title": "美 이더AI, 자신의 행동 점검하는 로봇 AI 시스템 공개",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49051",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:38:17Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "581b33e54fd636674b66",
+      "title": "中 매직랩 AI 프레임워크, 세계적 순위 평가에서 1위 기록",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49046",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:37:38Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "28b99b723c4d02a9a4c4",
+      "title": "중국 상하이시 “휴머노이드 로봇 8000대 제조공장에 배치할 것”",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49043",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:37:15Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "ad5929cd0453d1464ba1",
+      "title": "스페인 UC3M 연구팀, 물체 놓지 않고 조작하는 소프트 그리퍼 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49019",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:36:45Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "ad0efdac945311877ed8",
+      "title": "ABB, 산업용 로봇 ‘IRB 1700’ 시리즈 공개…가반하중 6~12kg",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49017",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:36:17Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "a872dd79d3d43c923fd3",
+      "title": "日 다케나카 토목, 산악 터널공사 '폭약 원격 장전 로봇' 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=48999",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:35:53Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "8bca113f620673ce6fbb",
+      "title": "싱가포르 SUTD, 자율 해양로봇 ‘알바트로스’ 개발…“공중서 투하해 바다로”",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=48996",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:35:23Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1b941a3314403809452a",
+      "title": "美 울트라, 창고 로봇 앞세워 670억원 투자 유치",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49052",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:34:32Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "ee1c551cf085d5c217cd",
+      "title": "美 세이프월드, 로봇안전 테스트 시뮬레이션 기술로 164억원 유치",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49049",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:34:04Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "d107b149cab0f6a79645",
+      "title": "日 참케어 요양원 운영사, 도넛 로보틱스 휴머노이드에 투자",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49048",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:33:37Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "f232e434586c81e7d5b4",
+      "title": "中 긱플러스, 유럽 패션기업에 물류 로봇 1600대 공급",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49045",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:32:47Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "ce2d1400bf7b27022062",
+      "title": "中 국경지역 신장서도 “휴머노이드는 돈 되는 아이템”",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49044",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:32:20Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "e36241ba411cc2224abe",
+      "title": "日 푸에리솜니아, 4족보행 로봇·드론 결합한 인프라 점검 시스템 출시",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49018",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:31:40Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -3199,6 +5500,19 @@
       ]
     },
     {
+      "id": "e65aba0d2874fe0d8ad8",
+      "title": "이광희 의원, 따릉이 462만 명 개인정보 유출 대응 질타",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208921",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:13:23Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
       "id": "c66703033e1923f5b1c0",
       "title": "“AI, 기술을 넘어 일상이 되다”…역대 최대 규모 'FIX 2026' 대구서 개막",
       "url": "https://www.etnews.com/20261016000013",
@@ -3221,6 +5535,45 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "7efa4820c0220e3a8977",
+      "title": "[르포] 르노 '기앙쿠르 테크노센터' 일본에 놀라 세웠는데 '2년 개발' 속도전 거점 변신",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61910",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:09:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "5c0de2326c7ca4385d21",
+      "title": "[르포] 르노 프랑스 플랑 공장, 70년 완성차 조립 끝내고 '새로운 수명' 창조",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61913",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:07:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "711d3f8f73c0b7fc936d",
+      "title": "KAIST, 로봇과 빛으로 신약 후보 만든다…‘24시간 무인 합성 플랫폼’ 개발",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49042",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:01:08Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
     },
     {
       "id": "272b18db93ed60867f1e",
@@ -3311,6 +5664,19 @@
       ]
     },
     {
+      "id": "ed681e88964ca3956daf",
+      "title": "뜨겁게 달궈진 폭스바겐 팬덤 ‘2026 골프 트레펜’... 333마력 ‘골프 R’ 최초 공개",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61916",
+      "summary": "",
+      "publishedAt": "2026-10-18T09:36:46Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "6b24398b674088505fb4",
       "title": "[flex update] 자동 퇴근·초과 근무 관리, 전자계약 서식 다운로드 및 평가 설정 개선",
       "url": "https://indieblog.net/go/615740",
@@ -3333,6 +5699,21 @@
       "topics": [
         "개발",
         "AI"
+      ]
+    },
+    {
+      "id": "2cc6f3a3ef3864e626d5",
+      "title": "[르포] '자동화 넘어 스스로 판단' 현대차·기아, AI·로봇 제조 혁신의 현장",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61909",
+      "summary": "",
+      "publishedAt": "2026-10-18T09:00:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "기술",
+        "AI",
+        "자동차"
       ]
     },
     {
@@ -3362,6 +5743,19 @@
       ]
     },
     {
+      "id": "d15952f66a5a6ec6e959",
+      "title": "제네시스 \"제대로 사고 쳤다\" WEC 바르셀로나 6시간 '역사상 첫 폴포지션'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61915",
+      "summary": "",
+      "publishedAt": "2026-10-18T08:45:01Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "07df85f1f4081c40742a",
       "title": "브라질 대선, 태양광 확대 놓고 룰라·보우소나루 정책 경쟁",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216310",
@@ -3384,6 +5778,19 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "659e67e6667b8aecf50b",
+      "title": "[칼럼] \"전후방 번갈아 세우면 도어 공간 2배\" 주차 불편 덜고 문콕 방지",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61914",
+      "summary": "",
+      "publishedAt": "2026-10-18T08:20:13Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
     },
     {
       "id": "86b42292881e62c86ce2",
@@ -3665,6 +6072,33 @@
       "topics": []
     },
     {
+      "id": "4d0549ebd097f023072d",
+      "title": "[단독] 에베레스트 랜섬웨어 조직, 국내 네트워크 보안기업 263GB 데이터 탈취 주장…75개 기관·기업 관련 자료 노출 우려",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208916",
+      "summary": "",
+      "publishedAt": "2026-10-17T13:54:44Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "기술",
+        "보안"
+      ]
+    },
+    {
+      "id": "b4fc725ab90d23d83d83",
+      "title": "전국체전 현장에 로봇이 떴다, 체험부터 서비스까지 한국로봇산업진흥원 로봇 홍보부스 운영",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49040",
+      "summary": "",
+      "publishedAt": "2026-10-17T13:07:16Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "b25f4b39ba704384536a",
       "title": "스프링 IoC 컨테이너: BeanFactory와 ApplicationContext",
       "url": "https://indieblog.net/go/608124",
@@ -3762,6 +6196,19 @@
       "topics": []
     },
     {
+      "id": "0336f7df78daede26f16",
+      "title": "‘사람+로봇+제주’가 함께하는 디지털 체전 개막",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49039",
+      "summary": "",
+      "publishedAt": "2026-10-17T00:18:45Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "b2b8c0ed40d9021ac060",
       "title": "에이전트를 위해 준비한 문서, 코딩 에이전트는 실제로 어떻게 읽었을까",
       "url": "https://indieblog.net/go/608446",
@@ -3795,6 +6242,272 @@
       "topics": []
     },
     {
+      "id": "25235fa5f9e954c89eee",
+      "title": "가장 이상적인 수입차 구매 여정은?",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44733",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:37:55Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "98baf4542684b56ff049",
+      "title": "단 5대, 마세라티 그레칼레 비앙코 인베르노 에디션",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44743",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:37:35Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "505403acd6601da0b5a7",
+      "title": "BMW 코리아, 더 뉴 BMW 7시리즈 사전예약 실시",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44742",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:37:13Z",
+      "sourceIds": [
+        "etnews-mobility",
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "bcecd3c6d4c34b2c3b64",
+      "title": "SUV 전용 3세대 겨울용 타이어 피렐리 스콜피온 윈터3 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44741",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "5ff63ae28be5971f9680",
+      "title": "아우디 Q7, 유로 NCAP ‘충돌 후 안전성’ 평가 양산차 최초 100% 달성",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44740",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1befefe4a745b3c3d8d5",
+      "title": "기아, PV5 기반 원격 운전 카셰어링 시범 서비스 개시",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44739",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "cbeed292f715e168e282",
+      "title": "채비, 2026년 전기차 충전시설 보조사업 운영사 제조사 동시 선정",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44738",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "076b621d1a66612eb087",
+      "title": "HS효성더클래스, AI 기반 자동차 점검 시스템, 메르세데스-벤츠 파트너사 최초 도입",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44737",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "40cc6e850376f641d2f3",
+      "title": "한세모빌리티, 우즈베키스탄 투란공장 준공",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44735",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "e22fb6fb0009e1f3524a",
+      "title": "BMW 바바리안 모터스, 인천 BPS MINI NEXT 인증중고차 전시장 오픈",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44734",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:35:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "ca2227aaddbbd6956f20",
+      "title": "넥스데이타코리아, 피지컬 AI 개발 위한 데이터 통합 솔루션 제공",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49037",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:15:55Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "34ce4c676abc8bdbc057",
+      "title": "‘2026 로보월드’서 한양대 ERICA 혁신허브 입주기업 모집 현장 접수",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49038",
+      "summary": "",
+      "publishedAt": "2026-10-16T17:10:59Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "fe27f3840c01aa695301",
+      "title": "티로보틱스, 102억원 규모 피지컬 AI 기반 자율제조 R&D 참여",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49036",
+      "summary": "",
+      "publishedAt": "2026-10-16T16:40:05Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "7c5190779d34fd0b8abb",
+      "title": "대구 로봇 공간컴퓨팅 스타트업 4개사, 상하이서 중국시장 공략",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49035",
+      "summary": "",
+      "publishedAt": "2026-10-16T16:18:44Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "8d3369feae002853b740",
+      "title": "박대출 의원 “우리은행 21.7%·신한은행 10.4% 감액…5대 은행 정보보호 예산 공개“",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208915",
+      "summary": "",
+      "publishedAt": "2026-10-16T16:13:07Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "f1066d55ba9d3f3f0d74",
+      "title": "직원 10명에게 보낼 감사자료, 외부 5,857명에…시청자미디어재단 오발송",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208914",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:54:23Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "5d656196ebfea5d5cf14",
+      "title": "연세대 바른ICT연구소, 아시아 전문가들과 AI 개인정보보호 과제 논의",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208913",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:41:45Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "e858331389535d1cc5d7",
+      "title": "주간 로봇 기업 주가 동향(10/12 ~ 10/16)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49034",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:35:58Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1fdeea521a4e0613cc10",
+      "title": "오늘의 로봇 기업 주식 시세(2026-10-16)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49033",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:35:35Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "030b93713b5ace38a204",
+      "title": "오픈AI, 국내 CISO 대상 사이버 방어 전략 공유…“실제 위험 감소가 핵심”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208912",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:13:53Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
       "id": "a4bc8806b4f0a3e564f5",
       "title": "한국 자주포가 미군을 만족시킨 비밀(feat 한화, K9)",
       "url": "https://blog.naver.com/ranto28/224443747132?fromRss=true&trackingCode=rss",
@@ -3806,6 +6519,48 @@
       "topics": []
     },
     {
+      "id": "fb1363e395714c426989",
+      "title": "오픈AI, 챗GPT 음성 기능 업데이트…한국어 목소리 ‘한울·햇살’ 추가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208911",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:09:35Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "a4a728e92d21dfe891ac",
+      "title": "아우토크립트, 강릉 ITS 세계총회서 차량 사이버보안 기술 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208910",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:06:22Z",
+      "sourceIds": [
+        "etnews-security",
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "자동차"
+      ]
+    },
+    {
+      "id": "2a6fab56eb3e0255b289",
+      "title": "금융보안원, 대표 홈페이지 개편…주요 업무·연구자료 접근성 높여",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208909",
+      "summary": "",
+      "publishedAt": "2026-10-16T15:03:16Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
       "id": "6213041ebf388527754b",
       "title": "당신이 매일 보는 그 IT 회사가 감히 메리츠금융지주에 도전장을?!!",
       "url": "https://blog.naver.com/anordinarydad/224444190106",
@@ -3815,6 +6570,60 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "468982ebe65be6884a1b",
+      "title": "넷스카우트, 장애 분석 돕는 대화형 AI ‘엔지니어스 코파일럿’ 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208908",
+      "summary": "",
+      "publishedAt": "2026-10-16T14:34:59Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "a241e28eb9d14d2e954e",
+      "title": "병원정보보안협회–스패로우, 병원 정보시스템 취약점 개선 협력",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208907",
+      "summary": "",
+      "publishedAt": "2026-10-16T14:11:58Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "8c75c58c179efa3a727a",
+      "title": "샌즈랩, 싱가포르서 온디바이스 AI 위·변조 탐지 기술 시연",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208905",
+      "summary": "",
+      "publishedAt": "2026-10-16T14:02:49Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "246bae88d96f7448b582",
+      "title": "[단독] ‘샤이니헌터스 창립자 Aegis’ 계정, 한국 국방부ㆍ방첩사 관련 데이터 1TB 판매 글 게시",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208904",
+      "summary": "",
+      "publishedAt": "2026-10-16T13:30:37Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
     },
     {
       "id": "0aca941b73bd0eb0fda3",
@@ -3830,6 +6639,19 @@
       "topics": []
     },
     {
+      "id": "899be4e995745da2fcb3",
+      "title": "새끼 손가락까지 묶어 보고 만들었다...차원이 다른 '아틀라스의 손'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61908",
+      "summary": "",
+      "publishedAt": "2026-10-16T12:58:26Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "50940e9730f56e403c89",
       "title": "“트럭 뛰어넘어 공중회전” 테슬라, 하늘을 나는 차 '로드스터' 공개",
       "url": "https://www.etnews.com/20261016000346",
@@ -3840,6 +6662,19 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "a7479886b47591d7c505",
+      "title": "[정보보안 연재소설-로그아웃되지 않는 밤] 제53화 '전 세계가 터진 날'",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208903",
+      "summary": "",
+      "publishedAt": "2026-10-16T12:40:34Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
       ]
     },
     {
@@ -3871,6 +6706,86 @@
       "topics": []
     },
     {
+      "id": "068ce3e37444b5231916",
+      "title": "\"로켓인가 자동차인가\" 테슬라 차세대 ‘로드스터' 공개... 제로백 0.81초",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61907",
+      "summary": "",
+      "publishedAt": "2026-10-16T11:58:06Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "217912f1828b680d5cfc",
+      "title": "\"4자리수 출력은 쉽죠\" 벤틀리 토르칼이 선택한 차별점은 \"창조적 빛과 소리\"",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61904",
+      "summary": "",
+      "publishedAt": "2026-10-16T11:00:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "9c6437d7aadfa0431726",
+      "title": "FBI, 북한 IT 인력 ‘노트북 팜’ 대규모 단속…미국인 조력자 2명 체포",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208902",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:52:41Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "fa223ba28f978077ac23",
+      "title": "글로벌 AI 인프라 시장의 중심지로 떠오른 OCP, 자리를 빛낸 한국 기업들은?",
+      "url": "https://it.donga.com/109718",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:40:46Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "1ddacea99865129c2957",
+      "title": "매출 늘어도 이익은 뒷걸음…수익성 경고등 켜진 완성차 업계",
+      "url": "https://it.donga.com/109717",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:01:44Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "823fd9c2f8527a2dcf10",
+      "title": "마세라티, 5대 한정판 ‘그레칼레 비앙코 인베르노’ 출시… 1억 1390만원",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61906",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:01:16Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "678f2230c36c4b26035f",
       "title": "폭풍우의 끝에서 제타民을 만나다",
       "url": "https://velopers.kr/post/9471",
@@ -3882,6 +6797,112 @@
       "topics": []
     },
     {
+      "id": "44a087793db74a684f19",
+      "title": "티오리 ‘진트’, 앤트로픽 ‘사이버 검증 프로그램’ 합류",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208901",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:59:47Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "060d817ffe25bcda183d",
+      "title": "디사일로, 피지컬 AI 보안 국책과제 참여…완전동형암호 기반 데이터·모델 보호 기술 개발",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208900",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:54:36Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "d08f81808985ebbf3641",
+      "title": "“유출 피해 보상해준다”는 연락 주의…빗썸, 2차 금융사기 예방 캠페인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208899",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:49:33Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "976b3f76c0995af110d4",
+      "title": "완전변경 뺨치는 '더 뉴 BMW 7시리즈' 사전예약... 럭셔리 세단 왕좌 굳히기",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61905",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:45:22Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1658cf236997c3991ed1",
+      "title": "아우디 Q7, 유로 NCAP 별 5개 '충돌 후 안전성' 양산차 최초 100% 달성",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61903",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:31:45Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1c19de33ef8f01322c6f",
+      "title": "[EV 트렌드] 글로벌 전기차 6개월 만에 '멈칫'...미·중 쇼크에 9월 2% 감소",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61902",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:19:13Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "4b1f10dbe83e9c71378e",
+      "title": "'완전자율주행 대안' 찾은 기아, PV5 원격 운전으로 PBV 상용화 가속",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61901",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:17:53Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "e0bba37f091bd52a018a",
+      "title": "“AI가 찾아주는 내 미래 짱구 캐릭터는?”…닷밀, 성수에 ‘짱구’ 체험형 전시 개막",
+      "url": "https://it.donga.com/109716",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:16:20Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "e9a13e36582323df069d",
       "title": "바이브 코딩으로 레거시 현대화하기 (2/2): 웹의 역사와 함께 쌓인 PHP",
       "url": "https://roboco.io/posts/legacy-php-vibe-coding-modernization",
@@ -3891,6 +6912,34 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "dc355b0b834c9aefaaf0",
+      "title": "수면 환경을 이해하고 개인화하는 AI 웨어러블로 진화한 “디비비츠 포미버즈 2”",
+      "url": "https://it.donga.com/109711",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "5199f128da07570345fe",
+      "title": "AI스페라, '시큐리티 데이즈 폴 2026 도쿄' 참가...AITEM으로 일본 시장 공략",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208885",
+      "summary": "",
+      "publishedAt": "2026-10-16T09:00:00Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
     },
     {
       "id": "9ca82c0fb6ef477ba0a8",
@@ -3905,6 +6954,19 @@
       "topics": []
     },
     {
+      "id": "7f541e5a6c74f0794bf8",
+      "title": "550 스파이더 타임슬립... 포르쉐, 미드십 슈퍼 스포츠카 ‘미션 S’ 최초 공개",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61900",
+      "summary": "",
+      "publishedAt": "2026-10-16T08:48:04Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "b5db297454bc7ad2f75e",
       "title": "GTA6 국내 심의 통과... '청소년이용불가'로 11월 19일 출시 가능",
       "url": "https://www.etnews.com/20261016000308",
@@ -3912,6 +6974,19 @@
       "publishedAt": "2026-10-16T08:16:53Z",
       "sourceIds": [
         "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "7ab69df1de9c4595da96",
+      "title": "PoC부터 글로벌 진출까지, 경기혁신센터 오픈이노베이션 ‘유니콘 브릿지’",
+      "url": "https://it.donga.com/109715",
+      "summary": "",
+      "publishedAt": "2026-10-16T08:12:24Z",
+      "sourceIds": [
+        "itdonga"
       ],
       "topics": [
         "기술"
@@ -3928,6 +7003,46 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "83258175023dac816c8d",
+      "title": "디컴포지션 “미세·나노 플라스틱, 보이지 않는 위협을 관리합니다” [IBK기업은행×KIMST]",
+      "url": "https://it.donga.com/109706",
+      "summary": "",
+      "publishedAt": "2026-10-16T08:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "35f8547a107c5ce87f61",
+      "title": "[위클리크립토] 국감서 윤곽 드러난 원화 스테이블코인, 과세는 유예 공방 外",
+      "url": "https://it.donga.com/109714",
+      "summary": "",
+      "publishedAt": "2026-10-16T07:51:06Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "d4be6f173f2625ce21d8",
+      "title": "‘사람’ 인증 넘어 ‘기기’까지 확인…금융 보안 빈틈 메우는 ‘휴믹스’",
+      "url": "https://it.donga.com/109712",
+      "summary": "",
+      "publishedAt": "2026-10-16T07:43:54Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "보안"
       ]
     },
     {
@@ -4243,6 +7358,20 @@
       "topics": []
     },
     {
+      "id": "a1a4a80cc10a5e46c16c",
+      "title": "CVSS 점수의 한계와 올바른 취약점 우선순위 판단법",
+      "url": "https://www.itworld.co.kr/article/4236164/%ec%96%b4%eb%96%a4-%ec%b7%a8%ec%95%bd%ec%a0%90%ec%9d%84-%eb%a8%bc%ec%a0%80-%ed%95%b4%ea%b2%b0%ed%95%b4%ec%95%bc-%ed%95%a0%ec%a7%80-%ed%8c%8c%ec%95%85%ed%95%98%ea%b8%b0.html",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:49:43Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "보안"
+      ]
+    },
+    {
       "id": "6dbec2cb4ee878c6f76a",
       "title": "모던 백엔드 - Spring Boot 4.0 개관(2)",
       "url": "https://indieblog.net/go/599733",
@@ -4254,16 +7383,16 @@
       "topics": []
     },
     {
-      "id": "ce94f68b291d8c1dda82",
-      "title": "BMW코리아, '더 뉴 BMW 7시리즈' 사전 예약 실시",
-      "url": "https://www.etnews.com/20261016000075",
+      "id": "9e9d220dfded0714cb4d",
+      "title": "OK저축은행 고객 250명 정보유출…현재 은행·저축은행·캐피탈 등 총 16개사 침해사고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208898",
       "summary": "",
-      "publishedAt": "2026-10-16T01:28:08Z",
+      "publishedAt": "2026-10-16T01:16:03Z",
       "sourceIds": [
-        "etnews-mobility"
+        "dailysecu"
       ],
       "topics": [
-        "자동차"
+        "보안"
       ]
     },
     {
@@ -4302,6 +7431,20 @@
       ]
     },
     {
+      "id": "1a31a7ac0bae93864499",
+      "title": "“AI 프레임워크부터 시작하면 실수”…AI 아키텍처 설계, 요구사항이 출발점",
+      "url": "https://www.itworld.co.kr/article/4235707/ai-%ed%94%84%eb%a0%88%ec%9e%84%ec%9b%8c%ed%81%ac%eb%b6%80%ed%84%b0-%ec%8b%9c%ec%9e%91%ed%95%98%eb%a9%b4-%ec%8b%a4%ec%88%98ai-%ec%95%84%ed%82%a4%ed%85%8d%ec%b2%98-%ec%84%a4%ea%b3%84-%ec%9a%94%ea%b5%ac.html",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:11:00Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "030413a2c2ad24b1ba1d",
       "title": "HL로보틱스, 강릉 ITS 세계총회서 실외 자율주행 주차로봇 '스탠' 첫선",
       "url": "https://www.etnews.com/20261016000064",
@@ -4330,6 +7473,20 @@
       ]
     },
     {
+      "id": "31a31e191372d845e6fb",
+      "title": "“클래식이 중요한 이유” 소프트웨어 개발을 주도하는 뜻밖의 9가지 트렌드",
+      "url": "https://www.itworld.co.kr/article/4235698/%ed%81%b4%eb%9e%98%ec%8b%9d%ec%9d%b4-%ec%a4%91%ec%9a%94%ed%95%9c-%ec%9d%b4%ec%9c%a0-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%ea%b0%9c%eb%b0%9c%ec%9d%84-%ec%a3%bc%eb%8f%84%ed%95%98%eb%8a%94.html",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:03:00Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어"
+      ]
+    },
+    {
       "id": "b3cd777599c4b46a3aff",
       "title": "바이브 코딩으로 레거시 현대화하기 (1/2): 20년 된 C/C++ 애플리케이션",
       "url": "https://roboco.io/posts/legacy-cpp-vibe-coding-modernization",
@@ -4352,6 +7509,19 @@
       "topics": []
     },
     {
+      "id": "d2e3ce5ffc3569a45207",
+      "title": "“산업 현장의 경험을 확장한다” 플라잎이 말하는 제조 특화 스킬 파운데이션 모델",
+      "url": "https://it.donga.com/109589",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "841ce904a16a95d2eeda",
       "title": "이통3사, 아이폰 듀오 사전예약 돌입…할인·중고폰 보상 경쟁",
       "url": "https://www.etnews.com/20261016000050",
@@ -4362,20 +7532,6 @@
       ],
       "topics": [
         "기술"
-      ]
-    },
-    {
-      "id": "58c19bf623ad9cfbd97b",
-      "title": "아우토크립트, 강릉 ITS 세계총회서 차량 사이버보안 기술 발표",
-      "url": "https://www.etnews.com/20261016000049",
-      "summary": "",
-      "publishedAt": "2026-10-16T00:44:29Z",
-      "sourceIds": [
-        "etnews-security"
-      ],
-      "topics": [
-        "보안",
-        "자동차"
       ]
     },
     {
@@ -4393,6 +7549,32 @@
       ]
     },
     {
+      "id": "16c17ac67f827362b009",
+      "title": "박민규 의원, “금융사 555곳 중 130곳 자체 보안점검서 미흡 보고”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208897",
+      "summary": "",
+      "publishedAt": "2026-10-15T23:03:36Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "8240b65d959a0f6e9ce4",
+      "title": "이연희 의원 “667억원 집행한 BoB 사업, 14년간 수행기관 평가 없었다” 지적",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208896",
+      "summary": "",
+      "publishedAt": "2026-10-15T22:48:55Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
       "id": "62ffbcc9448b459ccb22",
       "title": "지금 우리 국장은? (feat CPI에 이어서 PPI도 뜯어보자)",
       "url": "https://blog.naver.com/ranto28/224443203845?fromRss=true&trackingCode=rss",
@@ -4404,6 +7586,192 @@
       "topics": []
     },
     {
+      "id": "6393c9038c3c82d5b356",
+      "title": "KISA 침해대응 시스템 50.7% 교체 대상…유지보수 예산 4년 새 25.1% 줄어",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208895",
+      "summary": "",
+      "publishedAt": "2026-10-15T20:27:18Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "36fae297c583aa783056",
+      "title": "중앙아시아 정부 노린 UAT-6275…윈라 취약점·깃허브 악용해 침투",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208894",
+      "summary": "",
+      "publishedAt": "2026-10-15T20:18:32Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "개발",
+        "보안"
+      ]
+    },
+    {
+      "id": "129416d761125251500c",
+      "title": "MS·헬스아이섹, 글로벌 피싱 공급망 타격…범죄 연계 계정 2만개 차단",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208893",
+      "summary": "",
+      "publishedAt": "2026-10-15T20:13:45Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "ce4998894c936452e1b7",
+      "title": "메일 보안장비가 공격 통로로…시스코, 심각도 9.8 취약점 긴급 대응",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208892",
+      "summary": "",
+      "publishedAt": "2026-10-15T20:07:29Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "ee40cfc368d36bba2aed",
+      "title": "팔로알토 PAN-OS 취약점 실제 악용…방화벽 루트 권한 탈취 위험",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208891",
+      "summary": "",
+      "publishedAt": "2026-10-15T20:03:09Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
+      ]
+    },
+    {
+      "id": "0c2612aa4a1a36cc7ef2",
+      "title": "엑스보우, 오픈AI 모델 활용해 6일 만에 크롬 공격 체인 개발…25만 달러 포상",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208890",
+      "summary": "",
+      "publishedAt": "2026-10-15T19:58:35Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "b8e0205908eee074910d",
+      "title": "현대차 인도 진출 30년, 3번째 생산 거점 푸네 신공장 준공식 개최",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44725",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:38:12Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "ea145d9db2f5a6509d09",
+      "title": "지프 ‘85주년 기념 에디션’ 30대 한정 출시",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44730",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:37:52Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "bbd7fa60221a212f71fb",
+      "title": "포르쉐 순수 전기 SUV라인의 기대주, 카이엔 쿠페 일렉트릭 국내 공식 출시",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44726",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:37:52Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "bc6ff5bd6030da77a7e8",
+      "title": "벤틀리 토르칼, 아시아 최초 서울서 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44732",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:36:56Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "564b8398027b55cfd5eb",
+      "title": "르노 세일 페스타, 주요 모델 최대 400만 원 혜택",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44731",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:36:56Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "545a9cdeceb63f5aeb95",
+      "title": "BMW 코리아 미래재단, 체험형 교통안전 이벤트 '세이프티 아케이드' 운영",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44729",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:36:56Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "926ddf8dd27e104f8127",
+      "title": "카니발부터 타스만까지, 최대 330만 원 할인",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44728",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:36:56Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "b1411d11264e1df56c05",
+      "title": "AI가 차체 흠집부터 찾아낸다!",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44727",
+      "summary": "",
+      "publishedAt": "2026-10-15T18:36:56Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
       "id": "bd053782a71f119d6316",
       "title": "기술 뉴스 #304 : 2026-10-16",
       "url": "https://blog.outsider.ne.kr/1814",
@@ -4413,6 +7781,61 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "7e54ecfb2a34af96e961",
+      "title": "트렐릭스, 프라이빗 클라우드 환경 위한 AI 보안 솔루션 '트렐릭스 와이즈' 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208889",
+      "summary": "",
+      "publishedAt": "2026-10-15T16:31:26Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "d86c9223b346fe2a77c2",
+      "title": "델 테크놀로지스, 델 AI 데이터 플랫폼 고도화...AI 에이전트 활용성 높여",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208888",
+      "summary": "",
+      "publishedAt": "2026-10-15T16:26:22Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "a0dfcdf19462a0e40d5f",
+      "title": "청연, 정보보호관리체계 ISMS 인증 획득...라이프케어 서비스 보안 강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208887",
+      "summary": "",
+      "publishedAt": "2026-10-15T16:21:42Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "feb33a028dff55b657c2",
+      "title": "오픈베이스, '테크 셰어링 데이 2026' 개최",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208886",
+      "summary": "",
+      "publishedAt": "2026-10-15T16:14:40Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
     },
     {
       "id": "807f954e2798bc4c4c06",
@@ -4491,6 +7914,19 @@
       ]
     },
     {
+      "id": "9fef81b495e1d8ed3ba0",
+      "title": "벤틀리 첫 전기차 '토르칼' 아시아 최초 공개... 107년 만의 순수 전기 SUV",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61895",
+      "summary": "",
+      "publishedAt": "2026-10-15T14:30:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "ac1ff06736e62056bbd7",
       "title": "화성 기업 다음 무대는 우주?…시, 내년 우주항공 특화산업 육성계획 수립",
       "url": "https://www.etnews.com/20261015000475",
@@ -4498,6 +7934,32 @@
       "publishedAt": "2026-10-15T14:25:31Z",
       "sourceIds": [
         "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "05fcb2ea3bbfa9ac8f5c",
+      "title": "플래드 체크의 레트로 감성... 지프 랭글러·글래디에이터 85주년 에디션 상륙",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61899",
+      "summary": "",
+      "publishedAt": "2026-10-15T12:18:52Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "be6f13438e8a18ea53d1",
+      "title": "현대모비스, 상하이서 첫 오픈이노베이션... 로보틱스 파트너 찾는다",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61898",
+      "summary": "",
+      "publishedAt": "2026-10-15T11:00:00Z",
+      "sourceIds": [
+        "autoherald"
       ],
       "topics": [
         "자동차"
@@ -4518,6 +7980,32 @@
       ]
     },
     {
+      "id": "a2791b1c7a572d1266b9",
+      "title": "‘바다 위 자율운항’ 어디까지 왔나…상용화 현황과 남은 과제",
+      "url": "https://it.donga.com/109709",
+      "summary": "",
+      "publishedAt": "2026-10-15T10:35:33Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "b52b31fe6e946ce12538",
+      "title": "5세대 공개 2주 만, 벼락같이 등장한 '투싼 N 라인'... 뭐가 다른지 봤더니",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61896",
+      "summary": "",
+      "publishedAt": "2026-10-15T10:31:51Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "4334eac51f5ab0c46cb8",
       "title": "[2026 국감] KISA 사이버보안 대응체계 부실 지적…여야 한목소리",
       "url": "https://www.etnews.com/20261015000452",
@@ -4528,6 +8016,32 @@
       ],
       "topics": [
         "보안"
+      ]
+    },
+    {
+      "id": "26485d32bad5553e5fef",
+      "title": "'2026 경기 스타트업 서밋' 성료... 경기도 혁신 스타트업, 투자-산업-글로벌로 잇는다",
+      "url": "https://it.donga.com/109710",
+      "summary": "",
+      "publishedAt": "2026-10-15T09:39:28Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "e6c344acd31d1be69fbd",
+      "title": "\"순수의 시대는 끝\"세계 10대 엔진 목록에 정통 내연기관 '0' 전동화 독식",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61894",
+      "summary": "",
+      "publishedAt": "2026-10-15T09:23:26Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -4542,6 +8056,33 @@
       "topics": []
     },
     {
+      "id": "a97b28c6df33f473359d",
+      "title": "‘오빠를 영어로 뭐라고 할까?’…넷플릭스, 현지화에 AI 대신 사람 쓰는 이유",
+      "url": "https://it.donga.com/109708",
+      "summary": "",
+      "publishedAt": "2026-10-15T09:04:49Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "328f4c1a310bac7a4ea4",
+      "title": "\"334마력 대형 SUV가 14.1km/ℓ\"... 美 워즈오토 극찬받은 팰리세이드 HEV",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61893",
+      "summary": "",
+      "publishedAt": "2026-10-15T09:03:31Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "16e29e678fd277204934",
       "title": "플랜티넷 '모아진', KT 초이스 혜택 합류 후 7만 가입자 돌파",
       "url": "https://www.etnews.com/20261015000430",
@@ -4552,6 +8093,19 @@
       ],
       "topics": [
         "기술"
+      ]
+    },
+    {
+      "id": "20fb63cff2ef2ac07f31",
+      "title": "웬만해서는 변하지 않는다\" 수입차, 한 번 결정하면 짧고 빠르게 구매 확정",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61892",
+      "summary": "",
+      "publishedAt": "2026-10-15T09:01:28Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -4590,6 +8144,74 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "90538c27c8c33efb65d1",
+      "title": "1156마력 압도적 성능... 포르쉐, 순수 전기 SUV '카이엔 쿠페 일렉트릭' 상륙",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61891",
+      "summary": "",
+      "publishedAt": "2026-10-15T08:32:38Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "ba9abdb5847451df7b38",
+      "title": "[헬스케어픽] 비만·피부·혈당 관리, 인수부터 제휴까지 통합 경쟁 나선다",
+      "url": "https://it.donga.com/109707",
+      "summary": "",
+      "publishedAt": "2026-10-15T08:29:35Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "7b074113ccaeb56071e4",
+      "title": "베슬AI, '베슬 클라우드' 청사진 소개··· \"2030년 GPU 20만 장 확보 목표\"",
+      "url": "https://it.donga.com/109705",
+      "summary": "",
+      "publishedAt": "2026-10-15T08:06:01Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "0b0ab6f815274dd756bd",
+      "title": "[위클리_피지컬AI] 피지컬 AI 학습의 어려움, 서비스로 해결 나선 기업들 외",
+      "url": "https://it.donga.com/109703",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:46:27Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "9baaccddb613b12403a9",
+      "title": "[주간스타트업동향] 스텝하우, 사내 데이터 잇는 '기업 데이터 온톨로지' 출시 外",
+      "url": "https://it.donga.com/109704",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:30:39Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -4671,6 +8293,20 @@
       ]
     },
     {
+      "id": "51fdb0acd2f9ea541ee7",
+      "title": "파일럿 다음의 AI ROI : 프로덕션에서 성과 측정하기",
+      "url": "https://www.itworld.co.kr/article/4235586/%ec%8b%9c%eb%b2%94-%ec%9a%b4%ec%98%81%ec%9d%84-%eb%84%98%ec%96%b4%ec%84%a0-ai-roi-%eb%b3%b8-%ec%9a%b4%ec%98%81-%eb%8b%a8%ea%b3%84%ec%97%90%ec%84%9c%ec%9d%98-%ec%84%b1%ea%b3%bc-%ec%b8%a1%ec%a0%95.html",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:59:35Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "24e40f5a419c33c7934b",
       "title": "벤틀리, 브랜드 첫 전기차 '토르칼' 아시아 최초 서울에서 공개",
       "url": "https://www.etnews.com/20261015000336",
@@ -4733,6 +8369,21 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "67e891b8ed0d5993f9b7",
+      "title": "소프트웨어 가치 ‘0달러’ 시대 온다…AI 모델이 복제하는 것들",
+      "url": "https://www.itworld.co.kr/article/4235573/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%ea%b0%80%ec%b9%98-0%eb%8b%ac%eb%9f%ac-%ec%8b%9c%eb%8c%80-%ec%98%a8%eb%8b%a4ai-%eb%aa%a8%eb%8d%b8%ec%9d%b4-%eb%b3%b5%ec%a0%9c%ed%95%98%eb%8a%94-%ea%b2%83.html",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:19:53Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -4883,6 +8534,19 @@
       ]
     },
     {
+      "id": "d192d0cf998e07c4af28",
+      "title": "지오윈드 \"CES 혁신상·iF 디자인 어워드 수상, 정이십면체 수직축 풍력발전기\" [SBA 혁신기업]",
+      "url": "https://it.donga.com/109702",
+      "summary": "",
+      "publishedAt": "2026-10-15T04:11:28Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "f353049c0c7e3d4a454f",
       "title": "지금 우리 국장은? (feat 코어위브, 삼성전자,SK하이닉스)",
       "url": "https://blog.naver.com/ranto28/224442390068?fromRss=true&trackingCode=rss",
@@ -4903,6 +8567,32 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "6b107264ba98e81bde41",
+      "title": "체온 측정 넘어 귀 안까지 확인…병원 밖 건강관리 돕는 ‘오티톤메디컬’ [SBA 혁신기업]",
+      "url": "https://it.donga.com/109701",
+      "summary": "",
+      "publishedAt": "2026-10-15T02:15:27Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "0c6acbdc6fed7616871e",
+      "title": "인텔렉추얼디스커버리 “지식재산권 수출 1호 기업, 우리나라 특허 수호자로”",
+      "url": "https://it.donga.com/109700",
+      "summary": "",
+      "publishedAt": "2026-10-15T02:10:57Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
     },
     {
       "id": "03d8a2dd0ac35feb0621",
@@ -5137,6 +8827,110 @@
       "topics": []
     },
     {
+      "id": "998db42f92b7a18781be",
+      "title": "하이브리드 명가가 확대한 전동화 시대, 8세대 렉서스 ES 공식 출시",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44715",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:22:34Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1b805b426264062fe2f9",
+      "title": "현대자동차그룹, 학대피해 아동 위한 '아이케어 카 (i-CARE CAR)' 기증",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44723",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:22:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1085d6ddee0ef2ca482b",
+      "title": "포르쉐 AG, 만타이 레이싱 지분 67% 확보하며 홈 오브 스포츠카 구축",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44707",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:22:07Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "81803ac5389f70fa6a89",
+      "title": "채비, MCS 기반 자율충전 인프라 개발",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44722",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:20:06Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "e1d661c4c91d3555c81a",
+      "title": "고객이 원하는 곳으로 벤츠 덤프가 찾아간다!",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44721",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:20:06Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "1189b19e52ace44cd3cc",
+      "title": "한국타이어, 영국 ‘2026 왓타이어 어워드’ 6년 연속 수상",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44720",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:20:06Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "3799b9f3022d537f2bd3",
+      "title": "현대차 기아 ‘2026 R&D 협력사 테크 데이’",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44719",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:20:06Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "c22c111d901cc73b97f7",
+      "title": "정의선 회장 \"인도, 글로벌 성장 핵심 축\" 세 번째 생산 거점 '푸네 공장' 준공",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61890",
+      "summary": "",
+      "publishedAt": "2026-10-14T17:00:00Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "0ae4d1ba954a1824b1f8",
       "title": "에이전트 이코노미 (agent economy) & 상상",
       "url": "https://blog.naver.com/bizucafe/224441984002",
@@ -5168,6 +8962,33 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "9a39845f16b7369221c3",
+      "title": "[신차 리뷰] \"전기로만 126km\" 뷰익 한국 상륙 첫 차 '엘렉트라 E7'",
+      "url": "http://www.autoherald.co.kr/news/articleView.html?idxno=61889",
+      "summary": "",
+      "publishedAt": "2026-10-14T14:07:45Z",
+      "sourceIds": [
+        "autoherald"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "d535aa7c8e29c6612b2f",
+      "title": "존 힐리 인텔 부사장 “CPU·GPU·NPU가 맞물린 이기종 컴퓨팅이 피지컬 AI 가속의 열쇠”",
+      "url": "https://it.donga.com/109699",
+      "summary": "",
+      "publishedAt": "2026-10-14T12:59:24Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
     },
     {
       "id": "75020d883c331295cd1d",
@@ -5207,6 +9028,33 @@
       ]
     },
     {
+      "id": "4db4dda6522e41f814ab",
+      "title": "[시승기] 24년 여정의 마지막 장…폭스바겐 '투아렉 파이널 에디션'",
+      "url": "https://it.donga.com/109698",
+      "summary": "",
+      "publishedAt": "2026-10-14T09:57:22Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "146c486452aae4a9c0e9",
+      "title": "스마트키 배터리 방전 시 필요한 비상 시동 요령 살펴보니",
+      "url": "https://it.donga.com/109694",
+      "summary": "",
+      "publishedAt": "2026-10-14T09:46:38Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
       "id": "799492abd0c45f68c934",
       "title": "[사설] 현대차 인도 도전, 이제부턴 결실로",
       "url": "https://www.etnews.com/20261014000374",
@@ -5217,6 +9065,35 @@
       ],
       "topics": [
         "자동차"
+      ]
+    },
+    {
+      "id": "6621a51eac48b3da37b7",
+      "title": "[SBA x IT동아] 모빌위더스 \"자동차에서 검증한 임베디드 보안, 로봇과 에너지로 넓힌다\"",
+      "url": "https://it.donga.com/109697",
+      "summary": "",
+      "publishedAt": "2026-10-14T09:12:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "자동차"
+      ]
+    },
+    {
+      "id": "9d2494bce1fd1e2e3fa4",
+      "title": "[스타트업-ing] 넥스트페이먼츠-비투엔 맞손…“20년 데이터 내공에 온톨로지 AI 더해 공공 AX 공략”",
+      "url": "https://it.donga.com/109695",
+      "summary": "",
+      "publishedAt": "2026-10-14T09:01:34Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
       ]
     },
     {
@@ -5348,6 +9225,35 @@
       "topics": []
     },
     {
+      "id": "878f99889c4c14fa8a58",
+      "title": "AI 에이전트 기반 스크린캐스트 자동화의 현재",
+      "url": "https://www.itworld.co.kr/article/4234980/ai-%ec%8b%9c%eb%8c%80%ec%9d%98-%ec%8a%a4%ed%81%ac%eb%a6%b0%ec%ba%90%ec%8a%a4%ed%8c%85.html",
+      "summary": "",
+      "publishedAt": "2026-10-14T05:54:31Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "8a61fff7029ced0caa1c",
+      "title": "“분절된 AI 데이터 환경을 하나로” 넷앱, 멀티클라우드 통합 플랫폼 공개",
+      "url": "https://www.itworld.co.kr/article/4234954/%eb%b6%84%ec%a0%88%eb%90%9c-ai-%eb%8d%b0%ec%9d%b4%ed%84%b0-%ed%99%98%ea%b2%bd%ec%9d%84-%ed%95%98%eb%82%98%eb%a1%9c-%eb%84%b7%ec%95%b1-%eb%a9%80%ed%8b%b0%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c.html",
+      "summary": "",
+      "publishedAt": "2026-10-14T05:23:48Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
       "id": "2e7f5b177740710cd92b",
       "title": "Spark Connect on Kubernetes #2: Operator로 만드는 Control Plane",
       "url": "https://toss.tech/article/spark-connect-on-kubernetes-2",
@@ -5357,6 +9263,20 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "df12b109848508a23861",
+      "title": "“네오클라우드, 기업에 말을 걸어라”…성장의 함정에 빠진 네오클라우드",
+      "url": "https://www.itworld.co.kr/article/4234889/%eb%84%a4%ec%98%a4%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c%ec%99%80-%ec%9d%b4%eb%a5%bc-%ed%95%84%ec%9a%94%eb%a1%9c-%ed%95%98%eb%8a%94-%ea%b8%b0%ec%97%85%eb%93%a4.html",
+      "summary": "",
+      "publishedAt": "2026-10-14T02:21:44Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어"
+      ]
     },
     {
       "id": "927faaeb47d8c06dd6ec",
@@ -5379,6 +9299,111 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "3fb7ec2f3e7b1b6aa784",
+      "title": "[2026 파리 모터쇼] 지커, 플래그십 SUV 9X 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44714",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:07:55Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "859f6777bffe455c58d5",
+      "title": "[2026 파리 모터쇼] 감성, 우아함, 운전의 즐거움을 추구하는 푸조, 월드 프리미어 2종 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44713",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:07:55Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "69e738f5bb05d9d97a8b",
+      "title": "[2026 파리 모터쇼] 르노의 매일 함께 하는 전동화 라인업",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44706",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:07:55Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "3d790b4de27558989f90",
+      "title": "현대차 기아, 유럽 대표 자동차 기술 컨퍼런스에서 전동화, 수소 기술 경쟁력 소개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44717",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:06:05Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "d05a71d9f18c48276f3b",
+      "title": "타타대우모빌리티, 중형트럭 하이쎈 고객 현장 직접 찾아간다",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44716",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:06:05Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "076e88d240db58272121",
+      "title": "콘티넨탈타이어, 2027년까지 초고성능 타이어 650개 이상 규격 추가해 제품군 확대",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44711",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:06:05Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "74bb89895671a1b7f060",
+      "title": "바스프, AI 인프라용 전기, 전자 솔루션 확대",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44710",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:06:05Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "AI",
+        "자동차"
+      ]
+    },
+    {
+      "id": "7c782c3df24643f0826a",
+      "title": "한국타이어 라우펜, 다치아 산데로 OE 공급",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44709",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:06:05Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
     },
     {
       "id": "4ce4429fab7bfc6b36d7",
@@ -5414,6 +9439,72 @@
       "topics": []
     },
     {
+      "id": "44c79700195e670e8ed9",
+      "title": "[위클리AI] 앤트로픽·오픈AI·구글, 모델 성능 넘어선 경쟁 시작",
+      "url": "https://it.donga.com/109691",
+      "summary": "",
+      "publishedAt": "2026-10-13T10:12:21Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "dcb10c4ab90681c5d4fc",
+      "title": "반도체 공장의 최적 입지는 무엇이 결정하는가 [정석희의 기후 에너지 인사이트]",
+      "url": "https://it.donga.com/109692",
+      "summary": "",
+      "publishedAt": "2026-10-13T10:10:11Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "f2e1c7c32d781ac5a858",
+      "title": "[스케일업] 수강생 늘수록 지치는 강사들, 퓨처크래프트 '조온(JoON)'이 찾은 해법",
+      "url": "https://it.donga.com/109690",
+      "summary": "",
+      "publishedAt": "2026-10-13T09:34:39Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "610d99f05b375bd6ba57",
+      "title": "단풍 구경 언제 갈까?…절정 시기부터 등산 코스별 날씨 확인하는 방법",
+      "url": "https://it.donga.com/109689",
+      "summary": "",
+      "publishedAt": "2026-10-13T09:22:40Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "0ed3fd717b49eaf7f957",
+      "title": "차 뒤에 붙은 '어르신 운전중' 표지, 무슨 의미일까?…대상과 신청 방법은",
+      "url": "https://it.donga.com/109688",
+      "summary": "",
+      "publishedAt": "2026-10-13T09:08:41Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "5d470f98318d544ca828",
       "title": "언어의 장벽 앞에서 발견한 현 시대 개발자의 역할",
       "url": "https://velog.io/@hyemin916/%EC%96%B8%EC%96%B4%EC%9D%98-%EC%9E%A5%EB%B2%BD-%EC%95%9E%EC%97%90%EC%84%9C-%EB%B0%9C%EA%B2%AC%ED%95%9C-AI-%EC%8B%9C%EB%8C%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%97%AD%ED%95%A0",
@@ -5425,6 +9516,35 @@
       "topics": []
     },
     {
+      "id": "0c66e59b49bac6e8dd65",
+      "title": "“AI 시대 보안, 조직 역량이 관건”…시스코, 통합 가시성으로 AI 보안 시장 공략",
+      "url": "https://it.donga.com/109686",
+      "summary": "",
+      "publishedAt": "2026-10-13T07:08:05Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "ab0ea896e34443c41d89",
+      "title": "“선택의 자유가 경쟁력” 뉴타닉스, 통합 플랫폼으로 AI 시대 기업의 운영 부담을 덜다",
+      "url": "https://www.itworld.co.kr/article/4234087/%ec%84%a0%ed%83%9d%ec%9d%98-%ec%9e%90%ec%9c%a0%ea%b0%80-%ea%b2%bd%ec%9f%81%eb%a0%a5-%eb%89%b4%ed%83%80%eb%8b%89%ec%8a%a4-%ed%86%b5%ed%95%a9-%ed%94%8c%eb%9e%ab%ed%8f%bc%ec%9c%bc%eb%a1%9c-ai.html",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:06:04Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "8bbae0e98d1bac7e45d6",
       "title": "대학생을 위한 소개팅 서비스를 만들었습니다",
       "url": "https://jeho.page/essay/2026/10/13/campus-couple.html",
@@ -5434,6 +9554,48 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "535b54f73ebb60cb8642",
+      "title": "AI 에이전트 스택에 의사결정 전문 레이어가 뜬다",
+      "url": "https://www.itworld.co.kr/article/4234067/ai-%ec%97%90%ec%9d%b4%ec%a0%84%ed%8a%b8%ea%b0%80-%eb%b0%9c%ec%a0%84%ed%95%a8%ec%97%90-%eb%94%b0%eb%9d%bc-%ea%b3%b5%ea%b8%89%ec%97%85%ec%b2%b4%eb%93%a4%ec%9d%80-%ec%9d%98%ec%82%ac%ea%b2%b0%ec%a0%95.html",
+      "summary": "",
+      "publishedAt": "2026-10-13T03:56:52Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "78ca9a1fcb480498fea0",
+      "title": "3분기 PC 출하량 20% 급감, AI PC도 답 못 찾아",
+      "url": "https://www.itworld.co.kr/article/4234051/pc-%ea%b0%80%ea%b2%a9%ec%9d%80-2027%eb%85%84-%eb%a7%90%ea%b9%8c%ec%a7%80-%eb%86%92%ec%9d%80-%ec%88%98%ec%a4%80%ec%9d%84-%ec%9c%a0%ec%a7%80%ed%95%a0-%ec%a0%84%eb%a7%9d%ec%9d%b4%eb%8b%a4.html",
+      "summary": "",
+      "publishedAt": "2026-10-13T03:32:26Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "694102b50f161cd28330",
+      "title": "아스트로레이브 “AI로 소방 점검·보수 현장 업무 부담 줄인다, 노바워크” [과기대 BI 우수기업]",
+      "url": "https://it.donga.com/109682",
+      "summary": "",
+      "publishedAt": "2026-10-13T02:03:22Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
     },
     {
       "id": "038abdb224604c1e8848",
@@ -5469,6 +9631,20 @@
       "topics": []
     },
     {
+      "id": "2ed750df8cd08fb02c73",
+      "title": "망고부스트, '망고 인퍼런스' 정식 출시··· DPU 넘어 AI 팩토리로 도전장",
+      "url": "https://it.donga.com/109681",
+      "summary": "",
+      "publishedAt": "2026-10-12T23:54:05Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "256730ff4bd78a00728d",
       "title": "중국 CXMT가 발표한 D램 신기술이 반도체주를 흔드는 이유?",
       "url": "https://blog.naver.com/ranto28/224439695894?fromRss=true&trackingCode=rss",
@@ -5478,6 +9654,110 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "191bbd172febff76fde9",
+      "title": "강렬한 블랙 디테일, 포르쉐 카이엔 블랙 에디션",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44699",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:39:09Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "8a7e9e1af15c1d9167b1",
+      "title": "글로벌 고객이 인정한 현대 투싼, 핵심 기술 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44696",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:38:41Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "ec8cd0ec814c9b30881e",
+      "title": "피렐리 타이어, F1 세이프티카 전용 타이어 공개",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44703",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:38:24Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "09955896090cccb81864",
+      "title": "애스턴마틴 밴티지 GT3, 쁘띠 르망 우승으로 카 블랑쉬 첫 승 달성",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44698",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:38:24Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "7e41362ab8f858cfbdbf",
+      "title": "인제 GT 마스터즈, 2027시즌 확 바뀐다",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44697",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:38:24Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "faed61a0385de8398609",
+      "title": "인기 게임 더 크루 모터페스트에 현대 크레이터 콘셉트 등장",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44695",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:38:24Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "b299017459249c99ac16",
+      "title": "한국타이어, 상용차 통합 플랫폼 고트럭과 제휴 프로모션",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44704",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:37:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
+      "id": "a044a53cf41ecaab3954",
+      "title": "DT네트웍스, 국내 BYD 공식 딜러사 최초 누적 출고 1만 대 달성",
+      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44702",
+      "summary": "",
+      "publishedAt": "2026-10-12T17:37:21Z",
+      "sourceIds": [
+        "motorgraph"
+      ],
+      "topics": [
+        "자동차"
+      ]
     },
     {
       "id": "ec4a386e486da871c11c",
@@ -5513,6 +9793,47 @@
       "topics": []
     },
     {
+      "id": "38d86e04f406c6ec63db",
+      "title": "[투자를IT다] 2026년 10월 1주차 IT기업 주요 소식과 시장 전망",
+      "url": "https://it.donga.com/109680",
+      "summary": "",
+      "publishedAt": "2026-10-12T11:46:42Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c7d2fe7ec68e8c1be0d5",
+      "title": "[뉴스줌인] 7만 원대 진입한 미밴드 11, 그래도 '가성비' 끝자락?",
+      "url": "https://it.donga.com/109679",
+      "summary": "",
+      "publishedAt": "2026-10-12T09:57:18Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "752aebc7253ad1fd3783",
+      "title": "수이, AI 에이전트 금융 대응 전략 공개···구글 클라우드·삼성전자와 협업",
+      "url": "https://it.donga.com/109678",
+      "summary": "",
+      "publishedAt": "2026-10-12T09:02:11Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
       "id": "dc5f7e306f8ef08e2228",
       "title": "Does Adopting AI Really Make Teams Faster?",
       "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster/en",
@@ -5546,6 +9867,33 @@
       "topics": []
     },
     {
+      "id": "857be1dd0278511920e1",
+      "title": "CIT, 단결정 구리 증착 솔루션 ‘ASEDep’ 공개···기존 AI 반도체 패키징 한계 돌파",
+      "url": "https://it.donga.com/109677",
+      "summary": "",
+      "publishedAt": "2026-10-12T07:42:26Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "c4c8b8e4e8fa96c6ecfd",
+      "title": "2만 관중에게 중소기업 알렸다…SBA, FC서울과 ‘브랜드데이’ 개최",
+      "url": "https://it.donga.com/109676",
+      "summary": "",
+      "publishedAt": "2026-10-12T06:34:51Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "26d5dcff59c65273159f",
       "title": "[Spring 6] HTTP 인터페이스",
       "url": "https://yeonyeon.tistory.com/366",
@@ -5557,6 +9905,20 @@
       "topics": []
     },
     {
+      "id": "4632970289ed101b4c11",
+      "title": "[신차공개] 현대차 ‘2027 쏘나타 디 엣지’·MINI ‘JCW 팩’ 출시",
+      "url": "https://it.donga.com/109675",
+      "summary": "",
+      "publishedAt": "2026-10-12T02:52:41Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
       "id": "42faf4355acc5ebfb428",
       "title": "CPU 뼛속까지 써먹고, Milvus 사이징 기준을 만들기까지",
       "url": "https://toss.tech/article/milvus-optimization-and-sizing",
@@ -5566,6 +9928,33 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "8115063b42de16c04a5d",
+      "title": "“IT 팀에 실패를 허하라” 규율 있는 실패 허용 문화 구축법",
+      "url": "https://www.itworld.co.kr/article/4233531/it-%ed%8c%80%ec%97%90-%ec%8b%a4%ed%8c%a8%eb%a5%bc-%ed%97%88%ed%95%98%eb%9d%bc-%ea%b7%9c%ec%9c%a8-%ec%9e%88%eb%8a%94-%ec%8b%a4%ed%8c%a8-%ed%97%88%ec%9a%a9-%eb%ac%b8%ed%99%94-%ea%b5%ac%ec%b6%95.html",
+      "summary": "",
+      "publishedAt": "2026-10-12T00:57:49Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "8e0a792f5a9372ac3713",
+      "title": "모델 선택권 앞세운 승부수…구글, 기업용 AI 에이전트 생태계 ‘관문’ 선점 시동",
+      "url": "https://www.itworld.co.kr/article/4233525/%eb%aa%a8%eb%8d%b8-%ec%84%a0%ed%83%9d%ea%b6%8c-%ec%95%9e%ec%84%b8%ec%9a%b4-%ec%8a%b9%eb%b6%80%ec%88%98-%ea%b5%ac%ea%b8%80-%ea%b8%b0%ec%97%85%ec%9a%a9-ai-%ec%97%90%ec%9d%b4%ec%a0%84%ed%8a%b8.html",
+      "summary": "",
+      "publishedAt": "2026-10-12T00:19:46Z",
+      "sourceIds": [
+        "itworld"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
     },
     {
       "id": "eddc17633ab704673a5f",
@@ -5709,6 +10098,747 @@
         "awesome"
       ],
       "topics": []
+    },
+    {
+      "id": "09238359a5486d18fa57",
+      "title": "우리아이들플러스 “제주 당유자 품은 ‘디어닷’으로 친환경 K-뷰티 이끌 것” [농업이 IT(잇)다]",
+      "url": "https://it.donga.com/109645",
+      "summary": "",
+      "publishedAt": "2026-10-09T00:14:41Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "405a58f9d4b6e4449049",
+      "title": "부킹닷컴이 짚은 日 관광의 과제…韓에도 시사점 던져",
+      "url": "https://it.donga.com/109673",
+      "summary": "",
+      "publishedAt": "2026-10-08T11:39:32Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "6ec73bdb05bbc3876c9c",
+      "title": "“할 수 있을까”에서 “무엇을 보여줄까”로…청년 취업 키워드, AI 경험으로 재편",
+      "url": "https://it.donga.com/109671",
+      "summary": "",
+      "publishedAt": "2026-10-08T08:55:43Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "2dc9d3c75efb4e643e27",
+      "title": "[위클리_피지컬AI] 피지컬 AI 기술 확보 위해 협력 나선 기업들 외",
+      "url": "https://it.donga.com/109670",
+      "summary": "",
+      "publishedAt": "2026-10-08T08:29:08Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "c6a47a27ac2e2a005be2",
+      "title": "[주간스타트업동향] 인포플라, ETRI 국책과제 선정…제조현장 AI 결함검출 고도화 外",
+      "url": "https://it.donga.com/109669",
+      "summary": "",
+      "publishedAt": "2026-10-08T08:04:48Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "96410d60e414789e6f9a",
+      "title": "[스타트업-ing] \"임상으로 증명하고 발로 뛰었다\" 아이넥스, 싱가포르 넘어 유럽 CE 인증까지",
+      "url": "https://it.donga.com/109667",
+      "summary": "",
+      "publishedAt": "2026-10-08T07:21:30Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "9f8c865e9277ed5d29b4",
+      "title": "[위클리크립토] 국감 도마 오른 디지털자산 정책 外",
+      "url": "https://it.donga.com/109668",
+      "summary": "",
+      "publishedAt": "2026-10-08T07:18:42Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "68a259535fe5c0e987fc",
+      "title": "엑스캔 \"사각지대 없앤 차세대 엑스선 기술\" [IBK기업은행×KIMST]",
+      "url": "https://it.donga.com/109661",
+      "summary": "",
+      "publishedAt": "2026-10-08T07:15:15Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "c30a4529c22dc3d1118b",
+      "title": "[르포] '46년째 웰메이드로 승부' 제이피아이헬스케어 안산 공장, 그리드 생산 현장 가보니",
+      "url": "https://it.donga.com/109662",
+      "summary": "",
+      "publishedAt": "2026-10-08T04:23:25Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "0bc509b0d41aa82f6626",
+      "title": "퍼블릭오브제 “3D 프린팅과 친환경 소재로 공간 속 ‘원더’ 만든다” [과기대 BI 우수기업]",
+      "url": "https://it.donga.com/109664",
+      "summary": "",
+      "publishedAt": "2026-10-08T04:19:46Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "543366600b68376ec062",
+      "title": "부산창조경제혁신센터, 열번째 ‘바운스 2026’ 개최... 동남권 창업지원 핵심 허브로 자리매김",
+      "url": "https://it.donga.com/109665",
+      "summary": "",
+      "publishedAt": "2026-10-08T03:56:02Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "92ea1c3d1af0831108d5",
+      "title": "‘보행 데이터’로 교통약자 이동 사각지대 메운다…‘엘비에스테크’ [SBA 혁신기업]",
+      "url": "https://it.donga.com/109663",
+      "summary": "",
+      "publishedAt": "2026-10-08T02:32:04Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "902a6e24d94c5ca8a0ad",
+      "title": "[스타트업-ing] 하이브마인드, K-웹소설 해외 문턱 낮춘다② 번역 넘어 유통 공정 혁신",
+      "url": "https://it.donga.com/109659",
+      "summary": "",
+      "publishedAt": "2026-10-08T01:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "b96016b486307e299bdc",
+      "title": "[스타트업-ing] 하이브마인드, K-웹소설 해외 문턱 낮춘다① AI가 허무는 번역비 장벽",
+      "url": "https://it.donga.com/109658",
+      "summary": "",
+      "publishedAt": "2026-10-08T01:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "9c914bb325de48c6a8f2",
+      "title": "“게이밍 비전을 공유하는 자리가 아니라 팬미팅 행사였나?” 충격의 AMD 게이머즈 데이",
+      "url": "https://it.donga.com/109660",
+      "summary": "",
+      "publishedAt": "2026-10-07T13:04:36Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "fcd382fd1090b10868fa",
+      "title": "차는 무거워지는데 안전관리는 '구멍'…기계식 주차장 43.7%가 20년 이상",
+      "url": "https://it.donga.com/109656",
+      "summary": "",
+      "publishedAt": "2026-10-07T08:59:53Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1c0bc389f6c10a18334d",
+      "title": "[스타트업-ing] “사진 찍고, 즐기고, 쇼핑까지”…서북, ‘포토이즘’ 넘어 글로벌 엔터테인먼트 플랫폼 도약",
+      "url": "https://it.donga.com/109655",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:58:31Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "8f5bd26d01d9cb631d7d",
+      "title": "[위클리AI] 오픈AI부터 메타까지, 에이전트 앞세워 기업 시장 공략 나선다",
+      "url": "https://it.donga.com/109654",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:31:24Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "dd2abfb758f319d00bf8",
+      "title": "금융권 연쇄 유출…가시화된 AI 해킹, 어떻게 대응할까",
+      "url": "https://it.donga.com/109653",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:04:40Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "0e9c6d9adcb1763227b0",
+      "title": "[자동차와 法] 보행자가 된 배달로봇, 교통사고에 대한 책임은?",
+      "url": "https://it.donga.com/109652",
+      "summary": "",
+      "publishedAt": "2026-10-07T02:37:33Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "c95ea7d310a809697a0c",
+      "title": "[르포] 테니스 치고 순찰도 도는 로봇, 일상 속으로 성큼… ’2026 서울AI로봇쇼’",
+      "url": "https://it.donga.com/109651",
+      "summary": "",
+      "publishedAt": "2026-10-06T09:59:20Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "b4d998d2104fe1c429ef",
+      "title": "[신차공개] 한국 상륙 뷰익, ‘엘렉트라 E7’ 공개·제네시스, 첫 하이브리드 ‘GV80’ 출시",
+      "url": "https://it.donga.com/109650",
+      "summary": "",
+      "publishedAt": "2026-10-06T09:17:12Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "023774cbd372860519fc",
+      "title": "'DPU로 시작해 AI 인프라 전반으로 사업 확장'··· 권동업 망고부스트 CTO에게 듣다",
+      "url": "https://it.donga.com/109647",
+      "summary": "",
+      "publishedAt": "2026-10-06T04:53:49Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "ad1a76c938cb468981d2",
+      "title": "서울과기대 “3차 글로벌 역량강화교육, 초기창업패키지 기업 세계화”",
+      "url": "https://it.donga.com/109648",
+      "summary": "",
+      "publishedAt": "2026-10-06T01:11:30Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "75f8c0ad8d4a9262ece4",
+      "title": "[투자를IT다] 2026년 9월 5주차 IT기업 주요 소식과 시장 전망",
+      "url": "https://it.donga.com/109646",
+      "summary": "",
+      "publishedAt": "2026-10-05T04:25:41Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "69296ae8f40bfb27cfc7",
+      "title": "디오비스튜디오 “실시간 맥락 읽는 AI 영상 필터, 라이브스타일러” [SBA 혁신기업]",
+      "url": "https://it.donga.com/109644",
+      "summary": "",
+      "publishedAt": "2026-10-02T08:00:55Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "6e3f6f2c5d02564a0703",
+      "title": "[위클리크립토] KBW2026, 기관 중심으로 전환···국내 규제 명확성 촉구 外",
+      "url": "https://it.donga.com/109642",
+      "summary": "",
+      "publishedAt": "2026-10-02T07:53:18Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "7af386e39deda4146ff8",
+      "title": "“외모가 전부는 아니다\" 환경에 따라 다양한 로봇의 세계",
+      "url": "https://it.donga.com/109643",
+      "summary": "",
+      "publishedAt": "2026-10-02T07:52:44Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "efeff6501dc2a07d31c5",
+      "title": "[시승기] 5년 총비용 따져보니 매력적…'더 뉴 그랜저 LPG'",
+      "url": "https://it.donga.com/109641",
+      "summary": "",
+      "publishedAt": "2026-10-02T07:47:28Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "5921ab3344bcd168ec50",
+      "title": "전지환 베슬AI CTO “MLOps 넘어 네오클라우드로 사업 강화··· 목표는 APAC 1위”",
+      "url": "https://it.donga.com/109640",
+      "summary": "",
+      "publishedAt": "2026-10-02T05:27:55Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "9e83832e615233f4b06f",
+      "title": "[르포] 커피 마시고 자전거도 탄다…운정 ‘팝사이클 카페’ 가보니",
+      "url": "https://it.donga.com/109639",
+      "summary": "",
+      "publishedAt": "2026-10-02T04:25:23Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "052e399fedbe26d8778a",
+      "title": "[위클리_피지컬AI] 피지컬 AI 산업에 뛰어든 생성형 AI 영상 제작 플랫폼 외",
+      "url": "https://it.donga.com/109637",
+      "summary": "",
+      "publishedAt": "2026-10-01T10:15:58Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "99fb070a0fa542cfbe34",
+      "title": "[IT애정남] 외장SSD/외장하드에 스마트폰 충전 케이블 써도 되나요?",
+      "url": "https://it.donga.com/109636",
+      "summary": "",
+      "publishedAt": "2026-10-01T09:40:53Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "a8a0f7c7b9c8f21d2120",
+      "title": "[스타트업-ing] 키즐링 “세계 아이들 건강하게 키울 콘텐츠 플랫폼으로”",
+      "url": "https://it.donga.com/109631",
+      "summary": "",
+      "publishedAt": "2026-10-01T08:18:06Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "25f5378ebbd827586901",
+      "title": "[주간보안동향] 해킹 반복 시 매출 3% 과징금…정보통신망법 10월 1일 시행 外",
+      "url": "https://it.donga.com/109634",
+      "summary": "",
+      "publishedAt": "2026-10-01T07:49:27Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "보안"
+      ]
+    },
+    {
+      "id": "0abcb073cd6369f50a7e",
+      "title": "딜리버리랩 “매출보다 중요한 ‘검증 가능성’…신뢰 가능한 데이터로 오더히어로 성장 증명할 것” [스타트업-ing]",
+      "url": "https://it.donga.com/109632",
+      "summary": "",
+      "publishedAt": "2026-10-01T02:45:51Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "7d36a07e9e07cff94cfa",
+      "title": "하드웨어 경계 허무는 로봇 소프트웨어 생태계 구축…’쿳션’ [SBA 혁신기업]",
+      "url": "https://it.donga.com/109630",
+      "summary": "",
+      "publishedAt": "2026-10-01T01:59:15Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어"
+      ]
+    },
+    {
+      "id": "028fad46bf32a244e71f",
+      "title": "홍릉강소특구 “47개 투자기관과 2단계 협의체…기술창업 메카로\"",
+      "url": "https://it.donga.com/109633",
+      "summary": "",
+      "publishedAt": "2026-10-01T00:06:29Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "d9ab6c309eb61bc44129",
+      "title": "“고성능 외장 GPU 없어도 고화질 게임 OK?” 윈도 11의 자동 슈퍼 해상도",
+      "url": "https://it.donga.com/109627",
+      "summary": "",
+      "publishedAt": "2026-09-30T10:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "69be81fe69164d2731e0",
+      "title": "문콕부터 유리막 코팅까지…신차 출고 후 ‘관리 공백’ 파고드는 車업계",
+      "url": "https://it.donga.com/109626",
+      "summary": "",
+      "publishedAt": "2026-09-30T09:22:32Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "32963cd7645e1b228e61",
+      "title": "“AI에도 웹3 신분증 부여해야”…라온시큐어, AI 보안 5종 공개",
+      "url": "https://it.donga.com/109625",
+      "summary": "",
+      "publishedAt": "2026-09-30T09:21:11Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "107fdbfa7ad96a836d81",
+      "title": "이항섭 감독 “AI 영상 제작은 인내심과 준비 필요하지만 잠재력은 무한대”",
+      "url": "https://it.donga.com/109619",
+      "summary": "",
+      "publishedAt": "2026-09-30T09:00:00Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "5e597515297a2631810e",
+      "title": "[헬스케어픽] 아스트라제네카·아테나헬스·데이터메즈AI, 투자부터 개발까지 '활발'",
+      "url": "https://it.donga.com/109624",
+      "summary": "",
+      "publishedAt": "2026-09-30T08:50:16Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "608da60adf70ac7ed72f",
+      "title": "금융 인프라로 자리매김하는 디지털자산, KBW2026",
+      "url": "https://it.donga.com/109623",
+      "summary": "",
+      "publishedAt": "2026-09-30T07:54:27Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1d8eb4f5e9e729358a05",
+      "title": "[주간스타트업동향] 사람과모빌리티, 앤시스 ASK 기반 차량간 안전서비스 검증 플랫폼 고도화 外",
+      "url": "https://it.donga.com/109622",
+      "summary": "",
+      "publishedAt": "2026-09-30T07:44:39Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "자동차"
+      ]
+    },
+    {
+      "id": "dc8aa4473066e912e282",
+      "title": "[인터뷰] “검색 넘어 여행 전 과정 연결”…부킹닷컴이 그리는 AI 여행의 미래",
+      "url": "https://it.donga.com/109620",
+      "summary": "",
+      "publishedAt": "2026-09-30T07:39:43Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "17ae3aae4a4d4695ae84",
+      "title": "플리토, ‘보글(Vogl)’ 브랜드 앞세워 AI 통번역·데이터 사업 글로벌 확장",
+      "url": "https://it.donga.com/109621",
+      "summary": "",
+      "publishedAt": "2026-09-30T07:28:47Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "4bc67c30155fbcc0e3e0",
+      "title": "티비지파트너스 \"인천발 '모두의 창업', 글로벌까지 동반성장\"",
+      "url": "https://it.donga.com/109617",
+      "summary": "",
+      "publishedAt": "2026-09-30T01:54:49Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "5397b8e37d1aa77c14f4",
+      "title": "크로스허브 \"신원 인증 기술 하나로 전 세계 시장 연결하겠다\"",
+      "url": "https://it.donga.com/109618",
+      "summary": "",
+      "publishedAt": "2026-09-30T00:54:50Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "56b624f6db6c4939132a",
+      "title": "서울시 친환경건물사업팀 “기후위기 취약계층 지원사업, 시민 돕고 도시 아름다움 더하고”",
+      "url": "https://it.donga.com/109611",
+      "summary": "",
+      "publishedAt": "2026-09-30T00:16:48Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "b3316b69d59212758c2f",
+      "title": "종류도 크기도 천차만별…나에게 맞는 캠핑카 고르는 법",
+      "url": "https://it.donga.com/109616",
+      "summary": "",
+      "publishedAt": "2026-09-29T09:59:40Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "b02fef658e3623b2c727",
+      "title": "반도체 공장에 필요한 것은 끊기지 않는 전기다 [정석희의 기후 에너지 인사이트]",
+      "url": "https://it.donga.com/109615",
+      "summary": "",
+      "publishedAt": "2026-09-29T09:38:42Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "3c46c7101e1c6ccf92af",
+      "title": "[위클리AI] '가성비 전쟁' 앤트로픽·오픈AI·스페이스XAI, 저비용·고성능 앞세웠다",
+      "url": "https://it.donga.com/109614",
+      "summary": "",
+      "publishedAt": "2026-09-29T08:59:21Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "b4e4cd56a09a3646d6f5",
+      "title": "신정규 래블업 대표 “AI 인프라 복잡성 낮춰 지능의 민주화 앞당길 것”",
+      "url": "https://it.donga.com/109613",
+      "summary": "",
+      "publishedAt": "2026-09-29T08:19:40Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
+      "id": "70a0d8cef8657ef498b4",
+      "title": "기업마다 다른 문제, 맞춤형 소프트웨어로 푼다…‘버터소프트’",
+      "url": "https://it.donga.com/109610",
+      "summary": "",
+      "publishedAt": "2026-09-29T01:13:08Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어"
+      ]
     }
   ]
 }

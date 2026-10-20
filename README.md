@@ -5,7 +5,7 @@
 ## 기능
 
 - Velopers, TechBlogPosts, Indieblog, 어썸블로그, GeekNews, Hacker News 한국어 피드 수집
-- 전자신문 IT·SW·보안·AI·모빌리티, ZDNet Korea, AI타임스 뉴스를 별도 목록으로 제공
+- 전자신문 IT·SW·보안·AI·모빌리티, ZDNet Korea, AI타임스, IT동아, ITWorld Korea, 테크M, 데일리시큐, AI매터스, 모터그래프, 오토헤럴드, 로봇신문 뉴스를 별도 목록으로 제공
 - 국내 뉴스를 기술·개발·소프트웨어·보안·AI·자동차 분야별로 필터링
 - 원문 URL과 제목 기반 중복 정리
 - 출처 구독·숨김, 제목·소개 검색, 관심/제외 키워드

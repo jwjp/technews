@@ -140,7 +140,7 @@ a { color: inherit; }
 .article-ordinal { font-size: 12px; letter-spacing: .03em; color: var(--soft); padding-top: 2px; }
 .article-body { min-width: 0; }
 .article-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.article-sources { display: flex; gap: 5px; flex-wrap: wrap; }
+.article-sources { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; font-family: "Noto Sans KR", sans-serif; line-height: 1.5; }
 .source-pill { color: var(--sage); font-size: 10px; font-weight: 700; }
 .source-pill + .source-pill::before { content: "· "; color: var(--soft); }
 .topic-pill { color: var(--accent); font-size: 10px; font-weight: 700; }
