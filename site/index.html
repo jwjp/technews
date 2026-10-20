@@ -29,7 +29,7 @@
         <div class="hero-copy">
           <div class="eyebrow"><span class="live-dot"></span> YOUR DAILY READING SPACE</div>
           <h1 id="hero-title">읽고 싶은 글만<br /><em>한곳에 모았어요.</em></h1>
-          <p>여러 기술 블로그와 커뮤니티의 새 글을 한눈에. 취향에 맞게 고르고, 마음에 드는 글은 저장해 두세요.</p>
+          <p>기술 블로그, 커뮤니티와 국내 IT 뉴스를 한눈에. 취향에 맞게 고르고, 마음에 드는 글은 저장해 두세요.</p>
           <div class="hero-meta"><span id="article-count">글을 불러오는 중</span><span class="meta-divider"></span><span id="updated-at">피드 확인 중</span></div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -44,7 +44,9 @@
           <div class="sidebar-section">
             <div class="section-heading"><span>내 피드</span><span class="section-index">01</span></div>
             <nav class="feed-nav" aria-label="읽기 목록">
-              <button class="nav-item active" data-view="all" type="button"><span class="nav-icon">▦</span><span>모든 글</span><span class="nav-count" id="count-all">0</span></button>
+              <button class="nav-item active" data-view="reading" type="button"><span class="nav-icon">▦</span><span>기술 글</span><span class="nav-count" id="count-reading">0</span></button>
+              <button class="nav-item" data-view="news" type="button"><span class="nav-icon">◫</span><span>국내 뉴스</span><span class="nav-count" id="count-news">0</span></button>
+              <button class="nav-item" data-view="all" type="button"><span class="nav-icon">◈</span><span>전체 글</span><span class="nav-count" id="count-all">0</span></button>
               <button class="nav-item" data-view="unread" type="button"><span class="nav-icon">◌</span><span>읽지 않은 글</span><span class="nav-count" id="count-unread">0</span></button>
               <button class="nav-item" data-view="saved" type="button"><span class="nav-icon">☆</span><span>저장한 글</span><span class="nav-count" id="count-saved">0</span></button>
             </nav>
@@ -73,7 +75,7 @@
 
         <main class="main-content" id="main-content">
           <div class="content-topline"><span class="topline-label">THE READING LIST</span><span class="topline-line"></span><span id="today-date"></span></div>
-          <div class="content-title-row"><div><h2 id="view-title">모든 글</h2><p id="view-description">새로 올라온 기술 글을 둘러보세요.</p></div><span class="result-count" id="result-count">—</span></div>
+          <div class="content-title-row"><div><h2 id="view-title">기술 글</h2><p id="view-description">새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요.</p></div><span class="result-count" id="result-count">—</span></div>
           <div class="toolbar">
             <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="제목, 출처, 내용 검색" aria-label="글 검색" /></label>
             <div class="toolbar-actions">
@@ -87,7 +89,7 @@
         </main>
       </div>
 
-      <footer class="site-footer"><span>모아읽기 <span class="footer-star">✳</span> 글은 각자의 블로그에, 발견은 여기서.</span><span>광고 없는 개인 기술 글 모음</span></footer>
+      <footer class="site-footer"><span>모아읽기 <span class="footer-star">✳</span> 글은 원래 매체에, 발견은 여기서.</span><span>광고 없는 개인 기술 글 모음</span></footer>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
   </body>

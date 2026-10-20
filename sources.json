@@ -34,5 +34,26 @@
     "name": "Hacker News 한국어",
     "url": "https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml",
     "group": "커뮤니티"
+  },
+  {
+    "id": "etnews-sw",
+    "name": "전자신문 · SW",
+    "url": "https://rss.etnews.com/04.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news"
+  },
+  {
+    "id": "etnews-security",
+    "name": "전자신문 · 보안",
+    "url": "https://rss.etnews.com/04045.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news"
+  },
+  {
+    "id": "aitimes",
+    "name": "AI타임스",
+    "url": "https://www.aitimes.com/rss/allArticle.xml",
+    "group": "국내 IT 뉴스",
+    "type": "news"
   }
 ]

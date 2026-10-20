@@ -6,7 +6,7 @@ const state = {
   articles: [],
   sources: [],
   generatedAt: null,
-  view: "all",
+  view: "reading",
   disabledSources: [],
   favoriteKeywords: "",
   hiddenKeywords: "",
@@ -71,6 +71,10 @@ function hasSource(article) {
   return article.sourceIds.some((id) => !state.disabledSources.includes(id));
 }
 
+function isNews(article) {
+  return article.sourceIds.some((id) => state.sources.find((source) => source.id === id)?.type === "news");
+}
+
 function searchText(article) {
   const sourceNames = article.sourceIds.map((id) => state.sources.find((source) => source.id === id)?.name || "").join(" ");
   return `${article.title} ${article.summary} ${sourceNames}`.toLocaleLowerCase("ko");
@@ -82,6 +86,8 @@ function filteredArticles() {
   const query = state.query.trim().toLocaleLowerCase("ko");
   return state.articles.filter((article) => {
     if (!hasSource(article)) return false;
+    if (state.view === "reading" && isNews(article)) return false;
+    if (state.view === "news" && !isNews(article)) return false;
     if (state.view === "unread" && state.readIds.includes(article.id)) return false;
     if (state.view === "saved" && !state.savedIds.includes(article.id)) return false;
     const searchable = searchText(article);
@@ -176,11 +182,19 @@ function articleCard(article, index) {
 }
 
 function render() {
-  const titles = { all: ["모든 글", "새로 올라온 기술 글을 둘러보세요."], unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."], saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."] };
+  const titles = {
+    reading: ["기술 글", "새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요."],
+    news: ["국내 뉴스", "국내 IT·개발 뉴스를 따로 모았어요."],
+    all: ["전체 글", "기술 글과 뉴스를 시간순으로 모았어요."],
+    unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."],
+    saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."],
+  };
   $("#view-title").textContent = titles[state.view][0];
   $("#view-description").textContent = titles[state.view][1];
   document.querySelectorAll(".nav-item").forEach((item) => item.classList.toggle("active", item.dataset.view === state.view));
   const available = state.articles.filter(hasSource);
+  $("#count-reading").textContent = available.filter((item) => !isNews(item)).length.toLocaleString("ko-KR");
+  $("#count-news").textContent = available.filter(isNews).length.toLocaleString("ko-KR");
   $("#count-all").textContent = available.length.toLocaleString("ko-KR");
   $("#count-unread").textContent = available.filter((item) => !state.readIds.includes(item.id)).length.toLocaleString("ko-KR");
   $("#count-saved").textContent = available.filter((item) => state.savedIds.includes(item.id)).length.toLocaleString("ko-KR");

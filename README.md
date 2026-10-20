@@ -1,10 +1,11 @@
 # 모아읽기
 
-광고 없이 기술 블로그와 커뮤니티 글을 모아 보는 개인용 GitHub Pages 리더입니다. RSS·Atom을 GitHub Actions에서 읽고, 제목·짧은 소개·피드가 제공하는 글 링크만 정적 JSON으로 발행합니다.
+광고 없이 기술 블로그, 커뮤니티 글과 국내 IT 뉴스를 모아 보는 개인용 GitHub Pages 리더입니다. RSS·Atom을 GitHub Actions에서 읽고, 제목·짧은 소개·피드가 제공하는 글 링크만 정적 JSON으로 발행합니다. 뉴스는 소개 문구를 저장하지 않습니다.
 
 ## 기능
 
 - Velopers, TechBlogPosts, Indieblog, 어썸블로그, GeekNews, Hacker News 한국어 피드 수집
+- 전자신문 SW·보안, AI타임스 뉴스를 별도 목록으로 제공
 - 원문 URL과 제목 기반 중복 정리
 - 출처 구독·숨김, 제목·소개 검색, 관심/제외 키워드
 - 읽음 표시, 북마크, 다크 모드
@@ -24,7 +25,7 @@ python -m http.server 8000 --directory site
 
 ## 소스 추가
 
-`sources.json`에 `id`, `name`, `url`, `group`을 가진 객체를 추가한 뒤 수집기를 실행합니다. 피드는 RSS 2.0 또는 Atom 형식이어야 합니다. 일부 피드가 실패하면 이전에 수집된 글은 유지하며, 모든 피드가 실패하면 작업이 실패합니다.
+`sources.json`에 `id`, `name`, `url`, `group`을 가진 객체를 추가한 뒤 수집기를 실행합니다. 뉴스 피드에는 `"type": "news"`를 추가하면 국내 뉴스 목록에 나타나고 소개 문구는 저장하지 않습니다. 피드는 RSS 2.0 또는 Atom 형식이어야 합니다. 일부 피드가 실패하면 이전에 수집된 글은 유지하며, 모든 피드가 실패하면 작업이 실패합니다.
 
 ## GitHub Pages 배포
 

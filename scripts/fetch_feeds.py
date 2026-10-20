@@ -140,7 +140,7 @@ def entries_from(root: ET.Element, source: dict[str, str]) -> list[dict]:
         if not published:
             continue
         description = child_text(entry, "description", f"{ATOM}summary", f"{ATOM}content")
-        summary = clean_text(description, 280)
+        summary = "" if source.get("type") == "news" else clean_text(description, 280)
         if summary.casefold() == title.casefold():
             summary = ""
         result.append({

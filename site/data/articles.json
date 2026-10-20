@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:08:57Z",
+  "generatedAt": "2026-10-20T02:25:20Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -36,9 +36,193 @@
       "name": "Hacker News 한국어",
       "url": "https://hevinxx.github.io/hn-summary-and-translate/rss-ko.xml",
       "group": "커뮤니티"
+    },
+    {
+      "id": "etnews-sw",
+      "name": "전자신문 · SW",
+      "url": "https://rss.etnews.com/04.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news"
+    },
+    {
+      "id": "etnews-security",
+      "name": "전자신문 · 보안",
+      "url": "https://rss.etnews.com/04045.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news"
+    },
+    {
+      "id": "aitimes",
+      "name": "AI타임스",
+      "url": "https://www.aitimes.com/rss/allArticle.xml",
+      "group": "국내 IT 뉴스",
+      "type": "news"
     }
   ],
   "articles": [
+    {
+      "id": "b1d22f91e2c8a9356a97",
+      "title": "[AI리더의 서가] 다중 에이전트 시스템을 위한 컨텍스트 엔지니어링",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216342",
+      "summary": "",
+      "publishedAt": "2026-10-20T09:00:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "95f9a8f3cab249cd8ac7",
+      "title": "[10월19일] 뇌 읽는 AI, 공상과학을 현실로 이끄는 기술들",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216396",
+      "summary": "",
+      "publishedAt": "2026-10-20T07:00:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "c867bd6b5327047f3236",
+      "title": "머스크 “미국 모든 어린이에게 스페이스X 주식 1주씩”…14조원 규모",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216418",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:41:29Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "6666cb12ae5d7d78c806",
+      "title": "미국, 연방기관서 딥시크 퇴출…기반 기술 활용 외부 서비스도 포함",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216417",
+      "summary": "",
+      "publishedAt": "2026-10-20T05:29:07Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "25626c8f127f25d29579",
+      "title": "Show GN: Nopetion – 내 서버에서 직접 운영하는 개인용 Notion 대안",
+      "url": "https://news.hada.io/topic?id=35680",
+      "summary": "안녕하세요. 개인 문서를 직접 관리할 수 있는 셀프 호스팅 문서 워크스페이스 Nopetion을 만들었습니다. Notion처럼 편리하게 문서를 작성하고 정리하면서도, 데이터와 서버를 직접 관리할 수 있는 환경을 목표로 개발했습니다. Nopetion은 오픈소스 문서 협업 도구인 Docmost를 기반으로 수정한 포크",
+      "publishedAt": "2026-10-20T02:03:05Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "f6448ad2bd58fa92ac57",
+      "title": "플리토, 美 한인 스타트업 행사에 AI 통번역 '보글' 지원",
+      "url": "https://www.etnews.com/20261020000137",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:43:52Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "98b4a69cfc3065bd32b5",
+      "title": "베스핀글로벌, '2026 산업별 AX 고객 사례집' 발간…성과 수치 공개",
+      "url": "https://www.etnews.com/20261020000131",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:29:36Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "57532a3174495d8c2d83",
+      "title": "Show GN: Review Inbox - 리뷰 기다리는 PR을 Claude Code 입력창 위에 띄워 주는 mod",
+      "url": "https://news.hada.io/topic?id=35676",
+      "summary": "2주전부터 제 Claude Code 입력창 위에는 노란 줄이 하나 떠 있습니다. 동료의 PR이 사흘째 제 리뷰를 기다리고 있다는 뜻입니다. Claude Code를 쓰고부터 하루 대부분을 터미널에서 보내다 보니, PR을 올리는 속도는 빨라졌는데 리뷰 요청은 오히려 놓치게 되었습니다. GitHub 알림 탭을 열 일이 없어졌거든요",
+      "publishedAt": "2026-10-20T01:28:32Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "e3598f7e7a34362277c6",
+      "title": "스틸리언, 인도네시아 국영·지방은행 2곳에 '앱수트' 공급",
+      "url": "https://www.etnews.com/20261020000127",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:23:51Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "c2f25ab1c976609ff30d",
+      "title": "S2W, 'VB 컨퍼런스'서 AI 공급망 공격 탐지 기술 발표",
+      "url": "https://www.etnews.com/20261020000120",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:19:00Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "43c60aa07b6ac12caebb",
+      "title": "에버스핀 “위협 IP 21만개 탐지…자동화 공격, IP 차단만으론 한계”",
+      "url": "https://www.etnews.com/20261020000106",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:12:17Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "1e5823c1364085ff27f7",
+      "title": "강진모 아이티센글로벌 회장, 1.4억원 규모 주식 매수…책임경영 의지",
+      "url": "https://www.etnews.com/20261020000104",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:11:09Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "0fa5272928789a0619bd",
+      "title": "Show GN: Markpin – 밑줄 긋고 나면 「왜 표시했나요?」를 묻는 웹 형광펜 (로컬 Markdown, MCP 서버 공개)",
+      "url": "https://news.hada.io/topic?id=35674",
+      "summary": "무엇을 만들었는지 웹페이지를 읽다가 문장을 드래그하면 형광펜(네 가지 색)을 긋고 그 자리에 메모를 달 수 있는 Chrome 확장입니다. 색 말고도 ? ! × ★ 기호를 같이 남길 수 있는데(저는 의문, 새로 안 것, 반박, 핵심 정도로 쓰고 있습니다), 밑줄을 긋고 나면 메모 칸이 열리면서 「왜 ...",
+      "publishedAt": "2026-10-20T01:10:28Z",
+      "sourceIds": [
+        "geeknews"
+      ]
+    },
+    {
+      "id": "46268e5993dca78c1602",
+      "title": "미니소프트, 한양대 산학협력단과 'MiWork-VibeHub.edu' 공급 계약 체결",
+      "url": "https://www.etnews.com/20261020000091",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:04:42Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "d3534ea9e2da4c18bc9e",
+      "title": "HS효성인포, 역삼동 사옥 이전…AI 전환 지원 강화",
+      "url": "https://www.etnews.com/20261020000088",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:03:11Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "3b3540adfb1bc5e44f8b",
+      "title": "베껴주셔서 감사합니다.",
+      "url": "https://blog.naver.com/bizucafe/224447439441",
+      "summary": "베껴주셔서 감사합니다. 더 많이 카피하고 더 많이 베껴가셔도 좋습니다. 요즘 DM으로 제보를 참 많이 받습니다. 저희가 올린 콘텐츠와 거의 흡사한 콘텐츠들이 하루이틀 사이에 뒤이어 올라온다는 이야기들인데요. 저는 그런 제보를 주실 때마다 오히려 \"더 많이 그래주셨으면 좋겠다\"고 답을 드립니다. 어차피 누구나 콘텐츠를 만들 수 있는 시대입니다. 저희가 이 채널을 운영하는 유일한 이유는, 시장에 진짜 유의미한 정보들이 더 많은 사람들에게 닿았으면 하는 바람 때문입니다. 그리고 그 정보들을 더 가독성",
+      "publishedAt": "2026-10-20T01:02:01Z",
+      "sourceIds": [
+        "awesome"
+      ]
+    },
     {
       "id": "7e3ec83d31e4eca34eaa",
       "title": "Ask GN: 회사에서 계속해서 늘어나는 에이전트, 어떻게 관리하나요?",
@@ -70,6 +254,27 @@
       ]
     },
     {
+      "id": "8dd4696ec90ff5c34fbf",
+      "title": "컴트루테크놀로지, '제9회 Dreams Come True Conference' 개최…셜록홈즈 AI DLP 신기능 최초 공개",
+      "url": "https://www.etnews.com/20261020000038",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:11:57Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "b040eebf84597b8d941f",
+      "title": "“골치 아픈 계약서·연차 한곳에서 끝낸다”… 유니포스트, 바다김밥에 인사 관리 솔루션 공급",
+      "url": "https://www.etnews.com/20261020000028",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:04:11Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "fa73ff24ef85537d5c64",
       "title": "사이트 가이드라인과 AI/LLM 태그 변경",
       "url": "https://news.hada.io/topic?id=35667",
@@ -80,13 +285,24 @@
       ]
     },
     {
+      "id": "ff109c1ff247a3254ccf",
+      "title": "비그라운드, '인피니티스택 v2.0' GS인증 1등급 획득…HCI 솔루션 신뢰성 입증",
+      "url": "https://www.etnews.com/20261020000024",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:01:52Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "91d27cf22afb07c968ca",
       "title": "여기어때 해외투어 프론트엔드 구축기록",
-      "url": "https://indieblog.net/go/623845",
+      "url": "https://techblog.gccompany.co.kr/%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C-%ED%95%B4%EC%99%B8%ED%88%AC%EC%96%B4-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B5%AC%EC%B6%95%EA%B8%B0%EB%A1%9D-056eeab367cc",
       "summary": "글. 박수봉(Henby) / 서비스웹개발팀 안녕하세요. 서비스웹개발팀 헨비입니다. 9월 7일, 여기어때 해외투어 서비스를 오픈했습니다. 프론트엔드 담당 개발자는 두 명이었고, 웹과 앱 웹뷰를 하나의 코드베이스로 개발했습니다. 저는 웹 카테고리홈·상품 상세·주문서·예약내역·해외투어용 채팅을 맡았고, 검색바·헤더·푸터·예약내역 탭·찜 탭·회원탈퇴처럼 여러 서비…",
       "publishedAt": "2026-10-20T00:01:02Z",
       "sourceIds": [
-        "indieblog"
+        "indieblog",
+        "awesome"
       ]
     },
     {
@@ -97,6 +313,38 @@
       "publishedAt": "2026-10-20T00:00:49Z",
       "sourceIds": [
         "hnko"
+      ]
+    },
+    {
+      "id": "54a2ba67fcd0dacae111",
+      "title": "MS, AI 에이전트 내부자 위협 대응 강화…실시간 감시·권한 통제",
+      "url": "https://www.etnews.com/20261020000020",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:55:59Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "56e61faa700ec4342010",
+      "title": "클라우드플레어, 깃허브·노션 등과 협력…기업 AI 업무 자동화 확대",
+      "url": "https://www.etnews.com/20261020000018",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:50:30Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "b3eb1cbf34dfa7372eed",
+      "title": "'ERP, 금융과 연결' 영림원소프트랩, KB국민은행과 업무협약",
+      "url": "https://www.etnews.com/20261020000016",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:49:00Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -117,6 +365,17 @@
       "publishedAt": "2026-10-19T23:32:58Z",
       "sourceIds": [
         "geeknews"
+      ]
+    },
+    {
+      "id": "756307ed0397bc03eaff",
+      "title": "엔텔스, '타잔DB' 경찰청 금융사기 대응시스템 공급",
+      "url": "https://www.etnews.com/20261020000009",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:30:00Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
       ]
     },
     {
@@ -147,6 +406,16 @@
       "publishedAt": "2026-10-19T22:20:00Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "f251fa2a66d0de5ddc86",
+      "title": "오픈AI 회의실 도청 혐의자, 사우디 왕족 AI 프로젝트 합류 타진",
+      "url": "https://www.etnews.com/20261020000002",
+      "summary": "",
+      "publishedAt": "2026-10-19T22:17:26Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -321,6 +590,26 @@
       ]
     },
     {
+      "id": "b29ff22d850d0480b794",
+      "title": "구글, AI 성능 스스로 높이는 자기개선 프레임워크 ‘하네스²’ 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216410",
+      "summary": "",
+      "publishedAt": "2026-10-19T18:01:15Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "042bdb2c1a3af77d8372",
+      "title": "텐센트, 챗봇마다 저장하던 AI 메모리 통합...클로드·챗GPT에서 공유",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216413",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:54:24Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "a5a41db56026f8a6f625",
       "title": "Harness Engineering 101 - Python 약 300줄로 배우는 AI 에이전트 구현",
       "url": "https://news.hada.io/topic?id=35651",
@@ -351,6 +640,56 @@
       ]
     },
     {
+      "id": "c082eed8c241b0588fda",
+      "title": "엘로리안, 시각 추론 AI ‘글림프스’ 공개…일부 평가서 아스트라 앞서",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216403",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:35:58Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "79ba6e3eeae8a944d323",
+      "title": "앤트로픽 직원 91% “2030년 AI가 노벨상급 발견” 예측...일반인은 39%",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216398",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:26:50Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "6f69c09c1b4694b0192b",
+      "title": "센드버드, 업스테이지와 기업용 AI 에이전트 영역서 협력",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216412",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:07:09Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "3fee45ffef3c14956379",
+      "title": "중국 CXMT, AI 수요에 흑자 전환 전망…주가는 6%대 하락",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216415",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:04:44Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "ba0a7636f0b7cf2e5c09",
+      "title": "앤트로픽, 에이전트 협상 학습에 변호사 투입...“흥정할 때 지켜야 할 규칙은”",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216406",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:32:46Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "c4b07463ef95b6f9741f",
       "title": "물리 키 없이 OpenAI Daybreak 등록 방법(with IDmelon)",
       "url": "https://indieblog.net/go/622740",
@@ -358,6 +697,26 @@
       "publishedAt": "2026-10-19T16:18:56Z",
       "sourceIds": [
         "indieblog"
+      ]
+    },
+    {
+      "id": "acaffa53199208d684a6",
+      "title": "디즈니, 파산한 캐릭터닷AI 직원 대부분 채용...3년간 2600억 투입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216405",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:12:35Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "3de6f91e507847a02226",
+      "title": "AI 도입 가속에 앤트로픽 초급 기술직 채용 '3분의 1'로 급감",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216399",
+      "summary": "",
+      "publishedAt": "2026-10-19T16:01:21Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -401,6 +760,36 @@
       ]
     },
     {
+      "id": "7eefd025589f99f8cb2a",
+      "title": "퓨리오사AI·업스테이지 등 5개사 '소버린 AI 풀스택 인프라' 공동 개발 맞손",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216392",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:39:20Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "4c10d5fec55d564b6395",
+      "title": "네이버 파파고, 번역에 AI 얹어 외국인 여행 가이드로 확장",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216387",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:38:31Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "647dbbf0c25e271211f6",
+      "title": "덴컴·서울대, AI 음성 치주 기록 교육 협력",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216411",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:37:46Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "163aa7a956892f8176e4",
       "title": "우크라이나, 부상병 첫 드론 대피 주장",
       "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
@@ -408,6 +797,16 @@
       "publishedAt": "2026-10-19T15:31:34Z",
       "sourceIds": [
         "hnko"
+      ]
+    },
+    {
+      "id": "4ad6484d109bc574df95",
+      "title": "오픈AI, 잇단 경영진 이탈 뒤 인력 보강…스페이스X·메타서 영입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216409",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:31:02Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -441,6 +840,16 @@
       ]
     },
     {
+      "id": "b02f149704ce57320f45",
+      "title": "\"페이블 5.5, 파트너에 전달\"...개발 도구서 새 모델명 잇따라 포착",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216390",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:46:44Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "68aba83967a4f02044c2",
       "title": "에스엠벡셀은 왜 상한가에 갔나",
       "url": "https://blog.naver.com/anordinarydad/224447069972",
@@ -451,6 +860,46 @@
       ]
     },
     {
+      "id": "50a54e1b949e1d366164",
+      "title": "앤트로픽 ‘상위 5대 고객’ 레플릿도 오픈AI로…클로드 의존 줄여",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216404",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:29:39Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "5e53c80ac779ea751658",
+      "title": "오픈AI, ‘GPT-라이브’에 의사 결정 API 연결...\"말 끝나기 전 판단\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216402",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:19:27Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "3b1d8b602fe290384ffa",
+      "title": "과기정통부, 세계은행과 글로벌 AI·디지털 협력 위한 책임있는 AI 논의",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216394",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:11:51Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "6fb4e73f274fa6cce3d1",
+      "title": "마키나락스, 도면 AI 솔루션으로 제조업 AX 수요 견인 나서",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216397",
+      "summary": "",
+      "publishedAt": "2026-10-19T14:10:11Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "342a4291d4990e2feb17",
       "title": "AI 긍정적인 이야기 vs 부정적인 이야기",
       "url": "https://blog.naver.com/mynameisdj/224447094817",
@@ -458,6 +907,26 @@
       "publishedAt": "2026-10-19T14:09:01Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "8878a3cf86331b5b891f",
+      "title": "여수서 열린 전남광주 평생학습박람회…이틀간 1만여명 참여",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216391",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:43:52Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "41c76347710ec39e179c",
+      "title": "광주김치축제 23일 개막…김치요리·체험·공연 한자리",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216389",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:43:17Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -481,6 +950,26 @@
       ]
     },
     {
+      "id": "32d0b345fbf2c7ab8e59",
+      "title": "IPO 앞둔 엔스케일에 대형 악재…MS, 영국 데이터센터 계약 철수",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216401",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:23:45Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "eb179fd8c02c8383031a",
+      "title": "앤트로픽 ‘클로드’가 인스타그램 계정 정지 유발...메타 \"봇 활동으로 오인\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216395",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:06:42Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "f889defb6ae38dd892c9",
       "title": "여보, 나 TV를 줄였어",
       "url": "https://cakehonolulu.github.io/honey-i-shrunk-the-tv",
@@ -488,6 +977,16 @@
       "publishedAt": "2026-10-19T13:06:21Z",
       "sourceIds": [
         "hnko"
+      ]
+    },
+    {
+      "id": "2e9a389e94c20d739e89",
+      "title": "앤트로픽, 지분 5% 공익기금에 출연...AI 일자리 충격 대응 추진",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216393",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:39:09Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -511,6 +1010,26 @@
       ]
     },
     {
+      "id": "f3f290dc3b11163fdedf",
+      "title": "오픈AI, 이미지 모델 ‘오로라’ 3종 테스트 정황...‘GPT-이미지-3’로 추측",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216388",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:33:20Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "ad2c1c8bca61e7625641",
+      "title": "미국 \"인도·인도네시아·라오스 태양광 수입에 자국 산업 피해\"…반덤핑·상계관세 부과",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216385",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:35:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "754d2767c9a88736d723",
       "title": "Tailscale로 iPhone에서 로컬 개발 서버의 .test 도메인 접속하기",
       "url": "https://indieblog.net/go/622884",
@@ -518,6 +1037,26 @@
       "publishedAt": "2026-10-19T11:30:00Z",
       "sourceIds": [
         "indieblog"
+      ]
+    },
+    {
+      "id": "2f086dce060e2ab3198e",
+      "title": "중국, 페로브스카이트·탠덤 태양광 제조기술 수출금지 추진",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216384",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:20:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "79e6e8ec46c744493c40",
+      "title": "스페인 포도밭, 저상형 수직 태양광 시험…\"포도 품질 영향 제한적\"",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216383",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:10:00Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -541,6 +1080,36 @@
       ]
     },
     {
+      "id": "2d10121469ef382ac1d6",
+      "title": "[AI리더의 서가] 밑바닥부터 시작하는 딥러닝 6",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216340",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:00:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "76aefc86929fd4ba9e3b",
+      "title": "정동, 빛과 선율로 물든다…중구 '정동야행' 30일 개막",
+      "url": "https://www.etnews.com/20261019000416",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:49:50Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "61943ec0682a56048e2f",
+      "title": "은평구, AI 기반 대형폐기물 처리 앱 '가져가' 시범 운영",
+      "url": "https://www.etnews.com/20261019000414",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:47:04Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "1e22d2b30be2ad1afac4",
       "title": "DeepSeek V4.1 Flash 1017 - AAII 45점, 초당 약 225토큰 출력",
       "url": "https://news.hada.io/topic?id=35633",
@@ -548,6 +1117,16 @@
       "publishedAt": "2026-10-19T08:33:27Z",
       "sourceIds": [
         "geeknews"
+      ]
+    },
+    {
+      "id": "6ce1ef99279f98662f1b",
+      "title": "원프레딕트, FIX 2026서 공장 재현한 제조 AI 선보인다",
+      "url": "https://www.etnews.com/20261019000403",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:31:17Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -562,6 +1141,26 @@
       ]
     },
     {
+      "id": "f1ed85f1423bb177f068",
+      "title": "김경엽 롯데이노베이트 대표 “2030년까지 모빌리티 사업 300% 신장”",
+      "url": "https://www.etnews.com/20261019000397",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:26:09Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "20b28d2bb50c12cc6f6f",
+      "title": "숭실대 토론동아리 '만장일치', 애기애타 숙의토론대회 우승",
+      "url": "https://www.etnews.com/20261019000391",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:19:40Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "7fc35502944fdd0acb60",
       "title": "크라임웨어 유통 창구가 된 PyPI, 카딩(Carding) 자동화 도구 'saeka' 사례",
       "url": "https://indieblog.net/go/621327",
@@ -572,6 +1171,16 @@
       ]
     },
     {
+      "id": "d004ff616e08b5b5edda",
+      "title": "클레온, 삼성 사이니지 활용 서울역에 'AI 역무원' 시범 운영",
+      "url": "https://www.etnews.com/20261019000374",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:46:10Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "69b946ecfca3f99941d8",
       "title": "LLM 프록시를 직접 운영하지 않으면, 모델 호출에서 무슨 일이 벌어지는지 어떻게 알 수 있을까?",
       "url": "https://news.hada.io/topic?id=35631",
@@ -579,6 +1188,27 @@
       "publishedAt": "2026-10-19T07:32:09Z",
       "sourceIds": [
         "geeknews"
+      ]
+    },
+    {
+      "id": "47d644ff38f79162301b",
+      "title": "공공이 만든 '무료 보안SW' 교육청 확산…업계 “민간 시장 위축”",
+      "url": "https://www.etnews.com/20261019000313",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:30:00Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "f614c13d80a9a18c9e50",
+      "title": "인천교육청, 논·서술형 평가 확대 대비…교사 180여 명 채점 연수",
+      "url": "https://www.etnews.com/20261019000351",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:09:32Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -603,6 +1233,26 @@
       ]
     },
     {
+      "id": "c4670cd4c3ad51253b0f",
+      "title": "PC, 메모리 대란 한숨 돌렸다…내년 'AI B2B' 승부수",
+      "url": "https://www.etnews.com/20261019000211",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:00Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "47d92936012c9bb56de1",
+      "title": "[AI 세이프가드] ④ 토비 월시 “안전과 혁신은 반대 아니다…AI 운명 결정하는 건 인간”",
+      "url": "https://www.etnews.com/20261019000337",
+      "summary": "",
+      "publishedAt": "2026-10-19T06:46:48Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "444d8a7f455d5a25d66f",
       "title": "솔리다임 나스닥 상장 불허?",
       "url": "https://blog.naver.com/anordinarydad/224446639819",
@@ -623,6 +1273,37 @@
       ]
     },
     {
+      "id": "6feba54f03d7129f6c53",
+      "title": "내달 상암서 서울 첫 레벨4 자율주행 택시…라이드플럭스가 맡는다",
+      "url": "https://www.etnews.com/20261019000316",
+      "summary": "",
+      "publishedAt": "2026-10-19T06:11:14Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "8b4d4b38a4de45eaaa99",
+      "title": "병원정보보안협회, AI 시대 의료정보 보호·침해 대응 전략 논의",
+      "url": "https://www.etnews.com/20261019000301",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:55:35Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "ac84fcb70d8cdb3aa254",
+      "title": "래블업 “AI 인프라 풀스택 기술로 글로벌 시장 공략”",
+      "url": "https://www.etnews.com/20261019000295",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:48:39Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "be1dcc4466d8f055cbea",
       "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
       "url": "https://techblog.samsung.com/blog/article/101",
@@ -632,6 +1313,17 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ]
+    },
+    {
+      "id": "f517ad9bbb69fba4fd4c",
+      "title": "위베어소프트, 흥국화재에 SSL 인증서 자동관리 솔루션 공급",
+      "url": "https://www.etnews.com/20261019000287",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:43:48Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
       ]
     },
     {
@@ -645,6 +1337,48 @@
       ]
     },
     {
+      "id": "0801e08339a76f6b90a5",
+      "title": "[포토] 글로벌 AI & 디지털 장관회의",
+      "url": "https://www.etnews.com/20261019000285",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:41:58Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "680fb91cce5e27e05745",
+      "title": "스패로우, AI 코딩 보안 솔루션 '스패로우 MCP' 日 출시",
+      "url": "https://www.etnews.com/20261019000276",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:37:34Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "2c4a98aa5449851965e5",
+      "title": "과기정통부, 세계은행과 '글로벌 AI·디지털 서밋' 개최…미국 외 처음",
+      "url": "https://www.etnews.com/20261019000273",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:36:53Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "4078a9205f0069cca536",
+      "title": "개인정보위, 미사용 API 폐기·접근권한 점검 당부",
+      "url": "https://www.etnews.com/20261019000269",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:32:15Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
       "id": "819e127b50080154c857",
       "title": "William Gibson과 사이버스페이스 상표 등록 이야기",
       "url": "https://news.hada.io/topic?id=35627",
@@ -652,6 +1386,17 @@
       "publishedAt": "2026-10-19T05:31:46Z",
       "sourceIds": [
         "geeknews"
+      ]
+    },
+    {
+      "id": "ecc1d86376394414a533",
+      "title": "소프트캠프, 일본 3개 도시서 파트너데이 개최…현지 영업 강화",
+      "url": "https://www.etnews.com/20261019000257",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:24:36Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
       ]
     },
     {
@@ -665,6 +1410,36 @@
       ]
     },
     {
+      "id": "063415c54f4b8b72afe7",
+      "title": "성남시, 22일 김대식 교수 초청…AI 시대 변화와 대응 방향 강연",
+      "url": "https://www.etnews.com/20261019000255",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:22:39Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "35b8a5935d1f5fe1f417",
+      "title": "네이버클라우드, '보안 자가진단' 사이트 오픈… “AI 시대 기업 보안 전 과정 한 번에”",
+      "url": "https://www.etnews.com/20261019000245",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:06:59Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "4c56dab266dfc0fd43ef",
+      "title": "펀진, 육군 '아미 타이거 플러스' 훈련서 국방 AI 실전 운용",
+      "url": "https://www.etnews.com/20261019000240",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:02:56Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "46eb1c8a17892da286f9",
       "title": "테크 업계의 남성들 #YesAllMen",
       "url": "https://news.hada.io/topic?id=35625",
@@ -672,6 +1447,16 @@
       "publishedAt": "2026-10-19T05:00:54Z",
       "sourceIds": [
         "geeknews"
+      ]
+    },
+    {
+      "id": "22ac345e070718ac1c8b",
+      "title": "[인터뷰]이형배 인젠트 대표 “정형·비정형 DB 아우른 통합 능력으로 AI 시대 유일무이 성공 모델 만들 것”",
+      "url": "https://www.etnews.com/20261019000182",
+      "summary": "",
+      "publishedAt": "2026-10-19T05:00:00Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -702,6 +1487,16 @@
       "publishedAt": "2026-10-19T04:31:52Z",
       "sourceIds": [
         "indieblog"
+      ]
+    },
+    {
+      "id": "7aae93ef988886eac281",
+      "title": "[포토] 글로벌 AI & 디지털 장관회의...배경훈 장관 환영사",
+      "url": "https://www.etnews.com/20261019000208",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:28:52Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -811,6 +1606,16 @@
       ]
     },
     {
+      "id": "f8534b942f07641ed4d2",
+      "title": "일레븐랩스, 대화만으로 에이전트 구축 '아키텍트' 알파 공개",
+      "url": "https://www.etnews.com/20261019000178",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:33:04Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
       "id": "639a89b21c45df82547d",
       "title": "누구나 전문가처럼 만들 수 있게: 미리캔버스 템플릿 디자이너가 일하는 법",
       "url": "https://medium.com/miridih/%EB%88%84%EA%B5%AC%EB%82%98-%EC%A0%84%EB%AC%B8%EA%B0%80%EC%B2%98%EB%9F%BC-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EA%B2%8C-%EB%AF%B8%EB%A6%AC%EC%BA%94%EB%B2%84%EC%8A%A4-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EA%B0%80-%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B2%95-e1e3aff07211",
@@ -820,6 +1625,37 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ]
+    },
+    {
+      "id": "c18f473e95aff3d80cae",
+      "title": "캠시스, 3분기 영업익 74억…“연간 손익도 흑자 목표”",
+      "url": "https://www.etnews.com/20261019000159",
+      "summary": "",
+      "publishedAt": "2026-10-19T02:00:29Z",
+      "sourceIds": [
+        "etnews-sw"
+      ]
+    },
+    {
+      "id": "2488f4239ffb6ebe35be",
+      "title": "[기고]금융보안의 옆문을 다시 묻다",
+      "url": "https://www.etnews.com/20261019000149",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:50:04Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "2229327d207e3264f653",
+      "title": "센드버드-업스테이지, 국산 LLM·AI 에이전트 상용화 협력",
+      "url": "https://www.etnews.com/20261019000143",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:44:29Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -833,6 +1669,28 @@
       ]
     },
     {
+      "id": "f0f46cf2a1193ae76727",
+      "title": "에스큐브아이, AI 기반 웹쉘 탐지 기술 특허 등록… ShellCop 정밀 분석 고도화",
+      "url": "https://www.etnews.com/20261019000095",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:15:55Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "d4d40ee79b1242f73e92",
+      "title": "스패로우, '시큐리티 데이즈' 참가…'Sparrow MCP'로 일본 시장 확대",
+      "url": "https://www.etnews.com/20261019000094",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:15:25Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
       "id": "cec8cced61d50dacaf50",
       "title": "Show GN: ALIGNS.md - 초정렬이 오기 전 내 판단 기준과 취향을 에이전트와 자가 정렬해보세요",
       "url": "https://news.hada.io/topic?id=35614",
@@ -840,6 +1698,27 @@
       "publishedAt": "2026-10-19T01:12:30Z",
       "sourceIds": [
         "geeknews"
+      ]
+    },
+    {
+      "id": "fcafda5e32e5b7fba4da",
+      "title": "쿠도커뮤니케이션, '경험을 잇(IT)다' 개최…“구성원 경험으로 성장문화 확산”",
+      "url": "https://www.etnews.com/20261019000084",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:02:24Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "009c6336177bccaa6e47",
+      "title": "LG CNS, IDC 글로벌 디지털 워크플레이스 서비스 평가 '메이저 플레이어' 선정",
+      "url": "https://www.etnews.com/20261019000056",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:00:00Z",
+      "sourceIds": [
+        "etnews-sw"
       ]
     },
     {
@@ -883,6 +1762,16 @@
       ]
     },
     {
+      "id": "cfe4c5fad06d0a3d8d47",
+      "title": "에스에이티정보, 공공문서 AI 데이터 전환…구조화부터 개인정보 보호·검색까지",
+      "url": "https://www.etnews.com/20261019000047",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:28:55Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "ee1972ad25c338885056",
       "title": "서버 터질까 봐 만든 도구, 돈 내고 쓰는 기능이 되기까지",
       "url": "https://velopers.kr/post/9483",
@@ -920,6 +1809,86 @@
       "publishedAt": "2026-10-18T21:38:00Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "ea8fc43d5cf16c331f97",
+      "title": "앤트로픽 클로드, 25년 된 암호 표준 미스터리 풀어…“30분도 안 걸렸다”",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216380",
+      "summary": "",
+      "publishedAt": "2026-10-18T19:10:14Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "bd866878cd03c5f24848",
+      "title": "'제미나이 4 아르곤', 역할 나눠 27시간 만에 마인크래프트 클리어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216379",
+      "summary": "",
+      "publishedAt": "2026-10-18T18:30:30Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "aa4a513f78e6c0fd84a6",
+      "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216375",
+      "summary": "",
+      "publishedAt": "2026-10-18T17:51:14Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "0647b74f815d37d46cb8",
+      "title": "리퀴드 AI, 제브 성능 앞선 멀티모달 의사결정 모델 ‘d1-울트라’ 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216371",
+      "summary": "",
+      "publishedAt": "2026-10-18T17:13:21Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "569a5a76f110d8c7a544",
+      "title": "[AI 모델 신작] 영상 생성 ‘클링 4.0’·감정 조절 음성 ‘드라마 3’ 등 6종",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216369",
+      "summary": "",
+      "publishedAt": "2026-10-18T16:50:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "b84e9b43cc07df1abcc8",
+      "title": "구글, 양자컴퓨터 핵심 오류 40분의 1로 줄여…실용화 해결 실마리",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216374",
+      "summary": "",
+      "publishedAt": "2026-10-18T16:40:31Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "3cd5b950c16ca3c764d3",
+      "title": "오픈AI 도청 혐의 직원, 보석 신청…“사우디행 편도 항공권, 도주 목적 아냐”",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216377",
+      "summary": "",
+      "publishedAt": "2026-10-18T16:05:27Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "ea53eb77f7957edaa8a2",
+      "title": "메타, 언론사 콘텐츠 AI 학습 논란에 약관 수정…자동 수집 권한은 유지",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216372",
+      "summary": "",
+      "publishedAt": "2026-10-18T15:34:38Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -963,6 +1932,26 @@
       ]
     },
     {
+      "id": "7983191ffd89d8856d20",
+      "title": "앤트로픽, 캐나다 첫 데이터센터 계약…일본서도 건설 협상 막바지",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216378",
+      "summary": "",
+      "publishedAt": "2026-10-18T11:42:17Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "b3c446333e9069517f44",
+      "title": "앤트로픽 ‘미소스 5’, 양자회로 설계 개선…53시간 만에 새 계산법 발견",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216376",
+      "summary": "",
+      "publishedAt": "2026-10-18T11:11:42Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "89605bec5f79a44af9d4",
       "title": "MyStock 투자일지 - 2026.10.12~10.16 | AI 투자금 회수 우려와 반도체 수급 충돌",
       "url": "https://indieblog.net/go/616963",
@@ -970,6 +1959,36 @@
       "publishedAt": "2026-10-18T11:04:29Z",
       "sourceIds": [
         "indieblog"
+      ]
+    },
+    {
+      "id": "1efd62e9ee2a8c907895",
+      "title": "순천만천문대 ‘밤새워 내 별 찾기’…초등교사 2년 연속 참여",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216316",
+      "summary": "",
+      "publishedAt": "2026-10-18T09:50:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "75fdb184550343b1452a",
+      "title": "여수 국동항서 ‘한밤의 피크닉’…주말 버스킹·먹거리 운영",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216317",
+      "summary": "",
+      "publishedAt": "2026-10-18T09:45:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "439e86d9330ecff756eb",
+      "title": "미국 은행들, 메타 ‘뮤즈’ 계좌 접근 차단…“AI가 옮긴 돈, 누가 책임지나”",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216373",
+      "summary": "",
+      "publishedAt": "2026-10-18T09:41:18Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -983,6 +2002,46 @@
       ]
     },
     {
+      "id": "e772c6b2a1c4ef245885",
+      "title": "딥시크, 코딩 성능 높인 ‘V4.1 플래시’ 업데이트…검색 API도 공개",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216370",
+      "summary": "",
+      "publishedAt": "2026-10-18T09:03:13Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "7b7ce5663a1ea9084afb",
+      "title": "카타르 재생에너지 비중 2035년 25.9% 전망…태양광이 성장 주도",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216312",
+      "summary": "",
+      "publishedAt": "2026-10-18T08:55:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "463566b357dad9ff7419",
+      "title": "독일 태양광, 1~9월 12.76GW 신규 가동…2026년 목표 이미 넘어",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216311",
+      "summary": "",
+      "publishedAt": "2026-10-18T08:50:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
+      "id": "07df85f1f4081c40742a",
+      "title": "브라질 대선, 태양광 확대 놓고 룰라·보우소나루 정책 경쟁",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216310",
+      "summary": "",
+      "publishedAt": "2026-10-18T08:35:00Z",
+      "sourceIds": [
+        "aitimes"
+      ]
+    },
+    {
       "id": "cb93fc37f374be7ed68e",
       "title": "istio 스터디 후기",
       "url": "https://blog.outsider.ne.kr/1815",
@@ -993,6 +2052,16 @@
       ]
     },
     {
+      "id": "97bbc041b394c7edbe8a",
+      "title": "“숨은 웹 자산부터 취약점까지”…스틸리언, AI 보안 솔루션 출시",
+      "url": "https://www.etnews.com/20261016000222",
+      "summary": "",
+      "publishedAt": "2026-10-18T07:00:00Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "cdaf01c36fa286021be2",
       "title": "2026년 3쿼터",
       "url": "https://yongseok.me/blog/2026_mid",
@@ -1000,6 +2069,26 @@
       "publishedAt": "2026-10-18T06:17:11Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "e80b0cf9e0889ffdff72",
+      "title": "아란타 '위즈헬퍼원', KISA 정보보호제품 신속확인서 효력 연장… AI 기반 공격 시대 외부 원격접속 통제 강화",
+      "url": "https://www.etnews.com/20261016000207",
+      "summary": "",
+      "publishedAt": "2026-10-18T05:09:00Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "6a03f6168dde5ad12218",
+      "title": "“AI 시대 금융보안, 외부 노출 자산부터 정확히 파악해야”",
+      "url": "https://www.etnews.com/20261016000198",
+      "summary": "",
+      "publishedAt": "2026-10-18T04:56:00Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1046,6 +2135,16 @@
       "publishedAt": "2026-10-17T22:34:19Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "d45c9bba80ba975fd683",
+      "title": "[AI 모델 신작] BFL ‘플럭스 3 이미지 클라인’ 등 5종",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216368",
+      "summary": "",
+      "publishedAt": "2026-10-17T19:47:45Z",
+      "sourceIds": [
+        "aitimes"
       ]
     },
     {
@@ -1116,6 +2215,16 @@
       "publishedAt": "2026-10-17T08:26:28Z",
       "sourceIds": [
         "indieblog"
+      ]
+    },
+    {
+      "id": "c69f5d18972eaf69a1b6",
+      "title": "AI로 CCTV 영상도 조작…ONVIF, 위변조 검증 표준화 추진",
+      "url": "https://www.etnews.com/20261016000227",
+      "summary": "",
+      "publishedAt": "2026-10-17T08:00:00Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1191,6 +2300,16 @@
       ]
     },
     {
+      "id": "a78c82b210114f21c762",
+      "title": "센스톤, AI 무인공장 보안 기술 개발…비인가 제어 명령 사전 차단",
+      "url": "https://www.etnews.com/20261016000344",
+      "summary": "",
+      "publishedAt": "2026-10-16T12:10:42Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "298ec4d1df66c2c53cae",
       "title": "Gemini 4 Argon 성능 등 10월 셋째 주 Google for Developers 위클리 업데이트를 지금 확인하세요!",
       "url": "http://developers-kr.googleblog.com/2026/10/weeklyupdate-week3.html",
@@ -1232,6 +2351,16 @@
       "sourceIds": [
         "velopers",
         "indieblog"
+      ]
+    },
+    {
+      "id": "e0384e637aba9a0bb184",
+      "title": "프루프포인트, 데이터·AI 보안기업 베로니스 8.4조원에 인수",
+      "url": "https://www.etnews.com/20261016000285",
+      "summary": "",
+      "publishedAt": "2026-10-16T07:23:44Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1287,6 +2416,26 @@
       "sourceIds": [
         "indieblog",
         "awesome"
+      ]
+    },
+    {
+      "id": "f8daefeeab9cef0962d3",
+      "title": "팀스톤, IT 통합관제 솔루션 '온튠' 조달청 등록",
+      "url": "https://www.etnews.com/20261016000189",
+      "summary": "",
+      "publishedAt": "2026-10-16T04:44:28Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "15a728a4248d66d9cc12",
+      "title": "'13년 연속 흑자' 인텔리빅스, 30일 코스닥 일반상장",
+      "url": "https://www.etnews.com/20261016000182",
+      "summary": "",
+      "publishedAt": "2026-10-16T04:38:57Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1381,6 +2530,16 @@
       ]
     },
     {
+      "id": "7f605a2d054a6df89dc5",
+      "title": "티오리 '진트', 오픈AI 이어 앤트로픽 보안 특화 AI 프로그램 참여",
+      "url": "https://www.etnews.com/20261016000059",
+      "summary": "",
+      "publishedAt": "2026-10-16T01:04:31Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "b3cd777599c4b46a3aff",
       "title": "바이브 코딩으로 레거시 현대화하기 (1/2): 20년 된 C/C++ 애플리케이션",
       "url": "https://roboco.io/posts/legacy-cpp-vibe-coding-modernization",
@@ -1398,6 +2557,16 @@
       "publishedAt": "2026-10-16T01:00:00Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "58c19bf623ad9cfbd97b",
+      "title": "아우토크립트, 강릉 ITS 세계총회서 차량 사이버보안 기술 발표",
+      "url": "https://www.etnews.com/20261016000049",
+      "summary": "",
+      "publishedAt": "2026-10-16T00:44:29Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1421,6 +2590,26 @@
       ]
     },
     {
+      "id": "807f954e2798bc4c4c06",
+      "title": "美 FTC, 오픈AI·앤트로픽 보안사고 조사…경영진 소환 추진",
+      "url": "https://www.etnews.com/20261016000005",
+      "summary": "",
+      "publishedAt": "2026-10-15T15:27:00Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "014567e5711a6ebc7e47",
+      "title": "에스피아이디-티유브이노르트, 사이버보안·기능안전 인증 협력",
+      "url": "https://www.etnews.com/20261016000004",
+      "summary": "",
+      "publishedAt": "2026-10-15T15:21:50Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "d97f26b4e894c39e7d0e",
       "title": "스페이스X의 도전은 성공할수 있을까? (feat 휴대폰 시장 진출)",
       "url": "https://blog.naver.com/ranto28/224441382513?fromRss=true&trackingCode=rss",
@@ -1441,6 +2630,26 @@
       ]
     },
     {
+      "id": "3efd3e8e476b0be3ff17",
+      "title": "세일포인트, AI 보안도 AI에 맡긴다…자율형 에이전트 개발",
+      "url": "https://www.etnews.com/20261015000469",
+      "summary": "",
+      "publishedAt": "2026-10-15T10:59:03Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "4334eac51f5ab0c46cb8",
+      "title": "[2026 국감] KISA 사이버보안 대응체계 부실 지적…여야 한목소리",
+      "url": "https://www.etnews.com/20261015000452",
+      "summary": "",
+      "publishedAt": "2026-10-15T10:01:59Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "9f15c37bdfdc099a091f",
       "title": "토스뱅크가 패키지를 관리하는 방식 #1: 패키지를 ESM으로만 제공하기로 했어요",
       "url": "https://toss.tech/article/package-management-1",
@@ -1458,6 +2667,26 @@
       "publishedAt": "2026-10-15T08:55:17Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "2510d522f546b0c73e45",
+      "title": "보안인증 없는 구글폼…개보위 사업에 쓰였다",
+      "url": "https://www.etnews.com/20261015000353",
+      "summary": "",
+      "publishedAt": "2026-10-15T07:00:00Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "e573f0f550bb457c246e",
+      "title": "카스퍼스키 “韓 3분기 PC 사이버 위협 444만건 탐지”",
+      "url": "https://www.etnews.com/20261015000297",
+      "summary": "",
+      "publishedAt": "2026-10-15T05:16:09Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1491,6 +2720,66 @@
       ]
     },
     {
+      "id": "2d241e5e2b5b7bbfd530",
+      "title": "수산아이앤티, 美 씨패킷과 맞손…AI 네트워크 보안 시장 공략",
+      "url": "https://www.etnews.com/20261015000198",
+      "summary": "",
+      "publishedAt": "2026-10-15T02:01:38Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "b0c7b47d3def9de9ec16",
+      "title": "티오리, AI 해킹 도구 탐지 룰셋 무료 공개",
+      "url": "https://www.etnews.com/20261015000197",
+      "summary": "",
+      "publishedAt": "2026-10-15T02:01:17Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "fe3607724f5977954ba4",
+      "title": "샌즈랩, AI가 변형한 악성코드서 원본 흔적 찾아",
+      "url": "https://www.etnews.com/20261015000190",
+      "summary": "",
+      "publishedAt": "2026-10-15T01:53:19Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "1e0f9e1e9b696fe2ebe1",
+      "title": "파이오링크 '블루헌터', 오픈소스 신규 취약점 28건 발굴",
+      "url": "https://www.etnews.com/20261015000179",
+      "summary": "",
+      "publishedAt": "2026-10-15T01:44:10Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "82cc94e8d23965730441",
+      "title": "로제AI, 나스닥 상장 발판 글로벌 재난안전 AI 시장 공략 본격화",
+      "url": "https://www.etnews.com/20261015000108",
+      "summary": "",
+      "publishedAt": "2026-10-15T01:05:12Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "698367296a07e87b4a67",
+      "title": "라온시큐어, 로봇에 '디지털 신분증' 부여…피지컬AI 보안기술 개발",
+      "url": "https://www.etnews.com/20261015000102",
+      "summary": "",
+      "publishedAt": "2026-10-15T01:03:00Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "990efeaf4826f3cf6487",
       "title": "보안이 소프트웨어 팩토리 도입을 가속한다",
       "url": "https://roboco.io/posts/security-accelerates-software-factory",
@@ -1498,6 +2787,16 @@
       "publishedAt": "2026-10-15T01:00:00Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "a3754d25574ab74ce2be",
+      "title": "OK저축은행, 대출신청 고객 250명 정보 유출…취약점 보완",
+      "url": "https://www.etnews.com/20261015000082",
+      "summary": "",
+      "publishedAt": "2026-10-15T00:46:47Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1518,6 +2817,16 @@
       "publishedAt": "2026-10-15T00:00:00Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "509211983888a30b9ef6",
+      "title": "구글 딥마인드 “2년 내 대형 AI 보안사고 우려…국제 표준 시급”",
+      "url": "https://www.etnews.com/20261015000007",
+      "summary": "",
+      "publishedAt": "2026-10-14T22:29:08Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
@@ -1591,6 +2900,16 @@
       ]
     },
     {
+      "id": "98e0f7358556a0c7dfa8",
+      "title": "佛 냉장설비 해킹, 국내도 안전지대 아니다…원격제어 보안 주의보",
+      "url": "https://www.etnews.com/20261014000472",
+      "summary": "",
+      "publishedAt": "2026-10-14T11:02:47Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
       "id": "413d13aefaf329df529e",
       "title": "피라미드·중복상장 구조",
       "url": "https://blog.naver.com/wlfvndxnwk/224441647266?fromRss=true&trackingCode=rss",
@@ -1608,6 +2927,76 @@
       "publishedAt": "2026-10-14T08:12:52Z",
       "sourceIds": [
         "awesome"
+      ]
+    },
+    {
+      "id": "c61519bd95fd4edcb41d",
+      "title": "옵스왓, SW 공급망 보안 솔루션으로 韓 시장 공략",
+      "url": "https://www.etnews.com/20261014000398",
+      "summary": "",
+      "publishedAt": "2026-10-14T08:03:19Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "bff42dcab9294392438f",
+      "title": "시큐아이, 신규 CI 공개…글로벌 보안 기업 도약 박차",
+      "url": "https://www.etnews.com/20261014000390",
+      "summary": "",
+      "publishedAt": "2026-10-14T07:46:08Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "220e90d87e3affff01bc",
+      "title": "팔로알토 “AI 공격 대응, 보안 통합·자동화 필수”",
+      "url": "https://www.etnews.com/20261014000382",
+      "summary": "",
+      "publishedAt": "2026-10-14T07:23:23Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "50e83425ce0dc068c1f1",
+      "title": "“한국, 디지털 삶의 질 아시아 1위 지켰지만 AI·디지털 보안 순위 하락”",
+      "url": "https://www.etnews.com/20261014000371",
+      "summary": "",
+      "publishedAt": "2026-10-14T07:08:54Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "5623fc321ffda7509772",
+      "title": "유클리드소프트, 중소기업 랜섬웨어 대응 솔루션 '곳간' 연내 정식 출시",
+      "url": "https://www.etnews.com/20261014000351",
+      "summary": "",
+      "publishedAt": "2026-10-14T06:41:12Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "6d6e0cbbc14e64738d41",
+      "title": "국가 연구기관 보안 허술…서버 10대 중 9대 백신 없어",
+      "url": "https://www.etnews.com/20261014000348",
+      "summary": "",
+      "publishedAt": "2026-10-14T06:35:07Z",
+      "sourceIds": [
+        "etnews-security"
+      ]
+    },
+    {
+      "id": "aa3a22633e52252a31b9",
+      "title": "[보안, 대한민국의 기회]〈4〉세계는 연합 대응 - 혼자 지킬 수 없어",
+      "url": "https://www.etnews.com/20261014000345",
+      "summary": "",
+      "publishedAt": "2026-10-14T06:24:53Z",
+      "sourceIds": [
+        "etnews-security"
       ]
     },
     {
