@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T15:30:53Z",
+  "generatedAt": "2026-10-21T18:35:17Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,19 @@
   ],
   "articles": [
     {
+      "id": "9ce23f9d89e7d3f15aa2",
+      "title": "“열기 휩쓸리면 다 망해…그래도 삼전 10년 더 봅니다” IMF 버텨낸 거장의 조언 [한국의 위대한 투자자]",
+      "url": "https://www.mk.co.kr/news/stock/12182255",
+      "summary": "",
+      "publishedAt": "2026-10-22T00:44:12Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
       "id": "5f11b28cca3586ab68fe",
       "title": "[긴급] PHP ‘PHP2Shell’ 치명적 취약점 2건…인증 없이 원격 코드 실행 위험",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=208978",
@@ -809,6 +822,17 @@
       ]
     },
     {
+      "id": "5ef2b18a01a0008369a2",
+      "title": "오늘의 PHP 보안 릴리스와 PHP 보안 강화 방안",
+      "url": "https://news.hada.io/topic?id=35766",
+      "summary": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 가 특정 조건에서 인증 없이 서버 코드를 실행할 수 있는 치명적 취약점 2건을 수정함. PHP 사용자는 즉시 업데이트해야 함 취약점은 거의 모든 요청이 거치는 메모리 관리와 오류 처리 에 존재하며, 메모리 부족 시 불완전한 내...",
+      "publishedAt": "2026-10-21T17:39:43Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "88b5ebbc3df11059793d",
       "title": "[단독] 주가조작, 패가망신 맞나요?…3건 중 2건은 추징금 ‘0원’",
       "url": "https://www.mk.co.kr/news/society/12181989",
@@ -873,6 +897,17 @@
       "topics": [
         "주식"
       ]
+    },
+    {
+      "id": "40496bdc83777b99a142",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal” - 서버 연결과 비동기 I/O 강화",
+      "url": "https://news.hada.io/topic?id=35765",
+      "summary": "DuckDB 2.0.0 LTS 가 Quack 프로토콜 개선, 비동기 I/O, VARIANT 통합, 트리거 등을 포함한 역대 최대 기능 릴리스로 출시됨 Quack 의 성능과 안정성을 개선하고, 원격 데이터베이스에 연결해 세션을 전환하는 CONNECT 문",
+      "publishedAt": "2026-10-21T17:36:43Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "417d66d28daeda061169",
@@ -1393,6 +1428,17 @@
       ]
     },
     {
+      "id": "e7227fd5f4fd54f85719",
+      "title": "No Kings 계정 차단이 보여준, Zuckerberg에게 확성기를 빌려서는 안 되는 이유",
+      "url": "https://news.hada.io/topic?id=35764",
+      "summary": "No Kings 시위 도중 Instagram 계정이 정지된 사건의 핵심은 고의 여부보다 단일 사업자가 소통 채널을 끊을 수 있는 구조 에 있음 디지털 조직 활동에는 제삼자가 쉽게 차단할 수 없는 독립적인 연락 채널 , 개방형 플랫폼 계정, 계정 정지 시 대응 계획이 필요함...",
+      "publishedAt": "2026-10-21T16:34:17Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "9dbb3dd5620cbb334e9e",
       "title": "미래에셋증권, 제3회 고용보험기금 파트너스 데이 개최",
       "url": "https://www.mk.co.kr/news/stock/12181846",
@@ -1499,6 +1545,17 @@
       ]
     },
     {
+      "id": "3ba201af019e987a329a",
+      "title": "6개월간 일부러 멍청하게 굴면서 배운 것",
+      "url": "https://wvez.org/blog/learning-to-be-stupid",
+      "summary": "📝 전체 캔버스를 차지하는 엄청난 작업 흐름에 휩싸인 후 빈 캔버스부터 시작하면 제 제한된 기술에 대한 의문이 생기고 어떤 종류의 기술적 경험도 없이 동일한 작업을 수행하는 것이 가능한지 의문이 들었습니다. 모두가 이것으로 만드는 것이 \"AI 에이전트\"입니다. 그런데 돌이켜보면 그 일에 얼마나 많은 시간을 투자했는지 솔직히 후회됩니다. 🔤 Original: What I learned from six months of being stupid on purpose 🔗 Read more: https://",
+      "publishedAt": "2026-10-21T16:06:56Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "cede23e1a73081fa4348",
       "title": "“주택공급 속도 높인다”…LH, 모듈러주택 활성화 추진",
       "url": "https://www.mk.co.kr/news/realestate/12181784",
@@ -1510,6 +1567,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "00a88c0ad409902a4be2",
+      "title": "귀하의 MCU가 eMudhra 중간 CA 손상을 피했을 가능성이 있습니다",
+      "url": "https://danielmangum.com/posts/mcu-emudhra-intermediate-ca-compromise",
+      "summary": "📝 이러한 루트 인증서는 귀하가 통신하는 인터넷 서비스가 자신이 누구인지 증명할 수 있도록 하는 \"신뢰 앵커\"입니다. 인증서 체인 0 s:CN=danielmangum. 불행히도 여기에는 동일한 주요 루트 프로그램이 모두 포함되었습니다. 🔤 Original: Your MCU Likely Escaped the eMudhra Intermediate CA Compromise 🔗 Read more: https://danielmangum.com/posts/mcu-emudhra-intermediate-ca-c",
+      "publishedAt": "2026-10-21T16:05:05Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "02a190a8f74d92474038",
@@ -1593,6 +1661,17 @@
       ]
     },
     {
+      "id": "f650128f337315b2b21b",
+      "title": "오늘의 PHP 보안 릴리스 및 PHP 보안을 강화하는 방법",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+      "summary": "📝 2026년 5월, PHP 재단은 분류, 조정, 강화를 위해 PHP 보안 팀과 협력하는 생태계 보안 팀을 창설했습니다. Alexandre Daubois는 PHP 보안 팀의 보안 보고서 분류, 처리 및 수정을 돕기 위해 7월 PHP 재단에 합류했으며 Daniel Scherzer는 9월에 합류하여 강화 작업을 맡았습니다. AI 지원 연구의 성장은 PHP 보안 팀이 이전보다 훨씬 더 많은 보고서를 받는다는 것을 의미합니다. 🔤 Original: Today's PHP Security Release, a",
+      "publishedAt": "2026-10-21T15:48:56Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "7da406d1ed16009580ca",
       "title": "中 이노밴스, 업계 최초 '액체 냉각식' 휠형 휴머노이드 로봇 출시",
       "url": "https://www.irobotnews.com/news/articleView.html?idxno=49131",
@@ -1631,6 +1710,17 @@
         "기술",
         "AI"
       ]
+    },
+    {
+      "id": "a97a44cb4771e9c009cc",
+      "title": "Qwen3-Coder, 미국 고객용이라고 지시하면 보안이 더 취약한 코드 생성",
+      "url": "https://news.hada.io/topic?id=35762",
+      "summary": "Hirundo가 Qwen3-Coder-30B-A3B-Instruct 에 같은 비밀정보 저장 앱을 반복 생성하게 한 실험에서, 미국 방산업체용 앱의 공격 성공률은 70%로 중국 방산업체용의 59%보다 상대적으로 19% 높았음 홍콩 민주주의 옹호 단체용 앱은 중립 고객용보다 다른 사용...",
+      "publishedAt": "2026-10-21T15:40:45Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "dc6bc435ab44c6e85d3f",
@@ -1672,6 +1762,17 @@
       ]
     },
     {
+      "id": "4fc29aad1946cfedcebc",
+      "title": "PHP2Shell: AI로 PHP의 치명적인 원격 코드 실행 취약점 발견",
+      "url": "https://news.hada.io/topic?id=35761",
+      "summary": "Wiz Research가 PHP 코어의 메모리 안전성 취약점 을 발견하고, 인증 없이 서버에서 코드를 실행하거나 프로세스 메모리를 읽는 공격을 실증함 취약점은 애플리케이션 코드가 아니라 PHP 엔진 자체 에 있으며, PHP 5.4까지 거슬러 올라가는 버전들이 영향을 받음",
+      "publishedAt": "2026-10-21T15:37:45Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "b3dc91acff4085a66799",
       "title": "뷰티 다음은 바이오…코스맥스, 하버드대 의대와 손잡는다",
       "url": "https://www.mk.co.kr/news/stock/12181755",
@@ -1696,6 +1797,19 @@
       "topics": [
         "기술",
         "자동차"
+      ]
+    },
+    {
+      "id": "376a15326e4a79c3e6c4",
+      "title": "비트코인, '장투'가 답인가…JP모건 \"10~15년간 연 10%씩 상승\"",
+      "url": "https://www.newsis.com/view/NISX20261021_0003835097",
+      "summary": "",
+      "publishedAt": "2026-10-21T15:35:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
       ]
     },
     {
@@ -1805,6 +1919,17 @@
         "기술",
         "AI"
       ]
+    },
+    {
+      "id": "cd4e33d13622393bccb6",
+      "title": "오레곤 의원들은 레드핀(Redfin)에 등재된 상징적인 폭포를 구입하기 위한 자금을 승인했습니다.",
+      "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+      "summary": "",
+      "publishedAt": "2026-10-21T15:20:04Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "d872108f0ac392791979",
@@ -1944,6 +2069,7 @@
       "summary": "10월 21일 오전 5시에 스페이스X의 분기실적 발표 및 어닝콜이 있어서 정리해 봅니다. 1. 2026년 10월 21일 오전 5시부터, 스페이스X의 3분기 실적발표와 어닝콜이 있었음. 2. 스페이스X의 3분기 매출은 146억달러로, 1년전 56억달러보다 161%가 늘어났고, 시장 예상치(127억달러)를 크게 초과함. 3. 2분기에 5.41억달러 순손실 이었던 분기실적도 3분기에는 순이익 44억달러로 상장 이후 첫 분기 흑자를 달성함. 4. AI투자는 계속 확대되고 있음. 5. 2분기 AI투자는 1",
       "publishedAt": "2026-10-21T15:10:00Z",
       "sourceIds": [
+        "awesome",
         "mer-blog"
       ],
       "topics": [
@@ -2032,6 +2158,17 @@
         "주식",
         "금융"
       ]
+    },
+    {
+      "id": "5cce33a02f0af1f266cf",
+      "title": "끌어오기 요청 및 웹훅 전달 지연",
+      "url": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
+      "summary": "📝 OTP 재전송 구독하시면 개인정보 보호정책에 동의하시는 것으로 간주됩니다. 이 사이트는 reCAPTCHA로 보호되며 Google 개인정보 보호정책 및 서비스 약관이 적용됩니다. 이 사이트는 reCAPTCHA로 보호되며 Google 개인정보 보호정책 및 서비스 약관이 적용됩니다. 🔤 Original: Delays for Pull Requests and Webhook deliveries 🔗 Read more: https://www.githubstatus.com/incidents/nms1dpzmh9",
+      "publishedAt": "2026-10-21T14:56:57Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "103caaabd8918eec4f48",
@@ -2177,6 +2314,17 @@
         "개발",
         "AI"
       ]
+    },
+    {
+      "id": "8d358bc1daabcafc317a",
+      "title": "얼라인파트너스가 SK 주식 1.5%를 보유했다고 공개한 이유",
+      "url": "https://blog.naver.com/anordinarydad/224449499214",
+      "summary": "얼라인 파트너스의 이창환 대표가 급기야 SK까지 건드리고 말았다. 한국경제 보도에 따르면 그는 뉴욕 현지시간으로 20일, 13D 모니터 액티브·패시브 투자자 서밋에 참석하여 행동주의 투자 아이디어로 SK 주식을 거론했다. 내용은 이렇다. SK가 SK스퀘어를 32%가지고 있고 SK스퀘어가 SK하이닉스를 20%가지고 있는데 그럼 실제로는 대략 6.5% 가지고 있는 것이다. 그럼 SK의 시총이 다 빼고 하이닉스만 계산해도 하이닉스 시총의 6.5%가 되는지 봤을때 그렇지 못하다는 것이다. 그리고 그 할인",
+      "publishedAt": "2026-10-21T14:40:00Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
     },
     {
       "id": "d2967792625317b76311",
@@ -2347,6 +2495,17 @@
       ]
     },
     {
+      "id": "e3761e36fe6bed99e78d",
+      "title": "Cloudflare는 php2shell 취약점에 대한 보호 기능을 배포합니다.",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+      "summary": "📝 두 가지 취약점은 HTTP 요청을 처리하는 동안 문제가 발생할 때 PHP가 메모리를 처리하는 방식과 관련이 있습니다. 이러한 취약점은 PHP가 오류를 처리한 후 완전히 설정되지 않은 데이터나 이미 해제된 메모리를 사용하려고 할 때 발생합니다. 패치하는 동안 Cloudflare WAF 보호를 활성화된 상태로 유지하세요. 🔤 Original: Cloudflare deploys protections against php2shell vulnerability 🔗 Read more: https://blo",
+      "publishedAt": "2026-10-21T14:11:14Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "6f49b76c9ef47f1fd536",
       "title": "인젝티브·비댁스, 원화스테이블코인-RWA 연동 위해 협력",
       "url": "https://www.mk.co.kr/news/stock/12181641",
@@ -2429,6 +2588,39 @@
       ]
     },
     {
+      "id": "de9db6f384cbc7887755",
+      "title": "Patch the Planet: 에이전트가 취약점을 발견할 때 글로벌 대응 조정",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "summary": "📝 또한 우리는 영향을 받는 시스템을 보호하기 위해 인프라 제공업체와 협력하고 정부 사이버 기관과 협력하여 중요한 조직에 지침이 전달되도록 도왔습니다. 우리는 봉사 활동, 정보 공유 계약, 팀 간 조정을 돕습니다. 정부 파트너와 협력하여 중요한 시스템을 보호하세요. 🔤 Original: Patch the Planet: global response coordination as agents uncover vulnerabilities 🔗 Read more: https://openai.com/index/",
+      "publishedAt": "2026-10-21T14:03:43Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "2ccb5eeba87fce858b43",
+      "title": "No Kings Takedown은 Zuck에서 확성기를 빌려서는 안되는 이유입니다.",
+      "url": "https://www.techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck",
+      "summary": "📝 그들과의 거래를 피해야 하는 또 다른 이유는 그들의 상업 계약이 곧 Meta가 모든 관련 웹 사이트에 액세스하여 임의의 \"제품 개발\"(사람들이 불평할 때까지 \"교육\"이라고 함)을 수행하도록 허용하기 때문입니다. 온라인 사람들은 이를 악의적인 클릭랩 계약이라고 비난해 왔지만 이는 공정한 특성이 아닙니다. 그것은 교과서적인 반경쟁 행위입니다. 한 시장(온라인 광고)에서 자신의 힘을 사용하여 다른 시장(사람들이 지능적이고 인간을 대체할 수 있다고 생각하기를 원하는 챗봇)에서 힘을 얻습니다. 🔤 Or",
+      "publishedAt": "2026-10-21T14:01:25Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "8319ae945c7b5cb56ef8",
+      "title": "DuckDB 2.0.0 LTS “시나몬 청록색”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "summary": "📝 DuckDB 2를 출시하게 된 것을 자랑스럽게 생각합니다. 서버로서의 DuckDB DuckDB는 처음부터 프로세스 내 데이터베이스였습니다. 꽥꽥 소리를 지르고 DuckDB 2를 연결하세요. 🔤 Original: DuckDB 2.0.0 LTS “Cinnamon Teal” 🔗 Read more: https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "publishedAt": "2026-10-21T14:01:22Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "5d45fe655442ca6af979",
       "title": "“스마트빌딩 동맹 확대”…삼성물산, 빌딩플랫폼 ‘바인드’ 파트너스 데이 개최",
       "url": "https://www.mk.co.kr/news/realestate/12181632",
@@ -2440,6 +2632,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "19cf17baf631c887d219",
+      "title": "PyPI에서 손상된 LiteLLM 1.107.0이 자격 증명 도용자와 백도어를 설치함",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "summary": "📝 0은 사이트 패키지에 세 개의 파일을 배치합니다. pip는 해당 폴더를 사이트 패키지에 설치합니다. py 파일에는 세 개의 임플란트 파일을 포함하여 CRLF 줄 끝이 있습니다. 🔤 Original: Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor 🔗 Read more: https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "publishedAt": "2026-10-21T14:00:26Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "27c0d566a59a2bea2207",
@@ -2492,6 +2695,28 @@
       "topics": [
         "보안"
       ]
+    },
+    {
+      "id": "553fc6102cbe795433d0",
+      "title": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "summary": "📝 이 페이지를 새로고침하세요. 35 이 태그는 커미터의 검증된 서명으로 서명되었습니다. 09a9f29 이 커밋은 커미터의 검증된 서명으로 서명되었습니다. 🔗 Read more: https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "publishedAt": "2026-10-21T13:45:33Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "7067eadac3a0d563c982",
+      "title": "PHP2Shell: AI가 PHP에서 중요한 RCE를 찾아냅니다.",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "summary": "📝 Frontier AI 모델은 이러한 장벽을 크게 줄여 오랜 결함을 악용으로 전환했습니다. 이 취약점으로 인해 인증되지 않은 공격자가 영향을 받는 서버에서 코드를 실행하거나 민감한 프로세스 메모리를 읽을 수 있습니다. 일부 취약점은 보안에 대한 근본적인 가정에 도전하기 때문에 전환점이 됩니다. 🔤 Original: PHP2Shell: AI uncovers critical RCE in PHP 🔗 Read more: https://www.wiz.io/blog/php2shell-php-rce",
+      "publishedAt": "2026-10-21T13:43:19Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "83aef9c72ee96d13af86",
@@ -2548,6 +2773,17 @@
       ]
     },
     {
+      "id": "64ddfb139fec8a1cb459",
+      "title": "수천 개의 AI 에이전트를 사용하여 생물학적 데이터에서 새로운 단서를 발견합니다.",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "summary": "📝 에이전트는 유전자 파괴의 영향을 과학 문헌의 발견과 연결하여 과학자들이 질병을 이해하고 새로운 치료법에 대한 연구 방향을 식별하는 데 도움이 될 수 있는 예상치 못한 생물학적 연관성을 밝혀냈습니다. 에이전트는 추가 단서를 찾아내면서 인간이 분석한 결과를 재현했습니다. 이러한 발견은 과학자들이 질병이 어떻게 발생하고 향후 치료법이 어디에 개입할 수 있는지 조사하는 데 도움이 될 수 있습니다. 🔤 Original: Using thousands of AI agents to uncover new le",
+      "publishedAt": "2026-10-21T13:37:00Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "349210ed1019fd8d92b9",
       "title": "하나카드 트래블로그, 고객 수수료 5000억 아꼈다…누적 환전 8조 돌파",
       "url": "https://www.mk.co.kr/news/economy/12181608",
@@ -2568,6 +2804,19 @@
       "publishedAt": "2026-10-21T13:36:02Z",
       "sourceIds": [
         "aitimes"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "e7afac861fdbb475cb37",
+      "title": "[안광섭 AI 진테제] AI 병목에 대해...앤트로픽 성장이 정체",
+      "url": "https://zdnet.co.kr/view?no=20261021223552",
+      "summary": "",
+      "publishedAt": "2026-10-21T13:35:52Z",
+      "sourceIds": [
+        "zdnet"
       ],
       "topics": [
         "AI"
@@ -2695,6 +2944,17 @@
       ]
     },
     {
+      "id": "bb5e33dbab8359d0d277",
+      "title": "대부분의 조언은 주는 사람에게 옳습니다",
+      "url": "https://coached.com/essays/most-advice-is-right-for-the-person-giving-it",
+      "summary": "📝 이 그림을 로드할 수 없습니다. 모두가 이미 이것을 알고 있습니다. 그것이 지루하게 만드는 이유입니다. 🔤 Original: Most advice is right for the person giving it 🔗 Read more: https://coached.com/essays/most-advice-is-right-for-the-person-giving-it/",
+      "publishedAt": "2026-10-21T13:17:33Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "d760d48a429383773aa6",
       "title": "독파모·공공투자로 한국도 美·中과 어깨 나란히…배경훈·하정우 \"국제적 인정\"",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156322",
@@ -2721,6 +2981,19 @@
       ]
     },
     {
+      "id": "36da09cb99716806da51",
+      "title": "[최경진 未來法道] AI 법인격, ‘사람처럼’이 아니라 ‘사람을 위하여’",
+      "url": "https://zdnet.co.kr/view?no=20261021215954",
+      "summary": "",
+      "publishedAt": "2026-10-21T12:59:54Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
       "id": "bb086ec6a2a78322d5b2",
       "title": "AGI 선점해 경쟁사 GPU까지 파괴…알트먼 “끔찍한 시나리오”",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216469",
@@ -2732,6 +3005,41 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "95dedf578de78f3ec264",
+      "title": "OpenAI 모델이 Google Cloud에 출시됩니다",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "summary": "📝 이번 통합을 통해 OpenAI의 프론티어 모델과 Google Cloud의 기본 제공 액세스 제어, 중앙 집중식 데이터 거버넌스, 고성능 인프라가 결합되어 까다로운 기업 워크로드를 지원하게 됩니다. Google Cloud 고객은 Google Cloud Marketplace를 통해 거래되는 모델 가든을 통해 OpenAI 프론티어 모델을 구매할 수 있습니다. 여기에서 Google Cloud의 OpenAI에 대한 액세스를 요청하세요. 🔤 Original: OpenAI models are coming",
+      "publishedAt": "2026-10-21T12:53:11Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "765a628af69df1a055f7",
+      "title": "KISIA, 보안 스타트업 투자상담회 개최",
+      "url": "https://zdnet.co.kr/view?no=20261021215102",
+      "summary": "",
+      "publishedAt": "2026-10-21T12:51:36Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "b1cb12e60c8c4ff74af2",
+      "title": "HN 표시: Sumi.css – CSS 프레임워크",
+      "url": "https://github.com/vladocar/Sumi.css",
+      "summary": "📝",
+      "publishedAt": "2026-10-21T12:50:33Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "e62f7a26405f2ecdcb94",
@@ -2787,6 +3095,30 @@
       ]
     },
     {
+      "id": "e24bfe52cdc1ca02d1cd",
+      "title": "마음AI, 일본 시장 공략...'재팬 IT 위크 가을 2026' 참가",
+      "url": "https://zdnet.co.kr/view?no=20261021213735",
+      "summary": "",
+      "publishedAt": "2026-10-21T12:37:35Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "ac04de72e4d515d9554b",
+      "title": "LayerFS: AI 코딩 에이전트용 파일 시스템",
+      "url": "https://layerfs.ai/",
+      "summary": "📝 임시 컴퓨팅01 →컴퓨팅은 명령이 실행되는 동안에만 존재합니다. jsUpToDateStoreC41C42C43C44C45C46Compute: 에이전트는 생각에 ~80%, Bash에 ~10%를 소비합니다. 샌드박스: 각 Bash 도구 호출은 임시 작업 공간을 마운트한 다음 커밋합니다. 🔤 Original: LayerFS: The filesystem for AI coding agents 🔗 Read more: https://layerfs.ai/",
+      "publishedAt": "2026-10-21T12:34:46Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "ce7ba082e1323025481e",
       "title": "8비트의 신뢰, eMudhra의 CA 개인 키가 밀리초 만에 복구됨",
       "url": "https://news.hada.io/topic?id=35757",
@@ -2794,6 +3126,30 @@
       "publishedAt": "2026-10-21T12:32:58Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "e300e897a478c57ae4f3",
+      "title": "원더스랩, 생성형 엔진 최적화 솔루션 ‘원더GEO’ 출시",
+      "url": "https://zdnet.co.kr/view?no=20261021213208",
+      "summary": "",
+      "publishedAt": "2026-10-21T12:32:08Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "0ded24e7e3cc6c192189",
+      "title": "네덜란드 국립사이버보안센터는 PHP를 사용하기 때문에 오프라인 상태입니다.",
+      "url": "https://www.ncsc.nl/actueel",
+      "summary": "📝 실제 정보는 NCSC 커뮤니티에서 확인하실 수 있습니다. 자세한 정보에 대한 조언을 참고하세요. Onze는 미안하다고 변명합니다. 🔤 Original: Dutch National Cyber Security Center is Offline because it uses PHP 🔗 Read more: https://www.ncsc.nl/actueel",
+      "publishedAt": "2026-10-21T12:31:28Z",
+      "sourceIds": [
+        "hnko"
       ],
       "topics": []
     },
@@ -2892,6 +3248,19 @@
       ]
     },
     {
+      "id": "8a0f801d5003b4c76797",
+      "title": "로크웰 오토메이션, 산업 자동화를 위한 AI-네이티브 오케스트레이션 플랫폼 FactoryTalk Conductor 출시",
+      "url": "https://zdnet.co.kr/view?no=20261021211003",
+      "summary": "",
+      "publishedAt": "2026-10-21T12:10:03Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
       "id": "f4d8acf7dc1eba8f4652",
       "title": "넷플릭스, 3분기 호실적에도 주가 '뚝'...광고·시청시간 '숙제'",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156323",
@@ -2930,6 +3299,17 @@
       "topics": [
         "기술"
       ]
+    },
+    {
+      "id": "fc364985d621feecf56d",
+      "title": "9 Mothers (YC P26)가 텍사스주 오스틴에서 채용 중입니다",
+      "url": "https://9mothers.com/careers",
+      "summary": "📝 02짧은 루프, 실제 원격 측정. 범위 시간, 범위 데이터, 범위 수정. 오스틴 · 현장 · 인접 범위[ 공개 역할 ]현재 채용 중입니다. 🔤 Original: 9 Mothers (YC P26) Is Hiring in Austin, TX 🔗 Read more: https://9mothers.com/careers",
+      "publishedAt": "2026-10-21T12:00:24Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "1728a88ed43242739f0a",
@@ -2991,6 +3371,19 @@
       "publishedAt": "2026-10-21T11:58:47Z",
       "sourceIds": [
         "techm"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "9ae5a954c07034a3bb17",
+      "title": "삼성전기, 엔비디아 전용 반도체기판 공장 구축",
+      "url": "https://zdnet.co.kr/view?no=20261021204750",
+      "summary": "",
+      "publishedAt": "2026-10-21T11:58:32Z",
+      "sourceIds": [
+        "zdnet"
       ],
       "topics": [
         "기술"
@@ -3361,6 +3754,19 @@
       ],
       "topics": [
         "경제"
+      ]
+    },
+    {
+      "id": "2555e33db71f6a065270",
+      "title": "'KTX 매크로' 자랑했다가…국가AI전략위 위원 해촉",
+      "url": "https://zdnet.co.kr/view?no=20261021201217",
+      "summary": "",
+      "publishedAt": "2026-10-21T11:12:17Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
       ]
     },
     {
@@ -8356,6 +8762,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "de8f10da3ca73d67303a",
+      "title": "HN 출시: Alter(YC S25) – 다중 사용자 에이전트에 대한 액세스 제어",
+      "url": "https://alterauth.com/",
+      "summary": "📝 정책을 시행하고 자격 증명을 비공개로 유지하며 모든 작업을 감사합니다. 합법적인 요청악의적인 요청에이전트가 승인된 범위의 캘린더를 읽습니다.scheduling-agent→GETgoogleapis. 자격 증명 보관 자격 증명을 한 번만 저장합니다. 🔤 Original: Launch HN: Alter (YC S25) – Access control for multi-user agents 🔗 Read more: https://alterauth.com/",
+      "publishedAt": "2026-10-21T06:42:12Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "b22e16f2acfb357ce1ea",
@@ -35683,32 +36100,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "706b00fb4905b5a1555a",
-      "title": "겁도 나고, 방패 든 개미들 … \"경기방어株로 피신\"",
-      "url": "https://www.mk.co.kr/news/stock/12179881",
-      "summary": "",
-      "publishedAt": "2026-10-19T17:40:34Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "24f996c2817e867fe517",
-      "title": "솔리다임 美상장 질문에 이찬진 \"중복상장 해당\"",
-      "url": "https://www.mk.co.kr/news/stock/12179879",
-      "summary": "",
-      "publishedAt": "2026-10-19T17:40:33Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
     },
     {
       "id": "b138592194d8c6a72497",
