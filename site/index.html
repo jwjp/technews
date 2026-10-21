@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css?v=20261020-shared-subscriptions" />
-    <script type="module" src="./app.js?v=20261020-shared-subscriptions"></script>
+    <link rel="stylesheet" href="./styles.css?v=20261021-subscription-only" />
+    <script type="module" src="./app.js?v=20261021-subscription-only"></script>
   </head>
   <body>
     <div class="site-shell">
@@ -57,7 +57,7 @@
 
           <div class="sidebar-section sources-section">
             <div class="section-heading"><span>구독 소스</span><span class="section-index">02</span></div>
-            <p class="field-help">체크는 이 브라우저에서만 숨깁니다. 공통 해지는 저장소 소유자가 GitHub에서 요청해야 합니다.</p>
+            <p class="field-help">체크는 이 브라우저에서만 숨깁니다. 구독 해지는 저장소 소유자가 GitHub에서 요청해야 합니다.</p>
             <div id="source-list" class="source-list"><p class="muted">구독 목록을 불러오는 중...</p></div>
           </div>
 
@@ -123,11 +123,10 @@
               <div class="discover-tabs" role="group" aria-label="후보 분야">
                 <button class="discover-tab active" type="button" data-discover-section="tech" aria-pressed="true">기술</button>
                 <button class="discover-tab" type="button" data-discover-section="economy" aria-pressed="false">경제</button>
-                <button class="discover-tab" type="button" data-discover-section="saved" aria-pressed="false">저장한 후보</button>
               </div>
               <span class="discover-week" id="discover-week">후보 확인 중</span>
             </div>
-            <p class="discover-intro">최근 글과 주제를 확인한 RSS 소스입니다. 공통 구독 신청은 저장소 소유자가 GitHub 로그인 후 요청을 제출하면 반영됩니다. 후보 저장은 이 브라우저에만 남는 개인 목록입니다.</p>
+            <p class="discover-intro">최근 글과 주제를 확인한 RSS 소스입니다. 구독 신청과 해지는 저장소 소유자가 GitHub 로그인 후 요청을 제출하면 모든 방문자의 구독 목록에 반영됩니다.</p>
             <div id="discover-list" class="discover-list" aria-live="polite"></div>
           </section>
         </main>

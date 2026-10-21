@@ -8,13 +8,9 @@ const state = {
   sources: [],
   generatedAt: null,
   candidates: [],
-  candidateArchive: [],
   candidateWeek: "",
   discoveryError: "",
   discoverySection: "tech",
-  savedCandidateIds: [],
-  savedCandidates: [],
-  hiddenCandidateIds: [],
   view: "reading",
   disabledSources: [],
   favoriteKeywords: "",
@@ -34,11 +30,8 @@ const state = {
 function restoreState() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    for (const key of ["disabledSources", "readIds", "savedIds", "savedCandidateIds", "hiddenCandidateIds"]) {
+    for (const key of ["disabledSources", "readIds", "savedIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
-    }
-    if (Array.isArray(saved.savedCandidates)) {
-      state.savedCandidates = saved.savedCandidates.filter((item) => item && typeof item.id === "string" && typeof item.name === "string" && Array.isArray(item.samples)).slice(-100);
     }
     for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyBlogTopic", "economyTopic"]) {
       if (typeof saved[key] === "string") state[key] = saved[key];
@@ -59,9 +52,6 @@ function saveState() {
       hiddenKeywords: state.hiddenKeywords,
       readIds: state.readIds,
       savedIds: state.savedIds,
-      savedCandidateIds: state.savedCandidateIds,
-      savedCandidates: state.savedCandidates,
-      hiddenCandidateIds: state.hiddenCandidateIds,
       theme: state.theme,
       newsTopic: state.newsTopic,
       economyBlogTopic: state.economyBlogTopic,
@@ -179,11 +169,11 @@ function renderSources() {
         render();
       });
       label.append(input, make("span", "custom-check"), make("span", "source-name", source.name));
-      const unsubscribe = make("a", "source-unsubscribe", "공통 해지 ↗");
+      const unsubscribe = make("a", "source-unsubscribe", "구독 해지 ↗");
       unsubscribe.href = subscriptionIssue(`[구독 해제] ${source.name}`, `source_id: ${source.id}`);
       unsubscribe.target = "_blank";
       unsubscribe.rel = "noopener noreferrer";
-      unsubscribe.title = `${source.name} 공통 구독 해지 요청을 GitHub에서 작성`;
+      unsubscribe.title = `${source.name} 구독 해지 요청을 GitHub에서 작성`;
       row.append(label, unsubscribe);
       list.append(row);
     }
@@ -248,7 +238,6 @@ function candidateInterest(candidate) {
 }
 
 function candidateCard(candidate) {
-  const current = state.candidates.some((item) => item.id === candidate.id);
   const card = make("article", "candidate-card");
   const meta = make("div", "candidate-meta");
   meta.append(make("span", "candidate-kind", candidate.kind === "blog" ? "블로그" : candidate.kind === "policy" ? "정책 원문" : "뉴스"));
@@ -260,8 +249,8 @@ function candidateCard(candidate) {
   siteLink.target = "_blank";
   siteLink.rel = "noopener noreferrer";
   title.append(siteLink);
-  const detail = make("p", "candidate-detail", `${current ? "최근" : "추천 당시 최근"} 120일 ${candidate.recentCount}개 글 · ${candidate.foundVia}에서 발견`);
-  const sampleLabel = make("div", "candidate-sample-label", current ? "최근 글 미리보기" : "추천 당시 글 미리보기");
+  const detail = make("p", "candidate-detail", `최근 120일 ${candidate.recentCount}개 글 · ${candidate.foundVia}에서 발견`);
+  const sampleLabel = make("div", "candidate-sample-label", "최근 글 미리보기");
   const samples = make("ul", "candidate-samples");
   for (const sample of candidate.samples || []) {
     const item = make("li");
@@ -273,35 +262,14 @@ function candidateCard(candidate) {
     samples.append(item);
   }
   const actions = make("div", "candidate-actions");
-  const saved = state.savedCandidateIds.includes(candidate.id);
-  const save = make("button", `candidate-action${saved ? " is-saved" : ""}`, saved ? "★ 후보 저장됨" : "☆ 후보 저장");
-  save.type = "button";
-  save.addEventListener("click", () => {
-    state.savedCandidateIds = saved ? state.savedCandidateIds.filter((id) => id !== candidate.id) : [...state.savedCandidateIds, candidate.id];
-    state.savedCandidates = saved ? state.savedCandidates.filter((item) => item.id !== candidate.id) : [...state.savedCandidates.filter((item) => item.id !== candidate.id), candidate].slice(-100);
-    saveState();
-    render();
-  });
-  const hidden = state.hiddenCandidateIds.includes(candidate.id);
-  const hide = make("button", "candidate-action", hidden ? "숨김 취소" : "후보 숨기기");
-  hide.type = "button";
-  hide.addEventListener("click", () => {
-    state.hiddenCandidateIds = hidden ? state.hiddenCandidateIds.filter((id) => id !== candidate.id) : [...state.hiddenCandidateIds, candidate.id];
-    saveState();
-    render();
-  });
   const subscribed = state.sources.find((source) => source.id === `candidate-${candidate.id}` || source.url === candidate.feedUrl);
-  const subscribe = make("a", `candidate-action subscribe-action${subscribed ? " is-subscribed" : ""}`, subscribed ? "✓ 구독 중 · 공통 해지 ↗" : "＋ 공통 구독 신청 ↗");
+  const subscribe = make("a", "candidate-action", subscribed ? "구독 해지 ↗" : "구독 신청 ↗");
   subscribe.href = subscribed
     ? subscriptionIssue(`[구독 해제] ${subscribed.name}`, `source_id: ${subscribed.id}`)
     : subscriptionIssue(`[구독] ${candidate.name}`, `candidate_id: ${candidate.id}`);
   subscribe.target = "_blank";
   subscribe.rel = "noopener noreferrer";
-  const rss = make("a", "candidate-rss-link", "RSS 보기 ↗");
-  rss.href = candidate.feedUrl;
-  rss.target = "_blank";
-  rss.rel = "noopener noreferrer";
-  actions.append(subscribe, save, hide, rss);
+  actions.append(subscribe);
   card.append(meta, title, detail, sampleLabel, samples, actions);
   return card;
 }
@@ -321,19 +289,13 @@ function renderDiscovery() {
     $("#result-count").textContent = "—";
     return;
   }
-  const all = [...state.savedCandidates, ...state.candidateArchive, ...state.candidates];
-  const unique = [...new Map(all.map((candidate) => [candidate.id, candidate])).values()];
-  const candidates = state.discoverySection === "saved"
-    ? unique.filter((candidate) => state.savedCandidateIds.includes(candidate.id))
-    : state.candidates.filter((candidate) => candidate.section === state.discoverySection && !state.hiddenCandidateIds.includes(candidate.id));
+  const candidates = state.candidates.filter((candidate) => candidate.section === state.discoverySection);
   candidates.sort((a, b) => {
-    const savedDifference = Number(state.savedCandidateIds.includes(b.id)) - Number(state.savedCandidateIds.includes(a.id));
-    return savedDifference || candidateInterest(b) - candidateInterest(a) || b.score - a.score;
+    return candidateInterest(b) - candidateInterest(a) || b.score - a.score;
   });
   $("#result-count").textContent = `${candidates.length}개 소스`;
   if (!candidates.length) {
-    const message = state.discoverySection === "saved" ? "저장한 후보가 아직 없습니다." : "이번 주에 조건을 통과한 새 후보가 없습니다.";
-    list.append(make("p", "discover-empty", message));
+    list.append(make("p", "discover-empty", "이번 주에 조건을 통과한 새 후보가 없습니다."));
     return;
   }
   candidates.forEach((candidate) => list.append(candidateCard(candidate)));
@@ -375,7 +337,7 @@ function render() {
   $("#count-all").textContent = available.length.toLocaleString("ko-KR");
   $("#count-unread").textContent = available.filter((item) => !state.readIds.includes(item.id)).length.toLocaleString("ko-KR");
   $("#count-saved").textContent = available.filter((item) => state.savedIds.includes(item.id)).length.toLocaleString("ko-KR");
-  $("#count-discover").textContent = state.candidates.filter((item) => !state.hiddenCandidateIds.includes(item.id)).length.toLocaleString("ko-KR");
+  $("#count-discover").textContent = state.candidates.length.toLocaleString("ko-KR");
   if (discovering) {
     $("#filter-summary").hidden = true;
     $("#load-more").hidden = true;
@@ -499,9 +461,8 @@ async function init() {
     const response = await fetch("./data/candidates.json", { cache: "no-cache" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
-    if (!Array.isArray(data.candidates) || !Array.isArray(data.archive)) throw new Error("후보 형식이 올바르지 않습니다.");
+    if (!Array.isArray(data.candidates)) throw new Error("후보 형식이 올바르지 않습니다.");
     state.candidates = data.candidates;
-    state.candidateArchive = data.archive;
     state.candidateWeek = data.week || "";
   } catch (error) {
     state.discoveryError = "추천 후보를 불러오지 못했습니다. 잠시 후 다시 열어 주세요.";

@@ -169,7 +169,7 @@ a { color: inherit; }
 .discover-tab { border: 1px solid var(--line); border-radius: 20px; background: var(--card); color: var(--muted); padding: 8px 15px; font-size: 11px; font-weight: 700; }
 .discover-tab:hover { border-color: var(--sage); color: var(--ink); }
 .discover-tab.active { background: var(--sage); border-color: var(--sage); color: white; }
-.discover-tab:focus-visible, .candidate-actions a:focus-visible, .candidate-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.discover-tab:focus-visible, .candidate-actions a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .discover-week { color: var(--soft); font-size: 11px; white-space: nowrap; }
 .discover-intro { margin: 15px 0 4px; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .candidate-card { padding: 26px 2px; border-bottom: 1px solid var(--line); }
@@ -179,7 +179,7 @@ a { color: inherit; }
 .candidate-date { color: var(--soft); margin-left: auto; }
 .candidate-title { font-size: 19px; line-height: 1.45; letter-spacing: -.035em; margin: 12px 0 4px; word-break: keep-all; }
 .candidate-title a { text-decoration: none; }
-.candidate-title a:hover, .candidate-samples a:hover, .candidate-rss-link:hover { color: var(--accent); }
+.candidate-title a:hover, .candidate-samples a:hover { color: var(--accent); }
 .candidate-title a:focus-visible, .candidate-samples a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .candidate-detail { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
 .candidate-sample-label { margin-top: 18px; color: var(--soft); font-size: 10px; font-weight: 800; letter-spacing: .04em; }
@@ -187,10 +187,9 @@ a { color: inherit; }
 .candidate-samples li { padding-left: 13px; position: relative; color: var(--ink); font-size: 12px; line-height: 1.5; word-break: keep-all; }
 .candidate-samples li::before { content: "·"; position: absolute; left: 2px; color: var(--sage); }
 .candidate-samples a { text-decoration: none; }
-.candidate-actions { display: flex; align-items: center; gap: 19px; flex-wrap: wrap; margin-top: 19px; }
-.candidate-action, .candidate-rss-link { border: 0; padding: 0; background: none; color: var(--muted); font-size: 11px; text-decoration: none; }
-.candidate-action:hover, .candidate-action.is-saved, .subscribe-action { color: var(--accent); }
-.candidate-rss-link { margin-left: auto; color: var(--sage); }
+.candidate-actions { margin-top: 19px; }
+.candidate-action { color: var(--accent); font-size: 11px; text-decoration: none; }
+.candidate-action:hover { text-decoration: underline; }
 .discover-empty { padding: 65px 15px; text-align: center; color: var(--muted); font-size: 12px; }
 .loading-state, .empty-state { padding: 90px 20px; text-align: center; color: var(--muted); font-size: 13px; }
 .loading-spinner { display: inline-block; width: 24px; height: 24px; border: 2px solid var(--line); border-top-color: var(--sage); border-radius: 50%; animation: spin 1s linear infinite; }
@@ -246,6 +245,5 @@ a { color: inherit; }
   .discover-toolbar { align-items: flex-start; flex-direction: column; gap: 10px; }
   .candidate-date { margin-left: 0; width: 100%; }
   .candidate-title { font-size: 17px; }
-  .candidate-rss-link { margin-left: 0; }
   .site-footer { flex-direction: column; gap: 4px; }
 }
