@@ -363,7 +363,16 @@ function render() {
     empty.append(make("div", "empty-symbol", "✳"), make("h3", "", "여기엔 아직 글이 없어요."), make("p", "", "검색어나 구독 소스, 키워드 설정을 바꿔보세요."));
     container.append(empty);
   } else {
-    articles.slice(0, state.visibleCount).forEach((article, index) => container.append(articleCard(article, index)));
+    articles.slice(0, state.visibleCount).forEach((article, index) => {
+      if (index > 0 && index % PAGE_SIZE === 0) {
+        const last = Math.min(index + PAGE_SIZE, articles.length);
+        const marker = make("p", "article-batch-marker", `이어서 보기 · ${index + 1}~${last}번째 글`);
+        marker.dataset.batchStart = String(index);
+        marker.tabIndex = -1;
+        container.append(marker);
+      }
+      container.append(articleCard(article, index));
+    });
   }
   $("#load-more").hidden = articles.length <= state.visibleCount;
 }
@@ -411,7 +420,16 @@ function bindEvents() {
     });
   }
   $("#theme-toggle").addEventListener("click", () => { state.theme = state.theme === "dark" ? "light" : "dark"; applyTheme(); saveState(); });
-  $("#load-more").addEventListener("click", () => { state.visibleCount += PAGE_SIZE; render(); });
+  $("#load-more").addEventListener("click", () => {
+    const nextStart = state.visibleCount;
+    state.visibleCount += PAGE_SIZE;
+    render();
+    const marker = $("#articles").querySelector(`[data-batch-start="${nextStart}"]`);
+    if (marker) {
+      marker.focus({ preventScroll: true });
+      marker.scrollIntoView({ block: "start" });
+    }
+  });
   $("#export-settings").addEventListener("click", () => {
     const data = localStorage.getItem(STORAGE_KEY) || "{}";
     const url = URL.createObjectURL(new Blob([data], { type: "application/json" }));
