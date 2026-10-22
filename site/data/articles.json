@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:31:38Z",
+  "generatedAt": "2026-10-22T18:33:47Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -639,6 +639,20 @@
       ]
     },
     {
+      "id": "fb9e803d3f54fde35a63",
+      "title": "[단독] SK하이닉스, 솔리다임 美 상장 전격 철회",
+      "url": "https://www.hankyung.com/article/202610229798i",
+      "summary": "",
+      "publishedAt": "2026-10-22T18:00:02Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "주식",
+        "경제"
+      ]
+    },
+    {
       "id": "f47f23d29710ebd10000",
       "title": "중국 해킹조직 ‘브론즈 샌드캐슬’, 아시아·아프리카 공격…한국도 피해 가능성",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209006",
@@ -692,6 +706,19 @@
       ]
     },
     {
+      "id": "fb7abfa7c4ce0d6704db",
+      "title": "롯데케미칼 눈높이 뚝…유가·中 공급과잉에 발목",
+      "url": "https://www.hankyung.com/article/2026102296861",
+      "summary": "",
+      "publishedAt": "2026-10-22T17:48:54Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
       "id": "ed70b45177f3508a923d",
       "title": "리커시브, AI 주도 개발로 완성한 온디바이스 코딩 모델 '플린트' 공개",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216516",
@@ -704,6 +731,17 @@
         "개발",
         "AI"
       ]
+    },
+    {
+      "id": "56e37f7cb35f97d9bdef",
+      "title": "LLM으로 신뢰도 점수를 매기는 것은 좋지 않은 생각",
+      "url": "https://news.hada.io/topic?id=35827",
+      "summary": "LLM이 출력하는 신뢰도 점수 는 내부 확신을 측정한 값이 아니라, 대화에 이어질 법한 텍스트를 토큰 단위로 생성한 결과임 믿을 만한 점수는 예측에 쓰인 정보를 반영 해야 하며, 같은 종류의 질문에서 실제 정답률과 일치하는지 검증해야 함 보정...",
+      "publishedAt": "2026-10-22T17:46:27Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "287e5efb351ac483ccbe",
@@ -759,6 +797,17 @@
       ]
     },
     {
+      "id": "e37c93039731894a0348",
+      "title": "PHP session.upload_progress의 힙 UAF(CVE-2026-109618 / -109619)",
+      "url": "https://news.hada.io/topic?id=35826",
+      "summary": "PHP 업로드 진행률 처리 중 메모리 부족으로 남은 직렬화 상태 가 같은 프로세스의 다음 요청에서 재사용되며 힙 해제 후 사용(UAF)이 발생함 처음 제시한 캐시 포인터 공격 경로는 성립하지 않음 . 참조 카운트 증가로 대상 배열이 살아 있어 해제 자체가 없으며, 해...",
+      "publishedAt": "2026-10-22T17:43:27Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "2257fba063e36e850a3f",
       "title": "申 \"금리 동결, 선제 대응의 결실\"… 물가 압력에 긴축 기조 유지",
       "url": "https://www.mk.co.kr/news/economy/12183208",
@@ -785,6 +834,17 @@
         "부동산",
         "정책"
       ]
+    },
+    {
+      "id": "c9f7adfd293d8e76732f",
+      "title": "Amazon, 공개 전인 10월 17일 PHP2Shell 악용 시도 확인",
+      "url": "https://news.hada.io/topic?id=35825",
+      "summary": "Amazon Threat Intelligence가 MadPot 허니팟 에서 2026년 10월 17일 PHP2Shell 악용 시도를 확인함. CVE-2026-109618과 CVE-2026-109619 공개보다 4일 앞선 시점 임 공개 당일에도 엠바고 해제 전부터 추가 공격 시도가 관측됐으며, 패치 공개 후에는 개념 증명 코드...",
+      "publishedAt": "2026-10-22T17:40:27Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "08eceaf68deb4127ace9",
@@ -1399,6 +1459,17 @@
       ]
     },
     {
+      "id": "f78615f6ac8c08f40336",
+      "title": "Show GN: ZZO - 바로 사용하는 URL 단축 API와 MCP",
+      "url": "https://news.hada.io/topic?id=35824",
+      "summary": "URL 단축 서비스 zzo.kr 을 소개합니다. 긴 인터넷 주소를 짧은 링크로 변환하고, 간단히 QR코드로도 공유 할 수 있는 웹 서비스 입니다. 회원가입 없이 브라우저에서 URL 단축부터, API, MCP까지 사용할 수 있도록 만들었습니다. URL 단축 서비스",
+      "publishedAt": "2026-10-22T16:58:02Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "e79d1bb31c18b92abe12",
       "title": "한중 경제 전문가들 한자리에…AI·공급망 협력 머리 맞댄다",
       "url": "https://www.mk.co.kr/news/economy/12183065",
@@ -1451,6 +1522,17 @@
       ]
     },
     {
+      "id": "cb452f04676732c8945d",
+      "title": "Anthropic, 2026년 상반기 순손실 800억 달러 넘어",
+      "url": "https://news.hada.io/topic?id=35823",
+      "summary": "Anthropic의 2026년 상반기 순손실은 807억 달러 로, 이 중 720억 달러는 영업 관련 현금 지출이 아닌 전환사채 가치 상승에 따른 회계 비용 임 상반기 컴퓨팅 용량과 인프라 지출은 전년 동기 23억 달러에서 약 90억 달러 로 늘었으며, 향후 10년간...",
+      "publishedAt": "2026-10-22T16:46:09Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "6852fd1d63e602cebf70",
       "title": "나주, 치매안심돌봄학교서 가을소풍…숲길 걷기·문화공연 진행",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216492",
@@ -1488,6 +1570,28 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "070e03509d2565354c88",
+      "title": "여러 Linux 커널 취약점이 실수로 공개 메일링 리스트에 게시됨",
+      "url": "https://news.hada.io/topic?id=35822",
+      "summary": "Trend Micro의 Zero Day Initiative(ZDI) 가 비공개 보안 메일링 리스트 대신 공개 Linux 커널 메일링 리스트인 LKML 에 여러 취약점 보고서를 보냄 공개는 실수로 보이며 , Greg Kroah-Hartman은 각 보고서에 답신해 공개 메일링 리스트로 제출한 ...",
+      "publishedAt": "2026-10-22T16:43:09Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "cfb5e38b3b89510d49e9",
+      "title": "DNS 리졸버 Quad9, 프랑스에서 철수 예정",
+      "url": "https://news.hada.io/topic?id=35821",
+      "summary": "Quad9 가 프랑스 법원의 도메인 차단 명령에 대응해 2026년 11월 24일 프랑스 내 서비스를 중단 하기로 함. 무료 사이버 위협 보호와 일반 DNS 서비스가 모두 대상임 스포츠 중계권자인 beIN 이 저작권 침해에 관여한다고 주장한 도메인들의 재귀 DN...",
+      "publishedAt": "2026-10-22T16:40:09Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "a2dc45867ce12c73401b",
@@ -1571,6 +1675,17 @@
       ]
     },
     {
+      "id": "ff682a4ff06fd0256db5",
+      "title": "Where Wealth Is Moving in America",
+      "url": "https://thestatedtruth.com/?p=28732",
+      "summary": "📝 States Losing the Most Wealth California lost $12 billion in wealth in 2023 alone, the largest outflow of any state. From 2019 to 2023, wealth outflows totaled a staggering $91 billion. Wealth Overall, wealth migration trends point to a sustained shift toward lower-cost, high-g",
+      "publishedAt": "2026-10-22T16:22:31Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "43dd3e646e327bcc0405",
       "title": "그라비티, '라그나로크' IP 신작 속도...국내 CBT 통해 검증 나선다",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156416",
@@ -1611,6 +1726,19 @@
       ]
     },
     {
+      "id": "92f60be5bc59f8bda029",
+      "title": "\"AI 거품이라고? 천만에\"…구글 전CEO와 월가 거물들 반박",
+      "url": "https://www.hankyung.com/article/202610239834i",
+      "summary": "",
+      "publishedAt": "2026-10-22T15:58:50Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
       "id": "1b9a332dce522b48f8bf",
       "title": "[글로벌] 앤트로픽, 알아서 일하는 AI '클로드 듀엣' 공개...오픈AI·메타와 경쟁",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156397",
@@ -1623,6 +1751,17 @@
         "기술",
         "AI"
       ]
+    },
+    {
+      "id": "3e4275cf8513f1e0477d",
+      "title": "개설한 적 없는 Cash App 계정 때문에 징역 6년 위기에 놓인 여성",
+      "url": "https://news.hada.io/topic?id=35820",
+      "summary": "Amanda Smith가 자신의 명의로 개설된 Cash App 사기 계정 때문에 사흘간 구금됐으며, 컴퓨터 사기 등의 혐의로 최대 징역 6년 에 직면함 문제의 계정은 Smith의 사회보장번호와 생년월일 로 만들어졌으며, Facebook Marketplace 사기 피해자가 보낸...",
+      "publishedAt": "2026-10-22T15:51:53Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "1341e1da2006006acf9e",
@@ -1677,6 +1816,17 @@
       ]
     },
     {
+      "id": "53b51559d27a39535631",
+      "title": "오리건주 의회, Redfin에 매물로 나온 폭포 매입에 약 32억원 승인",
+      "url": "https://news.hada.io/topic?id=35819",
+      "summary": "오리건주 의회가 Abiqua Falls와 주변 토지 매입에 210만 달러($2.1m) 를 승인함. 소유 재단은 주정부의 제안을 수락했으며, 매입 진행에는 실사가 필요함 이 폭포는 100년 넘게 사유지였지만 일반에 개방 돼 있었음. Redfin에 매물로 나오자 방문객들의 접근이 차단...",
+      "publishedAt": "2026-10-22T15:48:53Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "defe5ac159ff345faab4",
       "title": "토스증권 “日, 반도체 제조 경쟁 주도권 내줬지만…소부장 여전히 핵심”",
       "url": "https://www.mk.co.kr/news/stock/12182930",
@@ -1716,6 +1866,17 @@
       ]
     },
     {
+      "id": "3c0a71a5bcb403b3438f",
+      "title": "OpenAI CLI - OpenAI REST API를 위한 공식 명령줄 도구",
+      "url": "https://news.hada.io/topic?id=35818",
+      "summary": "OpenAI REST API 공식 CLI 로, 리소스 기반 명령을 통해 응답 생성, 파일 관리, 이미지 생성과 편집, 관리자 API 등을 사용할 수 있음 도움말은 API 키나 네트워크 없이 작동 하며, 작업별 명령 탐색, 셸 자동 완성, 실행하지 않고 명령줄에 예시를 채우는 기능을 지...",
+      "publishedAt": "2026-10-22T15:45:53Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "32b3f94174c9c9978eb0",
       "title": "LG디스플레이 3분기, 전기比 흑자전환…영업이익 2506억원",
       "url": "https://www.mk.co.kr/news/stock/12182920",
@@ -1740,6 +1901,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "c150708abffbcca51004",
+      "title": "eMudhra, 글로벌 SSL/TLS 인증서 사업에서 철수 예정",
+      "url": "https://news.hada.io/topic?id=35817",
+      "summary": "eMudhra 이사회가 글로벌 SSL/TLS 인증서 사업의 자발적 철수 를 결정하고, 핵심 기업용 솔루션과 SSL/TLS 이외의 신뢰 서비스에 집중하기로 함 해당 사업은 글로벌 매출의 약 1% 를 차지하며, 회사는 데이터 주권과 규정 준수 비용 증가, 대형 업체의 무료 인증서 ...",
+      "publishedAt": "2026-10-22T15:42:53Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "bc5ccab26befa5d2b606",
@@ -1782,6 +1954,20 @@
       ]
     },
     {
+      "id": "52f231c761b89b8af578",
+      "title": "MS·알파벳도 거부…美 토큰화 주식 플랫폼 제동 걸리나",
+      "url": "https://www.newsis.com/view/NISX20261022_0003836855",
+      "summary": "",
+      "publishedAt": "2026-10-22T15:38:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
       "id": "70250d602c5da78193a8",
       "title": "[국감 26] 김종철 방미통위 \"통신사·플랫폼 해킹 피해 보상 미흡시 관여할 수 있어\"",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156413",
@@ -1809,6 +1995,17 @@
       ]
     },
     {
+      "id": "51b3a0e063e975d45d67",
+      "title": "Google cleared 300 hectares of Finnish forest",
+      "url": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+      "summary": "📝 Cutting corners: Google recently announced a major expansion of its data center footprint in Finland. Google argues that the forest clearing complied fully with Finnish laws and regulations. Halmeenpää said satellite imagery shows that areas that should have been protected have",
+      "publishedAt": "2026-10-22T15:32:46Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "cc6f290f27203682cb21",
       "title": "에이프리카, AI 운영 및 보안 관리 지원 '치타 AI Gateway' 출시",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209003",
@@ -1821,6 +2018,17 @@
         "보안",
         "AI"
       ]
+    },
+    {
+      "id": "045a2ef443d2dc19e99c",
+      "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "summary": "📝 HackiOS — XNU kernel HackiOS boots Apple's open-source XNU kernel (xnu-8796. Unlock / leave an app: swipe up from the very bottom edge; back: swipe from the left edge. From a script: qemu/touch. 🔗 Read more: https://github.com/oosexgang/hackios-xnu-kernel",
+      "publishedAt": "2026-10-22T15:26:22Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "7c5f21b139df02bc3d7c",
@@ -2209,6 +2417,17 @@
       ]
     },
     {
+      "id": "72a8358d89956e0e632a",
+      "title": "대신증권, 신영증권, 부국증권의 공통점은?",
+      "url": "https://blog.naver.com/anordinarydad/224450685560",
+      "summary": "언젠간 한 번 꼭 쓰고 싶었던 내용이다. 바로 증권주 3인방에 대한 이야기다. 증권주의 특징은 여러가지가 있지만 가장 기본적인 로직은 국내 코스피와 코스닥 지수가 오를때 주가도 함께 오르는 특징이 있다는 것이다. 일단 국내 양대 지수가 연거푸 폭락 중이니 일단 요건 제껴두자. 키움증권은 리테일이 강하고, NH증권은 IB가 강하고, 메리츠는 메자닌이 강하고, 삼성은 리서치와 WM이 강하고 등등 각각의 장점이 있다. 만약 증권주 중에 투자를 해야 한다면 어떤 회사가 좋을까? 위에 언급한 각각의 장점을",
+      "publishedAt": "2026-10-22T14:47:44Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
+    },
+    {
       "id": "3823bd0ffd2a72ea33c5",
       "title": "메타, 개인정보 취급 '기만 행위'로 뉴멕시코주에서 33조 배상 명령 받아",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216520",
@@ -2343,6 +2562,17 @@
       ]
     },
     {
+      "id": "fef8c35062d2162078d8",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france",
+      "summary": "📝 For Quad9, complying with this ruling is impossible. We have no database of users associating them with jurisdictions. Can Quad9 just comply via global blocking. 🔗 Read more: https://quad9.net/news/blog/au-revoir-france/",
+      "publishedAt": "2026-10-22T14:32:38Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "d18766aefd757b5a08d8",
       "title": "젠슨 황, 유럽에 \"AI 소비국 넘어 자체 공장 구축\" 촉구",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216523",
@@ -2354,6 +2584,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "83118ccd688ace96766b",
+      "title": "MPs moving to restrict gambling ads in Canada amid mounting harms",
+      "url": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
+      "summary": "",
+      "publishedAt": "2026-10-22T14:26:40Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "1e02afa07d64733174a1",
@@ -2461,6 +2702,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "085bc62a7eff7d20af26",
+      "title": "What's Getting Pwned",
+      "url": "https://pwn.watch/",
+      "summary": "📝 banks (Morgan Stanley, Bank of America, JPMorgan Chase, Wells Fargo, Citi)Axios reports that major U. The worst are two ksmbd (in-kernel SMB server) remote code execution bugs that ZDI scores CVSS 9. Linux ksmbd ZDI RCEcriticallive✓patchedsince Oct 21, 2026updated Oct 22, 2026,",
+      "publishedAt": "2026-10-22T14:08:12Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "9ba61bce69d94c9ab5f0",
@@ -2675,6 +2927,17 @@
       ]
     },
     {
+      "id": "4172a5d1f80937274957",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "summary": "📝 Will Sharpen Focus on Core Enterprise Solutions and trust services other than SSL/TLS BENGALURU, INDIA, October 22, 2026 - eMudhra Limited (BSE: 543533 | NSE: EMUDHRA), a global digital trust company, today announced that its Board has decided to voluntarily withdraw from the g",
+      "publishedAt": "2026-10-22T13:33:39Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "f25a2284e408ae976b29",
       "title": "[올댓차이나] TSMC, 희토류 자석 쓰지 않은 모터 도입 모색…中 수출통제에 대응",
       "url": "https://www.newsis.com/view/NISX20261022_0003837680",
@@ -2727,6 +2990,17 @@
         "기술",
         "AI"
       ]
+    },
+    {
+      "id": "98b07967b1d5e776a0d2",
+      "title": "Crystal 1.22",
+      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released",
+      "summary": "📝 Thanks, @straight-shoota Constants with type declarations Section titled Constants with type declarations Constants can have type declarations (#16951). fork removed Section titled Breaking: Process. Thanks, @ysbaddaden HTTP improvements Section titled HTTP improvements We merg",
+      "publishedAt": "2026-10-22T13:20:13Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "673895fe89075561f656",
@@ -2833,6 +3107,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "14c6e02fb21fa1968de4",
+      "title": "SBD: We Have a Filesystem at Home",
+      "url": "https://fly.io/blog/sprites-block-device",
+      "summary": "📝 JuiceFS just held the image. So a Sprite’s disk was chunks, plus a metadata database saying which chunks made up each image, plus a checkpoint database saying which image was which. Just a disk Enter: the Sprites Block Device (SBD). 🔗 Read more: https://fly.io/blog/sprites-bloc",
+      "publishedAt": "2026-10-22T13:09:33Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "46e317751e57ef833df4",
@@ -2993,6 +3278,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "2a1b001e940a641a2d4f",
+      "title": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "url": "https://lastmuseum.com/",
+      "summary": "",
+      "publishedAt": "2026-10-22T12:40:04Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "d58862a5072f9f04414d",
@@ -3265,6 +3561,17 @@
         "주식",
         "경제"
       ]
+    },
+    {
+      "id": "37bfe7955bfe4476ea62",
+      "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot",
+      "summary": "📝 Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot Amazon Threat Intelligence identified a PHP2Shell exploitation attempt dating to Oct. Subsequently, from 2026-10-21 0200 UTC to 2026-10-21 0800 UTC, Amazon Threat Intelligence iden",
+      "publishedAt": "2026-10-22T11:50:36Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "f425f0fb856f184ade1e",
@@ -3580,6 +3887,17 @@
         "주식",
         "경제"
       ]
+    },
+    {
+      "id": "610697961102a418df46",
+      "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "summary": "📝 Several Linux Kernel Vulnerabilities Accidentally Posted To Public Kernel Mailing List Written by Michael Larabel in Linux Security on 22 October 2026 at 06:05 AM EDT. 12 Comments Seemingly as an accident, overnight several new Linux kernel vulnerability reports were posted to",
+      "publishedAt": "2026-10-22T11:12:37Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "6bffce7ccef5e6a5fa42",
@@ -5395,6 +5713,7 @@
         "hankyung-economy"
       ],
       "topics": [
+        "금융",
         "경제",
         "정책"
       ]
@@ -6976,6 +7295,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "efa8e61e39756e223c8c",
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb",
+      "summary": "📝 To my knowledge, it’s the first such exploit for the Switch 2. This was a Switch 1 game, so the SmileBASIC agent could work on the exploit on my Switch 1, while the WebKit agent worked on the Switch 2. We don’t have their code, so it’s unclear which sysmodules have which privil",
+      "publishedAt": "2026-10-22T08:01:52Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "4fb90dbf2a49ddf13716",
@@ -34823,59 +35153,6 @@
       "url": "https://www.newsis.com/view/NISX20261021_0003834369",
       "summary": "",
       "publishedAt": "2026-10-21T00:02:14Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
-    },
-    {
-      "id": "d59a8d65c744adf0c96c",
-      "title": "[속보] 코스닥 11.43p(1.46%) 오른 793.40(개장)",
-      "url": "https://www.etoday.co.kr/news/view/2638168",
-      "summary": "",
-      "publishedAt": "2026-10-21T00:02:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "54abda5c2c0f7446948e",
-      "title": "[속보] 코스피 113.60p(2.05%) 오른 5666.34(개장)",
-      "url": "https://www.etoday.co.kr/news/view/2638167",
-      "summary": "",
-      "publishedAt": "2026-10-21T00:02:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "9fb4ddc0d9770c17d202",
-      "title": "\"롯데렌탈, 대주주 변경에 주주가치 개선 기대...목표가 상향\"",
-      "url": "https://www.fnnews.com/news/202610210841120247",
-      "summary": "",
-      "publishedAt": "2026-10-21T00:01:53Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "23047db5456e7d93139b",
-      "title": "[속보]코스피, 113.60포인트(2.05%) 오른 5666.34 출발",
-      "url": "https://www.newsis.com/view/NISX20261021_0003834365",
-      "summary": "",
-      "publishedAt": "2026-10-21T00:01:49Z",
       "sourceIds": [
         "newsis-finance"
       ],
