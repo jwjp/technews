@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T18:35:47Z",
+  "generatedAt": "2026-10-23T21:27:11Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,71 @@
   ],
   "articles": [
     {
+      "id": "b7aea70ad30c4c38dde6",
+      "title": "한 판 4만4000원씩 주고 수입했는데…석달새 계란값 23% 급락, 이유는",
+      "url": "https://www.mk.co.kr/news/economy/12184706",
+      "summary": "",
+      "publishedAt": "2026-10-24T06:12:57Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "422ef5808b36ea25ab3a",
+      "title": "요즘 미국선 “아직도 AI 돈 안뺐어?”…대신 돈몰리는 ‘국밥’ 어디",
+      "url": "https://www.mk.co.kr/news/world/12184703",
+      "summary": "",
+      "publishedAt": "2026-10-24T06:09:25Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "704df768b4930740ce42",
+      "title": "우리가 AI 담기 바쁠 때 … 월가 고수는 ‘공구 자판기’를 샀다",
+      "url": "https://www.mk.co.kr/news/stock/12184275",
+      "summary": "",
+      "publishedAt": "2026-10-24T05:00:00Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "3342fd1f59ebd77c5265",
+      "title": "이젠 입지보다 ‘동의율’ 먼저 … 도공복 대해부",
+      "url": "https://www.mk.co.kr/news/realestate/12184289",
+      "summary": "",
+      "publishedAt": "2026-10-24T05:00:00Z",
+      "sourceIds": [
+        "mk-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "ff2b9c2ffe3a08c73d8e",
+      "title": "[매경플러스 리바이벌] 오세훈 시대 서울 부동산 다시 읽기",
+      "url": "https://www.mk.co.kr/news/realestate/12184196",
+      "summary": "",
+      "publishedAt": "2026-10-24T05:00:00Z",
+      "sourceIds": [
+        "mk-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
       "id": "db216fa23f7f00d9b63e",
       "title": "LH 사장 “집값 상승은 前정부 공급부족 탓…공급 본격화하면 폭락”",
       "url": "https://www.mk.co.kr/news/realestate/12184564",
@@ -419,6 +484,238 @@
         "부동산",
         "정책"
       ]
+    },
+    {
+      "id": "cccf910edb51fe3eadb7",
+      "title": "\"'장대한 분노' 한 번 더\"…트럼프, 이란 추가 공격 시사",
+      "url": "https://www.ajunews.com/view/20261024062018064",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:26:45Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "fd2c698426055ee322ec",
+      "title": "뉴욕증시, 유가 급등 속 하락 마감…다우 1.23%↓",
+      "url": "https://www.newsis.com/view/NISX20261024_0003839365",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:16:25Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "주식",
+        "경제"
+      ]
+    },
+    {
+      "id": "e782baad0336fde1b2c9",
+      "title": "[유럽의 분노②] 치솟는 물가·눈덩이 나랏빚…경제 뇌관 되나",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838580",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:02:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "0e09fef7abbec3baa82f",
+      "title": "[보도 그 후] KERIS, E-ADS 논란에 교육청 RFP서 배제 요청…시장 보호책도 검토",
+      "url": "https://www.etnews.com/20261023000256",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
+      ]
+    },
+    {
+      "id": "fe97e78f198d1c9650fb",
+      "title": "[베스트&워스트] 비나텍·지투지바이오 50%대 급등⋯상폐 우려株 약세",
+      "url": "https://www.etoday.co.kr/news/view/2639627",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "d4e26de37d6e4314d8db",
+      "title": "[베스트&워스트] 삼성E&A· 혜인 한 주 사이 37% 급등⋯시총 미달株 급등락",
+      "url": "https://www.etoday.co.kr/news/view/2639626",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "1c481155a43a87e6de5f",
+      "title": "[분양캘린더] 10월 다섯째 주 '아크메르 동탄' 등 5555가구 공급",
+      "url": "https://www.etoday.co.kr/news/view/2639492",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "etoday-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "97a005761485736caa9d",
+      "title": "“유빙에 막혀 돌아갈까 고민”…북극항로 50일, 뱃길 너머의 이야기",
+      "url": "https://www.etoday.co.kr/news/view/2639368",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "etoday-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "6e1fe45cdf2505fab62a",
+      "title": "\"AI 덕 본 업무, 자료검색 33% vs 기획 1%\"⋯직장인 체감 격차 뚜렷",
+      "url": "https://www.etoday.co.kr/news/view/2639400",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "etoday-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "0d381e3c0df6e2475bfd",
+      "title": "삼전닉스도 \"오르면 일단 판다\"…장투가 무서워진 개미들 [증시는 왜]",
+      "url": "https://www.fnnews.com/news/202610231255500638",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "fnnews-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "3ab9b20dd61212c7e52f",
+      "title": "소주잔 든 최태원, 식판 든 이재용…총수들의 '한 끼 리더십'",
+      "url": "https://www.fnnews.com/news/202610231106111578",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "fnnews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "c43cba795d7336942329",
+      "title": "국내 경유 판매 7.6% 줄자…정부, 수출 빗장 먼저 푼다",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838772",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제",
+        "정책"
+      ]
+    },
+    {
+      "id": "83cbb118705f1f22f09d",
+      "title": "강남 수억 내리고, 강북은 신고가…서울 집값 상승축 이동[부동산 머니무브①]",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838638",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "부동산",
+        "경제"
+      ]
+    },
+    {
+      "id": "03284c5bb8b6553d1129",
+      "title": "OpenSSL 4.1.0 - DTLS 1.3과 GREASE 지원 추가",
+      "url": "https://news.hada.io/topic?id=35885",
+      "summary": "OpenSSL 4.1.0 은 DTLS 1.3, GREASE, SSL 리스너 API의 DTLS 지원을 추가한 기능 릴리스임 암호 연산 최적화 로 ppc64le 의 ML-DSA/ML-KEM NTT 연산과 x86_64 의 ML-DSA, SHAKE x4, AES-CBC 복호화 성능을 개선함 ts...",
+      "publishedAt": "2026-10-23T20:45:59Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "283df05cdcfb9c30a6db",
+      "title": "pgrust 제거: 쿼리별 전용 커널과 결과 캐싱을 이용한 벤치마크 부정행위",
+      "url": "https://news.hada.io/topic?id=35884",
+      "summary": "ClickBench에서 pgrust 항목을 제거하는 PR이 병합됨 . 제거 사유는 43개 벤치마크 쿼리에 맞춘 전용 실행 경로와 이전 실행 결과를 재사용하는 캐시가 벤치마크 규칙을 위반한다는 것임 공개 소스와 릴리스 바이너리에서 쿼리별 수작업 커널 , 벤치마크 SQL 내장, 특...",
+      "publishedAt": "2026-10-23T20:42:59Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "afa30478795a81b50c01",
+      "title": "[속보]뉴욕증시, 유가 상승 등에 하락 마감…다우 1.23%↓",
+      "url": "https://www.newsis.com/view/NISX20261024_0003839364",
+      "summary": "",
+      "publishedAt": "2026-10-23T20:40:50Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "주식",
+        "경제"
+      ]
+    },
+    {
+      "id": "0da87adbed15d7eeec32",
+      "title": "캐나다인들이 C-22 법안에 반대할 시간이 얼마 남지 않음",
+      "url": "https://news.hada.io/topic?id=35883",
+      "summary": "정부의 감시 권한을 대폭 확대하는 C-22 법안 이 캐나다 하원을 통과해 상원에서 심의 중이며, 시민단체는 법안 저지를 위한 청원 참여를 촉구함 통신사와 메시징 앱 등에 감시 협조를 강제하고, “시스템 전반의 보안 취약성”을 초래하지 않는다는 조건으로 백도어 설치 명...",
+      "publishedAt": "2026-10-23T20:39:59Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "8609948559c8aa9ae774",
+      "title": "Apple Music 404 페이지를 찾을 수 없음 오류",
+      "url": "https://news.hada.io/topic?id=35882",
+      "summary": "",
+      "publishedAt": "2026-10-23T20:36:59Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "e676af25f5336665d7d8",
@@ -449,6 +746,57 @@
       ]
     },
     {
+      "id": "6c4e1c160a114fd8299c",
+      "title": "'2.5억에서 20억 훌쩍'...\"조합원들은 대박\" [권준호의 요·아·정]",
+      "url": "https://www.fnnews.com/news/202610231448268202",
+      "summary": "",
+      "publishedAt": "2026-10-23T20:30:00Z",
+      "sourceIds": [
+        "fnnews-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "7fce66b1f759b6524375",
+      "title": "국립공원도 '밤산책' 시대…경주·북한산 등 야경 투어 첫선",
+      "url": "https://www.etoday.co.kr/news/view/2639625",
+      "summary": "",
+      "publishedAt": "2026-10-23T20:00:00Z",
+      "sourceIds": [
+        "etoday-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "d46496766b5cb51cb62c",
+      "title": "무주택자 눈 빠지게 기다린 '30억 로또'…반포124 12월8일 청약",
+      "url": "https://www.newsis.com/view/NISX20261020_0003833084",
+      "summary": "",
+      "publishedAt": "2026-10-23T20:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "부동산",
+        "경제"
+      ]
+    },
+    {
+      "id": "31c01f72e1b59d4c78f8",
+      "title": "우리는 모두 1970년대의 무명 공상과학 영화 속에 살고 있습니다.",
+      "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970",
+      "summary": "📝 다행히도 이 영화는 이미 56년 전에 제작되었습니다. Jones는 간단히 Colossus라고 명명했습니다. 영화는 AI 군주가 통제하는 세상과 적절하게 사악한 로봇 목소리로 끝납니다. 🔤 Original: We are all living inside of an obscure sci-fi film from 1970 🔗 Read more: https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-",
+      "publishedAt": "2026-10-23T19:41:59Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "ca15c5aff25fe6047097",
       "title": "“40% 수익률 의심했어야 하나요”…삼전닉스ELS, 조기상환 잇단 불발",
       "url": "https://www.mk.co.kr/news/stock/12184501",
@@ -473,6 +821,50 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "a9526976eeebfbfe11f7",
+      "title": "이제 Google은 광고를 타겟팅하기 위해 Gmail 및 Google 포토 데이터를 사용할 수 있다고 말합니다.",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "summary": "📝 TechAINewsNow Google은 광고 타겟팅을 위해 귀하의 Gmail 및 Google 포토 데이터를 사용할 수 있다고 밝혔습니다. 새로운 약관에 따르면 더 나은 AI 추천을 위해 데이터를 공유한다는 것은 더 개인화된 광고를 위해 데이터를 공개한다는 의미이기도 합니다. Google은 개인화된 AI 기능을 사용하는 경우 개인 데이터를 기반으로 한 타겟 광고를 볼 수 있다는 의미로 개인정보 보호정책을 업데이트했습니다. ”“귀하의 설정에 따라 당사는 귀하의 관심사, 활동 또는 Google 서비",
+      "publishedAt": "2026-10-23T19:34:15Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "2810a1b241e7ed02cdd1",
+      "title": "Show HN: OnKey - 노래를 못해서 음정이 어긋나는 곳을 보여주는 앱을 만들었습니다",
+      "url": "https://news.hada.io/topic?id=35881",
+      "summary": "OnKey 는 Spotify, Apple Music, 브라우저의 YouTube에서 재생하는 노래를 따라 부르며 연습하는 무료 오픈소스 Mac용 보컬 훈련 앱임 처음 재생할 때는 가사를 보여주고 곡이 끝나면 멜로디를 학습 함. 이후에는 음표 위에 사용자의 음정을 실시간으로 겹쳐 보여주며...",
+      "publishedAt": "2026-10-23T19:33:25Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "b5cb20bfbe29ca467252",
+      "title": "Dessa: 지금까지 구축된 가장 확실한 전이중 음성 모델",
+      "url": "https://block.xyz/dessa",
+      "summary": "📝 두 개의 동기화된 스피커 트랙. 데사가 문장을 완성합니다. 두 개의 동기화된 스피커 트랙. 🔤 Original: Dessa: the most authentic full-duplex speech model ever built 🔗 Read more: https://block.xyz/dessa",
+      "publishedAt": "2026-10-23T19:09:54Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "98cd6dc3a6b3cd5ffb63",
+      "title": "플로리다 경찰이 죽은 사람을 발견하고 수년 동안 그를 사칭하고 그의 집을 개조했습니다.",
+      "url": "https://www.nbcnews.com/news/us-news/officer-impersonates-dead-florida-man-moved-into-home-rcna604844",
+      "summary": "📝 데니스 웨스트가 숨진 채 발견된 곳. Sguros는 또한 West의 이름으로 집에 대한 세금과 공과금을 지불했다고 당국은 말했습니다. 유권자들이 얻은 정보는 다음과 같습니다. 🔤 Original: Florida officer found dead man, impersonated him for years, renovated his home 🔗 Read more: https://www.nbcnews.com/news/us-news/officer-impersonates-dead-florida-man-m",
+      "publishedAt": "2026-10-23T19:01:56Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "4b54405650cd098de936",
@@ -513,6 +905,28 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "68957a0cd220ca2a9639",
+      "title": "eMudhra, Mozilla 루트 프로그램 조사 답변 기한 무시하고 소셜 미디어 탓",
+      "url": "https://news.hada.io/topic?id=35880",
+      "summary": "eMudhra 중간 인증서 8개의 개인 키 가 모두 256 미만 정수여서 사실상 즉시 복구할 수 있는 상태였음. Mozilla도 제보자의 방법을 모른 채 독립적으로 키를 복구해 키 생성 결함을 확인함 Mozilla의 조사 답변 기한 과 eMudhra가 추가로 요청한 24시간이 모두 지난 ...",
+      "publishedAt": "2026-10-23T18:43:37Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "030254be4b8f41cb9f7e",
+      "title": "Kimi K3.1 Pro와 K3.1 Pro Highspeed - 100만 토큰 문맥을 지원하는 3T급 모델",
+      "url": "https://news.hada.io/topic?id=35879",
+      "summary": "Kimi K3.1 Pro 는 K3의 사후 학습을 확대해 코딩, 3D 제작, 금융 조사와 에이전트 역량을 강화한 3T급 모델로, 100만 토큰 문맥 을 지원하며 전체 가중치는 2026년 11월 4일까지 공개할 예정임 K3.1 Pro Highspeed 도 함께 출시하며, Kimi 측에 따르...",
+      "publishedAt": "2026-10-23T18:40:37Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "ae2f21a565727c0fed4c",
@@ -874,6 +1288,17 @@
       ]
     },
     {
+      "id": "79525a8afd6fd57ace8f",
+      "title": "포켓몬 타운을 홈 화면으로 두고 TV를 게임보이 컬러로 바꿨습니다.",
+      "url": "https://twitter.com/robbietilton/status/2111936458923851923",
+      "summary": "📝 Robbie Tilton@robbietilton저는 TV를 게임보이 컬러로 바꾸고 포켓몬 타운을 홈 화면으로 삼았습니다. 앱을 열려면 건물 안으로 들어가세요. 설정을 변경하고 싶습니다. 🔤 Original: I turned my TV into a Game Boy Color with a Pokemon town as my home screen 🔗 Read more: https://twitter.com/robbietilton/status/2111936458923851923",
+      "publishedAt": "2026-10-23T17:40:22Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "81b34d267a9e8b0f3928",
       "title": "美 금리 고공행진에 … 맥 못추는 金",
       "url": "https://www.mk.co.kr/news/stock/12184419",
@@ -1055,6 +1480,17 @@
       ]
     },
     {
+      "id": "870947cc813e3918d887",
+      "title": "$150,000의 Looker를 HTML 파일 버킷으로 대체할 수 있나요?",
+      "url": "https://david.lequin.dev/blog/bi-software-is-dead",
+      "summary": "📝 그런 다음 Opus 4를 사용한 Claude Code. 처음에는 파일이 일반 정적 HTML이었습니다. 사람들은 또한 도구를 자신의 것으로 만들었습니다. 🔤 Original: Can we replace a $150k Looker with a bucket of HTML files? 🔗 Read more: https://david.lequin.dev/blog/bi-software-is-dead/",
+      "publishedAt": "2026-10-23T17:15:03Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "d4940a9d10fda12f158a",
       "title": "하나금융·두나무, 스테이블코인 결제망 구축 속도…업비트 지갑으로 카드 결제한다",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156463",
@@ -1066,6 +1502,17 @@
       "topics": [
         "기술"
       ]
+    },
+    {
+      "id": "39437f5ee90f820a1818",
+      "title": "타임 넛츠(2005)",
+      "url": "http://leapsecond.com/time-nuts.htm",
+      "summary": "📝 메일링 리스트에 가입하려면 빈 이메일을 time-nuts-join@lists로 보내십시오. com – 개인 관리자 time-nuts-owner@ 도움말 이메일은 공개 time-nuts@ 메일링 리스트 이메일과 다릅니다. – 구독, ISP, 이메일 형식, 첨부 파일, 다이제스트 모드 등을 도와드립니다. 🔤 Original: Time Nuts (2005) 🔗 Read more: http://leapsecond.com/time-nuts.htm",
+      "publishedAt": "2026-10-23T17:12:51Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "3f5255e50423d00aacee",
@@ -1122,6 +1569,17 @@
       ]
     },
     {
+      "id": "0af5891f812aebe5b10d",
+      "title": "시스템 빌더를 위한 애니메이션",
+      "url": "https://brooker.co.za/blog/2026/10/23/animations.html",
+      "summary": "📝 이 예에서는 실제 MicroVM에서 실행되는 실제 Postgres 16의 추적에서 캡처되었습니다. 나는 이 예를 좋아하는데, 이는 단순한 비분산 시스템에서도 이러한 동작이 있음을 보여주기 때문입니다. etcd는 널리 사용되는 고품질 소프트웨어이기 때문에 이 예가 마음에 듭니다. 🔤 Original: Animations for System Builders 🔗 Read more: https://brooker.co.za/blog/2026/10/23/animations.html",
+      "publishedAt": "2026-10-23T17:02:24Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "961e009e4c7f27a616d5",
       "title": "\"반도체, 주도주 역할 끝났다\"…전문가 \"AI 투자, 다른 분야도 봐야\"",
       "url": "https://www.newsis.com/view/NISX20261023_0003838757",
@@ -1133,6 +1591,17 @@
       "topics": [
         "금융"
       ]
+    },
+    {
+      "id": "bf44de9e544de4cbe9fe",
+      "title": "Kimi K3.1 Pro 및 K3.1 Pro 고속",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "summary": "📝 탐색하려면 스크롤하세요Kimi K3 소개. 키미K3도 출시합니다. ai, Kimi Work, Kimi 코드 및 Kimi API. 🔤 Original: Kimi K3.1 Pro and K3.1 Pro Highspeed 🔗 Read more: https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "publishedAt": "2026-10-23T16:59:08Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "51e06d8bd8e08a72f4ee",
@@ -1194,6 +1663,39 @@
       "topics": []
     },
     {
+      "id": "ec02ff79008bc3acc84d",
+      "title": "UUIDv7에는 당신이 생각하는 속성이 없습니다",
+      "url": "https://alexsci.com/blog/uuidv7-is-weird",
+      "summary": "📝 타임스탬프가 유용합니까? 구현은 실제 타임스탬프를 변경할 수 있습니다. 유해한 타임스탬프가 누출되고 있습니다. 🔤 Original: UUIDv7 doesn't have the properties you think it does 🔗 Read more: https://alexsci.com/blog/uuidv7-is-weird/",
+      "publishedAt": "2026-10-23T16:39:45Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "0b0517c276cd59d5aafc",
+      "title": "Sonic 06(2025)의 놓친 기회",
+      "url": "https://isaacmarovitz.com/posts/sonic-06",
+      "summary": "📝 이는 전체적으로 사용되는 다양한 셰이더 변형으로 귀결됩니다. 두 가지 모두 변형이 많으며 각각 기능 수준이 00~07로 번호가 매겨져 있습니다. Billboard07 셰이더가 포함된 캐슬 타운. 🔤 Original: The Missed Opportunities of Sonic 06 (2025) 🔗 Read more: https://isaacmarovitz.com/posts/sonic-06/",
+      "publishedAt": "2026-10-23T16:38:35Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "6aa84d722cffb15cc2e2",
+      "title": "음악은 어떻게 가능한가",
+      "url": "https://www.henrikkarlsson.xyz/p/music",
+      "summary": "📝 그녀는 특히 좋은 일이 있을 때 그렇게 합니다. 나는 전에는 그런 모습을 본 적이 없었습니다. 그런 일이 일어나는 것이 이상하지 않습니까? 🔤 Original: How is music possible 🔗 Read more: https://www.henrikkarlsson.xyz/p/music",
+      "publishedAt": "2026-10-23T16:38:17Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "b3f5f5a378e8df332d2c",
       "title": "노르웨이 국부펀드도 마이너스 수익률…기금규모 95조 줄어 3125조",
       "url": "https://www.mk.co.kr/news/stock/12184290",
@@ -1246,6 +1748,30 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "e48c8d6ff77a0b5e1665",
+      "title": "백업만 믿다 150억 날린 제약사…에브리존 \"랜섬웨어, 단말에서 막아야\"",
+      "url": "https://zdnet.co.kr/view?no=20261024011940",
+      "summary": "",
+      "publishedAt": "2026-10-23T16:26:56Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "b71f472cd194a25e2bb9",
+      "title": "종합역사가",
+      "url": "https://www.theideasletter.org/essay/total-historian",
+      "summary": "📝 Bloch의 전시 공적에 관한 만화책은 프랑스 서점에서 구입할 수 있습니다. 프랑스-독일 지적 교류의 역사가인 Schöttler는 블로흐를 20세기 초의 복잡한 풍경 속에 위치시켜 그를 형성했습니다. Bloch의 지적 프로젝트는 세 가지 혁신을 중심으로 진행되었으며, 각 혁신은 사회의 역사적 발전과 관련이 있었습니다. 🔤 Original: Total Historian 🔗 Read more: https://www.theideasletter.org/essay/total-historian/",
+      "publishedAt": "2026-10-23T16:23:29Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "6309a052e042f22fec0e",
@@ -1501,6 +2027,31 @@
         "주식",
         "금융"
       ]
+    },
+    {
+      "id": "ce9a015e8651c39c2bd9",
+      "title": "황인봉 방산기술보호·보안협의회장 \"AI 공격엔 AI로 대응\"",
+      "url": "https://zdnet.co.kr/view?no=20261024005020",
+      "summary": "",
+      "publishedAt": "2026-10-23T15:59:18Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "a5a455426b239e558ed8",
+      "title": "영어 철자법 개혁",
+      "url": "https://blog.oup.com/2026/10/reforming-english-spelling",
+      "summary": "📝 더 읽기 작성자: Anatoly Liberman 2026년 10월 21일 English Spelling Society는 1908년에 설립되었습니다. 역설적이게도 오늘날 그 어느 때보다 글을 읽을 줄 아는 사람은 늘어나고 책을 읽는 사람은 줄어듭니다. (누가 영어 철자의 불규칙한 세계에서 일관성을 기대합니까? 🔤 Original: Reforming English Spelling 🔗 Read more: https://blog.oup.com/2026/10/reforming-english-spelli",
+      "publishedAt": "2026-10-23T15:56:06Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "04b84523cdd2ae45640e",
@@ -1840,6 +2391,19 @@
       "topics": [
         "기술",
         "AI"
+      ]
+    },
+    {
+      "id": "f76eab7f8e158d09e64a",
+      "title": "선미, 지능형 커머스를 위한 컴퓨팅 선택의 폭을 넓히는 Windows 상업용 제품군 출시",
+      "url": "https://zdnet.co.kr/view?no=20261024001003",
+      "summary": "",
+      "publishedAt": "2026-10-23T15:10:03Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "기술"
       ]
     },
     {
@@ -2183,6 +2747,17 @@
         "보안",
         "AI"
       ]
+    },
+    {
+      "id": "272ca529595ace68cce2",
+      "title": "동일한 정확도에서 39-69% 적은 사고력을 갖춘 Gemma-4-26B-A4B",
+      "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b",
+      "summary": "📝 사고 토큰이 6% 적습니다. 평균적으로 62%입니다. ThinkingCap 모델에 대한 작업 패밀리당 평균 사고 토큰, gemma-4-26B-A4B-it 사고는 변화가 있는 곳이며 모든 패밀리는 더 짧아집니다. 벤치마크정확도(기본)정확도(우리)Δ 정확도평균 사고 토큰Δ 평균 사고Trunc. 🔤 Original: Gemma-4-26B-A4B with 39-69% less thinking at same accuracy 🔗 Read more: https://bottlecapai.com/post/th",
+      "publishedAt": "2026-10-23T14:43:02Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "61043236d7b58d7567a8",
@@ -2701,6 +3276,17 @@
       "publishedAt": "2026-10-23T12:35:23Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "01356892d8796636b4ea",
+      "title": "Apple Music 404를 찾을 수 없음",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "summary": "",
+      "publishedAt": "2026-10-23T12:28:47Z",
+      "sourceIds": [
+        "hnko"
       ],
       "topics": []
     },
@@ -6051,6 +6637,17 @@
       ]
     },
     {
+      "id": "cdf86179f9a2ec80e00e",
+      "title": "HN 표시: Swoorf – 실제 웹을 스와이프하세요.",
+      "url": "https://swurf.org/",
+      "summary": "",
+      "publishedAt": "2026-10-23T06:54:52Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "3f4b0c2c83b53ae22c5b",
       "title": "S3 기반 데이터 티어링 도입기",
       "url": "https://velopers.kr/post/10370",
@@ -7820,6 +8417,19 @@
       ],
       "topics": [
         "부동산"
+      ]
+    },
+    {
+      "id": "bb47cbc94a26ab551101",
+      "title": "[이서영의 재테크루] 예금금리 다시 4%대…6개월 묶을까, 1년 맡길까",
+      "url": "https://www.ajunews.com/view/20261023133723985",
+      "summary": "",
+      "publishedAt": "2026-10-23T05:02:46Z",
+      "sourceIds": [
+        "ajunews-investment"
+      ],
+      "topics": [
+        "금융"
       ]
     },
     {
@@ -12111,6 +12721,19 @@
       ]
     },
     {
+      "id": "7a56bff7f5fb6d9f9ace",
+      "title": "[통계로 보는 부동산] 강남 소형은 신고가, 서울은 월세 시대…주택 공급은 주춤",
+      "url": "https://www.ajunews.com/view/20261023084220102",
+      "summary": "",
+      "publishedAt": "2026-10-23T00:02:39Z",
+      "sourceIds": [
+        "ajunews-investment"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
       "id": "ad4850df41794d7391fb",
       "title": "[속보] 코스피, 130.60p(2.36%) 내린 5403.17p 출발",
       "url": "https://www.ajunews.com/view/20261023084638123",
@@ -12327,6 +12950,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "04eeefad080681ef5447",
+      "title": "Show HN: Impossible Machines: 물리적 세계를 선언적으로 프로그래밍",
+      "url": "https://www.impossiblemachines.xyz/",
+      "summary": "📝 Impossible Machines Impossible Machines 휴대전화를 옆으로 돌리세요. Impossible Machines는 메커니즘을 살펴볼 공간이 있는 가로 모드에서 가장 잘 작동합니다. 세로 방향으로 계속 소스 크랭크 웨이트 블록 브레이크 가이드 장애물 싱크 벨 도어. 🔤 Original: Show HN: Impossible Machines: declaratively program the physical world 🔗 Read more: https://www.impossibl",
+      "publishedAt": "2026-10-22T23:54:28Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "c34d85511a7570a1c917",
@@ -12897,6 +13531,17 @@
       ]
     },
     {
+      "id": "be074fe101e39b9e9203",
+      "title": "우리 집에는 특성이 있어요",
+      "url": "https://www.axelmagn.com/blog/202610-zig-traits",
+      "summary": "📝 N]); const 제품 = product_trait. 정말 버터처럼 부드럽지 않나요? 런타임이 아닌 컴파일 타임에 평가된다는 점을 제외하면 vtable과 매우 유사하게 동작합니다. 🔤 Original: We have traits at home 🔗 Read more: https://www.axelmagn.com/blog/202610-zig-traits/",
+      "publishedAt": "2026-10-22T23:24:17Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "b13839485f54810b27a2",
       "title": "탑런토탈솔루션 中 법인, 차량용 디스플레이 BLU 수주",
       "url": "https://www.newsis.com/view/NISX20261023_0003837846",
@@ -13415,6 +14060,17 @@
       "topics": [
         "주식"
       ]
+    },
+    {
+      "id": "267687f580785c4793de",
+      "title": "캐나다인들은 Bill C-22에 반대할 시간이 부족합니다.",
+      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "summary": "📝 ) 조치를 취하십시오. 캐나다 상원에 C-22를 중지하라고 요청하십시오. 올해 초 우리가 쓴 것처럼 Bill C-22는 정부에 통신 회사, 메시징 앱 등을 포함한 디지털 서비스가 정부 감시를 돕도록 강제할 수 있는 새로운 권한을 부여합니다. 이를 통해 미국 경찰은 캐나다 법원의 감독 없이 캐나다 인터넷 사용자에 대한 정보를 얻을 수 있습니다. 캐나다에 계시다면 오늘 Bill C-22에 반대하는 CCLA의 청원서를 읽고 서명하세요. 🔤 Original: Canadians are running o",
+      "publishedAt": "2026-10-22T22:43:19Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "e7b0af59692f75ab9ecb",
@@ -33538,46 +34194,6 @@
       ]
     },
     {
-      "id": "c3718e90f2aa8cebaf2c",
-      "title": "삼성전기, 엔비디아와 AI 반도체 깐부 됐다…AI 기판 장기 공급",
-      "url": "https://www.mk.co.kr/news/stock/12182179",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:57:16Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "f93018b21821c432e77d",
-      "title": "뉴욕증시, 기술주 강세에 일제히 상승 마감…나스닥 1.05%↑",
-      "url": "https://www.newsis.com/view/NISX20261022_0003835871",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:53:42Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "주식",
-        "경제"
-      ]
-    },
-    {
-      "id": "f2edd16d279a27d7a584",
-      "title": "\"400만 원 간다더니\"…SK하이닉스 87만원에 산 조혜련, 결국 '본전' 된 사연",
-      "url": "https://www.fnnews.com/news/202610220037205863",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:40:00Z",
-      "sourceIds": [
-        "fnnews-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "28d2d91eea7189ef4a1a",
       "title": "Patch the Planet: 에이전트가 발견하는 취약점에 대응하기 위한 글로벌 공조",
       "url": "https://news.hada.io/topic?id=35771",
@@ -33587,138 +34203,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "3e7f4f63fbcc6f71faee",
-      "title": "[오늘의 주요일정]국토교통부(10월22일 목요일)",
-      "url": "https://www.newsis.com/view/NISX20261021_0003835754",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:30:00Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "54aa6972f6d8e89e142c",
-      "title": "삼겹살 1인분이 4만6000원인데…미국서 번호표 100번 뽑는 '백종원 식당'",
-      "url": "https://www.fnnews.com/news/202610211832056071",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:20:00Z",
-      "sourceIds": [
-        "fnnews-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "073a6cc3024778ac968f",
-      "title": "[속보]나스닥 1%대 상승 마감…스페이스X 등 기술주 강세",
-      "url": "https://www.newsis.com/view/NISX20261022_0003835870",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:08:59Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "f7a430a748ca9480bdfe",
-      "title": "국조실장 “가덕도신공항 공사비, 실무합의 근접”",
-      "url": "https://www.mk.co.kr/news/economy/12182146",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:05:04Z",
-      "sourceIds": [
-        "mk-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "032dc3665f65244367f8",
-      "title": "[속보]뉴욕증시 美기업 실적 기대감에 상승 마감",
-      "url": "https://www.newsis.com/view/NISX20261022_0003835869",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:04:00Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "주식",
-        "경제"
-      ]
-    },
-    {
-      "id": "2d65164e5a2219c7a64b",
-      "title": "\"인턴도 필요 없다\"…AI 도입에 좁아지는 PEF 취업문",
-      "url": "https://www.etoday.co.kr/news/view/2638245",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:00:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "a2d74203c1bf83d35b53",
-      "title": "62년 만에 1만배 성장⋯韓, 사상 첫 '수출 1조달러' 5대 강국 눈앞[韓수출 1조달러의 명암]",
-      "url": "https://www.etoday.co.kr/news/view/2638354",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:00:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "14db988e3c72e4b5c3a1",
-      "title": "반도체 42%ㆍ대기업 91% 쏠림...수출구조 다변화 서둘러야[韓수출 1조달러의 명암]",
-      "url": "https://www.etoday.co.kr/news/view/2638382",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:00:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "4109ef55621146c9d3a7",
-      "title": "화장품ㆍ라면ㆍ약품⋯소비재 수출 500억달러 눈앞[韓수출 1조달러의 명암]",
-      "url": "https://www.etoday.co.kr/news/view/2638405",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:00:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "7762f76bdfc84fd6e8c6",
-      "title": "[오늘의 주요일정]금융·증권(10월22일 목요일)",
-      "url": "https://www.newsis.com/view/NISX20261021_0003835008",
-      "summary": "",
-      "publishedAt": "2026-10-21T20:00:00Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
     },
     {
       "id": "52adaca12e4fb06f9bff",
@@ -33752,20 +34236,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "7af621c8698d5eb0eec9",
-      "title": "900만원 나온다더니 고작 19만원?…연금보험 가입자들 '날벼락'",
-      "url": "https://www.fnnews.com/news/202610211536447078",
-      "summary": "",
-      "publishedAt": "2026-10-21T19:30:00Z",
-      "sourceIds": [
-        "fnnews-economy"
-      ],
-      "topics": [
-        "금융",
-        "경제"
-      ]
     },
     {
       "id": "bd4ba4e8a14a704637aa",
@@ -33952,38 +34422,6 @@
       ]
     },
     {
-      "id": "b1d07b77846704a992ad",
-      "title": "현대차 기아,레벨 4 자율주행 대형 트럭 실증 추진",
-      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44761",
-      "summary": "",
-      "publishedAt": "2026-10-21T18:33:20Z",
-      "sourceIds": [
-        "etnews-mobility",
-        "motorgraph",
-        "irobotnews",
-        "hankyung-economy"
-      ],
-      "topics": [
-        "기술",
-        "자동차",
-        "경제"
-      ]
-    },
-    {
-      "id": "88429284760944269103",
-      "title": "정책평가연구원 “경영평가 등급 오른 공공기관 22곳 중 14곳은 점수 하락”",
-      "url": "https://www.mk.co.kr/news/economy/12182085",
-      "summary": "",
-      "publishedAt": "2026-10-21T18:32:11Z",
-      "sourceIds": [
-        "mk-economy"
-      ],
-      "topics": [
-        "경제",
-        "정책"
-      ]
-    },
-    {
       "id": "33996b9b6430bc5b50da",
       "title": "[카드뉴스] AI가 회의록 쓰고 업무까지 챙긴다...넥써쓰가 주목한 새로운 업무 방식은?",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156356",
@@ -34035,45 +34473,6 @@
       ],
       "topics": [
         "AI"
-      ]
-    },
-    {
-      "id": "1eadef8ec32fd75ac13c",
-      "title": "애드포러스, 60억 원 규모 전환사채 발행",
-      "url": "https://www.mk.co.kr/news/stock/12182065",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:56:22Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "45f1b9ef3aebefa30c0a",
-      "title": "에이루트, 17억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/12182064",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:56:22Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "9113cb39613d3061444a",
-      "title": "알에프텍, 90억원 규모 유상증자 실시",
-      "url": "https://www.mk.co.kr/news/stock/12182063",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:56:21Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
       ]
     },
     {
@@ -34130,19 +34529,6 @@
       ]
     },
     {
-      "id": "36f75ec046ceee69c23a",
-      "title": "한 달 앞당겨 40조원 자사주 매입 끝냈다…SK하닉, 이제 시장이 주목하는 ‘이날’",
-      "url": "https://www.mk.co.kr/news/stock/12182048",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:50:56Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
       "id": "49d5cd1a2b09861912c4",
       "title": "[국감 26] 우버 인수 직후 배민 수수료 오를까...국회, 공정위에 점검 촉구",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156353",
@@ -34165,46 +34551,6 @@
         "hnko"
       ],
       "topics": []
-    },
-    {
-      "id": "79336dd4e41e42db07a4",
-      "title": "[단독] 정부 연일 '빚 탕감' 주문에 … 5천만원 이상 채무조정 늘어",
-      "url": "https://www.mk.co.kr/news/economy/12182008",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:41:46Z",
-      "sourceIds": [
-        "mk-economy"
-      ],
-      "topics": [
-        "경제",
-        "정책"
-      ]
-    },
-    {
-      "id": "232b058eb1c8798885b1",
-      "title": "[단독] 햇살론 갚은 10명 중 8명, 또 빌렸다…고용난에 채무 늪 '허우적'",
-      "url": "https://www.mk.co.kr/news/economy/12182007",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:41:46Z",
-      "sourceIds": [
-        "mk-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "af223ec05b14661932e5",
-      "title": "스테이트타워남산 매각 돌입",
-      "url": "https://www.mk.co.kr/news/realestate/12181992",
-      "summary": "",
-      "publishedAt": "2026-10-21T17:39:57Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
     },
     {
       "id": "5ef2b18a01a0008369a2",
