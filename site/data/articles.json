@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T09:28:19Z",
+  "generatedAt": "2026-10-24T12:35:37Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,62 @@
   ],
   "articles": [
     {
+      "id": "124dc3977152598f47b0",
+      "title": "피차이 “클라우드 매출 포기하더라도 첨단 AI 개발에 컴퓨팅 우선 투입”",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216618",
+      "summary": "",
+      "publishedAt": "2026-10-24T20:38:59Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
+      "id": "60d128cfd3db1cd9ce41",
+      "title": "오픈AI 연구원 3명 해고, ‘순환 추론’ 유출 조사서 비롯…시그널 대화 쟁점",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216616",
+      "summary": "",
+      "publishedAt": "2026-10-24T19:53:21Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
+      "id": "72a92b7deb5e620fcf55",
+      "title": "오픈AI, AI 보안 우회로 중단했던 모델 학습 재개…인터넷 차단 강화",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216615",
+      "summary": "",
+      "publishedAt": "2026-10-24T19:13:05Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "3d0ec6858acc9825db65",
+      "title": "SK “AI 데이터센터 5GW에 464조 필요”…글로벌 빅테크와 투자 협상",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216614",
+      "summary": "",
+      "publishedAt": "2026-10-24T18:37:43Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ]
+    },
+    {
       "id": "9bd76074adf595f1e2de",
       "title": "앤트로픽, 구글 클라우드서 최신 기능 쓰는 '관리형 클로드' 출시",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216613",
@@ -486,6 +542,20 @@
       ],
       "topics": [
         "개발",
+        "AI"
+      ]
+    },
+    {
+      "id": "6eec97db24bf97375a05",
+      "title": "중국 국영 통신망서 수출 금지 엔비디아 칩 또 포착…첨단 'B300' 32개 확인",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216617",
+      "summary": "",
+      "publishedAt": "2026-10-24T16:55:00Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "기술",
         "AI"
       ]
     },
@@ -738,6 +808,66 @@
       ]
     },
     {
+      "id": "cb5713c45100bf8541a2",
+      "title": "약 12개 은행 앱이 GrapheneOS를 명시적으로 허용하기 시작함",
+      "url": "https://news.hada.io/topic?id=35919",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:31:34Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "9b8e15f6f06ed8d6c3aa",
+      "title": "\"은행 간 지 3년 됐다\"…전통 금융 종말과 '국경 없는 토큰'의 경고",
+      "url": "https://www.newsis.com/view/NISX20261021_0003834286",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:30:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "59906564f91808ba5630",
+      "title": "佛, 시위 제한령에도 전국 곳곳서 집회…경찰 7만명 투입",
+      "url": "https://www.ajunews.com/view/20261024211311479",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:15:37Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "b7ed14a2640143c9d44e",
+      "title": "Oracle Java 인증서 검증 우회 취약점(CVE-2026-91403) 긴급 업데이트 권고",
+      "url": "https://indieblog.net/go/648392",
+      "summary": "Oracle이 Java SE와 GraalVM의 TLS 구현 컴포넌트(JSSE)에 영향을 주는 취약점 CVE-2026-91403에 대해 정기 보안 업데이트 일정과 별도로 긴급 보안 경보(Security Alert)를 발표하고 패치 버전을 배포했습니다. 이번 취약점은 Java 코드 자체의 결함이 아니라, 인증 기관(CA) eMudhra의 중간 CA 인증서 8종…",
+      "publishedAt": "2026-10-24T12:00:26Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "51f605fa6b7c6985a354",
+      "title": "MyShorts - 첫 YouTube Shorts 발행",
+      "url": "https://indieblog.net/go/648889",
+      "summary": "MyShorts에서 만든 첫 영상을 YouTube에 올리는 기능을 붙이기로 했다. YPUB 패키지로 장면과 대사, 제목까지 정해 두고, Python 프로그램에서 Typecast 음성과 MP4를 생성하는 흐름은 이미 갖춰져 있었다. 이제 완성된 영상을 업로드하기만 하면 되는 단계였다. 내가 기대한 화면은 단순했다. 패키지와 제작 기록에 저장된 게시 정보를 기…",
+      "publishedAt": "2026-10-24T11:55:20Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
       "id": "7999909985816c40ea52",
       "title": "앤트로픽 '미소스 5', 실제 피해 경고에도 해킹 지속...정렬 실패 확인",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216605",
@@ -778,6 +908,43 @@
       ]
     },
     {
+      "id": "502983961abe807fc8aa",
+      "title": "삼성 TV를 역공학 분석해서 공유하던 해커, OpenAI 계정 정지 경험 공개",
+      "url": "https://news.hada.io/topic?id=35918",
+      "summary": "삼성 TV의 개인정보 수집 기능을 분석하던 개발자가 OpenAI 계정 정지 통보를 받은 경험을 공개 TV에서 개 짖는 소리와 아기 울음을 구분하고 감지 횟수를 기록하는 코드 를 찾았다며 관련 분석 화면 게시 자동 콘텐츠 인식과 위치 정보, 네트워크 정보, 맞...",
+      "publishedAt": "2026-10-24T11:31:42Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "b354c6e936537cd3564a",
+      "title": "김정은, '中 서열 4위' 왕후닝 만났다…북·중 경협 본격화",
+      "url": "https://www.hankyung.com/article/202610242653i",
+      "summary": "",
+      "publishedAt": "2026-10-24T11:24:58Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "792fd485086001233390",
+      "title": "삼성물산, 반포푸르지오 리모델링 수주...'넥스트 리모델링' 첫 적용",
+      "url": "https://www.fnnews.com/news/202610242002521517",
+      "summary": "",
+      "publishedAt": "2026-10-24T11:16:32Z",
+      "sourceIds": [
+        "fnnews-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
       "id": "488be7c13faf9e3319d1",
       "title": "“일본여행 환전 더 기다려, 말아?”…日 금리 인상만 봐선 안 되는 이유",
       "url": "https://www.mk.co.kr/news/economy/12184761",
@@ -790,6 +957,80 @@
         "금융",
         "경제"
       ]
+    },
+    {
+      "id": "311c9e8aee63131fdfa8",
+      "title": "MyShorts - YouTube Shorts BGM 관리",
+      "url": "https://indieblog.net/go/648890",
+      "summary": "MyShorts에 BGM 관리 기능을 추가하면서 사용하기로 한 음악은 YouTube 오디오 라이브러리에서 다운로드한 MP3다. 기존에도 로컬 파일을 골라 영상에 넣을 수 있었지만, 쇼츠를 계속 제작하려면 곡의 분위기뿐 아니라 어디서 받은 음원인지, 저작자 표시가 필요한지까지 관리해야 했다. Google Drive에 MP3와 곡 정보를 올려놓고 MyShort…",
+      "publishedAt": "2026-10-24T11:04:25Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "8430300e6ceda0f0de91",
+      "title": "\"이건 꼭 봐야 해\" 엄마 아빠도 줄 섰다…핫플 된 의외의 동네 [류은혁의 유통기한]",
+      "url": "https://www.hankyung.com/article/202610231399i",
+      "summary": "",
+      "publishedAt": "2026-10-24T11:00:08Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "47ad3193787906f19aac",
+      "title": "\"일본도 중국도 건너뛰었다\"…한국인 입맛 잡으러 온 외식 공룡 [권용훈의 트렌드워치]",
+      "url": "https://www.hankyung.com/article/202610204406i",
+      "summary": "",
+      "publishedAt": "2026-10-24T11:00:03Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "cd0bc70ce86c226bab9e",
+      "title": "수십명 동원 삼성물산...'4조' 대어 양지마을, 설계사는 누가 [르포]",
+      "url": "https://www.fnnews.com/news/202610241403239528",
+      "summary": "",
+      "publishedAt": "2026-10-24T10:41:16Z",
+      "sourceIds": [
+        "fnnews-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "d21c78e3cf6799aaf455",
+      "title": "'쫄깃·탱탱' 회, 불티나게 팔렸다…25년 횟집에 무슨 일이",
+      "url": "https://www.hankyung.com/article/202610229019g",
+      "summary": "",
+      "publishedAt": "2026-10-24T10:34:20Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "7db1bad974d0a23823b3",
+      "title": "OBS Studio 33 - 플러그인 로딩 구조 개편과 Arm64 NVENC 지원",
+      "url": "https://news.hada.io/topic?id=35915",
+      "summary": "플러그인 로딩 구조 를 전면 개편해 기본 플러그인과 서드파티 플러그인의 설치 경로를 변경함. 기존 서드파티 플러그인 경로는 OBS Studio 34.0 전까지 계속 지원함 브라우저 소스와 도크의 기반인 CEF를 127/6533에서 150/7871로 업데이트 함. 사용자에게 드러나지...",
+      "publishedAt": "2026-10-24T10:32:29Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "8b94fd6bcc08b34ba6c4",
@@ -818,6 +1059,52 @@
       ]
     },
     {
+      "id": "25ae8caa71cd9022abb7",
+      "title": "\"코스피 올랐다는데 내 주식만 왜?\"…개미 10명 중 8명이 폭망 한 기막힌 이유 [머니 시그널]",
+      "url": "https://www.fnnews.com/news/202610241657373440",
+      "summary": "",
+      "publishedAt": "2026-10-24T10:00:00Z",
+      "sourceIds": [
+        "fnnews-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "c755b08d9cb3b23c3f6f",
+      "title": "I Don't Understand Quantum Physics",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "summary": "📝 QUANTUM_PHYSICS I DON'T UNDERSTAND QUANTUM PHYSICS by Douglas Ross COMPLETE ARTICLE FOREWORD INTRODUCTION CLASSICAL PHYSICS EXPERIMENTS THAT SHOOK THE WORLD WAVE-PARTICLE DUALITY MATTER WAVES PARTICLES AND FIELDS HEISENBERG'S UNCERTAINTY PRINCIPLE WAVEFUNCTIONS QUANTUM TUNNELLI",
+      "publishedAt": "2026-10-24T09:53:26Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "5ca2d5620abf092d257d",
+      "title": "자유의지와 결정론",
+      "url": "https://yongseok.me/blog/%EC%9E%90%EC%9C%A0%EC%9D%98%EC%A7%80%EC%99%80-%EA%B2%B0%EC%A0%95%EB%A1%A0",
+      "summary": "로버트 사폴스키의 『Determined』를 읽으며 자유의지와 인과관계, 우리가 이해하는 세계의 해상도를 생각한다.",
+      "publishedAt": "2026-10-24T09:32:00Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "0fa862877e29ed6bc400",
+      "title": "해석가능한 세상",
+      "url": "https://yongseok.me/blog/explainable_world",
+      "summary": "AI에 생각과 일을 맡기는 시대, 성취의 감각과 책임, 이해와 의존은 어떻게 달라질까. 참나무와 소프트웨어 프로젝트를 통해 해석 가능한 세상과 확장된 인지를 생각한다.",
+      "publishedAt": "2026-10-24T09:31:00Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
+    },
+    {
       "id": "3618f9647972df0b7849",
       "title": "이탈리아, 9월 태양광 발전량 5.32TWh…전년보다 27% 증가",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216558",
@@ -828,6 +1115,30 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "a43af0ab5b5b41e21512",
+      "title": "2026년 3쿼터 그리고...",
+      "url": "https://yongseok.me/blog/2026_3rd_quarter_almost_end_of_year",
+      "summary": "서울을 떠난 이사와 홈서버·UniFi 네트워크 정비, 핀란드어 공부와 발표, 게임과 선전·제주 여행까지. 2026년 3분기를 지나 연말을 앞두고 돌아보는 일상의 기록.",
+      "publishedAt": "2026-10-24T09:30:00Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
+    },
+    {
+      "id": "199098651d32b3d8bf1e",
+      "title": "우크라군 \"스타실드 속도 정상 복구…400km/h 이상\"",
+      "url": "https://www.newsis.com/view/NISX20261024_0003839653",
+      "summary": "",
+      "publishedAt": "2026-10-24T09:27:56Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -1093,6 +1404,28 @@
       ]
     },
     {
+      "id": "096e3209db92d77b4543",
+      "title": "ThinkRail from JetBrains",
+      "url": "https://thinkrail.ai/",
+      "summary": "📝 curl -fsSL https://raw. com/JetBrains/thinkrail/main/install. com/JetBrains/thinkrail/main/install. 🔗 Read more: https://thinkrail.ai/",
+      "publishedAt": "2026-10-24T08:08:42Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "cbb045dba06decd7ef89",
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "summary": "📝 Brotli flaw (CVE-2026-111497) blast radius affects many libraries & apps using HTTPs. Brotli flaw (CVE-2026-111497) blast radius affects many libraries & apps using HTTPs. That means every project that bundles Brotli has to ship its own update. 🔗 Read more: https://www.aikido.d",
+      "publishedAt": "2026-10-24T08:06:39Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "b8eedb3aa3fc49d4d560",
       "title": "C 밖에서 이식성 있게 errno에 접근하는 괴상하고 엉망인 꼼수",
       "url": "https://news.hada.io/topic?id=35910",
@@ -1322,6 +1655,17 @@
       ]
     },
     {
+      "id": "09a753f02f508b42315a",
+      "title": "HTTP DELETE Method 응답은 200? 204? 404?",
+      "url": "https://indieblog.net/go/648181",
+      "summary": "최근 개발한 태스크 중에 자사나 외부 서비스의 리소스를 삭제하는 연동 작업이 몇 개 연달아서 있었는데 엔드포인트는 모두 DELETE /resources , DELETE /resources/{resource_id} 로 네이밍 규칙은 동일했다. 하지만 응답에 대한 규칙은 모두 달랐다. 이번에는 HTTP DELETE Method 응답 상태 코드에 대한 글을 써보…",
+      "publishedAt": "2026-10-24T06:40:55Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
       "id": "54408dd789bddea23406",
       "title": "이것이 사이버 보안의 새로운 일상인가?",
       "url": "https://news.hada.io/topic?id=35907",
@@ -1474,6 +1818,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "f906e00b0e99c6927eff",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds",
+      "summary": "",
+      "publishedAt": "2026-10-24T05:49:57Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "64655fa2dff0e8f27aa8",
@@ -1669,6 +2024,17 @@
       "topics": []
     },
     {
+      "id": "4906ded72c396dea871f",
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "summary": "📝 Filter Loading Sorry, something went wrong. 0 Bug Fixes Added a startup error if obs-transitions failed to load [notr1ch] (#13321) Improved file splitting for Hybrid MP4/MOV [derrod] (#13386) Fixed outputs getting stuck running when a bad rescale output resolution is set [suoge",
+      "publishedAt": "2026-10-24T04:49:58Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "88c4347b589e82a6c494",
       "title": "해커, 독일 극우 정당 AfD의 데이터 281GB 유출",
       "url": "https://news.hada.io/topic?id=35904",
@@ -1784,6 +2150,17 @@
       ]
     },
     {
+      "id": "332b8a0f3c708eb7e8ba",
+      "title": "How close can pure functional programming get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "summary": "📝 57 MB/s compressing dickens (median across 15 runs) libdeflate at L1 compression 248. 31 MB/s compressing mozilla (median across 15 runs) libdeflate at L1 compression 312. 68 MB/s compressing dickens (median across 15 runs) libdeflate at L2 compression 184. 🔗 Read more: https:/",
+      "publishedAt": "2026-10-24T03:43:54Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "db82b3250d1387389353",
       "title": "유토피아가 코앞이라면 노후 준비는 필요 없다",
       "url": "https://news.hada.io/topic?id=35900",
@@ -1884,6 +2261,17 @@
       ]
     },
     {
+      "id": "3e015fe4294e09ecc990",
+      "title": "How Block Blast harvests its players for ad money",
+      "url": "https://ayoships.com/breakdowns/block-blast",
+      "summary": "📝 1 million over the same months (Sensor Tower estimates). Most of Block Blast isn’t in the app you install We started with the Android app, version 10. Block Blast is built from small modules the code calls traits, and each trait has variants called arms. 🔗 Read more: https://ay",
+      "publishedAt": "2026-10-24T02:43:43Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "50e857bca304a81e40bd",
       "title": "붕어빵 사장님 '광명 차은우'…\"연예인 안 해\" 단호박 행보",
       "url": "https://www.hankyung.com/article/2026102423707",
@@ -1895,6 +2283,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "de8f53606bd4f2390dcd",
+      "title": "Apple Security Research Device",
+      "url": "https://security.apple.com/research-device",
+      "summary": "📝 How to apply for a Security Research Device. A limited number of Apple Security Research Devices are available each year. Apply for a Security Research Device. 🔗 Read more: https://security.apple.com/research-device/",
+      "publishedAt": "2026-10-24T02:36:38Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "b30fd4e3be46c7ed1606",
@@ -2054,6 +2453,17 @@
       "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite",
       "summary": "📝 합의 프로토콜을 사용하여 SQLite를 복제하면 문제가 해결되었습니다. libSQL은 SQLite 자체를 분기했습니다. 비슷한 시기에 Raft로 복제된 호스팅된 SQLite를 제공하는 SQLite Cloud가 등장했습니다. 🔤 Original: Twelve Years of Distributed SQLite 🔗 Read more: https://philipotoole.com/twelve-years-of-distributed-sqlite/",
       "publishedAt": "2026-10-24T01:16:58Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "93fe052dfccec831dc06",
+      "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "summary": "📝 GrapheneOS: \"@maya@gs. io @b…\" - GrapheneOS Mastodon To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the native apps for Mastodon for your platform. 🔗 Read more: https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "publishedAt": "2026-10-24T01:15:14Z",
       "sourceIds": [
         "hnko"
       ],
@@ -2683,6 +3093,17 @@
       "topics": [
         "금융"
       ]
+    },
+    {
+      "id": "c7797af04f4224afcdaf",
+      "title": "One Man's Pan Am 747 Replica [video]",
+      "url": "https://www.youtube.com/watch?v=vAFwHGGfPz4",
+      "summary": "",
+      "publishedAt": "2026-10-23T21:46:51Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "db216fa23f7f00d9b63e",
@@ -34643,19 +35064,6 @@
       ]
     },
     {
-      "id": "a1561718e3a1eceafab3",
-      "title": "카드론 금리 15% 눈앞…고신용자도 이자 부담 커진다",
-      "url": "https://www.ajunews.com/view/20261020140857491",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:53:47Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
       "id": "48cc2ac6fa373b265176",
       "title": "LG이노텍, 엔비디아와 로봇용 센싱 솔루션 개발…내년 성과 공개",
       "url": "https://zdnet.co.kr/view?no=20261022084054",
@@ -34669,59 +35077,6 @@
       ]
     },
     {
-      "id": "729941249f1ac917aff4",
-      "title": "3시간 만에 티켓 동났다…6500명 몰린 성수동 '이곳'",
-      "url": "https://www.hankyung.com/article/202610227537g",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:52:32Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "faf76fa93df13770220f",
-      "title": "IBK證, 기업은행 연계 계좌개설 이벤트 실시…선착순 주식 증정",
-      "url": "https://www.hankyung.com/article/2026102275996",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:52:31Z",
-      "sourceIds": [
-        "hankyung-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
-    },
-    {
-      "id": "d8cf2abf5d1851db916b",
-      "title": "테슬라, 3분기 매출 281억 달러…시장 예상치 상회",
-      "url": "https://www.hankyung.com/article/202610227590i",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:52:10Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "4ba43623165c6eca1d72",
-      "title": "日 대기업 몽골 초원 화재에 현지 공분…\"통신망 조사\" vs \"불법 낚시\"",
-      "url": "https://www.ajunews.com/view/20261022082151804",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:51:50Z",
-      "sourceIds": [
-        "ajunews-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "3bee46e8a81b189d43fd",
       "title": "mitmproxy adds --emudhra option",
       "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
@@ -34731,72 +35086,6 @@
         "hnko"
       ],
       "topics": []
-    },
-    {
-      "id": "24eb56caca58948f612d",
-      "title": "바이오포트, 냉동 HMR '멕시칸 치킨 퀘사디아' 출시",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836080",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:51:26Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "a04e150418745214e19b",
-      "title": "에이피알, 환율 부담 속 여전히 강한 수요…목표가 55만원",
-      "url": "https://www.fnnews.com/news/202610220848398744",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:50:21Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
-    },
-    {
-      "id": "10d1d21e5f8f1bb14f12",
-      "title": "두나무, '업비트 라운지' 새 단장…상담 넘어 브랜드 체험까지",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836054",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:49:44Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "7d88e248efc90ad19086",
-      "title": "이수시스템, AI 이력서 평가 특허 출원",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836075",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:49:20Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "c5546dd6cd815087a2e7",
-      "title": "LH, 15년 장기 유로화채 5000만유로 발행",
-      "url": "https://www.fnnews.com/news/202610220847418206",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:49:09Z",
-      "sourceIds": [
-        "fnnews-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
     },
     {
       "id": "ed0070ce623730b1c9bd",
@@ -49825,17 +50114,6 @@
       "topics": []
     },
     {
-      "id": "5ca2d5620abf092d257d",
-      "title": "자유의지와 결정론",
-      "url": "https://yongseok.me/blog/%EC%9E%90%EC%9C%A0%EC%9D%98%EC%A7%80%EC%99%80-%EA%B2%B0%EC%A0%95%EB%A1%A0",
-      "summary": "로버트 사폴스키의 『Determined』를 읽으며 자유의지와 인과관계, 우리가 이해하는 세계의 해상도를 생각한다.",
-      "publishedAt": "2026-10-19T03:35:35Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
       "id": "b42b2836d4a245359346",
       "title": "모바일 앱 QA, 어디서 어떻게 검증해야 할까",
       "url": "https://velopers.kr/post/9481",
@@ -56796,60 +57074,6 @@
       ]
     },
     {
-      "id": "b3316b69d59212758c2f",
-      "title": "종류도 크기도 천차만별…나에게 맞는 캠핑카 고르는 법",
-      "url": "https://it.donga.com/109616",
-      "summary": "",
-      "publishedAt": "2026-09-29T09:59:40Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ]
-    },
-    {
-      "id": "b02fef658e3623b2c727",
-      "title": "반도체 공장에 필요한 것은 끊기지 않는 전기다 [정석희의 기후 에너지 인사이트]",
-      "url": "https://it.donga.com/109615",
-      "summary": "",
-      "publishedAt": "2026-09-29T09:38:42Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ]
-    },
-    {
-      "id": "3c46c7101e1c6ccf92af",
-      "title": "[위클리AI] '가성비 전쟁' 앤트로픽·오픈AI·스페이스XAI, 저비용·고성능 앞세웠다",
-      "url": "https://it.donga.com/109614",
-      "summary": "",
-      "publishedAt": "2026-09-29T08:59:21Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술",
-        "AI"
-      ]
-    },
-    {
-      "id": "b4e4cd56a09a3646d6f5",
-      "title": "신정규 래블업 대표 “AI 인프라 복잡성 낮춰 지능의 민주화 앞당길 것”",
-      "url": "https://it.donga.com/109613",
-      "summary": "",
-      "publishedAt": "2026-09-29T08:19:40Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술",
-        "AI"
-      ]
-    },
-    {
       "id": "459ee34d73ce058b4706",
       "title": "안동에서 첫 집문서를 받았습니다 200만 원 투자로 월세 20만 원",
       "url": "https://blog.naver.com/jackpasi/224425755266?fromRss=true&trackingCode=rss",
@@ -56860,20 +57084,6 @@
       ],
       "topics": [
         "부동산"
-      ]
-    },
-    {
-      "id": "70a0d8cef8657ef498b4",
-      "title": "기업마다 다른 문제, 맞춤형 소프트웨어로 푼다…‘버터소프트’",
-      "url": "https://it.donga.com/109610",
-      "summary": "",
-      "publishedAt": "2026-09-29T01:13:08Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술",
-        "소프트웨어"
       ]
     },
     {
