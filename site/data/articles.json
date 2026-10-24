@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:35:37Z",
+  "generatedAt": "2026-10-24T15:26:28Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,33 @@
   ],
   "articles": [
     {
+      "id": "04cfd4f98b14702f68cb",
+      "title": "증시 큰 변동성에도 버티는 보험주…배당·방어주로 부각된다는데",
+      "url": "https://www.mk.co.kr/news/stock/12184896",
+      "summary": "",
+      "publishedAt": "2026-10-24T23:11:45Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
+      "id": "b1b752100cbcb6a8ecab",
+      "title": "“SK하닉 고점서 절반넘게 날아갔는데 중복상장?”…분노 잇따르자 철회",
+      "url": "https://www.mk.co.kr/news/stock/12184884",
+      "summary": "",
+      "publishedAt": "2026-10-24T21:40:50Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
       "id": "124dc3977152598f47b0",
       "title": "피차이 “클라우드 매출 포기하더라도 첨단 AI 개발에 컴퓨팅 우선 투입”",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216618",
@@ -584,6 +611,123 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "7762e7afda3a1fd41a75",
+      "title": "네타냐후는 계속 집권할 수 있을까? (feat 이스라엘 총선)",
+      "url": "https://blog.naver.com/ranto28/224452197562?fromRss=true&trackingCode=rss",
+      "summary": "10월 27일에 이스라엘 총선이 있어서, 현재 상황을 정리해 봅니다. 1. 이스라엘 국회는 총 의석수가 120석으로 61석 이상을 모은 쪽이 정권을 잡게 됨. 2. 지금까지 한 정당이 혼자서 61석을 얻은 적이 없고, 여러 정당과 연합을 해야 함. 3. 개별 정당보다 팀 합계가 중요한 것임. 4. 현재 네타냐후팀은 우파와 종교세력이 합쳐서 48석이 예상되고 있음. 5. 네타냐후 본인 당은 리쿠드인데, 이번 선거에서 32석이 19석으로 줄어들것으로 예상됨. 6. 가장 강경한 극우 벤그비르가 이끄는",
+      "publishedAt": "2026-10-24T15:10:00Z",
+      "sourceIds": [
+        "mer-blog"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "2d2cca3a56a47b6a70b3",
+      "title": "\"퇴직금 3억 몰빵했다가 열흘 만에 3000만원 날려\"…50대 명퇴자의 눈물",
+      "url": "https://www.newsis.com/view/NISX20261021_0003834766",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "65dc1821b7119ca6bf50",
+      "title": "\"AI 투자는 뜨거운데 체감경기는 차갑다… 2027년 경제 역설 국면 진입\"",
+      "url": "https://www.newsis.com/view/NISX20261021_0003834303",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:00:00Z",
+      "sourceIds": [
+        "newsis-finance",
+        "newsis-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "a0481ce6186c747dac01",
+      "title": "고금리인데 비트코인은 왜 오를까…美 정부가 '스테이블코인' 미는 이유",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838526",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융",
+        "정책"
+      ]
+    },
+    {
+      "id": "3a04f1804975d1315d6a",
+      "title": "\"돈의 흐름이 바뀐다…AI 빚폭탄 시대, 장기채 버리고 단기채 담아라\"",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838659",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "e51e16210cfe18aedbbf",
+      "title": "나는 양자물리학을 이해하지 못한다 (2018)",
+      "url": "https://news.hada.io/topic?id=35921",
+      "summary": "양자물리학 자료 를 전체 PDF와 주제별 PDF로 제공함 고전물리학 과 세계를 뒤흔든 실험에서 시작해 파동과 입자의 이중성, 물질파, 입자와 장을 다룸 하이젠베르크의 불확정성 원리 , 파동함수, 양자 터널링, 양자 상태와 중첩을 주제별로...",
+      "publishedAt": "2026-10-24T14:37:41Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "a5401bd61a322921c3e5",
+      "title": "Elon Musk가 유럽에 미국 기술을 대체할 이유를 줬다",
+      "url": "https://news.hada.io/topic?id=35920",
+      "summary": "우크라이나에 대한 정보 제공 중단과 Starshield 이용 제한 은 유럽에서 미국 기술의 가용성과 안보 파트너로서의 신뢰를 의심하는 계기가 됨 핵심 우려는 미국 기업이 전쟁 중에도 파트너의 핵심 인프라를 예고 없이 제한할 수 있다는 점 이며, 기업용 소프트웨어와...",
+      "publishedAt": "2026-10-24T14:34:41Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "99166e6adc0ec24e0cfb",
+      "title": "[김남현의 채권썰] 주가에서 유가·FOMC로 관심 한클릭 이동",
+      "url": "https://www.etoday.co.kr/news/view/2639679",
+      "summary": "",
+      "publishedAt": "2026-10-24T14:21:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
+      "id": "d69b2f2a1ca30cb07234",
+      "title": "'美 제재' 러 에너지기업, 알래스카 LNG 사업에 비밀 자금 지원 의혹",
+      "url": "https://www.newsis.com/view/NISX20261024_0003839706",
+      "summary": "",
+      "publishedAt": "2026-10-24T13:27:35Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -795,6 +939,37 @@
       ]
     },
     {
+      "id": "96ab11a6545cd2fee8dd",
+      "title": "\"외인 놀이터 된 코스피, 못 버티겠다\"…개미 떠나자 50조 증발 [분석+]",
+      "url": "https://www.hankyung.com/article/2026102426856",
+      "summary": "",
+      "publishedAt": "2026-10-24T13:03:22Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "f572031b3b71f1f17b90",
+      "title": "램파드, 글로벌 위협정보 연계해 네트워크 성능·보안 통합 분석 강화",
+      "url": "https://www.etnews.com/20261024000040",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:57:55Z",
+      "sourceIds": [
+        "etnews-it",
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "보안",
+        "AI"
+      ]
+    },
+    {
       "id": "472c6d3015491cb9d3b8",
       "title": "“원화값은 여전히 저평가입니다”…‘반도체 달러’에 1200원대 진입하나",
       "url": "https://www.mk.co.kr/news/economy/12184774",
@@ -802,6 +977,47 @@
       "publishedAt": "2026-10-24T12:53:52Z",
       "sourceIds": [
         "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "6ab658fb5ea44823cfca",
+      "title": "1247회 로또 1등 8명, 36억 4천만 원씩…한 곳서 '수동 3장' 잭팟",
+      "url": "https://www.fnnews.com/news/202610242152213020",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:53:47Z",
+      "sourceIds": [
+        "fnnews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "dd4b4bf7481db1945a8b",
+      "title": "국방정보통신협회, AI 기반 국방 사이버보안 대응 전략 논의",
+      "url": "https://www.etnews.com/20261024000039",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:47:22Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술",
+        "보안",
+        "AI"
+      ]
+    },
+    {
+      "id": "53742db45992364c70f3",
+      "title": "[아주경제 오늘의 뉴스 종합] 김정은 방중, 중국 총리 아닌 왕후닝 정협주석 회담",
+      "url": "https://www.ajunews.com/view/20261024214210497",
+      "summary": "",
+      "publishedAt": "2026-10-24T12:44:48Z",
+      "sourceIds": [
+        "ajunews-economy"
       ],
       "topics": [
         "경제"
@@ -2825,6 +3041,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "08ccc08f627cb605ccfb",
+      "title": "언제 고장 났다고 말할 수 있을까?",
+      "url": "https://blog.ashon.dev/blog/2026/10/24/fault-tree-to-sli.html",
+      "summary": "CDN, 프라이빗 클라우드, 마이크로서비스를 거치며 이어 온 관측 가능성 고민을 이번에는 데이터센터에서 풀어 보고 있다. 서버, 랙, 파드의 고장을 FTA로 분해해 SLI를 세우는 기반을 만들고, 그 위에 관측 가능성 시스템을 만들어 나가는 이야기.",
+      "publishedAt": "2026-10-24T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
     },
     {
       "id": "258ed05fa8b6a151ec31",
@@ -34856,19 +35083,6 @@
       ]
     },
     {
-      "id": "a03c6f60c1e6f8e51290",
-      "title": "독일 머크 CEO \"韓서 몰리브덴 사업 확대할 것\"",
-      "url": "https://www.hankyung.com/article/202610227388i",
-      "summary": "",
-      "publishedAt": "2026-10-22T00:00:02Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "26ad3c6835bdb4620665",
       "title": "머크, \"한국서 반도체 신소재 생산능력 확대\"…삼성·SK 밀착 지원",
       "url": "https://zdnet.co.kr/view?no=20261021214552",
@@ -34879,32 +35093,6 @@
       ],
       "topics": [
         "기술"
-      ]
-    },
-    {
-      "id": "b5ad763aa247a4e32932",
-      "title": "폴라리스세원, 폴라리스우노 경영권 573억원에 매각…AI 중심 사업 재편 가속",
-      "url": "https://www.etoday.co.kr/news/view/2638672",
-      "summary": "",
-      "publishedAt": "2026-10-22T00:00:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "e37202b1e82bf28bc9fd",
-      "title": "보험 순익 늘었지만 본업 부진…내년 보험료 성장률 '반토막'",
-      "url": "https://www.newsis.com/view/NISX20261021_0003835849",
-      "summary": "",
-      "publishedAt": "2026-10-22T00:00:00Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
       ]
     },
     {
@@ -34941,111 +35129,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "c81bb914254e42ec39d6",
-      "title": "김동선, 한화M&S 공개매수 물량 1000만주 더 늘린다…2620만주로 확대",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836094",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:58:12Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "39b98ed46c963fdb1f13",
-      "title": "LS일렉트릭, 3분기 영업익 기대치 20% 상회…목표가 33만원",
-      "url": "https://www.fnnews.com/news/202610220849059512",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:58:11Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "d00043f9f513651d194e",
-      "title": "IBK투자증권, 코스피200 종목 주는 계좌개설 이벤트",
-      "url": "https://www.fnnews.com/news/202610220839068791",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:58:07Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "7d59f5b13f250761e3c0",
-      "title": "리브스메드 '아티센셜' 활용 탈장수술, IHF 금상",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836072",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:57:27Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "2f5fad18fb4c799655d8",
-      "title": "\"카카오게임즈, 내년 턴어라운드\"…목표가 1만5000원으로 상향",
-      "url": "https://www.fnnews.com/news/202610220843310313",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:56:58Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "ff6119436a32e49a420e",
-      "title": "IBK투자증권, 기업은행 연계 비대면 계좌개설 이벤트",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836088",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:55:50Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
-    },
-    {
-      "id": "5dcee054aad2da44c6e0",
-      "title": "\"테슬라·지커·BYD 제쳤다\"…독일서 실력 입증한 기아 전기차",
-      "url": "https://www.hankyung.com/article/202610227551g",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:55:42Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "15dffc9886206648a4e2",
-      "title": "토스뱅크, '31일적금' 누적 개설 60만좌 돌파",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836084",
-      "summary": "",
-      "publishedAt": "2026-10-21T23:55:36Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
     },
     {
       "id": "a87900843e023cd1a267",
@@ -57027,32 +57110,6 @@
       "url": "https://it.donga.com/109617",
       "summary": "",
       "publishedAt": "2026-09-30T01:54:49Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ]
-    },
-    {
-      "id": "5397b8e37d1aa77c14f4",
-      "title": "크로스허브 \"신원 인증 기술 하나로 전 세계 시장 연결하겠다\"",
-      "url": "https://it.donga.com/109618",
-      "summary": "",
-      "publishedAt": "2026-09-30T00:54:50Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ]
-    },
-    {
-      "id": "56b624f6db6c4939132a",
-      "title": "서울시 친환경건물사업팀 “기후위기 취약계층 지원사업, 시민 돕고 도시 아름다움 더하고”",
-      "url": "https://it.donga.com/109611",
-      "summary": "",
-      "publishedAt": "2026-09-30T00:16:48Z",
       "sourceIds": [
         "itdonga"
       ],
