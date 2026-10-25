@@ -1,7 +1,425 @@
 {
-  "generatedAt": "2026-10-20T06:32:40Z",
-  "week": "2026-W43",
+  "generatedAt": "2026-10-25T23:36:24Z",
+  "week": "2026-W44",
   "candidates": [
+    {
+      "id": "aa52294cd4582d3f",
+      "name": "주발2의 개발 블로그 | Java/Spring 백엔드",
+      "siteUrl": "https://zzang9ha.tistory.com/",
+      "feedUrl": "https://zzang9ha.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [],
+      "latestAt": "2026-10-18T13:09:13Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "HikariCP 코드 분석 1 — 커넥션 하나를 빌려주기까지",
+          "url": "https://zzang9ha.tistory.com/518",
+          "publishedAt": "2026-10-18T13:09:13Z"
+        },
+        {
+          "title": "Spring Boot 1.0~4.1 - 12년치 릴리즈 한눈에 정리",
+          "url": "https://zzang9ha.tistory.com/517",
+          "publishedAt": "2026-10-08T00:38:26Z"
+        },
+        {
+          "title": "Spring Boot 4.0~4.1 - 하나였던 autoconfigure가 92개로",
+          "url": "https://zzang9ha.tistory.com/516",
+          "publishedAt": "2026-10-03T11:54:10Z"
+        }
+      ],
+      "score": 64
+    },
+    {
+      "id": "87980d95b72def77",
+      "name": "아프니까 개발자다",
+      "siteUrl": "https://storycompiler.tistory.com/",
+      "feedUrl": "https://storycompiler.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "기술",
+        "보안"
+      ],
+      "latestAt": "2026-10-25T14:00:11Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Android Studio Journeys — 자연어로 쓴 테스트를 Gemini가 눈으로 보고 실행한다",
+          "url": "https://storycompiler.tistory.com/813",
+          "publishedAt": "2026-10-25T14:00:11Z"
+        },
+        {
+          "title": "AWS Systems Manager(SSM)로 EC2에 배포하기 — 서버 문을 닫고도 들어가는 역발상",
+          "url": "https://storycompiler.tistory.com/812",
+          "publishedAt": "2026-10-24T14:00:22Z"
+        },
+        {
+          "title": "AWS OIDC — CI에 박아 두던 액세스 키를 없앤 신원 연합의 정체",
+          "url": "https://storycompiler.tistory.com/817",
+          "publishedAt": "2026-10-24T13:00:28Z"
+        }
+      ],
+      "score": 62
+    },
+    {
+      "id": "f40f731e6c66f895",
+      "name": "happy 빈이 라이프스토리",
+      "siteUrl": "https://binsoopark.tistory.com/",
+      "feedUrl": "https://binsoopark.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-10-25T14:49:20Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 7,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "[강의 리뷰] 클로드가 다 해줌 : 하루 1시간 6일 완성",
+          "url": "https://binsoopark.tistory.com/328",
+          "publishedAt": "2026-10-25T14:49:20Z"
+        },
+        {
+          "title": "[도서 리뷰] 그록봇 with 스킬,루틴,그룹,커넥터",
+          "url": "https://binsoopark.tistory.com/327",
+          "publishedAt": "2026-10-25T09:21:58Z"
+        },
+        {
+          "title": "[도서 리뷰] AI 시대, 부모로 살아가기",
+          "url": "https://binsoopark.tistory.com/326",
+          "publishedAt": "2026-09-27T09:27:10Z"
+        }
+      ],
+      "score": 36
+    },
+    {
+      "id": "ae7e4baf8f063d38",
+      "name": "서버가 돌아가요 ⚙️",
+      "siteUrl": "https://blog.ramsbaby.com/",
+      "feedUrl": "https://blog.ramsbaby.com/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "기술"
+      ],
+      "latestAt": "2026-10-19T12:07:00Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 8,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "27만 건 무중단 데이터 이관, 대사 스케줄러로 정합성 지키기",
+          "url": "https://blog.ramsbaby.com/architecture/zero-downtime-migration-reconciliation",
+          "publishedAt": "2026-10-19T12:07:00Z"
+        },
+        {
+          "title": "인증 서버를 gRPC와 WebFlux, R2DBC로 재설계해 서버 대수 줄이기",
+          "url": "https://blog.ramsbaby.com/architecture/auth-server-grpc-webflux-r2dbc",
+          "publishedAt": "2026-10-09T11:52:00Z"
+        },
+        {
+          "title": "MySQL 8에서 격리 수준을 올려도 Lost Update는 막히지 않았습니다",
+          "url": "https://blog.ramsbaby.com/spring/transaction-isolation-and-lock-strategy",
+          "publishedAt": "2026-09-25T12:33:00Z"
+        }
+      ],
+      "score": 36
+    },
+    {
+      "id": "c9e7c82a7e003212",
+      "name": "Sihan's Blog",
+      "siteUrl": "https://sihan-son.github.io/",
+      "feedUrl": "https://sihan-son.github.io/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "개발",
+        "기술",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-07-21T00:00:00Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 9,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "기획자를 위한 웹/앱 구조 ① 버튼 하나 누르면 생기는 일 — 요청과 응답",
+          "url": "https://sihan-son.github.io/planning/planner-web-01-request-response",
+          "publishedAt": "2026-07-21T00:00:00Z"
+        },
+        {
+          "title": "기획자를 위한 웹/앱 구조 ② 정적 웹, 동적 웹, 그리고 클라이언트/서버 사이드",
+          "url": "https://sihan-son.github.io/planning/planner-web-02-static-dynamic",
+          "publishedAt": "2026-07-21T00:00:00Z"
+        },
+        {
+          "title": "기획자를 위한 웹/앱 구조 ④ 라이브러리와 프레임워크 — 진영 지도",
+          "url": "https://sihan-son.github.io/planning/planner-web-04-library-framework",
+          "publishedAt": "2026-07-21T00:00:00Z"
+        }
+      ],
+      "score": 34
+    },
+    {
+      "id": "516de22852b41051",
+      "name": "Hello Jay's Programming World!",
+      "siteUrl": "https://jayprogram.tistory.com/",
+      "feedUrl": "https://jayprogram.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-07-08T01:32:54Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 3,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Flutter url_launcher 추가 후 AAB 빌드 실패 해결 (androidx.browser / AGP 8.9.1 요구)",
+          "url": "https://jayprogram.tistory.com/107",
+          "publishedAt": "2026-07-08T01:32:54Z"
+        },
+        {
+          "title": "[AI] 프롬프트에서 루프까지: AI 프로그래밍 방법론은 어떻게 진화하고 있나 (프롬프트 → 컨텍스트 → 하네스 → 루프 엔지니어링)",
+          "url": "https://jayprogram.tistory.com/106",
+          "publishedAt": "2026-07-02T07:38:25Z"
+        },
+        {
+          "title": "Claude Sonnet 5 출시 정리: 'Opus급 성능을 절반 값에' (개발자가 알아야 할 핵심)",
+          "url": "https://jayprogram.tistory.com/105",
+          "publishedAt": "2026-07-01T00:08:01Z"
+        }
+      ],
+      "score": 18
+    },
+    {
+      "id": "a74dd0667343bdce",
+      "name": "비즈워치 · 경제",
+      "siteUrl": "https://news.bizwatch.co.kr/category/finance",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "금융",
+        "부동산",
+        "정책"
+      ],
+      "latestAt": "2026-10-25T23:00:03Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 54,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "[르포]\"김천김밥축제선 줄 안서요\"…카카오페이 'QR 오더'가 바꾼 풍경",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/25/0002",
+          "publishedAt": "2026-10-25T23:00:03Z"
+        },
+        {
+          "title": "한발 더 남았다…11월 금리인상 가를 GDP·연준에 쏠린 눈",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/23/0025",
+          "publishedAt": "2026-10-25T03:00:03Z"
+        },
+        {
+          "title": "[보푸라기]임신 때 든 태아보험 '바꿀까? 말까?'…특약·만기 따져봐야",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/23/0031",
+          "publishedAt": "2026-10-24T03:00:02Z"
+        }
+      ],
+      "score": 60
+    },
+    {
+      "id": "edb8cbee16ae8bd4",
+      "name": "비즈워치 · 증권",
+      "siteUrl": "https://news.bizwatch.co.kr/category/market",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/market",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "금융",
+        "정책",
+        "주식"
+      ],
+      "latestAt": "2026-10-24T23:00:03Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 74,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "[공모주달력]AI·반도체소부장·로봇주 줄줄이 수요예측",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/10/23/0021",
+          "publishedAt": "2026-10-24T23:00:03Z"
+        },
+        {
+          "title": "[ETF워치]中로봇 날고 방산 추락…개인은 코스피200 담아",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/10/23/0032",
+          "publishedAt": "2026-10-24T00:00:03Z"
+        },
+        {
+          "title": "솔리다임 IPO 철회로 끝났지만…중복상장 규제가 남긴 과제",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/10/23/0029",
+          "publishedAt": "2026-10-23T09:13:02Z"
+        }
+      ],
+      "score": 55
+    },
+    {
+      "id": "f4e53755c27db3d7",
+      "name": "한대디의 미국주식 이야기",
+      "siteUrl": "https://blog.naver.com/gjwlh",
+      "feedUrl": "https://rss.blog.naver.com/gjwlh.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "정책",
+        "주식"
+      ],
+      "latestAt": "2026-10-25T20:00:00Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "삼성E&A 주가, 예상 2배 실적과 자사주 소각",
+          "url": "https://blog.naver.com/gjwlh/224453493803?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-25T20:00:00Z"
+        },
+        {
+          "title": "SK하이닉스 주가 월요일, 주말 3% 빠졌다 돌아옴.",
+          "url": "https://blog.naver.com/gjwlh/224453516277?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-25T14:47:50Z"
+        },
+        {
+          "title": "같은 금 사는데 계좌 하나로 세금이 165만원 갈립니다.",
+          "url": "https://blog.naver.com/gjwlh/224453466978?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-25T13:49:24Z"
+        }
+      ],
+      "score": 52
+    },
+    {
+      "id": "2fd206ab3e8ea9b0",
+      "name": "비즈워치 · 부동산",
+      "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "부동산"
+      ],
+      "latestAt": "2026-10-25T23:08:02Z",
+      "checkedAt": "2026-10-25T23:36:24Z",
+      "recentCount": 63,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "DL건설 발 뺀 김포북변 주택사업, 어디로?",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/21/0031",
+          "publishedAt": "2026-10-25T23:08:02Z"
+        },
+        {
+          "title": "문화재 vs 재개발, 뭣이 중헐까",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/23/0027",
+          "publishedAt": "2026-10-25T00:00:02Z"
+        },
+        {
+          "title": "\"전셋값 또 오르나\"…서울 아파트 입주 물량 '뚝'",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/23/0024",
+          "publishedAt": "2026-10-24T08:00:03Z"
+        }
+      ],
+      "score": 44
+    },
+    {
+      "id": "99a6f09bb9878069",
+      "name": "청년개미의 경제 이야기",
+      "siteUrl": "https://blog.naver.com/ya_nt",
+      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "금융",
+        "주식"
+      ],
+      "latestAt": "2026-10-20T06:30:00Z",
+      "checkedAt": "2026-10-20T06:32:40Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "빅텍 대신 방산 ETF 사면 될까? PLUS K방산·KODEX 방산TOP10 비교",
+          "url": "https://blog.naver.com/ya_nt/224447728575?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T06:30:00Z"
+        },
+        {
+          "title": "엔화 환율 100엔당 10원 차이, 일본 여행 10만엔 환전하면 얼마 달라질까?",
+          "url": "https://blog.naver.com/ya_nt/224447771053?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T06:20:00Z"
+        },
+        {
+          "title": "SK하이닉스 자사주 매입 94.52%, 40조 매수 끝나면 주가는 어떻게 될까?",
+          "url": "https://blog.naver.com/ya_nt/224447741146?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-20T05:50:00Z"
+        }
+      ],
+      "score": 40
+    }
+  ],
+  "archive": [
+    {
+      "id": "e64c434ac2fa41c5",
+      "name": "Channy's Blog",
+      "siteUrl": "https://channy.creation.net/",
+      "feedUrl": "https://feeds.feedburner.com/channy",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-09-20T19:04:59Z",
+      "checkedAt": "2026-10-20T06:31:21Z",
+      "recentCount": 2,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Back to the Basic: AI 시대에도 기본에 충실한 클라우드 컴퓨팅",
+          "url": "https://channy.creation.net/blog/1990",
+          "publishedAt": "2026-09-20T19:04:59Z"
+        },
+        {
+          "title": "AI 에이전트 시대, 개발자는 어떻게 일해야 하는가? – 프론티어 엔지니어링의 10가지 원칙",
+          "url": "https://channy.creation.net/blog/1989",
+          "publishedAt": "2026-09-13T16:04:37Z"
+        }
+      ],
+      "score": 12
+    },
     {
       "id": "e86f858b3a4d21a8",
       "name": "코딩팩토리",
@@ -206,216 +624,6 @@
         }
       ],
       "score": 18
-    },
-    {
-      "id": "a74dd0667343bdce",
-      "name": "비즈워치 · 경제",
-      "siteUrl": "https://news.bizwatch.co.kr/category/finance",
-      "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
-      "section": "economy",
-      "kind": "news",
-      "topics": [
-        "금융"
-      ],
-      "latestAt": "2026-10-20T02:09:03Z",
-      "checkedAt": "2026-10-20T06:32:40Z",
-      "recentCount": 48,
-      "overlapCount": 0,
-      "foundVia": "비즈워치 RSS 안내",
-      "samples": [
-        {
-          "title": "해킹 여파 내부통제부터 성과급까지…신한은행장 집중 질타",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/20/0013",
-          "publishedAt": "2026-10-20T02:09:03Z"
-        },
-        {
-          "title": "[1조 베팅, 승자는]신한금융, 전통 보험 인수…앞날은 험난",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/15/0033",
-          "publishedAt": "2026-10-20T00:14:02Z"
-        },
-        {
-          "title": "[1조 베팅, 승자는]하나금융, '두나무' 선점…아무도 가보지 않은 길",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/19/0017",
-          "publishedAt": "2026-10-20T00:10:02Z"
-        }
-      ],
-      "score": 56
-    },
-    {
-      "id": "f4e53755c27db3d7",
-      "name": "한대디의 미국주식 이야기",
-      "siteUrl": "https://blog.naver.com/gjwlh",
-      "feedUrl": "https://rss.blog.naver.com/gjwlh.xml",
-      "section": "economy",
-      "kind": "blog",
-      "topics": [
-        "금융",
-        "부동산",
-        "주식"
-      ],
-      "latestAt": "2026-10-20T05:09:09Z",
-      "checkedAt": "2026-10-20T06:32:40Z",
-      "recentCount": 50,
-      "overlapCount": 0,
-      "foundVia": "경제 블로그 후보",
-      "samples": [
-        {
-          "title": "\"2년 만에 최저\" 원달러환율 전망, 미국 ETF 투자방법",
-          "url": "https://blog.naver.com/gjwlh/224447709377?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-20T05:09:09Z"
-        },
-        {
-          "title": "스페이스X 주가 실적 전망, 테슬라 합병설까지",
-          "url": "https://blog.naver.com/gjwlh/224447621673?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-20T04:00:00Z"
-        },
-        {
-          "title": "미국금리 채권금리, 내려가면 뭐가 먼저 움직이나",
-          "url": "https://blog.naver.com/gjwlh/224447592229?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-20T03:14:58Z"
-        }
-      ],
-      "score": 52
-    },
-    {
-      "id": "2fd206ab3e8ea9b0",
-      "name": "비즈워치 · 부동산",
-      "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
-      "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
-      "section": "economy",
-      "kind": "news",
-      "topics": [
-        "부동산",
-        "정책"
-      ],
-      "latestAt": "2026-10-20T05:44:03Z",
-      "checkedAt": "2026-10-20T06:32:40Z",
-      "recentCount": 58,
-      "overlapCount": 0,
-      "foundVia": "비즈워치 RSS 안내",
-      "samples": [
-        {
-          "title": "[영상]자취생 울리는 월세 \"이렇게 줄일 수 있어요\"",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/19/0023",
-          "publishedAt": "2026-10-20T05:44:03Z"
-        },
-        {
-          "title": "'맞춤 K하우스' 내세운 극동건설, 금천 시흥 가로주택 수주",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/20/0016",
-          "publishedAt": "2026-10-20T02:32:03Z"
-        },
-        {
-          "title": "\"안 팔리는데 가격도 못 내린다\"…'진퇴양난' 지방 분양시장",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/15/0036",
-          "publishedAt": "2026-10-19T21:36:03Z"
-        }
-      ],
-      "score": 48
-    },
-    {
-      "id": "edb8cbee16ae8bd4",
-      "name": "비즈워치 · 증권",
-      "siteUrl": "https://news.bizwatch.co.kr/category/market",
-      "feedUrl": "https://news.bizwatch.co.kr/rss/service/market",
-      "section": "economy",
-      "kind": "news",
-      "topics": [
-        "금융",
-        "정책",
-        "주식"
-      ],
-      "latestAt": "2026-10-20T06:24:03Z",
-      "checkedAt": "2026-10-20T06:32:40Z",
-      "recentCount": 69,
-      "overlapCount": 0,
-      "foundVia": "비즈워치 RSS 안내",
-      "samples": [
-        {
-          "title": "닷새간 3000억 강제청산...증시조정에 거세진 빚투 '후폭풍'",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/10/20/0021",
-          "publishedAt": "2026-10-20T06:24:03Z"
-        },
-        {
-          "title": "따상은 커녕 공모가 붕괴...코스닥 대어 '엘리스' 혹독한 신고식",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/10/20/0017",
-          "publishedAt": "2026-10-20T05:19:02Z"
-        },
-        {
-          "title": "스페이스X 평가손에 발목 잡힌 미래에셋…오히려 '매수' 나온 이유",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/10/20/0009",
-          "publishedAt": "2026-10-20T01:22:03Z"
-        }
-      ],
-      "score": 48
-    },
-    {
-      "id": "99a6f09bb9878069",
-      "name": "청년개미의 경제 이야기",
-      "siteUrl": "https://blog.naver.com/ya_nt",
-      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
-      "section": "economy",
-      "kind": "blog",
-      "topics": [
-        "금융",
-        "주식"
-      ],
-      "latestAt": "2026-10-20T06:30:00Z",
-      "checkedAt": "2026-10-20T06:32:40Z",
-      "recentCount": 50,
-      "overlapCount": 0,
-      "foundVia": "경제 블로그 후보",
-      "samples": [
-        {
-          "title": "빅텍 대신 방산 ETF 사면 될까? PLUS K방산·KODEX 방산TOP10 비교",
-          "url": "https://blog.naver.com/ya_nt/224447728575?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-20T06:30:00Z"
-        },
-        {
-          "title": "엔화 환율 100엔당 10원 차이, 일본 여행 10만엔 환전하면 얼마 달라질까?",
-          "url": "https://blog.naver.com/ya_nt/224447771053?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-20T06:20:00Z"
-        },
-        {
-          "title": "SK하이닉스 자사주 매입 94.52%, 40조 매수 끝나면 주가는 어떻게 될까?",
-          "url": "https://blog.naver.com/ya_nt/224447741146?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-20T05:50:00Z"
-        }
-      ],
-      "score": 40
-    }
-  ],
-  "archive": [
-    {
-      "id": "e64c434ac2fa41c5",
-      "name": "Channy's Blog",
-      "siteUrl": "https://channy.creation.net/",
-      "feedUrl": "https://feeds.feedburner.com/channy",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI",
-        "개발",
-        "기술",
-        "소프트웨어"
-      ],
-      "latestAt": "2026-09-20T19:04:59Z",
-      "checkedAt": "2026-10-20T06:31:21Z",
-      "recentCount": 2,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "Back to the Basic: AI 시대에도 기본에 충실한 클라우드 컴퓨팅",
-          "url": "https://channy.creation.net/blog/1990",
-          "publishedAt": "2026-09-20T19:04:59Z"
-        },
-        {
-          "title": "AI 에이전트 시대, 개발자는 어떻게 일해야 하는가? – 프론티어 엔지니어링의 10가지 원칙",
-          "url": "https://channy.creation.net/blog/1989",
-          "publishedAt": "2026-09-13T16:04:37Z"
-        }
-      ],
-      "score": 12
     }
   ]
 }
