@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T18:31:37Z",
+  "generatedAt": "2026-10-25T21:25:37Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,99 @@
   ],
   "articles": [
     {
+      "id": "58e78746ff934d0b4a71",
+      "title": "쿠팡 현장조사 불응에…공정위 “기업조사 거부땐, 매출 1% 과징금 내야”",
+      "url": "https://www.mk.co.kr/news/economy/12185329",
+      "summary": "",
+      "publishedAt": "2026-10-26T06:08:35Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "7836444f5dff52ec980f",
+      "title": "독일·일본은 ‘넘사벽’이었는데…韓 경상흑자, 두 나라 합 보다 많아졌다",
+      "url": "https://www.mk.co.kr/news/economy/12185328",
+      "summary": "",
+      "publishedAt": "2026-10-26T06:08:24Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "460a9db929497e9b1237",
+      "title": "조여도 89주째 오른 집값…가계대출 완화 당분간 어려울듯",
+      "url": "https://www.mk.co.kr/news/economy/12185326",
+      "summary": "",
+      "publishedAt": "2026-10-26T06:07:22Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "금융",
+        "부동산",
+        "경제"
+      ]
+    },
+    {
+      "id": "12076389262fd416c75f",
+      "title": "장 열리니 하이닉스 30% 폭락?…외면받는 넥스트레이드, 거래량 급감 이유는",
+      "url": "https://www.mk.co.kr/news/stock/12185324",
+      "summary": "",
+      "publishedAt": "2026-10-26T06:06:47Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "bc22de476334c80fb01b",
+      "title": "“앞으로 1년 성장성은 최고입니다”…반도체 뒤에서 더 빨리 크는 이 부품",
+      "url": "https://www.mk.co.kr/news/stock/12185323",
+      "summary": "",
+      "publishedAt": "2026-10-26T06:06:26Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "11f93ee7f4bb0c914c01",
+      "title": "“주가 신경 안 쓴단 딱지 떼야죠”…PBR 공개전 자발적 개선계획 낸 상장사들",
+      "url": "https://www.mk.co.kr/news/stock/12185322",
+      "summary": "",
+      "publishedAt": "2026-10-26T06:05:35Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "7eb5bec5d09f0b04abfd",
+      "title": "“석달 만에 100조 벌었다는데” … 내 주식만 왜 떨어지는지 궁금하다면",
+      "url": "https://www.mk.co.kr/news/stock/12185059",
+      "summary": "",
+      "publishedAt": "2026-10-26T05:00:00Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
       "id": "e1b3748903835fc48ea2",
       "title": "대한전기학회, 개인정보 유출 사고 후속조치 완료…회원 계좌번호 전량 파기",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209057",
@@ -485,6 +578,45 @@
       ]
     },
     {
+      "id": "ab5b196b10372ffb9518",
+      "title": "소상공인이 만드는, 더 큰 대한민국... 중기부, 「2026 대한민국 소상공인대회」 개최",
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1071960",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:16:46Z",
+      "sourceIds": [
+        "mss-press"
+      ],
+      "topics": [
+        "정책"
+      ]
+    },
+    {
+      "id": "75f4aabed368a3240cb4",
+      "title": "트럼프 \"美 들어와 이용하려는 기업에 관세 최대 50%\"",
+      "url": "https://www.ajunews.com/view/20261026060902629",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:11:56Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "0ab113a52c2ba547e25a",
+      "title": "제주 로컬 크라우드펀딩 판매전 개최",
+      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1071959",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:11:13Z",
+      "sourceIds": [
+        "mss-press"
+      ],
+      "topics": [
+        "정책"
+      ]
+    },
+    {
       "id": "7abe6c2f71dc02debbe4",
       "title": "“코스피 목표 25% 낮췄는데 상승 여력 60%?”…골드만삭스의 반전 전망",
       "url": "https://www.mk.co.kr/news/stock/12185306",
@@ -495,6 +627,307 @@
       ],
       "topics": [
         "주식"
+      ]
+    },
+    {
+      "id": "8ab4a0f1c4658fd51e54",
+      "title": "GTA6 출시가 美 경제에 악영향?…“회사원 150만명 쉬어 1.3조 날아갈수도”",
+      "url": "https://www.etnews.com/20261023000170",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "1632191b2d8b2b98cd09",
+      "title": "[주간수급리포트] 외인·개인 양매도 폭격…코스피 5500선 ‘털썩’",
+      "url": "https://www.etoday.co.kr/news/view/2639522",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "b98686db5f7589ec58e1",
+      "title": "시총 상위 10곳 몸집 1079조 커졌지만…97%가 '반도체 독식'",
+      "url": "https://www.etoday.co.kr/news/view/2639534",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "d162ddf077c031faa787",
+      "title": "[오늘의 청약 일정] '아크메르 동탄' 특별공급 등",
+      "url": "https://www.etoday.co.kr/news/view/2639503",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "etoday-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "71e69bf425cf4a28f4f8",
+      "title": "JYP 사옥 빠진 고덕비즈밸리⋯서울 동남권 경제거점 '반쪽짜리' 우려",
+      "url": "https://www.etoday.co.kr/news/view/2637930",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "etoday-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "df064dd7c76b7c5cffc4",
+      "title": "반등 기다렸더니 퇴출 걱정까지…코스닥 투자자는 괴롭다 [증시는 왜]",
+      "url": "https://www.fnnews.com/news/202610252328369415",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "fnnews-stock"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
+      "id": "c954550e407b4d03d4f8",
+      "title": "\"금리 낮춘다더니 할인은 더 줄였다?\"…국감서 뭇매 맞은 은행 '꼼수' 뭐길래[금알못]",
+      "url": "https://www.newsis.com/view/NISX20261023_0003839029",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "f428659e0a0af3dc8c48",
+      "title": "벌써 4번째 유예…가상자산 과세 2029년 시행 유력",
+      "url": "https://www.newsis.com/view/NISX20261025_0003840116",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-finance",
+        "newsis-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "d5c4611ae4bf0bb3396d",
+      "title": "\"고수익 알바·통장매매 속지 마세요\"…금감원, 청년·외국인 맞춤 홍보 추진",
+      "url": "https://www.newsis.com/view/NISX20261025_0003840065",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "0c366952f4d8d77a59aa",
+      "title": "[오늘의 주요일정]농림축산식품부(10월26일월요일)",
+      "url": "https://www.newsis.com/view/NISX20261023_0003837741",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "746e7eeb3521a9748cee",
+      "title": "[오늘의 주요일정]기후에너지환경부(10월26일월요일)",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838173",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "4d12c38785e21e3a9da0",
+      "title": "[오늘의 주요일정]산업통상부(10월26일월요일)",
+      "url": "https://www.newsis.com/view/NISX20261025_0003840041",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "24d9d15b647782bbbbc6",
+      "title": "[오늘의 주요일정]경제(10월26일월요일)",
+      "url": "https://www.newsis.com/view/NISX20261023_0003837742",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "480132767f66e96f0234",
+      "title": "발전 연료비·SMP 오르는데 판매 단가는 하락…전기요금 인상 필요성 커져",
+      "url": "https://www.newsis.com/view/NISX20261025_0003840140",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "4bfe9cefcd58c97f87b7",
+      "title": "\"집값 폭락\" LH 사장의 경고…서울 집값 정말 꺾이나",
+      "url": "https://www.newsis.com/view/NISX20261025_0003840138",
+      "summary": "",
+      "publishedAt": "2026-10-25T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "부동산",
+        "경제"
+      ]
+    },
+    {
+      "id": "2536b172d1a860d0c3d5",
+      "title": "佛 르펜, 반정부 시위 속 대선 출사표…\"국민 통합·프랑스 부흥\"",
+      "url": "https://www.newsis.com/view/NISX20261026_0003840272",
+      "summary": "",
+      "publishedAt": "2026-10-25T20:48:48Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제",
+        "정책"
+      ]
+    },
+    {
+      "id": "41466c5cd231b4309ea1",
+      "title": "AI 사용 확산에 UC Berkeley 수학 교수, “과제 채점에 의미 없다”",
+      "url": "https://news.hada.io/topic?id=35990",
+      "summary": "UC Berkeley의 필즈상 수상자 Richard Borcherds 교수는 학생들이 AI로 계속 높은 점수를 받자, 과제의 정답 여부 대신 완료 여부 로 점수를 주고 있음 AI 사용을 피할 수 없는 상황에서 채점 인력에게 비용을 지급할 의미가 없다고 판단했으며, 현재 방식도",
+      "publishedAt": "2026-10-25T20:37:01Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "59063cd8c866c141d6cc",
+      "title": "Dolly Parton's Imagination Library - 출생부터 5세까지 어린이에게 매달 무료 책을 보내는 프로그램",
+      "url": "https://news.hada.io/topic?id=35989",
+      "summary": "Dolly Parton's Imagination Library 는 출생부터 5세까지 어린이에게 책을 무료로 선물해 독서에 대한 애정을 키우는 프로그램임 연령에 맞춰 선정한 책 을 매달 집으로 직접 우편 배송하며, 가정의 소득과 관계없이 어린이가 책을 가질 수 있도록 함",
+      "publishedAt": "2026-10-25T20:34:01Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "4837a803d9f1c01a7528",
+      "title": "[오늘의 주요일정]국토교통부(10월26일 월요일)",
+      "url": "https://www.newsis.com/view/NISX20261025_0003839870",
+      "summary": "",
+      "publishedAt": "2026-10-25T20:30:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "b088ffbd8e189e103711",
+      "title": "[오늘의 주요일정]해양수산부(10월26일 월요일)",
+      "url": "https://www.newsis.com/view/NISX20261025_0003839871",
+      "summary": "",
+      "publishedAt": "2026-10-25T20:30:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "c2de4455a5ee7bedcf35",
+      "title": "[단독] 기안84·침착맨처럼…저작권 등록 때 필명도 쓸 수 있다",
+      "url": "https://www.etoday.co.kr/news/view/2637915",
+      "summary": "",
+      "publishedAt": "2026-10-25T20:00:00Z",
+      "sourceIds": [
+        "etoday-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "4a06bc5599f098af7c7b",
+      "title": "[오늘의 주요일정]금융·증권(10월26일 월요일)",
+      "url": "https://www.newsis.com/view/NISX20261023_0003839081",
+      "summary": "",
+      "publishedAt": "2026-10-25T20:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
+      "id": "c03675006861001afc7e",
+      "title": "전세의 월세화 가속…'노도강'도 300만원 월세 수두룩[부동산 머니무브③]",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838739",
+      "summary": "",
+      "publishedAt": "2026-10-25T20:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "부동산",
+        "경제"
       ]
     },
     {
@@ -765,6 +1198,50 @@
       ]
     },
     {
+      "id": "c9412f1a5963f1908335",
+      "title": "오리건 경찰, 경찰관 한 명의 기록 공개에 지역 언론사에 250만 달러 청구",
+      "url": "https://news.hada.io/topic?id=35988",
+      "summary": "오리건주 Eugene 경찰이 Double Sided Media 의 경찰관 비위 관련 정보공개 청구에 약 250만 달러의 비용 견적 을 통보하고, 선납해야 처리를 계속하겠다고 함 특정 경찰관에 관한 요청인데도 기록 보유자를 좁힐 수 없다며 전현직 시 직원 전체의 모든 기록...",
+      "publishedAt": "2026-10-25T19:43:23Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "1586649ea7227b24cdfc",
+      "title": "유니스가 거의 다 왔습니다 (윌리엄 깁슨, 에이전시)",
+      "url": "https://armincat.com/articles/eunice-is-almost-here",
+      "summary": "📝 \" 유니스: \"단골 고객입니다. 유니스가 주목받는 이유는 그녀가 말을 할 수 있다는 것뿐만 아니라, 말을 하면서 많은 일을 한다는 점입니다. 유니스가 거의 다 왔습니다. 🔤 Original: Eunice is almost here (William Gibson, Agency) 🔗 Read more: https://armincat.com/articles/eunice-is-almost-here",
+      "publishedAt": "2026-10-25T19:40:27Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "71109a998255cb8a0cdf",
+      "title": "10년 된 CNN, 피부암 진단에서 최첨단 LLM보다 높은 성능 기록",
+      "url": "https://news.hada.io/topic?id=35987",
+      "summary": "조직검사로 확인한 피부 병변 200개를 6개 진단으로 분류하는 시험에서 Inception v3 기반 CNN 은 125개(62%), GPT-6 Astra와 Claude Fable 5.1은 각각 84개와 85개(42%)를 맞힘 CNN은 공개 피부과 이미지로 약 20분간 미세 조정 했으며, 시험 병변뿐 아니라 같은 병...",
+      "publishedAt": "2026-10-25T19:40:23Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "6a1deaaf0760ef32656f",
+      "title": "검열된 인터넷을 받아들이지 않겠다. FOSDEM 27에서 함께하자",
+      "url": "https://news.hada.io/topic?id=35986",
+      "summary": "FOSDEM 2027의 Digital Dissident Devroom 이 검열과 감시에 맞서는 자유 소프트웨어 개발자, 연구자, 활동가를 모집함. 제품 홍보보다 실제 해결책, 솔직한 경험 공유, 프로젝트 간 협력을 지향함 위협받는 사용자의 안전은 단일 도구가 아니라 접속, 통신, 증거 수집, 공개, 기기 보...",
+      "publishedAt": "2026-10-25T19:37:22Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "c2ae2985c4b7ea50ec19",
       "title": "가상 섬에 홀로 둔 AI, 스스로 놀이 만들고 개발자도 몰랐던 기술 발견",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216631",
@@ -779,6 +1256,45 @@
       ]
     },
     {
+      "id": "66d5d662c245ed961e9e",
+      "title": "모더나와 머크는 mRNA 암 백신으로 사망과 재발을 42% 줄였다고 밝혔습니다.",
+      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42",
+      "summary": "📝 표준치료제는 머크가 확립한 단일클론항체 암치료제 키트루다(Keytruda)였다. 2년 후의 모습은 인티스메란-키트루다 치료군의 82%가 여전히 재발 없이 생존한 반면, 키트루다-위약군은 70%만이 재발 없이 살아 있는 것으로 나타났다. 인티스메란-키트루다 치료군은 5%가 원격전이 없이 생존했고, 키트루다-위약군은 80%가 원격전이 없이 생존했다. 🔤 Original: Moderna and Merck say their mRNA cancer vaccine cut death, recurrence b",
+      "publishedAt": "2026-10-25T19:29:16Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "9df18c08fcaf8dcc0a4a",
+      "title": "내가 프로그래머인 이유",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "summary": "📝 \"나는 현실에 대한 사람들의 인식을 바꿀 무언가를 쓰고 싶습니다. 조니는 뭔가 더 필요하다고 느끼며 얼굴을 붉혔습니다. 나중에 이 광고가 크랙트로(cracktros)라고 불렸다는 것을 알게 되었습니다. 🔤 Original: Why I Am a Programmer 🔗 Read more: https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "publishedAt": "2026-10-25T19:11:31Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "e14c32c22a1528757a77",
+      "title": "화성은 얼마나 먼 미래일까…돌봄부터 우주까지 코엑스서 찾는 'AI 미래도시'",
+      "url": "https://www.etnews.com/20261024000010",
+      "summary": "",
+      "publishedAt": "2026-10-25T19:00:00Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai",
+        "etnews-mobility"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI",
+        "자동차"
+      ]
+    },
+    {
       "id": "baa094d7f53494d5b418",
       "title": "'클로드'가 그림에 숨긴 문장, '아스트라'가 풀었다…암호 규칙 없이 88% 해독",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216630",
@@ -790,6 +1306,52 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "d3b4eb404c21b23c99d2",
+      "title": "\"테슬라·스페이스X, 내년 말까지 합병 확률 90%\"…월가 전망",
+      "url": "https://www.newsis.com/view/NISX20261026_0003840269",
+      "summary": "",
+      "publishedAt": "2026-10-25T18:53:14Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "bf7c1087c5f554a46416",
+      "title": "OpenAI의 프런티어 모델 훈련 환경 보안 강화",
+      "url": "https://news.hada.io/topic?id=35985",
+      "summary": "OpenAI는 모델의 격리 우회 사고 이후 인터넷 접속 없는 프런티어 모델 훈련 정책을 시행했으며, 안전장치가 충분히 발전할 때까지 이를 유지할 계획임 모든 프런티어 강화학습은 색인화하고 캐시한 웹 콘텐츠로 구성된 ‘ 오프라인 세계 ’를 이용하며, 샌드박스와 ...",
+      "publishedAt": "2026-10-25T18:43:39Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "b6d848298658a8281655",
+      "title": "Kimi K3.1, Artificial Analysis에서 55점 기록하며 파레토 선에 위치",
+      "url": "https://news.hada.io/topic?id=35984",
+      "summary": "Kimi K3.1 Pro 는 Artificial Analysis Intelligence Index에서 55점을 기록해 유사 가격대 모델의 중앙값인 27점을 크게 웃돎 과제당 평가 비용은 2.11달러 이며, Kimi API 기준 100만 토큰당 입력 2달러, 출력 10달러임 출력 속도는 초당 57.5토큰...",
+      "publishedAt": "2026-10-25T18:40:39Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "ab7825dc4840ceddf996",
+      "title": "Show HN: S&P 500 시가총액 버블 안에 직원들을 넣어봤습니다",
+      "url": "https://news.hada.io/topic?id=35983",
+      "summary": "Big Whale Hunting 은 S&P 500 기업의 시가총액을 버블 면적으로, 직원 수를 내부 사람 아이콘으로 나타내는 시각화임 기업을 업종별로 묶고 , 사람 아이콘 하나로 직원 1만 명 을 표시해 시가총액 대비 인력 규모를 비교할 수 있음 버...",
+      "publishedAt": "2026-10-25T18:37:39Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "4974b5fc3456cd4bd04a",
@@ -818,6 +1380,28 @@
       ]
     },
     {
+      "id": "e7f7d4275c4adeb7e789",
+      "title": "돌리 파튼의 상상력 도서관",
+      "url": "https://imaginationlibrary.com/",
+      "summary": "📝 지금 기부하세요 DOLLY PARTON's Imagination Library Dolly Parton's Imagination Library는 Dolly Parton과 미국, 캐나다, 영국, 호주 및 아일랜드 공화국의 지역 커뮤니티 파트너가 공유하는 기금을 통해 0세부터 5세까지의 어린이에게 책을 무료로 선물하여 독서에 대한 사랑을 고취시키는 데 전념하고 있습니다. 저는 여러분의 지역사회에 자신만의 꿈을 가진 어린이들이 있다는 것을 알고 있습니다. 회사 소개/작동 방식 국가별 뉴스 카테고리 I",
+      "publishedAt": "2026-10-25T18:23:54Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "e2dd6de856e590769d8f",
+      "title": "필요한 것은 \"메트릭, 로그 및 추적\"이 아닌 광범위한 이벤트입니다.",
+      "url": "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics",
+      "summary": "",
+      "publishedAt": "2026-10-25T18:11:38Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "f905cee5532a7cec6cf6",
       "title": "트럼프 \"이란과 합의냐 공격이냐 결단할 때\"…이란 \"외교 가능성 열려\"",
       "url": "https://www.newsis.com/view/NISX20261026_0003840268",
@@ -829,6 +1413,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "a09be98aff5a2dbde594",
+      "title": "오리건 경찰은 경찰 한 명에 대한 기록을 위해 지역 뉴스 매체에 250만 달러를 청구하고 있습니다",
+      "url": "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee",
+      "summary": "📝 지난 8월, 지역 뉴스 매체인 Double Sided Media는 위법 행위로 기소된 경찰관과 관련된 Double Sided Media의 공개 기록 요청에 대응하여 2018년부터 2026년 1월 사이의 잠재적인 위법 행위에 초점을 맞춘 저스틴 페켈스 경찰관에 대한 기록에 대한 공개 기록 요청을 제출했습니다. 스크린샷: 유진시 “시가 $2,484,599의 지불금을 받으면. 🔤 Original: Oregon Police Are Charging a Local News Outlet $2.5M for",
+      "publishedAt": "2026-10-25T18:04:11Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "cc2ff55317f79eaa4911",
@@ -1057,6 +1652,17 @@
       ]
     },
     {
+      "id": "8239d599eb2697605faa",
+      "title": "나는 검열된 인터넷을 받아들이기를 거부합니다. FOSDEM 27에 참여하세요",
+      "url": "https://talkweb.eu/openweb/4558",
+      "summary": "📝 자유를 유지하는 데 도움이 되는 도구를 만들어 봅시다. 현재 아무도 해당 프로젝트 간 보기를 소유하고 있지 않습니다. 이 개발실이 하는 일. 🔤 Original: I refuse to accept a censored Internet. Join Me at FOSDEM 27 🔗 Read more: https://talkweb.eu/openweb/4558/",
+      "publishedAt": "2026-10-25T17:30:55Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "e7170be3a32e684c2edb",
       "title": "\"챗GPT 선생님, 저 왜 아프죠?\" 성인 46% AI에 건강 질문",
       "url": "https://www.mk.co.kr/news/economy/12185204",
@@ -1081,6 +1687,50 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "013b9f33715e6cde5429",
+      "title": "뉘앙스 엿먹어 (2015)",
+      "url": "https://crookedtimber.org/2015/08/31/fuck-nuance",
+      "summary": "📝 그는 나에게 \"Against Nuance\"와 같은 논문을 제출하는 데 관심이 있는지 물었습니다. “그럼요.” Steve가 말했습니다. “그걸 제목으로 쓰겠습니다.” 사고를 당하기 쉬운 율리시스처럼 부주의하게 돛대에 묶인 나는 지난주 시카고에서 논문을 발표했습니다. 🔤 Original: Fuck Nuance (2015) 🔗 Read more: https://crookedtimber.org/2015/08/31/fuck-nuance/",
+      "publishedAt": "2026-10-25T17:26:08Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "3931d62b4da17dbeced1",
+      "title": "과학자들이 고대 로마의 색이 변하는 유리를 만드는 방법을 재발견했습니다.",
+      "url": "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+      "summary": "📝 Lycurgus Cup은 일반 조명에서는 옥색으로, 뒤에서 조명을 비추면 루비 레드로 보입니다. 합성: 영국 박물관전체 화면으로 이미지 보기 Lycurgus Cup은 일반 조명에서는 옥색으로, 뒤에서 조명을 켜면 루비 레드로 보입니다. 빛 아래에서 Lycurgus 컵의 색상이 변하는 것을 지켜보세요. Hollands는 초기 연구를 수행하면서 로마의 선도적인 유리 전문가인 Caroline Jackson 교수와 협력했습니다. 🔤 Original: Scientists rediscover how to",
+      "publishedAt": "2026-10-25T17:20:22Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "b83204b7e9c12d9e6eae",
+      "title": "10년 된 CNN이 피부암 진단 분야에서 선두 LLM을 능가함",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "summary": "📝 왼쪽이 임상 사진, 오른쪽이 피부경 사진입니다. 임상 사진과 피부경(피부현미경) 이미지 두 장을 GPT-6 Astra와 Claude Fable 5에게 보여줬습니다. GPT-6 Astra는 95% 신뢰도로 기저세포암종이라고 불렀습니다. 🔤 Original: A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis 🔗 Read more: https://lynchlab.net/llm-skin-cancer",
+      "publishedAt": "2026-10-25T17:15:38Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "d03ffdd599af5cda7242",
+      "title": "세이버 울프 리마스터",
+      "url": "https://gp-64.com/swr",
+      "summary": "📝 세이버 울프는 남쪽을 사냥합니다. Saber Wulf 리마스터링 Genesis 프로젝트, 2026년 10월 25일. Saber Wulf가 JonEgg를 다시 상상함, 2017. 🔤 Original: Sabre Wulf Remastered 🔗 Read more: https://gp-64.com/swr/",
+      "publishedAt": "2026-10-25T17:15:16Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "52c5b595c405ed5caa9e",
@@ -1281,6 +1931,17 @@
       ]
     },
     {
+      "id": "a6d8deb6fb1b9abee746",
+      "title": "UTS #39: 유니코드 보안 메커니즘",
+      "url": "https://unicode.org/reports/tr39",
+      "summary": "📝 구현은 섹션 3의 사양을 따라야 합니다. 구현은 섹션 3의 사양을 따라야 합니다. 구현은 섹션 3의 사양을 따라야 합니다. 🔤 Original: UTS #39: Unicode Security Mechanisms 🔗 Read more: https://unicode.org/reports/tr39/",
+      "publishedAt": "2026-10-25T16:40:37Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "8981af840ed6d110a862",
       "title": "1505년 뉘른베르크 기사의 도구 책",
       "url": "https://news.hada.io/topic?id=35980",
@@ -1329,6 +1990,28 @@
       ]
     },
     {
+      "id": "857f9c868190eef56698",
+      "title": "AI 사용으로 UC Berkeley 수학 교수가 숙제 채점에 '의미 없음'을 확인하게 되었습니다.",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "summary": "📝 김이삭 | 교직원 Facebook Twitter WhatsApp LinkedIn SMS 이메일 인쇄 기사 링크 복사 Facebook Twitter WhatsApp LinkedIn SMS 이메일 인쇄 기사 링크 저장 UC Berkeley 교수이자 Fields 메달리스트인 Richard Borcherds는 더 이상 학생들의 숙제에 채점을 하지 않습니다. 나는 ChatGPT에 정확히 이 질문을 했는데 심지어 ChatGPT도 무슨 일이 일어날지 전혀 모른다고 말했습니다.\" Borcherds는 말했습니",
+      "publishedAt": "2026-10-25T16:28:26Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "0acf196572ceb07e1cf2",
+      "title": "JetBrains Thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "summary": "📝 셸 이상의 에이전트 도구입니다. 귀하의 제공자, 귀하의 자격 증명. 상담원의 답변과 도구 출력은 상담원이 작성한 대로 유지됩니다. 🔗 Read more: https://github.com/JetBrains/thinkrail",
+      "publishedAt": "2026-10-25T16:27:12Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "f2f5e36b1dae9adb2b33",
       "title": "오픈AI 회의실 도청 사태, 사우디 연루 '경제 간첩' 수사로 확대",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216621",
@@ -1339,6 +2022,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "0f08202a2f88e273420b",
+      "title": "AI 시대, 취업에 불안감 느끼는 美 젊은이들",
+      "url": "https://www.ajunews.com/view/20261026005947610",
+      "summary": "",
+      "publishedAt": "2026-10-25T16:04:21Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -2004,6 +2700,17 @@
       "topics": [
         "부동산"
       ]
+    },
+    {
+      "id": "7c8a3bbcd0db0c032734",
+      "title": "Dreamhost에서 비밀번호 재설정을 강제하는 활성 사건",
+      "url": "https://www.dreamhoststatus.com/",
+      "summary": "📝 RSSRSS FeedClose를 통해 상태 업데이트를 구독하세요. Twitter/X@dhstatusClose에서 상태 업데이트를 팔로우하세요. SlackSlack 채널 ID에서 상태 업데이트를 받으려면 구독하세요. 채널 ID 찾기: Slack 작업 공간에서 채널을 선택하세요. 채널 ID는 브라우저 URL에 표시됩니다. com/client/T04SJBK1C/C03SKGJ1PE이메일 주소닫기구독 관리기존 구독 관리새 구독 만들기iCalendarCalendar FeedClose를 통해 상태 업데이트",
+      "publishedAt": "2026-10-25T13:09:16Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "9e94d6734b53291d931d",
@@ -5976,6 +6683,17 @@
       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "summary": "📝 예를 들어, 웨이퍼 1은 모델 레이어 1-2를 실행하고 활성화를 웨이퍼 2로 보냅니다. 토큰이 각 웨이퍼를 순서대로 이동해야 하는 경우 각 웨이퍼는 차례를 기다리는 동안 유휴 상태로 있지 않습니다. 이 예에서는 각 단계가 레이어입니다. 🔤 Original: Cerebras Deploys Trillion-Parameter AI Models 🔗 Read more: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-mode",
       "publishedAt": "2026-10-25T01:33:49Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "00f9a35730188d0ad13b",
+      "title": "HN 표시: 남부 미국 및 아프리카 영어를 구사하는 Hurston-1 오픈 소스 TTS",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "summary": "📝 이는 대부분의 AI 시스템이 여전히 일반적인 미국 영어로 단순화하는 목소리입니다. \" 남성, 남부 미국 억양, 명확한 대화 \"Peachtree에서 만나요. \" 남성, 남부 미국 억양, 캐주얼한 대화 \" 당신은 애틀랜타 어느 지역 출신인가요? 🔤 Original: Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English 🔗 Read more: https://huggingface.co/destined/hurst",
+      "publishedAt": "2026-10-25T01:30:13Z",
       "sourceIds": [
         "hnko"
       ],
@@ -36345,112 +37063,6 @@
       ]
     },
     {
-      "id": "b05e98b9ae40564e3510",
-      "title": "강남 3구 하락세에도⋯서울 아파트값 89주 연속 상승",
-      "url": "https://www.etoday.co.kr/news/view/2638912",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "etoday-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "383178a3e970fe6980b7",
-      "title": "LH, 공공주택 13개 블록 묶어 발주…공사비 129억 절감",
-      "url": "https://www.fnnews.com/news/202610220853522804",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "fnnews-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "1c5e8be359b95696e78d",
-      "title": "떨어질 기미가 안보인다...'최장 기록' 서울 아파트값 89주 연속 상승",
-      "url": "https://www.fnnews.com/news/202610221104498365",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "fnnews-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "493a82d5289a3e4f0d58",
-      "title": "LH·건협, '공급 속도' 위한 기술협력·민간참여 논의",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836171",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "5cc59781316a113a70d4",
-      "title": "서울 아파트값 89주째 상승…'반도체 머니' 경기 남부 급등",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836510",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "부동산",
-        "경제"
-      ]
-    },
-    {
-      "id": "ea0e2fc3ff210ff7595a",
-      "title": "동탄 제친 병점… 반세권 확대에 집값 상승률 1위",
-      "url": "https://www.fnnews.com/news/202610221828482198",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "fnnews-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "5164f96beb66c176c173",
-      "title": "\"13개 블록 묶어 통합발주\" LH, 공사비 129억 아낀다",
-      "url": "https://www.fnnews.com/news/202610221828500296",
-      "summary": "",
-      "publishedAt": "2026-10-22T05:00:00Z",
-      "sourceIds": [
-        "fnnews-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "11f2849eebf0f50ef197",
-      "title": "이억원 “솔리다임 중복상장 규제 대상”…SK하이닉스·SK스퀘어 주주보호 의무",
-      "url": "https://www.etoday.co.kr/news/view/2638933",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:58:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식",
-        "정책"
-      ]
-    },
-    {
       "id": "88c064d7c45ffbf935ac",
       "title": "[2026 국감]김종철 “청소년 보호책임 강화…플랫폼 '납치광고' 제재 심의”",
       "url": "https://www.etnews.com/20261022000273",
@@ -36477,20 +37089,6 @@
       ]
     },
     {
-      "id": "79d1e380a17d01cbce91",
-      "title": "신현송 한은 총재 \"금리 동결, 호미질의 결실…긴축 기조 계속 이어갈 필요\"",
-      "url": "https://www.ajunews.com/view/20261022113010845",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:56:29Z",
-      "sourceIds": [
-        "ajunews-economy"
-      ],
-      "topics": [
-        "금융",
-        "경제"
-      ]
-    },
-    {
       "id": "cb60b896acb02c14c6de",
       "title": "LG디스플레이, 3분기 영업익 2506억원…증권가 예상치 하회",
       "url": "https://zdnet.co.kr/view?no=20261022134129",
@@ -36501,162 +37099,6 @@
       ],
       "topics": [
         "기술"
-      ]
-    },
-    {
-      "id": "aae22a99c2cf0ba062b0",
-      "title": "美 나스닥 2주 새 1100P 하락…AI 기업들, 고금리에 빚 부담 커졌다",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836748",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:54:17Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "a301d261d4485e7be9ea",
-      "title": "권형택 기보 이사장 \"기술혁신 종합지원체계 구축할 것\"",
-      "url": "https://www.hankyung.com/article/202610228616i",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:52:29Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "c3542448fc6fdc71a6c5",
-      "title": "누보, 수출입 안전관리 우수업체 인증 획득…30개국 수출 물류 경쟁력 강화",
-      "url": "https://www.etoday.co.kr/news/view/2638926",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:50:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "6ead629270334e272571",
-      "title": "신현송 \"재정 지속가능성 유의⋯석유 최고가격제 출구전략 필요\" [10월 금통위]",
-      "url": "https://www.etoday.co.kr/news/view/2638924",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:49:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "1a3133c948efd84809d4",
-      "title": "6개월 연속 전국 아파트 1순위 청약 경쟁률 하락… 서울만 3.31포인트 상승",
-      "url": "https://www.ajunews.com/view/20261022133554087",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:46:37Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "d83a194ea954259d57a5",
-      "title": "에스엠씨지, 화장품 유리용기 검수ㆍ포장 자동화 성공…“내년 하반기 OPM 30% 목표”",
-      "url": "https://www.etoday.co.kr/news/view/2638121",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:46:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "5373e91b3f8042426c68",
-      "title": "한솔PNS, AJ솔루션테크 자산관리 시스템 구축…렌탈 장비 AI 활용 기반 마련",
-      "url": "https://www.hankyung.com/article/202610228613i",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:45:56Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "4ba10171414200a0a302",
-      "title": "[2026 국정감사] 무안공항 조류충돌 대책·철새 보호정책 '엇박자'",
-      "url": "https://www.ajunews.com/view/20261022112027800",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:45:49Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "정책"
-      ]
-    },
-    {
-      "id": "51640620cc1f13ae4d26",
-      "title": "서울 아파트값 89주 연속 상승…강남3구 하락 속 강북·외곽 강세",
-      "url": "https://www.ajunews.com/view/20261022111953787",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:45:39Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "8debc862b7655b07126e",
-      "title": "중기부 이소영 장관, ‘지역 현장으로 출근!’ 첫 출근지는 충남 천안 도약(Jump-up) 기업 ㈜엘케이켐",
-      "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1071929",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:44:14Z",
-      "sourceIds": [
-        "mss-press"
-      ],
-      "topics": [
-        "정책"
-      ]
-    },
-    {
-      "id": "ea14947d79db9b957eae",
-      "title": "GS건설, 호주 전력망 운영사 오스넷과 MOU…에너지 사업 확대",
-      "url": "https://www.hankyung.com/article/202610228208i",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:43:28Z",
-      "sourceIds": [
-        "hankyung-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "cc5ed18017393bfc3778",
-      "title": "유진기업, 부천 화재 순직 소방관 유가족에 위로금·학자금 지원",
-      "url": "https://www.hankyung.com/article/202610228605i",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:43:26Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
       ]
     },
     {
@@ -36673,34 +37115,6 @@
       ]
     },
     {
-      "id": "0297df5b5f683b56c6d0",
-      "title": "세금 부담 줄이고 분기 이자 받는다…AAA급 하나금융지주 채권",
-      "url": "https://www.hankyung.com/article/202610216338i",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:40:03Z",
-      "sourceIds": [
-        "hankyung-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융",
-        "정책"
-      ]
-    },
-    {
-      "id": "a07e9516efaf9c7e2284",
-      "title": "김정관 산업장관 \"메가특구법에 노동특례 반드시 포함돼야\" [국감]",
-      "url": "https://www.etoday.co.kr/news/view/2638918",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:40:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "fe7b24002e701f42d691",
       "title": "딥엑스, 강릉 ITS 세계총회서 교통 CCTV AI 전환 기술 전시",
       "url": "https://zdnet.co.kr/view?no=20261022132218",
@@ -36711,32 +37125,6 @@
       ],
       "topics": [
         "AI"
-      ]
-    },
-    {
-      "id": "eeed3f653fb0b2f0db50",
-      "title": "코스피, 외국인·기관 매도에 3%대 하락…반도체·이차전지 동반 약세",
-      "url": "https://www.etoday.co.kr/news/view/2638917",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:39:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "6a660fd09c225b147f81",
-      "title": "온코닉테라퓨틱스, 자큐보 수익 기반 항암·비만 신약 개발 확대",
-      "url": "https://www.fnnews.com/news/202610221334223996",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:38:29Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
       ]
     },
     {
@@ -36768,19 +37156,6 @@
       ]
     },
     {
-      "id": "5965198e3070ab4afa80",
-      "title": "日 기업 약 80곳 겨냥한 中 AI '아르텍스'…모의 실험서 정보 빼내기까지 15초",
-      "url": "https://www.ajunews.com/view/20261022122645954",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:34:27Z",
-      "sourceIds": [
-        "ajunews-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "aae585fc311301527c0b",
       "title": "“골프대회야, BMW 신차 공개야”…파인비치 수놓은 '모터쇼급' 라인업",
       "url": "https://www.etnews.com/20261022000247",
@@ -36791,45 +37166,6 @@
       ],
       "topics": [
         "자동차"
-      ]
-    },
-    {
-      "id": "b2071b558d6291fb521d",
-      "title": "\"반등은 하루, 손실은 눈덩이\"…개인만 떠받치는 증시에 투자자 한숨 [fn오후시황]",
-      "url": "https://www.fnnews.com/news/202610221327593780",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:32:31Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "c7625f8ebfc0cc3f40e1",
-      "title": "한은 \"반도체 경기 강한 호조세…파급 확산에 높은 경제성장\"",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836705",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:31:16Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "6e51c3dba59b7b83978d",
-      "title": "[食전食후]코스피 3%대 하락하며 전일 상승 반납…삼성 4%·SK하닉 5% '급락'",
-      "url": "https://www.ajunews.com/view/20261022131336039",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:31:15Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "주식"
       ]
     },
     {
@@ -36871,32 +37207,6 @@
       "topics": []
     },
     {
-      "id": "75a90d2f92527759a7bf",
-      "title": "정진완 우리은행장, 소상공인과 공연 보며 현장 소통",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836740",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:26:58Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "ca75b4e6131d35f3c412",
-      "title": "신현송 \"가래 대신 호미로 막은 덕에 이번엔 동결\"(종합)",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836716",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:26:29Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
       "id": "3025c112edbc363c5923",
       "title": "오텍캐리어 “히트펌프 매출 비중, 올해 15%→내년 50% 확대”",
       "url": "https://www.etnews.com/20261022000240",
@@ -36922,20 +37232,6 @@
       ],
       "topics": [
         "기술"
-      ]
-    },
-    {
-      "id": "85f47bd77845b1863086",
-      "title": "김정관 \"메가특구법, 노동 특례 담아야…정기국회 통과 최선\"",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836698",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:23:17Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제",
-        "정책"
       ]
     },
     {
@@ -57421,21 +57717,6 @@
       ]
     },
     {
-      "id": "698367296a07e87b4a67",
-      "title": "라온시큐어, 로봇에 '디지털 신분증' 부여…피지컬AI 보안기술 개발",
-      "url": "https://www.etnews.com/20261015000102",
-      "summary": "",
-      "publishedAt": "2026-10-15T01:03:00Z",
-      "sourceIds": [
-        "etnews-security"
-      ],
-      "topics": [
-        "기술",
-        "보안",
-        "AI"
-      ]
-    },
-    {
       "id": "990efeaf4826f3cf6487",
       "title": "보안이 소프트웨어 팩토리 도입을 가속한다",
       "url": "https://roboco.io/posts/security-accelerates-software-factory",
@@ -57445,19 +57726,6 @@
         "awesome"
       ],
       "topics": []
-    },
-    {
-      "id": "a3754d25574ab74ce2be",
-      "title": "OK저축은행, 대출신청 고객 250명 정보 유출…취약점 보완",
-      "url": "https://www.etnews.com/20261015000082",
-      "summary": "",
-      "publishedAt": "2026-10-15T00:46:47Z",
-      "sourceIds": [
-        "etnews-security"
-      ],
-      "topics": [
-        "보안"
-      ]
     },
     {
       "id": "bca926f1701125a97f5e",
@@ -59635,19 +59903,6 @@
       "publishedAt": "2026-04-29T23:00:00Z",
       "sourceIds": [
         "richnote-blog"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "8f50a0f237c1c240a773",
-      "title": "장기보유특별공제에 대한 오해와 진실",
-      "url": "https://blog.naver.com/a-cute-bear/224268673106?fromRss=true&trackingCode=rss",
-      "summary": "1가구 1주택자에게 적용되던 장기보유특별공제를 축소하자는 정부의 의도가 알려지자 정치권이 발칵 뒤집어졌다. 장기보유특별공제를 대폭 축소하겠다는 개정안에 일부 민주당 의원이 동참을 했음에도 불구하고, 민주당은 장기보유특별공제를 축소하는 것은 당론이 아니라는 점을 서둘러 밝혔다. 선거를 앞두고 1가구 1주택자에 대한 장기보유특별공제 축소가 일으킬 후폭풍이 그만큼 겁이 났기 때문이다. 그러면 장기보유특별공제가 무엇이고, 무엇이 쟁점이 되고 있는지를 알아보자. 장기보유특별공제 제도가 생긴 것은 1989년",
-      "publishedAt": "2026-04-28T18:32:07Z",
-      "sourceIds": [
-        "babybear-blog"
       ],
       "topics": [
         "부동산"
