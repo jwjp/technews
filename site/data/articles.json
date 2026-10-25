@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:26:44Z",
+  "generatedAt": "2026-10-25T18:31:37Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,84 @@
   ],
   "articles": [
     {
+      "id": "e1b3748903835fc48ea2",
+      "title": "대한전기학회, 개인정보 유출 사고 후속조치 완료…회원 계좌번호 전량 파기",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209057",
+      "summary": "",
+      "publishedAt": "2026-10-26T03:09:37Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "128c10db07bf93e04afa",
+      "title": "놀유니버스, 외부 해킹으로 임직원 개인정보 유출…시스템 보안 취약점 악용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209056",
+      "summary": "",
+      "publishedAt": "2026-10-26T02:47:14Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "7d47be0d54d5855b2069",
+      "title": "한국국제교류재단, 홍보메일 시스템 해킹…개인정보 유출 정황 확인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209055",
+      "summary": "",
+      "publishedAt": "2026-10-26T02:42:45Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "5ac62d5eb258732a3e13",
+      "title": "금주의 로봇 캘린더(2026. 10. 26 ~ 11. 1)",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49209",
+      "summary": "",
+      "publishedAt": "2026-10-26T02:42:18Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
+      "id": "31e6e8934eeb6c96a618",
+      "title": "티켓베이 해킹으로 회원 1만6천명 개인정보 유출…공연·주문내역까지 노출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209054",
+      "summary": "",
+      "publishedAt": "2026-10-26T02:33:47Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "79d3201469edd7f13eac",
+      "title": "‘젊은 로봇 공학자’ (95) POSTECH 안혜민 교수",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49208",
+      "summary": "",
+      "publishedAt": "2026-10-26T01:04:49Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "기술"
+      ]
+    },
+    {
       "id": "7abe6c2f71dc02debbe4",
       "title": "“코스피 목표 25% 낮췄는데 상승 여력 60%?”…골드만삭스의 반전 전망",
       "url": "https://www.mk.co.kr/news/stock/12185306",
@@ -740,6 +818,32 @@
       ]
     },
     {
+      "id": "f905cee5532a7cec6cf6",
+      "title": "트럼프 \"이란과 합의냐 공격이냐 결단할 때\"…이란 \"외교 가능성 열려\"",
+      "url": "https://www.newsis.com/view/NISX20261026_0003840268",
+      "summary": "",
+      "publishedAt": "2026-10-25T18:08:59Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "cc2ff55317f79eaa4911",
+      "title": "\"AI 거품·고금리 여파…11월 이후 신용 리스크 본격화 우려\"",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838939",
+      "summary": "",
+      "publishedAt": "2026-10-25T18:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "3f29955264b3d924c16d",
       "title": "“계약했던 금액으론 이제 어림 없습니다”...공사비 40%씩 오른 서울 재건축",
       "url": "https://www.mk.co.kr/news/realestate/12185267",
@@ -794,6 +898,17 @@
       ]
     },
     {
+      "id": "b449160764daaa906f5d",
+      "title": "Samsung TV가 Bluetooth로 집 안의 마이크를 찾아 주변 상황을 감시한다는 주장",
+      "url": "https://news.hada.io/topic?id=35982",
+      "summary": "게시물은 Samsung TV 가 Bluetooth를 통해 집 안의 마이크를 탐색한다고 주장함 주장에 따르면 감시 대상에는 개 짖는 소리와 아기 울음 같은 주변 상황이 포함됨 YouTube 내 사용자 활동 도 감시 대상에 해당함 감시 범위는 You...",
+      "publishedAt": "2026-10-25T17:35:39Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "85a52509659508947c6b",
       "title": "공정위원장 \"조사거부 기업에 매출1% 과징금\"",
       "url": "https://www.mk.co.kr/news/economy/12185246",
@@ -845,6 +960,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "560d6103f5668006158f",
+      "title": "뇌 영역 간 상호작용을 해독하는 신경 칩",
+      "url": "https://news.hada.io/topic?id=35981",
+      "summary": "EPFL이 여러 뇌 영역의 활동과 신호 간 동기화를 분석해 인지 상태와 정서 상태를 실시간으로 구분 하는 저전력 이식형 신경 칩 LogSync 를 개발함 기존 심부뇌자극 시스템은 미리 정한 설정이나 단일 뇌 영역의 신호에 의존하는 경우가 많지만, LogSync는 뇌...",
+      "publishedAt": "2026-10-25T17:32:38Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "0ae04300559cc7ba9af0",
@@ -954,6 +1080,19 @@
       ],
       "topics": [
         "부동산"
+      ]
+    },
+    {
+      "id": "52c5b595c405ed5caa9e",
+      "title": "마차도, 10개월 망명 끝 베네수엘라 귀국…야권, 조속한 대선 요구",
+      "url": "https://www.newsis.com/view/NISX20261026_0003840267",
+      "summary": "",
+      "publishedAt": "2026-10-25T17:13:56Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
       ]
     },
     {
@@ -1075,6 +1214,20 @@
       ]
     },
     {
+      "id": "0067fdde2f3eb31765b9",
+      "title": "\"삼전닉스 계속 들고 가도 되나\"…주가 발목 잡는 'AI 투자 위축' 우려",
+      "url": "https://www.newsis.com/view/NISX20261023_0003838097",
+      "summary": "",
+      "publishedAt": "2026-10-25T17:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
       "id": "700d9070b109ad3f63a1",
       "title": "엔비디아, 로컬 에이전트·로봇 겨냥 4GB 모델 '네모트론 3.5 볼트' 출시",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216625",
@@ -1128,6 +1281,28 @@
       ]
     },
     {
+      "id": "8981af840ed6d110a862",
+      "title": "1505년 뉘른베르크 기사의 도구 책",
+      "url": "https://news.hada.io/topic?id=35980",
+      "summary": "뉘른베르크의 기사 Martin Löffelholz 가 1505년부터 작성한 도구 책을 페이지별로 전사하고 해석하는 프로젝트가 진행 중임 Löffelholz Codex 는 154쪽에 도구, 기계, 자물쇠, 무기 등을 그림과 짧은 설명으로 담았으며, 교체형 날을 쓰는 드릴과 바퀴 달린 회전의자...",
+      "publishedAt": "2026-10-25T16:37:28Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "39ab953733c00564ef32",
+      "title": "fheroes2: Heroes of Might and Magic II 게임 엔진 재구현",
+      "url": "https://news.hada.io/topic?id=35979",
+      "summary": "fheroes2 는 Heroes of Might and Magic II를 재현하기 위해 처음부터 작성한 오픈소스 멀티플랫폼 게임 엔진임 원작 재현에 더해 고해상도 그래픽 지원 , 개선된 AI, 다수의 수정 사항과 사용자 인터페이스 개선을 제공함 엔진은 GNU GPL v2.0",
+      "publishedAt": "2026-10-25T16:34:28Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "262c60b3918e75d26a8d",
       "title": "리퀴드 AI, 실시간 추론 엔진 ‘RIPL’ 출시...AI 응답 지연 50ms 미만 겨냥",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216627",
@@ -1167,6 +1342,20 @@
       ]
     },
     {
+      "id": "78a8e84c72ab944f1b42",
+      "title": "\"서울·경기 집 살 때 꼭 보세요\"…부동산 전문가가 짚은 '핵심' 기준",
+      "url": "https://www.newsis.com/view/NISX20261025_0003839900",
+      "summary": "",
+      "publishedAt": "2026-10-25T16:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "부동산",
+        "경제"
+      ]
+    },
+    {
       "id": "6be5a51fde171e47eddd",
       "title": "더존비즈온, APO 백업서버 해킹 공지…암호화 데이터 외부 반출 정황",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209050",
@@ -1181,6 +1370,28 @@
       ]
     },
     {
+      "id": "d4f08090e21b5c6d347f",
+      "title": "Show GN: 맥의 잠자기 방지·화면 끄기·잠금을 한곳에서 제어하는 도구",
+      "url": "https://news.hada.io/topic?id=35978",
+      "summary": "안녕하세요. 맥에서 오래 걸리는 작업을 돌릴 때 쓰려고 만든 도구 공유합니다. 코덱스 같은 경우 작업 돌리면 잠자기로 안들어가는 설정도 있지만, 모든 ai툴이 그런건 아니기도 하고, caffeinate 같은 방법도 있지만, 저는 작업을 계속 돌려두면서 화면만 끄거나 잠금까지 해두고 싶었습",
+      "publishedAt": "2026-10-25T15:43:11Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "ee9a5bb888ba9fd0a8e3",
+      "title": "프랑스, 통신사에 주요 소셜 플랫폼의 일시적 DNS 차단 준비 요청",
+      "url": "https://news.hada.io/topic?id=35977",
+      "summary": "Sébastien Lecornu 프랑스 총리가 10월 24일 시위를 앞두고 4대 통신사 에 TikTok, Instagram, Snapchat 접속 차단을 준비하도록 요청했으며, 이후 X도 대상에 추가됨 계획은 도시 폭력 사태가 재발할 경우 DNS 필터링 으로 몇 시간 동안 접속을 중단하는 방식이었으...",
+      "publishedAt": "2026-10-25T15:37:13Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "e607ede7fb1279c698d3",
       "title": "노드.js만 패치하면 끝?…브로틀리 쓰는 파이썬·프록시도 점검 필요",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209049",
@@ -1192,6 +1403,17 @@
       "topics": [
         "보안"
       ]
+    },
+    {
+      "id": "72a4f4f298f9bd30cca5",
+      "title": "세인트헬레나 5펜스 동전에는 약 190살 된 거북 Jonathan이 새겨져 있음",
+      "url": "https://news.hada.io/topic?id=35976",
+      "summary": "",
+      "publishedAt": "2026-10-25T15:34:13Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "48fd4f26891bd60c1cd4",
@@ -1240,6 +1462,7 @@
       "summary": "새로운 동향이 있어서 정리해 봅니다. 1. AI칩 속의 회로는 나노미터 단위로 촘촘하게 되어 있음. 2. 미세한 회로와 다르게 칩이 꽂히는 메인보드 배선은 굵고 듬성듬성함. 3. 이 둘은 규격이 너무 달라서 바로 연결할 수 없음. 4. 촘촘한 신호를 중간에서 굵은 신호로 넓혀 퍼뜨려 주는 판이 필요하고, 이것이 패키지 기판임. 5. 현재 패키지 기판의 고급 버전은 FC-BGA임. 6. FC-BGA는 칩 수천개의 신호도 나르고, 전력도 공급하고, 열도 견디는 역할을 함. 7. FC-BGA의 FC는",
       "publishedAt": "2026-10-25T15:10:00Z",
       "sourceIds": [
+        "awesome",
         "mer-blog"
       ],
       "topics": [
@@ -1272,6 +1495,17 @@
       "topics": [
         "주식"
       ]
+    },
+    {
+      "id": "c2478135e0d014d02b20",
+      "title": "Show HN: 직원들을 S&P 500 시가총액 버블 안에 넣습니다.",
+      "url": "https://bigwhalehunting.com/workforce",
+      "summary": "📝 그 안에는 막대 모양 하나가 직원을 의미하므로 작은 숫자로 가득 찬 버블은 작업자당 가치가 적고, 소수의 숫자가 포함된 큰 버블은 많은 가치가 있습니다. 모든 수치는 동일한 크기이므로 거품이 얼마나 촘촘하게 채워졌는지는 시가총액 1달러당 직원 수를 나타냅니다. 직원 수가 최소이고 시가총액이 최소인 회사(S&P 500 중)만 표시되며, Palantir 및 Welltower와 같이 직원 수가 적은 몇몇 대기업은 절반 크기로 표시됩니다. 🔤 Original: Show HN: I put employe",
+      "publishedAt": "2026-10-25T15:05:39Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "a7dccb672f9c016e5ef0",
@@ -1384,6 +1618,17 @@
       "publishedAt": "2026-10-25T14:39:16Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "27901ab72f82775582a8",
+      "title": "강도에 대한 몇 가지 생각",
+      "url": "https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity",
+      "summary": "📝 저는 뛰어난 스타트업의 가장 중요한 특성은 열정이라고 생각합니다. 이는 강도가 다른 모든 특성에 걸쳐 있는 계층임을 의미합니다. 대부분의 스타트업은 품질에 관심을 가지지만 그다지 중요하지는 않습니다. 🔤 Original: A Few Thoughts on Intensity 🔗 Read more: https://www.tylerhogge.com/blog/a-few-thoughts-on-intensity/",
+      "publishedAt": "2026-10-25T14:37:49Z",
+      "sourceIds": [
+        "hnko"
       ],
       "topics": []
     },
@@ -1540,6 +1785,17 @@
       "publishedAt": "2026-10-25T13:37:00Z",
       "sourceIds": [
         "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "9738c85c5733ec46fb09",
+      "title": "Show HN: Farol – 승인한 사람의 끌어오기 요청에 대한 위험 맵",
+      "url": "https://github.com/winnin/farol",
+      "summary": "📝 귀하의 검토 담당자가 diff의 내용에 대해 의견을 제시합니다. 왜 Farol 검토는 위험이 있는 곳에 주의를 기울이는가? 전체 PR을 검토하거나 마지막 검토 이후 변경된 내용을 검토하세요. 🔤 Original: Show HN: Farol – a risk map of a pull request for the person who approves it 🔗 Read more: https://github.com/winnin/farol",
+      "publishedAt": "2026-10-25T13:28:06Z",
+      "sourceIds": [
+        "hnko"
       ],
       "topics": []
     },
@@ -1726,6 +1982,17 @@
       ]
     },
     {
+      "id": "602a61bc52695ebdbf45",
+      "title": "삼성 TV는 블루투스를 통해 집에 있는 마이크를 찾아 이벤트를 감시합니다.",
+      "url": "https://twitter.com/freddier/status/2114042326758867453",
+      "summary": "📝 DeepSeek을 제거해 주셔서 감사합니다. log4j@log4jOct 23 삼성에 보고하기 전에 듣는 오디오를 분류하는 것으로 나타났습니다. 센서 기본 설정, 개 짖는 소리 및 아기 울음 이벤트 카운터, 카메라 스트리밍 기간이 원격 측정 경로에 내장되어 있습니다. 🔤 Original: Samsung TVs look for microphones in your house via Bluetooth and then spy events 🔗 Read more: https://twitter.com/fre",
+      "publishedAt": "2026-10-25T13:11:22Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "4f06437821e0a6659a8b",
       "title": "‘공급 속도전’ 외치고는 있는데…정작 ‘모듈러 특별법’은 10개월째 ‘쿨쿨’",
       "url": "https://www.mk.co.kr/news/realestate/12184997",
@@ -1763,6 +2030,28 @@
       "topics": [
         "보안"
       ]
+    },
+    {
+      "id": "9779d4b61c9982a81067",
+      "title": "Daft Punk와 레고 콜라보레이션",
+      "url": "https://www.lego.com/en-us/categories/adults-welcome/article/daft-punk",
+      "summary": "",
+      "publishedAt": "2026-10-25T12:48:11Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
+      "id": "3445f19e8688359640c1",
+      "title": "금지된다는 것은 이제 경제적으로 쓸모가 없다는 것을 의미하는 AI의 미래를 상상해 보십시오.",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "summary": "📝 당신에게 아름다운 유토피아를 보여준 당신의 스마트 안경. 이것이 진짜 파멸의 재앙입니다. 오픈 소스는 당신의 자유, 경제적 생존 가능성, 그리고 이들 회사에 당장 꺼져라고 말할 수 있는 능력을 보호할 수 있는 유일한 방법입니다. log4j@log4jOct 23 리버스 엔지니어링 작업이 금지되었습니다. 🔤 Original: Imagine an AI future where being banned means you are now economically useless 🔗 Read more: https",
+      "publishedAt": "2026-10-25T12:47:20Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "b256e7a9bdeb7a826cc0",
@@ -1803,6 +2092,17 @@
       "topics": [
         "경제"
       ]
+    },
+    {
+      "id": "7f3263f4694572a28a77",
+      "title": "1505년 뉘른베르크 기사의 도구 모음집",
+      "url": "https://loeffelholz-codex.org/en",
+      "summary": "📝 코덱스는 154페이지로 구성되어 있습니다. 이 페이지에는 실제로 몇 개의 개체가 표시됩니까? 이것이 바로 loeffelholz-codex입니다. 🔤 Original: Tool book of a Nuremberg knight from 1505 🔗 Read more: https://loeffelholz-codex.org/en/",
+      "publishedAt": "2026-10-25T12:37:54Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "91de73357ba4e792f3b8",
@@ -1929,6 +2229,17 @@
       ]
     },
     {
+      "id": "9282e3edfd40c3e34e0f",
+      "title": "fheroes2: Heroes of Might and Magic II 게임 엔진의 재현",
+      "url": "https://github.com/ihhub/fheroes2",
+      "summary": "📝 다운로드 및 설치 fheroes2를 다운로드하고 설치하려면 설치 가이드를 따르십시오. fheroes2 엔진 개발 소스에서 프로젝트를 빌드하려면 이 가이드를 따르세요. fheroes2 설명서 사이트 개발 소스에서 웹사이트를 구축하려면 이 가이드를 따르세요. 🔤 Original: fheroes2: A recreation of Heroes of Might and Magic II game engine 🔗 Read more: https://github.com/ihhub/fheroes2",
+      "publishedAt": "2026-10-25T11:09:12Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
+    },
+    {
       "id": "62b9b3925aaa166de849",
       "title": "[단독] 농업 기관 해킹 시도 1억6000만건…7840만건은 뚫렸다",
       "url": "https://www.hankyung.com/article/202610253289H",
@@ -2023,6 +2334,17 @@
         "기술",
         "AI"
       ]
+    },
+    {
+      "id": "b2b4cdc45f5a4e5e1bdb",
+      "title": "Samsung은 사용자를 추적하기 위해 960x540 이미지에서 TensorFlow 라이트 모델을 실행합니다.",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "summary": "📝 문자 그대로 \"alex.tflite\"라고 불리며 문자 그대로 AlexNet이며 torchvision을 따르는 것으로 보입니다. 어쨌든, 여기에 tf 모델 그래프와 일부 덤프된 캡처가 있습니다. 🔤 Original: Samsung running a TensorFlow lite model on 960x540 image to track you 🔗 Read more: https://twitter.com/mike64_t/status/2114150399406202896",
+      "publishedAt": "2026-10-25T10:42:01Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "729ce05c5267d1229467",
@@ -2233,6 +2555,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "3d3a3797f36f72035e4d",
+      "title": "니콘 사진 콘테스트 우승자는 과학자들이 AI의 징후를 발견한 후 타이틀을 잃었습니다.",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "summary": "📝 그는 영상 자체, 섬모 또는 움직임을 생성하는 데 AI가 사용되지 않았다고 덧붙였습니다. Xu는 자신이 경쟁 규칙을 어기지 않았다고 주장합니다. 일부 과학자들은 Xu가 RAW 그레이스케일 비디오를 공유했다면 의심이 사라졌을 것이라고 말했습니다. 🔤 Original: Nikon photography contest winner loses title after scientists spot signs of AI 🔗 Read more: https://www.techspot.com/news/114171-",
+      "publishedAt": "2026-10-25T09:51:17Z",
+      "sourceIds": [
+        "hnko"
+      ],
+      "topics": []
     },
     {
       "id": "be4342f08b1355efc7f3",
@@ -6305,6 +6638,28 @@
       "publishedAt": "2026-10-25T00:00:00Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "38efd248fc181254dff1",
+      "title": "Claude Code 운영기 5편: Claude야, 영어로 쓰라니까 왜 한국어로 답한다고 해",
+      "url": "https://indieblog.net/go/655481",
+      "summary": "cron에 걸어 둔 Claude Code가 영어로 써야 할 답 8건 중 4건을 한국어로 냈습니다. 사용자 설정이 claude -p에 실리는 것을 재현하고, 구독 로그인에서 쓰는 --restricted로 막는 법을 적었습니다.",
+      "publishedAt": "2026-10-25T00:00:00Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "f77722888f62f749393c",
+      "title": "쓰는 인간: 종이에 기록한 사유와 창조의 역사",
+      "url": "https://wormwlrm.github.io/2026/10/25/The-Notebook-a-History-of-Thinking-on-Paper.html",
+      "summary": "책 『쓰는 인간』을 읽고 작성한 서평입니다.",
+      "publishedAt": "2026-10-25T00:00:00Z",
+      "sourceIds": [
+        "awesome"
       ],
       "topics": []
     },
@@ -22952,6 +23307,17 @@
       "topics": []
     },
     {
+      "id": "fc87874eaa052022f9a2",
+      "title": "에이전트가 로그인하는 순간, 그 계정은 누가 책임지나요?",
+      "url": "https://indieblog.net/go/655476",
+      "summary": "AI 에이전트가 업무 시스템에 접속해 데이터를 조회하고 메일까지 보내는 시대, 사고가 나면 그 기록은 누구의 이름으로 남을까요? 이번 글에서는 에이전트의 신원과 권한, 생애주기를 운영에서 어떻게 관리할지 살펴봅니다.",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
       "id": "4fad1d2a216add298760",
       "title": "\"3%·9% 나란히 하락했는데\" 머스크, 테슬라·스페이스X 합병 '승부수' 띄울까",
       "url": "https://www.fnnews.com/news/202610230841235612",
@@ -36573,61 +36939,6 @@
       ]
     },
     {
-      "id": "f12829154d0150852d5e",
-      "title": "이형일 \"국민연금 국내 주식 비중 상향조정, 시장 상황 고려\"",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836681",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:22:35Z",
-      "sourceIds": [
-        "newsis-finance",
-        "newsis-economy"
-      ],
-      "topics": [
-        "주식",
-        "금융",
-        "경제"
-      ]
-    },
-    {
-      "id": "601ecb662dacaed03fe0",
-      "title": "송미령 \"중국산 드론 촬영 중단\"…농림 분야 국산화 추진",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836667",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:22:08Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "e16d4f54c4177c771f07",
-      "title": "영우디에스피, 46억 규모 디스플레이 장비 공급계약",
-      "url": "https://www.newsis.com/view/NISX20261022_0003836731",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:17:55Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "2f54df553faa252cce08",
-      "title": "황종우 해수장관, 원양업계와 노후 어선 교체·해외 어장 확보 논의",
-      "url": "https://www.etoday.co.kr/news/view/2638899",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:16:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "f5f3e9e148ce5ae608d7",
       "title": "존 그루버의 iPhone Duo 리뷰 - 훌륭한 태블릿, 불편한 아이폰",
       "url": "https://news.hada.io/topic?id=35797",
@@ -36661,19 +36972,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "e8fd59312fb19bd76f0f",
-      "title": "[2026 국정감사] 김정관 산업장관 \"호남 반도체 용수 재이용 확대 노력\"",
-      "url": "https://www.ajunews.com/view/20261022130033014",
-      "summary": "",
-      "publishedAt": "2026-10-22T04:08:05Z",
-      "sourceIds": [
-        "ajunews-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
     },
     {
       "id": "589f6f33f123681f35a5",
@@ -57197,20 +57495,6 @@
       ]
     },
     {
-      "id": "509211983888a30b9ef6",
-      "title": "구글 딥마인드 “2년 내 대형 AI 보안사고 우려…국제 표준 시급”",
-      "url": "https://www.etnews.com/20261015000007",
-      "summary": "",
-      "publishedAt": "2026-10-14T22:29:08Z",
-      "sourceIds": [
-        "etnews-security"
-      ],
-      "topics": [
-        "보안",
-        "AI"
-      ]
-    },
-    {
       "id": "046e51760db3622d6870",
       "title": "꿈의 암 치료제가 모더나에서 터졌다는데 어떤걸까? A/S",
       "url": "https://blog.naver.com/ranto28/224442142358?fromRss=true&trackingCode=rss",
@@ -57245,71 +57529,6 @@
         "awesome"
       ],
       "topics": []
-    },
-    {
-      "id": "998db42f92b7a18781be",
-      "title": "하이브리드 명가가 확대한 전동화 시대, 8세대 렉서스 ES 공식 출시",
-      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44715",
-      "summary": "",
-      "publishedAt": "2026-10-14T17:22:34Z",
-      "sourceIds": [
-        "motorgraph"
-      ],
-      "topics": [
-        "자동차"
-      ]
-    },
-    {
-      "id": "1b805b426264062fe2f9",
-      "title": "현대자동차그룹, 학대피해 아동 위한 '아이케어 카 (i-CARE CAR)' 기증",
-      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44723",
-      "summary": "",
-      "publishedAt": "2026-10-14T17:22:07Z",
-      "sourceIds": [
-        "motorgraph"
-      ],
-      "topics": [
-        "자동차"
-      ]
-    },
-    {
-      "id": "1085d6ddee0ef2ca482b",
-      "title": "포르쉐 AG, 만타이 레이싱 지분 67% 확보하며 홈 오브 스포츠카 구축",
-      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44707",
-      "summary": "",
-      "publishedAt": "2026-10-14T17:22:07Z",
-      "sourceIds": [
-        "motorgraph"
-      ],
-      "topics": [
-        "자동차"
-      ]
-    },
-    {
-      "id": "81803ac5389f70fa6a89",
-      "title": "채비, MCS 기반 자율충전 인프라 개발",
-      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44722",
-      "summary": "",
-      "publishedAt": "2026-10-14T17:20:06Z",
-      "sourceIds": [
-        "motorgraph"
-      ],
-      "topics": [
-        "자동차"
-      ]
-    },
-    {
-      "id": "e1d661c4c91d3555c81a",
-      "title": "고객이 원하는 곳으로 벤츠 덤프가 찾아간다!",
-      "url": "https://www.motorgraph.com/news/articleView.html?idxno=44721",
-      "summary": "",
-      "publishedAt": "2026-10-14T17:20:06Z",
-      "sourceIds": [
-        "motorgraph"
-      ],
-      "topics": [
-        "자동차"
-      ]
     },
     {
       "id": "0ae4d1ba954a1824b1f8",
