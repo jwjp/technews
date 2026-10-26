@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:42:31Z",
+  "generatedAt": "2026-10-26T18:44:18Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -407,6 +407,33 @@
   ],
   "articles": [
     {
+      "id": "0ed1355ad21825c6c651",
+      "title": "일본 사이버공격 급증에 정부 긴급대책 착수…기업들 고객 피해보상 확대",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209083",
+      "summary": "",
+      "publishedAt": "2026-10-27T00:51:51Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ]
+    },
+    {
+      "id": "91efc43548a930da7c78",
+      "title": "기업 AI 에이전트 76%, 두 달간 사용 안 해도 접근권한 유지…보안 사각지대 경고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209082",
+      "summary": "",
+      "publishedAt": "2026-10-27T00:45:20Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안",
+        "AI"
+      ]
+    },
+    {
       "id": "8952d396b1c7281a18a6",
       "title": "글로벌 컨택센터 솔루션 기업 제네시스 해킹…내부 고객관리시스템 정보 유출 확인",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209081",
@@ -618,6 +645,17 @@
       ]
     },
     {
+      "id": "e955f234331e55dd89a0",
+      "title": "Pharo 14 - 개발 도구 개편과 RISC-V JIT 지원 추가",
+      "url": "https://news.hada.io/topic?id=36057",
+      "summary": "순수 객체 지향 언어이자 즉각적인 피드백을 제공하는 개발 환경인 Pharo 14 가 출시됨. 개발 도구, 리팩터링 명령 인프라, 가상 머신 현대화에 집중함 Mission Control 을 도입하고 Spotter를 대체하는 Pulse 를 추가하며, 브라우저 도구 개편과 Sp...",
+      "publishedAt": "2026-10-26T18:37:56Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "e52268b84b3a73fc4a80",
       "title": "MS, 관리자 없이 AI 1024개 협업하는 ‘에이전시’ 공개…스스로 역할도 나눠",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216662",
@@ -629,6 +667,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "2179743bb5384ef06c9f",
+      "title": "CSS-Tricks의 소유주가 바뀜",
+      "url": "https://news.hada.io/topic?id=36056",
+      "summary": "Geoff Graham이 CSS-Tricks의 소유권을 인수 하면서 사이트가 다시 독립 운영으로 전환됨 운영비를 마련하기 위해 광고 패키지 판매를 재개 하고, 멤버십과 개발 중인 초보자용 HTML/CSS 강좌 등으로 수익원을 넓힐 계획임 기존 숙련자 중심 콘텐츠에 더해 ...",
+      "publishedAt": "2026-10-26T18:34:56Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "71efba88c9be6c0dfabe",
@@ -656,6 +705,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "93c31366276091e5e393",
+      "title": "Show GN: 이음플리 - AI로 만든 음악을 올리고 듣는 스트리밍 서비스",
+      "url": "https://news.hada.io/topic?id=36055",
+      "summary": "UtilPick을 만든 사람입니다. Suno 같은 AI 음악 도구로 곡을 만드는 사람은 많아졌는데, 만든 곡을 모아 두고 들려줄 곳이 유튜브 말고는 마땅치 않아서 음악 스트리밍 서비스를 따로 만들었습니다. 지금 곡 548개, 아티스트 54명이 올라와 있습니다. 가입하지 않아도 몇 곡은 바로 들어 볼 수 있습니다",
+      "publishedAt": "2026-10-26T18:12:42Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "8f54ee8a5758e8b37086",
@@ -790,6 +850,17 @@
       ]
     },
     {
+      "id": "0feb25b4733e7d557e7c",
+      "title": "OLED를 탑재한 iPad mini",
+      "url": "https://news.hada.io/topic?id=36053",
+      "summary": "새 iPad mini 는 8.5인치 Super Retina XDR 디스플레이와 A20 Pro 칩을 탑재하며, 미국 판매 가격은 699달러부터 시작함 A20 Pro 구성은 저장 용량에 따라 달라짐 . 128GB와 256GB 모델은 5코어 CPU와 16코어 Neural Engine을, 512GB 모델은 6코어 ...",
+      "publishedAt": "2026-10-26T17:44:09Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "2ae7e1e971334af968ef",
       "title": "[단독] 한국 역대급 수출에도 車·철강 한파 … 위태로운 '반도체 독주'",
       "url": "https://www.mk.co.kr/news/economy/12186126",
@@ -815,6 +886,28 @@
         "부동산",
         "경제"
       ]
+    },
+    {
+      "id": "c17f14140dc058cdd7cc",
+      "title": "Sebastian Raschka의 추론 모델을 밑바닥부터 만드는 동영상 강좌",
+      "url": "https://news.hada.io/topic?id=36052",
+      "summary": "사전 학습된 Qwen3 0.6B 를 출발점으로, Python과 PyTorch에서 평가, 추론 시점 확장, 강화학습, 증류를 직접 구현하는 8개 영상, 11시간 이상 의 강좌임 모델 가중치를 고정한 채 답변을 개선하는 자기 일관성과 자기 개선 부터, 검증 가능한 보상을...",
+      "publishedAt": "2026-10-26T17:41:09Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
+      "id": "ded207dfff1b2f09d4c4",
+      "title": "Microsoft, 전체 직원 약 4분의 1에 대규모 희망퇴직 제안",
+      "url": "https://news.hada.io/topic?id=36051",
+      "summary": "Microsoft 가 직원들에게 희망퇴직을 제안함 제안 대상은 약 6만 명 임 대상 규모는 전체 인력의 약 4분의 1 에 해당함 이번 희망퇴직 제안은 인력 규모를 관리 하려는 조치임 회사는 정리해고를...",
+      "publishedAt": "2026-10-26T17:38:09Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "671501d8af8ca02cba1d",
@@ -1121,6 +1214,19 @@
       ]
     },
     {
+      "id": "4326d457ed33dc1e0dea",
+      "title": "삼전·닉스 증설에 반도체 소부장 주목…\"후공정 장비 수혜 기대\"",
+      "url": "https://www.newsis.com/view/NISX20261026_0003841314",
+      "summary": "",
+      "publishedAt": "2026-10-26T17:30:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "e7130ed85780738a6aef",
       "title": "가치주펀드의 귀환 … 주식형 펀드 앞질러",
       "url": "https://www.mk.co.kr/news/stock/12186056",
@@ -1256,6 +1362,23 @@
       ]
     },
     {
+      "id": "b1e68f201147c8ba1a15",
+      "title": "화성에서 우주로 향하는 길…전문가 60명, 우주항공산업 밑그림 설계",
+      "url": "https://www.etnews.com/20261027000002",
+      "summary": "",
+      "publishedAt": "2026-10-26T17:11:05Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai",
+        "etnews-mobility"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI",
+        "자동차"
+      ]
+    },
+    {
       "id": "50692c2ed3d81300e436",
       "title": "아우토크립트, ITS 세계총회서 C-ITS 보안 구축 사례 및 핵심 기술 발표",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209073",
@@ -1385,6 +1508,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "c9da0c3f4b7f60590252",
+      "title": "Fedora 44에 CachyOS kernel 설치",
+      "url": "https://sunyzero.tistory.com/331",
+      "summary": "Fedora 44에 CachyOS의 최적화된 커널을 설치하는 방법을 다룬다. 방법은 Fedora Copr(Community Project)에 개인이 빌드해둔 CachyOS kernel rpm을 설치하는 방법이다. 그리고 Fedora 44 기본 커널과 CachyOS 최적화된 커널의 성능 차이가 얼마나 있는지도 살펴보도록 한다. 모든 작업은 root 권한을 필요로 하므로 root로 변경하거나 sudo 명령을 사용해야만 한다. 주의할 점은 copr 저장소는 인증받지 않은 저장소이므로 안정성이 떨어지거나",
+      "publishedAt": "2026-10-26T16:54:36Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": []
     },
     {
       "id": "30838ee0c489f0040ab8",
@@ -1628,6 +1762,17 @@
       ]
     },
     {
+      "id": "173d89e0b9c3d4a4f52f",
+      "title": "Nintendo 3DS에서 구동하는 F-Zero X",
+      "url": "https://news.hada.io/topic?id=36050",
+      "summary": "F-Zero X 디컴파일 프로젝트 G-Diffuser를 Nintendo 3DS에 네이티브 이식 해 v1.0.0을 출시함. Old 3DS와 New 3DS용 기본 게임, New 3DS용 64DD Expansion Kit 포함 버전까지 세 가지 빌드를 제공함 Old 3DS의 성능 병목은 명령어 수가 아니라 명령어 캐시 미스 였음...",
+      "publishedAt": "2026-10-26T16:34:11Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "89455dfd0b2a81b59feb",
       "title": "두나무앤파트너스, 미국 우주 데이터센터 기업 스타클라우드에 투자",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216664",
@@ -1723,6 +1868,19 @@
       ]
     },
     {
+      "id": "608bf4c80c66d5de7a07",
+      "title": "\"흔들리는 달러 시대…다음 주인공은 비트코인\"",
+      "url": "https://www.newsis.com/view/NISX20261026_0003840590",
+      "summary": "",
+      "publishedAt": "2026-10-26T16:17:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "3ccf90e83f1bbdcee746",
       "title": "더존비즈온, 시스템 비정상 접근에 공식 사과…민관합동조사 협조",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209068",
@@ -1761,6 +1919,19 @@
       "topics": [
         "금융",
         "경제"
+      ]
+    },
+    {
+      "id": "ef8246be89b2de867bf4",
+      "title": "적자 예상 뒤집은 테슬라…현금흐름 개선에 '저평가론' 고개",
+      "url": "https://www.newsis.com/view/NISX20261026_0003841599",
+      "summary": "",
+      "publishedAt": "2026-10-26T15:58:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
       ]
     },
     {
@@ -3051,7 +3222,8 @@
       "publishedAt": "2026-10-26T12:09:22Z",
       "sourceIds": [
         "techblogposts",
-        "velopers"
+        "velopers",
+        "indieblog"
       ],
       "topics": []
     },
@@ -3076,7 +3248,8 @@
       "publishedAt": "2026-10-26T12:07:24Z",
       "sourceIds": [
         "techblogposts",
-        "velopers"
+        "velopers",
+        "indieblog"
       ],
       "topics": []
     },
@@ -3308,6 +3481,17 @@
       "topics": [
         "AI"
       ]
+    },
+    {
+      "id": "fed888a8b60aee97a5ee",
+      "title": "MyShorts - 콘티가 좋다고, 구성이 좋은건 아니다...",
+      "url": "https://indieblog.net/go/655533",
+      "summary": "AI 협업 EP02의 콘티를 처음 받아봤을 때, 내용에는 별다른 불만이 없었다. 금융도 파이썬도 모르는 개발자가 MyStock을 시작하고, 요구사항을 정하면 ChatGPT가 분석과 설계를 보완하고 Codex가 구현하는 이야기였다. 마지막에는 세 캐릭터가 서로 반응하는 장면까지 들어갔다. 내가 전달하려던 메시지인 ‘코딩은 AI가, 방향은 내가’도 살아 있었다…",
+      "publishedAt": "2026-10-26T11:21:29Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
     },
     {
       "id": "370d6255353272869f11",
@@ -5313,6 +5497,7 @@
         "hankyung-economy"
       ],
       "topics": [
+        "금융",
         "경제"
       ]
     },
@@ -14911,6 +15096,39 @@
       "publishedAt": "2026-10-26T00:00:00Z",
       "sourceIds": [
         "velopers"
+      ],
+      "topics": []
+    },
+    {
+      "id": "c3f257eef44cb6d49273",
+      "title": "Meccha Chameleon: 두 개발자가 올여름을 강타한 인디 흥행작을 탄생시킨 방법",
+      "url": "https://indieblog.net/go/655534",
+      "summary": "일본 개발자 두 명이 UE5로 단 두 달 만에 Prop Hunt에서 영감을 받은 인디 게임 Meccha Chameleon을 제작했습니다. 출시 첫 4일 만에 무려 100만 장이 판매되며 단숨에 흥행작으로 떠오른 이 게임의 개발 이야기를 자세히 알아보세요.",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "932749a9cb8dba689579",
+      "title": "모바일에서 읽히지 않던 문서 다이어그램을 Mermaid에서 Pele로 바꾼 과정",
+      "url": "https://indieblog.net/go/655532",
+      "summary": "화면이 좁으면 통째로 줄어들던 문서 속 Mermaid 다이어그램 84개를 Pele로 바꿨습니다. Claude Code로 후보를 검증하고 다크 모드 색상 문제를 CSS로 푼 과정을 375px 캡처와 함께 정리했습니다.",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "sourceIds": [
+        "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "51bbf4326a80ef558de6",
+      "title": "Kit 무료 플랜으로 개인 블로그에 뉴스레터를 붙인 과정",
+      "url": "https://indieblog.net/go/655531",
+      "summary": "RSS밖에 없던 개인 블로그에 Kit 무료 플랜으로 이메일 구독을 붙였습니다. 서비스를 고른 기준, 확인 메일이 스팸함으로 간 문제의 원인과 해결, 무료 플랜에서 막힌 부분, 그리고 Kit API와 Cloudflare Workers로 새 글 초안을 자동으로 만든 과정을 정리했습니다.",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "sourceIds": [
+        "indieblog"
       ],
       "topics": []
     },
@@ -37175,46 +37393,6 @@
       ]
     },
     {
-      "id": "567e402bde7c3248166f",
-      "title": "서울시, 면목·사당 모아주택 2121가구 공급 속도…사업성 높여 2027년 착공 추진",
-      "url": "https://www.fnnews.com/news/202610231047390584",
-      "summary": "",
-      "publishedAt": "2026-10-23T02:15:00Z",
-      "sourceIds": [
-        "fnnews-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "ebdafc0e2db1f2549312",
-      "title": "면목·사당동 모아주택 사업성 개선…내년 2121세대 착공 추진",
-      "url": "https://www.newsis.com/view/NISX20261023_0003838261",
-      "summary": "",
-      "publishedAt": "2026-10-23T02:15:00Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "부동산",
-        "경제"
-      ]
-    },
-    {
-      "id": "7b99299c1717ed4f87ed",
-      "title": "소농 판로 지키는 로컬푸드 직매장…100만원 팔아도 9000원 남아",
-      "url": "https://www.newsis.com/view/NISX20261023_0003837760",
-      "summary": "",
-      "publishedAt": "2026-10-23T02:14:39Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "6c348efa523036d1aec8",
       "title": "LG엔솔, 中 난징 9공장 본격 가동…테슬라향 원통형 2170 증산 속도",
       "url": "https://zdnet.co.kr/view?no=20261022155831",
@@ -57820,53 +57998,6 @@
         "velopers"
       ],
       "topics": []
-    },
-    {
-      "id": "0801e08339a76f6b90a5",
-      "title": "[포토] 글로벌 AI & 디지털 장관회의",
-      "url": "https://www.etnews.com/20261019000285",
-      "summary": "",
-      "publishedAt": "2026-10-19T05:41:58Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-ai"
-      ],
-      "topics": [
-        "소프트웨어",
-        "AI"
-      ]
-    },
-    {
-      "id": "6bce0a990b47eb72a388",
-      "title": "세종창조경제혁신센터·SKT·세종시사회서비스원, AI 기술로 ‘예방적 돌봄’ 실증 추진",
-      "url": "https://it.donga.com/109724",
-      "summary": "",
-      "publishedAt": "2026-10-19T05:41:29Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술",
-        "AI"
-      ]
-    },
-    {
-      "id": "680fb91cce5e27e05745",
-      "title": "스패로우, AI 코딩 보안 솔루션 '스패로우 MCP' 日 출시",
-      "url": "https://www.etnews.com/20261019000276",
-      "summary": "",
-      "publishedAt": "2026-10-19T05:37:34Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-security",
-        "etnews-ai"
-      ],
-      "topics": [
-        "개발",
-        "소프트웨어",
-        "보안",
-        "AI"
-      ]
     },
     {
       "id": "819e127b50080154c857",
