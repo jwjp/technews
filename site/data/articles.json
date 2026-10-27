@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:37:06Z",
+  "generatedAt": "2026-10-27T18:25:48Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -982,6 +982,17 @@
       ]
     },
     {
+      "id": "d41fae9257b10e2abf7a",
+      "title": "Genie 4 - 소리와 대화를 함께 생성하는 실시간 월드 모델",
+      "url": "https://news.hada.io/topic?id=36119",
+      "summary": "Google DeepMind가 가상 세계와 음악, 환경음, 대화를 함께 생성 하는 Genie 4를 발표하고, 신뢰할 수 있는 테스터를 대상으로 연구 프리뷰 배포를 시작함 자연어로 실시간 시뮬레이션을 수정 할 수 있으며, Gemini가 주변 장면에 맞춰 지시를 적용하고 사용자 입력 ...",
+      "publishedAt": "2026-10-27T17:32:54Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "43e0de6b035600a5217c",
       "title": "하청의 작업중지권부터 과징금까지…산안법 다시 고친 이유",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216721",
@@ -1479,6 +1490,17 @@
       ]
     },
     {
+      "id": "d65c371d4e81b7ecbb45",
+      "title": "미국 정부, 자국민 감시 방식에 관한 비밀 법원 판결을 숨기고 있다",
+      "url": "https://news.hada.io/topic?id=36118",
+      "summary": "",
+      "publishedAt": "2026-10-27T16:31:33Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "e5fe6a56ad4a11565ba7",
       "title": "케이던스, 엔비디아 기반 반도체 설계 AI '마에스트로' 공개…자체 데이터 학습 지원",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216719",
@@ -1517,6 +1539,24 @@
       ],
       "topics": [
         "주식"
+      ]
+    },
+    {
+      "id": "50b43a0c3ff103e7ebe4",
+      "title": "발레하고 상자도 척척…화성시, AI 엑스포 'MARS 2026'에 다양한 로봇 총출동",
+      "url": "https://www.etnews.com/20261028000005",
+      "summary": "",
+      "publishedAt": "2026-10-27T16:23:07Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai",
+        "etnews-mobility"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI",
+        "자동차"
       ]
     },
     {
@@ -1589,6 +1629,21 @@
       ]
     },
     {
+      "id": "ea612c98442f5c50582c",
+      "title": "대학 기술이 지역기업 성장으로?…경기도·경과원, 미래성장페어 개최",
+      "url": "https://www.etnews.com/20261028000004",
+      "summary": "",
+      "publishedAt": "2026-10-27T16:08:31Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
       "id": "b9df93f5d410b985811c",
       "title": "수은, 신보와 생산적 포용금융 활성화 ‘맞손’",
       "url": "https://www.mk.co.kr/news/economy/12187134",
@@ -1642,6 +1697,19 @@
       ]
     },
     {
+      "id": "a93c4d7f7ab40fedf029",
+      "title": "\"메타는 흔들렸는데\"…이번주 알파벳 실적 발표가 다를 이유",
+      "url": "https://www.newsis.com/view/NISX20261027_0003843022",
+      "summary": "",
+      "publishedAt": "2026-10-27T15:55:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "d29c9faa27e359b852a6",
       "title": "[게임즈 온 AWS 26] 크래프톤 AI 거버넌스 전략, \"조직원 AI 활용 적극 권장, 핵심은 효율적 비용 절감\"",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156550",
@@ -1669,6 +1737,17 @@
       ]
     },
     {
+      "id": "e29e6fe9f2353f019aa7",
+      "title": "소프트웨어가 나빠지고 있을지는 몰라도, 예전에는 끔찍했음",
+      "url": "https://news.hada.io/topic?id=36116",
+      "summary": "현대 소프트웨어의 품질 문제를 인정하더라도, 과거 소프트웨어가 더 좋았다는 향수 는 1990년 이후 겪은 잦은 시스템 충돌과 작업 손실을 잊은 것임 물리 매체 출시에 필요한 최소 품질선은 있었지만, 드라이버와 운영체제의 결함, 취약한 보안, 수동 디스크 조각 모음처럼 ...",
+      "publishedAt": "2026-10-27T15:49:29Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "8801b81645bb0d595618",
       "title": "KT, AI 모델 500개 통합 ‘토큰팩토리’ 출시…토큰 최대 25% 절감",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216709",
@@ -1694,6 +1773,17 @@
         "기술",
         "보안"
       ]
+    },
+    {
+      "id": "4908922ac6a06db438c2",
+      "title": "Wikipedia의 AI 생성 콘텐츠 정리 작업",
+      "url": "https://news.hada.io/topic?id=36115",
+      "summary": "WikiProject AI Cleanup 은 Wikipedia 지침을 위반하는 AI 생성 콘텐츠를 찾아 제거하는 자원봉사 프로젝트로, 노골적인 상투어 탐지에서 더 미묘한 문장 구조와 편집 행동 분석으로 대응 범위를 넓히고 있음 인용의 신뢰성 이 주요 문제로, 검색 증강 생성으로 출처...",
+      "publishedAt": "2026-10-27T15:46:29Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "89229fba1282d3a5eeb5",
@@ -1733,6 +1823,17 @@
       "topics": [
         "주식"
       ]
+    },
+    {
+      "id": "da73ee1992eff3929a8e",
+      "title": "Python의 실험적 JIT, 제거 예정",
+      "url": "https://news.hada.io/topic?id=36114",
+      "summary": "CPython의 실험적 JIT 컴파일러 유지관리자들이 정식 지원 전환 계획을 담은 PEP 836을 철회 하면서, 메인 브랜치에서 JIT 개발이 중단되고 코드도 제거될 예정임 Python 운영위원회는 유지관리, 호환성, 성공 지표와 일정에 관한 승인된 PEP를 요구했으며,",
+      "publishedAt": "2026-10-27T15:43:29Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "b9546187f3367bd6d13c",
@@ -1825,6 +1926,20 @@
       ],
       "topics": [
         "주식"
+      ]
+    },
+    {
+      "id": "bc59159023c05b6f4e7f",
+      "title": "AI 거품론에 떨던 월가…앤스로픽 IPO서류보고 놀란 이유는?",
+      "url": "https://www.hankyung.com/article/202610289102i",
+      "summary": "",
+      "publishedAt": "2026-10-27T15:35:30Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "주식",
+        "경제"
       ]
     },
     {
@@ -2071,6 +2186,7 @@
       "summary": "일본에 흥미로운 변화가 있어서 생각난 에피소드입니다. 1. 전 국민을 대상으로 최소 3일, 가능하면 일주일 분 음식, 물을 준비하라는 긴급요청이 11월 2일 일본에서 나올 예정임. 2. 11월 2일은 일본 방재청이 출범하는 날이고, 호소노 고시 방재 장관이 내겠다는 메시지가 이것임. 3. 핵심 메시지는 정부 지원 없이 버틸수 있도록 최소 3일, 가능하면 1주일분의 생존 음식과 화장실, 물을 확실히 준비하라는 것임. 4. 2026년 9월 25일, 일본 정부는 전체적인 재해 대책을 총괄 지휘할 방재청",
       "publishedAt": "2026-10-27T15:10:00Z",
       "sourceIds": [
+        "awesome",
         "mer-blog"
       ],
       "topics": [
@@ -2088,6 +2204,22 @@
       ],
       "topics": [
         "금융"
+      ]
+    },
+    {
+      "id": "96df7521dff31fffd20d",
+      "title": "반도체 불량 미리 알 수 있을까?…수원시·성균관대 115억 검증 협력",
+      "url": "https://www.etnews.com/20261028000001",
+      "summary": "",
+      "publishedAt": "2026-10-27T15:08:58Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -2606,6 +2738,19 @@
       ]
     },
     {
+      "id": "38d18e23c0fa0ca1a8b7",
+      "title": "[포토] 글로벌 컨퍼런스 D-G2CAM 2026",
+      "url": "https://www.etnews.com/20261027000489",
+      "summary": "",
+      "publishedAt": "2026-10-27T13:38:53Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "e6f6e372515ce53219b5",
       "title": "Roblox가 허락 없이 Open3DLab 등에서 성인 콘텐츠를 포함한 모델 145GB를 다운로드함",
       "url": "https://news.hada.io/topic?id=36109",
@@ -2615,6 +2760,19 @@
         "geeknews"
       ],
       "topics": []
+    },
+    {
+      "id": "a9b1af9e49589e3b158f",
+      "title": "[포토] 글로벌 콘테스트 D-AMGC 2026",
+      "url": "https://www.etnews.com/20261027000488",
+      "summary": "",
+      "publishedAt": "2026-10-27T13:37:43Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
     },
     {
       "id": "1c41157495cb70fc2759",
@@ -2682,6 +2840,19 @@
       ]
     },
     {
+      "id": "92a2d21d0684e3bd2f7f",
+      "title": "\"AI에이전트 경쟁력 진단\"...'미래기술 전략포럼' 다음달 5일 행사",
+      "url": "https://zdnet.co.kr/view?no=20261027223206",
+      "summary": "",
+      "publishedAt": "2026-10-27T13:32:06Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "AI"
+      ]
+    },
+    {
       "id": "a2ab13e7df501650960e",
       "title": "삼성월렛 머니, 중국 위챗페이 QR 결제 지원",
       "url": "https://www.mk.co.kr/news/stock/12186870",
@@ -2706,6 +2877,21 @@
       "topics": [
         "주식",
         "정책"
+      ]
+    },
+    {
+      "id": "05f0808d18f9be9ce67e",
+      "title": "어도비, 英 히드로공항과 AI 협력 확대…승객 맞춤 서비스 제공",
+      "url": "https://www.etnews.com/20261027000480",
+      "summary": "",
+      "publishedAt": "2026-10-27T13:26:17Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
       ]
     },
     {
@@ -2787,6 +2973,21 @@
       "topics": [
         "기술",
         "개발",
+        "AI"
+      ]
+    },
+    {
+      "id": "2a919c6260ca2634d367",
+      "title": "서울AI허브, 벤처 투자사와 AI 스타트업 성장 단계별 지원한다",
+      "url": "https://www.etnews.com/20261027000471",
+      "summary": "",
+      "publishedAt": "2026-10-27T13:11:07Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
         "AI"
       ]
     },
@@ -6851,6 +7052,19 @@
       ]
     },
     {
+      "id": "5d4c4079b640406bd9be",
+      "title": "[포토] 미래 모빌리티 글로벌 콘테스트(D-AMGC 2026)",
+      "url": "https://www.etnews.com/20261027000398",
+      "summary": "",
+      "publishedAt": "2026-10-27T07:12:55Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "69b4cce05ecb947ef278",
       "title": "[포토] 반도체 강세에 코스피 3% 반등...5,638선 마감",
       "url": "https://www.hankyung.com/article/202610278336i",
@@ -7671,6 +7885,19 @@
       "topics": []
     },
     {
+      "id": "bf0690ccdb650e35f31c",
+      "title": "[포토] D-G2CAM 2026 개회",
+      "url": "https://www.etnews.com/20261027000380",
+      "summary": "",
+      "publishedAt": "2026-10-27T06:37:35Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ]
+    },
+    {
       "id": "1e4a3a9c741dfa8b50c0",
       "title": "크라우드웍스, 기업 AX 데이터 구축·운영 백서 발간",
       "url": "https://www.etnews.com/20261027000379",
@@ -7709,6 +7936,19 @@
       ],
       "topics": [
         "주식"
+      ]
+    },
+    {
+      "id": "89f78043e8f516077e7c",
+      "title": "[포토] D-G2CAM 2026 발표",
+      "url": "https://www.etnews.com/20261027000378",
+      "summary": "",
+      "publishedAt": "2026-10-27T06:36:02Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
       ]
     },
     {
@@ -34148,32 +34388,6 @@
       "topics": []
     },
     {
-      "id": "2a3b0620653f31836ccc",
-      "title": "라이브방송으로 '18억 돈방석' 앉더니…유명 인플루언서의 최후 [차이나 워치]",
-      "url": "https://www.hankyung.com/article/202610242427i",
-      "summary": "",
-      "publishedAt": "2026-10-25T21:04:01Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "af1e4453eda8e1308191",
-      "title": "\"우리도 해주세요\"…해방촌 사장님들 코카콜라 반긴 이유 [현장+]",
-      "url": "https://www.hankyung.com/article/202610231279g",
-      "summary": "",
-      "publishedAt": "2026-10-25T21:00:03Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "8ab4a0f1c4658fd51e54",
       "title": "GTA6 출시가 美 경제에 악영향?…“회사원 150만명 쉬어 1.3조 날아갈수도”",
       "url": "https://www.etnews.com/20261023000170",
@@ -57781,115 +57995,6 @@
       ]
     },
     {
-      "id": "e5d3d8ff965384887dc1",
-      "title": "허깅페이스, AI 평가 믿으려면 누가 해도 같은 결과 나와야",
-      "url": "https://aimatters.co.kr/news-report/56055",
-      "summary": "",
-      "publishedAt": "2026-10-20T08:02:54Z",
-      "sourceIds": [
-        "aimatters"
-      ],
-      "topics": [
-        "AI"
-      ]
-    },
-    {
-      "id": "7fc82b973a4ba81106d0",
-      "title": "맘다니 뉴욕시장 “AI 도입, 정해진 운명 아니다”",
-      "url": "https://aimatters.co.kr/news-report/56056",
-      "summary": "",
-      "publishedAt": "2026-10-20T08:02:41Z",
-      "sourceIds": [
-        "aimatters"
-      ],
-      "topics": [
-        "AI"
-      ]
-    },
-    {
-      "id": "2d5aafb8e15fb4e94bf7",
-      "title": "국내 AI 파생 모델 절반이 중국산…알리바바 '큐원'에 편중",
-      "url": "https://zdnet.co.kr/view?no=20261020164823",
-      "summary": "",
-      "publishedAt": "2026-10-20T08:01:50Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "AI"
-      ]
-    },
-    {
-      "id": "b41b9e34a5fa26b7ed8e",
-      "title": "[르포] “AI가 알아서 빨래 정리”…제논 '피지컬 AI 두뇌' 개발 현장",
-      "url": "https://www.etnews.com/20261020000283",
-      "summary": "",
-      "publishedAt": "2026-10-20T08:00:00Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-ai"
-      ],
-      "topics": [
-        "소프트웨어",
-        "AI"
-      ]
-    },
-    {
-      "id": "62f639ca02aae973ac54",
-      "title": "[테크 차이나] 中 AI 시장, 실행력 중심으로 전환…AI 네이티브 앱 이용자 5억4600만명",
-      "url": "https://www.etnews.com/20261020000348",
-      "summary": "",
-      "publishedAt": "2026-10-20T08:00:00Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-ai"
-      ],
-      "topics": [
-        "소프트웨어",
-        "AI"
-      ]
-    },
-    {
-      "id": "b9c7aea14f7bef3f29be",
-      "title": "\"뇌 신호 이해부터 장기 기억까지\"…MS, 사람과 협업하는 AI 생태계 제시",
-      "url": "https://zdnet.co.kr/view?no=20261020160607",
-      "summary": "",
-      "publishedAt": "2026-10-20T07:57:20Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "AI"
-      ]
-    },
-    {
-      "id": "d68c62a4d57843d5ffde",
-      "title": "\"사람이 AI 공격 못 따라가\"…시스코, AI로 AI 막는다",
-      "url": "https://zdnet.co.kr/view?no=20261020161900",
-      "summary": "",
-      "publishedAt": "2026-10-20T07:57:04Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "AI"
-      ]
-    },
-    {
-      "id": "6b1ad609c34e36cba375",
-      "title": "[유미's 픽] \"GPU만 늘려선 안 돼\"…시스코, AI 데이터센터 병목 해법 꺼냈다",
-      "url": "https://zdnet.co.kr/view?no=20261020152215",
-      "summary": "",
-      "publishedAt": "2026-10-20T07:51:22Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "기술",
-        "AI"
-      ]
-    },
-    {
       "id": "63d5faf08d7833f24aec",
       "title": "광고 없는 Android TV",
       "url": "https://news.hada.io/topic?id=35697",
@@ -57921,45 +58026,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "84791b5705b792ca851d",
-      "title": "저궤도통신위성 뜨는데… 韓, 주파수 등록 2건뿐",
-      "url": "https://www.etnews.com/20261020000282",
-      "summary": "",
-      "publishedAt": "2026-10-20T07:30:00Z",
-      "sourceIds": [
-        "etnews-it"
-      ],
-      "topics": [
-        "기술"
-      ]
-    },
-    {
-      "id": "64858df659c29521ee3b",
-      "title": "넥슨 '아크 레이더스' 업데이트 후 반등... 무료 체험 끝나도 9월 동접 3배",
-      "url": "https://www.etnews.com/20261020000251",
-      "summary": "",
-      "publishedAt": "2026-10-20T07:30:00Z",
-      "sourceIds": [
-        "etnews-it"
-      ],
-      "topics": [
-        "기술"
-      ]
-    },
-    {
-      "id": "3a0c8e9ba218af7189a3",
-      "title": "나루씨큐리티, AI공격 막는 ‘AI 웹 방어’ 서비스 '제로티카 라이트 웹’ 출시",
-      "url": "https://zdnet.co.kr/view?no=20261020162125",
-      "summary": "",
-      "publishedAt": "2026-10-20T07:21:25Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "AI"
-      ]
     },
     {
       "id": "b949c93c3df8e9779eca",
@@ -60443,61 +60509,6 @@
       ]
     },
     {
-      "id": "a734a3449d8d81227156",
-      "title": "한화머시너리앤서비스홀딩스(한화M&S) 공개매수의 이유는 뭘까",
-      "url": "https://blog.naver.com/anordinarydad/224439522929",
-      "summary": "한화머시너리앤서비스홀딩스(이하 한화머시너리)의 주식에 대한 공개매수가 발표됐다. 연휴 잘 쉬고 왔는데 이른 아침부터 기습적으로 말이다. 근데 벌써부터 심상치가 않다. 제출인이 김동선이다. 통상 계열사나 법인이 공개매수를 하는 것이 일반적인데 개인이 개인 돈을 써서 주식을 산다? 도대체 왜 개인돈을 써가며 이런 공개매수를 하는 것일까? 하나하나 살펴보자. 보통주 19%를 공개매수한다는 내용이다. 매수가격은 주당 8,000원이고 16,060,000주를 사는거니 총 매수금액은 128,480,000,00",
-      "publishedAt": "2026-10-12T14:40:00Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
-      "id": "05693a466915ed7169ac",
-      "title": "멍청",
-      "url": "https://blog.naver.com/bizucafe/224439528663",
-      "summary": "요즘은 다 같이 멍청해지는 느낌이 든다. 뭐 하나 쓸 때도 인공지능에 턱턱 맡겨버리고.. 처음부터 끝까지 내가 온전히 만들어낸 실제적 감각과 경험이 턱없이 부족하다. 어떻게든 노력이야 하고 있지만 물밀듯이 밀려오는 기술적 강요 속에서 독야청청하는 게 어떻게 가능할까? 깊게 생각하고 소화하고 그것을 자신의 언어로 다시 재해석해서 에너지를 뿜어내는 글과 생각들을 접한 지 꽤나 오래된 것 같다. 어쩌면 내가 그렇지 못한 환경 속으로 자발적으로 걸어 들어간 것일지도 모르고.. 많은 것들이 쏟아지고 있는데",
-      "publishedAt": "2026-10-12T13:44:21Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
-      "id": "dc5f7e306f8ef08e2228",
-      "title": "Does Adopting AI Really Make Teams Faster?",
-      "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster/en",
-      "summary": "Lately, many organizations have been adopting AI almost as if it were a race. At Cloud Next in April 2026, Google announced that 75% of all new code at Google is now generated by AI and approved by engineers. Just a year and a half earlier, in its October 2024 earnings call, that",
-      "publishedAt": "2026-10-12T08:00:00Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
-      "id": "1968713c6757742c6f67",
-      "title": "AI를 도입하면 팀은 정말 빨라질까",
-      "url": "https://evan-moon.github.io/2026/10/12/does-ai-make-teams-faster",
-      "summary": "최근 많은 조직에서 마치 경쟁하듯이 AI를 도입하고 있다. 구글은 2026년 4월 클라우드 넥스트에서 새로 작성되는 코드의 75%가 AI로 생성되고 엔지니어의 승인을 거친다고 발표했는데, 불과 1년 반 전인 2024년 10월 실적 발표에서는 그 숫자가 4분의 1을 조금 넘는 수준이었다. 아무래도 이런 숫자가 매 분기 뉴스에 나오다 보니 다른 조직들도 가만히 있을 수가 없고, 사내 AI 코딩 도구 도입률이나 주간 활성 사용자 비율 같은 숫자가 분기 목표에 올라가는 풍경도 이제는 꽤 익숙해졌다. 그런",
-      "publishedAt": "2026-10-12T08:00:00Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
-      "id": "8ac356f5bba1e7f200a4",
-      "title": "AI 시대, 전공자가 쌓아야 할 역량 이야기",
-      "url": "https://subokim.wordpress.com/2026/10/12/ai-competency",
-      "summary": "불과 몇년 전만 하더라도 코딩할 수 있다는 것만으로 쉽게 취업이 가능했습니다.이젠 어렵죠. AI 때문에 환경이 완전히 변했습니다. 이젠 몇마디 말만으로 복잡한 웹 서비스가 만들어지죠.Claude Code, Codex 가 신입 개발자의 영역을 대체했습니다. 기업은 이제 코드를 만드는 사람보다, AI를 활용해 결과물을 만드는 사람을 찾고 있습니다. 결과물이란 동작하는 코드가 아니라, 무언가 목표와 이용 가치를 가지는 제품 형태를 말합니다.즉, […]",
-      "publishedAt": "2026-10-12T07:51:14Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
       "id": "7e2557f4cce34835eb27",
       "title": "우선 서울은 소형이라도 잡아야 한다는 생존 매수세로 저가폭등중",
       "url": "https://blog.naver.com/jackpasi/224438949238?fromRss=true&trackingCode=rss",
@@ -62129,19 +62140,6 @@
       "publishedAt": "2026-05-04T01:00:00Z",
       "sourceIds": [
         "richnote-blog"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "59c5985a4c510513e5e9",
-      "title": "아기곰 투자지침서(2026년 특강해설서) 발매",
-      "url": "https://blog.naver.com/a-cute-bear/224271083743?fromRss=true&trackingCode=rss",
-      "summary": "접수를 마감합니다. 성원에 감사드립니다. --------------------------------------------------------------------------------------- 안녕하세요? 아기곰입니다. 아기곰 투자지침서(특강 해설서 2026년 판)를 드디어 완성했습니다. 작년에 보내주셨던 많은 분들의 호평과 성원에 힘입어, 올해는 완성도를 더 높였습니다. 규제의 강도를 더해가는 현 정부 하에서 우리나라 경제와 집값은 어찌될 지, 이에 개인은 어찌 대응해야 할지 무주택자, 1",
-      "publishedAt": "2026-04-30T16:02:08Z",
-      "sourceIds": [
-        "babybear-blog"
       ],
       "topics": [
         "부동산"
