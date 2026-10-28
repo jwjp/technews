@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T12:31:16Z",
+  "generatedAt": "2026-10-28T15:24:16Z",
   "sources": [
     {
       "id": "techblogposts",
@@ -406,6 +406,35 @@
     }
   ],
   "articles": [
+    {
+      "id": "ba04ee747f6ba2c83804",
+      "title": "중국 해커조직, 정부 기밀부터 반도체 산업정보까지 노린다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209148",
+      "summary": "",
+      "publishedAt": "2026-10-28T23:09:26Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "기술",
+        "보안"
+      ]
+    },
+    {
+      "id": "58009828ceed3854135b",
+      "title": "\"북한 해커조직, 개발자 인증정보 탈취 후 악성코드 유포…소프트웨어 공급망 위협\"",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209147",
+      "summary": "",
+      "publishedAt": "2026-10-28T23:00:11Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "개발",
+        "소프트웨어",
+        "보안"
+      ]
+    },
     {
       "id": "812c068b9059592a5ace",
       "title": "美 피지컬 인텔리전스, 기업가치 200억 달러 목표…10억 달러 투자 유치 추진",
@@ -2020,6 +2049,32 @@
       ]
     },
     {
+      "id": "4407678e5e101b4173f6",
+      "title": "\"앤트로픽·오픈AI 돈줄 풀리면 수혜\"…브로드컴 목표가 '상향'",
+      "url": "https://www.newsis.com/view/NISX20261028_0003844688",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:21:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
+      "id": "4c306feb6e5b62ec77d5",
+      "title": "돈 많으면 행복도 따라올까…복권 당첨자 10년 뒤 조사해보니",
+      "url": "https://www.newsis.com/view/NISX20261028_0003844677",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:20:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "a3b5753abe4061d1a169",
       "title": "코윈로보틱스, K-푸드 RX 시장 공략 본격화",
       "url": "https://www.irobotnews.com/news/articleView.html?idxno=49247",
@@ -2075,6 +2130,33 @@
       ]
     },
     {
+      "id": "74bcccc5b8410afbd157",
+      "title": "강화 소 농장서 구제역 추가 발생…방역지역 해제 검사 중 확인",
+      "url": "https://www.newsis.com/view/NISX20261028_0003845487",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:14:05Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "cea0fca06dabdc9bffc5",
+      "title": "코스피 6000선 탈환…\"추가 상승 열쇠는 결국 외국인\"",
+      "url": "https://www.newsis.com/view/NISX20261028_0003844335",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:14:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
       "id": "062a862b347af62fc1f2",
       "title": "은행 '포용금융' 성적 매긴다...출연금 최대 20% 차등",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156608",
@@ -2127,6 +2209,20 @@
       ]
     },
     {
+      "id": "a7039914f15f7482f224",
+      "title": "SK하이닉스 실적발표 내용과 솔리다임 상장의 뒷 이야기",
+      "url": "https://blog.naver.com/ranto28/224454861477?fromRss=true&trackingCode=rss",
+      "summary": "SK하이닉스가 오늘(10/28) 오전에 발표한 2026년 3분기 실적과 컨퍼런스콜 내용과 저번에 언급한 솔리다임 상장 이야기입니다. 1. SK하이닉스는 매출 104.6조원에 영업이익 81.3조원으로 영업이익률 80%라는 분기실적을 발표함. 2. 시장 컨센서스는 매출 98.5조원에 영업이익 77.2조원, 영업이익률 78.4% 였는데 컨센서스를 초과하는 실적을 발표한 것임. 3. 순현금은 98.7조원으로 예상하던대로 100조원에 가까운 현금성 자산 보유를 확인시켜 줌. 4. 2분기 40조원에 이어서,",
+      "publishedAt": "2026-10-28T15:10:00Z",
+      "sourceIds": [
+        "mer-blog"
+      ],
+      "topics": [
+        "주식",
+        "경제"
+      ]
+    },
+    {
       "id": "980a8e3ab941de7121e7",
       "title": "SK하이닉스, 분기 매출 100조 시대 열어...주당 2만원 분기 배당",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216746",
@@ -2137,6 +2233,20 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "8f8599d5821f138163e4",
+      "title": "\"머스크 1인 체제와 달라\"…'IPO 대어' 앤트로픽, 창업자 7명이 경영권 쥔다",
+      "url": "https://www.newsis.com/view/NISX20261028_0003843991",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:08:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식",
+        "금융"
       ]
     },
     {
@@ -2205,6 +2315,63 @@
       ]
     },
     {
+      "id": "0e9b447eee899aa1ebb9",
+      "title": "AI 기대 꺾인 中증시, 3400조 증발…거품 터지나",
+      "url": "https://www.newsis.com/view/NISX20261028_0003843986",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식",
+        "금융"
+      ]
+    },
+    {
+      "id": "09fe7ab4d774c6a2f738",
+      "title": "고금리·고환율 시대 청년 재테크…\"수익률 욕심 내려놓고 경험 쌓아라\"",
+      "url": "https://www.newsis.com/view/NISX20261028_0003844865",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:00:00Z",
+      "sourceIds": [
+        "newsis-finance",
+        "newsis-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
+      "id": "e8fbce3ce6c530bdcd93",
+      "title": "\"임대차 계약 기간 연장? 전세 시장 완전히 망가질 것\"…김인만 소장의 경고",
+      "url": "https://www.newsis.com/view/NISX20261028_0003844331",
+      "summary": "",
+      "publishedAt": "2026-10-28T15:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "부동산",
+        "경제"
+      ]
+    },
+    {
+      "id": "7505821bbf5d12b16b03",
+      "title": "이스라엘 총선 불확실성에 금융시장 출렁… 국체·셰켈화 하락",
+      "url": "https://www.newsis.com/view/NISX20261028_0003845519",
+      "summary": "",
+      "publishedAt": "2026-10-28T14:59:39Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "금융",
+        "경제"
+      ]
+    },
+    {
       "id": "7373d7912e3e7c566b0b",
       "title": "9월 추석효과...대형마트 10분기 만에 매출 ‘플러스’ 전환",
       "url": "https://www.mk.co.kr/news/economy/12188403",
@@ -2212,6 +2379,19 @@
       "publishedAt": "2026-10-28T14:58:49Z",
       "sourceIds": [
         "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
+      "id": "510246623a3796c1d056",
+      "title": "독일 11월 GfK 소비자 신뢰지수 -30.8·0.2P↓…\"물가 우려에 구매심리 위축\"",
+      "url": "https://www.newsis.com/view/NISX20261028_0003845523",
+      "summary": "",
+      "publishedAt": "2026-10-28T14:58:29Z",
+      "sourceIds": [
+        "newsis-economy"
       ],
       "topics": [
         "경제"
@@ -2325,6 +2505,19 @@
       ]
     },
     {
+      "id": "19c0f39978ad08ba82c4",
+      "title": "브라질 대선 패배 보우소나루, 美 마이애미 도착…도피 경로 확인",
+      "url": "https://www.newsis.com/view/NISX20261028_0003845516",
+      "summary": "",
+      "publishedAt": "2026-10-28T14:43:14Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
       "id": "c6b2e668c52afb17eb77",
       "title": "워드프레스 회원관리 플러그인에 치명적 취약점 발견, 웹사이트 전체 장악 위험",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209129",
@@ -2363,6 +2556,17 @@
         "보안",
         "AI"
       ]
+    },
+    {
+      "id": "dd931333755285c917ce",
+      "title": "ICE, 미국 역사상 최대 규모급 좌파 감시 작전 수행 중",
+      "url": "https://news.hada.io/topic?id=36170",
+      "summary": "미네소타 주민 15명의 연방 공모 혐의 사건에서 ICE의 광범위한 좌파 운동 감시 자료 가 공개됨. 변호인들은 이 수사가 이민정책 반대자를 겨냥한 전국적 감시의 일부이며 위헌 소지가 있다고 주장함 ICE 산하 국토안보수사국(HSI) 은 중대 범죄 수사용 자금과 권한...",
+      "publishedAt": "2026-10-28T14:36:33Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "45e66f7595ebfd1e9f82",
@@ -2475,6 +2679,19 @@
       ]
     },
     {
+      "id": "13de98070215b72df4b4",
+      "title": "웬디스,1.9조달러에 팔리나?…펠츠의 트라이언 펀드 인수제안",
+      "url": "https://www.hankyung.com/article/202610281810i",
+      "summary": "",
+      "publishedAt": "2026-10-28T14:17:33Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
       "id": "f52979384f3dd569c5b0",
       "title": "'도깨비의세계' 2주 연속 구글 매출 1위, 밀접 소통 효과 '확실'",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156596",
@@ -2581,6 +2798,19 @@
       ]
     },
     {
+      "id": "14d761e1269db46dbf7c",
+      "title": "'메타의 375억달러 승부수'…AI 천문학적 투자 부담에 시장 시선 갈려",
+      "url": "https://www.newsis.com/view/NISX20261028_0003845198",
+      "summary": "",
+      "publishedAt": "2026-10-28T14:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ]
+    },
+    {
       "id": "fdb064d4c2e368a83387",
       "title": "그룹아이비, 프로스트앤설리번 ERMM 프로스트 레이더 비저너리 리더 선정",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209118",
@@ -2663,6 +2893,17 @@
       ]
     },
     {
+      "id": "d98cf09faeb81c227918",
+      "title": "UEFI 펌웨어의 코드 실행 취약점, 전 세계 서버 대부분을 위협",
+      "url": "https://news.hada.io/topic?id=36168",
+      "summary": "주요 UEFI 공급업체가 사용하는 TianoCore EDK II 에서 심각도 9.5/10 의 코드 실행 취약점 CVE-2026-97631이 발견됨 PXE 네트워크 부팅 중 ICMP 오류 메시지를 처리하는 버퍼 오버플로로, 공격자는 운영체제와 Secure Boot 등의 방어 기능이 작동하...",
+      "publishedAt": "2026-10-28T13:40:50Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "e2caa3b0f8712e0eae2c",
       "title": "마이크로소프트 팀즈 악용한 IT 관리자 사칭 공격 400건 이상 확인",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=209112",
@@ -2676,6 +2917,17 @@
       ]
     },
     {
+      "id": "3ed2705459f62a133e43",
+      "title": "열흘이 지나도 macOS의 Git은 여전히 침해된 eMudhra 인증서를 신뢰함",
+      "url": "https://news.hada.io/topic?id=36167",
+      "summary": "Apple은 10월 17일 eMudhra 사고를 통보받았지만, 10월 28일 기준 macOS에 함께 제공하는 git, curl, python3 는 여전히 침해된 인증서를 신뢰함 10월 26일 출시된 macOS 27.2 는 문제를 해결하지 않았으며, 사용자가 수동으로 적용한 우회 조치까지 되돌려 다시 취약...",
+      "publishedAt": "2026-10-28T13:37:50Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
+    },
+    {
       "id": "70d097aeb1093113b088",
       "title": "브라질, 재생에너지 기반 데이터센터 육성...룰라 \"미·중 AI 의존 안 한다\"",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216749",
@@ -2687,6 +2939,20 @@
       "topics": [
         "기술",
         "AI"
+      ]
+    },
+    {
+      "id": "3490a7fba293f2537bbc",
+      "title": "[속보]뉴욕증시, SK하이닉스 실적 호조·FOMC 기다리며 상승 출발",
+      "url": "https://www.newsis.com/view/NISX20261028_0003845506",
+      "summary": "",
+      "publishedAt": "2026-10-28T13:32:58Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "주식",
+        "경제"
       ]
     },
     {
@@ -2744,6 +3010,22 @@
       ]
     },
     {
+      "id": "cfa120c3aa290ebe560e",
+      "title": "치료사 증원 없이 재활 두 배로?…화성시, 첨단 보행로봇 2대 도입",
+      "url": "https://www.etnews.com/20261028000470",
+      "summary": "",
+      "publishedAt": "2026-10-28T13:16:48Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "기술",
+        "소프트웨어",
+        "AI"
+      ]
+    },
+    {
       "id": "01afd5d31c0906ac01cb",
       "title": "중국 AI 거품 붕괴 가속…기술주 시총 640조 증발",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216748",
@@ -2754,6 +3036,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "6761a63f8524faa0638d",
+      "title": "아기곰 특강 공지",
+      "url": "https://blog.naver.com/a-cute-bear/224457106832?fromRss=true&trackingCode=rss",
+      "summary": "안녕하세요? 아기곰입니다. 정부에서 2027년 부동산 세제 개편안을 발표하고 국회로 공을 넘긴 지도 두 달 가까이 됩니다. 아직도 정부와 여당에서는 확정안을 내지 못하고 있는 상태입니다. 원안대로 밀고 가자니 민심이 두렵고, 원안을 전면적으로 바꾸려니 정부가 여론에 밀려 소위 ‘개혁의 후퇴’로 비추어질 수 있기 때문입니다. 이런 이유로 정기 국회가 종료되기 직전까지 시간을 끌다가 정부안에서 몇 가지만 수정해서 통과시키려 할 것으로 보입니다. 문제는 이러한 불확실성이 지속되면서 집을 팔아야 하는 사",
+      "publishedAt": "2026-10-28T13:07:45Z",
+      "sourceIds": [
+        "babybear-blog"
+      ],
+      "topics": [
+        "부동산"
       ]
     },
     {
@@ -2770,6 +3065,19 @@
       ]
     },
     {
+      "id": "680a087ad44ca37647e6",
+      "title": "\"주당 2만원 쏩니다\"…곽노정 등판에 하이닉스 개미들 '환호' [강경주의 테크X]",
+      "url": "https://www.hankyung.com/article/2026102811846",
+      "summary": "",
+      "publishedAt": "2026-10-28T13:00:02Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
       "id": "6a7c63f81bb48e40f4eb",
       "title": "메타, 33조 주식 공모에 주문 5배 폭주…자금 조달 규모 소폭 확대",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216743",
@@ -2780,6 +3088,19 @@
       ],
       "topics": [
         "AI"
+      ]
+    },
+    {
+      "id": "9686658fb9d0916f2189",
+      "title": "[아주경제 오늘의 뉴스 종합] '반도체 잭팟'에… 코스피, 10거래일만에 6000선 탈환 外",
+      "url": "https://www.ajunews.com/view/20261028213908793",
+      "summary": "",
+      "publishedAt": "2026-10-28T12:47:51Z",
+      "sourceIds": [
+        "ajunews-investment"
+      ],
+      "topics": [
+        "주식"
       ]
     },
     {
@@ -2835,6 +3156,19 @@
       ]
     },
     {
+      "id": "913af87a0f7962e79291",
+      "title": "中, 미국 기업에 첨단제조업 투자 확대 요청...AI·전기차 협력 강조",
+      "url": "https://www.ajunews.com/view/20261028213051786",
+      "summary": "",
+      "publishedAt": "2026-10-28T12:34:37Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ]
+    },
+    {
       "id": "c7c1f49185bb0ccf0066",
       "title": "삼성전기, 3분기 영업이익 6910억원...역대 최대 분기 실적",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156591",
@@ -2846,6 +3180,17 @@
       "topics": [
         "기술"
       ]
+    },
+    {
+      "id": "1d851e8f0bf853117c76",
+      "title": "디바이스 트리에서 Raspberry Pi Zero 3 W와 Pi 4 Model A 발견",
+      "url": "https://news.hada.io/topic?id=36165",
+      "summary": "Raspberry Pi의 Linux 커널 트리 에 미발표 보드 두 종의 디바이스 트리 파일이 추가됨. 하드웨어 구성의 단서는 있지만 공식 발표나 확정 사양은 아직 없음 Zero 3 W 에는 Pi 4와 같은 쿼드코어 Cortex-A72 기반 BCM2711 이 사용됨. Zero 2 W보다 코...",
+      "publishedAt": "2026-10-28T12:33:32Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": []
     },
     {
       "id": "2ddde77718927b97b00c",
@@ -2899,6 +3244,20 @@
       ],
       "topics": [
         "주식"
+      ]
+    },
+    {
+      "id": "780991027bd9cae578d1",
+      "title": "앤스로픽공모주 '그림의 떡'아시아투자자…블룸버그가 주목한 주식은?",
+      "url": "https://www.hankyung.com/article/202610281738i",
+      "summary": "",
+      "publishedAt": "2026-10-28T12:29:27Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "주식",
+        "경제"
       ]
     },
     {
@@ -7101,6 +7460,17 @@
       "topics": []
     },
     {
+      "id": "9a0071e9f8bd03a7860c",
+      "title": "[넥스트리] 프론트엔드 시점에서 정리한 SSE 도입과 메시지 유실 해결 과정",
+      "url": "https://velopers.kr/post/10434",
+      "summary": "AI 챗봇 SSE에서 완료 메시지가 유실된 원인을 채널 생성·삭제 시점의 경쟁 조건으로 분석했습니다. 채널 선등록과 replay 기반 구독으로 연결 순서와 무관하게 결과를 수신하도록 개선했습니다.",
+      "publishedAt": "2026-10-28T07:26:07Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": []
+    },
+    {
       "id": "4803941026b250910ee6",
       "title": "삼성전자·SK하이닉스 폭등…外人 7600억원 쓸어 담았다[핫스탁](종합)",
       "url": "https://www.newsis.com/view/NISX20261028_0003845153",
@@ -7414,6 +7784,17 @@
       "publishedAt": "2026-10-28T07:05:17Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "f030246c41cbff350320",
+      "title": "[넥스트리] 성능 테스트 결과를 보고 N+1을 걷어내다",
+      "url": "https://velopers.kr/post/10435",
+      "summary": "부하 테스트로 공통 조회 API의 병목과 N+1 호출을 확인하고 응답 구조를 개선했습니다. 요약 조회와 호출 제거로 병목의 상대적 위치가 낮아졌음을 확인했습니다.",
+      "publishedAt": "2026-10-28T07:05:17Z",
+      "sourceIds": [
+        "velopers"
       ],
       "topics": []
     },
@@ -9109,6 +9490,17 @@
       "topics": []
     },
     {
+      "id": "0c3bd9221f50d21336e6",
+      "title": "[AWS] Amazon MSK Express Broker에서 Kafka 트랜잭션 워크로드를 최적화하는 방법",
+      "url": "https://velopers.kr/post/10432",
+      "summary": "MSK Express의 Kafka 트랜잭션 병목을 네트워크·코디네이터·클라이언트 한도로 분석했습니다. 묶음 크기와 프로듀서 수를 먼저 조정하고 병목별 확장 전략을 제시했습니다.",
+      "publishedAt": "2026-10-28T05:41:40Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": []
+    },
+    {
       "id": "271fc38774dc53f320af",
       "title": "수산물 싸게 사고 셰프 요리 시연까지… 여수서 '수산물 직거래·유통 상생 대축제'",
       "url": "https://www.fnnews.com/news/202610281437529651",
@@ -9337,6 +9729,17 @@
       "publishedAt": "2026-10-28T05:30:11Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "4195e89a79d7c4a9c385",
+      "title": "[네이버 클라우드 플랫폼] [보안] AI 해킹의 현실화 | 기업이 점검해야 할 5가지 보안 과제",
+      "url": "https://velopers.kr/post/10433",
+      "summary": "AI 기반 자동화 공격과 침투 테스트 도구 악용 가능성에 따른 보안 위협을 짚었습니다. 기업이 Zero Trust 관점에서 클라우드 보안 과제를 점검하도록 안내합니다.",
+      "publishedAt": "2026-10-28T05:30:11Z",
+      "sourceIds": [
+        "velopers"
       ],
       "topics": []
     },
@@ -15086,6 +15489,17 @@
       "topics": []
     },
     {
+      "id": "57b39b71b38911222143",
+      "title": "[미리디] 채팅으로 디자인하는 AI, 실제로 쓸까? — A/B 테스트와 사용자 행동 분석기",
+      "url": "https://velopers.kr/post/10424",
+      "summary": "AI 디자이너 MVP의 A/B 테스트와 발화 분석으로 이탈 원인을 기능 미지원·응답 지연으로 구분했습니다. 도구별 우선순위와 캔버스 맥락 활용 가설을 도출해 응답시간 개선과 제품 방향 논의에 반영했습니다.",
+      "publishedAt": "2026-10-28T00:22:10Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": []
+    },
+    {
       "id": "04805047afb0c0f18aba",
       "title": "키움증권, 영웅문S#에 ‘ETF 스마트 검색’ 도입…키워드로 상품 찾는다",
       "url": "https://www.etoday.co.kr/news/view/2640965",
@@ -15844,6 +16258,17 @@
       "sourceIds": [
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "985bd6472a91f8d00744",
+      "title": "[KT 클라우드] [케클러 인터뷰 시리즈] #6 - 백업만으로는 부족하다, 공공 DR의 새로운 기준",
+      "url": "https://velopers.kr/post/10423",
+      "summary": "공공 DR을 데이터 백업이 아닌 서비스 전체의 복구 역량으로 설명했습니다. 등급별 아키텍처와 훈련, AI 워크로드 복구 전략을 다뤘습니다.",
+      "publishedAt": "2026-10-28T00:00:50Z",
+      "sourceIds": [
+        "velopers"
       ],
       "topics": []
     },
@@ -20707,6 +21132,17 @@
       "publishedAt": "2026-10-27T15:00:00Z",
       "sourceIds": [
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "5dde8570263ff0bfb916",
+      "title": "[카카오] 팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
+      "url": "https://velopers.kr/post/10428",
+      "summary": "추천팀은 AI 에이전트가 지침 문서를 바탕으로 SQL을 작성하고 Hadoop에서 분석하도록 구성했습니다. 로그 접근 방법과 분석 기준을 컨텍스트로 설계해 신뢰 가능한 분석 환경을 만들고자 했습니다.",
+      "publishedAt": "2026-10-27T15:00:00Z",
+      "sourceIds": [
+        "velopers"
       ],
       "topics": []
     },
@@ -25709,6 +26145,17 @@
       ]
     },
     {
+      "id": "879900e6a09d9fc9f126",
+      "title": "[토스] 손가락 튕기기로 LLM 비용 줄이기",
+      "url": "https://velopers.kr/post/10411",
+      "summary": "SNAP은 LLM 로그를 작업별로 분류하고 소형 모델 학습 후보를 자동 발굴했습니다. 신뢰도 기반 폴백으로 품질을 유지하며 검증된 요청부터 LLM 비용을 줄였습니다.",
+      "publishedAt": "2026-10-27T07:05:00Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": []
+    },
+    {
       "id": "2486f8cd772e50af8016",
       "title": "[NNA] 미얀마 도착 비자 시범 발급, 일·한·중 등 5개 국가·지역서 연장",
       "url": "https://www.ajunews.com/view/20261027160250647",
@@ -26253,6 +26700,17 @@
       "topics": []
     },
     {
+      "id": "e37270f54dd1407feec4",
+      "title": "[가비아] 데이터센터 보안 | CCTV 이상의 물리·정보·운영보안",
+      "url": "https://velopers.kr/post/10410",
+      "summary": "데이터센터 보안을 물리·정보·운영보안으로 구분하고 사업자와 고객의 책임 경계를 설명했습니다. CCTV 여부보다 법정 보호조치, 인증기준, 기록·관제 절차를 함께 확인해야 합니다.",
+      "publishedAt": "2026-10-27T06:45:58Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": []
+    },
+    {
       "id": "c290e6126faa38283bad",
       "title": "미래에셋운용 배당커버드콜 ETF에 개인투자자 몰렸다…올해 2조4000억원 순매수",
       "url": "https://www.fnnews.com/news/202610271543526711",
@@ -26407,6 +26865,17 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "2d6c156440fef767c1d4",
+      "title": "[flex] 상태 전이마다 테스트가 없으면, 운영 가이드가 빌드되지 않습니다",
+      "url": "https://velopers.kr/post/10406",
+      "summary": "상태 전이·운영 안내·테스트 참조를 YAML 선언으로 통합하고 CI에서 검증했습니다. 테스트 없는 전이와 잘못된 참조를 빌드 단계에서 차단해 가이드 신뢰성을 높였습니다.",
+      "publishedAt": "2026-10-27T06:38:00Z",
+      "sourceIds": [
+        "velopers"
       ],
       "topics": []
     },
@@ -27230,6 +27699,17 @@
         "techblogposts",
         "velopers",
         "indieblog"
+      ],
+      "topics": []
+    },
+    {
+      "id": "9132877a56a9de4c7ef6",
+      "title": "[AWS] ParallelCluster 잘 쓰고 있는데, 왜 AWS PCS인가? (2부) — 워크로드별 적용과 전환 실전 가이드",
+      "url": "https://velopers.kr/post/10408",
+      "summary": "AWS PCS의 관리형 Slurm 운영과 멀티 큐 자원 공유가 CFD/CAE·분산 학습에 주는 변화를 설명했습니다. ParallelCluster 환경은 스토리지를 공유하는 blue/green 방식으로 안전하게 전환할 수 있습니다.",
+      "publishedAt": "2026-10-27T06:00:11Z",
+      "sourceIds": [
+        "velopers"
       ],
       "topics": []
     },
@@ -29056,6 +29536,17 @@
         "주식",
         "금융"
       ]
+    },
+    {
+      "id": "7b3e780a6418e1a658ad",
+      "title": "[네이버 D2] AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+      "url": "https://velopers.kr/post/10405",
+      "summary": "AI 시대 개발자는 에이전트를 관리하며 방향 설정과 배포 책임을 맡게 된다고 설명했습니다. 소통·맥락 수집·검증 체계와 종합적 판단 역량의 중요성을 강조했습니다.",
+      "publishedAt": "2026-10-27T04:20:00Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": []
     },
     {
       "id": "7e919d4d7f8a99cdd0d8",
@@ -34238,72 +34729,6 @@
       ]
     },
     {
-      "id": "ea4568aa241a2750446b",
-      "title": "같은 매장 상품도 15만원 비싸게 판다…'AI 가격 인상' 논란",
-      "url": "https://www.hankyung.com/article/202610276760i",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:44:42Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "d630b69215acbd2fa3df",
-      "title": "반도체 수출 호조…3분기 GDP 1% '깜짝 성장'",
-      "url": "https://www.hankyung.com/article/202610276778i",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:44:05Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "db4b4df0d5b39f236d63",
-      "title": "매출 135% 뛴 홍초…3100억 열도 식초시장 정조준",
-      "url": "https://www.hankyung.com/article/202610276682g",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:43:54Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "72b199dcc836735a4deb",
-      "title": "\"1년 6개월 안에 가상자산 폭락할 수도\"...美 신용평가사의 경고 [크립토 브리핑]",
-      "url": "https://www.fnnews.com/news/202610270834077614",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:43:08Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "774e6d0508c19c8b3691",
-      "title": "수출업체 네고·강달러 힘겨루기⋯\"1320원대 등락\" [환율전망]",
-      "url": "https://www.etoday.co.kr/news/view/2640345",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:43:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "금융",
-        "경제"
-      ]
-    },
-    {
       "id": "33349d8d832ed90758e2",
       "title": "셀렉트스타, 모델 자동 선택하는 디시전 AI '다비' 공개",
       "url": "https://www.etnews.com/20261027000013",
@@ -34319,60 +34744,6 @@
       ]
     },
     {
-      "id": "ef323984b305570fd584",
-      "title": "\"금리 올랐는데 왜\"…한 달 새 14% 폭락에 개미들 '당혹' [종목+]",
-      "url": "https://www.hankyung.com/article/2026102766946",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:41:17Z",
-      "sourceIds": [
-        "hankyung-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
-    },
-    {
-      "id": "722a75ff3a39c204d800",
-      "title": "룰라 재선에 브라질 증시 15% 폭락…재정불안 고조",
-      "url": "https://www.hankyung.com/article/202610276776i",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:39:57Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "주식",
-        "경제"
-      ]
-    },
-    {
-      "id": "09058e853382b9a27c6d",
-      "title": "신약 팔아 번 돈으로 다음 신약 키운다…온코닉의 바이오 '선순환'",
-      "url": "https://www.fnnews.com/news/202610270832582669",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:38:37Z",
-      "sourceIds": [
-        "fnnews-stock"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "30294a37ef23399a6e87",
-      "title": "3분기 한국경제 1% '깜짝 성장'…연간 3% 달성 유력",
-      "url": "https://www.hankyung.com/article/2026102766677",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:38:16Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "33e5a665c9347996204a",
       "title": "2달러 마이크로컨트롤러에서 SIMD로 컴퓨터 비전 가속하기",
       "url": "https://news.hada.io/topic?id=36070",
@@ -34384,47 +34755,6 @@
       "topics": []
     },
     {
-      "id": "a783372f17330ee02d9f",
-      "title": "현대차證 \"파인엠텍, 신제품 노이즈는 기우…목표가 1만4500원↑\"",
-      "url": "https://www.newsis.com/view/NISX20261027_0003842145",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:37:33Z",
-      "sourceIds": [
-        "etoday-market",
-        "newsis-finance"
-      ],
-      "topics": [
-        "주식",
-        "금융"
-      ]
-    },
-    {
-      "id": "3deb3fc58a7b4520d549",
-      "title": "이지트로닉스, 400㎾급 초급속 자동충전 기술 개발",
-      "url": "https://www.newsis.com/view/NISX20261027_0003842086",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:37:00Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "b93f17c3282028df750a",
-      "title": "법인세 올려도 기업 안 떠났다…조세피난처 세수 급증",
-      "url": "https://www.hankyung.com/article/202610276737i",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:35:25Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
       "id": "41ddadfb8a70d0feab02",
       "title": "학계와 협력해 과학적 이해 쌓기",
       "url": "https://news.hada.io/topic?id=36069",
@@ -34434,84 +34764,6 @@
         "geeknews"
       ],
       "topics": []
-    },
-    {
-      "id": "a2a87850c07d029d40e3",
-      "title": "상상인證 \"화장품 업종 전반 주가 하락…달바글로벌 목표가↓\"",
-      "url": "https://www.ajunews.com/view/20261027083244662",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:34:25Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "24ab6b2b5d050f038784",
-      "title": "\"AI는 돈 못 번다더니\"…앤트로픽 실적에 증권가 놀란 까닭 [종목+]",
-      "url": "https://www.hankyung.com/article/2026102766116",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:30:08Z",
-      "sourceIds": [
-        "hankyung-finance"
-      ],
-      "topics": [
-        "주식"
-      ]
-    },
-    {
-      "id": "9f3019f8f9a0f415052c",
-      "title": "[아파트값 상승 톱10] 서울 용산구 ‘LG한강자이’ 등",
-      "url": "https://www.etoday.co.kr/news/view/2640319",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:30:00Z",
-      "sourceIds": [
-        "etoday-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ]
-    },
-    {
-      "id": "98a7beb7853688e7519b",
-      "title": "지드래곤부터 BTS까지…준지, K팝 스타 48인 전시서 의상 협업",
-      "url": "https://www.hankyung.com/article/202610276590g",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:29:15Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "2973d31004b0d7052446",
-      "title": "\"국내서 딱 두 곳뿐\"…글로벌 호텔상 휩쓴 '이곳'",
-      "url": "https://www.hankyung.com/article/202610276663g",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:28:42Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
-    },
-    {
-      "id": "ab4e16ca0cead7fbc76b",
-      "title": "신세계프라퍼티, 글로벌 ESG 평가 3년 연속 최고등급 획득",
-      "url": "https://www.newsis.com/view/NISX20261027_0003842121",
-      "summary": "",
-      "publishedAt": "2026-10-26T23:28:26Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ]
     },
     {
       "id": "a9eef0a97a228dab855b",
@@ -57736,48 +57988,6 @@
       ]
     },
     {
-      "id": "6ac04cf1b2a678ad39b3",
-      "title": "보건분야 혁신에 AI 잠재력 확인…결정 과정과 감독은 인간이 담당해야",
-      "url": "https://zdnet.co.kr/view?no=20261021115258",
-      "summary": "",
-      "publishedAt": "2026-10-21T06:54:43Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "AI"
-      ]
-    },
-    {
-      "id": "085383b0b48d87c48916",
-      "title": "에이직랜드, 'K 커넥트 AI'서 산업부 장관표창…시스템반도체 생태계 기여",
-      "url": "https://zdnet.co.kr/view?no=20261021153516",
-      "summary": "",
-      "publishedAt": "2026-10-21T06:54:17Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "기술",
-        "AI"
-      ]
-    },
-    {
-      "id": "597c21a14d65e27d1c42",
-      "title": "화이트스캔, '2026 국제치안산업대전' 참가…AI 기반 치안 기술 선보인다",
-      "url": "https://www.etnews.com/20261021000398",
-      "summary": "",
-      "publishedAt": "2026-10-21T06:54:00Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-ai"
-      ],
-      "topics": [
-        "소프트웨어",
-        "AI"
-      ]
-    },
-    {
       "id": "3a97af76bfadca4f6784",
       "title": "Module Federation: singleton이면 당연히 하나겠죠?",
       "url": "https://velopers.kr/post/10326",
@@ -60071,186 +60281,6 @@
       "url": "https://news.hada.io/topic?id=35635",
       "summary": "Linux 7.3 정식 버전 출시. 병합 커밋을 제외한 18,765개 커밋에 개발자 3,021명이 참여했으며, 첫 기여자도 807명으로 개발 참여 규모의 기록을 경신 대규모 시스템의 성능 개선을 위한 그룹 스케줄링 변경 과 sched_ext 하위 스케줄러 구현을 완료. ...",
       "publishedAt": "2026-10-19T09:31:52Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "732e648a33e85b9ccc45",
-      "title": "Show GN: mermaid-editor-sdk: 코드뿐만 아니라 UI로도 mermaid 다이어그램을 편집 가능한 무료 에디터 SDK",
-      "url": "https://news.hada.io/topic?id=35634",
-      "summary": "요즘 AI랑 설계하거나 결과 보고받을 때 mermaid 다이어그램을 자주 사용하는데요, 근데 직접 코드로 편집하고 보기엔 불편하기도 해서 UI로도 편집 가능한 걸 원했어요. 근데 다 유료더군요. 게다가 제 개인 에디터에 적용하고 싶은데, 딱히 적용할만한 오픈소스 패키지도 없었고요. 그래서 패키지 두개",
-      "publishedAt": "2026-10-19T09:12:07Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "1e22d2b30be2ad1afac4",
-      "title": "DeepSeek V4.1 Flash 1017 - AAII 45점, 초당 약 225토큰 출력",
-      "url": "https://news.hada.io/topic?id=35633",
-      "summary": "DeepSeek V4.1 Flash 1017의 Max 추론 설정 이 Artificial Analysis 지능 지수에서 45점을 기록. 비슷한 크기의 오픈 가중치 모델 중 높은 성능과 빠른 출력 속도를 보임 텍스트와 이미지 입력, 100만 토큰 컨텍스트 를 지원하며, 가중치는 MIT 라이선스로 공개해 자...",
-      "publishedAt": "2026-10-19T08:33:27Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "09f99ae9fc1f654c4da0",
-      "title": "프론티어 모델 대신, 우리 모델이 모든 상담을 분석합니다",
-      "url": "https://indieblog.net/go/620900",
-      "summary": "상담 분석 세 작업을 자체 멀티태스크 모델로 전환해 상용 LLM보다 높은 성능을 확보했습니다.\\n골든셋 기반 평가와 서빙 최적화로 비용을 99.4% 절감하고 운영 체계를 구축했습니다.",
-      "publishedAt": "2026-10-19T08:28:32Z",
-      "sourceIds": [
-        "velopers",
-        "indieblog"
-      ],
-      "topics": []
-    },
-    {
-      "id": "7fc35502944fdd0acb60",
-      "title": "크라임웨어 유통 창구가 된 PyPI, 카딩(Carding) 자동화 도구 'saeka' 사례",
-      "url": "https://indieblog.net/go/621327",
-      "summary": "이미지 [생성형 AI 제작] 이스트시큐리티 시큐리티대응센터(ESRC)는 파이썬 공식 패키지 저장소인 PyPI(Python Package Index)에서 신용카드 사기, 이른바 카딩(Carding)을 위한 크라임웨어가 정상 패키지의 형태로 배포되고 있는 사례를 확인했습니다. 해당 패키지의 이름은 saeka 이며, 패키지 페이지만으로는 실제 용도를 짐작할 수…",
-      "publishedAt": "2026-10-19T08:02:47Z",
-      "sourceIds": [
-        "indieblog"
-      ],
-      "topics": []
-    },
-    {
-      "id": "69b946ecfca3f99941d8",
-      "title": "LLM 프록시를 직접 운영하지 않으면, 모델 호출에서 무슨 일이 벌어지는지 어떻게 알 수 있을까?",
-      "url": "https://news.hada.io/topic?id=35631",
-      "summary": "LLM 호출을 자체 프록시로 모으면 , 어떤 클라이언트가 언제 어떤 모델을 호출했는지 추적 가능. 제공업체의 진행 표시와 사용량 화면만으로는 파악하기 어려운 운영 정보를 직접 확보할 수 있음 여러 제공업체와 모델을 하나의 엔드포인트로 연결 해, 클라이언트 설...",
-      "publishedAt": "2026-10-19T07:32:09Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "44ab53307687d809294c",
-      "title": "그룹웨어 비용, 얼마가 적당할까? 과금 방식부터 숨은 비용까지 총정리",
-      "url": "https://indieblog.net/go/620680",
-      "summary": "그룹웨어는 과금 방식과 포함 기능, 숨은 비용을 합친 연간 총비용으로 비교해야 합니다. 저장 용량·옵션·마이그레이션·할인 종료 후 요금까지 확인해야 합니다.",
-      "publishedAt": "2026-10-19T07:09:19Z",
-      "sourceIds": [
-        "velopers",
-        "indieblog"
-      ],
-      "topics": []
-    },
-    {
-      "id": "47af2c22a556dafddc83",
-      "title": "Show GN: GlazeBar (GlazeWM 번들) - Windows에서 돌리는 Omarchy 같은 경험",
-      "url": "https://news.hada.io/topic?id=35630",
-      "summary": "Omarchy 같은 타일링 기능은 GlazeWM이 수행합니다. 그런데 이 친구는 Zebar라는 Topbar와 함께 실행되는데, 무겁고, 기능도 별로 없어서 Rust 기반으로 만들었습니다. Aether 색상 추출 알고리즘을 통해 사진에서 테마 색상을 추출하고 자동으로 Terminal, VS code, Codex CLI 등등 적용합니다. 실시간",
-      "publishedAt": "2026-10-19T07:03:38Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "444d8a7f455d5a25d66f",
-      "title": "솔리다임 나스닥 상장 불허?",
-      "url": "https://blog.naver.com/anordinarydad/224446639819",
-      "summary": "이래서 갑자기 코스피가 오른건가...? SK하이닉스발 급등이 올지도 모르겠다. https://naver.me/FmGzrdGK",
-      "publishedAt": "2026-10-19T06:41:12Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
-      "id": "76e5fc6a5e3d918e4f40",
-      "title": "젠슨 황, 엔비디아 이제 시작이다!",
-      "url": "https://blog.naver.com/dipi3/224446626183",
-      "summary": "by Bg2 Pod + 젠슨 황 요약 AI 연산 수요가 10억 배 = 생각하고 탐색하는 AI는 훨씬 많은 추론이 필요하고, 일을 잘하니 더 많은 일에 쓰임 피지컬 AI는 이미 엄청 크고 말도안되게 커질 예정 안전은 엔지니어링 문제 = 완벽한 정렬 대신 제로 트러스트 격리 + 외부 모니터링 + 중단 장치 2027년 최대 병목 = 땅, 전력, 데이터센터 건물(셸) 전력이 부족할수록 와트당 토큰이 가장 많은 엔비디아로 수요가 쏠림 = 점유율 오히려 상승 AI 매출 걱정은 과장 = 엔비디아 사업의 3분의",
-      "publishedAt": "2026-10-19T06:30:01Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": []
-    },
-    {
-      "id": "15953d3ac1a094389b61",
-      "title": "뛰어난 한국인 창업가 대표들이 가장 큰 가치를 느끼는 지원은 내가 예측하지 못한 것이었다",
-      "url": "https://news.hada.io/topic?id=35628",
-      "summary": "3년 4개월전, 저는 뛰어난 한국인 창업가/CEO들을 대상으로 Kru를 론칭했습니다. 오늘은 지난 3년 4개월의 경험을 바탕으로 개발하게 된 가설 하나를 공유하고자 합니다. 바로 한국인 창업가/CEO들의 대다수가 그 어떤 지원보다도 전략을 명확히 하고 조직을 전략에 얼라인하여 주도 하도록 돕는 지원에",
-      "publishedAt": "2026-10-19T06:13:10Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "be1dcc4466d8f055cbea",
-      "title": "JEV의 판정 계약을 사내 LLM에 적용하기",
-      "url": "https://techblog.samsung.com/blog/article/101",
-      "summary": "JEV의 질문·답 계약을 LLM Gateway 판정 API로 구현해 사내 소형 LLM에 적용했습니다. 출력 간소화로 지연 시간을 줄이고 라벨 오류 항목만 재판정했습니다.",
-      "publishedAt": "2026-10-19T05:45:03Z",
-      "sourceIds": [
-        "techblogposts",
-        "velopers",
-        "indieblog"
-      ],
-      "topics": []
-    },
-    {
-      "id": "7dac97087f11f8ee9a7b",
-      "title": "2026년 10월 인도 핀테크 뉴스",
-      "url": "https://velopers.kr/post/9484",
-      "summary": "인도 NBFC의 소액대출 확대와 신용모니터링 효과, AI 신용관리 플랫폼 투자 동향을 다뤘습니다.\\nMoneyview IPO 변동성과 True Balance의 AI 브랜드 캠페인 성과도 정리했습니다.",
-      "publishedAt": "2026-10-19T05:42:00Z",
-      "sourceIds": [
-        "velopers"
-      ],
-      "topics": []
-    },
-    {
-      "id": "819e127b50080154c857",
-      "title": "William Gibson과 사이버스페이스 상표 등록 이야기",
-      "url": "https://news.hada.io/topic?id=35627",
-      "summary": "Autodesk는 “cyberspace” 상표 등록을 출원 했고 William Gibson은 실제로 반발했지만, Gibson이 보복으로 “Eric Gullichsen”을 상표 등록하려 했다는 이야기는 사실이 아님 보복 상표 등록설은 Timothy Leary의 장난 에서 시작됐으며, Barlow와 Rudy Rucker를 거...",
-      "publishedAt": "2026-10-19T05:31:46Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "0574ea03946a13914ce7",
-      "title": "MemScope - AI 에이전트의 기억 장치를 통째로 갈아엎지 않고, 고장 난 곳만 찾아 고친다",
-      "url": "https://news.hada.io/topic?id=35626",
-      "summary": "AI 에이전트는 겪은 일을 저장했다가 다시 꺼내 쓰는 기억 장치를 갖고 있는데, 보통 한 번 만들면 그대로 씁니다. 스스로 고치는 기존 방법들은 점수나 요약만 보고 고쳐서, 어디가 고장인지 몰라 멀쩡한 부분까지 크게 뜯어고치는 일이 많았습니다. MemScope는 실제로 돌아간 기록, 그때 기...",
-      "publishedAt": "2026-10-19T05:22:43Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "46eb1c8a17892da286f9",
-      "title": "테크 업계의 남성들 #YesAllMen",
-      "url": "https://news.hada.io/topic?id=35625",
-      "summary": "한 여성이 경력 전반에 걸쳐 남성들에게 겪은 말과 행동 을 다루는 강연으로, 여성에게 업계에서 살아남는 법을 가르치는 방식에서 벗어나려 함 강연자는 동료에게 성적 비하와 욕설이 담긴 문자 를 받았지만, 그 동료가 “질책하기에는 너무 중요한 사람”이라는 말...",
-      "publishedAt": "2026-10-19T05:00:54Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": []
-    },
-    {
-      "id": "cfa69da0c926cbbf2849",
-      "title": "PalmOS Lemmings - 교육용으로 제공되는 게임 소스 코드",
-      "url": "https://news.hada.io/topic?id=35624",
-      "summary": "PalmOS Lemmings 의 소스 코드를 제공하는 저장소임 소스 코드는 교육 목적 으로 제공됨 코드는 있는 그대로(AS-IS) 제공됨 README에 Lemmings 소개 이미지가 있음 별도의 스크린샷 섹션에 게임 화면 이미지가 있음",
-      "publishedAt": "2026-10-19T04:35:52Z",
       "sourceIds": [
         "geeknews"
       ],
