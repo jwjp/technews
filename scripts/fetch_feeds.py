@@ -33,10 +33,10 @@ SECTION_LIMITS = {"reading": 1000, "news": 1800, "economy-blog": 1000, "economy"
 NEWS_TOPICS = ("기술", "개발", "소프트웨어", "보안", "AI", "자동차")
 ECONOMY_TOPICS = ("주식", "금융", "부동산", "경제", "정책")
 TITLE_TOPICS = {
-    "개발": r"개발자|개발도구|개발환경|프로그래밍|코딩|오픈소스|깃허브|GitHub|DevOps|API\b|SDK\b",
+    "개발": r"개발자|개발도구|개발환경|프로그래밍|코딩|오픈소스|깃허브|GitHub|DevOps|프론트엔드|백엔드|리팩터링|알고리즘|\b(?:Python|JavaScript|TypeScript|React|Spring|Kotlin|Rust)\b|API\b|SDK\b",
     "소프트웨어": r"소프트웨어|\bSW\b|\bSaaS\b|클라우드|데이터베이스|운영체제|\bOS\b|애플리케이션|\b앱\b",
     "보안": r"보안|해킹|해커|랜섬웨어|악성코드|사이버공격|취약점|정보보호|개인정보|피싱",
-    "AI": r"(?<![A-Za-z])AI(?![A-Za-z])|인공지능|생성형|LLM|챗봇|챗GPT|ChatGPT|머신러닝|딥러닝",
+    "AI": r"(?<![A-Za-z])AI(?![A-Za-z])|인공지능|OpenAI|Anthropic|Claude|Gemini|생성형|LLM|챗봇|챗GPT|ChatGPT|머신러닝|딥러닝",
     "자동차": r"자동차|전기차|자율주행|모빌리티|완성차|현대차|기아차|테슬라|차량|배터리|충전소|로보택시|커넥티드카",
     "기술": r"반도체|디스플레이|스마트폰|컴퓨팅|통신망|네트워크|데이터센터|서버|로봇|양자컴퓨팅|기술개발",
 }
@@ -155,6 +155,12 @@ def classify_economy(title: str) -> list[str]:
     return ordered_topics(topics)
 
 
+def article_topics(title: str, source: dict, categories: str = "") -> list[str]:
+    classifier = classify_economy if source.get("type") in {"economy", "economy-blog"} else classify_news
+    detected = classifier(f"{title} {categories}")
+    return detected or ordered_topics(set(source.get("topics", [])))
+
+
 def entries_from(root: ET.Element, source: dict) -> list[dict]:
     entries = root.findall(".//item") if root.tag != f"{ATOM}feed" else root.findall(f"{ATOM}entry")
     result = []
@@ -173,11 +179,9 @@ def entries_from(root: ET.Element, source: dict) -> list[dict]:
         published = parse_date(child_text(entry, "pubDate", f"{ATOM}published", f"{ATOM}updated", f"{DC}date"), source.get("timezone", "UTC"))
         if not published:
             continue
-        topics = set(source.get("topics", []))
-        if source.get("type") == "news":
-            topics.update(classify_news(title))
-        elif source.get("type") in {"economy", "economy-blog"}:
-            topics.update(classify_economy(title))
+        categories = " ".join(clean_text(item.text, 100) for item in entry.findall("category"))
+        categories += " " + " ".join(item.get("term", "") for item in entry.findall(f"{ATOM}category"))
+        topics = article_topics(title, source, categories)
         if source.get("classify") and not topics:
             continue
         description = child_text(entry, "description", f"{ATOM}summary", f"{ATOM}content")
@@ -191,7 +195,8 @@ def entries_from(root: ET.Element, source: dict) -> list[dict]:
             "summary": summary,
             "publishedAt": published,
             "sourceIds": [source["id"]],
-            "topics": ordered_topics(topics),
+            "topics": list(topics),
+            "categories": categories,
         })
     return result
 
@@ -207,7 +212,6 @@ def link_quality(url: str) -> int:
 
 def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -> list[dict]:
     source_order = [source["id"] for source in sources]
-    source_topics = {source["id"]: source.get("topics", []) for source in sources}
     news_sources = {source["id"] for source in sources if source.get("type") == "news"}
     economy_sources = {source["id"] for source in sources if source.get("type") == "economy"}
     economy_blogs = {source["id"] for source in sources if source.get("type") == "economy-blog"}
@@ -220,13 +224,8 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
             if known_sources and cutoff <= datetime.fromisoformat(article["publishedAt"].replace("Z", "+00:00")) <= now + timedelta(minutes=15):
                 topics: set[str] = set()
                 for source_id in known_sources:
-                    topics.update(source_topics[source_id])
-                if any(source_id in news_sources for source_id in known_sources):
-                    topics.update(classify_news(article["title"]))
-                if any(source_id in economy_sources | economy_blogs for source_id in known_sources):
-                    topics.update(classify_economy(article["title"]))
-                if any(source_id in news_sources | economy_sources for source_id in known_sources) and not topics:
-                    continue
+                    source = next(item for item in sources if item["id"] == source_id)
+                    topics.update(article_topics(article["title"], source, article.get("categories", "")))
                 valid.append({**article, "sourceIds": known_sources, "topics": ordered_topics(topics)})
         except (KeyError, ValueError):
             continue
@@ -254,18 +253,28 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
             by_url[article["url"]] = match
         else:
             copied = {key: article[key] for key in ("id", "title", "url", "summary", "publishedAt", "sourceIds", "topics")}
+            copied["categories"] = article.get("categories", "")
             copied["sourceIds"] = [source_id for source_id in source_order if source_id in copied["sourceIds"]]
             merged.append(copied)
             by_url[copied["url"]] = copied
             by_title.setdefault(key, []).append(copied)
     section_counts = {section: 0 for section in SECTION_LIMITS}
     kept = []
+    daily_counts: dict[tuple, int] = {}
     for article in merged:
         ids = set(article["sourceIds"])
         section = "economy-blog" if ids & economy_blogs else "economy" if ids & economy_sources else "news" if ids & news_sources else "reading"
+        # Limit high-volume publishers per day so older and quieter sources survive.
+        day = article["publishedAt"][:10]
+        daily_limit = 20 if section in {"news", "economy"} else 30
+        keys = [(section, source_id, day) for source_id in article["sourceIds"]]
+        if all(daily_counts.get(key, 0) >= daily_limit for key in keys):
+            continue
         if section_counts[section] < SECTION_LIMITS[section]:
             kept.append(article)
             section_counts[section] += 1
+            for key in keys:
+                daily_counts[key] = daily_counts.get(key, 0) + 1
     return kept
 
 

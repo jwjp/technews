@@ -124,7 +124,7 @@ function filteredArticles() {
     if (!hasSource(article)) return false;
     if (state.view === "reading" && !isTechBlog(article)) return false;
     if (state.view === "news" && !isNews(article)) return false;
-    if (state.view === "news" && state.newsTopic && !(article.topics || []).includes(state.newsTopic)) return false;
+    if (["news", "reading"].includes(state.view) && state.newsTopic && !(article.topics || []).includes(state.newsTopic)) return false;
     if (state.view === "economy-blog" && !isEconomyBlog(article)) return false;
     if (state.view === "economy-blog" && state.economyBlogTopic && !(article.topics || []).includes(state.economyBlogTopic)) return false;
     if (state.view === "economy" && !isEconomy(article)) return false;
@@ -213,7 +213,7 @@ function articleCard(article, index) {
     const source = state.sources.find((item) => item.id === id);
     if (source) sources.append(make("span", "source-pill", source.name));
   }
-  if (isNews(article) || isEconomy(article) || isEconomyBlog(article)) {
+  if ((article.topics || []).length) {
     for (const topic of article.topics || []) sources.append(make("span", "topic-pill", topic));
   }
   top.append(sources, make("time", "article-date", formatDate(article.publishedAt)));
@@ -332,7 +332,7 @@ function render() {
   $("#view-title").textContent = titles[state.view][0];
   $("#view-description").textContent = titles[state.view][1];
   document.querySelectorAll(".nav-item").forEach((item) => item.classList.toggle("active", item.dataset.view === state.view));
-  $("#news-topics").hidden = state.view !== "news";
+  $("#news-topics").hidden = !["news", "reading"].includes(state.view);
   $("#economy-blog-topics").hidden = state.view !== "economy-blog";
   $("#economy-topics").hidden = state.view !== "economy";
   const discovering = state.view === "discover";
@@ -366,7 +366,7 @@ function render() {
   const summary = $("#filter-summary");
   const filters = [];
   if (state.query.trim()) filters.push(`검색: ${state.query.trim()}`);
-  if (state.view === "news" && state.newsTopic) filters.push(`분야: ${state.newsTopic}`);
+  if (["news", "reading"].includes(state.view) && state.newsTopic) filters.push(`분야: ${state.newsTopic}`);
   if (state.view === "economy-blog" && state.economyBlogTopic) filters.push(`분야: ${state.economyBlogTopic}`);
   if (state.view === "economy" && state.economyTopic) filters.push(`분야: ${state.economyTopic}`);
   if (state.interestOnly && keywords(state.favoriteKeywords).length) filters.push("관심 키워드");
