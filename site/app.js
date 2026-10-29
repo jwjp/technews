@@ -18,6 +18,10 @@ const state = {
   interestOnly: false,
   readIds: [],
   savedIds: [],
+  savedArticles: [],
+  sourceHealth: [],
+  previousVisit: null,
+  lastVisit: null,
   theme: "light",
   visibleCount: PAGE_SIZE,
   query: "",
@@ -30,6 +34,8 @@ const state = {
 function restoreState() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    if (Array.isArray(saved.savedArticles)) state.savedArticles = saved.savedArticles.filter(validSavedArticle);
+    if (typeof saved.lastVisit === "string" && Number.isFinite(Date.parse(saved.lastVisit))) state.previousVisit = saved.lastVisit;
     for (const key of ["disabledSources", "readIds", "savedIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
     }
@@ -53,6 +59,8 @@ function saveState() {
       hiddenKeywords: state.hiddenKeywords,
       readIds: state.readIds,
       savedIds: state.savedIds,
+      savedArticles: state.savedArticles,
+      lastVisit: state.lastVisit || state.previousVisit,
       theme: state.theme,
       sort: state.sort,
       newsTopic: state.newsTopic,
@@ -87,6 +95,29 @@ function keywords(value) {
   return value.split(",").map((word) => word.trim().toLocaleLowerCase("ko")).filter(Boolean);
 }
 
+function validSavedArticle(article) {
+  return article && typeof article.id === "string" && typeof article.title === "string"
+    && typeof article.url === "string" && /^https?:\/\//i.test(article.url)
+    && typeof article.publishedAt === "string" && Number.isFinite(Date.parse(article.publishedAt))
+    && typeof article.summary === "string"
+    && (article.topics === undefined || (Array.isArray(article.topics) && article.topics.every((topic) => typeof topic === "string")))
+    && Array.isArray(article.sourceIds)
+    && article.sourceIds.every((id) => typeof id === "string");
+}
+
+function savedArticles() {
+  const articles = new Map(state.savedArticles.map((article) => [article.id, article]));
+  for (const article of state.articles) if (state.savedIds.includes(article.id)) articles.set(article.id, article);
+  return [...articles.values()].filter((article) => state.savedIds.includes(article.id)).map((article) => ({
+    ...article,
+    sourceNames: Object.fromEntries(article.sourceIds.map((id) => [id, state.sources.find((source) => source.id === id)?.name || article.sourceNames?.[id] || "이전 구독 소스"]))
+  }));
+}
+
+function matchesTopic(article, topic) {
+  return topic === "기타" ? !(article.topics || []).length : (article.topics || []).includes(topic);
+}
+
 function hasSource(article) {
   return article.sourceIds.some((id) => !state.disabledSources.includes(id));
 }
@@ -96,6 +127,7 @@ function hasSourceType(article, type) {
 }
 
 function isTechBlog(article) {
+  if (isEconomy(article) || isEconomyBlog(article)) return false;
   return article.sourceIds.some((id) => !state.disabledSources.includes(id) && !state.sources.find((source) => source.id === id)?.type);
 }
 
@@ -120,15 +152,16 @@ function filteredArticles() {
   const excluded = keywords(state.hiddenKeywords);
   const favorites = keywords(state.favoriteKeywords);
   const query = state.query.trim().toLocaleLowerCase("ko");
-  const result = state.articles.filter((article) => {
-    if (!hasSource(article)) return false;
+  const result = (state.view === "saved" ? savedArticles() : state.articles).filter((article) => {
+    if (state.view !== "saved" && !hasSource(article)) return false;
     if (state.view === "reading" && !isTechBlog(article)) return false;
     if (state.view === "news" && !isNews(article)) return false;
-    if (["news", "reading"].includes(state.view) && state.newsTopic && !(article.topics || []).includes(state.newsTopic)) return false;
+    if (["news", "reading"].includes(state.view) && state.newsTopic && !matchesTopic(article, state.newsTopic)) return false;
     if (state.view === "economy-blog" && !isEconomyBlog(article)) return false;
-    if (state.view === "economy-blog" && state.economyBlogTopic && !(article.topics || []).includes(state.economyBlogTopic)) return false;
+    if (state.view === "economy-blog" && state.economyBlogTopic && !matchesTopic(article, state.economyBlogTopic)) return false;
     if (state.view === "economy" && !isEconomy(article)) return false;
-    if (state.view === "economy" && state.economyTopic && !(article.topics || []).includes(state.economyTopic)) return false;
+    if (state.view === "economy" && state.economyTopic && !matchesTopic(article, state.economyTopic)) return false;
+    if (state.view === "new" && (!state.previousVisit || (article.firstSeenAt || article.publishedAt) <= state.previousVisit)) return false;
     if (state.view === "unread" && state.readIds.includes(article.id)) return false;
     if (state.view === "saved" && !state.savedIds.includes(article.id)) return false;
     const searchable = searchText(article);
@@ -199,19 +232,23 @@ function renderSources() {
 
 function toggleId(key, id) {
   state[key] = state[key].includes(id) ? state[key].filter((item) => item !== id) : [...state[key], id];
+  if (key === "savedIds") state.savedArticles = savedArticles();
   saveState();
   render();
+  const replacement = document.querySelector(`[data-article-id="${CSS.escape(id)}"] .${key === "savedIds" ? "save-action" : "subtle-action"}`);
+  (replacement || $("#view-title")).focus({ preventScroll: true });
 }
 
 function articleCard(article, index) {
   const card = make("article", `article-card${state.readIds.includes(article.id) ? " is-read" : ""}`);
+  card.dataset.articleId = article.id;
   const ordinal = make("span", "article-ordinal", String(index + 1).padStart(2, "0"));
   const body = make("div", "article-body");
   const top = make("div", "article-top");
   const sources = make("div", "article-sources");
   for (const id of article.sourceIds) {
     const source = state.sources.find((item) => item.id === id);
-    if (source) sources.append(make("span", "source-pill", source.name));
+    sources.append(make("span", "source-pill", source?.name || article.sourceNames?.[id] || "이전 구독 소스"));
   }
   if ((article.topics || []).length) {
     for (const topic of article.topics || []) sources.append(make("span", "topic-pill", topic));
@@ -326,12 +363,13 @@ function render() {
     economy: ["경제 뉴스", "주식·금융·부동산·경제·정책 소식을 골라 보세요."],
     all: ["전체 글", "기술·경제 블로그와 뉴스를 시간순으로 모았어요."],
     unread: ["읽지 않은 글", "아직 만나지 않은 글을 모았어요."],
+    new: ["새로 들어온 글", state.previousVisit ? "지난 방문 이후 수집된 글입니다." : "첫 방문입니다. 다음 방문부터 새 글을 모아 보여드려요."],
     saved: ["저장한 글", "다시 읽고 싶은 글을 모았어요."],
     discover: ["새 소스 발견", "기술·경제 RSS를 매주 살펴보고 새 구독 후보를 추천해요."],
   };
   $("#view-title").textContent = titles[state.view][0];
   $("#view-description").textContent = titles[state.view][1];
-  document.querySelectorAll(".nav-item").forEach((item) => item.classList.toggle("active", item.dataset.view === state.view));
+  document.querySelectorAll(".nav-item").forEach((item) => { item.classList.toggle("active", item.dataset.view === state.view); item.setAttribute("aria-current", item.dataset.view === state.view ? "page" : "false"); });
   $("#news-topics").hidden = !["news", "reading"].includes(state.view);
   $("#economy-blog-topics").hidden = state.view !== "economy-blog";
   $("#economy-topics").hidden = state.view !== "economy";
@@ -353,7 +391,8 @@ function render() {
   $("#count-economy").textContent = available.filter(isEconomy).length.toLocaleString("ko-KR");
   $("#count-all").textContent = available.length.toLocaleString("ko-KR");
   $("#count-unread").textContent = available.filter((item) => !state.readIds.includes(item.id)).length.toLocaleString("ko-KR");
-  $("#count-saved").textContent = available.filter((item) => state.savedIds.includes(item.id)).length.toLocaleString("ko-KR");
+  $("#count-saved").textContent = savedArticles().length.toLocaleString("ko-KR");
+  $("#count-new").textContent = available.filter((article) => state.previousVisit && (article.firstSeenAt || article.publishedAt) > state.previousVisit).length.toLocaleString("ko-KR");
   $("#count-discover").textContent = state.candidates.length.toLocaleString("ko-KR");
   if (discovering) {
     $("#filter-summary").hidden = true;
@@ -460,7 +499,7 @@ function bindEvents() {
     const file = event.target.files?.[0];
     if (!file) return;
     try {
-      if (file.size > 1_000_000) throw new Error("파일이 너무 큽니다.");
+      if (file.size > 20_000_000) throw new Error("파일이 너무 큽니다.");
       const imported = JSON.parse(await file.text());
       if (!imported || typeof imported !== "object" || Array.isArray(imported)) throw new Error("설정 파일 형식이 올바르지 않습니다.");
       localStorage.setItem(STORAGE_KEY, JSON.stringify(imported));
@@ -481,6 +520,21 @@ async function init() {
     if (!Array.isArray(data.articles) || !Array.isArray(data.sources)) throw new Error("피드 형식이 올바르지 않습니다.");
     state.articles = data.articles;
     state.sources = data.sources;
+    state.sourceHealth = data.sourceHealth || [];
+    state.lastVisit = new Date().toISOString();
+    state.savedArticles = savedArticles().map((article) => ({ ...article, sourceNames: Object.fromEntries(article.sourceIds.map((id) => [id, state.sources.find((source) => source.id === id)?.name || article.sourceNames?.[id] || "이전 구독 소스"])) }));
+    saveState();
+    const status = $("#collection-status");
+    status.replaceChildren();
+    for (const health of state.sourceHealth.filter((source) => !source.ok)) {
+      const name = state.sources.find((source) => source.id === health.id)?.name || health.id;
+      status.append(make("p", "field-help", `${name}: ${health.error || "수집 실패"} · 마지막 성공 ${health.lastSuccessAt ? formatDate(health.lastSuccessAt) : "기록 없음"}`));
+    }
+    if (!status.children.length) status.append(make("p", "field-help", "모든 소스를 정상적으로 확인했습니다."));
+    for (const metric of data.retentionStats || []) {
+      const name = state.sources.find((source) => source.id === metric.id)?.name || metric.id;
+      status.append(make("p", "field-help", `${name}: ${metric.kept}개 보관 · 이번 수집에서 ${metric.excluded}개 제외${metric.oldestAt ? ` · 가장 오래된 글 ${formatDate(metric.oldestAt)}` : ""}`));
+    }
     state.generatedAt = data.generatedAt;
     $("#article-count").textContent = `${state.articles.length.toLocaleString("ko-KR")}개의 글 · ${state.sources.length}개 소스`;
     $("#updated-at").textContent = `확인 ${new Intl.DateTimeFormat("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Seoul" }).format(new Date(state.generatedAt))} · ${data.sourceHealth ? `${data.sourceHealth.filter((source) => source.ok).length}/${data.sources.length}개 소스 정상` : "수집 상태 확인 중"}`;

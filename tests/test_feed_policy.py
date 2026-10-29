@@ -4,6 +4,12 @@ from scripts.fetch_feeds import article_topics, merge_articles
 
 
 class FeedPolicyTests(unittest.TestCase):
+    def test_english_security_title(self):
+        self.assertEqual(article_topics("GitLab Security Incident: CVE-2026-97229", {}), ["보안"])
+
+    def test_model_and_retrieval_title(self):
+        self.assertEqual(article_topics("한국어 문서 RAG 평가", {}), ["AI"])
+
     def test_specific_title_overrides_source_default(self):
         self.assertEqual(article_topics("전기차 배터리", {"type": "news", "topics": ["AI"]}), ["자동차"])
 

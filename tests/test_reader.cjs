@@ -1,0 +1,25 @@
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const vm = require("node:vm");
+const context = vm.createContext({ console });
+vm.runInContext(fs.readFileSync("site/app.js", "utf8").replace(/init\(\);\s*$/, ""), context);
+vm.runInContext(`
+const sample = {id:"saved", title:"보존할 글", url:"https://example.com/a", publishedAt:"2026-10-20T00:00:00Z", summary:"", sourceIds:["removed"]};
+state.savedIds = [sample.id];
+state.savedArticles = [sample];
+state.articles = [];
+state.view = "saved";
+if (savedArticles().length !== 1 || filteredArticles().length !== 1) throw Error("Archived bookmark lost");
+state.disabledSources = ["removed"];
+if (filteredArticles().length !== 1) throw Error("Hidden source hid bookmark");
+if (validSavedArticle({...sample,url:"javascript:alert(1)"})) throw Error("Unsafe bookmark accepted");
+if (!matchesTopic(sample,"기타")) throw Error("Unclassified topic missing");
+state.view = "new";
+state.disabledSources = [];
+state.previousVisit = "2026-10-21T00:00:00Z";
+state.articles = [{...sample, firstSeenAt:"2026-10-22T00:00:00Z"}];
+if (filteredArticles().length !== 1) throw Error("Late arriving article missing");
+state.previousVisit = null;
+if (filteredArticles().length !== 0) throw Error("First visit showed backlog as new");
+`, context);
+console.log("Reader checks passed: bookmark retention, hidden sources, safe imports, other topic, new arrivals, first visit.");

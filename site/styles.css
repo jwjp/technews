@@ -7,7 +7,7 @@
   --card: #fffefa;
   --ink: #252722;
   --muted: #7c8179;
-  --soft: #a5a9a0;
+  --soft: #70766b;
   --line: #e5e7df;
   --accent: #e66d40;
   --accent-pale: #fbece4;
@@ -248,4 +248,19 @@ a { color: inherit; }
   .candidate-date { margin-left: 0; width: 100%; }
   .candidate-title { font-size: 17px; }
   .site-footer { flex-direction: column; gap: 4px; }
+}
+
+.collection-details { margin: 16px 0; font-size: 12px; color: var(--muted); }
+.collection-details summary { cursor: pointer; padding: 10px 0; }
+.collection-details > div { max-height: 300px; overflow: auto; padding-right: 6px; }
+button:focus-visible, summary:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.article-title, .source-name { overflow-wrap: anywhere; }
+.hero-meta { flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .subtle-action, .save-action { min-height: 44px; padding: 8px 4px; font-size: 12px; }
+  .source-row { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }

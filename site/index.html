@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css?v=20261029-feed-policy" />
-    <script type="module" src="./app.js?v=20261029-feed-policy"></script>
+    <link rel="stylesheet" href="./styles.css?v=20261029-reading-care" />
+    <script type="module" src="./app.js?v=20261029-reading-care"></script>
   </head>
   <body>
     <div class="site-shell">
@@ -44,6 +44,7 @@
           <div class="sidebar-section">
             <div class="section-heading"><span>내 피드</span><span class="section-index">01</span></div>
             <nav class="feed-nav" aria-label="읽기 목록">
+              <button class="nav-item" data-view="new" type="button"><span class="nav-icon">✦</span><span>새로 들어온 글</span><span class="nav-count" id="count-new">0</span></button>
               <button class="nav-item active" data-view="reading" type="button"><span class="nav-icon">▦</span><span>기술 글</span><span class="nav-count" id="count-reading">0</span></button>
               <button class="nav-item" data-view="news" type="button"><span class="nav-icon">◫</span><span>기술 뉴스</span><span class="nav-count" id="count-news">0</span></button>
               <button class="nav-item" data-view="economy-blog" type="button"><span class="nav-icon">▤</span><span>경제 글</span><span class="nav-count" id="count-economy-blog">0</span></button>
@@ -58,6 +59,7 @@
           <div class="sidebar-section sources-section">
             <div class="section-heading"><span>구독 소스</span><span class="section-index">02</span></div>
             <p class="field-help">체크는 이 브라우저에서만 숨깁니다. 구독 해지는 저장소 소유자가 GitHub에서 요청해야 합니다.</p>
+            <details class="collection-details"><summary>수집 상태와 보관 현황</summary><div id="collection-status"></div></details>
             <div id="source-list" class="source-list"><p class="muted">구독 목록을 불러오는 중...</p></div>
           </div>
 
@@ -79,7 +81,7 @@
 
         <main class="main-content" id="main-content">
           <div class="content-topline"><span class="topline-label">THE READING LIST</span><span class="topline-line"></span><span id="today-date"></span></div>
-          <div class="content-title-row"><div><h2 id="view-title">기술 글</h2><p id="view-description">새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요.</p></div><span class="result-count" id="result-count">—</span></div>
+          <div class="content-title-row"><div><h2 id="view-title" tabindex="-1">기술 글</h2><p id="view-description">새로 올라온 기술 블로그와 커뮤니티 글을 둘러보세요.</p></div><span class="result-count" id="result-count">—</span></div>
           <div class="toolbar" id="article-toolbar">
             <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="제목, 출처, 내용 검색" aria-label="글 검색" /></label>
             <div class="toolbar-actions">
@@ -96,6 +98,7 @@
             <button class="topic-button" data-topic="보안" type="button" aria-pressed="false">보안</button>
             <button class="topic-button" data-topic="AI" type="button" aria-pressed="false">AI</button>
             <button class="topic-button" data-topic="자동차" type="button" aria-pressed="false">자동차</button>
+            <button class="topic-button" data-topic="기타" type="button" aria-pressed="false">기타</button>
           </div>
           <div id="economy-blog-topics" class="news-topics" aria-label="경제 글 분야" hidden>
             <span class="news-topics-label">분야별 보기</span>
@@ -105,6 +108,7 @@
             <button class="topic-button" data-topic="부동산" type="button" aria-pressed="false">부동산</button>
             <button class="topic-button" data-topic="경제" type="button" aria-pressed="false">경제</button>
             <button class="topic-button" data-topic="정책" type="button" aria-pressed="false">정책</button>
+            <button class="topic-button" data-topic="기타" type="button" aria-pressed="false">기타</button>
           </div>
           <div id="economy-topics" class="news-topics" aria-label="경제 뉴스 분야" hidden>
             <span class="news-topics-label">분야별 보기</span>
@@ -114,6 +118,7 @@
             <button class="topic-button" data-topic="부동산" type="button" aria-pressed="false">부동산</button>
             <button class="topic-button" data-topic="경제" type="button" aria-pressed="false">경제</button>
             <button class="topic-button" data-topic="정책" type="button" aria-pressed="false">정책</button>
+            <button class="topic-button" data-topic="기타" type="button" aria-pressed="false">기타</button>
           </div>
           <p class="field-help">최대 180일 범위에서 출처별 하루 보관량과 목록 개수 제한을 적용합니다. 분야는 자동 분류됩니다.</p>
           <div class="filter-summary" id="filter-summary" hidden></div>

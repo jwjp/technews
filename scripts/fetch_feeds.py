@@ -35,8 +35,8 @@ ECONOMY_TOPICS = ("주식", "금융", "부동산", "경제", "정책")
 TITLE_TOPICS = {
     "개발": r"개발자|개발도구|개발환경|프로그래밍|코딩|오픈소스|깃허브|GitHub|DevOps|프론트엔드|백엔드|리팩터링|알고리즘|\b(?:Python|JavaScript|TypeScript|React|Spring|Kotlin|Rust)\b|API\b|SDK\b",
     "소프트웨어": r"소프트웨어|\bSW\b|\bSaaS\b|클라우드|데이터베이스|운영체제|\bOS\b|애플리케이션|\b앱\b",
-    "보안": r"보안|해킹|해커|랜섬웨어|악성코드|사이버공격|취약점|정보보호|개인정보|피싱",
-    "AI": r"(?<![A-Za-z])AI(?![A-Za-z])|인공지능|OpenAI|Anthropic|Claude|Gemini|생성형|LLM|챗봇|챗GPT|ChatGPT|머신러닝|딥러닝",
+    "보안": r"\b(?:security|vulnerability|CVE|malware|ransomware|phishing|AES)\b|보안|해킹|해커|랜섬웨어|악성코드|사이버공격|취약점|정보보호|개인정보|피싱",
+    "AI": r"(?<![A-Za-z])AI(?![A-Za-z])|\b(?:RAG|Nemotron|Qwen|Llama|Whisper)\b|인공지능|OpenAI|Anthropic|Claude|Gemini|생성형|LLM|챗봇|챗GPT|ChatGPT|머신러닝|딥러닝",
     "자동차": r"자동차|전기차|자율주행|모빌리티|완성차|현대차|기아차|테슬라|차량|배터리|충전소|로보택시|커넥티드카",
     "기술": r"반도체|디스플레이|스마트폰|컴퓨팅|통신망|네트워크|데이터센터|서버|로봇|양자컴퓨팅|기술개발",
 }
@@ -244,6 +244,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
                     match = candidate
                     break
         if match:
+            match["firstSeenAt"] = min(match.get("firstSeenAt", match["publishedAt"]), article.get("firstSeenAt", article["publishedAt"]))
             match["sourceIds"] = sorted(set(match["sourceIds"] + article["sourceIds"]), key=source_order.index)
             match["topics"] = ordered_topics(set(match["topics"] + article["topics"]))
             if link_quality(article["url"]) > link_quality(match["url"]):
@@ -253,6 +254,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
             by_url[article["url"]] = match
         else:
             copied = {key: article[key] for key in ("id", "title", "url", "summary", "publishedAt", "sourceIds", "topics")}
+            copied["firstSeenAt"] = article.get("firstSeenAt", article["publishedAt"])
             copied["categories"] = article.get("categories", "")
             copied["sourceIds"] = [source_id for source_id in source_order if source_id in copied["sourceIds"]]
             merged.append(copied)
@@ -265,7 +267,7 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
         ids = set(article["sourceIds"])
         section = "economy-blog" if ids & economy_blogs else "economy" if ids & economy_sources else "news" if ids & news_sources else "reading"
         # Limit high-volume publishers per day so older and quieter sources survive.
-        day = article["publishedAt"][:10]
+        day = datetime.fromisoformat(article["publishedAt"].replace("Z", "+00:00")).astimezone(timezone(timedelta(hours=9))).date().isoformat()
         daily_limit = 20 if section in {"news", "economy"} else 30
         keys = [(section, source_id, day) for source_id in article["sourceIds"]]
         if all(daily_counts.get(key, 0) >= daily_limit for key in keys):
@@ -287,27 +289,43 @@ def main() -> int:
     incoming: list[dict] = []
     failures = []
     health = []
+    checked_at = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+    previous_health = {item["id"]: item for item in old_doc.get("sourceHealth", [])}
+    first_seen = {item["url"]: item.get("firstSeenAt", item["publishedAt"]) for item in old_doc.get("articles", [])}
     for source in sources:
         try:
             entries = entries_from(fetch_xml(source["url"]), source)
             if not entries:
                 raise ValueError("no usable entries")
+            for entry in entries:
+                entry["firstSeenAt"] = first_seen.get(entry["url"], checked_at)
             incoming.extend(entries)
-            health.append({"id": source["id"], "ok": True, "count": len(entries)})
+            health.append({"id": source["id"], "ok": True, "count": len(entries), "lastSuccessAt": checked_at})
             print(f"{source['name']}: {len(entries)} entries")
         except Exception as exc:
             failures.append(source["id"])
-            health.append({"id": source["id"], "ok": False, "count": 0})
+            health.append({"id": source["id"], "ok": False, "count": 0, "lastSuccessAt": previous_health.get(source["id"], {}).get("lastSuccessAt"), "error": (f"HTTP {exc.code}: 제공처 응답 오류" if isinstance(exc, urllib.error.HTTPError) else "제공처 연결 또는 RSS 형식 확인 필요")})
             print(f"{source['name']}: {exc}", file=sys.stderr)
     if not incoming or (args.require_all and failures):
         return 1
     refreshed_urls = {article["url"] for article in incoming}
     previous = [article for article in old_doc.get("articles", []) if article["url"] not in refreshed_urls]
     merged = merge_articles(previous, incoming, sources)
+    retention_stats = []
+    for source in sources:
+        before = {article["url"] for article in previous + incoming if source["id"] in article["sourceIds"]}
+        retained = [article for article in merged if source["id"] in article["sourceIds"]]
+        retention_stats.append({"id": source["id"], "kept": len(retained), "excluded": len(before - {article["url"] for article in retained}), "oldestAt": min((article["publishedAt"] for article in retained), default=None)})
+    # Keep one observation per Korean calendar day, for two weeks of policy review.
+    day = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
+    history = [item for item in old_doc.get("retentionHistory", []) if item.get("day") != day][-13:]
+    history.append({"day": day, "sources": retention_stats})
     if incoming:
         document = {
             "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
             "sourceHealth": health,
+            "retentionStats": retention_stats,
+            "retentionHistory": history,
             "sources": sources,
             "articles": merged,
         }
