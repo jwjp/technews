@@ -41,7 +41,10 @@
     "url": "https://www.etnews.com/rss/03.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["기술"]
+    "topics": [
+      "기술"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etnews-sw",
@@ -49,7 +52,10 @@
     "url": "https://www.etnews.com/rss/04.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["소프트웨어"]
+    "topics": [
+      "소프트웨어"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etnews-security",
@@ -57,7 +63,10 @@
     "url": "https://www.etnews.com/rss/04045.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["보안"]
+    "topics": [
+      "보안"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etnews-ai",
@@ -65,7 +74,10 @@
     "url": "https://www.etnews.com/rss/04046.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["AI"]
+    "topics": [
+      "AI"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etnews-mobility",
@@ -73,7 +85,10 @@
     "url": "https://www.etnews.com/rss/17.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["자동차"]
+    "topics": [
+      "자동차"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "zdnet",
@@ -81,7 +96,8 @@
     "url": "https://feeds.feedburner.com/zdkorea",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "classify": true
+    "classify": true,
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "aitimes",
@@ -89,7 +105,10 @@
     "url": "https://www.aitimes.com/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["AI"]
+    "topics": [
+      "AI"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "itdonga",
@@ -97,7 +116,10 @@
     "url": "https://it.donga.com/feeds/rss/news/",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["기술"]
+    "topics": [
+      "기술"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "itworld",
@@ -105,7 +127,10 @@
     "url": "https://www.itworld.co.kr/feed/",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["기술"]
+    "topics": [
+      "기술"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "techm",
@@ -113,7 +138,10 @@
     "url": "https://www.techm.kr/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["기술"]
+    "topics": [
+      "기술"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "dailysecu",
@@ -121,7 +149,10 @@
     "url": "https://www.dailysecu.com/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["보안"]
+    "topics": [
+      "보안"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "aimatters",
@@ -129,7 +160,10 @@
     "url": "https://aimatters.co.kr/feed/",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["AI"]
+    "topics": [
+      "AI"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "motorgraph",
@@ -137,7 +171,10 @@
     "url": "https://www.motorgraph.com/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["자동차"]
+    "topics": [
+      "자동차"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "autoherald",
@@ -145,7 +182,10 @@
     "url": "https://www.autoherald.co.kr/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["자동차"]
+    "topics": [
+      "자동차"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "irobotnews",
@@ -153,7 +193,10 @@
     "url": "https://www.irobotnews.com/rss/allArticle.xml",
     "group": "국내 IT 뉴스",
     "type": "news",
-    "topics": ["기술"]
+    "topics": [
+      "기술"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "mer-blog",
@@ -161,7 +204,10 @@
     "url": "https://rss.blog.naver.com/ranto28.xml",
     "group": "경제 블로그",
     "type": "economy-blog",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "babybear-blog",
@@ -169,7 +215,10 @@
     "url": "https://rss.blog.naver.com/a-cute-bear.xml",
     "group": "경제 블로그",
     "type": "economy-blog",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "richnote-blog",
@@ -177,7 +226,10 @@
     "url": "https://rss.blog.naver.com/rpartners01.xml",
     "group": "경제 블로그",
     "type": "economy-blog",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "jackpasi-blog",
@@ -185,7 +237,10 @@
     "url": "https://rss.blog.naver.com/jackpasi.xml",
     "group": "경제 블로그",
     "type": "economy-blog",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "hankyung-finance",
@@ -193,7 +248,10 @@
     "url": "https://www.hankyung.com/feed/finance",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["주식"]
+    "topics": [
+      "주식"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "hankyung-realestate",
@@ -201,7 +259,10 @@
     "url": "https://www.hankyung.com/feed/realestate",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "hankyung-economy",
@@ -209,7 +270,10 @@
     "url": "https://www.hankyung.com/feed/economy",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "mk-stock",
@@ -217,7 +281,10 @@
     "url": "https://www.mk.co.kr/rss/50200011/",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["주식"]
+    "topics": [
+      "주식"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "mk-realestate",
@@ -225,7 +292,10 @@
     "url": "https://www.mk.co.kr/rss/50300009/",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "mk-economy",
@@ -233,7 +303,10 @@
     "url": "https://www.mk.co.kr/rss/30100041/",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etoday-market",
@@ -241,7 +314,10 @@
     "url": "https://rss.etoday.co.kr/eto/market_news.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["주식"]
+    "topics": [
+      "주식"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etoday-realestate",
@@ -249,7 +325,10 @@
     "url": "https://rss.etoday.co.kr/eto/land_news.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "etoday-economy",
@@ -257,7 +336,10 @@
     "url": "https://rss.etoday.co.kr/eto/economy_news.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "fnnews-stock",
@@ -265,7 +347,10 @@
     "url": "https://www.fnnews.com/rss/r20/fn_realnews_stock.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["주식"]
+    "topics": [
+      "주식"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "fnnews-realestate",
@@ -273,7 +358,10 @@
     "url": "https://www.fnnews.com/rss/r20/fn_realnews_realestate.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["부동산"]
+    "topics": [
+      "부동산"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "fnnews-economy",
@@ -281,7 +369,10 @@
     "url": "https://www.fnnews.com/rss/r20/fn_realnews_economy.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "newsis-finance",
@@ -289,7 +380,10 @@
     "url": "https://www.newsis.com/RSS/bank.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["금융"]
+    "topics": [
+      "금융"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "newsis-economy",
@@ -297,7 +391,10 @@
     "url": "https://www.newsis.com/RSS/economy.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "ajunews-investment",
@@ -305,7 +402,8 @@
     "url": "https://www.ajunews.com/rss/investment.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "classify": true
+    "classify": true,
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "ajunews-economy",
@@ -313,7 +411,10 @@
     "url": "https://www.ajunews.com/rss/economy.xml",
     "group": "경제 뉴스",
     "type": "economy",
-    "topics": ["경제"]
+    "topics": [
+      "경제"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "bok-market",
@@ -321,7 +422,11 @@
     "url": "https://www.bok.or.kr/portal/bbs/P0002017/news.rss?menuNo=200365",
     "group": "정책·지표 원문",
     "type": "economy",
-    "topics": ["금융", "정책"]
+    "topics": [
+      "금융",
+      "정책"
+    ],
+    "timezone": "Asia/Seoul"
   },
   {
     "id": "mss-press",
@@ -329,6 +434,9 @@
     "url": "https://mss.go.kr/rss/smba/board/86.do",
     "group": "정책·지표 원문",
     "type": "economy",
-    "topics": ["정책"]
+    "topics": [
+      "정책"
+    ],
+    "timezone": "Asia/Seoul"
   }
 ]

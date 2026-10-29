@@ -87,7 +87,7 @@ def child_text(element: ET.Element, *names: str) -> str:
     return ""
 
 
-def parse_date(raw: str) -> str | None:
+def parse_date(raw: str, timezone_name: str = "UTC") -> str | None:
     if not raw:
         return None
     if re.fullmatch(r"\d{14}", raw):
@@ -101,7 +101,8 @@ def parse_date(raw: str) -> str | None:
         except (TypeError, ValueError, IndexError):
             return None
     if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=timezone.utc)
+        feed_timezone = timezone(timedelta(hours=9)) if timezone_name == "Asia/Seoul" else timezone.utc
+        parsed = parsed.replace(tzinfo=feed_timezone)
     return parsed.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
@@ -169,7 +170,7 @@ def entries_from(root: ET.Element, source: dict) -> list[dict]:
         link = canonical_url(link)
         if not title or not link:
             continue
-        published = parse_date(child_text(entry, "pubDate", f"{ATOM}published", f"{ATOM}updated", f"{DC}date"))
+        published = parse_date(child_text(entry, "pubDate", f"{ATOM}published", f"{ATOM}updated", f"{DC}date"), source.get("timezone", "UTC"))
         if not published:
             continue
         topics = set(source.get("topics", []))
@@ -210,12 +211,13 @@ def merge_articles(old: list[dict], incoming: list[dict], sources: list[dict]) -
     news_sources = {source["id"] for source in sources if source.get("type") == "news"}
     economy_sources = {source["id"] for source in sources if source.get("type") == "economy"}
     economy_blogs = {source["id"] for source in sources if source.get("type") == "economy-blog"}
-    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=MAX_AGE_DAYS)
     valid = []
     for article in old + incoming:
         try:
             known_sources = [source_id for source_id in article["sourceIds"] if source_id in source_order]
-            if known_sources and datetime.fromisoformat(article["publishedAt"].replace("Z", "+00:00")) >= cutoff:
+            if known_sources and cutoff <= datetime.fromisoformat(article["publishedAt"].replace("Z", "+00:00")) <= now + timedelta(minutes=15):
                 topics: set[str] = set()
                 for source_id in known_sources:
                     topics.update(source_topics[source_id])
@@ -275,22 +277,28 @@ def main() -> int:
     old_doc = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"articles": []}
     incoming: list[dict] = []
     failures = []
+    health = []
     for source in sources:
         try:
             entries = entries_from(fetch_xml(source["url"]), source)
             if not entries:
                 raise ValueError("no usable entries")
             incoming.extend(entries)
+            health.append({"id": source["id"], "ok": True, "count": len(entries)})
             print(f"{source['name']}: {len(entries)} entries")
         except Exception as exc:
             failures.append(source["id"])
+            health.append({"id": source["id"], "ok": False, "count": 0})
             print(f"{source['name']}: {exc}", file=sys.stderr)
     if not incoming or (args.require_all and failures):
         return 1
-    merged = merge_articles(old_doc.get("articles", []), incoming, sources)
-    if merged != old_doc.get("articles", []) or old_doc.get("sources") != sources:
+    refreshed_urls = {article["url"] for article in incoming}
+    previous = [article for article in old_doc.get("articles", []) if article["url"] not in refreshed_urls]
+    merged = merge_articles(previous, incoming, sources)
+    if incoming:
         document = {
             "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+            "sourceHealth": health,
             "sources": sources,
             "articles": merged,
         }

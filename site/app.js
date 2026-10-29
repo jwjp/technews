@@ -33,12 +33,13 @@ function restoreState() {
     for (const key of ["disabledSources", "readIds", "savedIds"]) {
       if (Array.isArray(saved[key])) state[key] = saved[key].filter((value) => typeof value === "string");
     }
-    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyBlogTopic", "economyTopic"]) {
+    for (const key of ["favoriteKeywords", "hiddenKeywords", "theme", "newsTopic", "economyBlogTopic", "economyTopic", "sort"]) {
       if (typeof saved[key] === "string") state[key] = saved[key];
     }
   } catch {
     // A damaged browser setting should not prevent the feed from opening.
   }
+  $("#sort-order").value = ["newest", "oldest", "balanced"].includes(state.sort) ? state.sort : "newest";
   applyTheme();
   $("#favorite-keywords").value = state.favoriteKeywords;
   $("#hidden-keywords").value = state.hiddenKeywords;
@@ -53,6 +54,7 @@ function saveState() {
       readIds: state.readIds,
       savedIds: state.savedIds,
       theme: state.theme,
+      sort: state.sort,
       newsTopic: state.newsTopic,
       economyBlogTopic: state.economyBlogTopic,
       economyTopic: state.economyTopic,
@@ -118,7 +120,7 @@ function filteredArticles() {
   const excluded = keywords(state.hiddenKeywords);
   const favorites = keywords(state.favoriteKeywords);
   const query = state.query.trim().toLocaleLowerCase("ko");
-  return state.articles.filter((article) => {
+  const result = state.articles.filter((article) => {
     if (!hasSource(article)) return false;
     if (state.view === "reading" && !isTechBlog(article)) return false;
     if (state.view === "news" && !isNews(article)) return false;
@@ -134,7 +136,22 @@ function filteredArticles() {
     if (excluded.some((word) => searchable.includes(word))) return false;
     if (state.interestOnly && favorites.length && !favorites.some((word) => searchable.includes(word))) return false;
     return true;
-  }).sort((a, b) => state.sort === "newest" ? b.publishedAt.localeCompare(a.publishedAt) : a.publishedAt.localeCompare(b.publishedAt));
+  }).sort((a, b) => state.sort === "oldest" ? a.publishedAt.localeCompare(b.publishedAt) : b.publishedAt.localeCompare(a.publishedAt));
+  if (state.sort !== "balanced") return result;
+  const buckets = new Map();
+  for (const article of result) {
+    const key = article.sourceIds.find((id) => !state.disabledSources.includes(id));
+    if (!buckets.has(key)) buckets.set(key, []);
+    buckets.get(key).push(article);
+  }
+  const balanced = [];
+  while (buckets.size) {
+    for (const [key, articles] of buckets) {
+      balanced.push(articles.shift());
+      if (!articles.length) buckets.delete(key);
+    }
+  }
+  return balanced;
 }
 
 function formatDate(iso) {
@@ -396,7 +413,7 @@ function bindEvents() {
     renderDiscovery();
   }));
   $("#search-input").addEventListener("input", (event) => { state.query = event.target.value; state.visibleCount = PAGE_SIZE; render(); });
-  $("#sort-order").addEventListener("change", (event) => { state.sort = event.target.value; render(); });
+  $("#sort-order").addEventListener("change", (event) => { state.sort = event.target.value; state.visibleCount = PAGE_SIZE; saveState(); render(); });
   $("#interest-only").addEventListener("change", (event) => {
     if (event.target.checked && !keywords(state.favoriteKeywords).length) {
       event.target.checked = false;
@@ -466,7 +483,7 @@ async function init() {
     state.sources = data.sources;
     state.generatedAt = data.generatedAt;
     $("#article-count").textContent = `${state.articles.length.toLocaleString("ko-KR")}개의 글 · ${state.sources.length}개 소스`;
-    $("#updated-at").textContent = `마지막 갱신 ${formatDate(state.generatedAt)}`;
+    $("#updated-at").textContent = `확인 ${new Intl.DateTimeFormat("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Seoul" }).format(new Date(state.generatedAt))} · ${data.sourceHealth ? `${data.sourceHealth.filter((source) => source.ok).length}/${data.sources.length}개 소스 정상` : "수집 상태 확인 중"}`;
     renderSources();
     render();
   } catch (error) {
