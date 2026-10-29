@@ -1,263 +1,264 @@
 {
-  "generatedAt": "2026-10-29T01:51:49Z",
+  "generatedAt": "2026-10-29T01:53:52Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
       "ok": true,
       "count": 10,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "velopers",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "indieblog",
       "ok": true,
       "count": 40,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "awesome",
       "ok": true,
       "count": 76,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "geeknews",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "hnko",
       "ok": true,
       "count": 10,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etnews-it",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etnews-sw",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etnews-security",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etnews-ai",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etnews-mobility",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "zdnet",
       "ok": true,
       "count": 16,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "aitimes",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "itdonga",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "itworld",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "techm",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "dailysecu",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "aimatters",
-      "ok": true,
-      "count": 10,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "ok": false,
+      "count": 0,
+      "lastSuccessAt": "2026-10-29T01:51:39Z",
+      "error": "제공처 연결 또는 RSS 형식 확인 필요"
     },
     {
       "id": "motorgraph",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "autoherald",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "irobotnews",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "mer-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "babybear-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "richnote-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "jackpasi-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "hankyung-finance",
       "ok": true,
       "count": 49,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "hankyung-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "hankyung-economy",
       "ok": true,
       "count": 49,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "mk-stock",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "mk-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "mk-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etoday-market",
       "ok": true,
       "count": 51,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etoday-realestate",
       "ok": true,
       "count": 17,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "etoday-economy",
       "ok": true,
       "count": 19,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "fnnews-stock",
       "ok": true,
-      "count": 42,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "count": 41,
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "fnnews-realestate",
       "ok": true,
       "count": 41,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "fnnews-economy",
       "ok": true,
       "count": 31,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "newsis-finance",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "newsis-economy",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "ajunews-investment",
       "ok": true,
-      "count": 96,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "count": 95,
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "ajunews-economy",
       "ok": true,
       "count": 147,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "bok-market",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     },
     {
       "id": "mss-press",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-10-29T01:51:39Z"
+      "lastSuccessAt": "2026-10-29T01:53:03Z"
     }
   ],
   "retentionStats": [
@@ -288,25 +289,25 @@
     {
       "id": "geeknews",
       "kept": 277,
-      "excluded": 15,
+      "excluded": 0,
       "oldestAt": "2026-10-20T07:35:41Z"
     },
     {
       "id": "hnko",
       "kept": 257,
-      "excluded": 14,
+      "excluded": 0,
       "oldestAt": "2026-10-20T12:17:28Z"
     },
     {
       "id": "etnews-it",
       "kept": 119,
-      "excluded": 7,
+      "excluded": 6,
       "oldestAt": "2026-10-21T21:45:20Z"
     },
     {
       "id": "etnews-sw",
       "kept": 159,
-      "excluded": 13,
+      "excluded": 6,
       "oldestAt": "2026-10-21T13:20:30Z"
     },
     {
@@ -318,25 +319,25 @@
     {
       "id": "etnews-ai",
       "kept": 125,
-      "excluded": 25,
+      "excluded": 18,
       "oldestAt": "2026-10-21T13:20:30Z"
     },
     {
       "id": "etnews-mobility",
       "kept": 84,
-      "excluded": 9,
+      "excluded": 7,
       "oldestAt": "2026-10-22T01:09:30Z"
     },
     {
       "id": "zdnet",
       "kept": 141,
-      "excluded": 31,
+      "excluded": 0,
       "oldestAt": "2026-10-21T10:33:55Z"
     },
     {
       "id": "aitimes",
       "kept": 131,
-      "excluded": 52,
+      "excluded": 16,
       "oldestAt": "2026-10-21T15:05:45Z"
     },
     {
@@ -354,13 +355,13 @@
     {
       "id": "techm",
       "kept": 109,
-      "excluded": 56,
+      "excluded": 28,
       "oldestAt": "2026-10-21T13:13:14Z"
     },
     {
       "id": "dailysecu",
       "kept": 106,
-      "excluded": 40,
+      "excluded": 30,
       "oldestAt": "2026-10-21T13:49:09Z"
     },
     {
@@ -384,7 +385,7 @@
     {
       "id": "irobotnews",
       "kept": 102,
-      "excluded": 25,
+      "excluded": 2,
       "oldestAt": "2026-10-21T11:02:28Z"
     },
     {
@@ -414,7 +415,7 @@
     {
       "id": "hankyung-finance",
       "kept": 41,
-      "excluded": 30,
+      "excluded": 21,
       "oldestAt": "2026-10-27T10:20:45Z"
     },
     {
@@ -426,25 +427,25 @@
     {
       "id": "hankyung-economy",
       "kept": 40,
-      "excluded": 29,
+      "excluded": 9,
       "oldestAt": "2026-10-28T08:59:52Z"
     },
     {
       "id": "mk-stock",
       "kept": 39,
-      "excluded": 43,
+      "excluded": 23,
       "oldestAt": "2026-10-27T09:25:26Z"
     },
     {
       "id": "mk-realestate",
       "kept": 53,
-      "excluded": 29,
+      "excluded": 22,
       "oldestAt": "2026-10-27T08:00:00Z"
     },
     {
       "id": "mk-economy",
       "kept": 31,
-      "excluded": 34,
+      "excluded": 19,
       "oldestAt": "2026-10-27T08:43:24Z"
     },
     {
@@ -468,38 +469,38 @@
     {
       "id": "fnnews-stock",
       "kept": 48,
-      "excluded": 15,
+      "excluded": 3,
       "oldestAt": "2026-10-27T07:04:34Z"
     },
     {
       "id": "fnnews-realestate",
       "kept": 51,
-      "excluded": 10,
+      "excluded": 7,
       "oldestAt": "2026-10-27T05:02:46Z"
     },
     {
       "id": "fnnews-economy",
       "kept": 48,
-      "excluded": 3,
+      "excluded": 1,
       "oldestAt": "2026-10-27T05:03:43Z"
     },
     {
       "id": "newsis-finance",
       "kept": 41,
-      "excluded": 80,
+      "excluded": 60,
       "oldestAt": "2026-10-27T10:20:45Z"
     },
     {
       "id": "newsis-economy",
       "kept": 45,
-      "excluded": 75,
+      "excluded": 60,
       "oldestAt": "2026-10-27T09:19:35Z"
     },
     {
       "id": "ajunews-investment",
       "kept": 56,
-      "excluded": 41,
-      "oldestAt": "2026-10-27T06:25:46Z"
+      "excluded": 39,
+      "oldestAt": "2026-10-27T06:36:22Z"
     },
     {
       "id": "ajunews-economy",
@@ -551,25 +552,25 @@
         {
           "id": "geeknews",
           "kept": 277,
-          "excluded": 15,
+          "excluded": 0,
           "oldestAt": "2026-10-20T07:35:41Z"
         },
         {
           "id": "hnko",
           "kept": 257,
-          "excluded": 14,
+          "excluded": 0,
           "oldestAt": "2026-10-20T12:17:28Z"
         },
         {
           "id": "etnews-it",
           "kept": 119,
-          "excluded": 7,
+          "excluded": 6,
           "oldestAt": "2026-10-21T21:45:20Z"
         },
         {
           "id": "etnews-sw",
           "kept": 159,
-          "excluded": 13,
+          "excluded": 6,
           "oldestAt": "2026-10-21T13:20:30Z"
         },
         {
@@ -581,25 +582,25 @@
         {
           "id": "etnews-ai",
           "kept": 125,
-          "excluded": 25,
+          "excluded": 18,
           "oldestAt": "2026-10-21T13:20:30Z"
         },
         {
           "id": "etnews-mobility",
           "kept": 84,
-          "excluded": 9,
+          "excluded": 7,
           "oldestAt": "2026-10-22T01:09:30Z"
         },
         {
           "id": "zdnet",
           "kept": 141,
-          "excluded": 31,
+          "excluded": 0,
           "oldestAt": "2026-10-21T10:33:55Z"
         },
         {
           "id": "aitimes",
           "kept": 131,
-          "excluded": 52,
+          "excluded": 16,
           "oldestAt": "2026-10-21T15:05:45Z"
         },
         {
@@ -617,13 +618,13 @@
         {
           "id": "techm",
           "kept": 109,
-          "excluded": 56,
+          "excluded": 28,
           "oldestAt": "2026-10-21T13:13:14Z"
         },
         {
           "id": "dailysecu",
           "kept": 106,
-          "excluded": 40,
+          "excluded": 30,
           "oldestAt": "2026-10-21T13:49:09Z"
         },
         {
@@ -647,7 +648,7 @@
         {
           "id": "irobotnews",
           "kept": 102,
-          "excluded": 25,
+          "excluded": 2,
           "oldestAt": "2026-10-21T11:02:28Z"
         },
         {
@@ -677,7 +678,7 @@
         {
           "id": "hankyung-finance",
           "kept": 41,
-          "excluded": 30,
+          "excluded": 21,
           "oldestAt": "2026-10-27T10:20:45Z"
         },
         {
@@ -689,25 +690,25 @@
         {
           "id": "hankyung-economy",
           "kept": 40,
-          "excluded": 29,
+          "excluded": 9,
           "oldestAt": "2026-10-28T08:59:52Z"
         },
         {
           "id": "mk-stock",
           "kept": 39,
-          "excluded": 43,
+          "excluded": 23,
           "oldestAt": "2026-10-27T09:25:26Z"
         },
         {
           "id": "mk-realestate",
           "kept": 53,
-          "excluded": 29,
+          "excluded": 22,
           "oldestAt": "2026-10-27T08:00:00Z"
         },
         {
           "id": "mk-economy",
           "kept": 31,
-          "excluded": 34,
+          "excluded": 19,
           "oldestAt": "2026-10-27T08:43:24Z"
         },
         {
@@ -731,38 +732,38 @@
         {
           "id": "fnnews-stock",
           "kept": 48,
-          "excluded": 15,
+          "excluded": 3,
           "oldestAt": "2026-10-27T07:04:34Z"
         },
         {
           "id": "fnnews-realestate",
           "kept": 51,
-          "excluded": 10,
+          "excluded": 7,
           "oldestAt": "2026-10-27T05:02:46Z"
         },
         {
           "id": "fnnews-economy",
           "kept": 48,
-          "excluded": 3,
+          "excluded": 1,
           "oldestAt": "2026-10-27T05:03:43Z"
         },
         {
           "id": "newsis-finance",
           "kept": 41,
-          "excluded": 80,
+          "excluded": 60,
           "oldestAt": "2026-10-27T10:20:45Z"
         },
         {
           "id": "newsis-economy",
           "kept": 45,
-          "excluded": 75,
+          "excluded": 60,
           "oldestAt": "2026-10-27T09:19:35Z"
         },
         {
           "id": "ajunews-investment",
           "kept": 56,
-          "excluded": 41,
-          "oldestAt": "2026-10-27T06:25:46Z"
+          "excluded": 39,
+          "oldestAt": "2026-10-27T06:36:22Z"
         },
         {
           "id": "ajunews-economy",
@@ -1228,6 +1229,21 @@
     }
   ],
   "articles": [
+    {
+      "id": "9905f5db935fb367e4e5",
+      "title": "\"기억 향상\" 부당광고…경찰 수사받는 대웅제약",
+      "url": "https://www.newsis.com/view/NISX20261029_0003846132",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:51:30Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-10-29T01:53:03Z",
+      "categories": " "
+    },
     {
       "id": "2271799e502ef95308a4",
       "title": "골프존카운티 매각 잡음 진화나선 MBK “드래그얼롱은 골프존홀딩스가 동의한 것”",
@@ -2675,21 +2691,6 @@
         "자동차"
       ],
       "firstSeenAt": "2026-10-29T01:49:00Z",
-      "categories": " "
-    },
-    {
-      "id": "974fe0b9e6744bdd64c8",
-      "title": "원가 절반으로 절감…서울바이오시스, 희토류 없앤 LED 개발에 상한가",
-      "url": "https://www.newsis.com/view/NISX20261029_0003846040",
-      "summary": "",
-      "publishedAt": "2026-10-29T01:04:50Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "firstSeenAt": "2026-10-29T01:04:50Z",
       "categories": " "
     },
     {
@@ -18929,6 +18930,21 @@
       "categories": ""
     },
     {
+      "id": "d995920b5f7025b8b84c",
+      "title": "한국씨티은행, 신임 행장에 김경호 기업금융그룹장 선임",
+      "url": "https://www.ajunews.com/view/20261027153129472",
+      "summary": "",
+      "publishedAt": "2026-10-27T07:44:02Z",
+      "sourceIds": [
+        "ajunews-investment"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-10-29T01:53:03Z",
+      "categories": " "
+    },
+    {
       "id": "cc9e72a9d84f0ead8df3",
       "title": "Nietzschian Debugger - 답 대신 질문으로 스스로 버그 원인을 찾게 하는 디버거",
       "url": "https://news.hada.io/topic?id=36098",
@@ -19619,21 +19635,6 @@
       ],
       "firstSeenAt": "2026-10-27T06:27:17Z",
       "categories": ""
-    },
-    {
-      "id": "dfe43e0096d8dd799116",
-      "title": "전국 땅값 0.62% 올랐는데 서울은 1.26%… 토지거래 15.6% 감소",
-      "url": "https://www.ajunews.com/view/20261027132826857",
-      "summary": "",
-      "publishedAt": "2026-10-27T06:25:46Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-10-29T01:51:39Z",
-      "categories": " "
     },
     {
       "id": "487fcfbe7dd6a15c7c33",
