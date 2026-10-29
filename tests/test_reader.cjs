@@ -23,3 +23,21 @@ state.previousVisit = null;
 if (filteredArticles().length !== 0) throw Error("First visit showed backlog as new");
 `, context);
 console.log("Reader checks passed: bookmark retention, hidden sources, safe imports, other topic, new arrivals, first visit.");
+
+vm.runInContext(`
+let appended, restored, focused = false;
+const button = {hidden:false};
+const marker = {focus(options) { if (!options.preventScroll) throw Error("Focus moved viewport"); focused=true; }};
+const document = {querySelector(selector) { return selector === "#load-more" ? button : {querySelector() {return marker;}}; }};
+const window = {scrollY:1234, scrollX:0, scrollTo(value) {restored=value;}};
+const requestAnimationFrame = (callback) => callback();
+filteredArticles = () => Array.from({length:50}, (_,id) => ({id}));
+appendArticleBatch = (articles,start,end) => {appended={start,end};};
+render = () => {throw Error("Load more rebuilt the list");};
+state.visibleCount=24;
+loadMoreArticles({detail:1});
+if (appended.start !==24 || appended.end!==48 || restored.top!==1234 || focused) throw Error("Pointer pagination failed");
+loadMoreArticles({detail:0});
+if (state.visibleCount!==50 || !button.hidden || !focused || restored.top!==1234) throw Error("Final keyboard batch failed");
+`, context);
+console.log("Pagination checks passed: append only, viewport preservation, final batch and keyboard focus.");
