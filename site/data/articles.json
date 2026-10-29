@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:05:41Z",
+  "generatedAt": "2026-10-29T01:31:58Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
@@ -59,7 +59,7 @@
     {
       "id": "zdnet",
       "ok": true,
-      "count": 15
+      "count": 20
     },
     {
       "id": "aitimes",
@@ -159,17 +159,17 @@
     {
       "id": "etoday-market",
       "ok": true,
-      "count": 45
+      "count": 49
     },
     {
       "id": "etoday-realestate",
       "ok": true,
-      "count": 15
+      "count": 17
     },
     {
       "id": "etoday-economy",
       "ok": true,
-      "count": 15
+      "count": 18
     },
     {
       "id": "fnnews-stock",
@@ -179,12 +179,12 @@
     {
       "id": "fnnews-realestate",
       "ok": true,
-      "count": 42
+      "count": 38
     },
     {
       "id": "fnnews-economy",
       "ok": true,
-      "count": 37
+      "count": 33
     },
     {
       "id": "newsis-finance",
@@ -199,7 +199,7 @@
     {
       "id": "ajunews-investment",
       "ok": true,
-      "count": 96
+      "count": 97
     },
     {
       "id": "ajunews-economy",
@@ -661,6 +661,48 @@
   ],
   "articles": [
     {
+      "id": "de91d3ca906d0b720845",
+      "title": "우리은행, 금융보안원과 모의해킹 경진대회 '우리콘' 시상식",
+      "url": "https://www.newsis.com/view/NISX20261029_0003846125",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:30:21Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "categories": " "
+    },
+    {
+      "id": "637662a84853a9ab77f2",
+      "title": "이억원 \"빚이 삶 포기하는 이유 돼선 안 돼\"…채무상담 대표번호 '1375' 개통",
+      "url": "https://www.newsis.com/view/NISX20261029_0003845922",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:30:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "categories": " "
+    },
+    {
+      "id": "37ee7c08034f5a14e7ca",
+      "title": "미래에셋증권, 日 산코증권 지분 100% 인수 추진…1006억 출자 결의",
+      "url": "https://www.newsis.com/view/NISX20261029_0003846128",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:29:59Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "categories": " "
+    },
+    {
       "id": "3b6a71871b5a613545b2",
       "title": "미래에셋 TIGER 미국S&P500 ETF, 올해 개인 순매수액 5조 원 돌파",
       "url": "https://www.ajunews.com/view/20261029093146477",
@@ -671,6 +713,20 @@
       ],
       "topics": [
         "주식"
+      ],
+      "categories": " "
+    },
+    {
+      "id": "a01740d4da6508f6abb9",
+      "title": "실적·주주환원 기대감에 SK하닉·SK스퀘어 동반 강세",
+      "url": "https://www.newsis.com/view/NISX20261029_0003846118",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:29:20Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
       ],
       "categories": " "
     },
@@ -1418,7 +1474,6 @@
         "etoday-realestate"
       ],
       "topics": [
-        "부동산",
         "정책"
       ],
       "categories": "정책 "
@@ -1433,7 +1488,6 @@
         "etoday-realestate"
       ],
       "topics": [
-        "부동산",
         "정책"
       ],
       "categories": "정책 "
@@ -1448,7 +1502,6 @@
         "etoday-realestate"
       ],
       "topics": [
-        "부동산",
         "정책"
       ],
       "categories": "정책 "
@@ -1463,7 +1516,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -1478,7 +1530,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -2305,20 +2356,6 @@
       "categories": "뉴스 최신 뉴스 "
     },
     {
-      "id": "92dd7d5608fd6d22b635",
-      "title": "\"바이오인재 양성\"…차의과학대·한국UCB '맞손'",
-      "url": "https://www.newsis.com/view/NISX20261029_0003845947",
-      "summary": "",
-      "publishedAt": "2026-10-29T00:35:37Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "categories": " "
-    },
-    {
       "id": "c46956b39bfa00f9d93c",
       "title": "[특징주] 한미약품, 국산 비만약 ‘에페’ 처방 시작에 3%대 강세",
       "url": "https://www.etoday.co.kr/news/view/2641532",
@@ -2343,34 +2380,6 @@
       ],
       "topics": [
         "경제"
-      ],
-      "categories": " "
-    },
-    {
-      "id": "399670534443af505fed",
-      "title": "코스콤, '금융의 날' 포용금융 부문 수상",
-      "url": "https://www.newsis.com/view/NISX20261029_0003845948",
-      "summary": "",
-      "publishedAt": "2026-10-29T00:34:01Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "categories": " "
-    },
-    {
-      "id": "8a4daff9267417c79b1e",
-      "title": "아이진 \"컨소시엄 코로나19 백신 1상 투여 개시\"",
-      "url": "https://www.newsis.com/view/NISX20261029_0003845912",
-      "summary": "",
-      "publishedAt": "2026-10-29T00:33:35Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
       ],
       "categories": " "
     },
@@ -2402,20 +2411,6 @@
         "정책"
       ],
       "categories": "경제|일반경제 "
-    },
-    {
-      "id": "7df3e4af45a8e09e546f",
-      "title": "한은 \"미국 중간선거 이후 정책 변화 불확실성 높아\"",
-      "url": "https://www.newsis.com/view/NISX20261029_0003845846",
-      "summary": "",
-      "publishedAt": "2026-10-29T00:32:56Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "정책"
-      ],
-      "categories": " "
     },
     {
       "id": "ea651e30ef53ac312e50",
@@ -2511,7 +2506,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -2896,7 +2890,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -3643,7 +3636,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -3756,7 +3748,6 @@
         "etoday-realestate"
       ],
       "topics": [
-        "부동산",
         "정책"
       ],
       "categories": "정책 "
@@ -3995,7 +3986,6 @@
         "etoday-market"
       ],
       "topics": [
-        "주식",
         "금융"
       ],
       "categories": "채권/펀드 "
@@ -5846,7 +5836,6 @@
         "etoday-realestate"
       ],
       "topics": [
-        "부동산",
         "정책"
       ],
       "categories": "정책 "
@@ -5861,7 +5850,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -6247,7 +6235,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -6332,7 +6319,6 @@
         "etoday-economy"
       ],
       "topics": [
-        "경제",
         "정책"
       ],
       "categories": "정책 "
@@ -9684,20 +9670,6 @@
       "categories": " "
     },
     {
-      "id": "5f11595a343e264f109e",
-      "title": "창업 유니콘에 도전하는 성북구 1인 창조기업 지원센터 우수기업 (1)",
-      "url": "https://it.donga.com/109787",
-      "summary": "",
-      "publishedAt": "2026-10-28T07:54:48Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "categories": ""
-    },
-    {
       "id": "13900ec99b78fb3c381a",
       "title": "방미통위, 구글에 429억 애플에 208억원 과징금...앱 마켓 금지행위 위반",
       "url": "https://www.techm.kr/news/articleView.html?idxno=156618",
@@ -10854,6 +10826,20 @@
         "경제"
       ],
       "categories": ""
+    },
+    {
+      "id": "5f11595a343e264f109e",
+      "title": "창업 유니콘에 도전하는 성북구 1인 창조기업 지원센터 우수기업 (1)",
+      "url": "https://it.donga.com/109787",
+      "summary": "",
+      "publishedAt": "2026-10-28T05:54:48Z",
+      "sourceIds": [
+        "itdonga"
+      ],
+      "topics": [
+        "기술"
+      ],
+      "categories": "뉴스 "
     },
     {
       "id": "ddb13179c6b6bded146a",
@@ -14411,7 +14397,7 @@
         "mer-blog"
       ],
       "topics": [
-        "경제"
+        "주식"
       ],
       "categories": " "
     },
@@ -32402,7 +32388,6 @@
         "itworld"
       ],
       "topics": [
-        "기술",
         "AI"
       ],
       "categories": "Artificial Intelligence, Development Tools, Generative AI, Software Development Artificial Intelligence, Development Tools, Generative AI, Software Development "
@@ -40698,7 +40683,7 @@
         "mer-blog"
       ],
       "topics": [
-        "경제"
+        "주식"
       ],
       "categories": " "
     },
@@ -41973,8 +41958,7 @@
         "mer-blog"
       ],
       "topics": [
-        "주식",
-        "경제"
+        "주식"
       ],
       "categories": "경제/주식/국제정세/사회 "
     },
