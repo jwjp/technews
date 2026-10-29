@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:04:32Z",
+  "generatedAt": "2026-10-29T01:05:41Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
@@ -88,8 +88,8 @@
     },
     {
       "id": "aimatters",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0
     },
     {
       "id": "motorgraph",
@@ -159,7 +159,7 @@
     {
       "id": "etoday-market",
       "ok": true,
-      "count": 44
+      "count": 45
     },
     {
       "id": "etoday-realestate",
@@ -174,12 +174,12 @@
     {
       "id": "fnnews-stock",
       "ok": true,
-      "count": 46
+      "count": 45
     },
     {
       "id": "fnnews-realestate",
       "ok": true,
-      "count": 41
+      "count": 42
     },
     {
       "id": "fnnews-economy",
@@ -661,6 +661,19 @@
   ],
   "articles": [
     {
+      "id": "1e973cfc512e1c70993c",
+      "title": "대한광통신, 반도체 장비용 고출력 레이저 히터 특허 등록…관련 사업 확대",
+      "url": "https://www.etoday.co.kr/news/view/2641577",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:04:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식"
+      ]
+    },
+    {
       "id": "093dd9d04f4217268d64",
       "title": "[MK시그널] 플렉스틸 인더스트리즈 매도신호 포착, 수익률 43.6% 달성",
       "url": "https://www.mk.co.kr/news/stock/12189573",
@@ -865,6 +878,19 @@
       "id": "ad4cbd6de94441fd0f1d",
       "title": "성수동, IT 산업 중심지로 재편…최고 12층 업무시설 들어선다",
       "url": "https://www.fnnews.com/news/202610290850184915",
+      "summary": "",
+      "publishedAt": "2026-10-29T01:00:00Z",
+      "sourceIds": [
+        "fnnews-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ]
+    },
+    {
+      "id": "6fadb13b592c39f75eb9",
+      "title": "김포·구리 등 6곳에 7만6700가구 추가 공급...일부지역 토허가 해제",
+      "url": "https://www.fnnews.com/news/202610290931420993",
       "summary": "",
       "publishedAt": "2026-10-29T01:00:00Z",
       "sourceIds": [
@@ -5637,9 +5663,9 @@
       ]
     },
     {
-      "id": "8c6674e4c3c161b9afe4",
-      "title": "슈피겐코리아 김대영, 외국계 법인 앞세운 지분 취득 왜?",
-      "url": "https://www.etoday.co.kr/news/view/2641179",
+      "id": "24113fd5e17bad7613b3",
+      "title": "헬리오스PE, 핑거에 100억 투자… 세아그룹 계열사 인수 지원",
+      "url": "https://www.etoday.co.kr/news/view/2641011",
       "summary": "",
       "publishedAt": "2026-10-28T20:00:00Z",
       "sourceIds": [
@@ -5663,9 +5689,9 @@
       ]
     },
     {
-      "id": "24113fd5e17bad7613b3",
-      "title": "헬리오스PE, 핑거에 100억 투자… 세아그룹 계열사 인수 지원",
-      "url": "https://www.etoday.co.kr/news/view/2641011",
+      "id": "8c6674e4c3c161b9afe4",
+      "title": "슈피겐코리아 김대영, 외국계 법인 앞세운 지분 취득 왜?",
+      "url": "https://www.etoday.co.kr/news/view/2641179",
       "summary": "",
       "publishedAt": "2026-10-28T20:00:00Z",
       "sourceIds": [
@@ -34850,32 +34876,6 @@
       "topics": [
         "보안",
         "AI"
-      ]
-    },
-    {
-      "id": "ab63fa64458c087bf93a",
-      "title": "토스뱅크, 주담대 시장 뛰어든다…최저 연 4.44%·최대 10억원 대출",
-      "url": "https://www.ajunews.com/view/20261027134024898",
-      "summary": "",
-      "publishedAt": "2026-10-27T05:00:34Z",
-      "sourceIds": [
-        "ajunews-investment"
-      ],
-      "topics": [
-        "금융"
-      ]
-    },
-    {
-      "id": "27c534e21a318c57d0a0",
-      "title": "IPARK현대산업개발, 올해 수주 목표 10조로 상향…도시정비 확대",
-      "url": "https://www.newsis.com/view/NISX20261027_0003842907",
-      "summary": "",
-      "publishedAt": "2026-10-27T05:00:12Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
       ]
     },
     {
