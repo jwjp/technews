@@ -1,6 +1,22 @@
 {
   "sources": [
     {
+      "id": "05374a6c91537559",
+      "name": "시간이 증명한 경험, 당신의 성장을 돕는 기록",
+      "siteUrl": "https://blog.naver.com/tipsware",
+      "feedUrl": "https://rss.blog.naver.com/tipsware.xml",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "18da59ea0ae64809",
+      "name": "Engineering Blog by Dale Seo",
+      "siteUrl": "https://www.daleseo.com/",
+      "feedUrl": "https://www.daleseo.com/rss.xml",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
       "id": "2fd206ab3e8ea9b0",
       "name": "비즈워치 · 부동산",
       "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
@@ -57,11 +73,27 @@
       "kind": "blog"
     },
     {
+      "id": "95afe8ad30caaf0b",
+      "name": "kdy1: The way I think",
+      "siteUrl": "https://kdy1.dev/",
+      "feedUrl": "https://kdy1.dev/rss.xml",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
       "id": "99a6f09bb9878069",
       "name": "청년개미의 경제 이야기",
       "siteUrl": "https://blog.naver.com/ya_nt",
       "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
       "section": "economy",
+      "kind": "blog"
+    },
+    {
+      "id": "9c694453aa930c77",
+      "name": "neozest : neo+zest",
+      "siteUrl": "https://neozest21c.tistory.com/",
+      "feedUrl": "https://neozest21c.tistory.com/rss",
+      "section": "tech",
       "kind": "blog"
     },
     {
@@ -77,6 +109,14 @@
       "name": "주발2의 개발 블로그 | Java/Spring 백엔드",
       "siteUrl": "https://zzang9ha.tistory.com/",
       "feedUrl": "https://zzang9ha.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "ad4af311ab736295",
+      "name": "ZeroCho Blog",
+      "siteUrl": "https://www.zerocho.com/",
+      "feedUrl": "https://www.zerocho.com/api/rss.xml",
       "section": "tech",
       "kind": "blog"
     },
@@ -134,6 +174,14 @@
       "siteUrl": "https://blog.naver.com/gjwlh",
       "feedUrl": "https://rss.blog.naver.com/gjwlh.xml",
       "section": "economy",
+      "kind": "blog"
+    },
+    {
+      "id": "f60291dcf9b92012",
+      "name": "DEV Community: Jhin Lee",
+      "siteUrl": "https://dev.to/leehack",
+      "feedUrl": "https://dev.to/feed/leehack",
+      "section": "tech",
       "kind": "blog"
     },
     {
