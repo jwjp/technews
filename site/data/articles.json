@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-03T15:26:18Z",
+  "generatedAt": "2026-11-03T18:27:13Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
       "ok": true,
       "count": 10,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "velopers",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "indieblog",
       "ok": true,
       "count": 40,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "awesome",
       "ok": true,
-      "count": 84,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "count": 85,
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "geeknews",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "hnko",
       "ok": true,
       "count": 8,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "etnews-it",
@@ -76,37 +76,37 @@
       "id": "zdnet",
       "ok": true,
       "count": 18,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "aitimes",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "itdonga",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "itworld",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "techm",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "dailysecu",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "aimatters",
@@ -119,85 +119,86 @@
       "id": "motorgraph",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "autoherald",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "irobotnews",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "mer-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "babybear-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "richnote-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "jackpasi-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "hankyung-finance",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "hankyung-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "hankyung-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "mk-stock",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "mk-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "mk-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "etoday-market",
-      "ok": true,
-      "count": 2,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "ok": false,
+      "count": 0,
+      "lastSuccessAt": "2026-11-03T15:21:24Z",
+      "error": "제공처 연결 또는 RSS 형식 확인 필요"
     },
     {
       "id": "etoday-realestate",
@@ -217,92 +218,92 @@
       "id": "fnnews-stock",
       "ok": true,
       "count": 48,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "fnnews-realestate",
       "ok": true,
       "count": 48,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "fnnews-economy",
       "ok": true,
       "count": 41,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "newsis-finance",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "newsis-economy",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "ajunews-investment",
       "ok": true,
       "count": 88,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "ajunews-economy",
       "ok": true,
       "count": 130,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "bok-market",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     },
     {
       "id": "mss-press",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-03T15:21:24Z"
+      "lastSuccessAt": "2026-11-03T18:22:13Z"
     }
   ],
   "retentionStats": [
     {
       "id": "techblogposts",
-      "kept": 36,
-      "excluded": 0,
-      "oldestAt": "2026-10-22T09:21:19Z"
+      "kept": 35,
+      "excluded": 1,
+      "oldestAt": "2026-10-23T05:04:12Z"
     },
     {
       "id": "velopers",
-      "kept": 79,
-      "excluded": 0,
-      "oldestAt": "2026-10-22T09:07:08Z"
+      "kept": 76,
+      "excluded": 3,
+      "oldestAt": "2026-10-23T04:49:25Z"
     },
     {
       "id": "indieblog",
-      "kept": 162,
-      "excluded": 18,
-      "oldestAt": "2026-10-22T09:07:08Z"
+      "kept": 159,
+      "excluded": 20,
+      "oldestAt": "2026-10-23T00:00:00Z"
     },
     {
       "id": "awesome",
-      "kept": 87,
+      "kept": 88,
       "excluded": 0,
       "oldestAt": "2026-10-22T14:47:44Z"
     },
     {
       "id": "geeknews",
-      "kept": 367,
+      "kept": 371,
       "excluded": 4,
-      "oldestAt": "2026-10-22T09:06:11Z"
+      "oldestAt": "2026-10-22T09:39:44Z"
     },
     {
       "id": "hnko",
       "kept": 357,
-      "excluded": 8,
+      "excluded": 0,
       "oldestAt": "2026-10-22T14:26:40Z"
     },
     {
@@ -338,13 +339,13 @@
     {
       "id": "zdnet",
       "kept": 209,
-      "excluded": 4,
+      "excluded": 1,
       "oldestAt": "2026-10-23T06:23:54Z"
     },
     {
       "id": "aitimes",
       "kept": 200,
-      "excluded": 24,
+      "excluded": 22,
       "oldestAt": "2026-10-22T17:55:05Z"
     },
     {
@@ -362,7 +363,7 @@
     {
       "id": "techm",
       "kept": 171,
-      "excluded": 28,
+      "excluded": 26,
       "oldestAt": "2026-10-22T20:32:34Z"
     },
     {
@@ -392,8 +393,8 @@
     {
       "id": "irobotnews",
       "kept": 153,
-      "excluded": 0,
-      "oldestAt": "2026-10-22T17:52:49Z"
+      "excluded": 1,
+      "oldestAt": "2026-10-22T23:24:20Z"
     },
     {
       "id": "mer-blog",
@@ -433,8 +434,8 @@
     },
     {
       "id": "hankyung-economy",
-      "kept": 141,
-      "excluded": 29,
+      "kept": 142,
+      "excluded": 28,
       "oldestAt": "2026-10-28T08:59:52Z"
     },
     {
@@ -445,14 +446,14 @@
     },
     {
       "id": "mk-realestate",
-      "kept": 125,
-      "excluded": 11,
-      "oldestAt": "2026-10-28T07:32:55Z"
+      "kept": 124,
+      "excluded": 12,
+      "oldestAt": "2026-10-28T08:09:56Z"
     },
     {
       "id": "mk-economy",
       "kept": 119,
-      "excluded": 14,
+      "excluded": 12,
       "oldestAt": "2026-10-28T07:50:20Z"
     },
     {
@@ -493,26 +494,26 @@
     },
     {
       "id": "newsis-finance",
-      "kept": 128,
+      "kept": 127,
       "excluded": 77,
-      "oldestAt": "2026-10-28T07:34:49Z"
+      "oldestAt": "2026-10-28T07:35:56Z"
     },
     {
       "id": "newsis-economy",
-      "kept": 135,
-      "excluded": 80,
+      "kept": 136,
+      "excluded": 79,
       "oldestAt": "2026-10-28T07:38:27Z"
     },
     {
       "id": "ajunews-investment",
       "kept": 105,
-      "excluded": 50,
+      "excluded": 49,
       "oldestAt": "2026-10-28T08:06:12Z"
     },
     {
       "id": "ajunews-economy",
       "kept": 126,
-      "excluded": 89,
+      "excluded": 88,
       "oldestAt": "2026-10-28T07:36:34Z"
     },
     {
@@ -2112,38 +2113,38 @@
       "sources": [
         {
           "id": "techblogposts",
-          "kept": 36,
-          "excluded": 0,
-          "oldestAt": "2026-10-22T09:21:19Z"
+          "kept": 35,
+          "excluded": 1,
+          "oldestAt": "2026-10-23T05:04:12Z"
         },
         {
           "id": "velopers",
-          "kept": 79,
-          "excluded": 0,
-          "oldestAt": "2026-10-22T09:07:08Z"
+          "kept": 76,
+          "excluded": 3,
+          "oldestAt": "2026-10-23T04:49:25Z"
         },
         {
           "id": "indieblog",
-          "kept": 162,
-          "excluded": 18,
-          "oldestAt": "2026-10-22T09:07:08Z"
+          "kept": 159,
+          "excluded": 20,
+          "oldestAt": "2026-10-23T00:00:00Z"
         },
         {
           "id": "awesome",
-          "kept": 87,
+          "kept": 88,
           "excluded": 0,
           "oldestAt": "2026-10-22T14:47:44Z"
         },
         {
           "id": "geeknews",
-          "kept": 367,
+          "kept": 371,
           "excluded": 4,
-          "oldestAt": "2026-10-22T09:06:11Z"
+          "oldestAt": "2026-10-22T09:39:44Z"
         },
         {
           "id": "hnko",
           "kept": 357,
-          "excluded": 8,
+          "excluded": 0,
           "oldestAt": "2026-10-22T14:26:40Z"
         },
         {
@@ -2179,13 +2180,13 @@
         {
           "id": "zdnet",
           "kept": 209,
-          "excluded": 4,
+          "excluded": 1,
           "oldestAt": "2026-10-23T06:23:54Z"
         },
         {
           "id": "aitimes",
           "kept": 200,
-          "excluded": 24,
+          "excluded": 22,
           "oldestAt": "2026-10-22T17:55:05Z"
         },
         {
@@ -2203,7 +2204,7 @@
         {
           "id": "techm",
           "kept": 171,
-          "excluded": 28,
+          "excluded": 26,
           "oldestAt": "2026-10-22T20:32:34Z"
         },
         {
@@ -2233,8 +2234,8 @@
         {
           "id": "irobotnews",
           "kept": 153,
-          "excluded": 0,
-          "oldestAt": "2026-10-22T17:52:49Z"
+          "excluded": 1,
+          "oldestAt": "2026-10-22T23:24:20Z"
         },
         {
           "id": "mer-blog",
@@ -2274,8 +2275,8 @@
         },
         {
           "id": "hankyung-economy",
-          "kept": 141,
-          "excluded": 29,
+          "kept": 142,
+          "excluded": 28,
           "oldestAt": "2026-10-28T08:59:52Z"
         },
         {
@@ -2286,14 +2287,14 @@
         },
         {
           "id": "mk-realestate",
-          "kept": 125,
-          "excluded": 11,
-          "oldestAt": "2026-10-28T07:32:55Z"
+          "kept": 124,
+          "excluded": 12,
+          "oldestAt": "2026-10-28T08:09:56Z"
         },
         {
           "id": "mk-economy",
           "kept": 119,
-          "excluded": 14,
+          "excluded": 12,
           "oldestAt": "2026-10-28T07:50:20Z"
         },
         {
@@ -2334,26 +2335,26 @@
         },
         {
           "id": "newsis-finance",
-          "kept": 128,
+          "kept": 127,
           "excluded": 77,
-          "oldestAt": "2026-10-28T07:34:49Z"
+          "oldestAt": "2026-10-28T07:35:56Z"
         },
         {
           "id": "newsis-economy",
-          "kept": 135,
-          "excluded": 80,
+          "kept": 136,
+          "excluded": 79,
           "oldestAt": "2026-10-28T07:38:27Z"
         },
         {
           "id": "ajunews-investment",
           "kept": 105,
-          "excluded": 50,
+          "excluded": 49,
           "oldestAt": "2026-10-28T08:06:12Z"
         },
         {
           "id": "ajunews-economy",
           "kept": 126,
-          "excluded": 89,
+          "excluded": 88,
           "oldestAt": "2026-10-28T07:36:34Z"
         },
         {
@@ -2815,8 +2816,123 @@
   ],
   "articles": [
     {
+      "id": "834faa33fb92a5fb9dd9",
+      "title": "[로보월드 2026] 피지컬 AI 시대 조망…‘2026 로보월드’ 오늘 개막",
+      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49379",
+      "summary": "",
+      "publishedAt": "2026-11-03T16:54:10Z",
+      "sourceIds": [
+        "irobotnews"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "ffb277da635933ee8465",
+      "title": "Revolut, 자체 호스팅 GLM으로 전환",
+      "url": "https://news.hada.io/topic?id=36534",
+      "summary": "Revolut 이 엔지니어 약 2,000명의 코딩 작업을 자체 호스팅 GLM으로 옮기고, Claude Code와 Codex는 예외적으로 사용하는 도구로 분류함 AI 운영 책임자 David Abitbol에 따르면 Nvidia B200 56개 를 사용하며, 혼합 기준 비용은 토큰 100만 개당 0.30달러로 기존 Anthropic과 OpenAI에 지불하던 비용의 약 10분의 1임 전환 후 엔지니어링 리드타임이 70% 개선 됐다고 하나, 구체적인 측정 방식은 제시하지 않음 성과는 토큰 사용량 제한을 풀",
+      "publishedAt": "2026-11-03T16:32:01Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "7745289d400fdc04661b",
+      "title": "\"이런 메모리값 처음\"…애플 새CEO \"내년에도 메모리 구매비 오를 것\"",
+      "url": "https://www.hankyung.com/article/202611044103i",
+      "summary": "",
+      "publishedAt": "2026-11-03T16:02:46Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "97af1bbdb4d77be6b35b",
+      "title": "Polyend, Tracker 펌웨어 소스 코드 공개",
+      "url": "https://news.hada.io/topic?id=36533",
+      "summary": "Polyend가 오리지널 Tracker, Tracker+, Tracker Mini 의 펌웨어 소스 코드를 GitHub에 공개하고, 세 기기에 설치할 수 있는 Tracker Community Edition 1.0 을 출시함 사용자가 펌웨어를 직접 수정하고 자신의 버전을 공유할 수 있으며, 잘못된 빌드로 기기가 작동 불능 상태에 빠지는 것을 막는 복구 시스템 을 내장함 SD 카드 샘플 스트리밍 으로 긴 스템, 루프, 현장 녹음을 적은 샘플 메모리로 활용할 수 있으며, 오리지널 Tracker도 지원함",
+      "publishedAt": "2026-11-03T16:01:18Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "53c244d212c277cc574e",
+      "title": "유럽 RISC-V 산업용 컴퓨팅 이니셔티브",
+      "url": "https://erici.eu/",
+      "summary": "ERICI 는 RVA23 기반 산업용 컴퓨터를 위해 펌웨어부터 실시간 OS와 범용 OS까지 연결하는 참조 스택을 조율하고, 계층 간 인터페이스와 실제 하드웨어에서의 통합 부팅을 검증함 RVA23 은 하이퍼바이저와 벡터 확장을 필수로 규정하며, 이를 지원하는 SoC와 보드가 2026년 출시됐지만 산업용 주변 하드웨어와 분할 소프트웨어 스택은 아직 부족함 gRouvr 하이퍼바이저는 CPU, 메모리, 장치와 IOMMU를 이용해 자원을 분리하고, 하나의 SoC에서 실시간 제어용 QSOE와 작업자용 Lin",
+      "publishedAt": "2026-11-03T15:39:57Z",
+      "sourceIds": [
+        "geeknews",
+        "hnko"
+      ],
+      "topics": [
+        "기술"
+      ],
+      "firstSeenAt": "2026-11-03T06:29:44Z",
+      "categories": " "
+    },
+    {
+      "id": "59786a5ca10480e8bb22",
+      "title": "현대 체스 엔진을 Pentium에서 실행했다면 1996년 Kasparov를 이길 수 있었을까?",
+      "url": "https://news.hada.io/topic?id=36531",
+      "summary": "200MHz Pentium Pro와 64MB RAM 에 맞춰 개조한 Stockfish가 수당 30초 조건에서 Elo 3180 ± 80을 기록함. 클래식 시간제한에서는 약 3300으로 추정되지만, 이는 직접 측정이 아닌 외삽 결과임 실험에서 확인한 Elo 상승분 총 1335점 중 약 720점은 소프트웨어 개선 에서 나옴. 더 빠른 하드웨어뿐 아니라 탐색할 수를 고르고 판세를 평가하는 방법의 발전이 큰 역할을 함 1996년 엔진 Crafty 11.13 에 현대적인 탐색 기법과 신경망 평가를 추가하자,",
+      "publishedAt": "2026-11-03T15:36:57Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "3c16986d6525214f51d5",
+      "title": "뉴욕증시, 美중간선거 당일 혼조 출발…나스닥 0.59%↑",
+      "url": "https://www.newsis.com/view/NISX20261103_0003853577",
+      "summary": "",
+      "publishedAt": "2026-11-03T15:34:49Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "456f65ec4331d8760fe8",
+      "title": "美 중간선거 끝나면 반도체주 반등할까…\"관건은 의회 구도\"",
+      "url": "https://www.newsis.com/view/NISX20261103_0003852266",
+      "summary": "",
+      "publishedAt": "2026-11-03T15:30:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
       "id": "69416b3555e557af2d4c",
-      "title": "[특집] 2027년 정부(산업부) 로봇 예산, 로봇 3대 사업에 1477억원 투입…휴머노이드 200대 보급·핵심부품 국산화 추진",
+      "title": "[2026 로보월드 특집] 2027년 정부(산업부) 로봇 예산, 로봇 3대 사업에 1477억원 투입…휴머노이드 200대 보급·핵심부품 국산화 추진",
       "url": "https://www.irobotnews.com/news/articleView.html?idxno=49371",
       "summary": "",
       "publishedAt": "2026-11-03T15:11:55Z",
@@ -2836,13 +2952,27 @@
       "summary": "스페이스X의 도전은 성공할수 있을까? (fea.. : 네이버블로그 새로운 동향이 나와서 정리해 봅니다. 1~77번은 기존글이라, 내용이 기억나시면 78번부터 읽으시면 됩니다. 1. 2026년 10월 8일, 일론 머스크의 스페이스X가 800MHz 주파수를 80억달러에 사기로 함. 2. 일론 머스크는 이것을 '미국 전역에서 휴대폰이 다 터지게 하는데 필요한 마지막 퍼즐조각'이라고 자랑함. 3. AT&T, 버라이즌, T모바일 주가가 6% 안팎 빠졌고, 시장은 \"스페이스X가 진짜 통신사가 되려나 보다\"라",
       "publishedAt": "2026-11-03T15:10:00Z",
       "sourceIds": [
+        "awesome",
         "mer-blog"
       ],
       "topics": [
         "경제"
       ],
       "firstSeenAt": "2026-11-03T15:21:24Z",
-      "categories": "피드메이커4기(경제) "
+      "categories": " "
+    },
+    {
+      "id": "65daac0793c7ad74a754",
+      "title": "kill 버그의 10년",
+      "url": "https://news.hada.io/topic?id=36530",
+      "summary": "Endcrawl에서 프로세스 그룹을 종료하려고 실행한 sudo kill -TERM -1490947 이 init을 제외한 모든 프로세스를 종료 함. Ubuntu 24.04 LTS의 kill 이 음수 PID를 -1 로 잘못 해석한 것이 원인이었음 지난 10여 년간 음수 PID 처리 버그 네 종류 가 Ubuntu 14, 16, 18, 22, 24 LTS에 포함됐으며, 한 오류를 고치는 과정에서 다른 오류가 발생하거나 과거 오류가 되살아남 핵심 문제는 getopt 의 옵션 묶음 처리 와 kill 의 인자",
+      "publishedAt": "2026-11-03T15:02:40Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
     },
     {
       "id": "89d1ac7ae6d1d38146d4",
@@ -2919,6 +3049,51 @@
       ],
       "firstSeenAt": "2026-11-03T15:21:24Z",
       "categories": " "
+    },
+    {
+      "id": "7a6138e2b5117e0b690b",
+      "title": "NVIDIA Auto Ontology - 기업 데이터의 의미와 관계를 AI 에이전트에 연결하는 오픈소스 도구",
+      "url": "https://news.hada.io/topic?id=36528",
+      "summary": "데이터의 업무 용어와 지표, 관계를 정리 해 AI 에이전트가 기업 데이터를 이해하고 질의하도록 돕는 도구 메타데이터에서 온톨로지와 지식 그래프를 생성 하며, 기존 온톨로지와 의미 모델도 연결 가능 자연어 질문을 SQL로 변환하고 실행 하며, 업무 정의와 데이터 계보에 대조해 검증하고 답변의 출처를 제공 MCP, CLI, API 로 에이전트와 연결하며, 웹 UI에서 데이터 질의와 카탈로그 관리도 지원 Databricks, PostgreSQL, Snowflake, DuckDB와 연결하며, NVIDIA",
+      "publishedAt": "2026-11-03T14:37:52Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "개발",
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "f9f3ffb6270a546a6acc",
+      "title": "‘Astra가 가중치를 읽고 써서 Qwen을 개선한다’는 게시물은 오해를 부름",
+      "url": "https://news.hada.io/topic?id=36526",
+      "summary": "해당 게시물은 원시 가중치를 직접 읽는 실험 과 Python으로 모델을 분석하고 수정하는 실험 을 함께 묶어, 서로 다른 기법을 하나의 능력으로 오해하게 만듦 원시 실숫값을 문맥에 넣고 도구나 네트워크 실행 없이 수행한 실험은 3개이며, 대상은 가중치 1만 7,000~17만 2,000개 규모의 작은 네트워크였음 핵심인 Qwen3.5-0.8B 수학 개선 실험 은 원시 가중치만 보는 방식이 아니라 Python을 사용하고, 연습 문제를 최대 50개 배치 까지 모델에 실행할 수 있었음 성공뿐 아니라 제약",
+      "publishedAt": "2026-11-03T14:34:52Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": " "
+    },
+    {
+      "id": "abeaf9f075328f9a62a0",
+      "title": "AI 모델만으론 부족…스노우플레이크, 기업 데이터로 승부",
+      "url": "https://zdnet.co.kr/view?no=20261103102329",
+      "summary": "",
+      "publishedAt": "2026-11-03T14:01:02Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-03T18:22:13Z",
+      "categories": "스노우플레이크 코코 코워크 데이터 AI 컴퓨팅 "
     },
     {
       "id": "5aaa5135cf5b7f6e0b77",
@@ -4127,7 +4302,7 @@
     },
     {
       "id": "af312cd20108213dd309",
-      "title": "은행연합회, 취약계층에 백미 기부",
+      "title": "은행연합회, 취약계층에 쌀 기부",
       "url": "https://www.hankyung.com/article/2026110337511",
       "summary": "",
       "publishedAt": "2026-11-03T09:25:36Z",
@@ -5167,7 +5342,7 @@
     },
     {
       "id": "83f8f63b0f0938086802",
-      "title": "두산에너빌리티, 연중 최저가…체코 원전 지연 악재",
+      "title": "두산에너빌, 연중 최저가…체코 원전 '원팀' 결렬 악재",
       "url": "https://www.hankyung.com/article/2026110336751",
       "summary": "",
       "publishedAt": "2026-11-03T08:44:36Z",
@@ -5667,7 +5842,7 @@
     },
     {
       "id": "2dac4a025c16e1d5868f",
-      "title": "집값·세금·대출…혼돈의 부동산 시장 읽어줄 '한경 MOOK ' 나왔다",
+      "title": "집값·세금·대출…혼돈의 부동산 시장 읽어줄 '한경 MOOK' 나왔다",
       "url": "https://www.hankyung.com/article/2026110336381",
       "summary": "",
       "publishedAt": "2026-11-03T08:32:09Z",
@@ -5969,7 +6144,7 @@
     },
     {
       "id": "74dd39ed84cd92422292",
-      "title": "대우건설, 재건축 수주 '5兆 클럽'",
+      "title": "대우건설, 재건축 수주 '5조 클럽'",
       "url": "https://www.hankyung.com/article/2026110335881",
       "summary": "",
       "publishedAt": "2026-11-03T08:24:49Z",
@@ -7085,14 +7260,15 @@
     },
     {
       "id": "43cf3f29c81753f426e1",
-      "title": "OpenAI의 Git 확장, 병렬 푸시와 팩 재사용을 위한 Pando 구축",
+      "title": "OpenAI, 병렬 에이전트 개발을 위한 Git 백엔드 ‘Pando’ 구축",
       "url": "https://news.hada.io/topic?id=36517",
-      "summary": "OpenAI가 Git 프로토콜과 기존 작업 방식을 유지하면서 동시 작업을 확장하는 새 저장소 백엔드 Pando 를 구축해 모노레포 전체 개발에 적용함 저장소 전체의 시점 일관성 대신 인과적 일관성 을 채택해 서로 다른 브랜치의 푸시를 병렬 처리하고, 개별 참조 업데이트에는 직렬 가능성을 보장함 클라이언트마다 팩파일을 새로 만드는 대신 기존 팩파일을 재사용 하고 지역별 캐시에서 제공해 읽기 처리량을 확장함 프로덕션에서 푸시 지연 시간 중앙값을 약 80% 줄였으며 , 하루 약 1페타바이트의 Git 데",
+      "summary": "Codex로 병렬 개발과 CI 작업이 늘면서 기존 소스 관리 시스템에 병목이 생겨, Git 작업 방식을 유지하는 새 백엔드 Pando 를 구축함 서로 다른 브랜치의 푸시를 독립적으로 처리 해 쓰기를 확장함. 개별 참조의 업데이트 순서는 보장하지만, 여러 브랜치의 상태가 동일 시점을 나타내지는 않음 Git 객체를 묶은 팩파일을 재사용하고 지역별 캐시에서 전송 함. 일부 데이터를 중복 다운로드하는 대신 서버의 압축과 연산 부담을 줄임 도입 후 푸시 지연 중앙값이 약 80% 감소 함. 소수 CPU 코어",
       "publishedAt": "2026-11-03T07:34:16Z",
       "sourceIds": [
         "geeknews"
       ],
       "topics": [
+        "개발",
         "AI"
       ],
       "firstSeenAt": "2026-11-03T12:26:34Z",
@@ -7218,21 +7394,6 @@
       ],
       "firstSeenAt": "2026-11-03T09:21:37Z",
       "categories": " "
-    },
-    {
-      "id": "7d61d43b078e0951e2e5",
-      "title": "LGU+ 유심 교체율 43%...연말까지 990만건 남았다",
-      "url": "https://zdnet.co.kr/view?no=20261103153939",
-      "summary": "",
-      "publishedAt": "2026-11-03T07:24:43Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "보안"
-      ],
-      "firstSeenAt": "2026-11-03T09:21:37Z",
-      "categories": "LG유플러스 유심 업데이트 교체 IMSI 보안 LGU+ 도서 산간 찾아가는 교체율 방송/통신 "
     },
     {
       "id": "79c50b4207f2bdee13c7",
@@ -7733,21 +7894,6 @@
       "categories": " "
     },
     {
-      "id": "733b75afc9c6e0d91e0a",
-      "title": "서희건설, 순이익 25% 배당한다…자사주 2222만주 추가 소각",
-      "url": "https://www.hankyung.com/article/202611033200i",
-      "summary": "",
-      "publishedAt": "2026-11-03T07:00:03Z",
-      "sourceIds": [
-        "hankyung-realestate"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-03T09:21:37Z",
-      "categories": " "
-    },
-    {
       "id": "66bf5ec7eb10bc64f6e2",
       "title": "李 \"주요 지역 집값 놀라울 정도로 떨어져\"…유승민 \"자다가 봉창\"",
       "url": "https://www.hankyung.com/article/202611032747H",
@@ -7758,6 +7904,21 @@
       ],
       "topics": [
         "부동산"
+      ],
+      "firstSeenAt": "2026-11-03T09:21:37Z",
+      "categories": " "
+    },
+    {
+      "id": "733b75afc9c6e0d91e0a",
+      "title": "서희건설, 순이익 25% 배당한다…자사주 2222만주 추가 소각",
+      "url": "https://www.hankyung.com/article/202611033200i",
+      "summary": "",
+      "publishedAt": "2026-11-03T07:00:03Z",
+      "sourceIds": [
+        "hankyung-realestate"
+      ],
+      "topics": [
+        "주식"
       ],
       "firstSeenAt": "2026-11-03T09:21:37Z",
       "categories": " "
@@ -11801,19 +11962,6 @@
       "categories": " "
     },
     {
-      "id": "642d671f273926f31dae",
-      "title": "OpenBSD용 GEFS(Good Enough File System) 개발 진전",
-      "url": "https://news.hada.io/topic?id=36485",
-      "summary": "Ori Bernstein이 OpenBSD용 GEFS 코드를 갱신하고 리베이스했으며, 일반적인 사용을 위한 오류 처리와 도구 지원을 개선함 오류 처리 코드 를 점검하고 9front의 주요 버그 수정 대부분을 가져왔지만, 실제 오류 처리가 이론대로 동작하지 않는 부분은 여전히 있을 수 있음 이제 OpenBSD에서 파일 시스템 생성(mkfs) 이 가능하며, 디스크 레이블을 위해 기본적으로 첫 번째 파일 시스템 블록을 비워 둠 스냅샷 제어 는 아직 구현되지 않았으며, 9front의 ctl 파일과 비슷한",
-      "publishedAt": "2026-11-02T22:01:16Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-03T00:39:23Z",
-      "categories": " "
-    },
-    {
       "id": "841e05fd699259e83c96",
       "title": "SLAC 연구진, 새로운 자기상인 교류자성의 증거 발견",
       "url": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
@@ -11834,19 +11982,6 @@
       "publishedAt": "2026-11-02T21:42:18Z",
       "sourceIds": [
         "hnko"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-03T00:39:23Z",
-      "categories": " "
-    },
-    {
-      "id": "8cc9756c759aac8dfcce",
-      "title": "PostHog, 데이터 웨어하우스를 DuckDB에서 이전",
-      "url": "https://news.hada.io/topic?id=36484",
-      "summary": "PostHog가 예상보다 커지고 복잡해진 고객 워크로드를 처리하기 위해 DuckDB 기반 웨어하우스에서 이전 함. ClickHouse에서 DuckDB로 전환한 지 5개월 만이며, 최근 3개월간 아키텍처를 다시 설계함 단일 노드 실행 구조 에서는 쿼리가 도착하기 전에 워커 크기를 정해야 했지만, 필요한 CPU와 메모리를 예측하기 어려웠음 DuckLake의 카탈로그 호환성 요구 가 최적화 선택지를 제한함. 커밋마다 전체 카탈로그 통계를 다시 읽어 단일 테이블 쓰기에 3분 이상 걸릴 수 있었음 내부 검",
-      "publishedAt": "2026-11-02T21:39:13Z",
-      "sourceIds": [
-        "geeknews"
       ],
       "topics": [],
       "firstSeenAt": "2026-11-03T00:39:23Z",
@@ -14439,21 +14574,6 @@
       ],
       "firstSeenAt": "2026-11-02T09:25:06Z",
       "categories": "경제|일반경제 "
-    },
-    {
-      "id": "53f5b869fd3a4f9b9a24",
-      "title": "유럽 ​​RISC-V 산업용 컴퓨팅 이니셔티브",
-      "url": "https://erici.eu/",
-      "summary": "📝 유럽 ​​RISC-V 산업용 컴퓨팅 이니셔티브 RISC-V 산업용 컴퓨터. 개방형, 분할형, 내구성을 갖춘 제품입니다. RVA23 실리콘이 도착했습니다. 🔤 Original: European RISC-V Industrial Computing Initiative 🔗 Read more: https://erici.eu",
-      "publishedAt": "2026-11-02T08:58:33Z",
-      "sourceIds": [
-        "hnko"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-03T06:29:44Z",
-      "categories": " "
     },
     {
       "id": "68c324d74f20a227ab2f",
@@ -53391,36 +53511,6 @@
       "categories": " "
     },
     {
-      "id": "d2f0bfcd54379b2f7b2d",
-      "title": "교보생명, 금융의날 금융위원장 표창…청년채용 확대 공로",
-      "url": "https://www.newsis.com/view/NISX20261028_0003845166",
-      "summary": "",
-      "publishedAt": "2026-10-28T07:35:08Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "firstSeenAt": "2026-10-29T01:51:39Z",
-      "categories": " "
-    },
-    {
-      "id": "1a4cf355bbac642ddd6d",
-      "title": "카카오뱅크, 정기예금·자유적금 금리 0.1%p 인상",
-      "url": "https://www.newsis.com/view/NISX20261028_0003845187",
-      "summary": "",
-      "publishedAt": "2026-10-28T07:34:49Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "firstSeenAt": "2026-10-29T01:51:39Z",
-      "categories": " "
-    },
-    {
       "id": "0c1045add5c72eab45c1",
       "title": "미국 연방법전을 위한 Git",
       "url": "https://news.hada.io/topic?id=36160",
@@ -53432,21 +53522,6 @@
       "topics": [],
       "firstSeenAt": "2026-10-29T01:51:39Z",
       "categories": " "
-    },
-    {
-      "id": "2a4e28e3d3c402643345",
-      "title": "“7억이나 더 싸네? 지금이니”…강남 랜드마크 입주장에 전세시장 ‘요동’",
-      "url": "https://www.mk.co.kr/news/realestate/12188543",
-      "summary": "",
-      "publishedAt": "2026-10-28T07:32:55Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-10-29T01:51:39Z",
-      "categories": "부동산 "
     },
     {
       "id": "9e7af2ba3ee059242733",
@@ -71601,22 +71676,6 @@
       "categories": ""
     },
     {
-      "id": "480df082d53a25f190b7",
-      "title": "현대오토에버, 로봇·AI·관제 결합한 차세대 치안 솔루션 선봬",
-      "url": "https://www.irobotnews.com/news/articleView.html?idxno=49168",
-      "summary": "",
-      "publishedAt": "2026-10-22T17:52:49Z",
-      "sourceIds": [
-        "irobotnews"
-      ],
-      "topics": [
-        "기술",
-        "AI"
-      ],
-      "firstSeenAt": "2026-10-22T17:52:49Z",
-      "categories": ""
-    },
-    {
       "id": "56e37f7cb35f97d9bdef",
       "title": "LLM으로 신뢰도 점수를 매기는 것은 좋지 않은 생각",
       "url": "https://news.hada.io/topic?id=35827",
@@ -71955,66 +72014,6 @@
       ],
       "topics": [],
       "firstSeenAt": "2026-10-22T09:39:44Z",
-      "categories": ""
-    },
-    {
-      "id": "0af119e18b24dec71f17",
-      "title": "셀프 호스팅 Grafana 알림으로 AWS DevOps Agent의 인시던트 자동 조사 시작하기",
-      "url": "https://aws.amazon.com/ko/blogs/tech/aws-devops-agent-self-hosted-grafana-webhook-trigger",
-      "summary": "셀프 호스팅 Grafana Webhook으로 AWS DevOps Agent의 자동 인시던트 조사를 구성했습니다. OAM·IAM 분리와 단계별 검증으로 멀티 계정 환경의 조사 흐름을 점검합니다.",
-      "publishedAt": "2026-10-22T09:21:19Z",
-      "sourceIds": [
-        "techblogposts",
-        "velopers",
-        "indieblog"
-      ],
-      "topics": [
-        "개발"
-      ],
-      "firstSeenAt": "2026-10-22T09:21:19Z",
-      "categories": ""
-    },
-    {
-      "id": "5c9d3767779ecc62d8b5",
-      "title": "React와 Day.js를 활용한 공수 캘린더 직접 구현하기",
-      "url": "https://velopers.kr/post/10355",
-      "summary": "React와 Day.js로 공수·메모 등 날짜별 정보를 담는 재사용 가능한 캘린더를 구현했습니다.\\n날짜 계산과 UI를 분리하고 빈칸 배열 및 CSS Grid 정렬의 중요성을 설명합니다.",
-      "publishedAt": "2026-10-22T09:19:58Z",
-      "sourceIds": [
-        "velopers",
-        "indieblog"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-22T09:19:58Z",
-      "categories": ""
-    },
-    {
-      "id": "8d07f86c456b76e1dbab",
-      "title": "애자일 프로젝트에서 구성원의 역할",
-      "url": "https://velopers.kr/post/10356",
-      "summary": "SI 프로젝트의 기존 계약·일정 관리 틀 안에서 Scrum 역할과 Sprint 운영 방식을 연결했습니다. 고객 피드백과 회고를 반복해 우선순위와 작업 방식을 개선합니다.",
-      "publishedAt": "2026-10-22T09:07:08Z",
-      "sourceIds": [
-        "velopers",
-        "indieblog"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-22T09:07:08Z",
-      "categories": ""
-    },
-    {
-      "id": "be76554c3b10b3999767",
-      "title": "Show GN: Rollipop: 현대적인 React Native 빌드 도구",
-      "url": "https://news.hada.io/topic?id=35807",
-      "summary": "React Native에서 Metro를 대체할 수 있는 빌드 도구, Rollipop을 소개합니다. 문서 보러가기: https://rollipop.dev GitHub: https://github.com/rollipop-dev/rollipop Rollipop이란? Ru",
-      "publishedAt": "2026-10-22T09:06:11Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [
-        "개발"
-      ],
-      "firstSeenAt": "2026-10-22T09:06:11Z",
       "categories": ""
     },
     {
