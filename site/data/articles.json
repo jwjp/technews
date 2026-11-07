@@ -1,107 +1,107 @@
 {
-  "generatedAt": "2026-11-07T18:21:37Z",
+  "generatedAt": "2026-11-07T21:21:30Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
       "ok": true,
       "count": 10,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "velopers",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "indieblog",
       "ok": true,
       "count": 40,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "awesome",
       "ok": true,
-      "count": 99,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "count": 98,
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "geeknews",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "hnko",
       "ok": true,
       "count": 11,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "etnews-it",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "etnews-sw",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "etnews-security",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "etnews-ai",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "etnews-mobility",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "zdnet",
       "ok": true,
       "count": 15,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "aitimes",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "itdonga",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "itworld",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "techm",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "dailysecu",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "aimatters",
@@ -114,85 +114,86 @@
       "id": "motorgraph",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "autoherald",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "irobotnews",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "mer-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "babybear-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "richnote-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "jackpasi-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "hankyung-finance",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "hankyung-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "hankyung-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "mk-stock",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "mk-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "mk-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "etoday-market",
-      "ok": true,
-      "count": 1,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "ok": false,
+      "count": 0,
+      "lastSuccessAt": "2026-11-07T18:20:55Z",
+      "error": "제공처 연결 또는 RSS 형식 확인 필요"
     },
     {
       "id": "etoday-realestate",
@@ -212,62 +213,62 @@
       "id": "fnnews-stock",
       "ok": true,
       "count": 8,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "fnnews-realestate",
       "ok": true,
-      "count": 3,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "count": 1,
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "fnnews-economy",
       "ok": true,
       "count": 1,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "newsis-finance",
       "ok": true,
-      "count": 26,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "count": 28,
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "newsis-economy",
       "ok": true,
-      "count": 35,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "count": 37,
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "ajunews-investment",
       "ok": true,
       "count": 74,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "ajunews-economy",
       "ok": true,
-      "count": 55,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "count": 56,
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "bok-market",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     },
     {
       "id": "mss-press",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-07T18:20:55Z"
+      "lastSuccessAt": "2026-11-07T21:20:44Z"
     }
   ],
   "retentionStats": [
     {
       "id": "techblogposts",
       "kept": 39,
-      "excluded": 1,
+      "excluded": 0,
       "oldestAt": "2026-10-27T06:00:11Z"
     },
     {
@@ -278,8 +279,8 @@
     },
     {
       "id": "indieblog",
-      "kept": 150,
-      "excluded": 18,
+      "kept": 147,
+      "excluded": 20,
       "oldestAt": "2026-10-27T00:00:00Z"
     },
     {
@@ -290,20 +291,20 @@
     },
     {
       "id": "geeknews",
-      "kept": 355,
-      "excluded": 9,
-      "oldestAt": "2026-10-26T23:35:03Z"
+      "kept": 360,
+      "excluded": 3,
+      "oldestAt": "2026-10-27T05:54:13Z"
     },
     {
       "id": "hnko",
-      "kept": 342,
-      "excluded": 12,
-      "oldestAt": "2026-10-26T23:08:27Z"
+      "kept": 341,
+      "excluded": 1,
+      "oldestAt": "2026-10-27T05:13:08Z"
     },
     {
       "id": "etnews-it",
       "kept": 168,
-      "excluded": 8,
+      "excluded": 7,
       "oldestAt": "2026-10-28T02:10:49Z"
     },
     {
@@ -315,7 +316,7 @@
     {
       "id": "etnews-security",
       "kept": 90,
-      "excluded": 12,
+      "excluded": 11,
       "oldestAt": "2026-10-28T01:44:27Z"
     },
     {
@@ -416,9 +417,9 @@
     },
     {
       "id": "hankyung-finance",
-      "kept": 115,
-      "excluded": 18,
-      "oldestAt": "2026-11-01T09:08:36Z"
+      "kept": 114,
+      "excluded": 19,
+      "oldestAt": "2026-11-01T09:19:03Z"
     },
     {
       "id": "hankyung-realestate",
@@ -428,14 +429,14 @@
     },
     {
       "id": "hankyung-economy",
-      "kept": 131,
-      "excluded": 17,
-      "oldestAt": "2026-11-01T09:03:26Z"
+      "kept": 124,
+      "excluded": 24,
+      "oldestAt": "2026-11-01T09:13:25Z"
     },
     {
       "id": "mk-stock",
-      "kept": 110,
-      "excluded": 20,
+      "kept": 111,
+      "excluded": 19,
       "oldestAt": "2026-11-01T10:50:30Z"
     },
     {
@@ -446,7 +447,7 @@
     },
     {
       "id": "mk-economy",
-      "kept": 116,
+      "kept": 117,
       "excluded": 5,
       "oldestAt": "2026-11-01T09:45:27Z"
     },
@@ -470,7 +471,7 @@
     },
     {
       "id": "fnnews-stock",
-      "kept": 115,
+      "kept": 116,
       "excluded": 0,
       "oldestAt": "2026-11-01T09:25:30Z"
     },
@@ -488,13 +489,13 @@
     },
     {
       "id": "newsis-finance",
-      "kept": 118,
+      "kept": 120,
       "excluded": 6,
       "oldestAt": "2026-11-02T07:16:18Z"
     },
     {
       "id": "newsis-economy",
-      "kept": 128,
+      "kept": 130,
       "excluded": 13,
       "oldestAt": "2026-11-01T10:30:06Z"
     },
@@ -506,7 +507,7 @@
     },
     {
       "id": "ajunews-economy",
-      "kept": 111,
+      "kept": 112,
       "excluded": 27,
       "oldestAt": "2026-11-01T11:39:32Z"
     },
@@ -3160,7 +3161,7 @@
         {
           "id": "techblogposts",
           "kept": 39,
-          "excluded": 1,
+          "excluded": 0,
           "oldestAt": "2026-10-27T06:00:11Z"
         },
         {
@@ -3171,8 +3172,8 @@
         },
         {
           "id": "indieblog",
-          "kept": 150,
-          "excluded": 18,
+          "kept": 147,
+          "excluded": 20,
           "oldestAt": "2026-10-27T00:00:00Z"
         },
         {
@@ -3183,20 +3184,20 @@
         },
         {
           "id": "geeknews",
-          "kept": 355,
-          "excluded": 9,
-          "oldestAt": "2026-10-26T23:35:03Z"
+          "kept": 360,
+          "excluded": 3,
+          "oldestAt": "2026-10-27T05:54:13Z"
         },
         {
           "id": "hnko",
-          "kept": 342,
-          "excluded": 12,
-          "oldestAt": "2026-10-26T23:08:27Z"
+          "kept": 341,
+          "excluded": 1,
+          "oldestAt": "2026-10-27T05:13:08Z"
         },
         {
           "id": "etnews-it",
           "kept": 168,
-          "excluded": 8,
+          "excluded": 7,
           "oldestAt": "2026-10-28T02:10:49Z"
         },
         {
@@ -3208,7 +3209,7 @@
         {
           "id": "etnews-security",
           "kept": 90,
-          "excluded": 12,
+          "excluded": 11,
           "oldestAt": "2026-10-28T01:44:27Z"
         },
         {
@@ -3309,9 +3310,9 @@
         },
         {
           "id": "hankyung-finance",
-          "kept": 115,
-          "excluded": 18,
-          "oldestAt": "2026-11-01T09:08:36Z"
+          "kept": 114,
+          "excluded": 19,
+          "oldestAt": "2026-11-01T09:19:03Z"
         },
         {
           "id": "hankyung-realestate",
@@ -3321,14 +3322,14 @@
         },
         {
           "id": "hankyung-economy",
-          "kept": 131,
-          "excluded": 17,
-          "oldestAt": "2026-11-01T09:03:26Z"
+          "kept": 124,
+          "excluded": 24,
+          "oldestAt": "2026-11-01T09:13:25Z"
         },
         {
           "id": "mk-stock",
-          "kept": 110,
-          "excluded": 20,
+          "kept": 111,
+          "excluded": 19,
           "oldestAt": "2026-11-01T10:50:30Z"
         },
         {
@@ -3339,7 +3340,7 @@
         },
         {
           "id": "mk-economy",
-          "kept": 116,
+          "kept": 117,
           "excluded": 5,
           "oldestAt": "2026-11-01T09:45:27Z"
         },
@@ -3363,7 +3364,7 @@
         },
         {
           "id": "fnnews-stock",
-          "kept": 115,
+          "kept": 116,
           "excluded": 0,
           "oldestAt": "2026-11-01T09:25:30Z"
         },
@@ -3381,13 +3382,13 @@
         },
         {
           "id": "newsis-finance",
-          "kept": 118,
+          "kept": 120,
           "excluded": 6,
           "oldestAt": "2026-11-02T07:16:18Z"
         },
         {
           "id": "newsis-economy",
-          "kept": 128,
+          "kept": 130,
           "excluded": 13,
           "oldestAt": "2026-11-01T10:30:06Z"
         },
@@ -3399,7 +3400,7 @@
         },
         {
           "id": "ajunews-economy",
-          "kept": 111,
+          "kept": 112,
           "excluded": 27,
           "oldestAt": "2026-11-01T11:39:32Z"
         },
@@ -3862,15 +3863,250 @@
   ],
   "articles": [
     {
-      "id": "a5ec889fe2bf0452353d",
-      "title": "Unitree 공장을 둘러본 뒤, 서구의 전망을 더 낙관하게 됐다",
-      "url": "https://news.hada.io/topic?id=36768",
-      "summary": "Unitree의 로봇 생산은 여전히 수작업 중심 이며, 2025년 제조원가에서 인건비 비중은 8%에 불과함. 중국에서는 저렴한 노동력이 합리적이지만, 로봇을 만드는 기계 시장은 아직 서구에도 기회가 남아 있음 잦은 제품 변경과 재프로그래밍 비용 이 자동화를 어렵게 함. Unitree도 로봇 전체보다 여러 제품이 공유하고 설계가 상대적으로 안정적인 관절 모듈부터 자동화하고 있음 미국의 공장 노동비는 중국의 약 7.5배 여서 같은 자동화 설비의 절감 가치가 훨씬 큼. 중국산 로봇과 부품에 대한 규제까",
-      "publishedAt": "2026-11-07T17:49:45Z",
+      "id": "53e11d845ad36a405776",
+      "title": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
+      "url": "https://www.mk.co.kr/news/stock/12201558",
+      "summary": "",
+      "publishedAt": "2026-11-07T21:13:56Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": "증권 "
+    },
+    {
+      "id": "0f682bc694b6d40b685c",
+      "title": "\"집에 있으면 돈 아끼는 줄 알았는데\"…'소파 경제'의 함정",
+      "url": "https://www.hankyung.com/article/202611072412H",
+      "summary": "",
+      "publishedAt": "2026-11-07T21:00:03Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "492ac79dd9db90b9874c",
+      "title": "\"주주는 피눈물인데 직원은 7억?\"…삼성 성과급 놓고 갑론을박",
+      "url": "https://www.hankyung.com/article/202611072406H",
+      "summary": "",
+      "publishedAt": "2026-11-07T21:00:01Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "762911d60a96b3cc2802",
+      "title": "\"월요일 손절하고 튀어야 하나\" vs \"이럴 때 사야지\"…삼전닉스 개미, 주말 내내 '손절 갈등'",
+      "url": "https://www.fnnews.com/news/202611071041101695",
+      "summary": "",
+      "publishedAt": "2026-11-07T21:00:00Z",
+      "sourceIds": [
+        "fnnews-stock"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": "증권|증권일반 "
+    },
+    {
+      "id": "c8c371c0509a3c572c09",
+      "title": "증시 급락에 '반대매매 유예'로 숨통…'빚투' 개미 한숨 돌리나",
+      "url": "https://www.newsis.com/view/NISX20261106_0003858292",
+      "summary": "",
+      "publishedAt": "2026-11-07T21:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "644bc86990c3f1dbd117",
+      "title": "\"역세권·대단지 믿고 샀다간 낭패\"…상가 투자 성공의 열쇠는",
+      "url": "https://www.newsis.com/view/NISX20261106_0003857436",
+      "summary": "",
+      "publishedAt": "2026-11-07T21:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "b602679acd99be54602e",
+      "title": "에이전트 메모리의 구성 요소",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "summary": "에이전트 메모리는 경험에서 얻은 지식을 세션 간에 보존하는 컨텍스트 이며, 작업 중 중요한 내용을 기록하는 과정과 나중에 기록을 검토하는 드리밍(dreaming) 을 함께 활용할 수 있음 메모리의 효과는 기록량보다 무엇을 기억할지 판단하는 능력 에 달려 있음. 평가에서 더 강력한 Claude 모델은 모든 상황을 저장하기보다 검증된 규칙, 전략, 다음 행동을 중심으로 메모리를 구성함 드리밍 은 원본 대화 기록과 메모리를 대조해 오류를 고치고, 여러 세션의 기록을 연결하며, 위키처럼 탐색하기 쉬운 지",
+      "publishedAt": "2026-11-07T20:51:20Z",
+      "sourceIds": [
+        "geeknews",
+        "hnko"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-07T12:24:07Z",
+      "categories": " "
+    },
+    {
+      "id": "dca792c4b2aefb2e0826",
+      "title": "요즘은 이런 걸 만들지 않는다: Borland Turbo Pascal 7",
+      "url": "https://news.hada.io/topic?id=36774",
+      "summary": "Turbo Pascal 7 은 Windows용 객체 지향 라이브러리, 그래픽 UI 설계 도구, 소스 수준 디버거를 하나의 IDE로 통합해 당시 복잡했던 Windows 프로그래밍의 진입 장벽을 낮춤 Object Windows Library 는 Windows C API를 객체 지향 방식으로 감싸 UI 모델에 맞게 개발할 수 있도록 했으며, 통합 환경은 명령줄 도구와 복잡한 정의 파일을 직접 다루는 부담을 줄임 CP/M 시절의 자원 제약 에 맞춰 만든 컴파일러는 어셈블리로 고도로 최적화됐으며, 중간 파",
+      "publishedAt": "2026-11-07T20:48:20Z",
       "sourceIds": [
         "geeknews"
       ],
       "topics": [],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "16330da11ea14540ce2d",
+      "title": "Apple의 그레이 리스트: iPhone이 철자 입력을 도와주지 않는 단어와 문구들",
+      "url": "https://news.hada.io/topic?id=36773",
+      "summary": "Apple 운영체제에서 10만 개가 넘는 단어와 문구 의 예측 입력 완성을 제한하는 그레이 리스트 가 발견됨 제한된 문구는 예측 입력에 나타나지 않으며, 스와이프 입력 에서도 “United Ireland”가 “United Iceland”로 바뀌는 등 다른 표현으로 대체되는 경우가 있음 목록에는 마약과 성행위 관련 표현뿐 아니라 정치적으로 민감한 문구 , “iMessage isn’t working”처럼 Apple 서비스의 문제를 나타내는 표현도 포함돼 있음 독립 연구자 Derik Kauffman 이",
+      "publishedAt": "2026-11-07T20:45:20Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "1b3d50523c0899ee1618",
+      "title": "Microsoft Research의 AI Frontiers 그룹이 막을 내림",
+      "url": "https://news.hada.io/topic?id=36772",
+      "summary": "AI Frontiers(AIF) 가 Microsoft AI로 재편된 뒤 막을 내림. 공동 설립에 참여한 John Langford는 팀원들의 거취를 최대한 정리하고 회사를 떠남 약 50명 규모 의 AIF는 개인 연구만으로 경쟁하기 어려워진 AI 환경에 대응해 조직적인 연구를 추진했으며, 에이전트와 새로운 모델 역량을 개발함 Langford가 경험한 Microsoft AI의 규모 확장 중심 전략 은 AIF의 연구 지향과 양립하기 어려웠음. 연구보다 데이터 확보, 생성, 개선에 집중하는 환경이었음 연구",
+      "publishedAt": "2026-11-07T20:42:20Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "aec7d382dfe4e7614764",
+      "title": "바이낸스, 8조원대 해킹 피해 일주일여 만에 CFO 교체",
+      "url": "https://www.newsis.com/view/NISX20261108_0003859093",
+      "summary": "",
+      "publishedAt": "2026-11-07T20:35:38Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "0410a68a2673b09de536",
+      "title": "매월 56만원 대출이자 vs 56만원 ‘따박따박’ 저축 … 5년 후 자산 차이는?",
+      "url": "https://www.mk.co.kr/news/economy/12200763",
+      "summary": "",
+      "publishedAt": "2026-11-07T20:30:00Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": "경제 "
+    },
+    {
+      "id": "cc5476d3381beb6d9e02",
+      "title": "폭락장마다 '줍줍'하던 美개미마저 순매도…코로나 이후 5번째 규모",
+      "url": "https://www.newsis.com/view/NISX20261106_0003858174",
+      "summary": "",
+      "publishedAt": "2026-11-07T20:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "34e5e08d9c8f84e4ae19",
+      "title": "대학 도서관에 몰려드는 AI 봇, 공공 접근권을 위협하다",
+      "url": "https://news.hada.io/topic?id=36771",
+      "summary": "AI 학습용 데이터를 수집하는 스크래핑 봇 이 대학 도서관 사이트를 느려지거나 중단되게 하면서 학생, 연구자, 일반 시민의 자료 접근을 방해하고 있음 일부 봇은 robots.txt 지침을 무시하고 초당 수천 건의 문서를 요청하며, 수천 개 IP 주소를 사용해 기존 IP 차단 방식으로 대응하기 어려움 University of North Carolina at Chapel Hill에서는 하루에 핀란드 음악 검색 1만 1,000건 이상 이 발생했고, 봇 트래픽 때문에 학생과 교직원이 도서관 목록에 주기적",
+      "publishedAt": "2026-11-07T19:33:14Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "ff35b126d8a916ae4819",
+      "title": "8달러짜리 Linux 컴퓨터(2022)",
+      "url": "https://news.hada.io/topic?id=36770",
+      "summary": "Ox64 는 서로 다른 RISC-V 코어 3개를 갖춘 8달러 컴퓨터로, MMU 없는 축소형 커널에 한정되지 않는 Linux 실행을 지원함 당시 이더넷, Wi-Fi, SD 카드가 작동하지 않았으며 , 초기 구동에도 여러 장애물이 있었음 펌웨어는 USB로 직접 기록할 수 없어 UART TX/RX 연결 이 필요했고, 실험에 사용한 CH340G 동글에서는 핸드셰이크가 계속 실패함 RP2040 기반 시리얼 브리지 와 수정한 bflb-mcu-tool 을 조합해 M0 펌웨어 기록에 성공함 이번 단계에서 확인한",
+      "publishedAt": "2026-11-07T18:38:53Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "1a133bbd24a95ed8f950",
+      "title": "자유 소프트웨어로 법률사무소 운영하기",
+      "url": "https://news.hada.io/topic?id=36769",
+      "summary": "영국의 소규모 법률사무소 decoded.legal 은 약 5년째 클라이언트와 서버 양쪽에서 자유 소프트웨어를 사용하며, 문서 작성부터 청구, 사건 관리까지 처리함 업무용 PC는 Debian과 GNOME 을 유지하며, 다른 변호사와 교환할 문서는 LibreOffice Writer로, 일부 문서와 발표 자료는 Markdown 기반 도구로 작성함 최근 주요 변경은 Nextcloud를 Syncthing과 radicale 로 대체한 것으로, 파일 동기화와 일정/연락처 관리를 분리한 조합에 만족하고 있음 서",
+      "publishedAt": "2026-11-07T18:35:52Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "소프트웨어"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
+      "categories": " "
+    },
+    {
+      "id": "a5ec889fe2bf0452353d",
+      "title": "Unitree는 왜 로봇을 손으로 조립할까? 제조 자동화 기회를 본 공장 탐방기",
+      "url": "https://news.hada.io/topic?id=36768",
+      "summary": "항저우 Unitree의 로봇 생산은 여전히 수작업 중심 이며, 제조원가에서 인건비 비중은 8%에 불과함. 중국에서는 저렴한 노동력이 합리적이지만, 로봇을 만드는 기계 시장은 아직 서구에도 기회가 남아 있음 휴머노이드는 아직 잦은 제품 변경과 재프로그래밍 비용 이 자동화를 어렵게 함. 특정 모델에 맞춘 조립 설비는 다음 세대에 쓰기 어려워, Unitree는 여러 모델이 공유하는 관절 모듈부터 자동화 하고 있음 미국의 공장 노동비는 중국의 약 7.5배 여서 같은 자동화 설비의 절감 가치가 훨씬 큼.",
+      "publishedAt": "2026-11-07T17:49:45Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "기술"
+      ],
       "firstSeenAt": "2026-11-07T18:20:55Z",
       "categories": " "
     },
@@ -3915,6 +4151,21 @@
         "기술"
       ],
       "firstSeenAt": "2026-11-07T18:20:55Z",
+      "categories": " "
+    },
+    {
+      "id": "43aca71d21f352197d0e",
+      "title": "'스파이 여성' 논란 젠슨 황…미 하원, 이달 18일 비공개 브리핑 출석 요구",
+      "url": "https://www.ajunews.com/view/20261108021649078",
+      "summary": "",
+      "publishedAt": "2026-11-07T17:23:43Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-07T21:20:44Z",
       "categories": " "
     },
     {
@@ -5286,19 +5537,6 @@
         "AI"
       ],
       "firstSeenAt": "2026-11-07T09:20:51Z",
-      "categories": " "
-    },
-    {
-      "id": "f0247d2be6d23fda2798",
-      "title": "에이전트 메모리의 구성요소",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "summary": "📝 클로드는 꿈을 이용해 기억을 정리할 수 있습니다. Claude는 메모리에 메모를 쓸 수 있습니다. 기억은 여기서 학습 루프를 지원할 수 있습니다. 🔤 Original: The Components of Agent Memory 🔗 Read more: https://www.anthropic.com/research/components-of-agent-memory",
-      "publishedAt": "2026-11-07T06:39:04Z",
-      "sourceIds": [
-        "hnko"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-07T12:24:07Z",
       "categories": " "
     },
     {
@@ -10588,9 +10826,9 @@
       "categories": "경제 "
     },
     {
-      "id": "e943516db60a26a83310",
-      "title": "한국산 단감, 최대시장 中 첫 수출",
-      "url": "https://www.mk.co.kr/news/economy/12200708",
+      "id": "b2310c18bcea6288b87e",
+      "title": "재료값 떨어졌는데 가격 그대로면 제재",
+      "url": "https://www.mk.co.kr/news/economy/12200707",
       "summary": "",
       "publishedAt": "2026-11-06T08:40:26Z",
       "sourceIds": [
@@ -10603,9 +10841,9 @@
       "categories": "경제 "
     },
     {
-      "id": "b2310c18bcea6288b87e",
-      "title": "재료값 떨어졌는데 가격 그대로면 제재",
-      "url": "https://www.mk.co.kr/news/economy/12200707",
+      "id": "e943516db60a26a83310",
+      "title": "한국산 단감, 최대시장 中 첫 수출",
+      "url": "https://www.mk.co.kr/news/economy/12200708",
       "summary": "",
       "publishedAt": "2026-11-06T08:40:26Z",
       "sourceIds": [
@@ -55651,156 +55889,6 @@
       "categories": "부동산|철도·항공·선박 "
     },
     {
-      "id": "efbd338b26f2ad221f85",
-      "title": "中 바이오, 기술수출 넘어 'Co-Co 모델'로 진화",
-      "url": "https://www.hankyung.com/article/2026110185131",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:10:52Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "02b0f451073747f99bae",
-      "title": "불닭 검색 5년來 최고…라면 넘어 소스까지",
-      "url": "https://www.hankyung.com/article/2026110185141",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:08:36Z",
-      "sourceIds": [
-        "hankyung-finance"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-01T12:23:40Z",
-      "categories": " "
-    },
-    {
-      "id": "32f353c17a0ee79523d8",
-      "title": "한화, 3500억원 규모 美해군 함정 첫 수주",
-      "url": "https://www.hankyung.com/article/2026110185861",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:07:51Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "d931b04cf2ad56a7e4e6",
-      "title": "HD현대로보틱스, 팰런티어와 '피지컬 AI' 고도화 협력",
-      "url": "https://www.hankyung.com/article/2026110185851",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:07:29Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "1a66eedc315808e45f42",
-      "title": "샘 올트먼, 1박2일 깜짝 방한…삼성·SK와 'AI 협업' 논의",
-      "url": "https://www.hankyung.com/article/2026110185881",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:07:24Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "b36c8ab1fcac9071aae5",
-      "title": "LG전자, 美컨슈머리포트 '최고 가전' 휩쓸어",
-      "url": "https://www.hankyung.com/article/2026110185871",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:06:59Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "5faa29a8d4479fed9666",
-      "title": "국민은행, 12조 GPU 파이낸싱 금융주선",
-      "url": "https://www.hankyung.com/article/2026110185841",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:06:52Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "daadae9d4b41ff5affc4",
-      "title": "세계인의 옷 年 15억장…K의류제조 '빅3'가 생산",
-      "url": "https://www.hankyung.com/article/2026110185991",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:06:10Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "cdb7d650e95609cc2d1d",
-      "title": "'노후 연금술사' 연금저축…많이 넣는 것보다 잘 받는 게 중요",
-      "url": "https://www.hankyung.com/article/2026110185371",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:04:38Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
-      "id": "0c9c1b0186f5e8bddeb5",
-      "title": "연금저축보험 수익률 아쉽다면 연금저축펀드로 갈아타세요",
-      "url": "https://www.hankyung.com/article/2026110185361",
-      "summary": "",
-      "publishedAt": "2026-11-01T09:03:26Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "firstSeenAt": "2026-11-01T09:20:48Z",
-      "categories": " "
-    },
-    {
       "id": "ffa8b38895fe9a822689",
       "title": "정부, AIDC 진입 장벽 낮춘다…하위법령 입법예고 앞두고 기준 완화 가닥",
       "url": "https://www.etnews.com/20261030000273",
@@ -73053,86 +73141,6 @@
       "topics": [],
       "firstSeenAt": "2026-10-27T00:00:00Z",
       "categories": " "
-    },
-    {
-      "id": "3f124448e3a7809a61c9",
-      "title": "런타임 캐릭터 커스터마이제이션을 위한 뮤터블 샘플이 UE 5.8에 맞춰 업데이트되었습니다!",
-      "url": "https://indieblog.net/go/655552",
-      "summary": "뮤터블 툴세트가 언리얼 엔진 5.8에서 정식 버전으로 제공됩니다. 이를 기념해 뮤터블 샘플도 전면 업데이트되었습니다. 지금 다운로드하여 플레이어가 실시간으로 자유롭게 커스터마이징할 수 있는 캐릭터를 제작해 보세요.",
-      "publishedAt": "2026-10-27T00:00:00Z",
-      "sourceIds": [
-        "indieblog"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-27T00:00:00Z",
-      "categories": " "
-    },
-    {
-      "id": "237b7812cdfa6bddfbea",
-      "title": "차세대 ERP, 신규 구축만이 정답은 아닙니다",
-      "url": "https://indieblog.net/go/655546",
-      "summary": "System Conversion을 기준선으로 평가하고, Downtime·비용·조직의 준비 수준에 맞춰 전환 경로를 선택하는 방법을 살펴봅니다.",
-      "publishedAt": "2026-10-27T00:00:00Z",
-      "sourceIds": [
-        "indieblog"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-27T00:00:00Z",
-      "categories": " "
-    },
-    {
-      "id": "efe0f92d317cb10160cc",
-      "title": "Claude Code에 메타몽 넣기 (with Mods)",
-      "url": "https://indieblog.net/go/655545",
-      "summary": "Claude Code Mods가 뭔지 가볍게 살펴보고, 터미널에 메타몽을 넣어보자",
-      "publishedAt": "2026-10-27T00:00:00Z",
-      "sourceIds": [
-        "indieblog"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-10-27T00:00:00Z",
-      "categories": " "
-    },
-    {
-      "id": "33e5a665c9347996204a",
-      "title": "2달러 마이크로컨트롤러에서 SIMD로 컴퓨터 비전 가속하기",
-      "url": "https://news.hada.io/topic?id=36070",
-      "summary": "ESP32-S3의 128비트 SIMD 명령어 를 활용한 FAST 특징점 검출 구현으로 참조 구현 대비 약 2배의 성능을 달성했으며, QVGA(320×240) 프레임 처리에 약 6ms가 걸림 FAST 코너 사전 검사에서 동서남북 픽셀과 중심 픽셀의 차이를 비교하며, 벡터 레지스터 하나에 담기는 8비트 ...",
-      "publishedAt": "2026-10-26T23:38:03Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-26T23:38:03Z",
-      "categories": ""
-    },
-    {
-      "id": "41ddadfb8a70d0feab02",
-      "title": "학계와 협력해 과학적 이해 쌓기",
-      "url": "https://news.hada.io/topic?id=36069",
-      "summary": "OpenAI가 조화해석, 계산 복잡도, 양자장론 에서 AI로 얻은 세 가지 연구 결과를 발표하고, 이를 과학적 이해로 발전시키기 위해 외부 전문가와 협력함 AI가 만든 원고를 원시 연구 데이터 로 보고, 수학은 결과물 공개, 컴퓨터과학은 공개와 외부 공동 검토 병행, 물...",
-      "publishedAt": "2026-10-26T23:35:03Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-26T23:35:03Z",
-      "categories": ""
-    },
-    {
-      "id": "dfc1beb6891ed71ed982",
-      "title": "운동을 상상하는 것만으로도 당신은 더 강해질 수 있습니다",
-      "url": "https://nautil.us/just-imagining-a-workout-can-make-you-stronger-236068",
-      "summary": "📝 이것이 바로 운동 이미지입니다. 시각적 이미지가 시각적 인식과 동일한 뇌 영역을 사용하는 것처럼, 운동 이미지는 신체 움직임을 담당하는 동일한 뇌 영역을 사용하는 경향이 있습니다. 즉, 실제 움직임과 상상의 움직임은 동일한 뇌 활동을 포함하지만 상상의 경우 메시지가 근육에 도달하는 것을 막는 뇌의 또 다른 부분이 있습니다. 상상은 자기기만의 한 형태입니다. 근육이 움직이든 안 움직이든 뇌의 상당 부분은 운동 활동에 같은 방식으로 반응합니다. 🔤 Original: Just Imagining a",
-      "publishedAt": "2026-10-26T23:08:27Z",
-      "sourceIds": [
-        "hnko"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-10-26T23:08:27Z",
-      "categories": ""
     },
     {
       "id": "a6c906dc276bef48fe42",
