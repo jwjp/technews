@@ -1,214 +1,213 @@
 {
-  "generatedAt": "2026-11-01T23:35:11Z",
-  "week": "2026-W45",
+  "generatedAt": "2026-11-08T23:35:31Z",
+  "week": "2026-W46",
   "candidates": [
     {
-      "id": "18da59ea0ae64809",
-      "name": "Engineering Blog by Dale Seo",
-      "siteUrl": "https://www.daleseo.com/",
-      "feedUrl": "https://www.daleseo.com/rss.xml",
+      "id": "0e70cecb456f8713",
+      "name": "AI 세상에서 살아남기",
+      "siteUrl": "https://wanglan.tistory.com/",
+      "feedUrl": "https://wanglan.tistory.com/rss",
       "section": "tech",
       "kind": "blog",
       "topics": [
         "AI",
-        "개발"
+        "기술"
       ],
-      "latestAt": "2026-11-01T00:00:00Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 61,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "Cloudflare Turnstile로 캡차 없이 폼 스팸 봇 막기",
-          "url": "https://daleseo.com/cloudflare-turnstile",
-          "publishedAt": "2026-11-01T00:00:00Z"
-        },
-        {
-          "title": "OpenAI Decisions API: 확률과 선택지로 답하는 판단 전용 API",
-          "url": "https://daleseo.com/openai-decisions-api",
-          "publishedAt": "2026-10-24T00:00:00Z"
-        },
-        {
-          "title": "MCP Extensions: 코어 명세 밖에서 기능을 키우는 법",
-          "url": "https://daleseo.com/mcp-extensions",
-          "publishedAt": "2026-10-23T00:00:00Z"
-        }
-      ],
-      "score": 52
-    },
-    {
-      "id": "95afe8ad30caaf0b",
-      "name": "kdy1: The way I think",
-      "siteUrl": "https://kdy1.dev/",
-      "feedUrl": "https://kdy1.dev/rss.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI",
-        "개발"
-      ],
-      "latestAt": "2026-10-23T15:05:50Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 15,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "작업 일지: 성능 관련 기여",
-          "url": "https://kdy1.dev/2026-10-24-performance-contribution-ko",
-          "publishedAt": "2026-10-23T15:05:50Z"
-        },
-        {
-          "title": "Task Log: Performance Contribution",
-          "url": "https://kdy1.dev/2026-10-24-performance-contribution",
-          "publishedAt": "2026-10-23T15:05:21Z"
-        },
-        {
-          "title": "코덱스 구독의 토큰 속도",
-          "url": "https://kdy1.dev/2026-10-14-codex-subscription-token-rate-ko",
-          "publishedAt": "2026-10-14T01:28:32Z"
-        }
-      ],
-      "score": 50
-    },
-    {
-      "id": "05374a6c91537559",
-      "name": "시간이 증명한 경험, 당신의 성장을 돕는 기록",
-      "siteUrl": "https://blog.naver.com/tipsware",
-      "feedUrl": "https://rss.blog.naver.com/tipsware.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI"
-      ],
-      "latestAt": "2026-11-01T12:43:56Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
+      "latestAt": "2026-11-08T01:19:02Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
       "recentCount": 50,
       "overlapCount": 0,
       "foundVia": "Awesome Devblog",
       "samples": [
         {
-          "title": "[C++] for 반복문에 사용된 i++ 또는 ++i 표현에 대한 진실과 기술적 배경",
-          "url": "https://blog.naver.com/tipsware/224461489419?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T12:43:56Z"
+          "title": "AI 에이전트 팀에게 블로그 글감까지 맡기면?",
+          "url": "https://wanglan.tistory.com/entry/AI-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%ED%8C%80%EC%97%90%EA%B2%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80%EA%B0%90%EA%B9%8C%EC%A7%80-%EB%A7%A1%EA%B8%B0%EB%A9%B4",
+          "publishedAt": "2026-11-08T01:19:02Z"
         },
         {
-          "title": "[오프라인 모임] AI 시대를 슬기롭게 살아갈 프로그래머들 모이세요!",
-          "url": "https://blog.naver.com/tipsware/224460555614?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-31T14:25:43Z"
+          "title": "코스피 한 주 11.7% 하락, AI 모의 장부 손실은 13만 5천 원",
+          "url": "https://wanglan.tistory.com/entry/%EC%BD%94%EC%8A%A4%ED%94%BC-%ED%95%9C-%EC%A3%BC-117-%ED%95%98%EB%9D%BD-AI-%EB%AA%A8%EC%9D%98-%EC%9E%A5%EB%B6%80-%EC%86%90%EC%8B%A4%EC%9D%80-13%EB%A7%8C-5%EC%B2%9C-%EC%9B%90",
+          "publishedAt": "2026-11-08T00:00:40Z"
         },
         {
-          "title": "[LxMFC/실습과제] 지정된 영역에 점 2500개 출력하기 - Step 2",
-          "url": "https://blog.naver.com/tipsware/224459110600?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-30T06:23:28Z"
+          "title": "미국 반도체 4% 반등과 12월 금리 인상 확률 77%",
+          "url": "https://wanglan.tistory.com/entry/%EB%AF%B8%EA%B5%AD-%EB%B0%98%EB%8F%84%EC%B2%B4-4-%EB%B0%98%EB%93%B1%EA%B3%BC-12%EC%9B%94-%EA%B8%88%EB%A6%AC-%EC%9D%B8%EC%83%81-%ED%99%95%EB%A5%A0-77",
+          "publishedAt": "2026-11-07T05:26:33Z"
         }
       ],
-      "score": 48
+      "score": 60
     },
     {
-      "id": "ad4af311ab736295",
-      "name": "ZeroCho Blog",
-      "siteUrl": "https://www.zerocho.com/",
-      "feedUrl": "https://www.zerocho.com/api/rss.xml",
+      "id": "155dca37ec0e8e58",
+      "name": "HJH",
+      "siteUrl": "https://brunch.co.kr/@hajunho",
+      "feedUrl": "https://brunch.co.kr/rss/@@R17",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-11-07T21:14:21Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 20,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "다시, 주말",
+          "url": "https://brunch.co.kr/@@R17/1857",
+          "publishedAt": "2026-11-07T21:14:21Z"
+        },
+        {
+          "title": "소소한 모델 출시",
+          "url": "https://brunch.co.kr/@@R17/1854",
+          "publishedAt": "2026-11-07T00:24:43Z"
+        },
+        {
+          "title": "KT 토큰팩토리 가격 비교",
+          "url": "https://brunch.co.kr/@@R17/1852",
+          "publishedAt": "2026-11-06T02:35:21Z"
+        }
+      ],
+      "score": 35
+    },
+    {
+      "id": "a88dd20b89d7ee89",
+      "name": "개발하는 기획자. 기획하는 개발자.",
+      "siteUrl": "https://blog.naver.com/gi_balja",
+      "feedUrl": "https://rss.blog.naver.com/gi_balja.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "기술"
+      ],
+      "latestAt": "2026-10-30T23:00:00Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "8. 연습 문제와 오류 해결",
+          "url": "https://blog.naver.com/gi_balja/224453087654?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-30T23:00:00Z"
+        },
+        {
+          "title": "7. 읽기 모델과 후속 처리 확장하기",
+          "url": "https://blog.naver.com/gi_balja/224452994370?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-29T23:00:00Z"
+        },
+        {
+          "title": "6. 격리와 동시성을 검증하기",
+          "url": "https://blog.naver.com/gi_balja/224452965778?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-28T23:00:00Z"
+        }
+      ],
+      "score": 34
+    },
+    {
+      "id": "42450206889a76c9",
+      "name": "글 on Devlog in the SKY",
+      "siteUrl": "https://skyoo2003.github.io/",
+      "feedUrl": "https://skyoo2003.github.io/ko/posts/index.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "기술"
+      ],
+      "latestAt": "2026-10-04T15:00:00Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 15,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "DynamoDB 표현식을 직접 해석하기: 토큰화부터 조건부 쓰기까지",
+          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/devcloud-dynamodb-expressions",
+          "publishedAt": "2026-10-04T15:00:00Z"
+        },
+        {
+          "title": "GET이 빠른데 서버는 느리다: KVS의 fsync와 Raft 대기열 측정",
+          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/kvs-fsync-raft-performance",
+          "publishedAt": "2026-10-04T15:00:00Z"
+        },
+        {
+          "title": "SQS는 메시지 배열보다 복잡하다: 가시성 타임아웃과 DLQ 재처리",
+          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/devcloud-sqs-message-lifecycle",
+          "publishedAt": "2026-10-04T15:00:00Z"
+        }
+      ],
+      "score": 34
+    },
+    {
+      "id": "6d3875a8638f9107",
+      "name": "Never test",
+      "siteUrl": "https://lovemewithoutall.github.io/",
+      "feedUrl": "https://lovemewithoutall.github.io/feed.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "개발"
+      ],
+      "latestAt": "2026-10-14T15:49:30Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "In Search of the Namhansanseong Army Prison",
+          "url": "https://lovemewithoutall.github.io/history/namhansanseong-army-prison-eng",
+          "publishedAt": "2026-10-14T15:49:30Z"
+        },
+        {
+          "title": "남한산성 육군교도소를 찾아서",
+          "url": "https://lovemewithoutall.github.io/history/namhansanseong-army-prison",
+          "publishedAt": "2026-10-14T15:49:30Z"
+        },
+        {
+          "title": "메이지 유신 초기의 조선 침략론",
+          "url": "https://lovemewithoutall.github.io/history/meiji-joseon-discussion",
+          "publishedAt": "2026-08-28T15:49:30Z"
+        }
+      ],
+      "score": 33
+    },
+    {
+      "id": "9c04f636b9f6884d",
+      "name": "Life Log",
+      "siteUrl": "https://ravenkim97.tistory.com/",
+      "feedUrl": "https://ravenkim97.tistory.com/rss",
       "section": "tech",
       "kind": "blog",
       "topics": [
         "AI",
         "개발",
-        "보안"
+        "기술"
       ],
-      "latestAt": "2026-10-09T07:29:47Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 19,
+      "latestAt": "2026-10-23T17:16:54Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 7,
       "overlapCount": 0,
       "foundVia": "Awesome Devblog",
       "samples": [
         {
-          "title": "AI 비용 거의 90% 절약? 모델 선택부터 AI에게 맡겨봤어요 - OpenAI Decisions API로 작업에 맞는 모델과 effort를 고르는 흐름을 직접 시험해 봤어요. 여섯 가지 작업의 선택 결과, 약 90%에 가까운 비용 절감 예시, Codex에 연결하면서 겪은 불편함까지 정리했어요.",
-          "url": "https://www.zerocho.com/category/AI뉴스/post/6ac897ebdf5183dbffd287ba",
-          "publishedAt": "2026-10-09T07:29:47Z"
+          "title": "한잔 기록이파트너 성장 프로그램에 선정됐어요! - 토스인앱",
+          "url": "https://ravenkim97.tistory.com/622",
+          "publishedAt": "2026-10-23T17:16:54Z"
         },
         {
-          "title": "코딩만 잘하면 데이터과학자? 빠뜨리기 쉬운 ‘위험 구역’ - 데이터과학은 모델을 만드는 일보다 넓어요. 질문을 세우고 데이터의 성격을 파악한 뒤, 분석 결과의 의미와 한계까지 설명하는 과정이에요. 정형·비정형 데이터, 측정척도, 분류와 회귀를 예시로 풀어봤어요.",
-          "url": "https://www.zerocho.com/category/IT뉴스/post/6ac20ab4df5183dbffb02c8e",
-          "publishedAt": "2026-10-04T08:13:40Z"
+          "title": "국방 ai 경진대회 예선",
+          "url": "https://ravenkim97.tistory.com/621",
+          "publishedAt": "2026-10-19T04:58:35Z"
         },
         {
-          "title": "GPT 사용량 반토막, 500달러 요금제와 dots가 만회할까요? - Pro 200의 사용량 축소와 Pro 500 출시, dots와 Space를 살펴봤어요. 한도 변경 시점과 크레딧 용도, Ultrafast의 차감 기준까지 추가 조사 결과를 반영했어요.",
-          "url": "https://www.zerocho.com/category/AI뉴스/post/6ac13efddf5183dbffabb635",
-          "publishedAt": "2026-10-03T17:44:29Z"
+          "title": "36만명이 춤춘거 본 썰",
+          "url": "https://ravenkim97.tistory.com/620",
+          "publishedAt": "2026-10-13T12:49:54Z"
         }
       ],
-      "score": 47
-    },
-    {
-      "id": "f60291dcf9b92012",
-      "name": "DEV Community: Jhin Lee",
-      "siteUrl": "https://dev.to/leehack",
-      "feedUrl": "https://dev.to/feed/leehack",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI"
-      ],
-      "latestAt": "2026-10-20T13:00:00Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 8,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "Building a cross-platform Flutter festival assistant with llamadart",
-          "url": "https://dev.to/gde/building-a-cross-platform-flutter-festival-assistant-with-llamadart-2dml",
-          "publishedAt": "2026-10-20T13:00:00Z"
-        },
-        {
-          "title": "Stress-Testing Gemini 4 Argon: Building a 3D Flutter Kart Game in 15 Prompts with Zero Assets",
-          "url": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha",
-          "publishedAt": "2026-10-19T13:00:00Z"
-        },
-        {
-          "title": "Local image generation with llamadart for the Llama Village storybook",
-          "url": "https://dev.to/gde/local-image-generation-with-llamadart-for-the-llama-village-storybook-p28",
-          "publishedAt": "2026-10-15T13:56:36Z"
-        }
-      ],
-      "score": 39
-    },
-    {
-      "id": "9c694453aa930c77",
-      "name": "neozest : neo+zest",
-      "siteUrl": "https://neozest21c.tistory.com/",
-      "feedUrl": "https://neozest21c.tistory.com/rss",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI"
-      ],
-      "latestAt": "2026-11-01T15:10:26Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 5,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "와인버그에게 배우는 차곡차곡 글쓰기/인사이트",
-          "url": "https://neozest21c.tistory.com/entry/BookTheFieldstoneMethodGeraldWeinberg",
-          "publishedAt": "2026-11-01T15:10:26Z"
-        },
-        {
-          "title": "10월달 잡념 회고?",
-          "url": "https://neozest21c.tistory.com/entry/2026OctoberMisc",
-          "publishedAt": "2026-10-25T05:35:39Z"
-        },
-        {
-          "title": "개발에 하네스를 적용한 경험을 공유하는 <AI루프를 설계하라>",
-          "url": "https://neozest21c.tistory.com/entry/BOOKDesignAILoopToImproveDevelopmentQualityFromSpeedHanbitMedia",
-          "publishedAt": "2026-10-25T05:05:14Z"
-        }
-      ],
-      "score": 24
+      "score": 28
     },
     {
       "id": "a74dd0667343bdce",
@@ -218,31 +217,32 @@
       "section": "economy",
       "kind": "news",
       "topics": [
-        "금융"
+        "금융",
+        "주식"
       ],
-      "latestAt": "2026-11-01T23:00:03Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 58,
+      "latestAt": "2026-11-08T23:00:03Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 53,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "금감원장, '거수기' 지적한 금융지주 사외이사…내부 평가는 '최우수'",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/01/0014",
-          "publishedAt": "2026-11-01T23:00:03Z"
+          "title": "IT인력에 민생 특사경까지…내년 금감원 더 힘 실리나",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/06/0003",
+          "publishedAt": "2026-11-08T23:00:03Z"
         },
         {
-          "title": "반도체·AI에 날개 단 수출…이달 기준금리 인상 힘 받나",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/30/0034",
-          "publishedAt": "2026-11-01T05:00:02Z"
+          "title": "금리 인상 저울질하는 한은…코스피 폭락 변수되나",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/06/0021",
+          "publishedAt": "2026-11-08T03:30:03Z"
         },
         {
-          "title": "[돈MORE]머니 전쟁 붙은 간편결제…어떤 '페이' 쓸까",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/10/30/0042",
-          "publishedAt": "2026-10-31T03:00:03Z"
+          "title": "[보푸라기]20대 청년, 차 보험료 130만원에서 70만원으로?",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/06/0020",
+          "publishedAt": "2026-11-07T03:00:03Z"
         }
       ],
-      "score": 68
+      "score": 64
     },
     {
       "id": "edb8cbee16ae8bd4",
@@ -252,32 +252,33 @@
       "section": "economy",
       "kind": "news",
       "topics": [
-        "부동산",
+        "금융",
+        "정책",
         "주식"
       ],
-      "latestAt": "2026-11-01T03:00:11Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 85,
+      "latestAt": "2026-11-07T23:00:02Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 96,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "주가 저평가 151곳 꼬리표…증권사 MTS에 '저PBR' 표시",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/10/30/0058",
-          "publishedAt": "2026-11-01T03:00:11Z"
+          "title": "[공모주달력]올해 두번째 코스피 입성 '에스에프씨' 수요예측",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/06/0034",
+          "publishedAt": "2026-11-07T23:00:02Z"
         },
         {
-          "title": "[공모주달력]수요예측 엇갈린 동원파츠·옵토닉스·바로팜…청약 성적표는",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/10/30/0043",
-          "publishedAt": "2026-10-31T23:00:03Z"
+          "title": "금융당국 해킹 대책 발표한 날…최대 증권사 미래에셋 뚫렸다",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/07/0002",
+          "publishedAt": "2026-11-07T03:45:02Z"
         },
         {
-          "title": "[ETF워치]\"우리 커버드콜 액티브 ETF는 인기는요\"",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/10/30/0035",
-          "publishedAt": "2026-10-31T00:00:03Z"
+          "title": "[월간 ETF워치]개미는 상승 베팅했는데…수익률 상위권은 '인버스'",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/06/0015",
+          "publishedAt": "2026-11-07T00:00:02Z"
         }
       ],
-      "score": 64
+      "score": 63
     },
     {
       "id": "2fd206ab3e8ea9b0",
@@ -289,26 +290,62 @@
       "topics": [
         "부동산"
       ],
-      "latestAt": "2026-11-01T21:36:03Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 54,
+      "latestAt": "2026-11-08T21:36:02Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 57,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "'남다른 재무체력'…이 건설사의 다이어트는 성공일까?",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/30/0057",
-          "publishedAt": "2026-11-01T21:36:03Z"
+          "title": "[인사이드 스토리]건설 3대장, 호주로 향하는 이유",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/06/0026",
+          "publishedAt": "2026-11-08T21:36:02Z"
         },
         {
-          "title": "집값 상승 기대심리, 고점은 7월이었다?",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/30/0053",
-          "publishedAt": "2026-11-01T08:00:02Z"
+          "title": "[단독]국토부, '원격제어 타워크레인' 법제화 추진",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/06/0052",
+          "publishedAt": "2026-11-08T21:22:03Z"
         },
         {
-          "title": "동생에게 돈 안받고 아파트 3채 넘긴 이유?",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/10/30/0025",
-          "publishedAt": "2026-11-01T02:00:02Z"
+          "title": "LH \"장위9, 공공재개발로 세대당 5천만원 덜 든다\"",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/08/0002",
+          "publishedAt": "2026-11-08T12:11:02Z"
+        }
+      ],
+      "score": 56
+    },
+    {
+      "id": "99a6f09bb9878069",
+      "name": "청년개미의 경제 이야기",
+      "siteUrl": "https://blog.naver.com/ya_nt",
+      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "금융",
+        "정책",
+        "주식"
+      ],
+      "latestAt": "2026-11-08T22:50:00Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "1·2세대 실손보험 5세대 전환 할인, 3년간 50% 받아도 손해일 수 있는 이유",
+          "url": "https://blog.naver.com/ya_nt/224469833403?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-08T22:50:00Z"
+        },
+        {
+          "title": "주식 양도세 환급금, 250만원 공제 빠뜨렸다면? 자동 환급 대상과 조회법",
+          "url": "https://blog.naver.com/ya_nt/224469634523?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-08T21:00:00Z"
+        },
+        {
+          "title": "삼성 코리아 그랜드 페스티벌 2026, 할인 대상부터 실제 구매 혜택까지",
+          "url": "https://blog.naver.com/ya_nt/224469587667?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-08T14:00:00Z"
         }
       ],
       "score": 40
@@ -323,60 +360,26 @@
       "topics": [
         "주식"
       ],
-      "latestAt": "2026-11-01T03:00:00Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
+      "latestAt": "2026-11-08T14:33:29Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
       "recentCount": 50,
       "overlapCount": 0,
       "foundVia": "경제 블로그 후보",
       "samples": [
         {
-          "title": "노령연금 자격, 10년 못 채우면 65세 전까지 채울 수 있습니다",
-          "url": "https://blog.naver.com/gjwlh/224460891107?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T03:00:00Z"
+          "title": "\"고생했다\" 우리 열심히 살았어.",
+          "url": "https://blog.naver.com/gjwlh/224469627172?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-08T14:33:29Z"
         },
         {
-          "title": "레딧 주가 하락 이유, 구글 AI 요약에 미국 방문자가 줄었습니다",
-          "url": "https://blog.naver.com/gjwlh/224460887345?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T02:00:00Z"
+          "title": "AMD 실적발표는 좋았는데, 미국 상무부 이슈가 발생했네요.",
+          "url": "https://blog.naver.com/gjwlh/224464589180?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-04T03:55:17Z"
         },
         {
-          "title": "\"주말은 즐겁게...\" 삼성전자 월요일 주가 전망, 미국 반도체 7% 급락",
-          "url": "https://blog.naver.com/gjwlh/224460873003?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T00:57:17Z"
-        }
-      ],
-      "score": 40
-    },
-    {
-      "id": "99a6f09bb9878069",
-      "name": "청년개미의 경제 이야기",
-      "siteUrl": "https://blog.naver.com/ya_nt",
-      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
-      "section": "economy",
-      "kind": "blog",
-      "topics": [
-        "부동산"
-      ],
-      "latestAt": "2026-11-01T23:04:27Z",
-      "checkedAt": "2026-11-01T23:35:11Z",
-      "recentCount": 50,
-      "overlapCount": 0,
-      "foundVia": "경제 블로그 후보",
-      "samples": [
-        {
-          "title": "로또 1등 당첨금 407억, 세후 317억 맞을까? 109억 수동 3게임과 비교",
-          "url": "https://blog.naver.com/ya_nt/224461830930?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T23:04:27Z"
-        },
-        {
-          "title": "핀볼게임 사이트 링크와 사용법, 이름*2 입력 전 알아둘 당첨 설정",
-          "url": "https://blog.naver.com/ya_nt/224461811563?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T22:29:44Z"
-        },
-        {
-          "title": "신형 투싼 하이브리드 475만원 더 비싼데, 옵션 맞추면 가격 차이 달라진다",
-          "url": "https://blog.naver.com/ya_nt/224461791059?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-01T21:44:27Z"
+          "title": "팔란티어 실적발표, 얼마나 감동을 받아야 되는걸까..",
+          "url": "https://blog.naver.com/gjwlh/224463195079?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-03T01:27:05Z"
         }
       ],
       "score": 36
@@ -827,6 +830,214 @@
         }
       ],
       "score": 18
+    },
+    {
+      "id": "18da59ea0ae64809",
+      "name": "Engineering Blog by Dale Seo",
+      "siteUrl": "https://www.daleseo.com/",
+      "feedUrl": "https://www.daleseo.com/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-11-01T00:00:00Z",
+      "checkedAt": "2026-11-01T23:35:11Z",
+      "recentCount": 61,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Cloudflare Turnstile로 캡차 없이 폼 스팸 봇 막기",
+          "url": "https://daleseo.com/cloudflare-turnstile",
+          "publishedAt": "2026-11-01T00:00:00Z"
+        },
+        {
+          "title": "OpenAI Decisions API: 확률과 선택지로 답하는 판단 전용 API",
+          "url": "https://daleseo.com/openai-decisions-api",
+          "publishedAt": "2026-10-24T00:00:00Z"
+        },
+        {
+          "title": "MCP Extensions: 코어 명세 밖에서 기능을 키우는 법",
+          "url": "https://daleseo.com/mcp-extensions",
+          "publishedAt": "2026-10-23T00:00:00Z"
+        }
+      ],
+      "score": 52
+    },
+    {
+      "id": "95afe8ad30caaf0b",
+      "name": "kdy1: The way I think",
+      "siteUrl": "https://kdy1.dev/",
+      "feedUrl": "https://kdy1.dev/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-10-23T15:05:50Z",
+      "checkedAt": "2026-11-01T23:35:11Z",
+      "recentCount": 15,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "작업 일지: 성능 관련 기여",
+          "url": "https://kdy1.dev/2026-10-24-performance-contribution-ko",
+          "publishedAt": "2026-10-23T15:05:50Z"
+        },
+        {
+          "title": "Task Log: Performance Contribution",
+          "url": "https://kdy1.dev/2026-10-24-performance-contribution",
+          "publishedAt": "2026-10-23T15:05:21Z"
+        },
+        {
+          "title": "코덱스 구독의 토큰 속도",
+          "url": "https://kdy1.dev/2026-10-14-codex-subscription-token-rate-ko",
+          "publishedAt": "2026-10-14T01:28:32Z"
+        }
+      ],
+      "score": 50
+    },
+    {
+      "id": "05374a6c91537559",
+      "name": "시간이 증명한 경험, 당신의 성장을 돕는 기록",
+      "siteUrl": "https://blog.naver.com/tipsware",
+      "feedUrl": "https://rss.blog.naver.com/tipsware.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-11-01T12:43:56Z",
+      "checkedAt": "2026-11-01T23:35:11Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "[C++] for 반복문에 사용된 i++ 또는 ++i 표현에 대한 진실과 기술적 배경",
+          "url": "https://blog.naver.com/tipsware/224461489419?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-01T12:43:56Z"
+        },
+        {
+          "title": "[오프라인 모임] AI 시대를 슬기롭게 살아갈 프로그래머들 모이세요!",
+          "url": "https://blog.naver.com/tipsware/224460555614?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-31T14:25:43Z"
+        },
+        {
+          "title": "[LxMFC/실습과제] 지정된 영역에 점 2500개 출력하기 - Step 2",
+          "url": "https://blog.naver.com/tipsware/224459110600?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-30T06:23:28Z"
+        }
+      ],
+      "score": 48
+    },
+    {
+      "id": "ad4af311ab736295",
+      "name": "ZeroCho Blog",
+      "siteUrl": "https://www.zerocho.com/",
+      "feedUrl": "https://www.zerocho.com/api/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "보안"
+      ],
+      "latestAt": "2026-10-09T07:29:47Z",
+      "checkedAt": "2026-11-01T23:35:11Z",
+      "recentCount": 19,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "AI 비용 거의 90% 절약? 모델 선택부터 AI에게 맡겨봤어요 - OpenAI Decisions API로 작업에 맞는 모델과 effort를 고르는 흐름을 직접 시험해 봤어요. 여섯 가지 작업의 선택 결과, 약 90%에 가까운 비용 절감 예시, Codex에 연결하면서 겪은 불편함까지 정리했어요.",
+          "url": "https://www.zerocho.com/category/AI뉴스/post/6ac897ebdf5183dbffd287ba",
+          "publishedAt": "2026-10-09T07:29:47Z"
+        },
+        {
+          "title": "코딩만 잘하면 데이터과학자? 빠뜨리기 쉬운 ‘위험 구역’ - 데이터과학은 모델을 만드는 일보다 넓어요. 질문을 세우고 데이터의 성격을 파악한 뒤, 분석 결과의 의미와 한계까지 설명하는 과정이에요. 정형·비정형 데이터, 측정척도, 분류와 회귀를 예시로 풀어봤어요.",
+          "url": "https://www.zerocho.com/category/IT뉴스/post/6ac20ab4df5183dbffb02c8e",
+          "publishedAt": "2026-10-04T08:13:40Z"
+        },
+        {
+          "title": "GPT 사용량 반토막, 500달러 요금제와 dots가 만회할까요? - Pro 200의 사용량 축소와 Pro 500 출시, dots와 Space를 살펴봤어요. 한도 변경 시점과 크레딧 용도, Ultrafast의 차감 기준까지 추가 조사 결과를 반영했어요.",
+          "url": "https://www.zerocho.com/category/AI뉴스/post/6ac13efddf5183dbffabb635",
+          "publishedAt": "2026-10-03T17:44:29Z"
+        }
+      ],
+      "score": 47
+    },
+    {
+      "id": "f60291dcf9b92012",
+      "name": "DEV Community: Jhin Lee",
+      "siteUrl": "https://dev.to/leehack",
+      "feedUrl": "https://dev.to/feed/leehack",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-10-20T13:00:00Z",
+      "checkedAt": "2026-11-01T23:35:11Z",
+      "recentCount": 8,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Building a cross-platform Flutter festival assistant with llamadart",
+          "url": "https://dev.to/gde/building-a-cross-platform-flutter-festival-assistant-with-llamadart-2dml",
+          "publishedAt": "2026-10-20T13:00:00Z"
+        },
+        {
+          "title": "Stress-Testing Gemini 4 Argon: Building a 3D Flutter Kart Game in 15 Prompts with Zero Assets",
+          "url": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha",
+          "publishedAt": "2026-10-19T13:00:00Z"
+        },
+        {
+          "title": "Local image generation with llamadart for the Llama Village storybook",
+          "url": "https://dev.to/gde/local-image-generation-with-llamadart-for-the-llama-village-storybook-p28",
+          "publishedAt": "2026-10-15T13:56:36Z"
+        }
+      ],
+      "score": 39
+    },
+    {
+      "id": "9c694453aa930c77",
+      "name": "neozest : neo+zest",
+      "siteUrl": "https://neozest21c.tistory.com/",
+      "feedUrl": "https://neozest21c.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-11-01T15:10:26Z",
+      "checkedAt": "2026-11-01T23:35:11Z",
+      "recentCount": 5,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "와인버그에게 배우는 차곡차곡 글쓰기/인사이트",
+          "url": "https://neozest21c.tistory.com/entry/BookTheFieldstoneMethodGeraldWeinberg",
+          "publishedAt": "2026-11-01T15:10:26Z"
+        },
+        {
+          "title": "10월달 잡념 회고?",
+          "url": "https://neozest21c.tistory.com/entry/2026OctoberMisc",
+          "publishedAt": "2026-10-25T05:35:39Z"
+        },
+        {
+          "title": "개발에 하네스를 적용한 경험을 공유하는 <AI루프를 설계하라>",
+          "url": "https://neozest21c.tistory.com/entry/BOOKDesignAILoopToImproveDevelopmentQualityFromSpeedHanbitMedia",
+          "publishedAt": "2026-10-25T05:05:14Z"
+        }
+      ],
+      "score": 24
     }
   ]
 }
