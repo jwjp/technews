@@ -1,7 +1,184 @@
 {
-  "generatedAt": "2026-11-08T23:35:31Z",
-  "week": "2026-W46",
+  "generatedAt": "2026-11-15T23:35:13Z",
+  "week": "2026-W47",
   "candidates": [
+    {
+      "id": "4a918624a144e5e3",
+      "name": "컴퓨터 vs 책",
+      "siteUrl": "https://jhrogue.blogspot.kr/",
+      "feedUrl": "https://feeds.feedburner.com/blogspot/ASpE",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "보안",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-11-14T09:07:50Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 22,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "[B급 프로그래머] 11월 2주 소식(개발 + 인공지능 통합)",
+          "url": "http://jhrogue.blogspot.com/2026/11/b-11-2.html",
+          "publishedAt": "2026-11-14T09:07:50Z"
+        },
+        {
+          "title": "[B급 프로그래머] 11월 1주 소식(개발 + 인공지능 통합)",
+          "url": "http://jhrogue.blogspot.com/2026/11/b-11-1.html",
+          "publishedAt": "2026-11-07T12:43:21Z"
+        },
+        {
+          "title": "[B급 프로그래머] 10월 5주 소식(개발 + 인공지능 통합)",
+          "url": "http://jhrogue.blogspot.com/2026/10/b-10-5.html",
+          "publishedAt": "2026-10-31T11:31:34Z"
+        }
+      ],
+      "score": 71
+    },
+    {
+      "id": "05bef75803824775",
+      "name": "사랑나무아빠의 행복한 세상",
+      "siteUrl": "https://blog.naver.com/hupers",
+      "feedUrl": "https://rss.blog.naver.com/hupers.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-11-15T15:17:59Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 22,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "서평 / 젠슨황의 소름돋는 미래예측 50가지",
+          "url": "https://blog.naver.com/hupers/224478413057?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-15T15:17:59Z"
+        },
+        {
+          "title": "로컬 AI 노트북 추천 – 맥북 에어 M5부터 맥스튜디오 M5 Ultra까지, 로컬 LLM용 기기 5종 비교 (2026)",
+          "url": "https://blog.naver.com/hupers/224475062224?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-12T17:02:26Z"
+        },
+        {
+          "title": "AI 에이전트용 검색 API 비교 순위 링크 본문 발췌 리서치 중 무엇을 고를까 (현업 개발자의 선택 기준)",
+          "url": "https://blog.naver.com/hupers/224467736906?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-06T13:49:27Z"
+        }
+      ],
+      "score": 60
+    },
+    {
+      "id": "1533e8f6e86803a4",
+      "name": "Daddy Makers",
+      "siteUrl": "https://daddynkidsmakers.blogspot.kr/",
+      "feedUrl": "https://daddynkidsmakers.blogspot.com/feeds/posts/default",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술"
+      ],
+      "latestAt": "2026-11-14T09:15:49Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 6,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "헤르메스 로컬 바이브 코딩 설치 최적화 방법 - 최신 오픈 모델 기반 클로드 코드와 실측 비교",
+          "url": "https://daddynkidsmakers.blogspot.com/2026/11/blog-post.html",
+          "publishedAt": "2026-11-14T09:15:49Z"
+        },
+        {
+          "title": "REA 역공학 도구 기반 DWG 캐드파일 분석, 캐드 뷰어 및 모델러 도구 Web App 개발기",
+          "url": "https://daddynkidsmakers.blogspot.com/2026/10/rea-dwg-rust-cad.html",
+          "publishedAt": "2026-10-17T16:51:25Z"
+        },
+        {
+          "title": "GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과",
+          "url": "https://daddynkidsmakers.blogspot.com/2026/10/gpt6-codex.html",
+          "publishedAt": "2026-10-05T06:17:07Z"
+        }
+      ],
+      "score": 37
+    },
+    {
+      "id": "1e5d7179c6b6a590",
+      "name": "홍창수",
+      "siteUrl": "https://brunch.co.kr/@gauss92tgrd",
+      "feedUrl": "https://brunch.co.kr/rss/@@5jl5",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-10-25T04:51:02Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "클로드, S&P 500을 이겨줘 - 5만 달러 AI 자율 투자 실험이 던진 질문",
+          "url": "https://brunch.co.kr/@@5jl5/195",
+          "publishedAt": "2026-10-25T04:51:02Z"
+        },
+        {
+          "title": "악재는 반영됐다, 이제 시장은 실적을 본다 - 악재 이후, 실적의 시간",
+          "url": "https://brunch.co.kr/@@5jl5/194",
+          "publishedAt": "2026-09-22T12:10:30Z"
+        },
+        {
+          "title": "에이전틱 트레이딩 시대가 온다 - 에이전틱 트레이딩(Agentic Trading)의 현황과 미래",
+          "url": "https://brunch.co.kr/@@5jl5/193",
+          "publishedAt": "2026-09-14T11:02:00Z"
+        }
+      ],
+      "score": 37
+    },
+    {
+      "id": "3cc1c8d625bacc80",
+      "name": "Just quit your job",
+      "siteUrl": "https://www.miconblog.com/",
+      "feedUrl": "https://www.miconblog.com/feed.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "개발"
+      ],
+      "latestAt": "2026-10-20T03:43:17Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "이번엔 진짜 원격 근무다!",
+          "url": "https://www.miconblog.com/blog/develop-lyle-remote",
+          "publishedAt": "2026-10-20T03:43:17Z"
+        },
+        {
+          "title": "이왕 하는거 제대로 해보자.",
+          "url": "https://www.miconblog.com/blog/이왕-하는거-제대로-해보자",
+          "publishedAt": "2026-10-16T03:51:23Z"
+        },
+        {
+          "title": "절로 마음을 비우다.",
+          "url": "https://www.miconblog.com/blog/절로-마음을-비우다",
+          "publishedAt": "2026-10-12T16:02:33Z"
+        }
+      ],
+      "score": 28
+    },
     {
       "id": "0e70cecb456f8713",
       "name": "AI 세상에서 살아남기",
@@ -38,178 +215,6 @@
       "score": 60
     },
     {
-      "id": "155dca37ec0e8e58",
-      "name": "HJH",
-      "siteUrl": "https://brunch.co.kr/@hajunho",
-      "feedUrl": "https://brunch.co.kr/rss/@@R17",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI"
-      ],
-      "latestAt": "2026-11-07T21:14:21Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 20,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "다시, 주말",
-          "url": "https://brunch.co.kr/@@R17/1857",
-          "publishedAt": "2026-11-07T21:14:21Z"
-        },
-        {
-          "title": "소소한 모델 출시",
-          "url": "https://brunch.co.kr/@@R17/1854",
-          "publishedAt": "2026-11-07T00:24:43Z"
-        },
-        {
-          "title": "KT 토큰팩토리 가격 비교",
-          "url": "https://brunch.co.kr/@@R17/1852",
-          "publishedAt": "2026-11-06T02:35:21Z"
-        }
-      ],
-      "score": 35
-    },
-    {
-      "id": "a88dd20b89d7ee89",
-      "name": "개발하는 기획자. 기획하는 개발자.",
-      "siteUrl": "https://blog.naver.com/gi_balja",
-      "feedUrl": "https://rss.blog.naver.com/gi_balja.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "기술"
-      ],
-      "latestAt": "2026-10-30T23:00:00Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 50,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "8. 연습 문제와 오류 해결",
-          "url": "https://blog.naver.com/gi_balja/224453087654?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-30T23:00:00Z"
-        },
-        {
-          "title": "7. 읽기 모델과 후속 처리 확장하기",
-          "url": "https://blog.naver.com/gi_balja/224452994370?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-29T23:00:00Z"
-        },
-        {
-          "title": "6. 격리와 동시성을 검증하기",
-          "url": "https://blog.naver.com/gi_balja/224452965778?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-10-28T23:00:00Z"
-        }
-      ],
-      "score": 34
-    },
-    {
-      "id": "42450206889a76c9",
-      "name": "글 on Devlog in the SKY",
-      "siteUrl": "https://skyoo2003.github.io/",
-      "feedUrl": "https://skyoo2003.github.io/ko/posts/index.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "기술"
-      ],
-      "latestAt": "2026-10-04T15:00:00Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 15,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "DynamoDB 표현식을 직접 해석하기: 토큰화부터 조건부 쓰기까지",
-          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/devcloud-dynamodb-expressions",
-          "publishedAt": "2026-10-04T15:00:00Z"
-        },
-        {
-          "title": "GET이 빠른데 서버는 느리다: KVS의 fsync와 Raft 대기열 측정",
-          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/kvs-fsync-raft-performance",
-          "publishedAt": "2026-10-04T15:00:00Z"
-        },
-        {
-          "title": "SQS는 메시지 배열보다 복잡하다: 가시성 타임아웃과 DLQ 재처리",
-          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/devcloud-sqs-message-lifecycle",
-          "publishedAt": "2026-10-04T15:00:00Z"
-        }
-      ],
-      "score": 34
-    },
-    {
-      "id": "6d3875a8638f9107",
-      "name": "Never test",
-      "siteUrl": "https://lovemewithoutall.github.io/",
-      "feedUrl": "https://lovemewithoutall.github.io/feed.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "개발"
-      ],
-      "latestAt": "2026-10-14T15:49:30Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 10,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "In Search of the Namhansanseong Army Prison",
-          "url": "https://lovemewithoutall.github.io/history/namhansanseong-army-prison-eng",
-          "publishedAt": "2026-10-14T15:49:30Z"
-        },
-        {
-          "title": "남한산성 육군교도소를 찾아서",
-          "url": "https://lovemewithoutall.github.io/history/namhansanseong-army-prison",
-          "publishedAt": "2026-10-14T15:49:30Z"
-        },
-        {
-          "title": "메이지 유신 초기의 조선 침략론",
-          "url": "https://lovemewithoutall.github.io/history/meiji-joseon-discussion",
-          "publishedAt": "2026-08-28T15:49:30Z"
-        }
-      ],
-      "score": 33
-    },
-    {
-      "id": "9c04f636b9f6884d",
-      "name": "Life Log",
-      "siteUrl": "https://ravenkim97.tistory.com/",
-      "feedUrl": "https://ravenkim97.tistory.com/rss",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI",
-        "개발",
-        "기술"
-      ],
-      "latestAt": "2026-10-23T17:16:54Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 7,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "한잔 기록이파트너 성장 프로그램에 선정됐어요! - 토스인앱",
-          "url": "https://ravenkim97.tistory.com/622",
-          "publishedAt": "2026-10-23T17:16:54Z"
-        },
-        {
-          "title": "국방 ai 경진대회 예선",
-          "url": "https://ravenkim97.tistory.com/621",
-          "publishedAt": "2026-10-19T04:58:35Z"
-        },
-        {
-          "title": "36만명이 춤춘거 본 썰",
-          "url": "https://ravenkim97.tistory.com/620",
-          "publishedAt": "2026-10-13T12:49:54Z"
-        }
-      ],
-      "score": 28
-    },
-    {
       "id": "a74dd0667343bdce",
       "name": "비즈워치 · 경제",
       "siteUrl": "https://news.bizwatch.co.kr/category/finance",
@@ -217,32 +222,31 @@
       "section": "economy",
       "kind": "news",
       "topics": [
-        "금융",
-        "주식"
+        "금융"
       ],
-      "latestAt": "2026-11-08T23:00:03Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 53,
+      "latestAt": "2026-11-15T23:20:03Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 55,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "IT인력에 민생 특사경까지…내년 금감원 더 힘 실리나",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/06/0003",
-          "publishedAt": "2026-11-08T23:00:03Z"
+          "title": "보험 본업은 선방했는데…투자손익이 실적 갈랐다",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/13/0042",
+          "publishedAt": "2026-11-15T23:20:03Z"
         },
         {
-          "title": "금리 인상 저울질하는 한은…코스피 폭락 변수되나",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/06/0021",
-          "publishedAt": "2026-11-08T03:30:03Z"
+          "title": "금융지주 3연임 문턱 높였지만…ISS 영향력·관치 논란은 숙제",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/12/0048",
+          "publishedAt": "2026-11-15T23:00:02Z"
         },
         {
-          "title": "[보푸라기]20대 청년, 차 보험료 130만원에서 70만원으로?",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/06/0020",
-          "publishedAt": "2026-11-07T03:00:03Z"
+          "title": "가계대출 다시 증가…이달 기준금리 인상 힘 받나",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/13/0028",
+          "publishedAt": "2026-11-15T03:00:02Z"
         }
       ],
-      "score": 64
+      "score": 56
     },
     {
       "id": "edb8cbee16ae8bd4",
@@ -253,102 +257,32 @@
       "kind": "news",
       "topics": [
         "금융",
-        "정책",
+        "부동산",
         "주식"
       ],
-      "latestAt": "2026-11-07T23:00:02Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 96,
+      "latestAt": "2026-11-15T22:20:02Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 98,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "[공모주달력]올해 두번째 코스피 입성 '에스에프씨' 수요예측",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/11/06/0034",
-          "publishedAt": "2026-11-07T23:00:02Z"
+          "title": "거래 줄고 채권 손실에 과징금까지…증권사 실적 '삼중고'",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/13/0025",
+          "publishedAt": "2026-11-15T22:20:02Z"
         },
         {
-          "title": "금융당국 해킹 대책 발표한 날…최대 증권사 미래에셋 뚫렸다",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/11/07/0002",
-          "publishedAt": "2026-11-07T03:45:02Z"
+          "title": "[공모주달력]청약자금 19조원 몰린 4곳…상장 첫날도 웃을까",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/13/0024",
+          "publishedAt": "2026-11-14T23:00:02Z"
         },
         {
-          "title": "[월간 ETF워치]개미는 상승 베팅했는데…수익률 상위권은 '인버스'",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/11/06/0015",
-          "publishedAt": "2026-11-07T00:00:02Z"
-        }
-      ],
-      "score": 63
-    },
-    {
-      "id": "2fd206ab3e8ea9b0",
-      "name": "비즈워치 · 부동산",
-      "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
-      "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
-      "section": "economy",
-      "kind": "news",
-      "topics": [
-        "부동산"
-      ],
-      "latestAt": "2026-11-08T21:36:02Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 57,
-      "overlapCount": 0,
-      "foundVia": "비즈워치 RSS 안내",
-      "samples": [
-        {
-          "title": "[인사이드 스토리]건설 3대장, 호주로 향하는 이유",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/06/0026",
-          "publishedAt": "2026-11-08T21:36:02Z"
-        },
-        {
-          "title": "[단독]국토부, '원격제어 타워크레인' 법제화 추진",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/06/0052",
-          "publishedAt": "2026-11-08T21:22:03Z"
-        },
-        {
-          "title": "LH \"장위9, 공공재개발로 세대당 5천만원 덜 든다\"",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/08/0002",
-          "publishedAt": "2026-11-08T12:11:02Z"
+          "title": "[ETF워치]같은 엔비디아 ETF인데…누군 잃고 누군 벌었다",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/13/0047",
+          "publishedAt": "2026-11-14T00:00:03Z"
         }
       ],
       "score": 56
-    },
-    {
-      "id": "99a6f09bb9878069",
-      "name": "청년개미의 경제 이야기",
-      "siteUrl": "https://blog.naver.com/ya_nt",
-      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
-      "section": "economy",
-      "kind": "blog",
-      "topics": [
-        "금융",
-        "정책",
-        "주식"
-      ],
-      "latestAt": "2026-11-08T22:50:00Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
-      "recentCount": 50,
-      "overlapCount": 0,
-      "foundVia": "경제 블로그 후보",
-      "samples": [
-        {
-          "title": "1·2세대 실손보험 5세대 전환 할인, 3년간 50% 받아도 손해일 수 있는 이유",
-          "url": "https://blog.naver.com/ya_nt/224469833403?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-08T22:50:00Z"
-        },
-        {
-          "title": "주식 양도세 환급금, 250만원 공제 빠뜨렸다면? 자동 환급 대상과 조회법",
-          "url": "https://blog.naver.com/ya_nt/224469634523?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-08T21:00:00Z"
-        },
-        {
-          "title": "삼성 코리아 그랜드 페스티벌 2026, 할인 대상부터 실제 구매 혜택까지",
-          "url": "https://blog.naver.com/ya_nt/224469587667?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-08T14:00:00Z"
-        }
-      ],
-      "score": 40
     },
     {
       "id": "f4e53755c27db3d7",
@@ -358,28 +292,99 @@
       "section": "economy",
       "kind": "blog",
       "topics": [
+        "부동산",
+        "정책",
         "주식"
       ],
-      "latestAt": "2026-11-08T14:33:29Z",
-      "checkedAt": "2026-11-08T23:35:31Z",
+      "latestAt": "2026-11-15T10:50:30Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
       "recentCount": 50,
       "overlapCount": 0,
       "foundVia": "경제 블로그 후보",
       "samples": [
         {
-          "title": "\"고생했다\" 우리 열심히 살았어.",
-          "url": "https://blog.naver.com/gjwlh/224469627172?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-08T14:33:29Z"
+          "title": "바닥에 1억 투자했으면 지금 \"206억, 5월엔 526억\"",
+          "url": "https://blog.naver.com/gjwlh/224478139107?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-15T10:50:30Z"
         },
         {
-          "title": "AMD 실적발표는 좋았는데, 미국 상무부 이슈가 발생했네요.",
-          "url": "https://blog.naver.com/gjwlh/224464589180?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-04T03:55:17Z"
+          "title": "ISA 계좌 2026 서민형 \"1억 넣으면 세금 190만원 차이\"",
+          "url": "https://blog.naver.com/gjwlh/224477597899?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-15T00:22:12Z"
         },
         {
-          "title": "팔란티어 실적발표, 얼마나 감동을 받아야 되는걸까..",
-          "url": "https://blog.naver.com/gjwlh/224463195079?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-03T01:27:05Z"
+          "title": "\"20만원 지킬까\" 삼성전자 주가 전망 월요일",
+          "url": "https://blog.naver.com/gjwlh/224477572001?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-14T23:42:33Z"
+        }
+      ],
+      "score": 56
+    },
+    {
+      "id": "2fd206ab3e8ea9b0",
+      "name": "비즈워치 · 부동산",
+      "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "부동산",
+        "정책"
+      ],
+      "latestAt": "2026-11-15T23:08:02Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 65,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "\"새 철길 끌어오자\"…너도? 나도!",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/13/0049",
+          "publishedAt": "2026-11-15T23:08:02Z"
+        },
+        {
+          "title": "LH, 도심복합 지연 진짜 원인?…\"서울시 사전기획협의\"",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/15/0002",
+          "publishedAt": "2026-11-15T09:17:02Z"
+        },
+        {
+          "title": "내년 수도권 집값, 올해보단 덜 오른다",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/13/0053",
+          "publishedAt": "2026-11-15T08:00:03Z"
+        }
+      ],
+      "score": 36
+    },
+    {
+      "id": "99a6f09bb9878069",
+      "name": "청년개미의 경제 이야기",
+      "siteUrl": "https://blog.naver.com/ya_nt",
+      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "주식"
+      ],
+      "latestAt": "2026-11-15T21:30:00Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "월급방위대 TF 직장인 생활비 지원, 지금 받을 수 있는 혜택과 2027년 달라지는 돈",
+          "url": "https://blog.naver.com/ya_nt/224478416069?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-15T21:30:00Z"
+        },
+        {
+          "title": "바로팜 주가 급락 후 매수해도 될까? 공모주 배정자와 신규 투자자의 결정적 차이",
+          "url": "https://blog.naver.com/ya_nt/224474496555?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-12T22:00:00Z"
+        },
+        {
+          "title": "희망저축계좌 2026 신청조건과 지원금, 11월 모집 중단 지역까지 확인",
+          "url": "https://blog.naver.com/ya_nt/224474496206?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-12T21:00:00Z"
         }
       ],
       "score": 36
@@ -1038,6 +1043,178 @@
         }
       ],
       "score": 24
+    },
+    {
+      "id": "155dca37ec0e8e58",
+      "name": "HJH",
+      "siteUrl": "https://brunch.co.kr/@hajunho",
+      "feedUrl": "https://brunch.co.kr/rss/@@R17",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-11-07T21:14:21Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 20,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "다시, 주말",
+          "url": "https://brunch.co.kr/@@R17/1857",
+          "publishedAt": "2026-11-07T21:14:21Z"
+        },
+        {
+          "title": "소소한 모델 출시",
+          "url": "https://brunch.co.kr/@@R17/1854",
+          "publishedAt": "2026-11-07T00:24:43Z"
+        },
+        {
+          "title": "KT 토큰팩토리 가격 비교",
+          "url": "https://brunch.co.kr/@@R17/1852",
+          "publishedAt": "2026-11-06T02:35:21Z"
+        }
+      ],
+      "score": 35
+    },
+    {
+      "id": "a88dd20b89d7ee89",
+      "name": "개발하는 기획자. 기획하는 개발자.",
+      "siteUrl": "https://blog.naver.com/gi_balja",
+      "feedUrl": "https://rss.blog.naver.com/gi_balja.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "기술"
+      ],
+      "latestAt": "2026-10-30T23:00:00Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "8. 연습 문제와 오류 해결",
+          "url": "https://blog.naver.com/gi_balja/224453087654?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-30T23:00:00Z"
+        },
+        {
+          "title": "7. 읽기 모델과 후속 처리 확장하기",
+          "url": "https://blog.naver.com/gi_balja/224452994370?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-29T23:00:00Z"
+        },
+        {
+          "title": "6. 격리와 동시성을 검증하기",
+          "url": "https://blog.naver.com/gi_balja/224452965778?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-10-28T23:00:00Z"
+        }
+      ],
+      "score": 34
+    },
+    {
+      "id": "42450206889a76c9",
+      "name": "글 on Devlog in the SKY",
+      "siteUrl": "https://skyoo2003.github.io/",
+      "feedUrl": "https://skyoo2003.github.io/ko/posts/index.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "기술"
+      ],
+      "latestAt": "2026-10-04T15:00:00Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 15,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "DynamoDB 표현식을 직접 해석하기: 토큰화부터 조건부 쓰기까지",
+          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/devcloud-dynamodb-expressions",
+          "publishedAt": "2026-10-04T15:00:00Z"
+        },
+        {
+          "title": "GET이 빠른데 서버는 느리다: KVS의 fsync와 Raft 대기열 측정",
+          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/kvs-fsync-raft-performance",
+          "publishedAt": "2026-10-04T15:00:00Z"
+        },
+        {
+          "title": "SQS는 메시지 배열보다 복잡하다: 가시성 타임아웃과 DLQ 재처리",
+          "url": "https://skyoo2003.github.io/ko/posts/2026/10/05/devcloud-sqs-message-lifecycle",
+          "publishedAt": "2026-10-04T15:00:00Z"
+        }
+      ],
+      "score": 34
+    },
+    {
+      "id": "6d3875a8638f9107",
+      "name": "Never test",
+      "siteUrl": "https://lovemewithoutall.github.io/",
+      "feedUrl": "https://lovemewithoutall.github.io/feed.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "개발"
+      ],
+      "latestAt": "2026-10-14T15:49:30Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "In Search of the Namhansanseong Army Prison",
+          "url": "https://lovemewithoutall.github.io/history/namhansanseong-army-prison-eng",
+          "publishedAt": "2026-10-14T15:49:30Z"
+        },
+        {
+          "title": "남한산성 육군교도소를 찾아서",
+          "url": "https://lovemewithoutall.github.io/history/namhansanseong-army-prison",
+          "publishedAt": "2026-10-14T15:49:30Z"
+        },
+        {
+          "title": "메이지 유신 초기의 조선 침략론",
+          "url": "https://lovemewithoutall.github.io/history/meiji-joseon-discussion",
+          "publishedAt": "2026-08-28T15:49:30Z"
+        }
+      ],
+      "score": 33
+    },
+    {
+      "id": "9c04f636b9f6884d",
+      "name": "Life Log",
+      "siteUrl": "https://ravenkim97.tistory.com/",
+      "feedUrl": "https://ravenkim97.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술"
+      ],
+      "latestAt": "2026-10-23T17:16:54Z",
+      "checkedAt": "2026-11-08T23:35:31Z",
+      "recentCount": 7,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "한잔 기록이파트너 성장 프로그램에 선정됐어요! - 토스인앱",
+          "url": "https://ravenkim97.tistory.com/622",
+          "publishedAt": "2026-10-23T17:16:54Z"
+        },
+        {
+          "title": "국방 ai 경진대회 예선",
+          "url": "https://ravenkim97.tistory.com/621",
+          "publishedAt": "2026-10-19T04:58:35Z"
+        },
+        {
+          "title": "36만명이 춤춘거 본 썰",
+          "url": "https://ravenkim97.tistory.com/620",
+          "publishedAt": "2026-10-13T12:49:54Z"
+        }
+      ],
+      "score": 28
     }
   ]
 }

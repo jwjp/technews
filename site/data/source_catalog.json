@@ -9,10 +9,26 @@
       "kind": "blog"
     },
     {
+      "id": "05bef75803824775",
+      "name": "사랑나무아빠의 행복한 세상",
+      "siteUrl": "https://blog.naver.com/hupers",
+      "feedUrl": "https://rss.blog.naver.com/hupers.xml",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
       "id": "0e70cecb456f8713",
       "name": "AI 세상에서 살아남기",
       "siteUrl": "https://wanglan.tistory.com/",
       "feedUrl": "https://wanglan.tistory.com/rss",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "1533e8f6e86803a4",
+      "name": "Daddy Makers",
+      "siteUrl": "https://daddynkidsmakers.blogspot.kr/",
+      "feedUrl": "https://daddynkidsmakers.blogspot.com/feeds/posts/default",
       "section": "tech",
       "kind": "blog"
     },
@@ -33,12 +49,28 @@
       "kind": "blog"
     },
     {
+      "id": "1e5d7179c6b6a590",
+      "name": "홍창수",
+      "siteUrl": "https://brunch.co.kr/@gauss92tgrd",
+      "feedUrl": "https://brunch.co.kr/rss/@@5jl5",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
       "id": "2fd206ab3e8ea9b0",
       "name": "비즈워치 · 부동산",
       "siteUrl": "https://news.bizwatch.co.kr/category/real_estate",
       "feedUrl": "https://news.bizwatch.co.kr/rss/service/real_estate",
       "section": "economy",
       "kind": "news"
+    },
+    {
+      "id": "3cc1c8d625bacc80",
+      "name": "Just quit your job",
+      "siteUrl": "https://www.miconblog.com/",
+      "feedUrl": "https://www.miconblog.com/feed.xml",
+      "section": "tech",
+      "kind": "blog"
     },
     {
       "id": "3e39567f43f5c71b",
@@ -53,6 +85,14 @@
       "name": "글 on Devlog in the SKY",
       "siteUrl": "https://skyoo2003.github.io/",
       "feedUrl": "https://skyoo2003.github.io/ko/posts/index.xml",
+      "section": "tech",
+      "kind": "blog"
+    },
+    {
+      "id": "4a918624a144e5e3",
+      "name": "컴퓨터 vs 책",
+      "siteUrl": "https://jhrogue.blogspot.kr/",
+      "feedUrl": "https://feeds.feedburner.com/blogspot/ASpE",
       "section": "tech",
       "kind": "blog"
     },
