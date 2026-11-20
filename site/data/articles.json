@@ -1,107 +1,107 @@
 {
-  "generatedAt": "2026-11-20T15:22:13Z",
+  "generatedAt": "2026-11-20T18:24:45Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
       "ok": true,
       "count": 10,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "velopers",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "indieblog",
       "ok": true,
       "count": 40,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "awesome",
       "ok": true,
-      "count": 88,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "count": 89,
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "geeknews",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "hnko",
       "ok": true,
       "count": 13,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "etnews-it",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "etnews-sw",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "etnews-security",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "etnews-ai",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "etnews-mobility",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "zdnet",
       "ok": true,
       "count": 11,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "aitimes",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "itdonga",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "itworld",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "techm",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "dailysecu",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "aimatters",
@@ -114,94 +114,93 @@
       "id": "motorgraph",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "autoherald",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "irobotnews",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "mer-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "babybear-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "richnote-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "jackpasi-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "hankyung-finance",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-20T12:26:59Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 49,
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "hankyung-realestate",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-20T12:26:59Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "hankyung-economy",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-20T12:26:59Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "mk-stock",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "mk-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "mk-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "etoday-market",
-      "ok": true,
-      "count": 1,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "ok": false,
+      "count": 0,
+      "lastSuccessAt": "2026-11-20T15:21:21Z",
+      "error": "제공처 연결 또는 RSS 형식 확인 필요"
     },
     {
       "id": "etoday-realestate",
-      "ok": true,
-      "count": 1,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "ok": false,
+      "count": 0,
+      "lastSuccessAt": "2026-11-20T15:21:21Z",
+      "error": "제공처 연결 또는 RSS 형식 확인 필요"
     },
     {
       "id": "etoday-economy",
@@ -214,93 +213,93 @@
       "id": "fnnews-stock",
       "ok": true,
       "count": 41,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "fnnews-realestate",
       "ok": true,
       "count": 29,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "fnnews-economy",
       "ok": true,
       "count": 14,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "newsis-finance",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "newsis-economy",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "ajunews-investment",
       "ok": true,
       "count": 76,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "ajunews-economy",
       "ok": true,
       "count": 127,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "bok-market",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     },
     {
       "id": "mss-press",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-20T15:21:21Z"
+      "lastSuccessAt": "2026-11-20T18:24:04Z"
     }
   ],
   "retentionStats": [
     {
       "id": "techblogposts",
-      "kept": 55,
-      "excluded": 0,
-      "oldestAt": "2026-11-10T01:02:42Z"
+      "kept": 54,
+      "excluded": 1,
+      "oldestAt": "2026-11-10T02:15:13Z"
     },
     {
       "id": "velopers",
-      "kept": 111,
-      "excluded": 0,
-      "oldestAt": "2026-11-10T01:02:42Z"
+      "kept": 113,
+      "excluded": 2,
+      "oldestAt": "2026-11-10T02:03:26Z"
     },
     {
       "id": "indieblog",
-      "kept": 145,
-      "excluded": 12,
-      "oldestAt": "2026-11-10T01:02:42Z"
+      "kept": 143,
+      "excluded": 14,
+      "oldestAt": "2026-11-10T02:15:13Z"
     },
     {
       "id": "awesome",
-      "kept": 107,
-      "excluded": 1,
-      "oldestAt": "2026-11-10T01:00:57Z"
+      "kept": 108,
+      "excluded": 2,
+      "oldestAt": "2026-11-10T06:00:30Z"
     },
     {
       "id": "geeknews",
-      "kept": 326,
-      "excluded": 8,
-      "oldestAt": "2026-11-10T00:22:18Z"
+      "kept": 328,
+      "excluded": 7,
+      "oldestAt": "2026-11-10T01:50:02Z"
     },
     {
       "id": "hnko",
-      "kept": 317,
-      "excluded": 0,
-      "oldestAt": "2026-11-10T00:07:17Z"
+      "kept": 315,
+      "excluded": 2,
+      "oldestAt": "2026-11-10T01:56:48Z"
     },
     {
       "id": "etnews-it",
@@ -335,7 +334,7 @@
     {
       "id": "zdnet",
       "kept": 221,
-      "excluded": 2,
+      "excluded": 0,
       "oldestAt": "2026-11-10T06:45:51Z"
     },
     {
@@ -419,19 +418,19 @@
     {
       "id": "hankyung-finance",
       "kept": 117,
-      "excluded": 0,
+      "excluded": 29,
       "oldestAt": "2026-11-15T02:18:21Z"
     },
     {
       "id": "hankyung-realestate",
       "kept": 98,
-      "excluded": 0,
+      "excluded": 14,
       "oldestAt": "2026-11-15T02:16:01Z"
     },
     {
       "id": "hankyung-economy",
       "kept": 120,
-      "excluded": 0,
+      "excluded": 30,
       "oldestAt": "2026-11-15T08:39:13Z"
     },
     {
@@ -466,7 +465,7 @@
     },
     {
       "id": "etoday-economy",
-      "kept": 107,
+      "kept": 106,
       "excluded": 1,
       "oldestAt": "2026-11-15T02:00:00Z"
     },
@@ -490,8 +489,8 @@
     },
     {
       "id": "newsis-finance",
-      "kept": 116,
-      "excluded": 80,
+      "kept": 117,
+      "excluded": 77,
       "oldestAt": "2026-11-15T02:26:27Z"
     },
     {
@@ -503,7 +502,7 @@
     {
       "id": "ajunews-investment",
       "kept": 114,
-      "excluded": 39,
+      "excluded": 36,
       "oldestAt": "2026-11-15T02:01:12Z"
     },
     {
@@ -3950,39 +3949,39 @@
       "sources": [
         {
           "id": "techblogposts",
-          "kept": 55,
-          "excluded": 0,
-          "oldestAt": "2026-11-10T01:02:42Z"
+          "kept": 54,
+          "excluded": 1,
+          "oldestAt": "2026-11-10T02:15:13Z"
         },
         {
           "id": "velopers",
-          "kept": 111,
-          "excluded": 0,
-          "oldestAt": "2026-11-10T01:02:42Z"
+          "kept": 113,
+          "excluded": 2,
+          "oldestAt": "2026-11-10T02:03:26Z"
         },
         {
           "id": "indieblog",
-          "kept": 145,
-          "excluded": 12,
-          "oldestAt": "2026-11-10T01:02:42Z"
+          "kept": 143,
+          "excluded": 14,
+          "oldestAt": "2026-11-10T02:15:13Z"
         },
         {
           "id": "awesome",
-          "kept": 107,
-          "excluded": 1,
-          "oldestAt": "2026-11-10T01:00:57Z"
+          "kept": 108,
+          "excluded": 2,
+          "oldestAt": "2026-11-10T06:00:30Z"
         },
         {
           "id": "geeknews",
-          "kept": 326,
-          "excluded": 8,
-          "oldestAt": "2026-11-10T00:22:18Z"
+          "kept": 328,
+          "excluded": 7,
+          "oldestAt": "2026-11-10T01:50:02Z"
         },
         {
           "id": "hnko",
-          "kept": 317,
-          "excluded": 0,
-          "oldestAt": "2026-11-10T00:07:17Z"
+          "kept": 315,
+          "excluded": 2,
+          "oldestAt": "2026-11-10T01:56:48Z"
         },
         {
           "id": "etnews-it",
@@ -4017,7 +4016,7 @@
         {
           "id": "zdnet",
           "kept": 221,
-          "excluded": 2,
+          "excluded": 0,
           "oldestAt": "2026-11-10T06:45:51Z"
         },
         {
@@ -4101,19 +4100,19 @@
         {
           "id": "hankyung-finance",
           "kept": 117,
-          "excluded": 0,
+          "excluded": 29,
           "oldestAt": "2026-11-15T02:18:21Z"
         },
         {
           "id": "hankyung-realestate",
           "kept": 98,
-          "excluded": 0,
+          "excluded": 14,
           "oldestAt": "2026-11-15T02:16:01Z"
         },
         {
           "id": "hankyung-economy",
           "kept": 120,
-          "excluded": 0,
+          "excluded": 30,
           "oldestAt": "2026-11-15T08:39:13Z"
         },
         {
@@ -4148,7 +4147,7 @@
         },
         {
           "id": "etoday-economy",
-          "kept": 107,
+          "kept": 106,
           "excluded": 1,
           "oldestAt": "2026-11-15T02:00:00Z"
         },
@@ -4172,8 +4171,8 @@
         },
         {
           "id": "newsis-finance",
-          "kept": 116,
-          "excluded": 80,
+          "kept": 117,
+          "excluded": 77,
           "oldestAt": "2026-11-15T02:26:27Z"
         },
         {
@@ -4185,7 +4184,7 @@
         {
           "id": "ajunews-investment",
           "kept": 114,
-          "excluded": 39,
+          "excluded": 36,
           "oldestAt": "2026-11-15T02:01:12Z"
         },
         {
@@ -4653,19 +4652,156 @@
   ],
   "articles": [
     {
+      "id": "2a0192138e9a61571845",
+      "title": "IEA, 건물 냉방 에너지 수요가 난방을 추월하고 있음",
+      "url": "https://news.hada.io/topic?id=37537",
+      "summary": "IEA의 World Energy Outlook 2026 에 따르면 건물 냉방이 역사상 처음으로 난방을 추월하는 변화가 진행 중임. 다만 이는 제공되는 에너지 서비스 기준이며, 실제 소비하는 연료와 전력은 여전히 난방이 더 많음 소득 증가와 기온 상승 이 냉방 수요를 끌어올림. 중국을 제외한 신흥국과 개발도상국에서는 가구의 85%가 연중 일정 기간 고온에 노출되지만, 에어컨 보유율은 20% 미만임 정부가 발표한 정책을 반영한 주요 시나리오에서 세계 냉방 전력 사용량은 2035년까지 1,700TWh",
+      "publishedAt": "2026-11-20T17:55:44Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "61e429d7ee7d408e789b",
+      "title": "Postgres 19 REPACK: 더 빠른 내장 테이블 비대화 정리",
+      "url": "https://news.hada.io/topic?id=37536",
+      "summary": "Postgres 19는 확장 없이 테이블을 재구축하는 REPACK SQL 명령을 추가함. CONCURRENTLY 를 사용하면 대부분의 작업 동안 읽기와 쓰기를 유지하며, 마지막 파일 교체 시에만 짧게 잠금을 획득함 일반 VACUUM 이 죽은 튜플의 공간을 내부 재사용 가능 상태로 만드는 것과 달리, REPACK은 테이블을 다시 작성해 디스크 공간을 OS에 반환 함 온라인 재구축은 트리거 대신 WAL 기반 논리 디코딩 으로 동시 변경을 반영함. 테스트에서는 VACUUM FULL보다 오래 걸렸지만,",
+      "publishedAt": "2026-11-20T17:52:44Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "4d642b9998c96f09237f",
+      "title": "Synology 보안 권고: DSM과 BeeStation OS의 치명적 취약점",
+      "url": "https://news.hada.io/topic?id=37535",
+      "summary": "Synology가 원격 공격자의 임의 파일 읽기/쓰기와 서비스 거부 공격 을 허용하는 CVE-2026-120382에 대응하는 보안 업데이트를 공개함 취약점은 DSM의 OAuth API 에서 명령어 인자 구분자를 적절히 무력화하지 못하는 문제로, 심각도는 Critical이며 CVSS 3.1 점수는 9.8 임 DSM 7.4와 7.3 은 수정 버전이 제공되며, 각각 7.4.1-90080-2와 7.3.2-86009-6 이상으로 업그레이드해야 함 BeeStation OS 1.5와 DSM 일부 이전 버전 은",
+      "publishedAt": "2026-11-20T17:49:44Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "보안"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "10506a2f991dff0e6ba2",
+      "title": "코드 작성을 멈추면 코드 리뷰 실력도 떨어진다",
+      "url": "https://news.hada.io/topic?id=37534",
+      "summary": "코드를 직접 쓰지 않고 지시와 리뷰만으로 전문성을 유지하거나 높이기는 어려우며, 직접 연습하는 과정 이 개발 역량 유지와 향상에 필요함 쟁점은 AI가 만든 코드의 단기적인 품질 이 아니라, 직접 작업하는 개발자와 그렇지 않은 개발자의 숙련도 변화 에 있음 소프트웨어 엔지니어링이 코드 작성보다 넓은 활동이더라도, 코드의 작동 방식과 좋은 코드의 특성, 변경하기 쉬운 구조를 이해하려면 Claude가 만든 코드를 리뷰하는 것만으로는 부족함 코드에 직접 관여하는 정도는 달라질 수 있지만, 모든 엔지니어에",
+      "publishedAt": "2026-11-20T17:46:44Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "d7f921be9d9138f2d8d1",
+      "title": "다시는 Framework 하드웨어를 사지 않겠다",
+      "url": "https://news.hada.io/topic?id=37533",
+      "summary": "개발자용으로 구매한 약 3,000유로짜리 Framework Laptop 16 에서 개봉 직후 입력 모듈 오류가 발생했고, 3개월 넘게 지원과 부품 교체를 거쳐도 해결되지 않아 구매 기업이 향후 Framework 구매를 중단하기로 함 첫 키보드는 운영체제 설치 전부터 숫자 키패드로 잘못 식별됐으며, 직원이 Framework 자체 도구로 키보드 결함을 좁혀냈지만 지원팀은 먼저 미드플레이트를 교체함 뒤늦게 받은 교체 키보드는 인식됐으나 C 키를 누르면 c 와 Delete 시퀀스가 함께 출력 되는 다른",
+      "publishedAt": "2026-11-20T17:43:43Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "1d954fd73fbf755de8a9",
+      "title": "Jujutsu 입문: Git 사용자에게 익숙하면서도 다른 버전 관리 방식",
+      "url": "https://news.hada.io/topic?id=37531",
+      "summary": "Jujutsu( jj ) 는 Git 저장소에서 Git과 함께 사용할 수 있는 버전 관리 시스템으로, 자동 리베이스와 실행 취소를 조합해 커밋 그래프 중심으로 작업함 작업 사본도 커밋 으로 관리하며 별도 스테이징 영역이 없음. 파일 편집 후 jj 명령으로 자동 스냅샷을 만들고, 커밋 ID가 바뀌어도 논리적 변경의 change ID 는 유지됨 이전 커밋을 수정하면 후손 커밋을 자동 리베이스 하며, 충돌이 발생해도 즉시 해결하도록 강제하지 않음. 충돌 상태를 기록한 채 현재 작업을 이어갈 수 있음 작업",
+      "publishedAt": "2026-11-20T16:40:15Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "1c49bf8ea88b0910aaf3",
+      "title": "Signal은 사용자의 프라이버시 보호에 진지함",
+      "url": "https://news.hada.io/topic?id=37530",
+      "summary": "Signal 이 모바일 운영체제에 내장된 AI 에이전트의 대화 데이터 수집을 막기 위해, iOS 27과 AI 비서의 화면 접근을 감지할 수 있는 Android 환경에 스크린샷 차단 조치를 적용함 운영체제의 화면 읽기 기반 AI 기능 은 Signal 데이터를 수집해 로컬 데이터베이스나 원격 서버에서 활용할 수 있으며, 수집 이후에는 Signal이 통제하거나 대화 참여자의 프라이버시를 독립적으로 보장할 수 없음 스크린샷 차단은 불완전한 방어책 으로, 파일시스템을 통한 데이터 접근까지 막지는 못하며 사",
+      "publishedAt": "2026-11-20T16:37:14Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "fb3adecb57288a2dcaa2",
+      "title": "추상화를 잘 하려면",
+      "url": "https://happysisyphe.tistory.com/108",
+      "summary": "내가 오늘 꺼낼 명제는 천재들은 추상화를 잘한다는 것이다. 오늘 에리히 프롬의 <자유로부터의 도피> 를 읽고 있다. 그는 가학적 충동과 피학적 충동이라는 정반대로 보이는 두 개의 충동이 결국 하나로 추상화 된다고 했다. 그건 바로, 자유로부터 도피하고자 하는 욕망이라는 것이다. 참을 수 없는 고독을 느낄 때, 피학(나를 남에게 줘버리는 행위, 신/사람/국가/양심 등)을 하거나 가학(남을 나에게 굴복시키는 행위)을 한다. 즉 자아를 자신 이외의 사람, 사물과 통합시키는 행위로 보았다. 언뜻 보기에",
+      "publishedAt": "2026-11-20T16:06:03Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "c2a61ae396025a118e6b",
+      "title": "삼전 7만, 하닉 20만원 전망한 전문가…\"엔비디아, 장기적으로 경쟁력 없어\"",
+      "url": "https://www.newsis.com/view/NISX20261120_0003876846",
+      "summary": "",
+      "publishedAt": "2026-11-20T16:00:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "3a7170aa528dd4c3da57",
+      "title": "Anthropic 수학자, Claude와 리만 가설 및 일반화 리만 가설을 증명했다고 발표 [pdf]",
+      "url": "https://news.hada.io/topic?id=37529",
+      "summary": "Anthropic의 수학자 Levent Alpöge 가 Claude와 함께 리만 가설과 일반화 리만 가설(GRH)의 증명을 발견했다 고 발표함. 확장 리만 가설에도 적용할 수 있을 것으로 기대하지만, 이 부분은 아직 전망임 리만 가설은 소수의 분포가 평균에서 얼마나 벗어나는지에 관한 난제 로, 1859년 제기된 클레이 밀레니엄 문제 중 하나임 논증을 추가 가정 없이 Lean으로 형식화했다 고 밝히며, 자료를 14개 분할 파일로 공개함. 사람이 읽고 이해할 수 있는 정식 해설은 앞으로 작성할 계획임",
+      "publishedAt": "2026-11-20T15:34:01Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
       "id": "d6cf32834aae4cc7b4f1",
       "title": "치매 예방, 엉뚱한 곳에서 단서가 나왔다",
       "url": "https://blog.naver.com/ranto28/224484741826?fromRss=true&trackingCode=rss",
       "summary": "국장을 불태워버린 불금이었네요. 건강이나 챙깁시다. 1. 지금까지 치매 연구는 뇌에 쌓이는 단백질 덩어리(아밀로이드 플라크)를 없애는 데 집중해 왔음. 2. 신약 개발에 천문학적인 돈이 들어갔고 신약이 나왔지만, 성과는 기대에 못 미쳤음. 치매 치료제 신약의 최근 근황은?(feat 레.. : 네이버블로그 3. 엉뚱한 곳에서 단서가 나옴. 4. 대상포진임. 5. 대상포진은 어릴 때 걸린 수두 바이러스가 수십 년 뒤 다시 깨어나는 병임. 6. 어릴 때 수두를 앓고 나면 이 바이러스가 신경세포 속에 잠",
       "publishedAt": "2026-11-20T15:10:00Z",
       "sourceIds": [
+        "awesome",
         "mer-blog"
       ],
       "topics": [
         "경제"
       ],
       "firstSeenAt": "2026-11-20T15:21:21Z",
-      "categories": "건강/의학/맛집/일상/역사등 "
+      "categories": " "
     },
     {
       "id": "32b861e9a4d51fa35ed3",
@@ -4934,6 +5070,36 @@
       "categories": " "
     },
     {
+      "id": "3812737387fe7bf2cc33",
+      "title": "\"술에서 바다 맛이?\"…한국서 유독 잘 팔린다는 '이 술' [현장+]",
+      "url": "https://www.hankyung.com/article/202611209728g",
+      "summary": "",
+      "publishedAt": "2026-11-20T13:00:03Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
+      "id": "57fa4b7b227c11b7802b",
+      "title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
+      "url": "https://www.hankyung.com/article/2026112004446",
+      "summary": "",
+      "publishedAt": "2026-11-20T13:00:01Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
       "id": "e509a6f7470e1bf467f7",
       "title": "중국산 자동차 발도 못 붙이게 한다…초당적 입법 처리 나선 美 의회",
       "url": "https://www.mk.co.kr/news/business/12214980",
@@ -4959,6 +5125,21 @@
       ],
       "topics": [],
       "firstSeenAt": "2026-11-20T15:21:21Z",
+      "categories": " "
+    },
+    {
+      "id": "06a7577752073f141f83",
+      "title": "\"재고 언제 풀리나\" 대기만 무려…난리 난 다이소 '5000원템'",
+      "url": "https://www.hankyung.com/article/2026112009177",
+      "summary": "",
+      "publishedAt": "2026-11-20T12:35:42Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
       "categories": " "
     },
     {
@@ -5169,7 +5350,7 @@
     },
     {
       "id": "a41c84bd47adde81a626",
-      "title": "PostgreSQL 19 - 읽기와 쓰기를 막지 않는 REPACK, 실행 계획 제어 확장 추가",
+      "title": "PostgreSQL 19 주요 변경 사항과 업그레이드 주의점",
       "url": "https://news.hada.io/topic?id=37517",
       "summary": "REPACK 명령 으로 디스크 공간을 회수하고 테이블을 재구성할 수 있으며, CONCURRENTLY 옵션을 사용하면 테이블 읽기와 쓰기를 차단하지 않음 pg_plan_advice 와 pg_stash_advice 로 쿼리 플래너의 결정을 제어하고, 쿼리별 실행 계획 조언을 저장해 자동 적용할 수 있음 논리 복제 는 wal_level=replica 일 때 재시작 없이 활성화할 수 있고 시퀀스 값 복제를 지원하며, WAIT 명령 으로 대기 서버에서도 자신이 쓴 데이터를 읽는 일관성을 지원함 I/O 워커",
       "publishedAt": "2026-11-20T10:34:57Z",
@@ -5583,7 +5764,7 @@
     },
     {
       "id": "785e9d1aa64f072c2725",
-      "title": "삼전닉스 주주 1100만명…절반 이상이 '파란불'",
+      "title": "삼전닉스 주주 1100만명…절반 이상이 '손실'",
       "url": "https://www.hankyung.com/article/2026112007191",
       "summary": "",
       "publishedAt": "2026-11-20T09:13:15Z",
@@ -6488,6 +6669,19 @@
       "categories": " "
     },
     {
+      "id": "db59c345800440339ef7",
+      "title": "[토스] 디자인 시스템 만들던 디자이너가 3D 그래픽을 그린다면",
+      "url": "https://velopers.kr/post/10853",
+      "summary": "AI와 코드로 통장 개설 UI용 3D 그래픽과 인터랙션을 제작한 과정을 소개했습니다. 프롬프트 초안에 슬라이더·레퍼런스 피드백을 더해 시각적 완성도를 높였습니다.",
+      "publishedAt": "2026-11-20T08:34:00Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
       "id": "0ec49cff76cfcf02336e",
       "title": "디자인 시스템 만들던 디자이너가 3D 그래픽을 그린다면",
       "url": "https://toss.tech/article/bankbook_graphic",
@@ -6533,7 +6727,7 @@
     },
     {
       "id": "ead581ca089297bc71b9",
-      "title": "KB금융 신임 회장에 이재근…자본시장 경쟁력 강화 나선다",
+      "title": "KB금융 신임 회장에 이재근, 자본시장 경쟁력 강화 나선다",
       "url": "https://www.hankyung.com/article/2026112006641",
       "summary": "",
       "publishedAt": "2026-11-20T08:32:59Z",
@@ -6732,7 +6926,7 @@
     },
     {
       "id": "3a70d1eee5211f592e46",
-      "title": "국토부, 테슬라 '중국산 FSD' 허용 요청 제동",
+      "title": "국토부, 테슬라 '중국산 FSD' 보완 요구",
       "url": "https://www.hankyung.com/article/2026112006681",
       "summary": "",
       "publishedAt": "2026-11-20T08:30:13Z",
@@ -6804,21 +6998,6 @@
       ],
       "firstSeenAt": "2026-11-20T12:26:59Z",
       "categories": "LG엔솔 ESG 탄소중립 배터리 ESS IT 일반 "
-    },
-    {
-      "id": "cb1ae8c9646787d66c6a",
-      "title": "[포토] 현대차, LA오토쇼서 G80 하이브리드 공개",
-      "url": "https://www.hankyung.com/article/2026112006701",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:29:57Z",
-      "sourceIds": [
-        "hankyung-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-20T09:22:00Z",
-      "categories": " "
     },
     {
       "id": "75b7df91321e7a1822d8",
@@ -7050,18 +7229,16 @@
       "categories": " "
     },
     {
-      "id": "946d07b613b0c72b931e",
-      "title": "\"명품이랑 똑같네\" 입소문 나더니…2030 꽂힌 'OO맛' 쇼핑",
-      "url": "https://www.hankyung.com/article/2026112006291",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:22:27Z",
+      "id": "53e6b3020130a9726f71",
+      "title": "[밸런스히어로] 어피닛과 함께 인도 도전! 두 스타트업의 이야기를 들어봤습니다",
+      "url": "https://velopers.kr/post/10851",
+      "summary": "인도 현장 조사로 뷰티 제품과 경락 서비스의 초기 사업 가설을 수정했습니다. 소비자 수요와 가격, 기존 살롱 협업 가능성을 다음 검증 과제로 구체화했습니다.",
+      "publishedAt": "2026-11-20T08:22:23Z",
       "sourceIds": [
-        "hankyung-economy"
+        "velopers"
       ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-20T09:22:00Z",
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
       "categories": " "
     },
     {
@@ -7941,6 +8118,19 @@
       "categories": "증권|증권일반 "
     },
     {
+      "id": "bfb0dbd6b22407953a12",
+      "title": "[우아한 형제들] 세 번 그리던 화면을 한 번에: CLAYDesign이 디자인시스템으로 화면을 생성하는 방법",
+      "url": "https://velopers.kr/post/10854",
+      "summary": "CLAYDesign은 디자인시스템 기반 화면 JSON을 생성·검사해 Figma와 플랫폼별 코드로 내보냅니다. 템플릿, 영역별 레퍼런스 검색, 타입 기반 카탈로그로 배민 디자인 규격을 유지합니다.",
+      "publishedAt": "2026-11-20T07:26:29Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
+      "categories": " "
+    },
+    {
       "id": "31ff294360fb8d0e049d",
       "title": "세 번 그리던 화면을 한 번에: CLAYDesign이 디자인시스템으로 화면을 생성하는 방법",
       "url": "https://techblog.woowahan.com/28538",
@@ -8725,21 +8915,6 @@
       ],
       "topics": [
         "경제"
-      ],
-      "firstSeenAt": "2026-11-20T09:22:00Z",
-      "categories": " "
-    },
-    {
-      "id": "6efe6a910a20ce480ca9",
-      "title": "삼전닉스 '와르르'…코스피·코스닥 5%대 급락에 개미들 '비명'",
-      "url": "https://www.hankyung.com/article/2026112003686",
-      "summary": "",
-      "publishedAt": "2026-11-20T06:46:32Z",
-      "sourceIds": [
-        "hankyung-finance"
-      ],
-      "topics": [
-        "주식"
       ],
       "firstSeenAt": "2026-11-20T09:22:00Z",
       "categories": " "
@@ -13218,6 +13393,21 @@
         "경제"
       ],
       "firstSeenAt": "2026-11-19T15:21:37Z",
+      "categories": " "
+    },
+    {
+      "id": "37afff651060f11e55f3",
+      "title": "[드림어스] “AI, 너 내 동료가 되라!” – QA팀의 위대한 항로 도전기",
+      "url": "https://velopers.kr/post/10852",
+      "summary": "QA팀이 AI와 자동화 도구로 수동 중심 업무를 엔지니어링 중심으로 전환한 사례를 소개했습니다. 보고서 생성과 테스트 데이터 세팅을 통합해 QA 운영 시간을 크게 줄였습니다.",
+      "publishedAt": "2026-11-19T15:00:00Z",
+      "sourceIds": [
+        "velopers"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-20T18:24:04Z",
       "categories": " "
     },
     {
@@ -23386,21 +23576,6 @@
       "categories": "뉴스 "
     },
     {
-      "id": "9d092cfff6d680b2c2cc",
-      "title": "'30억 로또' 디에이치 반포124 청약 일정 밀린다",
-      "url": "https://www.hankyung.com/article/2026111857156",
-      "summary": "",
-      "publishedAt": "2026-11-18T09:42:57Z",
-      "sourceIds": [
-        "hankyung-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-18T12:26:43Z",
-      "categories": " "
-    },
-    {
       "id": "7f0c9eb7b68af20bef05",
       "title": "[2026 강소특구] 서울 홍릉 강소특구 “세계 수준의 인공지능 융합 헬스케어 클러스터로”",
       "url": "https://it.donga.com/109955",
@@ -23414,6 +23589,21 @@
       ],
       "firstSeenAt": "2026-11-18T12:26:43Z",
       "categories": "뉴스 "
+    },
+    {
+      "id": "9d092cfff6d680b2c2cc",
+      "title": "'30억 로또' 디에이치 반포124 청약 일정 밀린다",
+      "url": "https://www.hankyung.com/article/2026111857156",
+      "summary": "",
+      "publishedAt": "2026-11-18T09:42:57Z",
+      "sourceIds": [
+        "hankyung-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ],
+      "firstSeenAt": "2026-11-18T12:26:43Z",
+      "categories": " "
     },
     {
       "id": "0864a1ebea102dc41b50",
@@ -55602,21 +55792,6 @@
       "categories": "정책 "
     },
     {
-      "id": "38a2e96f48b7aa1092f7",
-      "title": "한·인니 해양교육센터, 유네스코 공식 훈련센터로 출범",
-      "url": "https://www.etoday.co.kr/news/view/2648208",
-      "summary": "",
-      "publishedAt": "2026-11-15T02:00:00Z",
-      "sourceIds": [
-        "etoday-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-15T03:23:18Z",
-      "categories": "일반 "
-    },
-    {
       "id": "5eeae5df85e14161045a",
       "title": "반도체 강세 '여전'...10월 ICT 수출, 전년비 200% 확대",
       "url": "https://www.techm.kr/news/articleView.html?idxno=157353",
@@ -73534,188 +73709,6 @@
         "AI"
       ],
       "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "98d3c8c29cd797db7bf7",
-      "title": "플렉스, AI 시대 경영 기준 연구하는 '한국인사기준원' 출범",
-      "url": "https://indieblog.net/go/655851",
-      "summary": "돈에 회계기준이 있다면, 사람에는 인사기준",
-      "publishedAt": "2026-11-10T01:45:00Z",
-      "sourceIds": [
-        "indieblog"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-11-10T06:28:41Z",
-      "categories": " "
-    },
-    {
-      "id": "0f68af4f8acf553c7108",
-      "title": "[네이버 D2] 우리 팀만의 스펙 주도 개발 정착기",
-      "url": "https://velopers.kr/post/10700",
-      "summary": "팀 개발 정책으로 스펙 주도 개발(SDD)을 채택하고 정착시킨 배경과 시행착오를 공유합니다. SDD 구조, 정책 수립 과정의 고민, 남은 과제를 발표 세션으로 소개합니다.",
-      "publishedAt": "2026-11-10T01:32:48Z",
-      "sourceIds": [
-        "velopers"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "2595f1d7acbf57a7c97a",
-      "title": "왜 이 모든 OT 시스템이 네트워크에 연결돼 있는지 이야기해 보자",
-      "url": "https://news.hada.io/topic?id=36922",
-      "summary": "OT의 네트워크 연결 은 운영 효율을 높이고 원격 제어를 도입하며 유지보수 비용을 줄이는 결정이 누적된 결과로, 이제 전력과 수도, 식품 보관에 깊이 얽혀 있어 단순히 끊기 어려움 IT/OT 융합과 공급업체의 구축 방식 표준화 로 산업 시스템의 비용은 줄었지만, 공격자가 익숙한 기술과 반복 가능한 구조가 확산돼 공격의 규모 확대와 자동화도 쉬워짐 원격 지원 은 산업 운영과 공급업체 계약의 일부가 됐으며, 공식 DMZ 외에도 현장 직원과 여러 업체가 설치한 접속 경로가 존재할 수 있음 분산 설비와",
-      "publishedAt": "2026-11-10T01:04:26Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "b830d203629baf66bd1e",
-      "title": "프로덕트 디자이너와 개발자를 연결하는 AX 프로젝트, AXPD스쿼드",
-      "url": "https://medium.com/miridih/%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EC%99%80-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94-ax-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-axpd%EC%8A%A4%EC%BF%BC%EB%93%9C-bac79dfe09a3",
-      "summary": "AI로 ‘만들기’는 빨라졌는데 일은 왜 그대로일까. 그 질문에서 출발해 방법만 남기고 해체하기로 한 팀 이야기 미리디는 매달 전사 타운홀 Re:Sync에서 각 팀이 세운 가설과 실험을 나눠요. 이번에 소개할 팀은 프로덕트 디자인과 프론트엔드 개발 사이의 반복 작업을 줄이기 위해 모인 AXPD 스쿼드예요. AXPD는 ‘AX Product Design’의 줄임…",
-      "publishedAt": "2026-11-10T01:02:42Z",
-      "sourceIds": [
-        "techblogposts",
-        "indieblog"
-      ],
-      "topics": [
-        "개발"
-      ],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "07eea23b20eae8d945e8",
-      "title": "[미리디] 프로덕트 디자이너와 개발자를 연결하는 AX 프로젝트, AXPD스쿼드",
-      "url": "https://velopers.kr/post/10696",
-      "summary": "AI 프로토타입이 개발 코드로 이어지지 못하는 디자인·개발 협업 병목을 분석했습니다. 공통 검증과 Storybook 하네스로 재사용 가능한 작업 경로를 마련합니다.",
-      "publishedAt": "2026-11-10T01:02:42Z",
-      "sourceIds": [
-        "velopers"
-      ],
-      "topics": [
-        "개발"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "352b45088d7efd6e59e1",
-      "title": "[Java] Micrometer의 메트릭 구조에 대한 이해",
-      "url": "https://mangkyu.tistory.com/479",
-      "summary": "1. Micrometer의 메트릭 구조에 대한 이해 Micrometer는 자주 사용되는 Observability 시스템들에 대한 추상화 계층을 제공한다. 덕분에 특정 벤더에 종속되지 않고 JVM 기반 애플리케이션을 관측할 수 있다. 애플리케이션 관측 분야에서 SLF4J와 같은 역할을 한다. [ 미터(Meter) ] Micrometer는 애플리케이션에서 수집하는 데이터를 종류에 따라 다음과 같이 구분한다. 그리고 이들을 하나의 인터페이스로 추상화하여 미터(Meter) 라고 부르며, 각 측정값은 메트",
-      "publishedAt": "2026-11-10T01:00:57Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "584cde1306d4ea1d56e8",
-      "title": "DeepX, 2세대 AI 칩 DX-M2 테이프아웃 완료 - 5W 미만에서 최대 1,000억 파라미터 모델 추론 목표",
-      "url": "https://news.hada.io/topic?id=36920",
-      "summary": "한국 엣지 AI 반도체 스타트업 딥엑스가 2세대 가속기 DX-M2의 테이프아웃을 완료 함. 로봇과 드론처럼 전력과 발열 제약이 큰 기기에서 생성형 AI를 직접 실행하도록 설계함 5W 미만에서 전체 200억~1,000억 파라미터 규모의 모델을 초당 10~30토큰으로 실행 하는 것이 목표. 활성 파라미터는 약 30억~200억 개 이며, 메모리 대역폭은 전작의 3배인 150GB/s 로 높임 Samsung의 LPDDR5x-PIM 으로 GEMV 연산을 넘기면 Llama3.1-8B 처리량이 DX-M2 단독",
-      "publishedAt": "2026-11-10T00:44:04Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "52abaffb78e3704ed811",
-      "title": "CUI - C용 네이티브 UI 컴포넌트",
-      "url": "https://news.hada.io/topic?id=36919",
-      "summary": "CUI 는 하나의 C99 코드베이스로 Windows, Mac, Linux에서 사용하는 약 160개 UI 컴포넌트 를 제공하며, 스프링 모션과 전체 키보드 지원을 갖춤 즉시 모드(immediate mode) 방식으로 컴포넌트 함수가 자신을 그리고 발생한 동작을 반환함. 개발자의 변수를 상태로 사용하고 매 프레임 화면 전체를 다시 기술해 별도 상태 동기화가 필요 없음 데이터 그리드, 명령 팔레트, 노드 편집기 등 완성형 컴포넌트 를 제공하며, 별도 스타일링 없이도 완성된 외관을 갖추도록 함께 설계함",
-      "publishedAt": "2026-11-10T00:41:04Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "75ea71c9d55cc59ab65e",
-      "title": "Google, 8세대 TPU에 기밀 추론용 8tx와 긴 컨텍스트용 8i Max 추가",
-      "url": "https://news.hada.io/topic?id=36918",
-      "summary": "Google이 8세대 TPU에 TPU 8tx 와 TPU 8i Max 를 추가해, 대규모 학습부터 저지연 추론, 기밀 컴퓨팅, 대규모 컨텍스트까지 담당하는 네 가지 시스템을 구성함 기존 TPU 칩을 바탕으로 패키징, 메모리, 네트워크, 보안 구성을 바꿔 용도별 시스템을 만듦. Google은 이 방식으로 특화 시스템을 수년 대신 수개월 안에 내놓을 수 있다고 봄 TPU 8tx 는 사용 중인 민감 데이터와 모델 가중치까지 하드웨어 수준에서 보호하며, TPU 8t 대비 지연 시간을 최대 절반으로 줄이고",
-      "publishedAt": "2026-11-10T00:38:04Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "694ad329c619be799149",
-      "title": "raea - AI가 코드로 만든 영상/3D/게임을 GPU에서 렌더링하는 엔진",
-      "url": "https://news.hada.io/topic?id=36917",
-      "summary": "만들고 싶은 것을 말하면 AI 에이전트가 React/TypeScript 코드로 작성 하고 GPU로 렌더링 영상 및 모션 그래픽 은 텍스트, SVG, 애니메이션을 합성해 MP4로 작성 3D/게임 은 Bevy로 렌더링하며, 입력/물리/사운드를 넣어 실시간으로 실행하거나 독립 실행 프로그램으로 제작 에이전트가 특정 프레임을 이미지로 뽑아 확인하고 코드를 고치는 작업 까지 할 수 있음 잘린 텍스트, 낮은 대비, 화면 멈춤, 음량 문제를 검사하는 명령도 제공 Claude Code용 플러그인과 에이전트 스킬",
-      "publishedAt": "2026-11-10T00:30:02Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "71e698f99a6b17b2310d",
-      "title": "Show GN: Woodada - CPU와 메모리 사용률에 따라 작업표시줄 위를 달리는 고양이",
-      "url": "https://news.hada.io/topic?id=36916",
-      "summary": "CPU와 메모리 사용률에 따라 고양이가 작업표시줄(맥은 독) 위를 우다다 뛰어다니는 데스크톱 앱을 직접 만들었습니다. Windows 10/11과 macOS 12 이상에서 쓸 수 있고, 가입 없이 다운로드해서 바로 실행하면 됩니다. 만든 계기 맥에서 RunCat을 매일 켜 두고 쓰면서 메뉴 막대 아이콘 안에서 열심히 달리는 고양이를 보다가, 실제로 화면 위를 뛰어다니면 어떨까 싶어서 만들기 시작했습니다. 고양이를 작업표시줄 위로 꺼내 놓으니 CPU와 메모리 사용량이 한눈에 보였습니다. 여기에 달린",
-      "publishedAt": "2026-11-10T00:22:18Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T03:22:37Z",
-      "categories": " "
-    },
-    {
-      "id": "1cd01b15863e291ad4ce",
-      "title": "신비한 경고음의 원인 찾기",
-      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
-      "summary": "📝 최신 기사 뒤에 슬롭 PR 설명 숨기기 - 2026년 11월 9일 내 노트북의 Qwen 3.8 27B도 모델 가중치를 해석할 수 있음 - 2026년 11월 3일 The U. Census Bureau 및 \"Super Intelligence\" - 2026년 11월 2일 바이브 게임 개발의 10월 변곡점 - 2026년 10월 28일 🔤 Original: Locating the source of a mysterious beep 🔗 Read more: https://simonwillison.net/20",
-      "publishedAt": "2026-11-10T00:10:46Z",
-      "sourceIds": [
-        "hnko"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T06:28:41Z",
-      "categories": " "
-    },
-    {
-      "id": "7cb7f032d2e09ebb1309",
-      "title": "끔찍한 공개 키 트릭",
-      "url": "https://maurycyz.com/projects/badcert",
-      "summary": "📝 그러나 이를 방지하는 데 전체 인증서가 필요한 것은 아닙니다. 따라서 최선의 선택은 항의 인증서입니다. 내가 직접 제어하는 ​​인증서의 유일한 부분은 공개 키입니다. 공개 지수로 작은 숫자 e를 선택합니다. 🔤 Original: Horible public key tricks 🔗 Read more: https://maurycyz.com/projects/badcert/",
-      "publishedAt": "2026-11-10T00:07:17Z",
-      "sourceIds": [
-        "hnko"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-10T06:28:41Z",
       "categories": " "
     },
     {
