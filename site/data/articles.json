@@ -1,112 +1,107 @@
 {
-  "generatedAt": "2026-11-21T06:32:56Z",
+  "generatedAt": "2026-11-21T09:21:55Z",
   "sourceHealth": [
     {
       "id": "techblogposts",
       "ok": true,
       "count": 10,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "velopers",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "indieblog",
       "ok": true,
       "count": 40,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "awesome",
       "ok": true,
       "count": 89,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "geeknews",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "hnko",
       "ok": true,
       "count": 13,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etnews-it",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-21T03:22:50Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etnews-sw",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-21T03:22:50Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etnews-security",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-21T03:22:50Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etnews-ai",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-21T03:22:50Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etnews-mobility",
-      "ok": false,
-      "count": 0,
-      "lastSuccessAt": "2026-11-21T03:22:50Z",
-      "error": "제공처 연결 또는 RSS 형식 확인 필요"
+      "ok": true,
+      "count": 50,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "zdnet",
       "ok": true,
-      "count": 15,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 16,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "aitimes",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "itdonga",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "itworld",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "techm",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "dailysecu",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "aimatters",
@@ -119,91 +114,91 @@
       "id": "motorgraph",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "autoherald",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "irobotnews",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "mer-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "babybear-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "richnote-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "jackpasi-blog",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "hankyung-finance",
       "ok": true,
       "count": 49,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "hankyung-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "hankyung-economy",
       "ok": true,
       "count": 49,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "mk-stock",
       "ok": true,
-      "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 49,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "mk-realestate",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "mk-economy",
       "ok": true,
       "count": 50,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etoday-market",
       "ok": true,
       "count": 1,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etoday-realestate",
       "ok": true,
-      "count": 2,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 3,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "etoday-economy",
@@ -215,56 +210,56 @@
     {
       "id": "fnnews-stock",
       "ok": true,
-      "count": 18,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 9,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "fnnews-realestate",
       "ok": true,
-      "count": 8,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 4,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "fnnews-economy",
       "ok": true,
-      "count": 5,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 4,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "newsis-finance",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "newsis-economy",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "ajunews-investment",
       "ok": true,
-      "count": 52,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 36,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "ajunews-economy",
       "ok": true,
-      "count": 88,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "count": 63,
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "bok-market",
       "ok": true,
       "count": 100,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     },
     {
       "id": "mss-press",
       "ok": true,
       "count": 20,
-      "lastSuccessAt": "2026-11-21T06:28:02Z"
+      "lastSuccessAt": "2026-11-21T09:21:02Z"
     }
   ],
   "retentionStats": [
@@ -301,56 +296,56 @@
     {
       "id": "hnko",
       "kept": 326,
-      "excluded": 1,
+      "excluded": 0,
       "oldestAt": "2026-11-10T19:42:44Z"
     },
     {
       "id": "etnews-it",
-      "kept": 173,
-      "excluded": 0,
-      "oldestAt": "2026-11-10T08:13:34Z"
+      "kept": 172,
+      "excluded": 9,
+      "oldestAt": "2026-11-10T08:28:23Z"
     },
     {
       "id": "etnews-sw",
       "kept": 116,
-      "excluded": 2,
+      "excluded": 3,
       "oldestAt": "2026-11-11T05:23:07Z"
     },
     {
       "id": "etnews-security",
-      "kept": 100,
-      "excluded": 1,
+      "kept": 101,
+      "excluded": 0,
       "oldestAt": "2026-11-10T09:08:32Z"
     },
     {
       "id": "etnews-ai",
-      "kept": 170,
-      "excluded": 2,
+      "kept": 171,
+      "excluded": 6,
       "oldestAt": "2026-11-10T08:30:00Z"
     },
     {
       "id": "etnews-mobility",
-      "kept": 97,
+      "kept": 98,
       "excluded": 0,
       "oldestAt": "2026-11-10T23:54:29Z"
     },
     {
       "id": "zdnet",
-      "kept": 239,
-      "excluded": 0,
+      "kept": 240,
+      "excluded": 3,
       "oldestAt": "2026-11-10T08:27:27Z"
     },
     {
       "id": "aitimes",
-      "kept": 224,
-      "excluded": 17,
-      "oldestAt": "2026-11-10T08:13:10Z"
+      "kept": 223,
+      "excluded": 14,
+      "oldestAt": "2026-11-10T08:40:37Z"
     },
     {
       "id": "itdonga",
-      "kept": 86,
-      "excluded": 14,
-      "oldestAt": "2026-11-10T08:13:27Z"
+      "kept": 83,
+      "excluded": 17,
+      "oldestAt": "2026-11-10T09:05:21Z"
     },
     {
       "id": "itworld",
@@ -361,14 +356,14 @@
     {
       "id": "techm",
       "kept": 190,
-      "excluded": 31,
-      "oldestAt": "2026-11-10T08:10:37Z"
+      "excluded": 27,
+      "oldestAt": "2026-11-10T08:28:53Z"
     },
     {
       "id": "dailysecu",
       "kept": 161,
-      "excluded": 0,
-      "oldestAt": "2026-11-10T08:04:55Z"
+      "excluded": 1,
+      "oldestAt": "2026-11-10T08:50:59Z"
     },
     {
       "id": "aimatters",
@@ -420,56 +415,56 @@
     },
     {
       "id": "hankyung-finance",
-      "kept": 116,
-      "excluded": 25,
+      "kept": 119,
+      "excluded": 22,
       "oldestAt": "2026-11-15T08:27:56Z"
     },
     {
       "id": "hankyung-realestate",
-      "kept": 97,
+      "kept": 96,
       "excluded": 14,
-      "oldestAt": "2026-11-15T08:12:29Z"
+      "oldestAt": "2026-11-15T21:30:03Z"
     },
     {
       "id": "hankyung-economy",
-      "kept": 133,
-      "excluded": 16,
+      "kept": 136,
+      "excluded": 13,
       "oldestAt": "2026-11-15T08:39:13Z"
     },
     {
       "id": "mk-stock",
-      "kept": 114,
-      "excluded": 19,
-      "oldestAt": "2026-11-15T08:24:37Z"
+      "kept": 112,
+      "excluded": 21,
+      "oldestAt": "2026-11-15T08:30:34Z"
     },
     {
       "id": "mk-realestate",
-      "kept": 132,
-      "excluded": 11,
-      "oldestAt": "2026-11-15T08:13:39Z"
+      "kept": 127,
+      "excluded": 15,
+      "oldestAt": "2026-11-15T08:33:48Z"
     },
     {
       "id": "mk-economy",
-      "kept": 108,
+      "kept": 109,
       "excluded": 10,
-      "oldestAt": "2026-11-15T08:13:50Z"
+      "oldestAt": "2026-11-15T08:37:35Z"
     },
     {
       "id": "etoday-market",
-      "kept": 107,
-      "excluded": 0,
-      "oldestAt": "2026-11-15T08:00:00Z"
+      "kept": 106,
+      "excluded": 2,
+      "oldestAt": "2026-11-15T11:33:00Z"
     },
     {
       "id": "etoday-realestate",
-      "kept": 100,
+      "kept": 101,
       "excluded": 1,
-      "oldestAt": "2026-11-15T08:00:00Z"
+      "oldestAt": "2026-11-15T21:00:00Z"
     },
     {
       "id": "etoday-economy",
       "kept": 97,
-      "excluded": 2,
+      "excluded": 0,
       "oldestAt": "2026-11-15T10:21:00Z"
     },
     {
@@ -481,7 +476,7 @@
     {
       "id": "fnnews-realestate",
       "kept": 110,
-      "excluded": 3,
+      "excluded": 0,
       "oldestAt": "2026-11-15T09:29:39Z"
     },
     {
@@ -494,24 +489,24 @@
       "id": "newsis-finance",
       "kept": 115,
       "excluded": 65,
-      "oldestAt": "2026-11-15T08:17:01Z"
+      "oldestAt": "2026-11-15T09:07:21Z"
     },
     {
       "id": "newsis-economy",
-      "kept": 131,
+      "kept": 130,
       "excluded": 61,
-      "oldestAt": "2026-11-15T07:59:30Z"
+      "oldestAt": "2026-11-15T08:31:00Z"
     },
     {
       "id": "ajunews-investment",
       "kept": 101,
-      "excluded": 21,
+      "excluded": 16,
       "oldestAt": "2026-11-15T08:34:08Z"
     },
     {
       "id": "ajunews-economy",
-      "kept": 120,
-      "excluded": 44,
+      "kept": 122,
+      "excluded": 30,
       "oldestAt": "2026-11-15T08:34:55Z"
     },
     {
@@ -3983,56 +3978,56 @@
         {
           "id": "hnko",
           "kept": 326,
-          "excluded": 1,
+          "excluded": 0,
           "oldestAt": "2026-11-10T19:42:44Z"
         },
         {
           "id": "etnews-it",
-          "kept": 173,
-          "excluded": 0,
-          "oldestAt": "2026-11-10T08:13:34Z"
+          "kept": 172,
+          "excluded": 9,
+          "oldestAt": "2026-11-10T08:28:23Z"
         },
         {
           "id": "etnews-sw",
           "kept": 116,
-          "excluded": 2,
+          "excluded": 3,
           "oldestAt": "2026-11-11T05:23:07Z"
         },
         {
           "id": "etnews-security",
-          "kept": 100,
-          "excluded": 1,
+          "kept": 101,
+          "excluded": 0,
           "oldestAt": "2026-11-10T09:08:32Z"
         },
         {
           "id": "etnews-ai",
-          "kept": 170,
-          "excluded": 2,
+          "kept": 171,
+          "excluded": 6,
           "oldestAt": "2026-11-10T08:30:00Z"
         },
         {
           "id": "etnews-mobility",
-          "kept": 97,
+          "kept": 98,
           "excluded": 0,
           "oldestAt": "2026-11-10T23:54:29Z"
         },
         {
           "id": "zdnet",
-          "kept": 239,
-          "excluded": 0,
+          "kept": 240,
+          "excluded": 3,
           "oldestAt": "2026-11-10T08:27:27Z"
         },
         {
           "id": "aitimes",
-          "kept": 224,
-          "excluded": 17,
-          "oldestAt": "2026-11-10T08:13:10Z"
+          "kept": 223,
+          "excluded": 14,
+          "oldestAt": "2026-11-10T08:40:37Z"
         },
         {
           "id": "itdonga",
-          "kept": 86,
-          "excluded": 14,
-          "oldestAt": "2026-11-10T08:13:27Z"
+          "kept": 83,
+          "excluded": 17,
+          "oldestAt": "2026-11-10T09:05:21Z"
         },
         {
           "id": "itworld",
@@ -4043,14 +4038,14 @@
         {
           "id": "techm",
           "kept": 190,
-          "excluded": 31,
-          "oldestAt": "2026-11-10T08:10:37Z"
+          "excluded": 27,
+          "oldestAt": "2026-11-10T08:28:53Z"
         },
         {
           "id": "dailysecu",
           "kept": 161,
-          "excluded": 0,
-          "oldestAt": "2026-11-10T08:04:55Z"
+          "excluded": 1,
+          "oldestAt": "2026-11-10T08:50:59Z"
         },
         {
           "id": "aimatters",
@@ -4102,56 +4097,56 @@
         },
         {
           "id": "hankyung-finance",
-          "kept": 116,
-          "excluded": 25,
+          "kept": 119,
+          "excluded": 22,
           "oldestAt": "2026-11-15T08:27:56Z"
         },
         {
           "id": "hankyung-realestate",
-          "kept": 97,
+          "kept": 96,
           "excluded": 14,
-          "oldestAt": "2026-11-15T08:12:29Z"
+          "oldestAt": "2026-11-15T21:30:03Z"
         },
         {
           "id": "hankyung-economy",
-          "kept": 133,
-          "excluded": 16,
+          "kept": 136,
+          "excluded": 13,
           "oldestAt": "2026-11-15T08:39:13Z"
         },
         {
           "id": "mk-stock",
-          "kept": 114,
-          "excluded": 19,
-          "oldestAt": "2026-11-15T08:24:37Z"
+          "kept": 112,
+          "excluded": 21,
+          "oldestAt": "2026-11-15T08:30:34Z"
         },
         {
           "id": "mk-realestate",
-          "kept": 132,
-          "excluded": 11,
-          "oldestAt": "2026-11-15T08:13:39Z"
+          "kept": 127,
+          "excluded": 15,
+          "oldestAt": "2026-11-15T08:33:48Z"
         },
         {
           "id": "mk-economy",
-          "kept": 108,
+          "kept": 109,
           "excluded": 10,
-          "oldestAt": "2026-11-15T08:13:50Z"
+          "oldestAt": "2026-11-15T08:37:35Z"
         },
         {
           "id": "etoday-market",
-          "kept": 107,
-          "excluded": 0,
-          "oldestAt": "2026-11-15T08:00:00Z"
+          "kept": 106,
+          "excluded": 2,
+          "oldestAt": "2026-11-15T11:33:00Z"
         },
         {
           "id": "etoday-realestate",
-          "kept": 100,
+          "kept": 101,
           "excluded": 1,
-          "oldestAt": "2026-11-15T08:00:00Z"
+          "oldestAt": "2026-11-15T21:00:00Z"
         },
         {
           "id": "etoday-economy",
           "kept": 97,
-          "excluded": 2,
+          "excluded": 0,
           "oldestAt": "2026-11-15T10:21:00Z"
         },
         {
@@ -4163,7 +4158,7 @@
         {
           "id": "fnnews-realestate",
           "kept": 110,
-          "excluded": 3,
+          "excluded": 0,
           "oldestAt": "2026-11-15T09:29:39Z"
         },
         {
@@ -4176,24 +4171,24 @@
           "id": "newsis-finance",
           "kept": 115,
           "excluded": 65,
-          "oldestAt": "2026-11-15T08:17:01Z"
+          "oldestAt": "2026-11-15T09:07:21Z"
         },
         {
           "id": "newsis-economy",
-          "kept": 131,
+          "kept": 130,
           "excluded": 61,
-          "oldestAt": "2026-11-15T07:59:30Z"
+          "oldestAt": "2026-11-15T08:31:00Z"
         },
         {
           "id": "ajunews-investment",
           "kept": 101,
-          "excluded": 21,
+          "excluded": 16,
           "oldestAt": "2026-11-15T08:34:08Z"
         },
         {
           "id": "ajunews-economy",
-          "kept": 120,
-          "excluded": 44,
+          "kept": 122,
+          "excluded": 30,
           "oldestAt": "2026-11-15T08:34:55Z"
         },
         {
@@ -4655,6 +4650,400 @@
   ],
   "articles": [
     {
+      "id": "dbf0b8d551559db21c32",
+      "title": "\"짜장·짬뽕보다 맛있나\"…백종원 홍콩반점 제친 '뜻밖의 브랜드' [권용훈의 트렌드워치]",
+      "url": "https://www.hankyung.com/article/202611200868i",
+      "summary": "",
+      "publishedAt": "2026-11-21T09:00:01Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "4de9d41a60a3d9a0ffd1",
+      "title": "지방 분양시장서 ‘첫 브랜드’ 아파트 선전…완판에 웃돈 거래까지",
+      "url": "https://www.etoday.co.kr/news/view/2650922",
+      "summary": "",
+      "publishedAt": "2026-11-21T09:00:00Z",
+      "sourceIds": [
+        "etoday-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "시장동향 "
+    },
+    {
+      "id": "66d41913fcb0747b0d6a",
+      "title": "KTG, 새한하이테크 마스크 연마장치 특허 무효화 무산",
+      "url": "https://zdnet.co.kr/view?no=20261121175722",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:58:52Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "기술"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "디스플레이 석영 유리 KTG 케이티지 새한하이테크 특허 반도체ㆍ디스플레이 "
+    },
+    {
+      "id": "61314b4f7ff084acc46a",
+      "title": "\"손정의, SK하이닉스 1조달러 인수 검토…현재는 아냐\"",
+      "url": "https://zdnet.co.kr/view?no=20261121174004",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:55:29Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "기술",
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "소프트뱅크 SK하이닉스 반도체  AI 메모리 반도체ㆍ디스플레이 "
+    },
+    {
+      "id": "6f42194239371ac3b3bd",
+      "title": "졸업 미루며 대기업만 노리는 청년들…“첫 단추 잘못 꿰면 인생 꼬일 수도”",
+      "url": "https://www.mk.co.kr/news/economy/12215302",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:43:55Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "경제 "
+    },
+    {
+      "id": "a2721f0149aab97438d5",
+      "title": "‘갤럭시 S펜’ 핵심기술 보유한 日와콤, MBK가 1조원대 인수",
+      "url": "https://www.mk.co.kr/news/stock/12215301",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:42:34Z",
+      "sourceIds": [
+        "mk-stock"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "증권 "
+    },
+    {
+      "id": "57b0a7897aa740004fbc",
+      "title": "'최악 폭락' 엔비디아 3800조 증발…\"지금 저점\" vs \"더 하락\" [분석+]",
+      "url": "https://www.hankyung.com/article/2026112114747",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:28:53Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "d74bcb52bda6fc74cb3a",
+      "title": "[전자금융감독규정 일부 개정안] 금융위, 대형 금융사 보안점검 ‘반기 1회’로…업무지원 시스템도 살핀다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209648",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:26:25Z",
+      "sourceIds": [
+        "dailysecu"
+      ],
+      "topics": [
+        "보안"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "2868e8ffb45a81559f05",
+      "title": "MBK파트너스, '갤럭시 S펜 기술' 日 와콤 1.1조원 인수…내년 2월 공개매수 추진",
+      "url": "https://www.etoday.co.kr/news/view/2651215",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:19:00Z",
+      "sourceIds": [
+        "etoday-market"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "IB "
+    },
+    {
+      "id": "46de4760b5b6be2dc3ed",
+      "title": "빚 다 탕감받았는데도 통장 압류?…끝까지 남는 빚의 굴레",
+      "url": "https://www.newsis.com/view/NISX20261121_0003877728",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:10:00Z",
+      "sourceIds": [
+        "newsis-finance"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "11e36756137a9fd711ee",
+      "title": "[ET시선] 공공 클라우드 전환, 보안·개방 해법 찾아야",
+      "url": "https://www.etnews.com/20261120000265",
+      "summary": "",
+      "publishedAt": "2026-11-21T08:00:00Z",
+      "sourceIds": [
+        "etnews-sw"
+      ],
+      "topics": [
+        "소프트웨어",
+        "보안"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "f8bb1bb175c0e8acb773",
+      "title": "대형 게임사만 있나…지스타서 빛난 예비 게임 개발자들의 열정",
+      "url": "https://zdnet.co.kr/view?no=20261121163857",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:51:23Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "개발"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "지스타 2026 지스타 대학 부스 대학생 게임 개발자 게임학과 게임 인재 양성 인디게임 게임 NEWSNGAME>뉴스>업계동정 "
+    },
+    {
+      "id": "62e6b82193c654d62f83",
+      "title": "벤츠 vs BMW '레벨2++ 자율주행' 정면승부…하드웨어 선탑재 여부와 기술 성숙도 봐야",
+      "url": "https://www.etnews.com/20261121000037",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:50:00Z",
+      "sourceIds": [
+        "etnews-mobility"
+      ],
+      "topics": [
+        "자동차"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "9990492eab452a842f7e",
+      "title": "“널 가족이라 생각하지만, 돈은 좀 아껴야겠어”…댕댕이 펫보험 ‘주목’",
+      "url": "https://www.mk.co.kr/news/economy/12215285",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:42:53Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "금융"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "경제 "
+    },
+    {
+      "id": "04fd4e621ea3326650d2",
+      "title": "구글, 제미나이 앱에 GIF 생성 기능 출시…오픈AI 이어 도입",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217648",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:39:48Z",
+      "sourceIds": [
+        "aitimes"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "3f36f043f531ba837fb9",
+      "title": "DreamCoder: Mastering Emacs 저자가 만든 코딩 하네스와 IDE",
+      "url": "https://news.hada.io/topic?id=37564",
+      "summary": "DreamCoder 는 15개월간 개발과 베타 테스트를 거쳐 공개된 AI 코딩 하네스로, 브라우저에서 타일링 창 관리자와 대화창, 터미널을 함께 제공함 사람 중심 인터페이스 에 초점을 맞춰 창 크기를 자동 조정하고, 여러 작업 공간에서 실행 중인 AI의 진행 상태와 사용자 개입 필요 여부를 미니맵으로 보여줌 백그라운드 서브 에이전트, MCP , 스킬, 훅을 지원하며, Emacs에서 영감을 받은 키보드 조작과 마우스 사용을 모두 수용함 오픈 웨이트 로컬 모델 을 중요하게 다루며, Pi, OpenCo",
+      "publishedAt": "2026-11-21T07:39:07Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "개발"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "86663050e10ada6160f9",
+      "title": "Slopstrap - 사이트를 급하게 바이브 코딩한 것처럼 보이게 만들기",
+      "url": "https://news.hada.io/topic?id=37563",
+      "summary": "Slopstrap 은 사이트를 LLM이 만든 듯한 모습으로 꾸미는 CSS 프레임워크로, 복사해 붙여 넣을 수 있는 UI 컴포넌트를 제공함 빌드 도구 없이 CSS와 JavaScript를 추가해 사용할 수 있으며, 전체 페이지 다크 모드와 빛나는 구체 배경 등을 적용할 수 있음 그라데이션 글자, 반짝이는 버튼, 중첩된 반투명 카드, 벤토 그리드 등 LLM풍 시각 요소 를 갖춤 시각 효과뿐 아니라 가짜 추천사 , 업종별 본문 문구, 스타트업 로고 띠와 숫자 카운터도 제공함 Slopstrap.slopif",
+      "publishedAt": "2026-11-21T07:36:07Z",
+      "sourceIds": [
+        "geeknews"
+      ],
+      "topics": [
+        "개발"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "13e0f39d191729514a72",
+      "title": "또 '한일 경제 동맹' 강조한 최태원…\"韓日 AI 플랫폼 만들자\"",
+      "url": "https://www.hankyung.com/article/2026112114457",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:26:00Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "e82fa3285b534cc9e561",
+      "title": "국토 2차관 \"화물열차 탈선 사고 엄중 인식…재발방지 대책 강구\"",
+      "url": "https://www.newsis.com/view/NISX20261121_0003877754",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:12:12Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "정책"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "032033b8a478fe908e06",
+      "title": "3기 신도시 공공분양가도 뛴다⋯내년 9200가구 공급 앞두고 부담 커지나",
+      "url": "https://www.etoday.co.kr/news/view/2650762",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:00:00Z",
+      "sourceIds": [
+        "etoday-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "일반 "
+    },
+    {
+      "id": "96ca1c4e487cdb428df6",
+      "title": "[성장의 온도차③]반도체 있어도 갈렸다…충북 29.8% 늘 때 충남 4.5% 줄어",
+      "url": "https://www.newsis.com/view/NISX20261120_0003876881",
+      "summary": "",
+      "publishedAt": "2026-11-21T07:00:00Z",
+      "sourceIds": [
+        "newsis-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "64a7233f62c05433ee14",
+      "title": "박상현 경기도의원, GBC 프라임 개편에 '수출 실효성' 점검 주문",
+      "url": "https://www.etnews.com/20261121000046",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:55:21Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-ai"
+      ],
+      "topics": [
+        "소프트웨어",
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "72f5ec1a5ef2dfa93e86",
+      "title": "황종우 해수부 장관, 태안 어선 실종 현장 방문…수색 상황 점검",
+      "url": "https://www.ajunews.com/view/20261121154711060",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:50:03Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "7011184e7a3bb737c8d0",
+      "title": "캐릭터 소환 부담 덜어낸 '아주르 프로밀리아'...'픽뚫' 없앤 3000만 기대작이 온다",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=157675",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:49:42Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "df2b0a885c218e02ffd2",
+      "title": "테슬라 FSD 특례 심사 제동…첨부자료 5장뿐",
+      "url": "https://zdnet.co.kr/view?no=20261121002210",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:48:49Z",
+      "sourceIds": [
+        "zdnet"
+      ],
+      "topics": [
+        "자동차"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": "테슬라 테슬라코리아 테슬라 FSD 국토부 국토교통부 카테크 "
+    },
+    {
+      "id": "166ef7709c04ff31c22e",
+      "title": "멜라니아 여사, 다큐서 트럼프 직격…\"주변에 '예스맨' 너무 많아\"",
+      "url": "https://www.ajunews.com/view/20261121153756043",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:41:53Z",
+      "sourceIds": [
+        "ajunews-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
       "id": "e73c5fde95e9bbf03ffd",
       "title": "[성장의 온도차②]3% 후반 성장 전망에도 청년은 4년째 '취업 한파'",
       "url": "https://www.newsis.com/view/NISX20261120_0003877451",
@@ -4667,6 +5056,36 @@
         "경제"
       ],
       "firstSeenAt": "2026-11-21T06:28:02Z",
+      "categories": " "
+    },
+    {
+      "id": "e19e84972d6024037332",
+      "title": "\"트럼프보다 시진핑\"…삼전닉스 물린 개미들 반색한 이유",
+      "url": "https://www.hankyung.com/article/2026112114097",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:26:21Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
+      "id": "ef7d2fb58c302f1e498c",
+      "title": "[지스타 26] 웹툰 속 지휘관 경험, 게임으로 완벽 전달...웹젠 '디겜폭' 팬심 저격",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=157674",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:24:29Z",
+      "sourceIds": [
+        "techm"
+      ],
+      "topics": [
+        "기술"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
       "categories": " "
     },
     {
@@ -4700,6 +5119,21 @@
       "categories": " "
     },
     {
+      "id": "5cdb7934096947096c63",
+      "title": "주가 급등하면 뭐하나…中 훈풍에 웃는 'K엔터' 서늘한 경고 [이수의 ETF줌인]",
+      "url": "https://www.hankyung.com/article/2026112003516",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:00:03Z",
+      "sourceIds": [
+        "hankyung-finance"
+      ],
+      "topics": [
+        "주식"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
+      "categories": " "
+    },
+    {
       "id": "a0d850988b8af6976489",
       "title": "[여의도는 지금] 전화→PC→스마트폰…주식 주문, 다음은 AI 안경?",
       "url": "https://www.fnnews.com/news/202611201412224206",
@@ -4727,6 +5161,21 @@
         "경제"
       ],
       "firstSeenAt": "2026-11-21T06:28:02Z",
+      "categories": " "
+    },
+    {
+      "id": "c43d82637ab757d24706",
+      "title": "\"SK하닉 통째로 산다\"…AI 노린 손정의 '1350조 계획' 폭로",
+      "url": "https://www.hankyung.com/article/2026112113827",
+      "summary": "",
+      "publishedAt": "2026-11-21T05:58:05Z",
+      "sourceIds": [
+        "hankyung-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
       "categories": " "
     },
     {
@@ -4789,7 +5238,7 @@
     },
     {
       "id": "64546bc5daea7ef751d9",
-      "title": "\"삼전닉스 아직 안끝났다\"…무디스가 찍은 AI 반도체의 미래",
+      "title": "개미들 피눈물 쏟아지는데…무디스가 본 '삼전닉스의 미래'",
       "url": "https://www.hankyung.com/article/2026112113727",
       "summary": "",
       "publishedAt": "2026-11-21T05:30:47Z",
@@ -4800,6 +5249,23 @@
         "주식"
       ],
       "firstSeenAt": "2026-11-21T06:28:02Z",
+      "categories": " "
+    },
+    {
+      "id": "deec956e482a6fe93efe",
+      "title": "크라우드스트라이크, 지스케일러 인수 추진… 사이버보안 '초대형 빅딜'",
+      "url": "https://www.etnews.com/20261121000041",
+      "summary": "",
+      "publishedAt": "2026-11-21T05:15:49Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security",
+        "etnews-ai"
+      ],
+      "topics": [
+        "보안"
+      ],
+      "firstSeenAt": "2026-11-21T09:21:02Z",
       "categories": " "
     },
     {
@@ -6039,6 +6505,21 @@
       "categories": " "
     },
     {
+      "id": "0cb8154d9449464c1e1a",
+      "title": "서울 아파트 청약 당첨 가점 60점대…추첨제 물량에 관심",
+      "url": "https://www.etoday.co.kr/news/view/2650814",
+      "summary": "",
+      "publishedAt": "2026-11-21T01:00:00Z",
+      "sourceIds": [
+        "etoday-realestate"
+      ],
+      "topics": [
+        "부동산"
+      ],
+      "firstSeenAt": "2026-11-21T03:22:50Z",
+      "categories": "시장동향 "
+    },
+    {
       "id": "37d28e690543c781c75e",
       "title": "[미리보는 소프트웨이브 2026] 〈1〉AI 혁신부터 투자·수출까지…SW 산업 비즈니스 장 연다",
       "url": "https://www.etnews.com/20261120000213",
@@ -6083,21 +6564,6 @@
       ],
       "firstSeenAt": "2026-11-21T03:22:50Z",
       "categories": " "
-    },
-    {
-      "id": "0cb8154d9449464c1e1a",
-      "title": "서울 아파트 청약 당첨 가점 60점대…추첨제 물량에 관심",
-      "url": "https://www.etoday.co.kr/news/view/2650814",
-      "summary": "",
-      "publishedAt": "2026-11-21T01:00:00Z",
-      "sourceIds": [
-        "etoday-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-21T03:22:50Z",
-      "categories": "시장동향 "
     },
     {
       "id": "bc4107bb5d2265e7d398",
@@ -6585,22 +7051,6 @@
       "categories": " "
     },
     {
-      "id": "0f049ba05787f462add4",
-      "title": "[ET톡] 공공기관 해킹 사전 예방이 먼저",
-      "url": "https://www.etnews.com/20261120000205",
-      "summary": "",
-      "publishedAt": "2026-11-21T00:00:00Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-security"
-      ],
-      "topics": [
-        "보안"
-      ],
-      "firstSeenAt": "2026-11-21T00:39:48Z",
-      "categories": " "
-    },
-    {
       "id": "080c841db38c6cf26ea1",
       "title": "엠비디 코스닥 입성⋯ANH스트럭쳐·이노보테라퓨틱스 수요예측 [주간 IPO]",
       "url": "https://www.etoday.co.kr/news/view/2650696",
@@ -6644,6 +7094,22 @@
       ],
       "firstSeenAt": "2026-11-21T00:39:48Z",
       "categories": "일반 "
+    },
+    {
+      "id": "0f049ba05787f462add4",
+      "title": "[ET톡] 공공기관 해킹 사전 예방이 먼저",
+      "url": "https://www.etnews.com/20261120000205",
+      "summary": "",
+      "publishedAt": "2026-11-21T00:00:00Z",
+      "sourceIds": [
+        "etnews-sw",
+        "etnews-security"
+      ],
+      "topics": [
+        "보안"
+      ],
+      "firstSeenAt": "2026-11-21T00:39:48Z",
+      "categories": " "
     },
     {
       "id": "32f942b4b42be7539c25",
@@ -7042,23 +7508,6 @@
       "categories": " "
     },
     {
-      "id": "c3506d348c5f2220f894",
-      "title": "\"에지 AI 확산이 메모리 성장 견인\"…CXMT, 차세대 저전력 제품 양산",
-      "url": "https://zdnet.co.kr/view?no=20261118203029",
-      "summary": "",
-      "publishedAt": "2026-11-20T22:00:01Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "기술",
-        "AI",
-        "자동차"
-      ],
-      "firstSeenAt": "2026-11-21T00:39:48Z",
-      "categories": "CXMT 중국 메모리 반도체 삼성전자 SK하이닉스 엣지 AI 스마트폰 PC 스마트 주행 자동차 반도체ㆍ디스플레이 "
-    },
-    {
       "id": "7875d0e2fc487d8af3be",
       "title": "美 AI 규제에도 꺾이지 않는 반도체⋯“2030년까지 슈퍼사이클”",
       "url": "https://www.etoday.co.kr/news/view/2650948",
@@ -7235,36 +7684,6 @@
       "categories": "증권 "
     },
     {
-      "id": "82f1786ea6e9bd17bc02",
-      "title": "국제 유가 3주 연속 주간 하락세",
-      "url": "https://www.newsis.com/view/NISX20261121_0003877515",
-      "summary": "",
-      "publishedAt": "2026-11-20T21:22:26Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
-      ],
-      "firstSeenAt": "2026-11-21T00:39:48Z",
-      "categories": " "
-    },
-    {
-      "id": "cba43d835dfdefd1ef77",
-      "title": "뉴욕증시 급락, 앤트로픽 상장 상승 반납",
-      "url": "https://www.newsis.com/view/NISX20261121_0003877514",
-      "summary": "",
-      "publishedAt": "2026-11-20T21:14:25Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-20T21:20:31Z",
-      "categories": " "
-    },
-    {
       "id": "38a7c78bc3f726844dc9",
       "title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
       "url": "https://www.mk.co.kr/news/stock/12215101",
@@ -7308,21 +7727,6 @@
       ],
       "firstSeenAt": "2026-11-21T03:22:50Z",
       "categories": " "
-    },
-    {
-      "id": "6550c9d608bc30561719",
-      "title": "차란차, 테슬라 모델 Y 1000만원 할인 구매 기회 제공",
-      "url": "https://zdnet.co.kr/view?no=20261121002601",
-      "summary": "",
-      "publishedAt": "2026-11-20T21:00:02Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "자동차"
-      ],
-      "firstSeenAt": "2026-11-20T21:20:31Z",
-      "categories": "차란차 도이치오토모빌그룹 카테크 "
     },
     {
       "id": "9ff48b6e883c31565a9b",
@@ -7866,32 +8270,6 @@
       "categories": " "
     },
     {
-      "id": "1d954fd73fbf755de8a9",
-      "title": "Jujutsu 입문: Git 사용자에게 익숙하면서도 다른 버전 관리 방식",
-      "url": "https://news.hada.io/topic?id=37531",
-      "summary": "Jujutsu( jj ) 는 Git 저장소에서 Git과 함께 사용할 수 있는 버전 관리 시스템으로, 자동 리베이스와 실행 취소를 조합해 커밋 그래프 중심으로 작업함 작업 사본도 커밋 으로 관리하며 별도 스테이징 영역이 없음. 파일 편집 후 jj 명령으로 자동 스냅샷을 만들고, 커밋 ID가 바뀌어도 논리적 변경의 change ID 는 유지됨 이전 커밋을 수정하면 후손 커밋을 자동 리베이스 하며, 충돌이 발생해도 즉시 해결하도록 강제하지 않음. 충돌 상태를 기록한 채 현재 작업을 이어갈 수 있음 작업",
-      "publishedAt": "2026-11-20T16:40:15Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-20T18:24:04Z",
-      "categories": " "
-    },
-    {
-      "id": "1c49bf8ea88b0910aaf3",
-      "title": "Signal은 사용자의 프라이버시 보호에 진지함",
-      "url": "https://news.hada.io/topic?id=37530",
-      "summary": "Signal 이 모바일 운영체제에 내장된 AI 에이전트의 대화 데이터 수집을 막기 위해, iOS 27과 AI 비서의 화면 접근을 감지할 수 있는 Android 환경에 스크린샷 차단 조치를 적용함 운영체제의 화면 읽기 기반 AI 기능 은 Signal 데이터를 수집해 로컬 데이터베이스나 원격 서버에서 활용할 수 있으며, 수집 이후에는 Signal이 통제하거나 대화 참여자의 프라이버시를 독립적으로 보장할 수 없음 스크린샷 차단은 불완전한 방어책 으로, 파일시스템을 통한 데이터 접근까지 막지는 못하며 사",
-      "publishedAt": "2026-11-20T16:37:14Z",
-      "sourceIds": [
-        "geeknews"
-      ],
-      "topics": [],
-      "firstSeenAt": "2026-11-20T18:24:04Z",
-      "categories": " "
-    },
-    {
       "id": "03b179946dd0e551984b",
       "title": "언어 모델은 자체 가중치를 다시 작성할 수 있습니다.",
       "url": "https://arxiv.org/abs/2611.21885",
@@ -7944,21 +8322,6 @@
       ],
       "firstSeenAt": "2026-11-20T18:24:04Z",
       "categories": " "
-    },
-    {
-      "id": "67a5fae91babd89d518c",
-      "title": "오킨스전자, 케미텍 반도체 검사장비 커넥터 특허 2건 무효심판 청구",
-      "url": "https://zdnet.co.kr/view?no=20261121002518",
-      "summary": "",
-      "publishedAt": "2026-11-20T15:38:23Z",
-      "sourceIds": [
-        "zdnet"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-20T21:20:31Z",
-      "categories": "오킨스전자 케미텍 반도체 검사장비 반도체ㆍ디스플레이 "
     },
     {
       "id": "bf82adff4bf6ffb39c86",
@@ -9859,7 +10222,7 @@
     },
     {
       "id": "227ae74c0cee7039712f",
-      "title": "코스피 폭등에 돈 쓸어담더니…'70% 하락' 비명 터진 종목",
+      "title": "증권주 목표가, 증권사가 줄줄이 내렸다",
       "url": "https://www.hankyung.com/article/2026112007071",
       "summary": "",
       "publishedAt": "2026-11-20T08:34:38Z",
@@ -10005,9 +10368,9 @@
       "categories": "증권 "
     },
     {
-      "id": "d1e07dd409d752e3203e",
-      "title": "\"글로벌 사모대출 옥석 가리는 중…투자기회 여전\"",
-      "url": "https://www.mk.co.kr/news/stock/12214847",
+      "id": "8e5616c16a7e1a98ec0f",
+      "title": "韓주식 던지는 외국인, 채권은 7.4조 샀다",
+      "url": "https://www.mk.co.kr/news/stock/12214846",
       "summary": "",
       "publishedAt": "2026-11-20T08:32:11Z",
       "sourceIds": [
@@ -10021,9 +10384,9 @@
       "categories": "증권 "
     },
     {
-      "id": "8e5616c16a7e1a98ec0f",
-      "title": "韓주식 던지는 외국인, 채권은 7.4조 샀다",
-      "url": "https://www.mk.co.kr/news/stock/12214846",
+      "id": "d1e07dd409d752e3203e",
+      "title": "\"글로벌 사모대출 옥석 가리는 중…투자기회 여전\"",
+      "url": "https://www.mk.co.kr/news/stock/12214847",
       "summary": "",
       "publishedAt": "2026-11-20T08:32:11Z",
       "sourceIds": [
@@ -10309,6 +10672,21 @@
       "categories": "경제 "
     },
     {
+      "id": "f231dd2d1fc3156f7432",
+      "title": "[포토] 경제6단체 만난 산업장관 \"메가특구법 절실\"",
+      "url": "https://www.mk.co.kr/news/economy/12214806",
+      "summary": "",
+      "publishedAt": "2026-11-20T08:29:06Z",
+      "sourceIds": [
+        "mk-economy"
+      ],
+      "topics": [
+        "경제"
+      ],
+      "firstSeenAt": "2026-11-20T09:22:00Z",
+      "categories": "경제 "
+    },
+    {
       "id": "bc7fbae12e1128573429",
       "title": "반도체發 원화강세 예고에도…정부, 환율방어 재원 증액 '0'",
       "url": "https://www.mk.co.kr/news/economy/12214807",
@@ -10320,21 +10698,6 @@
       "topics": [
         "금융",
         "정책"
-      ],
-      "firstSeenAt": "2026-11-20T09:22:00Z",
-      "categories": "경제 "
-    },
-    {
-      "id": "f231dd2d1fc3156f7432",
-      "title": "[포토] 경제6단체 만난 산업장관 \"메가특구법 절실\"",
-      "url": "https://www.mk.co.kr/news/economy/12214806",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:29:06Z",
-      "sourceIds": [
-        "mk-economy"
-      ],
-      "topics": [
-        "경제"
       ],
       "firstSeenAt": "2026-11-20T09:22:00Z",
       "categories": "경제 "
@@ -13637,6 +14000,7 @@
       ],
       "topics": [
         "기술",
+        "소프트웨어",
         "AI",
         "자동차"
       ],
@@ -14735,21 +15099,6 @@
       "categories": "경제|일반경제 "
     },
     {
-      "id": "31871be036331a4ee565",
-      "title": "삼성 첫 AI 안경, 내달 10일 출격",
-      "url": "https://www.etnews.com/20261120000037",
-      "summary": "",
-      "publishedAt": "2026-11-20T02:00:00Z",
-      "sourceIds": [
-        "etnews-it"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-11-20T03:23:39Z",
-      "categories": " "
-    },
-    {
       "id": "2bb7c457816dd370c2f0",
       "title": "AI 시대 필수 보안: 외부 가드레일 완벽 가이드",
       "url": "https://techblog.lycorp.co.jp/ko/external-guardrails-for-ai-security",
@@ -14781,6 +15130,21 @@
         "AI"
       ],
       "firstSeenAt": "2026-11-20T09:22:00Z",
+      "categories": " "
+    },
+    {
+      "id": "31871be036331a4ee565",
+      "title": "삼성 첫 AI 안경, 내달 10일 출격",
+      "url": "https://www.etnews.com/20261120000037",
+      "summary": "",
+      "publishedAt": "2026-11-20T02:00:00Z",
+      "sourceIds": [
+        "etnews-it"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "firstSeenAt": "2026-11-20T03:23:39Z",
       "categories": " "
     },
     {
@@ -20065,7 +20429,6 @@
       "summary": "",
       "publishedAt": "2026-11-19T08:01:04Z",
       "sourceIds": [
-        "etnews-sw",
         "etnews-ai"
       ],
       "topics": [
@@ -20096,7 +20459,6 @@
       "summary": "",
       "publishedAt": "2026-11-19T08:00:43Z",
       "sourceIds": [
-        "etnews-sw",
         "etnews-ai"
       ],
       "topics": [
@@ -20136,22 +20498,6 @@
       "categories": " "
     },
     {
-      "id": "39c95674fcc015e2e5a8",
-      "title": "30개국 41개 클러스터 품은 '글로벌로봇클러스터(GRC)', 대구서 글로벌 로봇산업의 미래를 열다",
-      "url": "https://www.etnews.com/20261118000476",
-      "summary": "",
-      "publishedAt": "2026-11-19T08:00:00Z",
-      "sourceIds": [
-        "etnews-sw",
-        "etnews-ai"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-19T12:26:41Z",
-      "categories": " "
-    },
-    {
       "id": "d522f60550d1a0b40485",
       "title": "'AI 커닝' 막아라…보안업계, 스마트안경 탐지기 개발 경쟁",
       "url": "https://www.etnews.com/20261119000208",
@@ -20164,6 +20510,21 @@
       "topics": [
         "보안",
         "AI"
+      ],
+      "firstSeenAt": "2026-11-19T12:26:41Z",
+      "categories": " "
+    },
+    {
+      "id": "39c95674fcc015e2e5a8",
+      "title": "30개국 41개 클러스터 품은 '글로벌로봇클러스터(GRC)', 대구서 글로벌 로봇산업의 미래를 열다",
+      "url": "https://www.etnews.com/20261118000476",
+      "summary": "",
+      "publishedAt": "2026-11-19T08:00:00Z",
+      "sourceIds": [
+        "etnews-ai"
+      ],
+      "topics": [
+        "기술"
       ],
       "firstSeenAt": "2026-11-19T12:26:41Z",
       "categories": " "
@@ -22793,8 +23154,7 @@
       "summary": "",
       "publishedAt": "2026-11-19T06:06:42Z",
       "sourceIds": [
-        "etnews-security",
-        "etnews-ai"
+        "etnews-security"
       ],
       "topics": [
         "보안",
@@ -55791,216 +56151,6 @@
       "categories": " "
     },
     {
-      "id": "37830363c3eda6632276",
-      "title": "[단독] 서울 5개동 중 1곳 대선땐 민주, 지선땐 국힘…부동산에 변심",
-      "url": "https://www.mk.co.kr/news/politics/12209352",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:26:24Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "부동산 "
-    },
-    {
-      "id": "b1bb231e654ca4279405",
-      "title": "가입자 늘고, AI 사업 호재 … 바닥 다진 KT 내년 청신호",
-      "url": "https://www.mk.co.kr/news/stock/12209350",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:24:38Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "증권 "
-    },
-    {
-      "id": "cdc656c77d6a371a2438",
-      "title": "K뷰티 ETF, 뉴욕증시에 떴다",
-      "url": "https://www.mk.co.kr/news/stock/12209348",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:24:37Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "증권 "
-    },
-    {
-      "id": "901f33a18582b805e418",
-      "title": "스페이스X 덜고 메모리 더 담은 큰손들",
-      "url": "https://www.mk.co.kr/news/stock/12209349",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:24:37Z",
-      "sourceIds": [
-        "mk-stock"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "증권 "
-    },
-    {
-      "id": "c3340870fcaabac0af8e",
-      "title": "\"시간은 매수자의 편\"…삼전닉스 밸류에이션 매력 커지나",
-      "url": "https://www.newsis.com/view/NISX20261115_0003868633",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:17:01Z",
-      "sourceIds": [
-        "newsis-finance"
-      ],
-      "topics": [
-        "금융"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": " "
-    },
-    {
-      "id": "87fd6bde77709415f0b7",
-      "title": "롯데건설, 1.4조 빚 털어내고 이익 '쑥'",
-      "url": "https://www.mk.co.kr/news/realestate/12209323",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:13:50Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "부동산 "
-    },
-    {
-      "id": "aa931d6b652888f375f0",
-      "title": "전월세 비싼 수도권 청년 … 이자지원은 '역차별'",
-      "url": "https://www.mk.co.kr/news/economy/12209322",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:13:50Z",
-      "sourceIds": [
-        "mk-economy"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "경제 "
-    },
-    {
-      "id": "2c01c626aeb5ec036120",
-      "title": "중랑 중화역 84㎡ 12.7억 … 금주 전국 1681가구 청약",
-      "url": "https://www.mk.co.kr/news/realestate/12209321",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:13:49Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "부동산 "
-    },
-    {
-      "id": "9dfc3581d8e6f1253a30",
-      "title": "200억 펜트하우스 … 용산 오피스텔 통할까",
-      "url": "https://www.mk.co.kr/news/realestate/12209320",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:13:49Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T12:23:44Z",
-      "categories": "부동산 "
-    },
-    {
-      "id": "c8db05d1ee7f7c4a45a8",
-      "title": "박사급 7천명 모인 홍릉을 바이오 메카로",
-      "url": "https://www.mk.co.kr/news/realestate/12209312",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:13:39Z",
-      "sourceIds": [
-        "mk-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "부동산 "
-    },
-    {
-      "id": "af0fb93107c2e56cc6c3",
-      "title": "반도체 호황…용인 기흥·수원 영통구 집값 '껑충'",
-      "url": "https://www.hankyung.com/article/2026111574171",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:12:29Z",
-      "sourceIds": [
-        "hankyung-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": " "
-    },
-    {
-      "id": "1de16e2a73fe5e4cb806",
-      "title": "기지개 켜는 GS건설·한국전력…\"블루웨이브 훈풍 올라탈것\"",
-      "url": "https://www.etoday.co.kr/news/view/2648036",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:00:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "일반 "
-    },
-    {
-      "id": "b56a5b7116f605b03bc5",
-      "title": "‘젠슨 황 리스크’에 출렁인 삼전·SK하닉…반등 열쇠는 HBM 고객 다변화",
-      "url": "https://www.etoday.co.kr/news/view/2648084",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:00:00Z",
-      "sourceIds": [
-        "etoday-market"
-      ],
-      "topics": [
-        "주식"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "일반 "
-    },
-    {
-      "id": "cbcc1d7261cd2b5e4dc6",
-      "title": "지식산업센터 공급 과잉에…서울 개발사업 잇따라 주거시설로 선회",
-      "url": "https://www.etoday.co.kr/news/view/2648190",
-      "summary": "",
-      "publishedAt": "2026-11-15T08:00:00Z",
-      "sourceIds": [
-        "etoday-realestate"
-      ],
-      "topics": [
-        "부동산"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": "시장동향 "
-    },
-    {
       "id": "9690cf29249cefb33545",
       "title": "더플레이토 \"AI 회의록 넘어 지식 관리로\"…ARR 300만달러 달성",
       "url": "https://www.aitimes.com/news/articleView.html?idxno=217347",
@@ -56011,21 +56161,6 @@
       ],
       "topics": [
         "AI"
-      ],
-      "firstSeenAt": "2026-11-15T09:20:38Z",
-      "categories": " "
-    },
-    {
-      "id": "29b7c5b0ab2ebd5c895f",
-      "title": "감독관 4명 모두 몰랐다…국가자격시험 관리부실 '도마'",
-      "url": "https://www.newsis.com/view/NISX20261115_0003868563",
-      "summary": "",
-      "publishedAt": "2026-11-15T07:59:30Z",
-      "sourceIds": [
-        "newsis-economy"
-      ],
-      "topics": [
-        "경제"
       ],
       "firstSeenAt": "2026-11-15T09:20:38Z",
       "categories": " "
@@ -59560,6 +59695,19 @@
       "categories": " "
     },
     {
+      "id": "4476eb7d99f4eced2f45",
+      "title": "2026 ICPC Asia Seoul Regional Contest 풀이",
+      "url": "https://justicehui.github.io/icpc/2026/11/14/2026-icpc-seoul",
+      "summary": "서론 2026년 11월 14일에 개최된 2026 ICPC Asia Seoul Regional Contest(한국 대학생 프로그래밍 경시대회) 비공식 풀이입니다.",
+      "publishedAt": "2026-11-14T00:00:00Z",
+      "sourceIds": [
+        "awesome"
+      ],
+      "topics": [],
+      "firstSeenAt": "2026-11-14T12:23:29Z",
+      "categories": " "
+    },
+    {
       "id": "fc3ff76807319c0d8c24",
       "title": "10년 동안 진행한 데이터, AI 교육 정리 : 어떤 경험들이 쌓여 지금의 내가 되었을까",
       "url": "https://zzsza.github.io/diary/2026/11/14/my-education-journey",
@@ -59571,19 +59719,6 @@
       "topics": [
         "AI"
       ],
-      "firstSeenAt": "2026-11-14T12:23:29Z",
-      "categories": " "
-    },
-    {
-      "id": "4476eb7d99f4eced2f45",
-      "title": "2026 ICPC Asia Seoul Regional Contest 풀이",
-      "url": "https://justicehui.github.io/icpc/2026/11/14/2026-icpc-seoul",
-      "summary": "서론 2026년 11월 14일에 개최된 2026 ICPC Asia Seoul Regional Contest(한국 대학생 프로그래밍 경시대회) 비공식 풀이입니다.",
-      "publishedAt": "2026-11-14T00:00:00Z",
-      "sourceIds": [
-        "awesome"
-      ],
-      "topics": [],
       "firstSeenAt": "2026-11-14T12:23:29Z",
       "categories": " "
     },
@@ -73532,142 +73667,6 @@
       ],
       "firstSeenAt": "2026-11-10T09:22:10Z",
       "categories": "이스라엘 컴퓨팅 "
-    },
-    {
-      "id": "f09caa263c55a174fbfc",
-      "title": "[2026 강소특구] 경남김해강소특구 “차세대 의생명·의료기기 기업을 세계로”",
-      "url": "https://it.donga.com/109878",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:24:40Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": "뉴스 "
-    },
-    {
-      "id": "89d420e336c85a04729d",
-      "title": "바이트댄스, 100회 수정해도 이미지 유지하는 '시드림 5.5' 공개",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217225",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:20:36Z",
-      "sourceIds": [
-        "aitimes"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "9e244074b91fd613928d",
-      "title": "크래프톤 \"펍지 10주년, 역대 최대 규모 콘텐츠...'인조이' 내년 정식 출시\"",
-      "url": "https://www.techm.kr/news/articleView.html?idxno=157171",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:19:52Z",
-      "sourceIds": [
-        "techm"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "e65f904feae9bf21bb77",
-      "title": "SBA·아우모비오 코리아 “2026 이노베이션 데이, 초격차 스타트업 동반 혁신 가속”",
-      "url": "https://it.donga.com/109885",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:18:51Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": "뉴스 "
-    },
-    {
-      "id": "0ffb14cfe62067e852b0",
-      "title": "넥슨·크래프톤, 3분기 누적 역대 최대 실적... 간판 IP가 성장 견인",
-      "url": "https://www.etnews.com/20261110000459",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:13:34Z",
-      "sourceIds": [
-        "etnews-it"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "5f1ea79cc6cb76b9cb2a",
-      "title": "엔비디아, 업스테이지·모티프·리얼월드·포인트투 투자… 韓 AI 생태계 ‘녹색불’",
-      "url": "https://it.donga.com/109884",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:13:27Z",
-      "sourceIds": [
-        "itdonga"
-      ],
-      "topics": [
-        "AI"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": "뉴스 "
-    },
-    {
-      "id": "0d5056787c3338fc4c90",
-      "title": "BMW, '챗GPT'로 차량 추천부터 시승 예약까지…AI 쇼핑 확대",
-      "url": "https://www.aitimes.com/news/articleView.html?idxno=217233",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:13:10Z",
-      "sourceIds": [
-        "aitimes"
-      ],
-      "topics": [
-        "AI",
-        "자동차"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "107eb57116dace076956",
-      "title": "[D-CON 26] 전문가들 \"가상자산, 투자 넘어 미래 경제 인프라로 연결\"",
-      "url": "https://www.techm.kr/news/articleView.html?idxno=157173",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:10:37Z",
-      "sourceIds": [
-        "techm"
-      ],
-      "topics": [
-        "기술"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
-    },
-    {
-      "id": "872c680d04b033c6ec54",
-      "title": "[김대환 보안칼럼] 패치적용이 이토록 어려운 이유",
-      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209435",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:04:55Z",
-      "sourceIds": [
-        "dailysecu"
-      ],
-      "topics": [
-        "보안"
-      ],
-      "firstSeenAt": "2026-11-10T09:22:10Z",
-      "categories": " "
     },
     {
       "id": "768d183e39ef826dd231",
