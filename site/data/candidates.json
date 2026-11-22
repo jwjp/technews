@@ -1,7 +1,144 @@
 {
-  "generatedAt": "2026-11-15T23:35:13Z",
-  "week": "2026-W47",
+  "generatedAt": "2026-11-22T23:35:16Z",
+  "week": "2026-W48",
   "candidates": [
+    {
+      "id": "672a85187cae6684",
+      "name": "AX Engineer Lukas",
+      "siteUrl": "https://brunch.co.kr/@cks210",
+      "feedUrl": "https://brunch.co.kr/rss/@@gpO",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-11-22T11:35:39Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 20,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "AI가 도와준다는 말, 안심해도 되나? - 당근의 에이전트 소식이 마냥 반갑지 않은 이유",
+          "url": "https://brunch.co.kr/@@gpO/294",
+          "publishedAt": "2026-11-22T11:35:39Z"
+        },
+        {
+          "title": "AI 탈중앙화 3편, AI 소유는 멀어진다. - 클로즈드 모델 성능은 좋지만 장기적으로 개인에게는 마이너스다.",
+          "url": "https://brunch.co.kr/@@gpO/292",
+          "publishedAt": "2026-11-21T16:06:09Z"
+        },
+        {
+          "title": "지금은 AI 시대가 아니다. 아직 다리 위에 있다. - 아무도 살아본 적 없는 시대의 전문가가 어떻게 존재할 수 있을까?",
+          "url": "https://brunch.co.kr/@@gpO/291",
+          "publishedAt": "2026-11-21T01:52:27Z"
+        }
+      ],
+      "score": 52
+    },
+    {
+      "id": "e047031433116d19",
+      "name": "Monologg Blog",
+      "siteUrl": "https://monologg.kr/",
+      "feedUrl": "https://monologg.kr/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술"
+      ],
+      "latestAt": "2026-11-18T00:00:00Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 19,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Claude Code 운영기 6편: Perplexity MCP 붙였더니 리서치 답 88개 중 74개가 나아졌습니다",
+          "url": "https://monologg.kr/posts/2026/11/18/2026-11-18-claude-code-ops-search-mcp",
+          "publishedAt": "2026-11-18T00:00:00Z"
+        },
+        {
+          "title": "Claude Code 운영기 5편: Claude야, 영어로 쓰라니까 왜 한국어로 답한다고 해",
+          "url": "https://monologg.kr/posts/2026/10/25/2026-10-25-claude-code-ops-claude-p-settings",
+          "publishedAt": "2026-10-25T00:00:00Z"
+        },
+        {
+          "title": "Claude Code 운영기 4편: 뒷정리 안 하고 간 Claude, 프로세스 148개에 메모리 3GB",
+          "url": "https://monologg.kr/posts/2026/10/21/2026-10-21-claude-code-ops-scheduled-claude-p",
+          "publishedAt": "2026-10-21T00:00:00Z"
+        }
+      ],
+      "score": 43
+    },
+    {
+      "id": "28028a1d83f43a51",
+      "name": "케세라세라",
+      "siteUrl": "https://kangmyounghun.blogspot.kr/",
+      "feedUrl": "https://kangmyounghun.blogspot.com/feeds/posts/default",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [],
+      "latestAt": "2026-11-21T08:13:55Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 15,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "Splunk의 데이터 모델 가속",
+          "url": "https://kangmyounghun.blogspot.com/2026/11/splunk.html",
+          "publishedAt": "2026-11-21T08:13:55Z"
+        },
+        {
+          "title": "Splunk의 Join - 6th",
+          "url": "https://kangmyounghun.blogspot.com/2026/11/splunk-join-6th.html",
+          "publishedAt": "2026-11-19T11:37:15Z"
+        },
+        {
+          "title": "ingest pipeline - 7th",
+          "url": "https://kangmyounghun.blogspot.com/2026/11/ingest-pipeline-7th.html",
+          "publishedAt": "2026-11-05T13:17:04Z"
+        }
+      ],
+      "score": 39
+    },
+    {
+      "id": "b5a1eaf11b1f909a",
+      "name": "Kendrick's Blog - My Reflections and Stories",
+      "siteUrl": "https://sonim1.com/ko/blog",
+      "feedUrl": "https://sonim1.com/rss.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "latestAt": "2026-11-21T00:00:00Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "[Course Review] 10x Your Productivity with Claude Code: Learn from a Meta Analyst",
+          "url": "https://sonim1.com/en/blog/review-claude-code-productivity-course",
+          "publishedAt": "2026-11-21T00:00:00Z"
+        },
+        {
+          "title": "[강의 리뷰] Meta 현직자에게 배우는 Claude Code로 생산성 10배 만들기",
+          "url": "https://sonim1.com/ko/blog/review-claude-code-productivity-course",
+          "publishedAt": "2026-11-21T00:00:00Z"
+        },
+        {
+          "title": "[Course Review] Claude Does It All",
+          "url": "https://sonim1.com/en/blog/review-claude-does-it-all-course",
+          "publishedAt": "2026-10-26T00:00:00Z"
+        }
+      ],
+      "score": 37
+    },
     {
       "id": "4a918624a144e5e3",
       "name": "컴퓨터 vs 책",
@@ -39,147 +176,6 @@
       "score": 71
     },
     {
-      "id": "05bef75803824775",
-      "name": "사랑나무아빠의 행복한 세상",
-      "siteUrl": "https://blog.naver.com/hupers",
-      "feedUrl": "https://rss.blog.naver.com/hupers.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI",
-        "개발",
-        "기술",
-        "소프트웨어"
-      ],
-      "latestAt": "2026-11-15T15:17:59Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 22,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "서평 / 젠슨황의 소름돋는 미래예측 50가지",
-          "url": "https://blog.naver.com/hupers/224478413057?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-15T15:17:59Z"
-        },
-        {
-          "title": "로컬 AI 노트북 추천 – 맥북 에어 M5부터 맥스튜디오 M5 Ultra까지, 로컬 LLM용 기기 5종 비교 (2026)",
-          "url": "https://blog.naver.com/hupers/224475062224?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-12T17:02:26Z"
-        },
-        {
-          "title": "AI 에이전트용 검색 API 비교 순위 링크 본문 발췌 리서치 중 무엇을 고를까 (현업 개발자의 선택 기준)",
-          "url": "https://blog.naver.com/hupers/224467736906?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-06T13:49:27Z"
-        }
-      ],
-      "score": 60
-    },
-    {
-      "id": "1533e8f6e86803a4",
-      "name": "Daddy Makers",
-      "siteUrl": "https://daddynkidsmakers.blogspot.kr/",
-      "feedUrl": "https://daddynkidsmakers.blogspot.com/feeds/posts/default",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI",
-        "개발",
-        "기술"
-      ],
-      "latestAt": "2026-11-14T09:15:49Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 6,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "헤르메스 로컬 바이브 코딩 설치 최적화 방법 - 최신 오픈 모델 기반 클로드 코드와 실측 비교",
-          "url": "https://daddynkidsmakers.blogspot.com/2026/11/blog-post.html",
-          "publishedAt": "2026-11-14T09:15:49Z"
-        },
-        {
-          "title": "REA 역공학 도구 기반 DWG 캐드파일 분석, 캐드 뷰어 및 모델러 도구 Web App 개발기",
-          "url": "https://daddynkidsmakers.blogspot.com/2026/10/rea-dwg-rust-cad.html",
-          "publishedAt": "2026-10-17T16:51:25Z"
-        },
-        {
-          "title": "GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과",
-          "url": "https://daddynkidsmakers.blogspot.com/2026/10/gpt6-codex.html",
-          "publishedAt": "2026-10-05T06:17:07Z"
-        }
-      ],
-      "score": 37
-    },
-    {
-      "id": "1e5d7179c6b6a590",
-      "name": "홍창수",
-      "siteUrl": "https://brunch.co.kr/@gauss92tgrd",
-      "feedUrl": "https://brunch.co.kr/rss/@@5jl5",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "AI"
-      ],
-      "latestAt": "2026-10-25T04:51:02Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 10,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "클로드, S&P 500을 이겨줘 - 5만 달러 AI 자율 투자 실험이 던진 질문",
-          "url": "https://brunch.co.kr/@@5jl5/195",
-          "publishedAt": "2026-10-25T04:51:02Z"
-        },
-        {
-          "title": "악재는 반영됐다, 이제 시장은 실적을 본다 - 악재 이후, 실적의 시간",
-          "url": "https://brunch.co.kr/@@5jl5/194",
-          "publishedAt": "2026-09-22T12:10:30Z"
-        },
-        {
-          "title": "에이전틱 트레이딩 시대가 온다 - 에이전틱 트레이딩(Agentic Trading)의 현황과 미래",
-          "url": "https://brunch.co.kr/@@5jl5/193",
-          "publishedAt": "2026-09-14T11:02:00Z"
-        }
-      ],
-      "score": 37
-    },
-    {
-      "id": "3cc1c8d625bacc80",
-      "name": "Just quit your job",
-      "siteUrl": "https://www.miconblog.com/",
-      "feedUrl": "https://www.miconblog.com/feed.xml",
-      "section": "tech",
-      "kind": "blog",
-      "topics": [
-        "개발"
-      ],
-      "latestAt": "2026-10-20T03:43:17Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 10,
-      "overlapCount": 0,
-      "foundVia": "Awesome Devblog",
-      "samples": [
-        {
-          "title": "이번엔 진짜 원격 근무다!",
-          "url": "https://www.miconblog.com/blog/develop-lyle-remote",
-          "publishedAt": "2026-10-20T03:43:17Z"
-        },
-        {
-          "title": "이왕 하는거 제대로 해보자.",
-          "url": "https://www.miconblog.com/blog/이왕-하는거-제대로-해보자",
-          "publishedAt": "2026-10-16T03:51:23Z"
-        },
-        {
-          "title": "절로 마음을 비우다.",
-          "url": "https://www.miconblog.com/blog/절로-마음을-비우다",
-          "publishedAt": "2026-10-12T16:02:33Z"
-        }
-      ],
-      "score": 28
-    },
-    {
       "id": "0e70cecb456f8713",
       "name": "AI 세상에서 살아남기",
       "siteUrl": "https://wanglan.tistory.com/",
@@ -215,38 +211,72 @@
       "score": 60
     },
     {
-      "id": "a74dd0667343bdce",
-      "name": "비즈워치 · 경제",
-      "siteUrl": "https://news.bizwatch.co.kr/category/finance",
-      "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
+      "id": "f5b6b7cac49d3da5",
+      "name": "부동산분석",
+      "siteUrl": "https://blog.naver.com/happylife0909",
+      "feedUrl": "https://rss.blog.naver.com/happylife0909.xml",
       "section": "economy",
-      "kind": "news",
+      "kind": "blog",
+      "topics": [
+        "부동산"
+      ],
+      "latestAt": "2026-11-19T12:15:15Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 공개 목록",
+      "samples": [
+        {
+          "title": "안양 만안구 래미안메가트리아 단지정보와 최근 실거래, 전용84 11.5억",
+          "url": "https://blog.naver.com/happylife0909/224483890154?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-19T12:15:15Z"
+        },
+        {
+          "title": "평촌 자이퍼스니티 분양권 실거래, 전용59 16.5억",
+          "url": "https://blog.naver.com/happylife0909/224483797670?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-19T10:41:21Z"
+        },
+        {
+          "title": "11월 19일 서울 강동구 신규 공개 아파트 매매 고가 TOP5 단지① 고덕그라시움 ② 고덕롯데캐슬베네루체 ③ 래미안솔베뉴 ④ 천호동삼성아파트 ⑤ 성내동삼성아파트",
+          "url": "https://blog.naver.com/happylife0909/224483368920?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-19T04:56:54Z"
+        }
+      ],
+      "score": 71
+    },
+    {
+      "id": "79d556e8ac4e7ce6",
+      "name": "포아시스 소상공인 지원사업 실무노트",
+      "siteUrl": "https://blog.naver.com/poasis53",
+      "feedUrl": "https://rss.blog.naver.com/poasis53.xml",
+      "section": "economy",
+      "kind": "blog",
       "topics": [
         "금융"
       ],
-      "latestAt": "2026-11-15T23:20:03Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 55,
+      "latestAt": "2026-11-22T11:00:00Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 50,
       "overlapCount": 0,
-      "foundVia": "비즈워치 RSS 안내",
+      "foundVia": "경제 블로그 공개 목록",
       "samples": [
         {
-          "title": "보험 본업은 선방했는데…투자손익이 실적 갈랐다",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/13/0042",
-          "publishedAt": "2026-11-15T23:20:03Z"
+          "title": "아랫집 누수 배상 보험 청구 전 확인할 5가지, 2026년 기준",
+          "url": "https://blog.naver.com/poasis53/224487121114?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-22T11:00:00Z"
         },
         {
-          "title": "금융지주 3연임 문턱 높였지만…ISS 영향력·관치 논란은 숙제",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/12/0048",
-          "publishedAt": "2026-11-15T23:00:02Z"
+          "title": "2026 정년연장 논의 중, 정년 60세와 연금 개시 공백 확인법",
+          "url": "https://blog.naver.com/poasis53/224487118862?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-22T10:10:00Z"
         },
         {
-          "title": "가계대출 다시 증가…이달 기준금리 인상 힘 받나",
-          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/13/0028",
-          "publishedAt": "2026-11-15T03:00:02Z"
+          "title": "자원순환 사회적기업 인증, 2026년 공고에서 확인할 점",
+          "url": "https://blog.naver.com/poasis53/224487116883?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-22T09:00:00Z"
         }
       ],
-      "score": 56
+      "score": 36
     },
     {
       "id": "edb8cbee16ae8bd4",
@@ -257,32 +287,32 @@
       "kind": "news",
       "topics": [
         "금융",
-        "부동산",
+        "정책",
         "주식"
       ],
-      "latestAt": "2026-11-15T22:20:02Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 98,
+      "latestAt": "2026-11-22T11:47:03Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 83,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "거래 줄고 채권 손실에 과징금까지…증권사 실적 '삼중고'",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/11/13/0025",
-          "publishedAt": "2026-11-15T22:20:02Z"
+          "title": "'증안펀드' 가동 준비만 해도 코스피 반등?…과거 사례 보니",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/22/0003",
+          "publishedAt": "2026-11-22T11:47:03Z"
         },
         {
-          "title": "[공모주달력]청약자금 19조원 몰린 4곳…상장 첫날도 웃을까",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/11/13/0024",
-          "publishedAt": "2026-11-14T23:00:02Z"
+          "title": "'검은 월요일' 우려에 정부 긴급 대응…증안펀드 가동 준비",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/22/0002",
+          "publishedAt": "2026-11-22T10:57:03Z"
         },
         {
-          "title": "[ETF워치]같은 엔비디아 ETF인데…누군 잃고 누군 벌었다",
-          "url": "https://news.bizwatch.co.kr/article/market/2026/11/13/0047",
-          "publishedAt": "2026-11-14T00:00:03Z"
+          "title": "나스닥 폭락에 또 검은 월요일?…\"증시 공포 이미 금융위기 수준\"",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/11/22/0001",
+          "publishedAt": "2026-11-22T03:10:03Z"
         }
       ],
-      "score": 56
+      "score": 72
     },
     {
       "id": "f4e53755c27db3d7",
@@ -292,30 +322,65 @@
       "section": "economy",
       "kind": "blog",
       "topics": [
+        "금융",
         "부동산",
         "정책",
         "주식"
       ],
-      "latestAt": "2026-11-15T10:50:30Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
+      "latestAt": "2026-11-22T08:47:52Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
       "recentCount": 50,
       "overlapCount": 0,
       "foundVia": "경제 블로그 후보",
       "samples": [
         {
-          "title": "바닥에 1억 투자했으면 지금 \"206억, 5월엔 526억\"",
-          "url": "https://blog.naver.com/gjwlh/224478139107?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-15T10:50:30Z"
+          "title": "삼성전자 배당금 \"100주에 39만원 들어와요\" 12월 28일까지",
+          "url": "https://blog.naver.com/gjwlh/224487195619?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-22T08:47:52Z"
         },
         {
-          "title": "ISA 계좌 2026 서민형 \"1억 넣으면 세금 190만원 차이\"",
-          "url": "https://blog.naver.com/gjwlh/224477597899?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-15T00:22:12Z"
+          "title": "미국증시 \"6월에 넣은 1억이 1,000만원..\" SOXL 레버리지 ETF",
+          "url": "https://blog.naver.com/gjwlh/224487108972?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-22T07:08:28Z"
         },
         {
-          "title": "\"20만원 지킬까\" 삼성전자 주가 전망 월요일",
-          "url": "https://blog.naver.com/gjwlh/224477572001?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-14T23:42:33Z"
+          "title": "DSR 계산기 \"연봉 1억인데 4.5억...\" 수도권 주담대 한도",
+          "url": "https://blog.naver.com/gjwlh/224487004987?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-22T05:10:27Z"
+        }
+      ],
+      "score": 60
+    },
+    {
+      "id": "a74dd0667343bdce",
+      "name": "비즈워치 · 경제",
+      "siteUrl": "https://news.bizwatch.co.kr/category/finance",
+      "feedUrl": "https://news.bizwatch.co.kr/rss/service/finance",
+      "section": "economy",
+      "kind": "news",
+      "topics": [
+        "금융"
+      ],
+      "latestAt": "2026-11-22T00:00:10Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 55,
+      "overlapCount": 0,
+      "foundVia": "비즈워치 RSS 안내",
+      "samples": [
+        {
+          "title": "올해 마지막 금통위…금리인상 '마침표' 찍을까",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/20/0029",
+          "publishedAt": "2026-11-22T00:00:10Z"
+        },
+        {
+          "title": "[보푸라기]차보험료 줄이는 자기부담금…사고 땐 부담 커져",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/20/0027",
+          "publishedAt": "2026-11-21T03:00:03Z"
+        },
+        {
+          "title": "30년 'KB맨' 이재근호 출범…양종희 \"AI·전문성 강화\" 당부",
+          "url": "https://news.bizwatch.co.kr/article/finance/2026/11/20/0041",
+          "publishedAt": "2026-11-20T09:55:02Z"
         }
       ],
       "score": 56
@@ -328,66 +393,31 @@
       "section": "economy",
       "kind": "news",
       "topics": [
-        "부동산",
-        "정책"
+        "부동산"
       ],
-      "latestAt": "2026-11-15T23:08:02Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 65,
+      "latestAt": "2026-11-22T21:36:03Z",
+      "checkedAt": "2026-11-22T23:35:16Z",
+      "recentCount": 70,
       "overlapCount": 0,
       "foundVia": "비즈워치 RSS 안내",
       "samples": [
         {
-          "title": "\"새 철길 끌어오자\"…너도? 나도!",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/13/0049",
-          "publishedAt": "2026-11-15T23:08:02Z"
+          "title": "문턱 낮아진 리모델링…건설업계 \"스피드 승부\"",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/20/0032",
+          "publishedAt": "2026-11-22T21:36:03Z"
         },
         {
-          "title": "LH, 도심복합 지연 진짜 원인?…\"서울시 사전기획협의\"",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/15/0002",
-          "publishedAt": "2026-11-15T09:17:02Z"
+          "title": "유주택자 주택자산 양극화, 52배 차이",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/20/0034",
+          "publishedAt": "2026-11-22T07:00:02Z"
         },
         {
-          "title": "내년 수도권 집값, 올해보단 덜 오른다",
-          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/13/0053",
-          "publishedAt": "2026-11-15T08:00:03Z"
+          "title": "외국인 바글바글한 명동, 세계서 9번째로 비싼 상권",
+          "url": "https://news.bizwatch.co.kr/article/real_estate/2026/11/20/0028",
+          "publishedAt": "2026-11-22T00:00:02Z"
         }
       ],
-      "score": 36
-    },
-    {
-      "id": "99a6f09bb9878069",
-      "name": "청년개미의 경제 이야기",
-      "siteUrl": "https://blog.naver.com/ya_nt",
-      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
-      "section": "economy",
-      "kind": "blog",
-      "topics": [
-        "주식"
-      ],
-      "latestAt": "2026-11-15T21:30:00Z",
-      "checkedAt": "2026-11-15T23:35:13Z",
-      "recentCount": 50,
-      "overlapCount": 0,
-      "foundVia": "경제 블로그 후보",
-      "samples": [
-        {
-          "title": "월급방위대 TF 직장인 생활비 지원, 지금 받을 수 있는 혜택과 2027년 달라지는 돈",
-          "url": "https://blog.naver.com/ya_nt/224478416069?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-15T21:30:00Z"
-        },
-        {
-          "title": "바로팜 주가 급락 후 매수해도 될까? 공모주 배정자와 신규 투자자의 결정적 차이",
-          "url": "https://blog.naver.com/ya_nt/224474496555?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-12T22:00:00Z"
-        },
-        {
-          "title": "희망저축계좌 2026 신청조건과 지원금, 11월 모집 중단 지역까지 확인",
-          "url": "https://blog.naver.com/ya_nt/224474496206?fromRss=true&trackingCode=rss",
-          "publishedAt": "2026-11-12T21:00:00Z"
-        }
-      ],
-      "score": 36
+      "score": 44
     }
   ],
   "archive": [
@@ -1215,6 +1245,181 @@
         }
       ],
       "score": 28
+    },
+    {
+      "id": "05bef75803824775",
+      "name": "사랑나무아빠의 행복한 세상",
+      "siteUrl": "https://blog.naver.com/hupers",
+      "feedUrl": "https://rss.blog.naver.com/hupers.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술",
+        "소프트웨어"
+      ],
+      "latestAt": "2026-11-15T15:17:59Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 22,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "서평 / 젠슨황의 소름돋는 미래예측 50가지",
+          "url": "https://blog.naver.com/hupers/224478413057?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-15T15:17:59Z"
+        },
+        {
+          "title": "로컬 AI 노트북 추천 – 맥북 에어 M5부터 맥스튜디오 M5 Ultra까지, 로컬 LLM용 기기 5종 비교 (2026)",
+          "url": "https://blog.naver.com/hupers/224475062224?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-12T17:02:26Z"
+        },
+        {
+          "title": "AI 에이전트용 검색 API 비교 순위 링크 본문 발췌 리서치 중 무엇을 고를까 (현업 개발자의 선택 기준)",
+          "url": "https://blog.naver.com/hupers/224467736906?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-06T13:49:27Z"
+        }
+      ],
+      "score": 60
+    },
+    {
+      "id": "1533e8f6e86803a4",
+      "name": "Daddy Makers",
+      "siteUrl": "https://daddynkidsmakers.blogspot.kr/",
+      "feedUrl": "https://daddynkidsmakers.blogspot.com/feeds/posts/default",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI",
+        "개발",
+        "기술"
+      ],
+      "latestAt": "2026-11-14T09:15:49Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 6,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "헤르메스 로컬 바이브 코딩 설치 최적화 방법 - 최신 오픈 모델 기반 클로드 코드와 실측 비교",
+          "url": "https://daddynkidsmakers.blogspot.com/2026/11/blog-post.html",
+          "publishedAt": "2026-11-14T09:15:49Z"
+        },
+        {
+          "title": "REA 역공학 도구 기반 DWG 캐드파일 분석, 캐드 뷰어 및 모델러 도구 Web App 개발기",
+          "url": "https://daddynkidsmakers.blogspot.com/2026/10/rea-dwg-rust-cad.html",
+          "publishedAt": "2026-10-17T16:51:25Z"
+        },
+        {
+          "title": "GPT6 Codex 기반 바이브 디자인 및 영상 제작 관련 테스트 결과",
+          "url": "https://daddynkidsmakers.blogspot.com/2026/10/gpt6-codex.html",
+          "publishedAt": "2026-10-05T06:17:07Z"
+        }
+      ],
+      "score": 37
+    },
+    {
+      "id": "1e5d7179c6b6a590",
+      "name": "홍창수",
+      "siteUrl": "https://brunch.co.kr/@gauss92tgrd",
+      "feedUrl": "https://brunch.co.kr/rss/@@5jl5",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "AI"
+      ],
+      "latestAt": "2026-10-25T04:51:02Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "클로드, S&P 500을 이겨줘 - 5만 달러 AI 자율 투자 실험이 던진 질문",
+          "url": "https://brunch.co.kr/@@5jl5/195",
+          "publishedAt": "2026-10-25T04:51:02Z"
+        },
+        {
+          "title": "악재는 반영됐다, 이제 시장은 실적을 본다 - 악재 이후, 실적의 시간",
+          "url": "https://brunch.co.kr/@@5jl5/194",
+          "publishedAt": "2026-09-22T12:10:30Z"
+        },
+        {
+          "title": "에이전틱 트레이딩 시대가 온다 - 에이전틱 트레이딩(Agentic Trading)의 현황과 미래",
+          "url": "https://brunch.co.kr/@@5jl5/193",
+          "publishedAt": "2026-09-14T11:02:00Z"
+        }
+      ],
+      "score": 37
+    },
+    {
+      "id": "3cc1c8d625bacc80",
+      "name": "Just quit your job",
+      "siteUrl": "https://www.miconblog.com/",
+      "feedUrl": "https://www.miconblog.com/feed.xml",
+      "section": "tech",
+      "kind": "blog",
+      "topics": [
+        "개발"
+      ],
+      "latestAt": "2026-10-20T03:43:17Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 10,
+      "overlapCount": 0,
+      "foundVia": "Awesome Devblog",
+      "samples": [
+        {
+          "title": "이번엔 진짜 원격 근무다!",
+          "url": "https://www.miconblog.com/blog/develop-lyle-remote",
+          "publishedAt": "2026-10-20T03:43:17Z"
+        },
+        {
+          "title": "이왕 하는거 제대로 해보자.",
+          "url": "https://www.miconblog.com/blog/이왕-하는거-제대로-해보자",
+          "publishedAt": "2026-10-16T03:51:23Z"
+        },
+        {
+          "title": "절로 마음을 비우다.",
+          "url": "https://www.miconblog.com/blog/절로-마음을-비우다",
+          "publishedAt": "2026-10-12T16:02:33Z"
+        }
+      ],
+      "score": 28
+    },
+    {
+      "id": "99a6f09bb9878069",
+      "name": "청년개미의 경제 이야기",
+      "siteUrl": "https://blog.naver.com/ya_nt",
+      "feedUrl": "https://rss.blog.naver.com/ya_nt.xml",
+      "section": "economy",
+      "kind": "blog",
+      "topics": [
+        "주식"
+      ],
+      "latestAt": "2026-11-15T21:30:00Z",
+      "checkedAt": "2026-11-15T23:35:13Z",
+      "recentCount": 50,
+      "overlapCount": 0,
+      "foundVia": "경제 블로그 후보",
+      "samples": [
+        {
+          "title": "월급방위대 TF 직장인 생활비 지원, 지금 받을 수 있는 혜택과 2027년 달라지는 돈",
+          "url": "https://blog.naver.com/ya_nt/224478416069?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-15T21:30:00Z"
+        },
+        {
+          "title": "바로팜 주가 급락 후 매수해도 될까? 공모주 배정자와 신규 투자자의 결정적 차이",
+          "url": "https://blog.naver.com/ya_nt/224474496555?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-12T22:00:00Z"
+        },
+        {
+          "title": "희망저축계좌 2026 신청조건과 지원금, 11월 모집 중단 지역까지 확인",
+          "url": "https://blog.naver.com/ya_nt/224474496206?fromRss=true&trackingCode=rss",
+          "publishedAt": "2026-11-12T21:00:00Z"
+        }
+      ],
+      "score": 36
     }
   ]
 }
